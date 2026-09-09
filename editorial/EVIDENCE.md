@@ -1,6 +1,6 @@
 # 修订新增证据与编码依据
 
-核验日期：2026-09-09。E1—E6与正文结果表一致。数字来自原论文；百分点差和费用单位换算由本文计算。没有重跑所评述系统，不将不同数据、目标信息或模型下的分数合并排名。方法表中的“未判/未核”表示本次证据不足，不能解读为否定能力或未开源。
+核验日期：2026-09-09。E1—E6与正文表4一致。数字来自原论文；百分点差和费用单位换算由本文计算。没有重跑所评述系统，不将不同数据、目标信息或模型下的分数合并排名。能力与机制的核验依据对应§3.7、§4.4和表2；正文中尚未核实的细节表示本次证据不足，不能解读为否定能力或未开源。
 
 ## 结果、基准与版本
 
@@ -33,23 +33,23 @@
 | baran | [正式DOI](https://doi.org/10.14778/3407790.3407801)、Crossref摘要；Jellyfish参考文献与REIN | 统一上下文与迁移修复，不写未核对的效果倍率。 |
 | diffprep | 上方E6来源；[作者代码](https://github.com/chu-data-lab/DiffPrep) | 可微流程/模型联合优化，验证损失选轮；公开代码不表示本文复现。 |
 
-## 能力与机制表的编码依据
+## 能力与机制的核验依据
 
-- **自动化**：A0人工下一步、A1局部任务、A2流程构造、A3反馈修订。A0—A3不形成单调性能排序。
-- **目标实例**只统计运行时可见目标表记录，训练标签、提示示例另计；Morpheus为当前输入输出，Auto-Pipeline为类比目标，其余“无”仍可能需要模式或标签。
-- **独立检查**列记录可利用的非生成性依据，不把约束参与HoloClean推断说成另设验证器；训练和评测真值与部署反馈分开。
+- **自动化**：区分人工决定下一步、完成局部任务、构造流程、依据反馈修订四种能力；不形成单调性能排序。原矩阵代号已从正文删除。
+- **目标实例**指运行时可见目标表记录，训练标签、提示示例另计；Morpheus为当前输入输出，Auto-Pipeline为类比目标，无目标实例仍可能需要模式或标签。
+- **独立检查**记录可利用的非生成性依据，不把约束参与HoloClean推断说成另设验证器；训练和评测真值与部署反馈分开。
 - **回退/重试**区分搜索候选、局部重试和物化中间状态。DeepPrep依据正式§4.1—4.2；训练奖励依据§5。停止为模式满足及answer动作，另有探索轮数与扩展长度限制。
 - **HAIPipe**依据[作者PDF](https://nantang.github.io/research/pubs/haipipe.pdf)§4—6与[作者代码](https://github.com/ruc-datalab/Haipipe)：枚举/采样人工和自动流程的组合，以下游表现选优。
-- **AutoPrep**依据上方v3正文；其结论把多表扩展列为未来方向，因此不编码为一般多表流程。
-- **Pipeline-Agent**依据v2 §6—7：当前表/历史反馈及多表任务；历史状态恢复、确切步数上限未核定，因此记未判。
+- **AutoPrep**依据上方v3正文；其结论把多表扩展列为未来方向，因此不视为一般多表流程。
+- **Pipeline-Agent**依据v2 §6—7：当前表/历史反馈及多表任务；历史状态恢复、确切步数上限未核定，正文保留核验边界。
 - **BAT**依据[正式出版摘要](https://doi.org/10.1145/3802020)和[作者实现](https://github.com/ZJU-DAILY/BAT)。未获足以逐项核对的正式算法全文，停止细节留白；不把早期MontePrep全文的实测结果归给BAT。DeepPrep表内MontePrep基线也不等同当前BAT代码。
-- **PrepBench代理**是基准评测配置，不是另一个新算法。v1 §5.1明确Clarify、Profile、Code、Translate；Profile最多2次，Code/Translate最多3次。澄清与接收初始指令分别编码。
-- **公开产物**依据论文/作者项目声明：[Auto-Tables基准](https://github.com/LiPengCS/Auto-Tables-Benchmark)、[AutoPrep](https://github.com/ruc-datalab/AutoPrep)、[DeepPrep](https://github.com/ruc-datalab/DeepPrep)、[PrepBench](https://github.com/TsinghuaDatabaseGroup/prepbench)。Jellyfish正式论文给出模型链接；“未核”不表示不开源。均未重跑或验证完整复现条件。
+- **PrepBench代理**是基准评测配置，不是另一个新算法。v1 §5.1明确Clarify、Profile、Code、Translate；Profile最多2次，Code/Translate最多3次。澄清与接收初始指令分别讨论。
+- **公开产物**依据论文/作者项目声明：[Auto-Tables基准](https://github.com/LiPengCS/Auto-Tables-Benchmark)、[AutoPrep](https://github.com/ruc-datalab/AutoPrep)、[DeepPrep](https://github.com/ruc-datalab/DeepPrep)、[PrepBench](https://github.com/TsinghuaDatabaseGroup/prepbench)。Jellyfish正式论文给出模型链接；尚未核验不表示不开源。均未重跑或验证完整复现条件。
 
 ## 图与构造实例
 
-图1任务块对应输入—操作—输出，支撑机制对应实现轴；图2目标、计划、状态、检查、反馈、出口依次对应监督、搜索空间、状态、验证、修订与停止。保留作者归纳性质。
+原任务体系图、通用执行反馈图已删除；任务边界由§2.2文字说明，流程角色及机制由§4.3、§4.4和表2说明。这些分类与关系仍属于本文归纳。
 
-图3为作者构造反例，prompt、imagegen生成和编辑记录见figures目录。运行“python scripts/reproduce_example.py”可复核250/150，以及退款10变15后的245/145。脚本不统计真实错误频率或重现论文系统。开放问题的E/S/H分别为实测、归纳和待验证假设。
+当前图1（原图3）为作者构造反例，[prompt与生成记录](../figures/GENERATION.md)随仓库保存。运行“python scripts/reproduce_example.py”可复核250/150，以及退款10变15后的245/145。脚本不统计真实错误频率或重现论文系统。开放问题的E/S/H分别为实测、归纳和待验证假设。
 
-补充公开代码核验：[HoloClean](https://github.com/HoloClean/holoclean)、[Raha](https://github.com/BigDaMa/raha)、[Ditto](https://github.com/megagonlabs/ditto)的作者仓库可访问；矩阵据此改为“代码”，仍未重跑实验。DeepPrep §6.3关于仅通过列重命名满足表面模式的行为作为失败类型证据，不另估计频率。
+补充公开代码核验：[HoloClean](https://github.com/HoloClean/holoclean)、[Raha](https://github.com/BigDaMa/raha)、[Ditto](https://github.com/megagonlabs/ditto)的作者仓库可访问；正文据此说明代码公开，仍未重跑实验。DeepPrep §6.3关于仅通过列重命名满足表面模式的行为作为失败类型证据，不另估计频率。

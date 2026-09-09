@@ -1,5 +1,0 @@
-# 图1第二版：恢复组合关系短标题
-
-输入编辑目标：figures/fig01_taxonomy_v2.png，第二轮内置 imagegen 产物。
-
-Use case: precise-object-edit. Make exactly ONE local edit to this academic Chinese figure: restore the centered workspace heading “六类任务 · 按需组合” in the top-center blank space, integrated into the upper blue bracket by interrupting that bracket behind the text. Use the same professional navy bold Chinese sans-serif style as the six task names. This heading labels the shared workspace, not the entire figure. Preserve absolutely everything else: all tables, all numbers, all labels, all secondary notes, all icons, all arrows, white background, layout, size and color. In particular retain the visible footnote “* 估计值”, retain only two rows in the target table, preserve the wide/long table values x/1/2 and the source/target rows 张三/100 and 李四/200. Do not add anything else or remove anything. All six task headings and all four support mechanisms must remain unchanged. Highest native resolution, PNG output. No watermark.

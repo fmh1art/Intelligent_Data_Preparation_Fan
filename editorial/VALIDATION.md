@@ -1,19 +1,17 @@
 # 交付检查
 
-检查日期：2026-09-09。本记录对应两份审稿意见的大修版本。
+检查日期：2026-09-09。本记录对应最新图表精简版本：18页、48项参考文献、1图4表。
 
-- `latexmk -xelatex -interaction=nonstopmode -halt-on-error -outdir=build main.tex`：通过，XeLaTeX与Biber完成引用解析，删除非必要概括公式后生成20页A4 PDF。
-- `python scripts/check_manuscript.py`：通过；48个引用键全部使用，无未定义或重复引用、DOI及标签；3幅图和9张表的引用完整，配图文件与prompt均存在。
-- `python scripts/check_review_evidence.py`：通过；从固定查询原始返回复核120条记录、117项独立工作、34项复筛、10项检索纳入及4项额外补充；检查48项文献的覆盖映射、引用键与结果差值、费用换算。
-- `python scripts/reproduce_example.py`：通过；SQLite执行直接连接及先聚合再连接，分别得到250与150；退款10变为15后分别为245与145，并验证订单键唯一性与独立总额恒等式。该脚本验证作者构造实例，不代表重跑被综述系统。
-- 出版源检查：`main.tex`、`manuscript.tex`、`references.bib`不包含具身智能、机器人或Open X-Embodiment内容。
-- 编译日志：无未定义引用、缺失字符或overfull/underfull排版警告；无要求重新运行Biber的提示。旧版TeX Live的fontspec对Fandol字体给出2项CJK Script元数据提示；实际中文字符完整呈现，未出现方框或缺字。
-- PDF检查：20页均含有效文字，未发现超出页面边界的文字块；图1位于第5页、图2位于第11页、图3位于第12页。输出文件与本次编译文件逐字节一致。
-- 视觉检查：标题与摘要、分类及能力比较、机制表、基准与结果表、参考文献已有渲染检查；三图重绘后重新核查第5、11、12页。任务标签、数值、图注和主链方向可辨，无裁切或图文重叠。图1侧栏的辅助字段在论文缩放后较小，独立PNG保留供放大查看。
-- 新图流程：三名专门绘图agent先保存第二版详细prompt，再调用内置imagegen；图1为1次生成及2次编辑，图2为1次生成及1次编辑，图3为1次生成。主agent另行逐图核查源表与目标表、估计值标记、示例金额、线型与回退端点，正式文件直接复制工具输出，没有代码绘图、叠字或插值放大。
-- PNG与链接：三张正式文件均为RGB、1536×1024 PNG，文件可解码；请求的更高原生分辨率未被工具采用。PNG预览页、各轮prompt、生成和核查记录的本地链接均可解析；没有重复候选图片作为正文依赖。
-- `git diff --check`：通过。
-- 公式处理：原式（1）、专用符号和公式引用均已删除；§2.1改用文字说明输入、任务、约束与评价口径，§4.1衔接已修改，无残留引用。第3页定义开头已渲染检查。前轮原示例及729种订单/退款组合核查、表8十进制算术核查结论继续适用；Auto-Tables的Hit@k澄清保留。历史核查和删除理由见[FORMULA_AUDIT.md](FORMULA_AUDIT.md)。
-- 交付文件：[独立PNG及预览](../figures/README.md)、[同步更新的PDF](../output/survey.pdf)。图片约235 ppi（166 mm宽）；未指定投稿期刊，当前使用通用学术排版。
+- 编译：`latexmk -xelatex -interaction=nonstopmode -halt-on-error -outdir=build main.tex`通过；XeLaTeX与Biber完成引用解析。
+- 正文检查：`python scripts/check_manuscript.py`通过，48个文献键全部使用，无重复DOI、缺失引用或标签错误；1幅图、4张表的引用完整，图片与prompt存在。
+- 检索与证据：`python scripts/check_review_evidence.py`通过；复核固定查询120条记录、117项独立工作、34项复筛、10项查询纳入和4项补充，检查48项文献覆盖映射及结果差值、费用换算。
+- 算术实例：`python scripts/reproduce_example.py`通过。SQLite直接连接与先聚合再连接分别得到250和150；退款10改为15后分别为245和145，订单键唯一性与独立总额恒等式成立。此检查仅针对作者构造实例。
+- 主题与公式：出版源文件不包含具身智能、机器人或Open X-Embodiment内容。原概括性目标公式及引用已删除；退款算术与Hit@k实现口径继续保留。历史核查记录中的编号更新为当前图1、表4。
+- 图表精简：删除两幅概念图；筛选、任务定义、组件比较及评测要求改为正文，能力矩阵与流程机制合并。四张保留表格以短语及数字呈现，实验条件、数据来源、停止条件和局限移入正文。详见[删改映射](SIMPLIFICATION.md)。
+- 编译日志：无未定义引用、缺失字符、overfull/underfull或重跑Biber提示；现有TeX Live的fontspec仍给出FandolSong与FandolFang的2项CJK Script元数据提示，已查看渲染页，未见缺字或方框。
+- PDF检查：18页均含有效文字，未发现越出页面边界的文字块；图1在第10页，表1—4依次位于第3、9、12、13页。标题摘要、四张表、实例图和参考文献末页已渲染检查，未见裁切或图文重叠。
+- 图片检查：仅保留1张RGB、1536×1024 PNG，可解码；它与上一轮原图3字节一致，SHA-256为`f8aaa212554658bbc7659e68e0168df19e32d315ecf8cb91b1b07777e74678d6`。本轮只重命名，未生成新图或修改像素。
+- 文档与链接：同步更新README、PNG预览、生成与核查记录、审稿回复和公式审计中的编号；本地Markdown链接检查通过。删除图像及旧prompt在Git历史可查。
+- 交付：`output/survey.pdf`与本次`build/main.pdf`逐字节一致；`git diff --check`及暂存区空白检查通过。
 
-以上检查针对稿件、引用、筛选台账、算术实例与排版，没有重新运行原论文模型或实验。论文访问、版本及能力核验边界见[SOURCES.md](SOURCES.md)与[EVIDENCE.md](EVIDENCE.md)。
+当前只有[1张配图](../figures/README.md)需要手工重绘。[新版PDF](../output/survey.pdf)与源文件一并提交。本轮检查不等同于重新运行原论文模型或实验；论文版本及能力核验边界见[SOURCES.md](SOURCES.md)与[EVIDENCE.md](EVIDENCE.md)。

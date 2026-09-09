@@ -1,14 +1,14 @@
-# 图3 v2：生成与质量复核
+# 图1：生成历史与质量复核（原图3第二版）
 
 - 日期：2026-09-09。
 - 执行者：专门学术绘图 agent。
-- 内容依据：`manuscript.tex` 第4.5节“多表实例：粒度错误的传播与可定位修订”，以及 `figures/prompts/redesign_style.md`。
-- 生成前阅读旧图 `figures/fig03_error_propagation.png`，仅核对内容，不作为图像生成参考输入。
+- 内容依据：`manuscript.tex` 第4.5节“多表实例：粒度错误的传播与可定位修订”，以及当时的共同视觉规格；[历史规格](https://github.com/fmh1art/Intelligent_Data_Preparation_Fan/blob/39971428f52cfe4d729c3f3021fad53a9833d44b/figures/prompts/redesign_style.md)保存在Git历史中。
+- 生成前阅读当时的旧图3，仅核对内容，不作为图像生成参考输入。
 - 实际工具：内置 `image_gen.imagegen`。本轮从详细文字规格完整生成新构图，未使用 CLI/API 回退、代码绘制、代码加字或像素编辑。
-- 完整实际 prompt 已先于生成保存：[fig03_error_propagation_v2.md](../prompts/fig03_error_propagation_v2.md)。
+- 完整实际 prompt 已先于生成保存：[fig01_error_propagation.md](../prompts/fig01_error_propagation.md)。
 - 生成轮次：1次全新生成，0次编辑。
 - 原始输出：`/home/fanmeihao/.codex/generated_images/01a0847d-831d-7f12-a0fd-699f1b428217/exec-9a7be220-2359-4a9a-8f5d-40423458122d.png`。
-- 仓库候选：[fig03_error_propagation.png](../fig03_error_propagation.png)。原始生成输出与旧版图均保留。
+- 当前正式文件：[fig01_error_propagation.png](../fig01_error_propagation.png)。原始输出保留在本机生成目录，旧版图可从Git历史查看。
 - 文件实测：PNG、RGB、1536 × 1024像素。Prompt请求3072 × 2048，但实际工具未返回该尺寸；未插值放大，不声称达到所请求分辨率或已满足印刷规范。
 - SHA-256：`f8aaa212554658bbc7659e68e0168df19e32d315ecf8cb91b1b07777e74678d6`。
 
@@ -45,6 +45,8 @@
 - 仍为1536 × 1024栅格图；不具备单独可编辑的表格、箭头和文字对象。主要表格与标签在此尺寸可读，不能据此声称更高原生分辨率。
 - 右侧分组算子到聚合表的向右箭头用于展示该算子的中间输出；同一算子向下进入连接，表示聚合输出继续参与连接。聚合表没有另画返回箭头，以免增加交叉。
 - 顶部任务标题较规格中的“小标题”更突出，顶部留白略少于3%目标，但文字未裁切；其余内容保留明显外缘空白。
-- 本轮未修改正文、README或总生成记录，未覆盖旧正式图、未提交Git。主agent需结合其余两张图统一检查最终排版与采用文件。
+- 此条记录形成时，绘图agent仅交付候选与核查说明；正文集成、最终排版及提交由主agent随后完成。
 
 主agent集成：候选已按字节原样复制为上述正式PNG，重复候选副本移除；旧版可从重绘前Git提交查看。主agent已独立核对最终完整图、关键数据与图文对应。
+
+本轮精简：沿用此图原始像素，仅将原图3重编号为图1并更改文件名，没有重新生成图片。其余两张概念图已从当前稿件及图片目录移除。
