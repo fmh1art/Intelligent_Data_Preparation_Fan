@@ -6,7 +6,7 @@
 
 | 编号/工作 | 原始来源及定位 | 核读字段与处理决定 |
 |---|---|---|
-| E1 / ATBench | [Auto-Tables正式PDF](https://www.vldb.org/pvldb/vol16/p3391-he.pdf)，§5.1、表2—3，3400—3401页 | 244案例，26例多步；Hit@1=0.570、Hit@3=0.75；平均合成0.224秒。机器24 vCPU、4 P100。Hit@3保留候选选择环节，不写成75%全自动成功。其他方法时延排除了部分超时，不直接算加速倍数。 |
+| E1 / ATBench | [Auto-Tables正式PDF](https://www.vldb.org/pvldb/vol16/p3391-he.pdf)，§5.1、表2—3，3400—3401页；[作者评测代码](https://github.com/LiPengCS/Auto-Tables-Benchmark/blob/main/evaluate.py) | 244案例，26例多步；Hit@1=0.570、Hit@3=0.75；平均合成0.224秒。机器24 vCPU、4 P100。原文指示量求和记法与代码有差异，代码在首次命中标注算子/参数序列或替代真值后记1并停止；本文按实现解释，不视为任意等价程序的输出匹配。Hit@3保留候选选择环节，不写成75%全自动成功。其他方法时延排除了部分超时，不直接算加速倍数。 |
 | E2 / AutoPrep | [作者v3正文](https://arxiv.org/html/2412.10422v3)，§6.1—6.2、表2；正式书目PVLDB18(10):3504—3517 | DeepSeek-V2.5-Chat，NL2SQL→加入AutoPrep：WikiTQ 52.83→66.09，TabFact 70.21→87.85；差13.26/17.64百分点。测量答案质量。上下文8192、温度0.01；该对照表未逐项给费用，不填0。 |
 | E3 / DeepPrep | [正式PDF](https://www.vldb.org/pvldb/vol19/p3371-fan.pdf)，§6.1、表1、表2a及表3，3378—3380页 | Qwen3-14B、Synth-Spider：IL准确率61.70/完成率85.26%，DeepPrep67.18/97.21%。均仅用Synth-Spider训练；不能单独归因回退。Qwen3-8B表3：65.99→移除PAT后22.21。未估读费用曲线。 |
 | E4—E5 / PrepBench | [作者arXiv v1全文](https://arxiv.org/html/2605.08687v1)，§3、§5.1—5.2、表6 | 306任务、829输入表、32领域、3—18步。费用单位**USD×10^-3/任务**，含相应路径中的调用和重试。GPT-5.1-Codex端到端代码54.9/115.40、工作流34.6/264.10；给无歧义说明85.3/82.74。Gemini 3 Flash端到端代码53.3/21.40。明确数字据v1；书目采用PVLDB正式元数据，不声称正式PDF已逐表校对。 |
