@@ -1,0 +1,1249 @@
+{
+  "id": "Q10",
+  "source": "Crossref works relevance search",
+  "query": {
+    "query.title": "semantic type detection",
+    "rows": 15,
+    "filter": "from-pub-date:2009-01-01,until-pub-date:2026-09-09",
+    "select": "DOI,title,author,published,container-title,abstract,type,URL"
+  },
+  "endpoint": "https://api.crossref.org/works?query.title=semantic+type+detection&rows=15&filter=from-pub-date%3A2009-01-01%2Cuntil-pub-date%3A2026-09-09&select=DOI%2Ctitle%2Cauthor%2Cpublished%2Ccontainer-title%2Cabstract%2Ctype%2CURL",
+  "retrieved": "2026-09-09",
+  "response": {
+    "status": "ok",
+    "message-type": "work-list",
+    "message-version": "1.0.0",
+    "message": {
+      "facets": {},
+      "total-results": 2108819,
+      "items": [
+        {
+          "DOI": "10.1109/icwite59797.2024.10503084",
+          "title": [
+            "Semantic Type Detection or Unlabelled Dataset"
+          ],
+          "author": [
+            {
+              "given": "Akanksha A",
+              "family": "Pai",
+              "sequence": "first",
+              "affiliation": [
+                {
+                  "name": "RVCE,Dept. of CSE,Bangalore,India"
+                }
+              ],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Manoj",
+              "family": "M",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "RVCE,Dept. of CSE,Bangalore,India"
+                }
+              ],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Deeptha",
+              "family": "Giridhar",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "RVCE,Dept. of CSE,Bangalore,India"
+                }
+              ],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Sharon",
+              "family": "Thomas",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "RVCE,Dept. of CSE,Bangalore,India"
+                }
+              ],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Jyoti",
+              "family": "Shetty",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "RVCE,Dept. of CSE,Bangalore,India"
+                }
+              ],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Shobha",
+              "family": "G",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "RVCE,Dept. of CSE,Bangalore,India"
+                }
+              ],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2024,
+                2,
+                16
+              ]
+            ]
+          },
+          "container-title": [
+            "2024 IEEE International Conference for Women in Innovation, Technology &amp;amp; Entrepreneurship (ICWITE)"
+          ],
+          "type": "proceedings-article",
+          "URL": "https://doi.org/10.1109/icwite59797.2024.10503084"
+        },
+        {
+          "DOI": "10.1609/aaai.v36i11.21735",
+          "title": [
+            "Semantic Feature Discovery with Code Mining and Semantic Type Detection"
+          ],
+          "author": [
+            {
+              "given": "Kavitha",
+              "family": "Srinivas",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Takaaki",
+              "family": "Tateishi",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Daniel Karl I.",
+              "family": "Weidele",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Udayan",
+              "family": "Khurana",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Horst",
+              "family": "Samulowitz",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Toshihiro",
+              "family": "Takahashi",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Dakuo",
+              "family": "Wang",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Lisa",
+              "family": "Amini",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2022,
+                6,
+                28
+              ]
+            ]
+          },
+          "container-title": [
+            "Proceedings of the AAAI Conference on Artificial Intelligence"
+          ],
+          "abstract": "<jats:p>In recent years, the automation of machine learning and data science (AutoML) has attracted significant attention. One under-explored dimension of AutoML is being able to automatically utilize domain knowledge (such as semantic concepts and relationships) located in historical code or literature from the problem's domain. In this paper, we demonstrate Semantic Feature Discovery, which enables users to interactively explore features semantically discovered from existing data science code and external knowledge. It does so by detecting semantic concepts for a given dataset, and then using these concepts to determine relevant feature engineering operations from historical code and knowledge.</jats:p>",
+          "type": "journal-article",
+          "URL": "https://doi.org/10.1609/aaai.v36i11.21735"
+        },
+        {
+          "DOI": "10.1007/978-3-319-11964-9_24",
+          "title": [
+            "Noisy Type Assertion Detection in Semantic Datasets"
+          ],
+          "author": [
+            {
+              "given": "Man",
+              "family": "Zhu",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Zhiqiang",
+              "family": "Gao",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Zhibin",
+              "family": "Quan",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2014
+              ]
+            ]
+          },
+          "container-title": [
+            "Lecture Notes in Computer Science",
+            "The Semantic Web – ISWC 2014"
+          ],
+          "type": "book-chapter",
+          "URL": "https://doi.org/10.1007/978-3-319-11964-9_24"
+        },
+        {
+          "DOI": "10.1109/iwsc55060.2022.00013",
+          "title": [
+            "Towards Overcoming Type Limitations in Semantic Clone Detection"
+          ],
+          "author": [
+            {
+              "given": "Francesco",
+              "family": "Leone",
+              "sequence": "first",
+              "affiliation": [
+                {
+                  "name": "Keio University,Graduate School of Science and Technology,Yokohama,Japan"
+                }
+              ],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Shingo",
+              "family": "Takada",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "Keio University,Graduate School of Science and Technology,Yokohama,Japan"
+                }
+              ],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2022,
+                10
+              ]
+            ]
+          },
+          "container-title": [
+            "2022 IEEE 16th International Workshop on Software Clones (IWSC)"
+          ],
+          "type": "proceedings-article",
+          "URL": "https://doi.org/10.1109/iwsc55060.2022.00013"
+        },
+        {
+          "DOI": "10.1145/3589786",
+          "title": [
+            "Steered Training Data Generation for Learned Semantic Type Detection"
+          ],
+          "author": [
+            {
+              "ORCID": "https://orcid.org/0009-0002-2809-5331",
+              "authenticated-orcid": false,
+              "given": "Sven",
+              "family": "Langenecker",
+              "sequence": "first",
+              "affiliation": [
+                {
+                  "name": "LÄPPLE AG; DHBW Mosbach; &amp; Technical University of Darmstadt, Heilbronn, Germany"
+                }
+              ],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "ORCID": "https://orcid.org/0009-0008-5706-3041",
+              "authenticated-orcid": false,
+              "given": "Christoph",
+              "family": "Sturm",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "DHBW Mosbach, Mosbach, Germany"
+                }
+              ],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "ORCID": "https://orcid.org/0009-0005-7036-3012",
+              "authenticated-orcid": false,
+              "given": "Christian Schalles",
+              "family": "Schalles",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "DHBW Mosbach, Mosbach, Germany"
+                }
+              ],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "ORCID": "https://orcid.org/0000-0002-2744-7836",
+              "authenticated-orcid": false,
+              "given": "Carsten",
+              "family": "Binnig",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "Technical University of Darmstadt &amp; DFKI, Darmstadt, Germany"
+                }
+              ],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2023,
+                6,
+                13
+              ]
+            ]
+          },
+          "container-title": [
+            "Proceedings of the ACM on Management of Data"
+          ],
+          "abstract": "<jats:p>In this paper, we introduce STEER to adapt learned semantic type extraction approaches to a new, unseen data lake. STEER provides a data programming framework for semantic labeling which is used to generate new labeled training data with minimal overhead. At its core, STEER comes with a novel training data generation procedure called Steered-Labeling that can generate high quality training data not only for non-numeric but also for numerical columns. With this generated training data STEER is able to fine-tune existing learned semantic type extraction models. We evaluate our approach on four different data lakes and show that we can significantly improve the performance of two different types of learned models across all data lakes.</jats:p>",
+          "type": "journal-article",
+          "URL": "https://doi.org/10.1145/3589786"
+        },
+        {
+          "DOI": "10.1109/bdcat63179.2024.00030",
+          "title": [
+            "Attribute-Based Semantic Type Detection and Data Quality Assessment"
+          ],
+          "author": [
+            {
+              "given": "Marcelo Valentim",
+              "family": "Silva",
+              "sequence": "first",
+              "affiliation": [
+                {
+                  "name": "Curtin University,Perth,WA,Australia"
+                }
+              ],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Hannes",
+              "family": "Herrmann",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "Curtin University,Perth,WA,Australia"
+                }
+              ],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Valerie",
+              "family": "Maxville",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "Curtin University,Perth,WA,Australia"
+                }
+              ],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2024,
+                12,
+                16
+              ]
+            ]
+          },
+          "container-title": [
+            "2024 IEEE/ACM International Conference on Big Data Computing, Applications and Technologies (BDCAT)"
+          ],
+          "type": "proceedings-article",
+          "URL": "https://doi.org/10.1109/bdcat63179.2024.00030"
+        },
+        {
+          "DOI": "10.1145/3774904.3792369",
+          "title": [
+            "Cross-Type Semantic Alignment for Multi-Type Anomaly Detection in Heterogeneous Graphs"
+          ],
+          "author": [
+            {
+              "ORCID": "https://orcid.org/0000-0002-7445-9936",
+              "authenticated-orcid": false,
+              "given": "Di",
+              "family": "Jin",
+              "sequence": "first",
+              "affiliation": [
+                {
+                  "name": "School of Computer Science and Technology, Tianjin University, Tianjin, China and Key Laboratory of Artificial Intelligence Application Technology, Qinghai Minzu University, Xining, China"
+                }
+              ],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "ORCID": "https://orcid.org/0009-0009-8565-9093",
+              "authenticated-orcid": false,
+              "given": "Xiao",
+              "family": "Huang",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "Tianjin Key Laboratory of Cognitive Computing and Application,  School of Computer Science and Technology, Tianjin University, Tianjin, China"
+                }
+              ],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "ORCID": "https://orcid.org/0000-0001-5086-4964",
+              "authenticated-orcid": false,
+              "given": "Xiaobao",
+              "family": "Wang",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "Tianjin Key Laboratory of Cognitive Computing and Application,  School of Artificial Intelligence, Tianjin University, Tianjin, China"
+                }
+              ],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "ORCID": "https://orcid.org/0009-0003-2848-5994",
+              "authenticated-orcid": false,
+              "given": "Fengyu",
+              "family": "Yan",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "School of Computer Science and Technology, Tianjin University, Tianjin, China"
+                }
+              ],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "ORCID": "https://orcid.org/0000-0003-4131-7824",
+              "authenticated-orcid": false,
+              "given": "Luzhi",
+              "family": "Wang",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "College of Artificial Intelligence, Dalian Maritime University, Dalian, China"
+                }
+              ],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "ORCID": "https://orcid.org/0009-0001-6614-1055",
+              "authenticated-orcid": false,
+              "given": "Hongxiang",
+              "family": "Liang",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "School of Artificial Intelligence, Tianjin University, Tianjin, China"
+                }
+              ],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2026,
+                4,
+                12
+              ]
+            ]
+          },
+          "container-title": [
+            "Proceedings of the ACM Web Conference 2026"
+          ],
+          "type": "proceedings-article",
+          "URL": "https://doi.org/10.1145/3774904.3792369"
+        },
+        {
+          "DOI": "10.1007/s13222-023-00457-y",
+          "title": [
+            "SportsTables: A New Corpus for Semantic Type Detection (Extended Version)"
+          ],
+          "author": [
+            {
+              "ORCID": "https://orcid.org/0009-0002-2809-5331",
+              "authenticated-orcid": false,
+              "given": "Sven",
+              "family": "Langenecker",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Christoph",
+              "family": "Sturm",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Christian",
+              "family": "Schalles",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Carsten",
+              "family": "Binnig",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2023,
+                10,
+                16
+              ]
+            ]
+          },
+          "container-title": [
+            "Datenbank-Spektrum"
+          ],
+          "abstract": "<jats:title>Abstract</jats:title><jats:p>Table corpora such as VizNet or TURL which contain annotated semantic types per column are important to build machine learning models for the task of automatic semantic type detection. However, there is a huge discrepancy between corpora and real-world data lakes since they contain a huge fraction of numerical data which are not present in existing corpora. Hence, in this paper, we introduce a new corpus that contains a much higher proportion of numerical columns than existing corpora. To reflect the distribution in real-world data lakes, our corpus SportsTables has on average approx. 86% numerical columns, posing new challenges to existing semantic type detection models which have mainly targeted non-numerical columns so far. To demonstrate this effect, we show in this extended version paper of [18] the results of an extensive study using four different state-of-the-art approaches for semantic type detection on our new corpus. Overall, the results demonstrate significant performance differences in predicting semantic types for textual and numerical data.</jats:p>",
+          "type": "journal-article",
+          "URL": "https://doi.org/10.1007/s13222-023-00457-y"
+        },
+        {
+          "DOI": "10.1007/978-981-97-2266-2_10",
+          "title": [
+            "Graph Neural Network Approach to Semantic Type Detection in Tables"
+          ],
+          "author": [
+            {
+              "given": "Ehsan",
+              "family": "Hoseinzade",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Ke",
+              "family": "Wang",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2024
+              ]
+            ]
+          },
+          "container-title": [
+            "Lecture Notes in Computer Science",
+            "Advances in Knowledge Discovery and Data Mining"
+          ],
+          "type": "book-chapter",
+          "URL": "https://doi.org/10.1007/978-981-97-2266-2_10"
+        },
+        {
+          "DOI": "10.1007/978-3-031-08129-3_8",
+          "title": [
+            "SEED: Semantic Graph Based Deep Detection for Type-4 Clone"
+          ],
+          "author": [
+            {
+              "given": "Zhipeng",
+              "family": "Xue",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Zhijie",
+              "family": "Jiang",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Chenlin",
+              "family": "Huang",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Rulin",
+              "family": "Xu",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Xiangbing",
+              "family": "Huang",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Liumin",
+              "family": "Hu",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2022
+              ]
+            ]
+          },
+          "container-title": [
+            "Lecture Notes in Computer Science",
+            "Reuse and Software Quality"
+          ],
+          "type": "book-chapter",
+          "URL": "https://doi.org/10.1007/978-3-031-08129-3_8"
+        },
+        {
+          "DOI": "10.1109/skg.2009.75",
+          "title": [
+            "Semantic Shift Detection in Semantic Web"
+          ],
+          "author": [
+            {
+              "given": "Ke",
+              "family": "Ren",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Zhixing",
+              "family": "Huang",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Anping",
+              "family": "Zhao",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Yuhui",
+              "family": "Qiu",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2009
+              ]
+            ]
+          },
+          "container-title": [
+            "2009 Fifth International Conference on Semantics, Knowledge and Grid"
+          ],
+          "type": "proceedings-article",
+          "URL": "https://doi.org/10.1109/skg.2009.75"
+        },
+        {
+          "DOI": "10.1109/icarcv.2018.8581264",
+          "title": [
+            "Semantic Change Detection"
+          ],
+          "author": [
+            {
+              "given": "Tomoyuki",
+              "family": "Suzuki",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Munetaka",
+              "family": "Minoguchi",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Ryota",
+              "family": "Suzuki",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Akio",
+              "family": "Nakamura",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Kenji",
+              "family": "Iwata",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Yutaka",
+              "family": "Satoh",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Hirokatsu",
+              "family": "Kataoka",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2018,
+                11
+              ]
+            ]
+          },
+          "container-title": [
+            "2018 15th International Conference on Control, Automation, Robotics and Vision (ICARCV)"
+          ],
+          "type": "proceedings-article",
+          "URL": "https://doi.org/10.1109/icarcv.2018.8581264"
+        },
+        {
+          "DOI": "10.1109/asiancon51346.2021.9544660",
+          "title": [
+            "Code Semantic Detection"
+          ],
+          "author": [
+            {
+              "given": "Bhavna",
+              "family": "Arora",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Skanda",
+              "family": "VC",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "G R",
+              "family": "Dheemanth",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Mehul",
+              "family": "Thakral",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "NS",
+              "family": "Kumar",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2021,
+                8,
+                27
+              ]
+            ]
+          },
+          "container-title": [
+            "2021 Asian Conference on Innovation in Technology (ASIANCON)"
+          ],
+          "type": "proceedings-article",
+          "URL": "https://doi.org/10.1109/asiancon51346.2021.9544660"
+        },
+        {
+          "DOI": "10.18653/v1/n18-2036",
+          "title": [
+            "Semantic Pleonasm Detection"
+          ],
+          "author": [
+            {
+              "given": "Omid",
+              "family": "Kashefi",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Andrew T.",
+              "family": "Lucas",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Rebecca",
+              "family": "Hwa",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2018
+              ]
+            ]
+          },
+          "container-title": [
+            "Proceedings of the 2018 Conference of the North American Chapter of\n          the Association for Computational Linguistics: Human Language\n          Technologies, Volume 2 (Short Papers)"
+          ],
+          "type": "proceedings-article",
+          "URL": "https://doi.org/10.18653/v1/n18-2036"
+        },
+        {
+          "DOI": "10.1007/978-3-642-32790-2_43",
+          "title": [
+            "Detection of Semantic Compositionality Using Semantic Spaces"
+          ],
+          "author": [
+            {
+              "given": "Lubomír",
+              "family": "Krčmář",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Karel",
+              "family": "Ježek",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Massimo",
+              "family": "Poesio",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2012
+              ]
+            ]
+          },
+          "container-title": [
+            "Lecture Notes in Computer Science",
+            "Text, Speech and Dialogue"
+          ],
+          "type": "book-chapter",
+          "URL": "https://doi.org/10.1007/978-3-642-32790-2_43"
+        }
+      ],
+      "items-per-page": 15,
+      "query": {
+        "start-index": 0,
+        "search-terms": null
+      }
+    }
+  }
+}

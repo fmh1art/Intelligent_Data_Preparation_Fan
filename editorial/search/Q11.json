@@ -1,0 +1,457 @@
+{
+  "id": "Q11",
+  "source": "Crossref works relevance search",
+  "query": {
+    "query.title": "data cleaning",
+    "rows": 15,
+    "filter": "from-pub-date:2009-01-01,until-pub-date:2026-09-09",
+    "select": "DOI,title,author,published,container-title,abstract,type,URL"
+  },
+  "endpoint": "https://api.crossref.org/works?query.title=data+cleaning&rows=15&filter=from-pub-date%3A2009-01-01%2Cuntil-pub-date%3A2026-09-09&select=DOI%2Ctitle%2Cauthor%2Cpublished%2Ccontainer-title%2Cabstract%2Ctype%2CURL",
+  "retrieved": "2026-09-09",
+  "response": {
+    "status": "ok",
+    "message-type": "work-list",
+    "message-version": "1.0.0",
+    "message": {
+      "facets": {},
+      "total-results": 1695543,
+      "items": [
+        {
+          "DOI": "10.1016/b978-0-323-95502-7.00358-4",
+          "title": [
+            "Data Cleaning"
+          ],
+          "author": [
+            {
+              "given": "Barbara",
+              "family": "Calabrese",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2019
+              ]
+            ]
+          },
+          "container-title": [
+            "Encyclopedia of Bioinformatics and Computational Biology"
+          ],
+          "type": "book-chapter",
+          "URL": "https://doi.org/10.1016/b978-0-323-95502-7.00358-4"
+        },
+        {
+          "DOI": "10.4135/9781526421036842861",
+          "title": [
+            "Data Cleaning"
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2020
+              ]
+            ]
+          },
+          "container-title": [
+            "SAGE Research Methods Foundations"
+          ],
+          "type": "reference-entry",
+          "URL": "https://doi.org/10.4135/9781526421036842861"
+        },
+        {
+          "DOI": "10.1016/b978-0-443-15845-2.00008-6",
+          "title": [
+            "Data cleaning"
+          ],
+          "author": [
+            {
+              "given": "Robert",
+              "family": "Nisbet",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Keith",
+              "family": "McCormick",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Gary",
+              "family": "Miner",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2025
+              ]
+            ]
+          },
+          "container-title": [
+            "Handbook of Statistical Analysis"
+          ],
+          "type": "book-chapter",
+          "URL": "https://doi.org/10.1016/b978-0-443-15845-2.00008-6"
+        },
+        {
+          "DOI": "10.4135/9781483391700.n13",
+          "title": [
+            "Data Cleaning"
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2016
+              ]
+            ]
+          },
+          "container-title": [
+            "The Practice of Survey Research: Theory and Applications"
+          ],
+          "type": "book-chapter",
+          "URL": "https://doi.org/10.4135/9781483391700.n13"
+        },
+        {
+          "DOI": "10.1002/9781118897126.ch1",
+          "title": [
+            "Data Cleaning"
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2018,
+                2,
+                23
+              ]
+            ]
+          },
+          "container-title": [
+            "Statistical Data Cleaning with Applications in R"
+          ],
+          "type": "other",
+          "URL": "https://doi.org/10.1002/9781118897126.ch1"
+        },
+        {
+          "DOI": "10.1007/978-94-007-5989-3_20",
+          "title": [
+            "Data Cleaning"
+          ],
+          "author": [
+            {
+              "given": "Jan",
+              "family": "Van den Broeck",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Lars Thore",
+              "family": "Fadnes",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2013
+              ]
+            ]
+          },
+          "container-title": [
+            "Epidemiology: Principles and Practical Guidelines"
+          ],
+          "type": "book-chapter",
+          "URL": "https://doi.org/10.1007/978-94-007-5989-3_20"
+        },
+        {
+          "DOI": "10.1007/978-1-4614-8265-9_592",
+          "title": [
+            "Data Cleaning"
+          ],
+          "author": [
+            {
+              "given": "Venkatesh",
+              "family": "Ganti",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2018
+              ]
+            ]
+          },
+          "container-title": [
+            "Encyclopedia of Database Systems"
+          ],
+          "type": "book-chapter",
+          "URL": "https://doi.org/10.1007/978-1-4614-8265-9_592"
+        },
+        {
+          "DOI": "10.1201/9780429262180-ch10",
+          "title": [
+            "Data cleaning"
+          ],
+          "author": [
+            {
+              "given": "Nathan",
+              "family": "Whitmore",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2020,
+                12,
+                21
+              ]
+            ]
+          },
+          "container-title": [
+            "R for Conservation and Development Projects"
+          ],
+          "type": "book-chapter",
+          "URL": "https://doi.org/10.1201/9780429262180-ch10"
+        },
+        {
+          "DOI": "10.1017/9781316338599.005",
+          "title": [
+            "Cleaning Data"
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2017,
+                9,
+                21
+              ]
+            ]
+          },
+          "container-title": [
+            "Introduction to Data Science for Social and Policy Research"
+          ],
+          "type": "book-chapter",
+          "URL": "https://doi.org/10.1017/9781316338599.005"
+        },
+        {
+          "DOI": "10.4135/9781412961288.n100",
+          "title": [
+            "Data Cleaning"
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2010
+              ]
+            ]
+          },
+          "container-title": [
+            "Encyclopedia of Research Design"
+          ],
+          "type": "reference-entry",
+          "URL": "https://doi.org/10.4135/9781412961288.n100"
+        },
+        {
+          "DOI": "10.4135/9781071812082.n145",
+          "title": [
+            "Data Cleaning"
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2022
+              ]
+            ]
+          },
+          "container-title": [
+            "The SAGE Encyclopedia of Research Design"
+          ],
+          "type": "reference-entry",
+          "URL": "https://doi.org/10.4135/9781071812082.n145"
+        },
+        {
+          "DOI": "10.1007/978-3-319-32010-6_300051",
+          "title": [
+            "Data Cleaning"
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2022
+              ]
+            ]
+          },
+          "container-title": [
+            "Encyclopedia of Big Data"
+          ],
+          "type": "book-chapter",
+          "URL": "https://doi.org/10.1007/978-3-319-32010-6_300051"
+        },
+        {
+          "DOI": "10.1007/978-3-319-77525-8_3",
+          "title": [
+            "Data Cleaning"
+          ],
+          "author": [
+            {
+              "given": "Xu",
+              "family": "Chu",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2019
+              ]
+            ]
+          },
+          "container-title": [
+            "Encyclopedia of Big Data Technologies"
+          ],
+          "type": "book-chapter",
+          "URL": "https://doi.org/10.1007/978-3-319-77525-8_3"
+        },
+        {
+          "DOI": "10.1145/3310205",
+          "title": [
+            "Data Cleaning"
+          ],
+          "author": [
+            {
+              "given": "Ihab F.",
+              "family": "Ilyas",
+              "sequence": "first",
+              "affiliation": [
+                {
+                  "name": "University of Waterloo"
+                }
+              ],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Xu",
+              "family": "Chu",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "Georgia Institute of Technology"
+                }
+              ],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2019,
+                7,
+                9
+              ]
+            ]
+          },
+          "type": "monograph",
+          "URL": "https://doi.org/10.1145/3310205"
+        },
+        {
+          "DOI": "10.4135/9781483381411.n126",
+          "title": [
+            "Data Cleaning"
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2017
+              ]
+            ]
+          },
+          "container-title": [
+            "The SAGE Encyclopedia of Communication Research Methods"
+          ],
+          "type": "reference-entry",
+          "URL": "https://doi.org/10.4135/9781483381411.n126"
+        }
+      ],
+      "items-per-page": 15,
+      "query": {
+        "start-index": 0,
+        "search-terms": null
+      }
+    }
+  }
+}

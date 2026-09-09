@@ -1,0 +1,990 @@
+{
+  "id": "Q6",
+  "source": "Crossref works relevance search",
+  "query": {
+    "query": "weak supervision data labeling coreset",
+    "rows": 15,
+    "filter": "from-pub-date:2009-01-01,until-pub-date:2026-09-09",
+    "select": "DOI,title,author,published,container-title,abstract,type,URL"
+  },
+  "endpoint": "https://api.crossref.org/works?query=weak+supervision+data+labeling+coreset&rows=15&filter=from-pub-date%3A2009-01-01%2Cuntil-pub-date%3A2026-09-09&select=DOI%2Ctitle%2Cauthor%2Cpublished%2Ccontainer-title%2Cabstract%2Ctype%2CURL",
+  "retrieved": "2026-09-09",
+  "response": {
+    "status": "ok",
+    "message-type": "work-list",
+    "message-version": "1.0.0",
+    "message": {
+      "facets": {},
+      "total-results": 2434783,
+      "items": [
+        {
+          "DOI": "10.1109/cvpr52733.2024.00037",
+          "title": [
+            "Molecular Data Programming: Towards Molecule Pseudo-labeling with Systematic Weak Supervision"
+          ],
+          "author": [
+            {
+              "given": "Xin",
+              "family": "Juan",
+              "sequence": "first",
+              "affiliation": [
+                {
+                  "name": "School of Artificial Intelligence, Jilin University,China"
+                }
+              ],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Kaixiong",
+              "family": "Zhou",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "Institute for Medical Engineering &#x0026; Science, Massachusetts Institute of Technology,USA"
+                }
+              ],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Ninghao",
+              "family": "Liu",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "School of Computing, University of Georgia,USA"
+                }
+              ],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Tianlong",
+              "family": "Chen",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "Massachusetts Institute of Technology,CSAIL,USA"
+                }
+              ],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Xin",
+              "family": "Wang",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "School of Artificial Intelligence, Jilin University,China"
+                }
+              ],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2024,
+                6,
+                16
+              ]
+            ]
+          },
+          "container-title": [
+            "2024 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)"
+          ],
+          "type": "proceedings-article",
+          "URL": "https://doi.org/10.1109/cvpr52733.2024.00037"
+        },
+        {
+          "DOI": "10.1109/cvpr.2014.409",
+          "title": [
+            "Beat the MTurkers: Automatic Image Labeling from Weak 3D Supervision"
+          ],
+          "author": [
+            {
+              "given": "Liang-Chieh",
+              "family": "Chen",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Sanja",
+              "family": "Fidler",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Raquel",
+              "family": "Urtasun",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2014,
+                6
+              ]
+            ]
+          },
+          "container-title": [
+            "2014 IEEE Conference on Computer Vision and Pattern Recognition"
+          ],
+          "type": "proceedings-article",
+          "URL": "https://doi.org/10.1109/cvpr.2014.409"
+        },
+        {
+          "DOI": "10.18653/v1/2023.emnlp-main.254",
+          "title": [
+            "ULF: Unsupervised Labeling Function Correction using Cross-Validation for Weak Supervision"
+          ],
+          "author": [
+            {
+              "given": "Anastasiia",
+              "family": "Sedova",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Benjamin",
+              "family": "Roth",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2023
+              ]
+            ]
+          },
+          "container-title": [
+            "Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing"
+          ],
+          "type": "proceedings-article",
+          "URL": "https://doi.org/10.18653/v1/2023.emnlp-main.254"
+        },
+        {
+          "DOI": "10.59095/ijcsr.v3i1.93",
+          "title": [
+            "Weak Supervision Dengan Pendekatan Labeling Function Untuk Analisis Sentimen Pada Twitter"
+          ],
+          "author": [
+            {
+              "given": "Hastari",
+              "family": "Utama",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Erna",
+              "family": "Daniati",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Ahlihi",
+              "family": "Masruro",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2024,
+                1,
+                15
+              ]
+            ]
+          },
+          "container-title": [
+            "The Indonesian Journal of Computer Science Research"
+          ],
+          "abstract": "<jats:p>Penggunaan sosial media saat ini telah meningkat dengan pesat. Salah satu jenis media sosial yang digunakan adalah Twitter. Media sosial ini memiliki miliaran pengguna dari seluruh dunia. Jadi, dalam waktu yang singkat data tweet yang mereka posting telah ada pada penyimpaannya. Setiap pengguna juga dibatasi jumlah karakter dalam melakukan pengiriman tweetnya. Namun, kumpulan tweet pada media sosial ini memiliki konteks tema yang bervariatif. Hal ini dapat memuat sentimen emosional seperti senang, sedih, gembira, duka, dan sebagainya. Berbagai jenis data tweet yang disediakan ini sangat berpotensial untuk dianalisis terutama bagi perusahaan berbasis profit. Hal ini dapat memuat kebiasaan pelanggan, tren produk, indeks saham, dan sebagainya. Salah satu jenis analisis yang dilakukan adalah sentiment analisis. Hal ini berguna untuk mengklasifikasikan opini tweet yang ada. Opini ini dapat berupa positif, negatif, atau netral. Hasil analisis ini sangat diperlukan perusahaan untuk mengetahui tren yang terjadi pada era ini. Salah satu solusi yang ditawarkan pada penelitian ini adalah dengan menggunakan Weak Supervision. Namun, ada tantangan yang terjadi pada metode ini. Hal ini adalah kuranganya tingkat akurasi jika dibandingkan dengan pelabelan secara manual.  Pada penelitian ini dilakukan pelabelan otomatis dengan weak supervision. Selain itu, dilakukan pendekatan labeling function dan Regex Pattern dalam melakukan pelabelan secara otomatis. Hal ini diharapakan dataset yang dilabeli akan menghasilkan model dengan tingkat akurasi mendekat pelabelan secara manual, lebih lagi jika dapat mengungguli metode manual. Selain itu, kontribusi yang diharapkan dalam penelitian ini adalah usaha untuk mempersingkat waktu pelabelan daripada dilakukan secara manual.Ringkasan penelitian tidak lebih dari 500 kata yang berisi latar belakang penelitian, tujuan dan metode penelitian yang diusulkan, luaran yang ditargetkan, serta uraian kontribusi penelitian. Gunakan style Abstract pada bagian ini dengan satu paragraf.</jats:p>",
+          "type": "journal-article",
+          "URL": "https://doi.org/10.59095/ijcsr.v3i1.93"
+        },
+        {
+          "DOI": "10.1007/978-3-030-91431-8_46",
+          "title": [
+            "LogLAB: Attention-Based Labeling of Log Data Anomalies via Weak Supervision"
+          ],
+          "author": [
+            {
+              "given": "Thorsten",
+              "family": "Wittkopp",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Philipp",
+              "family": "Wiesner",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Dominik",
+              "family": "Scheinert",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Alexander",
+              "family": "Acker",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2021
+              ]
+            ]
+          },
+          "container-title": [
+            "Lecture Notes in Computer Science",
+            "Service-Oriented Computing"
+          ],
+          "type": "book-chapter",
+          "URL": "https://doi.org/10.1007/978-3-030-91431-8_46"
+        },
+        {
+          "DOI": "10.1145/3725730",
+          "title": [
+            "CPWS: Confident Programmatic Weak Supervision for High-Quality Data Labeling"
+          ],
+          "author": [
+            {
+              "ORCID": "https://orcid.org/0000-0001-7466-8909",
+              "authenticated-orcid": false,
+              "given": "Shulan",
+              "family": "Ruan",
+              "sequence": "first",
+              "affiliation": [
+                {
+                  "name": "Shenzhen International Graduate School, Tsinghua University, Shenzhen, China"
+                }
+              ],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "ORCID": "https://orcid.org/0000-0002-6090-9895",
+              "authenticated-orcid": false,
+              "given": "Huijie",
+              "family": "Liu",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "School of Artificial Intelligence and Data Science, University of Science and Technology of China, Hefei, China"
+                }
+              ],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "ORCID": "https://orcid.org/0000-0003-0425-5855",
+              "authenticated-orcid": false,
+              "given": "Zhao",
+              "family": "Chen",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "The Hong Kong University of Science and Technology, Hong Kong, Hong Kong"
+                }
+              ],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "ORCID": "https://orcid.org/0009-0009-0880-6678",
+              "authenticated-orcid": false,
+              "given": "Bin",
+              "family": "Feng",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "University of Science and Technology of China, Hefei, China"
+                }
+              ],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "ORCID": "https://orcid.org/0000-0002-0743-9003",
+              "authenticated-orcid": false,
+              "given": "Kun",
+              "family": "Zhang",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "Hefei University of Technology, Hefei, China"
+                }
+              ],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "ORCID": "https://orcid.org/0000-0002-8050-2486",
+              "authenticated-orcid": false,
+              "given": "Caleb Chen",
+              "family": "Cao",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "The Hong Kong University of Science and Technology, Hong Kong, Hong Kong"
+                }
+              ],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "ORCID": "https://orcid.org/0000-0002-4835-4102",
+              "authenticated-orcid": false,
+              "given": "Enhong",
+              "family": "Chen",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "School of Computer Science and Technology, University of Science and Technology of China, Hefei, China"
+                }
+              ],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "ORCID": "https://orcid.org/0000-0002-8257-5806",
+              "authenticated-orcid": false,
+              "given": "Lei",
+              "family": "Chen",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "The Hong Kong University of Science and Technology—Guangzhou Campus, Guangzhou, China"
+                }
+              ],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2025,
+                5,
+                9
+              ]
+            ]
+          },
+          "container-title": [
+            "ACM Transactions on Information Systems"
+          ],
+          "abstract": "<jats:p>Programmatic Weak Supervision (PWS) is a recent data labeling paradigm, which employs several Labeling Functions (LFs) to provide weak labels and involves a Label Model (LM) for label aggregation. Despite the significant progress, there still remain some inherent challenges in PWS. From the view of labeling, LFs may wrongly label some data points. From the view of data, some data points themselves may be low-quality (e.g., ambiguous texts or blurred images). These largely stem from the lack of an explicit evaluation mechanism for LFs or data points. To this end, inspired by confident learning focusing on label quality, we propose a Confident PWS (CPWS) approach for high-quality data labeling. Specifically, several LFs are firstly utilized to provide weak labels for unlabeled data. Then, we develop an explicit Dual Evaluation Mechanism (DEM) to evaluate the quality of both LFs and data points, which not only employs data to evaluate trained models but also leverages trained models to evaluate data. Along this line, we further design a Distribution-Guided Pruning Strategy (DPS) to prune low-quality data and aggregate weak labels under the guidance of label class distribution. Extensive experiments on various benchmark datasets demonstrate the effectiveness and generalization ability of our proposed approach.</jats:p>",
+          "type": "journal-article",
+          "URL": "https://doi.org/10.1145/3725730"
+        },
+        {
+          "DOI": "10.1609/aaai.v38i11.29174",
+          "title": [
+            "Universal Weak Coreset"
+          ],
+          "author": [
+            {
+              "given": "Ragesh",
+              "family": "Jaiswal",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Amit",
+              "family": "Kumar",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2024,
+                3,
+                24
+              ]
+            ]
+          },
+          "container-title": [
+            "Proceedings of the AAAI Conference on Artificial Intelligence"
+          ],
+          "abstract": "<jats:p>Coresets for k-means and k-median problems yield a small summary of the data, which preserves the clustering cost with respect to any set of k centers. Recently coresets have also been constructed for constrained k-means and k-median problems. However, the notion of coresets has the drawback that (i) they can only be applied in settings where the input points are allowed to have weights, and (ii) in general metric spaces, the size of the coresets can depend logarithmically on the number of points. The notion of weak coresets, which has less stringent requirements than coresets,  has been studied in the context of classical k-means and k-median problems. A weak coreset is a pair (J,S) of subsets of points, where S acts as a summary of the point set and J as a  set of potential centers. This pair satisfies the properties that (i) S is a good summary of the data as long as the k centers are chosen from J only, and (ii) there is a good choice of k centers in J with a cost close to the optimal cost.  We develop this framework, which we call universal weak coresets, for constrained clustering settings. In conjunction with recent coreset constructions for constrained settings, our designs give greater data compression, are conceptually simpler, and apply to a wide range of constrained k-median and k-means problems.</jats:p>",
+          "type": "journal-article",
+          "URL": "https://doi.org/10.1609/aaai.v38i11.29174"
+        },
+        {
+          "DOI": "10.68159/o262985102",
+          "title": [
+            "Weak Supervision for Clinical Phenotyping Under Ambiguity: A Scalable Labeling Theory for Noisy Electronic Health Records"
+          ],
+          "author": [
+            {
+              "given": "Lucas",
+              "family": "Meyer",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Anna",
+              "family": "Schmid",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Stefan",
+              "family": "Braun",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2021
+              ]
+            ]
+          },
+          "container-title": [
+            "Journal of Health Informatics and Digital Systems"
+          ],
+          "type": "journal-article",
+          "URL": "https://doi.org/10.68159/o262985102"
+        },
+        {
+          "DOI": "10.5220/0009823200780089",
+          "title": [
+            "On Generating Efficient Data Summaries for Logistic Regression: A Coreset-based Approach"
+          ],
+          "author": [
+            {
+              "given": "Nery",
+              "family": "Riquelme-Granada",
+              "sequence": "first",
+              "affiliation": [
+                {
+                  "name": "Department of Computer Science, Royal Holloway University of London, Egham, Surrey, TW20 0EX, U.K., --- Select a Country ---"
+                }
+              ],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Khuong",
+              "family": "Nguyen",
+              "sequence": "first",
+              "affiliation": [
+                {
+                  "name": "Department of Computer Science, Royal Holloway University of London, Egham, Surrey, TW20 0EX, U.K., --- Select a Country ---"
+                }
+              ],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Zhiyuan",
+              "family": "Luo",
+              "sequence": "first",
+              "affiliation": [
+                {
+                  "name": "Department of Computer Science, Royal Holloway University of London, Egham, Surrey, TW20 0EX, U.K., --- Select a Country ---"
+                }
+              ],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2020
+              ]
+            ]
+          },
+          "container-title": [
+            "Proceedings of the 9th International Conference on Data Science, Technology and Applications"
+          ],
+          "type": "proceedings-article",
+          "URL": "https://doi.org/10.5220/0009823200780089"
+        },
+        {
+          "DOI": "10.1109/bigdata55660.2022.10020214",
+          "title": [
+            "TweetDIS: A Large Twitter Dataset for Natural Disasters Built using Weak Supervision"
+          ],
+          "author": [
+            {
+              "given": "Ramya",
+              "family": "Tekumalla",
+              "sequence": "first",
+              "affiliation": [
+                {
+                  "name": "Georgia State University,Department of Computer Science,Atlanta,USA"
+                }
+              ],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Juan M.",
+              "family": "Banda",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "Georgia State University,Department of Computer Science,Atlanta,USA"
+                }
+              ],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2022,
+                12,
+                17
+              ]
+            ]
+          },
+          "container-title": [
+            "2022 IEEE International Conference on Big Data (Big Data)"
+          ],
+          "type": "proceedings-article",
+          "URL": "https://doi.org/10.1109/bigdata55660.2022.10020214"
+        },
+        {
+          "DOI": "10.1109/bigdata55660.2022.10020594",
+          "title": [
+            "An Empirical Study on Characterizing Natural Disasters in Class Imbalanced Social Media Data using Weak Supervision"
+          ],
+          "author": [
+            {
+              "given": "Ramya",
+              "family": "Tekumalla",
+              "sequence": "first",
+              "affiliation": [
+                {
+                  "name": "Georgia State University,Department of Computer Science,Atlanta,USA"
+                }
+              ],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Juan M.",
+              "family": "Banda",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "Georgia State University,Department of Computer Science,Atlanta,USA"
+                }
+              ],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2022,
+                12,
+                17
+              ]
+            ]
+          },
+          "container-title": [
+            "2022 IEEE International Conference on Big Data (Big Data)"
+          ],
+          "type": "proceedings-article",
+          "URL": "https://doi.org/10.1109/bigdata55660.2022.10020594"
+        },
+        {
+          "DOI": "10.18653/v1/2021.eacl-main.69",
+          "title": [
+            "Jointly Improving Language Understanding and Generation with Quality-Weighted Weak Supervision of Automatic Labeling"
+          ],
+          "author": [
+            {
+              "given": "Ernie",
+              "family": "Chang",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Vera",
+              "family": "Demberg",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Alex",
+              "family": "Marin",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2021
+              ]
+            ]
+          },
+          "container-title": [
+            "Proceedings of the 16th Conference of the European Chapter of the Association for Computational Linguistics: Main Volume"
+          ],
+          "type": "proceedings-article",
+          "URL": "https://doi.org/10.18653/v1/2021.eacl-main.69"
+        },
+        {
+          "DOI": "10.1109/comsnets56262.2023.10041286",
+          "title": [
+            "Weak Supervision and Transformed-based Sentiment Analysis on Multi-lingual Data"
+          ],
+          "author": [
+            {
+              "given": "Shubhangi",
+              "family": "Rastogi",
+              "sequence": "first",
+              "affiliation": [
+                {
+                  "name": "School of Computer Science Engineering &#x0026; Technology, Bennett University The times group,Greater noida,India"
+                }
+              ],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2023,
+                1,
+                3
+              ]
+            ]
+          },
+          "container-title": [
+            "2023 15th International Conference on COMmunication Systems &amp; NETworkS (COMSNETS)"
+          ],
+          "type": "proceedings-article",
+          "URL": "https://doi.org/10.1109/comsnets56262.2023.10041286"
+        },
+        {
+          "DOI": "10.1109/jsen.2021.3075151",
+          "title": [
+            "Robust Foot Motion Recognition Using Stride Detection and Weak Supervision-Based Fast Labeling"
+          ],
+          "author": [
+            {
+              "ORCID": "https://orcid.org/0000-0003-3956-5415",
+              "authenticated-orcid": false,
+              "given": "Rui",
+              "family": "Hua",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "ORCID": "https://orcid.org/0000-0003-4353-4638",
+              "authenticated-orcid": false,
+              "given": "Ya",
+              "family": "Wang",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2021,
+                7,
+                15
+              ]
+            ]
+          },
+          "container-title": [
+            "IEEE Sensors Journal"
+          ],
+          "type": "journal-article",
+          "URL": "https://doi.org/10.1109/jsen.2021.3075151"
+        },
+        {
+          "DOI": "10.3390/app16083632",
+          "title": [
+            "LLM-Assisted Weak Supervision for Low-Resource Kazakh Sequence Labeling: Synthetic Annotation and CRF-Refined NER/POS Models"
+          ],
+          "author": [
+            {
+              "ORCID": "https://orcid.org/0000-0003-2982-214X",
+              "authenticated-orcid": false,
+              "given": "Aigerim",
+              "family": "Aitim",
+              "sequence": "first",
+              "affiliation": [
+                {
+                  "name": "Department of Information Systems, International Information Technology University, Manas str. 34/1, Almaty 050000, Kazakhstan"
+                }
+              ],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2026,
+                4,
+                8
+              ]
+            ]
+          },
+          "container-title": [
+            "Applied Sciences"
+          ],
+          "abstract": "<jats:p>Kazakh sequence labeling is constrained by limited annotated resources, while its agglutinative morphology and productive suffixation increase data sparsity and exacerbate label inconsistency in part-of-speech (POS) tagging and named entity recognition (NER). This paper proposes an LLM-assisted weak supervision framework in which a large language model generates synthetic token-level annotations that are subsequently filtered using confidence-based criteria and combined with a smaller manually verified subset to train Transformer-based sequence taggers with Conditional Random Field (CRF) decoding. The pipeline unifies corpus construction, weak-label generation, quality filtering, word-to-subword alignment, and CRF-refined structured prediction into a reproducible workflow. Experimental results show that contextual encoders and structured decoding provide strong performance for Kazakh POS and NER, while the proposed training design enables efficient convergence with diminishing returns beyond moderate epoch budgets. Error-slice analysis indicates that residual errors are concentrated in rare tokens, morphologically complex long words, longer sentences, and the ORG entity class. Overall, the findings support the use of LLM-assisted weak supervision as a scalable strategy for low-resource Kazakh sequence labeling when synthetic labels are controlled through filtering and refined by structured decoding.</jats:p>",
+          "type": "journal-article",
+          "URL": "https://doi.org/10.3390/app16083632"
+        }
+      ],
+      "items-per-page": 15,
+      "query": {
+        "start-index": 0,
+        "search-terms": "weak supervision data labeling coreset"
+      }
+    }
+  }
+}

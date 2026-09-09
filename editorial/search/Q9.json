@@ -1,0 +1,930 @@
+{
+  "id": "Q9",
+  "source": "Crossref works relevance search",
+  "query": {
+    "query.title": "table union search",
+    "rows": 15,
+    "filter": "from-pub-date:2009-01-01,until-pub-date:2026-09-09",
+    "select": "DOI,title,author,published,container-title,abstract,type,URL"
+  },
+  "endpoint": "https://api.crossref.org/works?query.title=table+union+search&rows=15&filter=from-pub-date%3A2009-01-01%2Cuntil-pub-date%3A2026-09-09&select=DOI%2Ctitle%2Cauthor%2Cpublished%2Ccontainer-title%2Cabstract%2Ctype%2CURL",
+  "retrieved": "2026-09-09",
+  "response": {
+    "status": "ok",
+    "message-type": "work-list",
+    "message-version": "1.0.0",
+    "message": {
+      "facets": {},
+      "total-results": 581134,
+      "items": [
+        {
+          "DOI": "10.14778/3192965.3192973",
+          "title": [
+            "Table union search on open data"
+          ],
+          "author": [
+            {
+              "given": "Fatemeh",
+              "family": "Nargesian",
+              "sequence": "first",
+              "affiliation": [
+                {
+                  "name": "University of Toronto"
+                }
+              ],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Erkang",
+              "family": "Zhu",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "University of Toronto"
+                }
+              ],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Ken Q.",
+              "family": "Pu",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "UOIT"
+                }
+              ],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Renée J.",
+              "family": "Miller",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "University of Toronto"
+                }
+              ],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2018,
+                3
+              ]
+            ]
+          },
+          "container-title": [
+            "Proceedings of the VLDB Endowment"
+          ],
+          "abstract": "<jats:p>\n                    We define the table union search problem and present a probabilistic solution for finding tables that are unionable with a query table within massive repositories. Two tables are\n                    <jats:italic>unionable</jats:italic>\n                    if they share attributes from the same domain. Our solution formalizes three statistical models that describe how unionable attributes are generated from set domains, semantic domains with values from an ontology, and natural language domains. We propose a data-driven approach that automatically determines the best model to use for each pair of attributes. Through a distribution-aware algorithm, we are able to find the optimal number of attributes in two tables that can be unioned. To evaluate accuracy, we created and open-sourced a benchmark of Open Data tables. We show that our table union search outperforms in speed and accuracy existing algorithms for finding related tables and scales to provide efficient search over Open Data repositories containing more than one million attributes.\n                  </jats:p>",
+          "type": "journal-article",
+          "URL": "https://doi.org/10.14778/3192965.3192973"
+        },
+        {
+          "DOI": "10.1145/3588689",
+          "title": [
+            "SANTOS: Relationship-based Semantic Table Union Search"
+          ],
+          "author": [
+            {
+              "ORCID": "https://orcid.org/0000-0001-5720-1207",
+              "authenticated-orcid": false,
+              "given": "Aamod",
+              "family": "Khatiwada",
+              "sequence": "first",
+              "affiliation": [
+                {
+                  "name": "Northeastern University, Boston, USA"
+                }
+              ],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "ORCID": "https://orcid.org/0000-0001-9020-3642",
+              "authenticated-orcid": false,
+              "given": "Grace",
+              "family": "Fan",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "Northeastern University, Boston, USA"
+                }
+              ],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "ORCID": "https://orcid.org/0000-0001-8803-8481",
+              "authenticated-orcid": false,
+              "given": "Roee",
+              "family": "Shraga",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "Northeastern University, Boston, USA"
+                }
+              ],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "ORCID": "https://orcid.org/0000-0003-2872-1865",
+              "authenticated-orcid": false,
+              "given": "Zixuan",
+              "family": "Chen",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "Northeastern University, Boston, USA"
+                }
+              ],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "ORCID": "https://orcid.org/0000-0002-9614-0504",
+              "authenticated-orcid": false,
+              "given": "Wolfgang",
+              "family": "Gatterbauer",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "Northeastern University, Boston, USA"
+                }
+              ],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "ORCID": "https://orcid.org/0000-0002-1484-4787",
+              "authenticated-orcid": false,
+              "given": "Renée J.",
+              "family": "Miller",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "Northeastern University, Boston, USA"
+                }
+              ],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "ORCID": "https://orcid.org/0000-0002-6102-7472",
+              "authenticated-orcid": false,
+              "given": "Mirek",
+              "family": "Riedewald",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "Northeastern University, Boston, USA"
+                }
+              ],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2023,
+                5,
+                26
+              ]
+            ]
+          },
+          "container-title": [
+            "Proceedings of the ACM on Management of Data"
+          ],
+          "abstract": "<jats:p>Existing techniques for unionable table search define unionability using metadata (tables must have the same or similar schemas) or column-based metrics (for example, the values in a table should be drawn from the same domain). In this work, we introduce the use of semantic relationships between pairs of columns in a table to improve the accuracy of the union search. Consequently, we introduce a new notion of unionability that considers relationships between columns, together with the semantics of columns, in a principled way. To do so, we present two new methods to discover the semantic relationships between pairs of columns. The first uses an existing knowledge base (KB), and the second (which we call a \"synthesized KB\") uses knowledge from the data lake itself. We adopt an existing Table Union Search benchmark and present new (open) benchmarks that represent small and large real data lakes. We show that our new unionability search algorithm, called SANTOS, outperforms a state-of-the-art union search that uses a wide variety of column-based semantics, including word embeddings and regular expressions. We show empirically that our synthesized KB improves the accuracy of union search by representing relationship semantics that may not be contained in an available KB. This result hints at a promising future of creating synthesized KBs from data lakes with limited KB coverage and using them for union search.</jats:p>",
+          "type": "journal-article",
+          "URL": "https://doi.org/10.1145/3588689"
+        },
+        {
+          "DOI": "10.18653/v1/2023.findings-acl.233",
+          "title": [
+            "Automatic Table Union Search with Tabular Representation Learning"
+          ],
+          "author": [
+            {
+              "given": "Xuming",
+              "family": "Hu",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Shen",
+              "family": "Wang",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Xiao",
+              "family": "Qin",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Chuan",
+              "family": "Lei",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Zhengyuan",
+              "family": "Shen",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Christos",
+              "family": "Faloutsos",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Asterios",
+              "family": "Katsifodimos",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "George",
+              "family": "Karypis",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Lijie",
+              "family": "Wen",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Philip S.",
+              "family": "Yu",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2023
+              ]
+            ]
+          },
+          "container-title": [
+            "Findings of the Association for Computational Linguistics: ACL 2023"
+          ],
+          "type": "proceedings-article",
+          "URL": "https://doi.org/10.18653/v1/2023.findings-acl.233"
+        },
+        {
+          "DOI": "10.1109/icde65448.2025.00165",
+          "title": [
+            "LIFTus: An Adaptive Multi-Aspect Column Representation Learning for Table Union Search"
+          ],
+          "author": [
+            {
+              "given": "Ermu",
+              "family": "Qiu",
+              "sequence": "first",
+              "affiliation": [
+                {
+                  "name": "Peking University,Key Laboratory of High Confidence Software Technologies, CS,China"
+                }
+              ],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Jun",
+              "family": "Gao",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "Peking University,Key Laboratory of High Confidence Software Technologies, CS,China"
+                }
+              ],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Yaofeng",
+              "family": "Tu",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "ZTE Corporation"
+                }
+              ],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Jingru",
+              "family": "Yang",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "National Key Laboratory of Data Space Technology and System"
+                }
+              ],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2025,
+                5,
+                19
+              ]
+            ]
+          },
+          "container-title": [
+            "2025 IEEE 41st International Conference on Data Engineering (ICDE)"
+          ],
+          "type": "proceedings-article",
+          "URL": "https://doi.org/10.1109/icde65448.2025.00165"
+        },
+        {
+          "DOI": "10.1109/bigdata66926.2025.11402613",
+          "title": [
+            "EasyTUS: A Comprehensive Framework for Fast and Accurate Table Union Search Across Data Lakes"
+          ],
+          "author": [
+            {
+              "given": "Tim",
+              "family": "Otto",
+              "sequence": "first",
+              "affiliation": [
+                {
+                  "name": "RPTU Kaiserslautern-Landau,Heterogeneous Information Systems,Kaiserslautern,Germany"
+                }
+              ],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2025,
+                12,
+                8
+              ]
+            ]
+          },
+          "container-title": [
+            "2025 IEEE International Conference on Big Data (BigData)"
+          ],
+          "type": "proceedings-article",
+          "URL": "https://doi.org/10.1109/bigdata66926.2025.11402613"
+        },
+        {
+          "DOI": "10.1093/law/9780198826507.002.0008",
+          "title": [
+            "Table of European Union"
+          ],
+          "author": [
+            {
+              "given": "Ingeborg",
+              "family": "Schwenzer",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Edgardo",
+              "family": "Muñoz",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2026,
+                2,
+                12
+              ]
+            ]
+          },
+          "container-title": [
+            "Global Commercial Contracts"
+          ],
+          "type": "other",
+          "URL": "https://doi.org/10.1093/law/9780198826507.002.0008"
+        },
+        {
+          "DOI": "10.1093/law/9780198932772.002.0014",
+          "title": [
+            "Table of European Union"
+          ],
+          "author": [
+            {
+              "given": "John M.",
+              "family": "Wood",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Sofia",
+              "family": "Ellina",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "John",
+              "family": "Tribe",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2026,
+                3,
+                31
+              ]
+            ]
+          },
+          "container-title": [
+            "Directors and Creditors"
+          ],
+          "type": "other",
+          "URL": "https://doi.org/10.1093/law/9780198932772.002.0014"
+        },
+        {
+          "DOI": "10.1093/law/9780192846914.002.0015",
+          "title": [
+            "Table of European Union"
+          ],
+          "author": [
+            {
+              "given": "Daniel",
+              "family": "Edmonds",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Sarah",
+              "family": "Tulip",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2026,
+                4,
+                28
+              ]
+            ]
+          },
+          "container-title": [
+            "Service in Civil Proceedings"
+          ],
+          "type": "other",
+          "URL": "https://doi.org/10.1093/law/9780192846914.002.0015"
+        },
+        {
+          "DOI": "10.1109/icde65706.2026.00150",
+          "title": [
+            "Novel Table Search"
+          ],
+          "author": [
+            {
+              "given": "Besat",
+              "family": "Kassaie",
+              "sequence": "first",
+              "affiliation": [
+                {
+                  "name": "University of Waterloo"
+                }
+              ],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Renée J.",
+              "family": "Miller",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "University of Waterloo"
+                }
+              ],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2026,
+                5
+              ]
+            ]
+          },
+          "container-title": [
+            "2026 IEEE 42nd International Conference on Data Engineering (ICDE)"
+          ],
+          "type": "proceedings-article",
+          "URL": "https://doi.org/10.1109/icde65706.2026.00150"
+        },
+        {
+          "DOI": "10.18653/v1/2025.trl-1.7",
+          "title": [
+            "Something’s Fishy in the Data Lake: A Critical Re-evaluation of Table Union Search Benchmarks"
+          ],
+          "author": [
+            {
+              "given": "Allaa",
+              "family": "Boutaleb",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Bernd",
+              "family": "Amann",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Hubert",
+              "family": "Naacke",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Rafael",
+              "family": "Angarita",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2025
+              ]
+            ]
+          },
+          "container-title": [
+            "Proceedings of the 4th Table Representation Learning Workshop"
+          ],
+          "type": "proceedings-article",
+          "URL": "https://doi.org/10.18653/v1/2025.trl-1.7"
+        },
+        {
+          "DOI": "10.1093/oxfordhb/9780197615317.013.27",
+          "title": [
+            "In Search of One Big Union"
+          ],
+          "author": [
+            {
+              "given": "Corey",
+              "family": "Dolgon",
+              "sequence": "first",
+              "affiliation": [
+                {
+                  "name": "Sociology, Stonehill College"
+                }
+              ],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2024,
+                9,
+                19
+              ]
+            ]
+          },
+          "container-title": [
+            "The Oxford Handbook of Sociology for Social Justice"
+          ],
+          "abstract": "<jats:title>Abstract</jats:title>\n               <jats:p>This chapter examines the experience and impact of a “singing lecture” on music and social movements that the author has performed for twenty-five years. It begins with a historical overview of how the lecture has evolved over time and details the various elements and their intention. In particular, it looks at the pedagogical possibilities of the encounter for students learning about social movements and organizing through songs—not only hearing about them but participating in the performance as well. It also considers the impact of such performances on the author as an activist-scholar and how the continued presentation fits into both the practice of teaching about social movements and also the praxis of encouraging engagement and empowering scholar activism and tools for social justice work.</jats:p>",
+          "type": "book-chapter",
+          "URL": "https://doi.org/10.1093/oxfordhb/9780197615317.013.27"
+        },
+        {
+          "DOI": "10.1017/s1574019615000371",
+          "title": [
+            "In search of the Union Method"
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2015,
+                12
+              ]
+            ]
+          },
+          "container-title": [
+            "European Constitutional Law Review"
+          ],
+          "type": "journal-article",
+          "URL": "https://doi.org/10.1017/s1574019615000371"
+        },
+        {
+          "DOI": "10.4324/9781315862552-8",
+          "title": [
+            "In Search of International Union Theory"
+          ],
+          "author": [
+            {
+              "given": "Harvie",
+              "family": "Ramsay",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2018,
+                10,
+                24
+              ]
+            ]
+          },
+          "container-title": [
+            "Globalization and Patterns of Labour Resistance"
+          ],
+          "type": "book-chapter",
+          "URL": "https://doi.org/10.4324/9781315862552-8"
+        },
+        {
+          "DOI": "10.1017/9781108913225.006",
+          "title": [
+            "Table of European Union Directives"
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2022,
+                7,
+                14
+              ]
+            ]
+          },
+          "container-title": [
+            "EU Law"
+          ],
+          "type": "other",
+          "URL": "https://doi.org/10.1017/9781108913225.006"
+        },
+        {
+          "DOI": "10.1093/9780198913825.002.0007",
+          "title": [
+            "Table of European Union Acts"
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2025,
+                1,
+                28
+              ]
+            ]
+          },
+          "container-title": [
+            "EU Regulatory Responses to Crises"
+          ],
+          "type": "other",
+          "URL": "https://doi.org/10.1093/9780198913825.002.0007"
+        }
+      ],
+      "items-per-page": 15,
+      "query": {
+        "start-index": 0,
+        "search-terms": null
+      }
+    }
+  }
+}

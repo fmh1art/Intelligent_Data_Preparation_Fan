@@ -1,0 +1,1259 @@
+{
+  "id": "Q15",
+  "source": "Crossref works relevance search",
+  "query": {
+    "query.title": "data preprocessing pipeline",
+    "rows": 15,
+    "filter": "from-pub-date:2009-01-01,until-pub-date:2026-09-09",
+    "select": "DOI,title,author,published,container-title,abstract,type,URL"
+  },
+  "endpoint": "https://api.crossref.org/works?query.title=data+preprocessing+pipeline&rows=15&filter=from-pub-date%3A2009-01-01%2Cuntil-pub-date%3A2026-09-09&select=DOI%2Ctitle%2Cauthor%2Cpublished%2Ccontainer-title%2Cabstract%2Ctype%2CURL",
+  "retrieved": "2026-09-09",
+  "response": {
+    "status": "ok",
+    "message-type": "work-list",
+    "message-version": "1.0.0",
+    "message": {
+      "facets": {},
+      "total-results": 1722625,
+      "items": [
+        {
+          "DOI": "10.1007/978-981-19-6798-6_5",
+          "title": [
+            "Data Preprocessing Technology in Pipeline Health Monitoring"
+          ],
+          "author": [
+            {
+              "given": "Hongfang",
+              "family": "Lu",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Zhao-Dong",
+              "family": "Xu",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Tom",
+              "family": "Iseley",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Haoyan",
+              "family": "Peng",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Lingdi",
+              "family": "Fu",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2023
+              ]
+            ]
+          },
+          "container-title": [
+            "Pipeline Inspection and Health Monitoring Technology"
+          ],
+          "type": "book-chapter",
+          "URL": "https://doi.org/10.1007/978-981-19-6798-6_5"
+        },
+        {
+          "DOI": "10.1017/s1431927620021200",
+          "title": [
+            "Automatic Pipeline for Cryo-EM Data Preprocessing"
+          ],
+          "author": [
+            {
+              "given": "Yilai",
+              "family": "Li",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Michael",
+              "family": "Cianfrocco",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2020,
+                7,
+                30
+              ]
+            ]
+          },
+          "container-title": [
+            "Microscopy and Microanalysis"
+          ],
+          "type": "journal-article",
+          "URL": "https://doi.org/10.1017/s1431927620021200"
+        },
+        {
+          "DOI": "10.1007/978-3-030-31635-8_28",
+          "title": [
+            "Preprocessing Pipeline for fNIRS Data in Children"
+          ],
+          "author": [
+            {
+              "given": "Caterina",
+              "family": "Piazza",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Andrea",
+              "family": "Bacchetta",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Alessandro",
+              "family": "Crippa",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Maddalena",
+              "family": "Mauri",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Silvia",
+              "family": "Grazioli",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Gianluigi",
+              "family": "Reni",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Maria",
+              "family": "Nobile",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Anna Maria",
+              "family": "Bianchi",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2019,
+                9,
+                25
+              ]
+            ]
+          },
+          "container-title": [
+            "IFMBE Proceedings",
+            "XV Mediterranean Conference on Medical and Biological Engineering and Computing – MEDICON 2019"
+          ],
+          "type": "book-chapter",
+          "URL": "https://doi.org/10.1007/978-3-030-31635-8_28"
+        },
+        {
+          "DOI": "10.1109/access.2022.3198662",
+          "title": [
+            "Auto-Prep: Efficient and Automated Data Preprocessing Pipeline"
+          ],
+          "author": [
+            {
+              "ORCID": "https://orcid.org/0000-0002-6766-6240",
+              "authenticated-orcid": false,
+              "given": "Mehwish",
+              "family": "Bilal",
+              "sequence": "first",
+              "affiliation": [
+                {
+                  "name": "Department of Computer Science, University of Okara, Okara, Pakistan"
+                }
+              ],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "ORCID": "https://orcid.org/0000-0002-0726-2738",
+              "authenticated-orcid": false,
+              "given": "Ghulam",
+              "family": "Ali",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "Department of Computer Science, University of Okara, Okara, Pakistan"
+                }
+              ],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "ORCID": "https://orcid.org/0000-0001-6284-5904",
+              "authenticated-orcid": false,
+              "given": "Muhammad Waseem",
+              "family": "Iqbal",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "Department of Software Engineering, Superior University, Lahore, Pakistan"
+                }
+              ],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "ORCID": "https://orcid.org/0000-0002-0615-3038",
+              "authenticated-orcid": false,
+              "given": "Muhammad",
+              "family": "Anwar",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "Department of Information Sciences, Division of Science and Technology, University of Education, Lahore, Pakistan"
+                }
+              ],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "ORCID": "https://orcid.org/0000-0002-0944-6362",
+              "authenticated-orcid": false,
+              "given": "Muhammad Sheraz Arshad",
+              "family": "Malik",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "Department of Information Technology, Government College University Faisalabad, Faisalabad, Pakistan"
+                }
+              ],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "ORCID": "https://orcid.org/0000-0003-3897-0873",
+              "authenticated-orcid": false,
+              "given": "Rabiah Abdul",
+              "family": "Kadir",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "Institute of IR4.0, Universiti Kebangsaan Malaysia (UKM), Bangi, Selangor, Malaysia"
+                }
+              ],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2022
+              ]
+            ]
+          },
+          "container-title": [
+            "IEEE Access"
+          ],
+          "type": "journal-article",
+          "URL": "https://doi.org/10.1109/access.2022.3198662"
+        },
+        {
+          "DOI": "10.1016/j.rechem.2026.103175",
+          "title": [
+            "Systematic investigation of preprocessing pipeline for MALDI data"
+          ],
+          "author": [
+            {
+              "given": "Mou",
+              "family": "Adhikari",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Oleg",
+              "family": "Ryabchykov",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Shuxia",
+              "family": "Guo",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Thomas",
+              "family": "Bocklitz",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2026,
+                5
+              ]
+            ]
+          },
+          "container-title": [
+            "Results in Chemistry"
+          ],
+          "type": "journal-article",
+          "URL": "https://doi.org/10.1016/j.rechem.2026.103175"
+        },
+        {
+          "DOI": "10.3389/fninf.2022.843114",
+          "title": [
+            "NeoRS: A Neonatal Resting State fMRI Data Preprocessing Pipeline"
+          ],
+          "author": [
+            {
+              "given": "Vicente",
+              "family": "Enguix",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Jeanette",
+              "family": "Kenley",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "David",
+              "family": "Luck",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Julien",
+              "family": "Cohen-Adad",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Gregory Anton",
+              "family": "Lodygensky",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2022,
+                6,
+                17
+              ]
+            ]
+          },
+          "container-title": [
+            "Frontiers in Neuroinformatics"
+          ],
+          "abstract": "<jats:p>Resting state functional MRI (rsfMRI) has been shown to be a promising tool to study intrinsic brain functional connectivity and assess its integrity in cerebral development. In neonates, where functional MRI is limited to very few paradigms, rsfMRI was shown to be a relevant tool to explore regional interactions of brain networks. However, to identify the resting state networks, data needs to be carefully processed to reduce artifacts compromising the interpretation of results. Because of the non-collaborative nature of the neonates, the differences in brain size and the reversed contrast compared to adults due to myelination, neonates can’t be processed with the existing adult pipelines, as they are not adapted. Therefore, we developed NeoRS, a rsfMRI pipeline for neonates. The pipeline relies on popular neuroimaging tools (FSL, AFNI, and SPM) and is optimized for the neonatal brain. The main processing steps include image registration to an atlas, skull stripping, tissue segmentation, slice timing and head motion correction and regression of confounds which compromise functional data interpretation. To address the specificity of neonatal brain imaging, particular attention was given to registration including neonatal atlas type and parameters, such as brain size variations, and contrast differences compared to adults. Furthermore, head motion was scrutinized, and motion management optimized, as it is a major issue when processing neonatal rsfMRI data. The pipeline includes quality control using visual assessment checkpoints. To assess the effectiveness of NeoRS processing steps we used the neonatal data from the Baby Connectome Project dataset including a total of 10 neonates. NeoRS was designed to work on both multi-band and single-band acquisitions and is applicable on smaller datasets. NeoRS also includes popular functional connectivity analysis features such as seed-to-seed or seed-to-voxel correlations. Language, default mode, dorsal attention, visual, ventral attention, motor and fronto-parietal networks were evaluated. Topology found the different analyzed networks were in agreement with previously published studies in the neonate. NeoRS is coded in Matlab and allows parallel computing to reduce computational times; it is open-source and available on GitHub (<jats:ext-link>https://github.com/venguix/NeoRS</jats:ext-link>). NeoRS allows robust image processing of the neonatal rsfMRI data that can be readily customized to different datasets.</jats:p>",
+          "type": "journal-article",
+          "URL": "https://doi.org/10.3389/fninf.2022.843114"
+        },
+        {
+          "DOI": "10.1145/3589328",
+          "title": [
+            "DiffPrep: Differentiable Data Preprocessing Pipeline Search for Learning over Tabular Data"
+          ],
+          "author": [
+            {
+              "ORCID": "https://orcid.org/0009-0007-7150-7633",
+              "authenticated-orcid": false,
+              "given": "Peng",
+              "family": "Li",
+              "sequence": "first",
+              "affiliation": [
+                {
+                  "name": "Georgia Institute of Technology, Atlanta, GA, USA"
+                }
+              ],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "ORCID": "https://orcid.org/0000-0002-5420-9956",
+              "authenticated-orcid": false,
+              "given": "Zhiyi",
+              "family": "Chen",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "Georgia Institute of Technology, Atlanta, GA, USA"
+                }
+              ],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "ORCID": "https://orcid.org/0009-0007-3202-3767",
+              "authenticated-orcid": false,
+              "given": "Xu",
+              "family": "Chu",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "Georgia Institute of Technology, Atlanta, GA, USA"
+                }
+              ],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "ORCID": "https://orcid.org/0000-0002-3282-5360",
+              "authenticated-orcid": false,
+              "given": "Kexin",
+              "family": "Rong",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "Georgia Institute of Technology, Atlanta, GA, USA"
+                }
+              ],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2023,
+                6,
+                13
+              ]
+            ]
+          },
+          "container-title": [
+            "Proceedings of the ACM on Management of Data"
+          ],
+          "abstract": "<jats:p>Data preprocessing is a crucial step in the machine learning process that transforms raw data into a more usable format for downstream ML models. However, it can be costly and time-consuming, often requiring the expertise of domain experts. Existing automated machine learning (AutoML) frameworks claim to automate data preprocessing. However, they often use a restricted search space of data preprocessing pipelines which limits the potential performance gains, and they are often too slow as they require training the ML model multiple times. In this paper, we propose DiffPrep, a method that can automatically and efficiently search for a data preprocessing pipeline for a given tabular dataset and a differentiable ML model such that the performance of the ML model is maximized. We formalize the problem of data preprocessing pipeline search as a bi-level optimization problem. To solve this problem efficiently, we transform and relax the discrete, non-differential search space into a continuous and differentiable one, which allows us to perform the pipeline search using gradient descent with training the ML model only once. Our experiments show that DiffPrep achieves the best test accuracy on 15 out of the 18 real-world datasets evaluated and improves the model's test accuracy by up to 6.6 percentage points.</jats:p>",
+          "type": "journal-article",
+          "URL": "https://doi.org/10.1145/3589328"
+        },
+        {
+          "DOI": "10.1016/b978-0-12-819084-5.00012-2",
+          "title": [
+            "Preprocessing pipeline on FPGA"
+          ],
+          "author": [
+            {
+              "given": "Tian",
+              "family": "Huang",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Yongxin",
+              "family": "Zhu",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Yu",
+              "family": "Zheng",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2020
+              ]
+            ]
+          },
+          "container-title": [
+            "Big Data in Astronomy"
+          ],
+          "type": "book-chapter",
+          "URL": "https://doi.org/10.1016/b978-0-12-819084-5.00012-2"
+        },
+        {
+          "DOI": "10.56441/hilbertpress.2207.6599",
+          "title": [
+            "FMRI minimal preprocessing pipeline"
+          ],
+          "author": [
+            {
+              "ORCID": "https://orcid.org/0000-0002-3451-3475",
+              "authenticated-orcid": false,
+              "given": "Alfonso",
+              "family": "Nieto-Castanon",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2020,
+                2,
+                4
+              ]
+            ]
+          },
+          "container-title": [
+            "Handbook of functional connectivity Magnetic Resonance Imaging methods in CONN"
+          ],
+          "abstract": "<jats:p>This chapter describes standard and advanced preprocessing steps in fcMRI. These steps are aimed at correcting or minimizing the influence of well-known factors affecting the quality of functional and anatomical MRI data, including effects arising from subject motion within the scanner, temporal and spatial image distortions due to the sequential nature of the scanning acquisition protocol, and inhomogeneities in the scanner magnetic field, as well as anatomical differences among subjects.</jats:p>",
+          "type": "book-chapter",
+          "URL": "https://doi.org/10.56441/hilbertpress.2207.6599"
+        },
+        {
+          "DOI": "10.14445/23488549/ijece-v11i4p106",
+          "title": [
+            "Transforming 3D Brain MRI Data: Building a Robust Preprocessing Pipeline"
+          ],
+          "author": [
+            {
+              "given": "Yamuna",
+              "family": "S",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Vijayakumar",
+              "family": "K",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2024,
+                4,
+                30
+              ]
+            ]
+          },
+          "container-title": [
+            "International Journal of Electronics and Communication Engineering"
+          ],
+          "type": "journal-article",
+          "URL": "https://doi.org/10.14445/23488549/ijece-v11i4p106"
+        },
+        {
+          "DOI": "10.1016/j.engappai.2024.109893",
+          "title": [
+            "A preprocessing data-driven pipeline for estimating number of clusters"
+          ],
+          "author": [
+            {
+              "ORCID": "https://orcid.org/0000-0003-2501-3361",
+              "authenticated-orcid": false,
+              "given": "Michal",
+              "family": "Koren",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Or",
+              "family": "Peretz",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Oded",
+              "family": "Koren",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2025,
+                2
+              ]
+            ]
+          },
+          "container-title": [
+            "Engineering Applications of Artificial Intelligence"
+          ],
+          "type": "journal-article",
+          "URL": "https://doi.org/10.1016/j.engappai.2024.109893"
+        },
+        {
+          "DOI": "10.1109/pesim67009.2026.11439034",
+          "title": [
+            "Optimized Data Preprocessing Pipeline for Deep Learning with Real EV Battery Data"
+          ],
+          "author": [
+            {
+              "given": "Jose",
+              "family": "Betancourt",
+              "sequence": "first",
+              "affiliation": [
+                {
+                  "name": "McNeese State University,Lake Charles,LA,USA"
+                }
+              ],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Cunzhi",
+              "family": "Zhao",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "McNeese State University,Lake Charles,LA,USA"
+                }
+              ],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "David",
+              "family": "Okpo",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "McNeese State University,Lake Charles,LA,USA"
+                }
+              ],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2026,
+                1,
+                18
+              ]
+            ]
+          },
+          "container-title": [
+            "2026 IEEE PES International Meeting (PES IM)"
+          ],
+          "type": "proceedings-article",
+          "URL": "https://doi.org/10.1109/pesim67009.2026.11439034"
+        },
+        {
+          "DOI": "10.21105/joss.06636",
+          "title": [
+            "fMRIStroke: A preprocessing pipeline for fMRI Data from\nStroke patients"
+          ],
+          "author": [
+            {
+              "ORCID": "https://orcid.org/0009-0008-2046-3703",
+              "authenticated-orcid": false,
+              "given": "Alix",
+              "family": "Lamouroux",
+              "sequence": "first",
+              "affiliation": [
+                {
+                  "name": "IMT Atlantique, Lab-STICC UMR CNRS 6285 F-29238,Brest, France"
+                },
+                {
+                  "name": "Univ Rennes, Inria, CNRS, Inserm, Rennes, France"
+                }
+              ],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "ORCID": "https://orcid.org/0000-0002-8327-9814",
+              "authenticated-orcid": false,
+              "given": "Giulia",
+              "family": "Lioi",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "IMT Atlantique, Lab-STICC UMR CNRS 6285 F-29238,Brest, France"
+                }
+              ],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "ORCID": "https://orcid.org/0000-0001-7774-8015",
+              "authenticated-orcid": false,
+              "given": "Julie",
+              "family": "Coloigner",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "Univ Rennes, Inria, CNRS, Inserm, Rennes, France"
+                }
+              ],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "ORCID": "https://orcid.org/0000-0003-2539-7414",
+              "authenticated-orcid": false,
+              "given": "Pierre",
+              "family": "Maurel",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "Univ Rennes, Inria, CNRS, Inserm, Rennes, France"
+                }
+              ],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "ORCID": "https://orcid.org/0000-0001-7160-0431",
+              "authenticated-orcid": false,
+              "given": "Nicolas",
+              "family": "Farrugia",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "IMT Atlantique, Lab-STICC UMR CNRS 6285 F-29238,Brest, France"
+                }
+              ],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2024,
+                11,
+                20
+              ]
+            ]
+          },
+          "container-title": [
+            "Journal of Open Source Software"
+          ],
+          "type": "journal-article",
+          "URL": "https://doi.org/10.21105/joss.06636"
+        },
+        {
+          "DOI": "10.3390/s25154737",
+          "title": [
+            "A Preprocessing Pipeline for Pupillometry Signal from Multimodal iMotion Data"
+          ],
+          "author": [
+            {
+              "given": "Jingxiang",
+              "family": "Ong",
+              "sequence": "first",
+              "affiliation": [
+                {
+                  "name": "Department of Surgery, University of Manitoba Max Rady College of Medicine, Winnipeg, MB R3E 0W2, Canada"
+                }
+              ],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "ORCID": "https://orcid.org/0000-0002-5180-7256",
+              "authenticated-orcid": false,
+              "given": "Wenjing",
+              "family": "He",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "Department of Surgery, University of Manitoba Max Rady College of Medicine, Winnipeg, MB R3E 0W2, Canada"
+                }
+              ],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Princess",
+              "family": "Maglanque",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "Department of Surgery, University of Manitoba Max Rady College of Medicine, Winnipeg, MB R3E 0W2, Canada"
+                }
+              ],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "ORCID": "https://orcid.org/0000-0002-3219-1871",
+              "authenticated-orcid": false,
+              "given": "Xianta",
+              "family": "Jiang",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "Department of Computer Science, Memorial University of Newfoundland, St. John’s, NL A1B 3X7, Canada"
+                }
+              ],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "ORCID": "https://orcid.org/0000-0003-2429-9740",
+              "authenticated-orcid": false,
+              "given": "Lawrence M.",
+              "family": "Gillman",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "Department of Surgery, University of Manitoba Max Rady College of Medicine, Winnipeg, MB R3E 0W2, Canada"
+                }
+              ],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "ORCID": "https://orcid.org/0000-0002-2479-623X",
+              "authenticated-orcid": false,
+              "given": "Ashley",
+              "family": "Vergis",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "Department of Surgery, University of Manitoba Max Rady College of Medicine, Winnipeg, MB R3E 0W2, Canada"
+                }
+              ],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "ORCID": "https://orcid.org/0000-0001-7638-7879",
+              "authenticated-orcid": false,
+              "given": "Krista",
+              "family": "Hardy",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "Department of Surgery, University of Manitoba Max Rady College of Medicine, Winnipeg, MB R3E 0W2, Canada"
+                }
+              ],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2025,
+                7,
+                31
+              ]
+            ]
+          },
+          "container-title": [
+            "Sensors"
+          ],
+          "abstract": "<jats:p>Pupillometry is commonly used to evaluate cognitive effort, attention, and facial expression response, offering valuable insights into human performance. The combination of eye tracking and facial expression data under the iMotions platform provides great opportunities for multimodal research. However, there is a lack of standardized pipelines for managing pupillometry data on a multimodal platform. Preprocessing pupil data in multimodal platforms poses challenges like timestamp misalignment, missing data, and inconsistencies across multiple data sources. To address these challenges, the authors introduced a systematic preprocessing pipeline for pupil diameter measurements collected using iMotions 10 (version 10.1.38911.4) during an endoscopy simulation task. The pipeline involves artifact removal, outlier detection using advanced methods such as the Median Absolute Deviation (MAD) and Moving Average (MA) algorithm filtering, interpolation of missing data using the Piecewise Cubic Hermite Interpolating Polynomial (PCHIP), and mean pupil diameter calculation through linear regression, as well as normalization of mean pupil diameter and integration of the pupil diameter dataset with facial expression data. By following these steps, the pipeline enhances data quality, reduces noise, and facilitates the seamless integration of pupillometry other multimodal datasets. In conclusion, this pipeline provides a detailed and organized preprocessing method that improves data reliability while preserving important information for further analysis.</jats:p>",
+          "type": "journal-article",
+          "URL": "https://doi.org/10.3390/s25154737"
+        },
+        {
+          "DOI": "10.3389/fimmu.2021.677870",
+          "title": [
+            "Microbiome Preprocessing Machine Learning Pipeline"
+          ],
+          "author": [
+            {
+              "given": "Yoel",
+              "family": "Jasner",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Anna",
+              "family": "Belogolovski",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Meirav",
+              "family": "Ben-Itzhak",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Omry",
+              "family": "Koren",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Yoram",
+              "family": "Louzoun",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2021,
+                6,
+                18
+              ]
+            ]
+          },
+          "container-title": [
+            "Frontiers in Immunology"
+          ],
+          "abstract": "<jats:sec>\n                    <jats:title>Background</jats:title>\n                    <jats:p>16S sequencing results are often used for Machine Learning (ML) tasks. 16S gene sequences are represented as feature counts, which are associated with taxonomic representation. Raw feature counts may not be the optimal representation for ML.</jats:p>\n                  </jats:sec>\n                  <jats:sec>\n                    <jats:title>Methods</jats:title>\n                    <jats:p>We checked multiple preprocessing steps and tested the optimal combination for 16S sequencing-based classification tasks. We computed the contribution of each step to the accuracy as measured by the Area Under Curve (AUC) of the classification.</jats:p>\n                  </jats:sec>\n                  <jats:sec>\n                    <jats:title>Results</jats:title>\n                    <jats:p>We show that the log of the feature counts is much more informative than the relative counts. We further show that merging features associated with the same taxonomy at a given level, through a dimension reduction step for each group of bacteria improves the AUC. Finally, we show that z-scoring has a very limited effect on the results.</jats:p>\n                  </jats:sec>\n                  <jats:sec>\n                    <jats:title>Conclusions</jats:title>\n                    <jats:p>\n                      The prepossessing of microbiome 16S data is crucial for optimal microbiome based Machine Learning. These preprocessing steps are integrated into the MIPMLP - Microbiome Preprocessing Machine Learning Pipeline, which is available as a stand-alone version at:\n                      <jats:uri>https://github.com/louzounlab/microbiome/tree/master/Preprocess</jats:uri>\n                      or as a service at\n                      <jats:uri>http://mip-mlp.math.biu.ac.il/Home</jats:uri>\n                      Both contain the code, and standard test sets.\n                    </jats:p>\n                  </jats:sec>",
+          "type": "journal-article",
+          "URL": "https://doi.org/10.3389/fimmu.2021.677870"
+        }
+      ],
+      "items-per-page": 15,
+      "query": {
+        "start-index": 0,
+        "search-terms": null
+      }
+    }
+  }
+}

@@ -1,0 +1,505 @@
+{
+  "database": "Crossref",
+  "endpoint": "https://api.crossref.org/works/10.1145/3589328",
+  "retrieved": "2026-09-09",
+  "status_code": 200,
+  "response": {
+    "status": "ok",
+    "message-type": "work",
+    "message-version": "1.0.0",
+    "message": {
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            9,
+            2
+          ]
+        ],
+        "date-time": "2026-09-02T04:38:01Z",
+        "timestamp": 1788323881993,
+        "version": "build-2803163510"
+      },
+      "reference-count": 42,
+      "publisher": "Association for Computing Machinery (ACM)",
+      "issue": "2",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2023,
+                6,
+                13
+              ]
+            ],
+            "date-time": "2023-06-13T00:00:00Z",
+            "timestamp": 1686614400000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "https://www.acm.org/publications/policies/copyright_policy#Background"
+        }
+      ],
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "short-container-title": [
+        "Proc. ACM Manag. Data"
+      ],
+      "published-print": {
+        "date-parts": [
+          [
+            2023,
+            6,
+            13
+          ]
+        ]
+      },
+      "abstract": "<jats:p>Data preprocessing is a crucial step in the machine learning process that transforms raw data into a more usable format for downstream ML models. However, it can be costly and time-consuming, often requiring the expertise of domain experts. Existing automated machine learning (AutoML) frameworks claim to automate data preprocessing. However, they often use a restricted search space of data preprocessing pipelines which limits the potential performance gains, and they are often too slow as they require training the ML model multiple times. In this paper, we propose DiffPrep, a method that can automatically and efficiently search for a data preprocessing pipeline for a given tabular dataset and a differentiable ML model such that the performance of the ML model is maximized. We formalize the problem of data preprocessing pipeline search as a bi-level optimization problem. To solve this problem efficiently, we transform and relax the discrete, non-differential search space into a continuous and differentiable one, which allows us to perform the pipeline search using gradient descent with training the ML model only once. Our experiments show that DiffPrep achieves the best test accuracy on 15 out of the 18 real-world datasets evaluated and improves the model's test accuracy by up to 6.6 percentage points.</jats:p>",
+      "DOI": "10.1145/3589328",
+      "type": "journal-article",
+      "created": {
+        "date-parts": [
+          [
+            2023,
+            6,
+            20
+          ]
+        ],
+        "date-time": "2023-06-20T20:26:45Z",
+        "timestamp": 1687292805000
+      },
+      "page": "1-26",
+      "source": "Crossref",
+      "is-referenced-by-count": 20,
+      "title": [
+        "DiffPrep: Differentiable Data Preprocessing Pipeline Search for Learning over Tabular Data"
+      ],
+      "prefix": "10.1145",
+      "volume": "1",
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0009-0007-7150-7633",
+          "authenticated-orcid": false,
+          "given": "Peng",
+          "family": "Li",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "Georgia Institute of Technology, Atlanta, GA, USA"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-5420-9956",
+          "authenticated-orcid": false,
+          "given": "Zhiyi",
+          "family": "Chen",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Georgia Institute of Technology, Atlanta, GA, USA"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0009-0007-3202-3767",
+          "authenticated-orcid": false,
+          "given": "Xu",
+          "family": "Chu",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Georgia Institute of Technology, Atlanta, GA, USA"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-3282-5360",
+          "authenticated-orcid": false,
+          "given": "Kexin",
+          "family": "Rong",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Georgia Institute of Technology, Atlanta, GA, USA"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "320",
+      "published-online": {
+        "date-parts": [
+          [
+            2023,
+            6,
+            20
+          ]
+        ]
+      },
+      "reference": [
+        {
+          "key": "e_1_2_2_1_1",
+          "volume-title": "Osdi",
+          "volume": "16",
+          "author": "Abadi Mart'in",
+          "year": "2016",
+          "unstructured": "Mart'in Abadi, Paul Barham, Jianmin Chen, Zhifeng Chen, Andy Davis, Jeffrey Dean, Matthieu Devin, Sanjay Ghemawat, Geoffrey Irving, Michael Isard, et al. 2016. Tensorflow: a system for large-scale machine learning.. In Osdi, Vol. 16. Savannah, GA, USA, 265--283."
+        },
+        {
+          "key": "e_1_2_2_2_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.14778/2994509.2994518"
+        },
+        {
+          "key": "e_1_2_2_3_1",
+          "volume-title": "Ranking via sinkhorn propagation. arXiv preprint arXiv:1106.1925",
+          "author": "Adams Ryan Prescott",
+          "year": "2011",
+          "unstructured": "Ryan Prescott Adams and Richard S Zemel. 2011. Ranking via sinkhorn propagation. arXiv preprint arXiv:1106.1925 (2011)."
+        },
+        {
+          "key": "e_1_2_2_4_1",
+          "unstructured": "Microsoft Azure. [n. d.]. Azure AutoML. https://azure.microsoft.com/en-us/services/machine-learning/automatedml/. Accessed: today."
+        },
+        {
+          "key": "e_1_2_2_5_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/3308558.3313602"
+        },
+        {
+          "key": "e_1_2_2_6_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/3318464.3389742"
+        },
+        {
+          "key": "e_1_2_2_7_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/2882903.2912574"
+        },
+        {
+          "key": "e_1_2_2_8_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/ICCV48922.2021.00659"
+        },
+        {
+          "key": "e_1_2_2_9_1",
+          "volume-title": "Deep direct reinforcement learning for financial signal representation and trading",
+          "author": "Deng Yue",
+          "year": "2016",
+          "unstructured": "Yue Deng, Feng Bao, Youyong Kong, Zhiquan Ren, and Qionghai Dai. 2016. Deep direct reinforcement learning for financial signal representation and trading. IEEE transactions on neural networks and learning systems, Vol. 28, 3 (2016), 653--664."
+        },
+        {
+          "key": "e_1_2_2_10_1",
+          "volume-title": "Hands-free AutoML via Meta-Learning. arXiv:2007.04074 [cs.LG]",
+          "author": "Feurer Matthias",
+          "year": "2020",
+          "unstructured": "Matthias Feurer, Katharina Eggensperger, Stefan Falkner, Marius Lindauer, and Frank Hutter. 2020. Auto-Sklearn 2.0: Hands-free AutoML via Meta-Learning. arXiv:2007.04074 [cs.LG] (2020)."
+        },
+        {
+          "key": "e_1_2_2_11_1",
+          "first-page": "2962",
+          "article-title": "Efficient and Robust Automated Machine Learning",
+          "volume": "28",
+          "author": "Feurer Matthias",
+          "year": "2015",
+          "unstructured": "Matthias Feurer, Aaron Klein, Jost Eggensperger, Katharina Springenberg, Manuel Blum, and Frank Hutter. 2015. Efficient and Robust Automated Machine Learning. In Advances in Neural Information Processing Systems 28 (2015). 2962--2970.",
+          "journal-title": "Advances in Neural Information Processing Systems"
+        },
+        {
+          "key": "e_1_2_2_12_1",
+          "volume-title": "International Conference on Machine Learning. PMLR, 1165--1173",
+          "author": "Franceschi Luca",
+          "year": "2017",
+          "unstructured": "Luca Franceschi, Michele Donini, Paolo Frasconi, and Massimiliano Pontil. 2017. Forward and reverse gradient-based hyperparameter optimization. In International Conference on Machine Learning. PMLR, 1165--1173."
+        },
+        {
+          "key": "e_1_2_2_13_1",
+          "volume-title": "Data preprocessing in data mining",
+          "author": "Garc'ia Salvador",
+          "unstructured": "Salvador Garc'ia, Julián Luengo, and Francisco Herrera. 2015. Data preprocessing in data mining. Springer."
+        },
+        {
+          "key": "e_1_2_2_14_1",
+          "unstructured": "Joseph Giovanelli Besim Bilalli and Alberto Abelló Gamazo. 2021. Effective data pre-processing for AutoML. In Proceedings of the 23rd International Workshop on Design Optimization Languages and Analytical Processing of Big Data (DOLAP): co-located with the 24th International Conference on Extending Database Technology and the 24th International Conference on Database Theory (EDBT/ICDT 2021): Nicosia Cyprus March 23 2021. CEUR-WS. org 1--10."
+        },
+        {
+          "key": "e_1_2_2_15_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.5555/646111.679466"
+        },
+        {
+          "key": "e_1_2_2_16_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.knosys.2020.106622"
+        },
+        {
+          "key": "e_1_2_2_17_1",
+          "volume-title": "DiffML: End-to-end Differentiable ML Pipelines. arXiv preprint arXiv:2207.01269",
+          "author": "Hilprecht Benjamin",
+          "year": "2022",
+          "unstructured": "Benjamin Hilprecht, Christian Hammacher, Eduardo Reis, Mohamed Abdelaal, and Carsten Binnig. 2022. DiffML: End-to-end Differentiable ML Pipelines. arXiv preprint arXiv:2207.01269 (2022)."
+        },
+        {
+          "key": "e_1_2_2_18_1",
+          "volume-title": "Xu Chu, Wentao Wu, and Ce Zhang.",
+          "author": "Karlavs Bojan",
+          "year": "2021",
+          "unstructured": "Bojan Karlavs, Peng Li, Renzhi Wu, Nezihe Merve Gürel, Xu Chu, Wentao Wu, and Ce Zhang. 2021. Nearest neighbor classifiers over incomplete information: From certain answers to certain predictions. In PVLDB, Vol. 14."
+        },
+        {
+          "key": "e_1_2_2_19_1",
+          "volume-title": "Machine learning applications in cancer prognosis and prediction. Computational and structural biotechnology journal",
+          "author": "Kourou Konstantina",
+          "year": "2015",
+          "unstructured": "Konstantina Kourou, Themis P Exarchos, Konstantinos P Exarchos, Michalis V Karamouzis, and Dimitrios I Fotiadis. 2015. Machine learning applications in cancer prognosis and prediction. Computational and structural biotechnology journal, Vol. 13 (2015), 8--17."
+        },
+        {
+          "key": "e_1_2_2_20_1",
+          "volume-title": "Boostclean: Automated error detection and repair for machine learning. arXiv preprint arXiv:1711.01299",
+          "author": "Krishnan Sanjay",
+          "year": "2017",
+          "unstructured": "Sanjay Krishnan, Michael J Franklin, Ken Goldberg, and Eugene Wu. 2017. Boostclean: Automated error detection and repair for machine learning. arXiv preprint arXiv:1711.01299 (2017)."
+        },
+        {
+          "key": "e_1_2_2_21_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.14778/2994509.2994514"
+        },
+        {
+          "key": "e_1_2_2_22_1",
+          "volume-title": "Alphaclean: Automatic generation of data cleaning pipelines. arXiv preprint arXiv:1904.11827",
+          "author": "Krishnan Sanjay",
+          "year": "2019",
+          "unstructured": "Sanjay Krishnan and Eugene Wu. 2019. Alphaclean: Automatic generation of data cleaning pipelines. arXiv preprint arXiv:1904.11827 (2019)."
+        },
+        {
+          "key": "e_1_2_2_23_1",
+          "volume-title": "Proceedings of the AutoML Workshop at ICML",
+          "volume": "2020",
+          "author": "LeDell Erin",
+          "year": "2020",
+          "unstructured": "Erin LeDell and Sebastien Poirier. 2020. H2o automl: Scalable automatic machine learning. In Proceedings of the AutoML Workshop at ICML, Vol. 2020."
+        },
+        {
+          "key": "e_1_2_2_24_1",
+          "volume-title": "CleanML: a study for evaluating the impact of data cleaning on ml classification tasks. In 2021 ICDE",
+          "author": "Li Peng",
+          "unstructured": "Peng Li, Xi Rao, Jennifer Blase, Yue Zhang, Xu Chu, and Ce Zhang. 2021. CleanML: a study for evaluating the impact of data cleaning on ml classification tasks. In 2021 ICDE. IEEE, 13--24."
+        },
+        {
+          "key": "e_1_2_2_25_1",
+          "volume-title": "Darts: Differentiable architecture search. arXiv preprint arXiv:1806.09055",
+          "author": "Liu Hanxiao",
+          "year": "2018",
+          "unstructured": "Hanxiao Liu, Karen Simonyan, and Yiming Yang. 2018. Darts: Differentiable architecture search. arXiv preprint arXiv:1806.09055 (2018)."
+        },
+        {
+          "key": "e_1_2_2_26_1",
+          "volume-title": "Investigating bi-level optimization for learning and vision from a unified perspective: A survey and beyond",
+          "author": "Liu Risheng",
+          "year": "2021",
+          "unstructured": "Risheng Liu, Jiaxin Gao, Jin Zhang, Deyu Meng, and Zhouchen Lin. 2021. Investigating bi-level optimization for learning and vision from a unified perspective: A survey and beyond. IEEE Transactions on Pattern Analysis and Machine Intelligence (2021)."
+        },
+        {
+          "key": "e_1_2_2_27_1",
+          "volume-title": "From Cleaning before ML to Cleaning for ML. Data Engineering",
+          "author": "Neutatz Felix",
+          "year": "2021",
+          "unstructured": "Felix Neutatz, Binger Chen, Ziawasch Abedjan, and Eugene Wu. 2021. From Cleaning before ML to Cleaning for ML. Data Engineering (2021), 24."
+        },
+        {
+          "key": "e_1_2_2_28_1",
+          "volume-title": "Data Cleaning and AutoML: Would an optimizer choose to clean? Datenbank-Spektrum",
+          "author": "Neutatz Felix",
+          "year": "2022",
+          "unstructured": "Felix Neutatz, Binger Chen, Yazan Alkhatib, Jingwen Ye, and Ziawasch Abedjan. 2022. Data Cleaning and AutoML: Would an optimizer choose to clean? Datenbank-Spektrum (2022), 1--10."
+        },
+        {
+          "key": "e_1_2_2_29_1",
+          "volume-title": "Workshop on automatic machine learning. PMLR, 66--74",
+          "author": "Olson Randal S",
+          "year": "2016",
+          "unstructured": "Randal S Olson and Jason H Moore. 2016. TPOT: A tree-based pipeline optimization tool for automating machine learning. In Workshop on automatic machine learning. PMLR, 66--74."
+        },
+        {
+          "key": "e_1_2_2_30_1",
+          "unstructured": "Adam Paszke Sam Gross Soumith Chintala Gregory Chanan Edward Yang Zachary DeVito Zeming Lin Alban Desmaison Luca Antiga and Adam Lerer. 2017. Automatic differentiation in PyTorch. (2017)."
+        },
+        {
+          "key": "e_1_2_2_31_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.5555/1953048.2078195"
+        },
+        {
+          "key": "e_1_2_2_32_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.4249/scholarpedia.1883"
+        },
+        {
+          "key": "e_1_2_2_33_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.is.2019.101483"
+        },
+        {
+          "key": "e_1_2_2_34_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/INVENTIVE.2016.7823280"
+        },
+        {
+          "key": "e_1_2_2_35_1",
+          "volume-title": "Data quality: The other face of big data. In 2014 ICDE",
+          "author": "Saha Barna",
+          "unstructured": "Barna Saha and Divesh Srivastava. 2014. Data quality: The other face of big data. In 2014 ICDE. IEEE, 1294--1297."
+        },
+        {
+          "key": "e_1_2_2_36_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/CVPR.2017.640"
+        },
+        {
+          "key": "e_1_2_2_37_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/3299869.3319863"
+        },
+        {
+          "key": "e_1_2_2_38_1",
+          "volume-title": "A relationship between arbitrary positive matrices and doubly stochastic matrices. The annals of mathematical statistics",
+          "author": "Sinkhorn Richard",
+          "year": "1964",
+          "unstructured": "Richard Sinkhorn. 1964. A relationship between arbitrary positive matrices and doubly stochastic matrices. The annals of mathematical statistics, Vol. 35, 2 (1964), 876--879."
+        },
+        {
+          "key": "e_1_2_2_39_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.2140/pjm.1967.21.343"
+        },
+        {
+          "key": "e_1_2_2_40_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/2487575.2487629"
+        },
+        {
+          "key": "e_1_2_2_41_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/2641190.2641198"
+        },
+        {
+          "key": "e_1_2_2_42_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/3514221.3517891"
+        }
+      ],
+      "container-title": [
+        "Proceedings of the ACM on Management of Data"
+      ],
+      "original-title": [],
+      "language": "en",
+      "link": [
+        {
+          "URL": "https://dl.acm.org/doi/10.1145/3589328",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        },
+        {
+          "URL": "https://dl.acm.org/doi/pdf/10.1145/3589328",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2025,
+            6,
+            17
+          ]
+        ],
+        "date-time": "2025-06-17T16:46:14Z",
+        "timestamp": 1750178774000
+      },
+      "score": 1,
+      "resource": {
+        "primary": {
+          "URL": "https://dl.acm.org/doi/10.1145/3589328"
+        }
+      },
+      "subtitle": [],
+      "short-title": [],
+      "issued": {
+        "date-parts": [
+          [
+            2023,
+            6,
+            13
+          ]
+        ]
+      },
+      "references-count": 42,
+      "journal-issue": {
+        "issue": "2",
+        "published-print": {
+          "date-parts": [
+            [
+              2023,
+              6,
+              13
+            ]
+          ]
+        }
+      },
+      "alternative-id": [
+        "10.1145/3589328"
+      ],
+      "URL": "https://doi.org/10.1145/3589328",
+      "relation": {},
+      "ISSN": [
+        "2836-6573"
+      ],
+      "issn-type": [
+        {
+          "value": "2836-6573",
+          "type": "electronic"
+        }
+      ],
+      "subject": [],
+      "published": {
+        "date-parts": [
+          [
+            2023,
+            6,
+            13
+          ]
+        ]
+      }
+    }
+  }
+}

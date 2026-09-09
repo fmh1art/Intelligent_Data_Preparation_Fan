@@ -1,0 +1,849 @@
+{
+  "id": "Q8",
+  "source": "Crossref works relevance search",
+  "query": {
+    "query": "data preparation language models benchmark",
+    "rows": 15,
+    "filter": "from-pub-date:2009-01-01,until-pub-date:2026-09-09",
+    "select": "DOI,title,author,published,container-title,abstract,type,URL"
+  },
+  "endpoint": "https://api.crossref.org/works?query=data+preparation+language+models+benchmark&rows=15&filter=from-pub-date%3A2009-01-01%2Cuntil-pub-date%3A2026-09-09&select=DOI%2Ctitle%2Cauthor%2Cpublished%2Ccontainer-title%2Cabstract%2Ctype%2CURL",
+  "retrieved": "2026-09-09",
+  "response": {
+    "status": "ok",
+    "message-type": "work-list",
+    "message-version": "1.0.0",
+    "message": {
+      "facets": {},
+      "total-results": 4219777,
+      "items": [
+        {
+          "DOI": "10.20944/preprints202605.1430.v1",
+          "title": [
+            "Cognitive Computing with Small Language Models: A Reproducible End-to-End Benchmark for Automated Data Science on Tabular Data"
+          ],
+          "author": [
+            {
+              "ORCID": "https://orcid.org/0009-0005-6619-0956",
+              "authenticated-orcid": false,
+              "given": "Ramesh B.",
+              "family": "Paramkusham",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2026,
+                5,
+                21
+              ]
+            ]
+          },
+          "abstract": "<jats:p>Automated data science (AutoDS) workflows demand significant human expertise across exploratory data analysis (EDA), feature engineering, and model selection. While large language models (LLMs) have demonstrated strong capabilities in supporting these stages, their computational cost, latency, and data-egress exposure limit deployment in resource-constrained, latency-sensitive, or privacy-regulated environments — precisely the constraints that frame much of BDCC's cognitive-computing agenda (Liotsiou, Picca, &amp;amp; Boididou, 2025). The recent emergence of capable Small Language Models (SLMs) — 100M–7B parameter models such as TinyLlama (Zhang et al., 2024), Phi-2/Phi-3 (Microsoft Research, 2023; 2024), Mistral 7B (Jiang et al., 2023), Gemma/Gemma 2 (Google DeepMind, 2024a; 2024b), Qwen2 (Yang et al., 2024), OLMo (Groeneveld et al., 2024), and the Falcon series (Almazrouei et al., 2023), enabled in practice by aggressive distillation and quantization (Maslej-Krešňáková et al., 2025) — has been positioned by multiple 2024–2026 surveys (Lu et al., 2024; Wang et al., 2024; Belcak &amp;amp; Heinrich, 2025; Zhao et al., 2025; SIGKDD SLM survey, 2025) as a sustainable substrate for agentic and on-device cognitive computing. Whether this capability transfers reliably to end-to-end AutoDS pipelines, however, remains an open empirical question.This paper presents the first structured, multi-task evaluation of SLM performance across the three canonical AutoDS stages on five tabular benchmark datasets (PVA Donation, Adult Income, Breast Cancer Wisconsin, Credit Default, Heart Disease). SLMs are compared against (i) trained human-expert analysts and (ii) state-of-practice rule-based profiling tools across three dimensions of EDA quality (correctness, usefulness, novelty) and downstream classification performance across three classifier families (Logistic Regression, Random Forest, Gradient Boosting) under 5-fold stratified cross-validation. SLMs achieve EDA correctness of 3.70 ± 0.14 on a 1–5 scale (77.8% of human-expert performance, exceeding the pre-registered 70% threshold), moderate feature-engineering gains on structurally clear datasets (+0.53% accuracy on Adult Income, Cohen's d ≈ 0.71; +0.46% on Heart Disease, d ≈ 0.55), and 100% model-recommendation accuracy — matching human analysts and substantially exceeding rule-based tools (40%). Feature-importance analysis shows SLM-suggested features account for 39.9% of total Random Forest importance while constituting only 30.8% of feature count, indicating above-proportional informativeness. These results position SLMs as effective first-pass AutoDS tools within atiered SLM–LLM deployment pattern (Chen et al., 2023; Madaan et al., 2024; Qiao et al., 2024) — a deployment model directly responsive to the reliability and governance concerns highlighted in recent BDCC work on inference engines and AI data governance. Code, datasets, and all experimental artifacts are released at https://github.com/rbpdlf/slm-auto-ds.</jats:p>",
+          "type": "posted-content",
+          "URL": "https://doi.org/10.20944/preprints202605.1430.v1"
+        },
+        {
+          "DOI": "10.32920/29873867",
+          "title": [
+            "Framework to Benchmark Adversarial Attacks on Language Models"
+          ],
+          "author": [
+            {
+              "given": "Bipin",
+              "family": "Aasi",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2026,
+                1,
+                26
+              ]
+            ]
+          },
+          "abstract": "<jats:p>&lt;p dir=\"ltr\"&gt;Applications relying on Large Language Models (LLMs), such as ChatGPT, BARD, and Llamma, have gained widespread adoption across various industries, highlighting the critical need to assess their reliability and robustness in real-world scenarios [1, 2]. Evaluating LLMs’ robustness often involves exposing them to adversarial datasets, where perturbations are introduced to assess their performance beyond the training data’s distribution.&lt;/p&gt;&lt;p dir=\"ltr\"&gt;This paper aims to enhance the methodological rigor of evaluating adversarial attacks on LLMs, focusing on fidelity and transferability metrics. Specifically, we contrast results from BERTScore, Universal Sentence Encoder (USE), and Sentence Similarity metrics, proposing improvements to benchmarking methodologies, such as Word Modification Rate rules [3]. Our experiment benchmarks three popular attacks—BERT-based Adversarial Examples (BAE), Attack for Adversarial Training Recipe (A2T), and TextFooler—against BERT-based victim models: BERT, ALBERT, and DistilBERT.&lt;/p&gt;&lt;p dir=\"ltr\"&gt;Our contributions include sentence-level fidelity metrics for word-level attacks, an exploration of alternative fidelity metrics, and the potential limitations of applying BERTScore to adversarial examples.&lt;/p&gt;&lt;p dir=\"ltr\"&gt;Results reveal that perturbation thresholds based on a percentage of the sentence length can lead to biases, favoring longer sentences. USE and Similarity Score metrics exhibit similar fidelity results, with BERTScore showing lower variance in values. BAE outperforms A2T and TextFooler in fidelity and transferability, with a direct correlation between fidelity and transferability. TextFooler demonstrates the highest drop in transferability between the victim model and the new model, while also having the lowest fidelity.&lt;/p&gt;&lt;p dir=\"ltr\"&gt;These findings contribute to a more robust filtering mechanism for adversarial examples, ensuring semantical and meaningful preservation. Such a mechanism aids in preventing overfitting to non-naturally occurring data and reduces biases and costs associated with manual evaluation frameworks, enhancing adversarial attack benchmarking methodologies.&lt;/p&gt;</jats:p>",
+          "type": "posted-content",
+          "URL": "https://doi.org/10.32920/29873867"
+        },
+        {
+          "DOI": "10.1109/bigdata66926.2025.11402578",
+          "title": [
+            "Do Multimodal Large Language Models Compete with Specialized Object Detection Models? A Quantitative Benchmark"
+          ],
+          "author": [
+            {
+              "given": "Andrew",
+              "family": "Dunton",
+              "sequence": "first",
+              "affiliation": [
+                {
+                  "name": "San Jose State University,Department of Applied Data Science,San Jose,USA"
+                }
+              ],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Priya",
+              "family": "Govindarajulu",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "San Jose State University,Department of Applied Data Science,San Jose,USA"
+                }
+              ],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Mohammad",
+              "family": "Masum",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "San Jose State University,Department of Applied Data Science,San Jose,USA"
+                }
+              ],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2025,
+                12,
+                8
+              ]
+            ]
+          },
+          "container-title": [
+            "2025 IEEE International Conference on Big Data (BigData)"
+          ],
+          "type": "proceedings-article",
+          "URL": "https://doi.org/10.1109/bigdata66926.2025.11402578"
+        },
+        {
+          "DOI": "10.32920/29873867.v1",
+          "title": [
+            "Framework to Benchmark Adversarial Attacks on Language Models"
+          ],
+          "author": [
+            {
+              "given": "Bipin",
+              "family": "Aasi",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2026,
+                1,
+                26
+              ]
+            ]
+          },
+          "abstract": "<jats:p>&lt;p dir=\"ltr\"&gt;Applications relying on Large Language Models (LLMs), such as ChatGPT, BARD, and Llamma, have gained widespread adoption across various industries, highlighting the critical need to assess their reliability and robustness in real-world scenarios [1, 2]. Evaluating LLMs’ robustness often involves exposing them to adversarial datasets, where perturbations are introduced to assess their performance beyond the training data’s distribution.&lt;/p&gt;&lt;p dir=\"ltr\"&gt;This paper aims to enhance the methodological rigor of evaluating adversarial attacks on LLMs, focusing on fidelity and transferability metrics. Specifically, we contrast results from BERTScore, Universal Sentence Encoder (USE), and Sentence Similarity metrics, proposing improvements to benchmarking methodologies, such as Word Modification Rate rules [3]. Our experiment benchmarks three popular attacks—BERT-based Adversarial Examples (BAE), Attack for Adversarial Training Recipe (A2T), and TextFooler—against BERT-based victim models: BERT, ALBERT, and DistilBERT.&lt;/p&gt;&lt;p dir=\"ltr\"&gt;Our contributions include sentence-level fidelity metrics for word-level attacks, an exploration of alternative fidelity metrics, and the potential limitations of applying BERTScore to adversarial examples.&lt;/p&gt;&lt;p dir=\"ltr\"&gt;Results reveal that perturbation thresholds based on a percentage of the sentence length can lead to biases, favoring longer sentences. USE and Similarity Score metrics exhibit similar fidelity results, with BERTScore showing lower variance in values. BAE outperforms A2T and TextFooler in fidelity and transferability, with a direct correlation between fidelity and transferability. TextFooler demonstrates the highest drop in transferability between the victim model and the new model, while also having the lowest fidelity.&lt;/p&gt;&lt;p dir=\"ltr\"&gt;These findings contribute to a more robust filtering mechanism for adversarial examples, ensuring semantical and meaningful preservation. Such a mechanism aids in preventing overfitting to non-naturally occurring data and reduces biases and costs associated with manual evaluation frameworks, enhancing adversarial attack benchmarking methodologies.&lt;/p&gt;</jats:p>",
+          "type": "posted-content",
+          "URL": "https://doi.org/10.32920/29873867.v1"
+        },
+        {
+          "DOI": "10.1038/s41597-026-07611-7",
+          "title": [
+            "A multimodal benchmark dataset for evaluating large language models on traditional Chinese opera understanding"
+          ],
+          "author": [
+            {
+              "given": "Gengxian",
+              "family": "Cao",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "ORCID": "https://orcid.org/0009-0001-3402-8875",
+              "authenticated-orcid": false,
+              "given": "Shuo",
+              "family": "Hou",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Ye",
+              "family": "Yang",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Ruosong",
+              "family": "Liu",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Hong",
+              "family": "Duan",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Donghe",
+              "family": "Li",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2026,
+                7,
+                1
+              ]
+            ]
+          },
+          "container-title": [
+            "Scientific Data"
+          ],
+          "abstract": "<jats:title>Abstract</jats:title>\n                  <jats:p>Benchmarking is essential for evaluating the capabilities of large language models (LLMs). However, existing multimodal benchmarks lack dedicated resources for traditional Chinese opera, a domain rich in cultural and visual complexity. To address this gap, we introduce the TCO-Dataset, a bilingual multimodal dataset designed to assess LLMs’ ability to interpret and reason about Chinese opera images. The dataset contains 1,000 multiple-choice questions paired with high-resolution images across eight major opera genres. Each sample includes a carefully selected image, a corresponding question focused on cultural and visual understanding, and an annotated answer for evaluation. The dataset supports both Chinese and English, enabling cross-lingual model assessment. All items were reviewed through multiple rounds of expert validation to ensure consistency and accuracy. The TCO-Dataset supports diverse applications, including still-image-based visual-cultural reasoning, cultural heritage preservation, and domain-specific AI development. Initial evaluations show significant performance variation across models, underscoring the dataset’s challenge and value for advancing multimodal understanding.</jats:p>",
+          "type": "journal-article",
+          "URL": "https://doi.org/10.1038/s41597-026-07611-7"
+        },
+        {
+          "DOI": "10.36227/techrxiv.177092128.89129370/v1",
+          "title": [
+            "ChemPro: A Progressive Chemistry Benchmark for Large Language Models"
+          ],
+          "author": [
+            {
+              "ORCID": "https://orcid.org/0009-0007-8617-9919",
+              "authenticated-orcid": false,
+              "given": "Aaditya",
+              "family": "Baranwal",
+              "sequence": "first",
+              "affiliation": [
+                {
+                  "name": "University of Central Florida"
+                }
+              ],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Shruti",
+              "family": "Vyas",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "University of Central Florida"
+                }
+              ],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2026,
+                2,
+                12
+              ]
+            ]
+          },
+          "abstract": "<jats:p>\n                  We introduce\n                  <jats:code orientation=\"portrait\" position=\"float\" xml:space=\"preserve\">ChemPro</jats:code>\n                  , a progressive benchmark with 4100 natural language question-answer pairs in Chemistry, across 4 coherent sections of difficulty designed to assess the proficiency of Large Language Models (LLMs) in a broad spectrum of general chemistry topics. We include Multiple Choice Questions and Numerical Questions spread across fine-grained information recall, long-horizon reasoning, multi-concept questions, problem-solving with nuanced articulation, and straightforward questions in a balanced ratio, effectively covering Bio-Chemistry, Inorganic-Chemistry, Organic-Chemistry and Physical-Chemistry. ChemPro is carefully designed analogous to a student's academic evaluation for basic to high-school chemistry. A gradual increase in the question difficulty rigorously tests the ability of LLMs to progress from solving basic problems to solving more sophisticated challenges.  We evaluate 45+7 state-of-the-art LLMs, spanning both open-source and proprietary variants, and our analysis reveals that while LLMs perform well on basic chemistry questions, their accuracy declines with different types and levels of complexity. These findings highlight the critical limitations of LLMs in general scientific reasoning and understanding and point towards understudied dimensions of difficulty, emphasizing the need for more robust methodologies to improve LLMs.\n                </jats:p>",
+          "type": "posted-content",
+          "URL": "https://doi.org/10.36227/techrxiv.177092128.89129370/v1"
+        },
+        {
+          "DOI": "10.26434/chemrxiv.10001919/v1",
+          "title": [
+            "ChemPro: A Progressive Chemistry Benchmark for Large Language Models"
+          ],
+          "author": [
+            {
+              "given": "Aaditya",
+              "family": "Baranwal",
+              "sequence": "first",
+              "affiliation": [
+                {
+                  "name": "University of Central Florida"
+                }
+              ],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Shruti",
+              "family": "Vyas",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "University of Central Florida"
+                }
+              ],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2026,
+                2,
+                3
+              ]
+            ]
+          },
+          "abstract": "<jats:p>\n                  We introduce\n                  <jats:bold>\n                    <jats:italic toggle=\"yes\">ChemPro</jats:italic>\n                  </jats:bold>\n                  a progressive benchmark with 4100 natural language question-answer pairs in Chemistry, across 4 coherent sections of difficulty designed to assess the proficiency of Large Language Models (LLMs) in a broad spectrum of general chemistry topics. We include Multiple Choice Questions and Numerical Questions spread across fine-grained information recall, long-horizon reasoning, multi-concept questions, problem-solving with nuanced articulation, and straightforward questions in a balanced ratio, effectively covering Bio-Chemistry, Inorganic-Chemistry, Organic-Chemistry and Physical-Chemistry. ChemPro is carefully designed analogous to a student's academic evaluation for basic to high-school chemistry. A gradual increase in the question difficulty rigorously tests the ability of LLMs to progress from solving basic problems to solving more sophisticated challenges. We evaluate 45+7 state-of-the-art LLMs, spanning both open-source and proprietary variants, and our analysis reveals that while LLMs perform well on basic chemistry questions, their accuracy declines with different types and levels of complexity. These findings highlight the critical limitations of LLMs in general scientific reasoning and understanding and point towards understudied dimensions of difficulty, emphasizing the need for more robust methodologies to improve LLMs.\n                </jats:p>",
+          "type": "posted-content",
+          "URL": "https://doi.org/10.26434/chemrxiv.10001919/v1"
+        },
+        {
+          "DOI": "10.2139/ssrn.4769124",
+          "title": [
+            "Construction of a Japanese Financial Benchmark for Large Language Models"
+          ],
+          "author": [
+            {
+              "ORCID": "https://orcid.org/0000-0001-5883-8250",
+              "authenticated-orcid": true,
+              "given": "Masanori",
+              "family": "Hirano",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2024
+              ]
+            ]
+          },
+          "abstract": "<jats:p>With the recent development of large language models (LLMs), models that focus on certain domains and languages have been discussed for their necessity.&lt;br&gt;There is also a growing need for benchmarks to evaluate the performance of current LLMs in each domain.&lt;br&gt;Therefore, in this study, we constructed a benchmark comprising multiple tasks specific to the Japanese and financial domains and performed benchmark measurements on some models.&lt;br&gt;Consequently, we confirmed that GPT-4 is currently outstanding, and that the constructed benchmarks function effectively.&lt;br&gt;According to our analysis, our benchmark can differentiate benchmark scores among models in all performance ranges by combining tasks with different difficulties.</jats:p>",
+          "type": "posted-content",
+          "URL": "https://doi.org/10.2139/ssrn.4769124"
+        },
+        {
+          "DOI": "10.1109/icdmw69685.2025.00171",
+          "title": [
+            "OPTiCAL: An Abstract Positional Reasoning Benchmark for Vision Language Models"
+          ],
+          "author": [
+            {
+              "given": "Christopher",
+              "family": "Driggers-Ellis",
+              "sequence": "first",
+              "affiliation": [
+                {
+                  "name": "University of Florida,Department of Computer &#x0026; Information Sciences &#x0026; Engineering,Gainesville,FL,USA"
+                }
+              ],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Gabriel",
+              "family": "Ayoubi",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "University of Florida,Department of Computer &#x0026; Information Sciences &#x0026; Engineering,Gainesville,FL,USA"
+                }
+              ],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Christan",
+              "family": "Grant",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "University of Florida,Department of Computer &#x0026; Information Sciences &#x0026; Engineering,Gainesville,FL,USA"
+                }
+              ],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2025,
+                11,
+                12
+              ]
+            ]
+          },
+          "container-title": [
+            "2025 IEEE International Conference on Data Mining Workshops (ICDMW)"
+          ],
+          "type": "proceedings-article",
+          "URL": "https://doi.org/10.1109/icdmw69685.2025.00171"
+        },
+        {
+          "DOI": "10.1038/s41597-026-08175-2",
+          "title": [
+            "ProteinLMDataset-Reason: A Large-Scale Dataset and Benchmark for Protein Reasoning in Large Language Models"
+          ],
+          "author": [
+            {
+              "given": "Chong",
+              "family": "Wang",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Shaolei",
+              "family": "Geng",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Mengyao",
+              "family": "Li",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Kaili",
+              "family": "Qu",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Yu Guang",
+              "family": "Wang",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Yiqing",
+              "family": "Shen",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2026,
+                8,
+                25
+              ]
+            ]
+          },
+          "container-title": [
+            "Scientific Data"
+          ],
+          "type": "journal-article",
+          "URL": "https://doi.org/10.1038/s41597-026-08175-2"
+        },
+        {
+          "DOI": "10.2139/ssrn.6829506",
+          "title": [
+            "IaCBench: How Reliably Do Large Language Models Generate Secure Infrastructure-as-Code? A Multi-Language Benchmark and Empirical Study of Frontier Models"
+          ],
+          "author": [
+            {
+              "ORCID": "https://orcid.org/0009-0008-4521-6725",
+              "authenticated-orcid": true,
+              "given": "Tarun",
+              "family": "Tiwari",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "ORCID": "https://orcid.org/0009-0007-3522-4652",
+              "authenticated-orcid": true,
+              "given": "Radhika",
+              "family": "Gupta",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2026
+              ]
+            ]
+          },
+          "abstract": "<jats:p>Infrastructure-as-Code (IaC) defines much of the operational surface of cloud systems, but automatically generating IaC is riskier than ordinary code generation: an artifact can be syntactically valid while violating security policy. Despite growing use of LLMs for Kubernetes, Terraform, and Dockerfile authoring, no systematic benchmark measures whether LLM-generated IaC is schema-conformant, security-compliant, and functionally correct. We present IaCBench, a multi-language benchmark containing 150 tasks across Kubernetes YAML, Terraform HCL, and Dockerfile, balanced across five difficulty levels. IaCBench evaluates artifacts through a four-layer validation pipeline covering syntax, schema conformance, security policy, and functional correctness. Using InfraAgent, an evaluation harness with documentation-augmented retrieval (RAG) and iterative self-correction, we evaluate four frontier LLMs: GPT-4o, GPT-4o-mini, Claude Haiku 4.5, and Claude Sonnet 4.5. Frontier models achieve 86.0–98.7% functional correctness with near-perfect syntax validity. However, security compliance remains uneven: Claude models achieve 94.3–96.5% security pass rates while GPT models remain near 84%, with the largest gap in Terraform IAM-policy tasks. RAG provides modest functional gains (+0–1.3 pp) but eliminates remaining failures for Claude Sonnet 4.5, reaching 100% correctness. A security-prompt ablation shows the GPT security gap is partially instruction-addressable, but a residual gap remains. These findings suggest the frontier challenge has shifted from producing parseable configurations to producing configurations that are simultaneously correct, policy-compliant, and robust across IaC languages. We release IaCBench, InfraAgent, prompts, validation policies, reference solutions, and per-task results to support reproducible evaluation.</jats:p>",
+          "type": "posted-content",
+          "URL": "https://doi.org/10.2139/ssrn.6829506"
+        },
+        {
+          "DOI": "10.5334/johd.481",
+          "title": [
+            "The RISE Humanities Data Benchmark: A Framework for Evaluating Large Language Models for Humanities Tasks"
+          ],
+          "author": [
+            {
+              "ORCID": "https://orcid.org/0000-0002-9337-4655",
+              "authenticated-orcid": false,
+              "given": "Maximilian",
+              "family": "Hindermann",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "ORCID": "https://orcid.org/0000-0002-9541-1202",
+              "authenticated-orcid": false,
+              "given": "Sorin",
+              "family": "Marti",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "ORCID": "https://orcid.org/0000-0002-4671-1700",
+              "authenticated-orcid": false,
+              "given": "Lea Katharina",
+              "family": "Kasper",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "ORCID": "https://orcid.org/0000-0003-3681-1289",
+              "authenticated-orcid": false,
+              "given": "Arno",
+              "family": "Bosse",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2026
+              ]
+            ]
+          },
+          "container-title": [
+            "Journal of Open Humanities Data"
+          ],
+          "type": "journal-article",
+          "URL": "https://doi.org/10.5334/johd.481"
+        },
+        {
+          "DOI": "10.2139/ssrn.6803400",
+          "title": [
+            "EconBench: Rethinking Evaluation for Economic Reasoning in Large Language Models beyond Benchmark Saturation"
+          ],
+          "author": [
+            {
+              "ORCID": "https://orcid.org/0000-0002-8733-6126",
+              "authenticated-orcid": true,
+              "given": "Justin",
+              "family": "Yan",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2026
+              ]
+            ]
+          },
+          "abstract": "<jats:p>&lt;p&gt;Existing benchmarks for evaluating large language model (LLM) performance on economics and finance tasks suffer from a fundamental measurement problem: they conflate surface fluency with structural economic reasoning, rewarding models that retrieve and recombine memorized content over those that genuinely reason about scarcity, incentives, and equilibrium. As LLMs increasingly saturate these benchmarks—with frontier models exceeding 85% on FLARE, FinQA, and related datasets—the field lacks tools to distinguish genuine economic understanding from sophisticated pattern matching. We introduce EconBench, a hierarchically structured evaluation framework comprising 4,200 expert-curated items spanning five reasoning strata: definitional recall, conceptual application, multi-step causal inference, equilibrium analysis under uncertainty, and institutional-context-dependent reasoning. Items are constructed to resist memorization through (a) novel scenario framing that preserves causal structure while altering surface features, (b) deliberate inclusion of plausible distractor reasoning chains, and (c) adversarial perturbation of standard textbook formulations. We evaluate fourteen frontier and open-weight LLMs and find systematic performance stratification: all models perform competitively at Strata 1–2 (definitional and applied), but diverge sharply at Strata 3–5, with the best model (GPT-4o) achieving only 51.3% at Stratum 5 compared to an expert economist baseline of 84.7%. We further demonstrate that chain-of-thought prompting improves Strata 3–4 performance but produces overconfident wrong reasoning at Stratum 5, where models construct internally consistent but economically invalid arguments at a higher rate under CoT than without. We release EconBench, item construction protocols, and economist-annotated reasoning chains to support evaluation research. It is available at&amp;nbsp;https://github.com/yanjiaju16-art/econbench&lt;/p&gt;</jats:p>",
+          "type": "posted-content",
+          "URL": "https://doi.org/10.2139/ssrn.6803400"
+        },
+        {
+          "DOI": "10.2139/ssrn.6445098",
+          "title": [
+            "THERMOQA: A Three-Tier Benchmark for Evaluating Thermodynamic Reasoning in Large Language Models"
+          ],
+          "author": [
+            {
+              "ORCID": "https://orcid.org/0000-0002-4357-2880",
+              "authenticated-orcid": true,
+              "given": "Kemal",
+              "family": "Duzkar",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2026
+              ]
+            ]
+          },
+          "abstract": "<jats:p>We present THERMOQA, a benchmark of 293 open-ended engineering thermodynamics problems in three tiers: property lookups (110 Q), component analysis (101 Q), and full cycle analysis (82 Q). Ground truth is computed programmatically from CoolProp 7.2.0, covering water, R-134a, and variablec p air. Six frontier LLMs are evaluated across three independent runs each. The composite leaderboard is led by Claude Opus 4.6 (94.1%), GPT-5.4 (93.1%), and Gemini 3.1 Pro (92.5%). Cross-tier degradation ranges from 2.8 pp (Opus) to 32.5 pp (MiniMax), confirming that property memorization does not imply thermodynamic reasoning. Supercritical water, R-134a refrigerant, and combined-cycle gas turbine analysis serve as natural discriminators with 40-60 pp performance spreads. Multi-run σ ranges from ±0.1% to ±2.5%, quantifying reasoning consistency as a distinct evaluation axis. Dataset and code are open-source at https://huggingface.co/datasets/olivenet/thermoqa.</jats:p>",
+          "type": "posted-content",
+          "URL": "https://doi.org/10.2139/ssrn.6445098"
+        },
+        {
+          "DOI": "10.18653/v1/2025.emnlp-main.1051",
+          "title": [
+            "Metric Calculating Benchmark: Code-Verifiable Complicate Instruction Following Benchmark for Large Language Models"
+          ],
+          "author": [
+            {
+              "given": "Hyeonseok",
+              "family": "Moon",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Seongtae",
+              "family": "Hong",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Jaehyung",
+              "family": "Seo",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Heuiseok",
+              "family": "Lim",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2025
+              ]
+            ]
+          },
+          "container-title": [
+            "Proceedings of the 2025 Conference on Empirical Methods in Natural Language Processing"
+          ],
+          "type": "proceedings-article",
+          "URL": "https://doi.org/10.18653/v1/2025.emnlp-main.1051"
+        }
+      ],
+      "items-per-page": 15,
+      "query": {
+        "start-index": 0,
+        "search-terms": "data preparation language models benchmark"
+      }
+    }
+  }
+}

@@ -1,0 +1,879 @@
+{
+  "id": "Q3",
+  "source": "Crossref works relevance search",
+  "query": {
+    "query": "data cleaning error detection repair",
+    "rows": 15,
+    "filter": "from-pub-date:2009-01-01,until-pub-date:2026-09-09",
+    "select": "DOI,title,author,published,container-title,abstract,type,URL"
+  },
+  "endpoint": "https://api.crossref.org/works?query=data+cleaning+error+detection+repair&rows=15&filter=from-pub-date%3A2009-01-01%2Cuntil-pub-date%3A2026-09-09&select=DOI%2Ctitle%2Cauthor%2Cpublished%2Ccontainer-title%2Cabstract%2Ctype%2CURL",
+  "retrieved": "2026-09-09",
+  "response": {
+    "status": "ok",
+    "message-type": "work-list",
+    "message-version": "1.0.0",
+    "message": {
+      "facets": {},
+      "total-results": 3787561,
+      "items": [
+        {
+          "DOI": "10.2139/ssrn.7035466",
+          "title": [
+            "Localizing Process-Data Incoherence: Bayesian Reconciliation, Gross-Error Detection, and Repair-Context Selection"
+          ],
+          "author": [
+            {
+              "ORCID": "https://orcid.org/0009-0004-2742-4353",
+              "authenticated-orcid": true,
+              "given": "Juan",
+              "family": "Segura",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2026
+              ]
+            ]
+          },
+          "abstract": "<jats:p>Process data reconciliation and gross-error detection are usually formulated as estimation and residual-screening problems. In plant operation, the decision problem is wider: incompatible data may arise from a biased instrument, an invalid balance, an unmodelled topology or inventory term, a wrong operating section, or a time interval that should not be treated as steady. This paper proposes a repair-context formulation of Bayesian data reconciliation in which these alternatives are compared within one executable Bayesian catalogue. The catalogue assigns priors to measurement-bias supports, relation slack variables, topology or operating-context changes, and time-cover partitions. Measurements define measurement contexts, balances and model equations define relation contexts, operating modes define operating contexts, and historian intervals define time-cover contexts. Reconciliation constructs a coherent state for an accepted context diagram; gross-error detection becomes sparse repair of measurement contexts; relation slack repairs balance or topology contexts; time-window splitting repairs a cover; and operating-mode change replaces the section through which historian data are interpreted. The framework is tested on two benchmark families. The P15 steam-metering benchmark is parsed from Scilab source, giving 28 measured stream contexts and 11 relation contexts. The Tennessee Eastman benchmark is executed from a materialized Git-LFS archive containing 214 Excel workbooks. P15 tests algebraic reconciliation, sparse gross-error detection, relation/topology ambiguity, and steady-window repair. Tennessee Eastman tests historian-scale behavior under an injected sensor error, standard faults 6 and 14, and Mode 3 under a Mode 1 cover. The contribution is a local-to-global diagnostic layer with posterior repair-context probabilities.</jats:p>",
+          "type": "posted-content",
+          "URL": "https://doi.org/10.2139/ssrn.7035466"
+        },
+        {
+          "DOI": "10.3389/conf.fnhum.2018.227.00004",
+          "title": [
+            "A Comparison of ERP Data Cleaning Strategies for Neuroergonomic Error Detection"
+          ],
+          "author": [
+            {
+              "given": "Ben",
+              "family": "Sawyer",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Waldemar",
+              "family": "Karwowski",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Petros",
+              "family": "Xanthopoulos",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "P.",
+              "family": "Hancock",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2018
+              ]
+            ]
+          },
+          "container-title": [
+            "Frontiers in Human Neuroscience"
+          ],
+          "type": "journal-article",
+          "URL": "https://doi.org/10.3389/conf.fnhum.2018.227.00004"
+        },
+        {
+          "DOI": "10.1145/3310205.3310208",
+          "title": [
+            "Outlier detection"
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2019,
+                7,
+                9
+              ]
+            ]
+          },
+          "container-title": [
+            "Data Cleaning"
+          ],
+          "type": "book-chapter",
+          "URL": "https://doi.org/10.1145/3310205.3310208"
+        },
+        {
+          "DOI": "10.14778/3554821.3554848",
+          "title": [
+            "EasyDR"
+          ],
+          "author": [
+            {
+              "given": "Yihai",
+              "family": "Xi",
+              "sequence": "first",
+              "affiliation": [
+                {
+                  "name": "Beijing Jiaotong University, Beijing, China"
+                }
+              ],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Ning",
+              "family": "Wang",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "Beijing Jiaotong University, Beijing, China"
+                }
+              ],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Xinyu",
+              "family": "Chen",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "Beijing Jiaotong University, Beijing, China"
+                }
+              ],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Yiyi",
+              "family": "Zhang",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "Beijing Jiaotong University, Beijing, China"
+                }
+              ],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Zilong",
+              "family": "Wang",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "Beijing Jiaotong University, Beijing, China"
+                }
+              ],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Zhihong",
+              "family": "Xu",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "Beijing Jiaotong University, Beijing, China"
+                }
+              ],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Yue",
+              "family": "Wang",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "Beijing Jiaotong University, Beijing, China"
+                }
+              ],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2022,
+                8
+              ]
+            ]
+          },
+          "container-title": [
+            "Proceedings of the VLDB Endowment"
+          ],
+          "abstract": "<jats:p>Many tables on the web suffer from multi-level and multi-type quality problems, but existing cleaning systems cannot provide a comprehensive quality improvement for them. Most of these systems are designed for solving a specific type of error, so that we need to resort to a number of different cleaning tools (one per error type) to get a high quality table. In this demonstration, we propose a human-in-the-loop cleaning platform EasyDR for detecting and repairing multi-level&amp;multi-type errors in tables. The attendees will experience the following features of EasyDR: 1) Holistic error detection&amp;repair. Users are able to perform a holistic table cleaning in EasyDR where machine algorithms are responsible for error detection while human intelligence is leveraged for error repairing. 2) Human-in-the-loop table cleaning. EasyDR performs an all-round quality diagnosis for the table, and automatically generates crowdsourcing cleaning tasks for the detected errors. To simplify cleaning tasks for crowdsourcing workers, EasyDR provides two task optimization techniques including domain-aware table summarization and difficulty-aware task order optimization. 3) Customizable cleaning mode. EasyDR provides a declarative language for users to customize cleaning tasks flexibly, e.g., selecting target errors, restricting the cleaning scope, defining the cooperation mode for machine and crowd.</jats:p>",
+          "type": "journal-article",
+          "URL": "https://doi.org/10.14778/3554821.3554848"
+        },
+        {
+          "DOI": "10.1145/3749174",
+          "title": [
+            "Minimum Change≠ Best Cleaning: Parallel and Incremental Error Detection under Integrity Constraints"
+          ],
+          "author": [
+            {
+              "ORCID": "https://orcid.org/0009-0003-9105-1961",
+              "authenticated-orcid": false,
+              "given": "Jiahui",
+              "family": "Chen",
+              "sequence": "first",
+              "affiliation": [
+                {
+                  "name": "College of Computer Science, Nankai University, Tianjin, China"
+                }
+              ],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "ORCID": "https://orcid.org/0009-0007-7398-2972",
+              "authenticated-orcid": false,
+              "given": "Yu",
+              "family": "Sun",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "College of Computer Science, Nankai University, Tianjin, China"
+                }
+              ],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "ORCID": "https://orcid.org/0000-0002-9503-2755",
+              "authenticated-orcid": false,
+              "given": "Shaoxu",
+              "family": "Song",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "Tsinghua University, Beijing, China"
+                }
+              ],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "ORCID": "https://orcid.org/0000-0002-5852-0426",
+              "authenticated-orcid": false,
+              "given": "Haiwei",
+              "family": "Zhang",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "College of Computer Science, Nankai University, Tianjin, China"
+                }
+              ],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "ORCID": "https://orcid.org/0000-0002-5876-6856",
+              "authenticated-orcid": false,
+              "given": "Xiaojie",
+              "family": "Yuan",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "College of Computer Science, Nankai University, Tianjin, China"
+                }
+              ],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2025,
+                9,
+                22
+              ]
+            ]
+          },
+          "container-title": [
+            "Proceedings of the ACM on Management of Data"
+          ],
+          "abstract": "<jats:p>Erroneous data frequently arise in practical scenarios due to a variety of factors, severely degrading data quality and impeding downstream applications. A widely adopted strategy for error detection is to detect conflicts based on integrity constraints and identify the minimum number of errors, thereby ensuring that the remaining cells satisfy the constraints. However, the minimum change principle may not be applicable in practical scenarios, since errors can occur simultaneously or irregularly. Therefore, this study employs Bayesian statistics to identify erroneous attribute values in conflicting cells that violate inter-attribute dependencies, rather than simply relying on the minimum change principle. This approach ensures that our work neither misses multiple erroneous attribute values conflicting with each other nor mistakenly detects outliers without errors. Furthermore, to address the efficiency issues commonly encountered in constraint-based data cleaning methods, we design 1) parallel conflict detection and error determination methods with the guaranteed parallel scalability, and 2) efficient incremental error detection strategies that can also be executed in parallel with such guarantees. Experiments conducted on various datasets demonstrate the superiority of our error detection methods in terms of both effectiveness and efficiency.</jats:p>",
+          "type": "journal-article",
+          "URL": "https://doi.org/10.1145/3749174"
+        },
+        {
+          "DOI": "10.2139/ssrn.5601651",
+          "title": [
+            "Wind Power Data Cleaning via Disturbance Detection and Threshold Filtering"
+          ],
+          "author": [
+            {
+              "given": "Yan",
+              "family": "Chen",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Wenzi",
+              "family": "Tang",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2025
+              ]
+            ]
+          },
+          "type": "posted-content",
+          "URL": "https://doi.org/10.2139/ssrn.5601651"
+        },
+        {
+          "DOI": "10.1109/icde60146.2024.00418",
+          "title": [
+            "CleanEr: Interactive, Query-Guided Error Mitigation for Data Cleaning Systems"
+          ],
+          "author": [
+            {
+              "given": "Ran",
+              "family": "Schreiber",
+              "sequence": "first",
+              "affiliation": [
+                {
+                  "name": "Bar-Ilan University"
+                }
+              ],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Yael",
+              "family": "Amsterdamer",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "Bar-Ilan University"
+                }
+              ],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2024,
+                5,
+                13
+              ]
+            ]
+          },
+          "container-title": [
+            "2024 IEEE 40th International Conference on Data Engineering (ICDE)"
+          ],
+          "type": "proceedings-article",
+          "URL": "https://doi.org/10.1109/icde60146.2024.00418"
+        },
+        {
+          "DOI": "10.1007/978-981-10-9059-2_24",
+          "title": [
+            "Hybrid Optimization in Big Data: Error Detection and Data Repairing by Big Data Cleaning Using CSO-GSA"
+          ],
+          "author": [
+            {
+              "ORCID": "https://orcid.org/0000-0002-7601-1393",
+              "authenticated-orcid": false,
+              "given": "K. V.",
+              "family": "Rama Satish",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "ORCID": "https://orcid.org/0000-0002-7908-1346",
+              "authenticated-orcid": false,
+              "given": "N. P.",
+              "family": "Kavya",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2018
+              ]
+            ]
+          },
+          "container-title": [
+            "Communications in Computer and Information Science",
+            "Cognitive Computing and Information Processing"
+          ],
+          "type": "book-chapter",
+          "URL": "https://doi.org/10.1007/978-981-10-9059-2_24"
+        },
+        {
+          "DOI": "10.32873/unl.dr.20230419.1",
+          "title": [
+            "Additional data supporting Individual variation in undergraduate student metacognitive monitoring and error detection during biology model evaluation"
+          ],
+          "author": [
+            {
+              "given": "Joseph",
+              "family": "Dauer",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Caron",
+              "family": "Clark",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Tammy",
+              "family": "Long",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2023,
+                4,
+                21
+              ]
+            ]
+          },
+          "container-title": [
+            "University of Nebraska-Lincoln Data Repository"
+          ],
+          "type": "dataset",
+          "URL": "https://doi.org/10.32873/unl.dr.20230419.1"
+        },
+        {
+          "DOI": "10.5220/0006449302940298",
+          "title": [
+            "Research and Application of Radar Detection Error Model based on Data Mining"
+          ],
+          "author": [
+            {
+              "given": "Jun",
+              "family": "Song",
+              "sequence": "first",
+              "affiliation": [
+                {
+                  "name": "Unit 92941, China"
+                }
+              ],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2016
+              ]
+            ]
+          },
+          "container-title": [
+            "ISME 2016 - Information Science and Management Engineering IV"
+          ],
+          "type": "proceedings-article",
+          "URL": "https://doi.org/10.5220/0006449302940298"
+        },
+        {
+          "DOI": "10.1108/dta-05-2021-0108",
+          "title": [
+            "Data repair of density-based data cleaning approach using conditional functional dependencies"
+          ],
+          "author": [
+            {
+              "ORCID": "https://orcid.org/0000-0002-2906-8469",
+              "authenticated-orcid": false,
+              "given": "Samir",
+              "family": "Al-Janabi",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "ORCID": "https://orcid.org/0000-0001-5364-9725",
+              "authenticated-orcid": false,
+              "given": "Ryszard",
+              "family": "Janicki",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2021,
+                11,
+                19
+              ]
+            ]
+          },
+          "container-title": [
+            "Data Technologies and Applications"
+          ],
+          "abstract": "<jats:sec><jats:title content-type=\"abstract-subheading\">Purpose</jats:title><jats:p>Data quality is a major challenge in data management. For organizations, the cleanliness of data is a significant problem that affects many business activities. Errors in data occur for different reasons, such as violation of business rules. However, because of the huge amount of data, manual cleaning alone is infeasible. Methods are required to repair and clean the dirty data through automatic detection, which are data quality issues to address. The purpose of this work is to extend the density-based data cleaning approach using conditional functional dependencies to achieve better data repair.</jats:p></jats:sec><jats:sec><jats:title content-type=\"abstract-subheading\">Design/methodology/approach</jats:title><jats:p>A set of conditional functional dependencies is introduced as an input to the density-based data cleaning algorithm. The algorithm repairs inconsistent data using this set.</jats:p></jats:sec><jats:sec><jats:title content-type=\"abstract-subheading\">Findings</jats:title><jats:p>This new approach was evaluated through experiments on real-world as well as synthetic datasets. The repair quality was determined using the <jats:italic>F</jats:italic>-measure. The results showed that the quality and scalability of the density-based data cleaning approach improved when conditional functional dependencies were introduced.</jats:p></jats:sec><jats:sec><jats:title content-type=\"abstract-subheading\">Originality/value</jats:title><jats:p>Conditional functional dependencies capture semantic errors among data values. This work demonstrates that the density-based data cleaning approach can be improved in terms of repairing inconsistent data by using conditional functional dependencies.</jats:p></jats:sec>",
+          "type": "journal-article",
+          "URL": "https://doi.org/10.1108/dta-05-2021-0108"
+        },
+        {
+          "DOI": "10.1016/j.dib.2020.105228",
+          "title": [
+            "Error-free and error-prone DNA repair gene expression data through reprogramming and passage in human iPS cells"
+          ],
+          "author": [
+            {
+              "given": "Yasuhide",
+              "family": "Yoshimura",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Daisuke",
+              "family": "Okuzaki",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2020,
+                4
+              ]
+            ]
+          },
+          "container-title": [
+            "Data in Brief"
+          ],
+          "type": "journal-article",
+          "URL": "https://doi.org/10.1016/j.dib.2020.105228"
+        },
+        {
+          "DOI": "10.1057/s41292-025-00367-0",
+          "title": [
+            "The cost of (data) community: error and repair in data processing pipelines"
+          ],
+          "author": [
+            {
+              "ORCID": "https://orcid.org/0000-0001-6529-1695",
+              "authenticated-orcid": false,
+              "given": "Kathryne",
+              "family": "Metcalf",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2025,
+                9,
+                6
+              ]
+            ]
+          },
+          "container-title": [
+            "BioSocieties"
+          ],
+          "abstract": "<jats:title>Abstract</jats:title>\n          <jats:p>This essay closely examines the ongoing development and use of an open-source software tool commonly used in microbiome research in order to make three interlocking contributions. First, I identify data cleaning as a set of richly epistemic practices which are functionally inextricable from data analysis. This means that ‘good’ data cleaning decisions are not necessarily universal, but must be made suitably for the specific analytic purposes intended by later users of shared data. Second, I examine how the repair and modularity of data processing software can offer data users a variety of cleaning choices in order to enable divergent analytic goals. In doing so, this software facilitates the development of epistemically diverse data communities. Finally, turning to a high-profile paper retraction which hinged on a data processing error, I explore how repair at different points in the research production process can serve to enable or constrain the growth of data communities. Through this analysis, I argue that error serves as a site of productive negotiation over the interpretive flexibility of shared data, and that repair plays a critical role in stabilizing data community membership.</jats:p>",
+          "type": "journal-article",
+          "URL": "https://doi.org/10.1057/s41292-025-00367-0"
+        },
+        {
+          "DOI": "10.1007/978-981-97-2421-5_5",
+          "title": [
+            "Adaptive Label Cleaning for Error Detection on Tabular Data"
+          ],
+          "author": [
+            {
+              "given": "Yaru",
+              "family": "Zhang",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Jianbin",
+              "family": "Qin",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Rui",
+              "family": "Mao",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Yan",
+              "family": "Ji",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Yaoshu",
+              "family": "Wang",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Muhammad Asif",
+              "family": "Ali",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2024
+              ]
+            ]
+          },
+          "container-title": [
+            "Lecture Notes in Computer Science",
+            "Web and Big Data"
+          ],
+          "type": "book-chapter",
+          "URL": "https://doi.org/10.1007/978-981-97-2421-5_5"
+        },
+        {
+          "DOI": "10.1145/3310205.3310212",
+          "title": [
+            "Rule-based data cleaning"
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2019,
+                7,
+                9
+              ]
+            ]
+          },
+          "container-title": [
+            "Data Cleaning"
+          ],
+          "type": "book-chapter",
+          "URL": "https://doi.org/10.1145/3310205.3310212"
+        }
+      ],
+      "items-per-page": 15,
+      "query": {
+        "start-index": 0,
+        "search-terms": "data cleaning error detection repair"
+      }
+    }
+  }
+}

@@ -4,9 +4,11 @@
 
 - [编译后的综述 PDF](output/survey.pdf)
 - [LaTeX 主文件](main.tex)、[正文](manuscript.tex)、[参考文献](references.bib)
+- [两份审稿意见的逐条回应](editorial/REVIEW_RESPONSE.md)
+- [检索协议与筛选台账](editorial/search/README.md)、[结果及机制证据](editorial/EVIDENCE.md)
 - [文献来源、核验范围与版本说明](editorial/SOURCES.md)
 - [中文综述写法参照与修改说明](editorial/REVISION.md)
-- [绘图记录](figures/GENERATION.md)、[图1 prompt](figures/prompts/fig01_taxonomy.md)、[图2 prompt](figures/prompts/fig02_workflow.md)
+- [绘图记录](figures/GENERATION.md)、[图1 prompt](figures/prompts/fig01_taxonomy.md)、[图2 prompt](figures/prompts/fig02_workflow.md)、[图3 prompt](figures/prompts/fig03_error_propagation.md)
 
 ## 编译
 
@@ -15,10 +17,14 @@
 ```bash
 latexmk -xelatex -outdir=build main.tex
 python scripts/check_manuscript.py
+python scripts/check_review_evidence.py
+python scripts/reproduce_example.py
 mkdir -p output
 cp build/main.pdf output/survey.pdf
 ```
 
 Overleaf 中将 `main.tex` 设为主文件，编译器选择 XeLaTeX。当前版式是通用学术综述排版，不是期刊官方模板；作者简介素材单独保存在 `author_bios.tex`，默认不载入。
 
-文献检索截止日期为2026年9月9日。本文为代表性文献综述，未重新执行所评述方法的实验。`editorial/metadata/` 保存Crossref原始返回与请求端点；网络复核脚本为 `scripts/collect_metadata.py`，它只读取出版元数据，不修改参考文献库。
+文献检索截止日期为2026年9月9日。本次按两份审稿意见大修，正文含48项参考文献、9张表和3幅图。本文采用结构化范围取样，未重新执行所评述方法的实验。`editorial/metadata/` 保存Crossref原始返回与请求端点；网络复核脚本为 `scripts/collect_metadata.py`，它只读取出版元数据，不修改参考文献库。
+
+固定检索120条，去重117项、复筛34项，新增纳入10项并另补充4项；原稿34项单列。复筛后24项因范围取样未纳入，理由保留。联网重放可执行“python scripts/collect_search.py --output /tmp/idp-search-replay”，新快照不会覆盖统计输入。

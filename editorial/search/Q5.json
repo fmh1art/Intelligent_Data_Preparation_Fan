@@ -1,0 +1,933 @@
+{
+  "id": "Q5",
+  "source": "Crossref works relevance search",
+  "query": {
+    "query": "data transformation pipeline synthesis",
+    "rows": 15,
+    "filter": "from-pub-date:2009-01-01,until-pub-date:2026-09-09",
+    "select": "DOI,title,author,published,container-title,abstract,type,URL"
+  },
+  "endpoint": "https://api.crossref.org/works?query=data+transformation+pipeline+synthesis&rows=15&filter=from-pub-date%3A2009-01-01%2Cuntil-pub-date%3A2026-09-09&select=DOI%2Ctitle%2Cauthor%2Cpublished%2Ccontainer-title%2Cabstract%2Ctype%2CURL",
+  "retrieved": "2026-09-09",
+  "response": {
+    "status": "ok",
+    "message-type": "work-list",
+    "message-version": "1.0.0",
+    "message": {
+      "facets": {},
+      "total-results": 3684311,
+      "items": [
+        {
+          "DOI": "10.1201/9781003102656-ch10",
+          "title": [
+            "Synthesis Architecture &amp; Pipeline"
+          ],
+          "author": [
+            {
+              "given": "Shuai",
+              "family": "Huang",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Houtao",
+              "family": "Deng",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2021,
+                4,
+                2
+              ]
+            ]
+          },
+          "container-title": [
+            "Data Analytics"
+          ],
+          "type": "book-chapter",
+          "URL": "https://doi.org/10.1201/9781003102656-ch10"
+        },
+        {
+          "DOI": "10.1007/978-3-642-38197-3_3",
+          "title": [
+            "A Declarative Pipeline Language for Complex Data Analysis"
+          ],
+          "author": [
+            {
+              "given": "Henning",
+              "family": "Christiansen",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Christian",
+              "family": "Theil Have",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Ole",
+              "family": "Torp Lassen",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Matthieu",
+              "family": "Petit",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2013
+              ]
+            ]
+          },
+          "container-title": [
+            "Lecture Notes in Computer Science",
+            "Logic-Based Program Synthesis and Transformation"
+          ],
+          "type": "book-chapter",
+          "URL": "https://doi.org/10.1007/978-3-642-38197-3_3"
+        },
+        {
+          "DOI": "10.1007/978-3-030-24240-4_3",
+          "title": [
+            "Pipeline Spatial Data Model"
+          ],
+          "author": [
+            {
+              "given": "Zhenpei",
+              "family": "Li",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2020
+              ]
+            ]
+          },
+          "container-title": [
+            "Pipeline Spatial Data Modeling and Pipeline WebGIS"
+          ],
+          "type": "book-chapter",
+          "URL": "https://doi.org/10.1007/978-3-030-24240-4_3"
+        },
+        {
+          "DOI": "10.5220/0015059600004088",
+          "title": [
+            "Quantum Low-Code Metamodel and Transformation Pipeline"
+          ],
+          "author": [
+            {
+              "given": "Daniel",
+              "family": "Georg",
+              "sequence": "first",
+              "affiliation": [
+                {
+                  "name": "Institute of Architecture of Application Systems, University of Stuttgart, Universitätsstraße 38, Stuttgart, Germany"
+                }
+              ],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Johanna",
+              "family": "Barzen",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "Institute of Architecture of Application Systems, University of Stuttgart, Universitätsstraße 38, Stuttgart, Germany"
+                }
+              ],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Fabian",
+              "family": "Bühler",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "Institute of Architecture of Application Systems, University of Stuttgart, Universitätsstraße 38, Stuttgart, Germany"
+                }
+              ],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Lavinia",
+              "family": "Stiliadou",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "Institute of Architecture of Application Systems, University of Stuttgart, Universitätsstraße 38, Stuttgart, Germany"
+                }
+              ],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2026
+              ]
+            ]
+          },
+          "container-title": [
+            "Proceedings of the 21st International Conference on Software Technologies"
+          ],
+          "type": "proceedings-article",
+          "URL": "https://doi.org/10.5220/0015059600004088"
+        },
+        {
+          "DOI": "10.1115/ipc2022-87872",
+          "title": [
+            "Structured, Systematic Threat Based Approach to Evaluate and Improve Data Quality to Facilitate Digital Transformation"
+          ],
+          "author": [
+            {
+              "given": "Pushpendra",
+              "family": "Tomar",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "Dynamic Risk , The Woodlands, Texas, United States"
+                }
+              ],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Betsy",
+              "family": "Kruse",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "Enbridge , Houston, Texas, United States"
+                }
+              ],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Samah",
+              "family": "Hasan",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "Dynamic Risk , Calgary, Alberta, Canada"
+                }
+              ],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Sergiy",
+              "family": "Kondratyuk",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "Dynamic Risk , Toronto, Ontario, Canada"
+                }
+              ],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2022,
+                9,
+                26
+              ]
+            ]
+          },
+          "container-title": [
+            "Volume 2: Pipeline and Facilities Integrity"
+          ],
+          "abstract": "<jats:title>Abstract</jats:title>\n               <jats:p>Pipeline operators are rapidly and increasingly moving towards digital transformation in order to harvest efficiencies and achieve higher levels of reliability and safety. Fueled by advances in technology such as cloud computing and machine learning, data is considered a key asset, and pipeline operations are increasingly driven by information and analytics. However, successfully achieving a digital transformation toward reliable and high-quality data requires mature processes for obtaining, managing, evaluating, and continuously improving data quality.</jats:p>\n               <jats:p>During a review of pipeline risk assessment results, a pipeline operator (Operator) found that risk results for a particular pipeline were driven by the mainline coating type being listed as “un-coated.” However, further review of the records showed that the pipeline, in fact, was coated.</jats:p>\n               <jats:p>One of the Operator’s foundational principles is ‘data as an asset’. Thus, the Operator understands the critical impact of such data inconsistencies across many potential receptors, from financial impacts to public safety. Additionally, mature processes enhance confidence in prioritizing the “right work.”</jats:p>\n               <jats:p>Data quality is essential for the use of historical data, interoperability across various data systems, and generation of useful analytics. The data quality process maturity (Process maturity) evaluation aims to assess all processes, capabilities, and governance required for ensuring high data quality. As a result, the Operator decided to rigorously evaluate their data quality and the maturity of data quality processes.</jats:p>\n               <jats:p>The data quality assessment involved creating a comprehensive list of data elements required to assess a particular threat, prioritizing data elements, and documenting data storage by the source system. The data quality was then evaluated using Key Performance Indicators (KPIs), establishing a baseline.</jats:p>\n               <jats:p>An organization’s Process maturity varies from level one (Initial) to level five (Optimized). The Process maturity of the Operator was assessed on five evaluation areas: Governance, Organization &amp; People, Data Standards, Requirements &amp; Metrics, Process Efficiency, Technology &amp; Tools. Results of the evaluation led to the identification of actionable gaps.</jats:p>\n               <jats:p>The process, as developed, leverages guidance provided in ISO (8000-8) [3] for data quality assessment and DNVGL-RP-0497 [4] for Process maturity evaluation. This paper presents a step-by-step approach developed for and successfully employed by the Operator as applied to pipeline integrity threats.</jats:p>",
+          "type": "proceedings-article",
+          "URL": "https://doi.org/10.1115/ipc2022-87872"
+        },
+        {
+          "DOI": "10.1007/978-3-030-62110-0_2",
+          "title": [
+            "Pipeline Real-Time Data, Pipeline SCADA and OPC"
+          ],
+          "author": [
+            {
+              "given": "Zhenpei",
+              "family": "Li",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Lehao",
+              "family": "Yang",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2021
+              ]
+            ]
+          },
+          "container-title": [
+            "SpringerBriefs in Geography",
+            "Pipeline Real-time Data Integration and Pipeline Network Virtual Reality System"
+          ],
+          "type": "book-chapter",
+          "URL": "https://doi.org/10.1007/978-3-030-62110-0_2"
+        },
+        {
+          "DOI": "10.1115/imece-india2025-162082",
+          "title": [
+            "Digital Transformation of Natural Gas Pipeline Measurement Systems: Unified Platform Using Industry 4.0 Tools - Robotic Process Automation (RPA), Edge Analytics, Advanced Data Analytics With Digital Twin Models for Pipeline Integrity and Custody Transfer"
+          ],
+          "author": [
+            {
+              "given": "Pankaj",
+              "family": "Gupta",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "GAIL (India) Limited , ,",
+                  "place": [
+                    "Noida, India"
+                  ]
+                }
+              ],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "D.",
+              "family": "Sakthiwel",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "GAIL (India) Limited , ,",
+                  "place": [
+                    "Bengaluru, India"
+                  ]
+                }
+              ],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2025,
+                9,
+                10
+              ]
+            ]
+          },
+          "container-title": [
+            "Volume 6: Offshore Onshore Pipelines Transmission &amp; Distribution System"
+          ],
+          "abstract": "<jats:title>Abstract</jats:title>\n                  <jats:p>Gas Pipeline is the backbone of the energy infrastructure of any country and is going to gain far more importance in India with the increasing thrust of government towards energy security and self-reliance. Humongous investments are being done in execution of various pipeline projects so that even far flung geographical areas are also served with clean fuel. With the increasing geographical area under coverage following changes are being faced by pipeline industry:</jats:p>\n                  <jats:p>(i) Safety related issues like Third party intrusions &amp; pipeline leaks:</jats:p>\n                  <jats:p>Pipeline industry deploys various pipeline leak detection system using Mass Balancing or Pressure Wave or other principles. However, the accuracy of the leak detection often depends upon the accuracy of the associated instrumentation system like flow, pressure, temperature and gas quality parameters measurement. In case of any difficulty in reducing the false leak alarms, it is found challenging to establish the authenticity of data available from the primary instrumentation inputs.</jats:p>\n                  <jats:p>(ii) Commercial issues like gas measurement, reconciliation and LAUF gas accounting</jats:p>\n                  <jats:p>For big pipeline Network operators, Gas reconciliation and LAUF gas accounting is also a challenge. In case of any discrepancy in any of the gas meters at a given point of time may cost a company huge financial loss if not detected and corrected immediately.</jats:p>\n                  <jats:p>Recognizing the imminent need for development of online validation, audit and diagnostic systems which track, monitor and predict the health of the instruments on their own without intervention of the operators and keep the operator updated in case of any deviations from normal course of operation was felt and a unified platform using industry 4.0 tools - Robotic Process Automation (RPA), Edge Analytics, advanced data analytics with digital twin models for pipeline integrity and custody transfer based on the basic principles of science and equipment operational philosophy/algorithms such as USM, GC and Flow Computers has been exploited to gain insight about the equipment operational behavior and prediction of condition/health of equipment.</jats:p>",
+          "type": "proceedings-article",
+          "URL": "https://doi.org/10.1115/imece-india2025-162082"
+        },
+        {
+          "DOI": "10.2139/ssrn.4791315",
+          "title": [
+            "Towards Real-World Clinical Data Standardization: A Modular Fhir-Driven Transformation Pipeline to Enhance Semantic Interoperability In Healthcare"
+          ],
+          "author": [
+            {
+              "given": "Alberto",
+              "family": "Marfoglia",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Filippo",
+              "family": "Nardini",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Valerio Antonio",
+              "family": "Arcobelli",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Serena",
+              "family": "Moscato",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Sabato",
+              "family": "Mellone",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "ANTONELLA",
+              "family": "CARBONARO",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2024
+              ]
+            ]
+          },
+          "type": "posted-content",
+          "URL": "https://doi.org/10.2139/ssrn.4791315"
+        },
+        {
+          "DOI": "10.21105/joss.09261",
+          "title": [
+            "ReciPies: A Lightweight Data Transformation Pipeline for Reproducible ML"
+          ],
+          "author": [
+            {
+              "ORCID": "https://orcid.org/0000-0002-2895-4872",
+              "authenticated-orcid": false,
+              "given": "Robin P.",
+              "family": "van de Water",
+              "sequence": "first",
+              "affiliation": [
+                {
+                  "name": "Hasso Plattner Institute, University of Potsdam, Potsdam, Germany"
+                },
+                {
+                  "name": "Hasso Plattner Institute for Digital Health at Mount Sinai, Icahn School of Medicine at Mount Sinai, New York City, NY, USA"
+                }
+              ],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "ORCID": "https://orcid.org/0000-0001-7699-3983",
+              "authenticated-orcid": false,
+              "given": "Hendrik",
+              "family": "Schmidt",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "Hasso Plattner Institute, University of Potsdam, Potsdam, Germany"
+                }
+              ],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "ORCID": "https://orcid.org/0000-0002-6499-7933",
+              "authenticated-orcid": false,
+              "given": "Patrick",
+              "family": "Rockenschaub",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "Innsbruck Medical University, Innsbruck, Austria"
+                }
+              ],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2026,
+                1,
+                5
+              ]
+            ]
+          },
+          "container-title": [
+            "Journal of Open Source Software"
+          ],
+          "type": "journal-article",
+          "URL": "https://doi.org/10.21105/joss.09261"
+        },
+        {
+          "DOI": "10.1007/978-3-030-24240-4_5",
+          "title": [
+            "Pipeline WebGIS Implementation"
+          ],
+          "author": [
+            {
+              "given": "Zhenpei",
+              "family": "Li",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2020
+              ]
+            ]
+          },
+          "container-title": [
+            "Pipeline Spatial Data Modeling and Pipeline WebGIS"
+          ],
+          "type": "book-chapter",
+          "URL": "https://doi.org/10.1007/978-3-030-24240-4_5"
+        },
+        {
+          "DOI": "10.1007/978-3-030-24240-4",
+          "title": [
+            "Pipeline Spatial Data Modeling and Pipeline WebGIS"
+          ],
+          "author": [
+            {
+              "given": "Zhenpei",
+              "family": "Li",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2020
+              ]
+            ]
+          },
+          "type": "book",
+          "URL": "https://doi.org/10.1007/978-3-030-24240-4"
+        },
+        {
+          "DOI": "10.3233/shti260951",
+          "title": [
+            "A GenAI Pipeline for Violinist Kinematic Data Management"
+          ],
+          "author": [
+            {
+              "ORCID": "https://orcid.org/0000-0003-4350-9272",
+              "authenticated-orcid": false,
+              "given": "Paria",
+              "family": "Samimisabet",
+              "sequence": "first",
+              "affiliation": [
+                {
+                  "name": "Faculty of Engineering and Computer Science, University of Applied Sciences, Osnabrück, Germany"
+                }
+              ],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Karsten",
+              "family": "Morisse",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "Faculty of Engineering and Computer Science, University of Applied Sciences, Osnabrück, Germany"
+                }
+              ],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2026,
+                6,
+                29
+              ]
+            ]
+          },
+          "container-title": [
+            "Studies in Health Technology and Informatics",
+            "Health Sciences Informatics Leads and Empowers the Digital Health Transformation"
+          ],
+          "abstract": "<jats:p>Health data management remains a major challenge in digital health research, particularly for complex biomechanical datasets requiring cleaning, harmonization, and preparation for downstream analysis. This paper presents a Generative Artificial Intelligence (GenAI)-supported pipeline for managing an upper-body kinematic dataset from 26 violinists with and without recent neck–shoulder pain. The workflow was designed to support dataset profiling, structured cleaning, schema harmonization, metadata support, and preparation of analysis-ready outputs. For pilot validation, a controlled masking experiment was performed on a representative tabular file from the dataset, in which 200 cells were manually removed and reconstructed by the GenAI pipeline. Comparison with the original reference values showed exact agreement for all evaluated entries, including both numeric and non-numeric fields. These findings indicate that GenAI can serve not only as an analytical aid but also as a practical tool for health data curation and controlled data completion in specialized biomechanical datasets. This result should be interpreted as a proof-of-concept evaluation under controlled masking conditions rather than evidence of general performance for real-world missing-data imputation.</jats:p>",
+          "type": "book-chapter",
+          "URL": "https://doi.org/10.3233/shti260951"
+        },
+        {
+          "DOI": "10.1109/bmsb65076.2025.11165552",
+          "title": [
+            "Intelligent Semantic Extraction and Transformation Pipeline for Large-Scale Multimedia Data Processing"
+          ],
+          "author": [
+            {
+              "given": "Shih-Yu",
+              "family": "Chang",
+              "sequence": "first",
+              "affiliation": [
+                {
+                  "name": "San Jose State University,Department of Applied Data Science,San Jose,CA,USA,95192"
+                }
+              ],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Sourab Rajendra",
+              "family": "Saklecha",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "San Jose State University,Department of Applied Data Science,San Jose,CA,USA,95192"
+                }
+              ],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Yiyan",
+              "family": "Wu",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "Western University,Department of Electrical and Computer Engineering,London,Canada"
+                }
+              ],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2025,
+                6,
+                11
+              ]
+            ]
+          },
+          "container-title": [
+            "2025 IEEE International Symposium on Broadband Multimedia Systems and Broadcasting (BMSB)"
+          ],
+          "type": "proceedings-article",
+          "URL": "https://doi.org/10.1109/bmsb65076.2025.11165552"
+        },
+        {
+          "DOI": "10.1201/9781003369783-2",
+          "title": [
+            "Developing a Pipeline and Ecosystem for Digital Transformation"
+          ],
+          "author": [
+            {
+              "given": "Jennifer",
+              "family": "Anastasoff",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Sarah",
+              "family": "Philbrick",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Mark",
+              "family": "Lerner",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2023,
+                6,
+                1
+              ]
+            ]
+          },
+          "container-title": [
+            "Pivoting Government through Digital Transformation"
+          ],
+          "type": "book-chapter",
+          "URL": "https://doi.org/10.1201/9781003369783-2"
+        },
+        {
+          "DOI": "10.31649/2307-5392-2022-4-15-24",
+          "title": [
+            "INTELLIGENT METHOD WITH THE REINFORCEMENT OF THE SYNTHESIS OF OPTIMAL PIPELINE OF THE DATA PRE-PROCESSING OPERATIONS IN THE MACHINE LEARNING PROBLEMS (Eng)"
+          ],
+          "author": [
+            {
+              "name": "Vinnytsia National Technical University",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "M. V.",
+              "family": "Dratovanyi",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "V. B.",
+              "family": "Mokin",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "name": "Vinnytsia National Technical University",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2022
+              ]
+            ]
+          },
+          "container-title": [
+            "Scientific Works of Vinnytsia National Technical University"
+          ],
+          "type": "journal-article",
+          "URL": "https://doi.org/10.31649/2307-5392-2022-4-15-24"
+        }
+      ],
+      "items-per-page": 15,
+      "query": {
+        "start-index": 0,
+        "search-terms": "data transformation pipeline synthesis"
+      }
+    }
+  }
+}

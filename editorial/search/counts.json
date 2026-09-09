@@ -1,0 +1,13 @@
+{
+  "pilot_records": 120,
+  "fixed_query_records": 120,
+  "deduplicated_works": 117,
+  "duplicate_records": 3,
+  "stage1_excluded": 83,
+  "stage2_reviewed": 34,
+  "stage2_scope_excluded": 24,
+  "query_included": 10,
+  "additional_included": 4,
+  "baseline": 34,
+  "total": 48
+}

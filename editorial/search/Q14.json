@@ -1,0 +1,1241 @@
+{
+  "id": "Q14",
+  "source": "Crossref works relevance search",
+  "query": {
+    "query.title": "weak supervision",
+    "rows": 15,
+    "filter": "from-pub-date:2009-01-01,until-pub-date:2026-09-09",
+    "select": "DOI,title,author,published,container-title,abstract,type,URL"
+  },
+  "endpoint": "https://api.crossref.org/works?query.title=weak+supervision&rows=15&filter=from-pub-date%3A2009-01-01%2Cuntil-pub-date%3A2026-09-09&select=DOI%2Ctitle%2Cauthor%2Cpublished%2Ccontainer-title%2Cabstract%2Ctype%2CURL",
+  "retrieved": "2026-09-09",
+  "response": {
+    "status": "ok",
+    "message-type": "work-list",
+    "message-version": "1.0.0",
+    "message": {
+      "facets": {},
+      "total-results": 90602,
+      "items": [
+        {
+          "DOI": "10.1007/978-981-16-9012-9_33",
+          "title": [
+            "Impeachment and Weak Supervision"
+          ],
+          "author": [
+            {
+              "given": "Samridh",
+              "family": "Khaneja",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2022
+              ]
+            ]
+          },
+          "container-title": [
+            "Lecture Notes in Electrical Engineering",
+            "Sustainable Advanced Computing"
+          ],
+          "type": "book-chapter",
+          "URL": "https://doi.org/10.1007/978-981-16-9012-9_33"
+        },
+        {
+          "DOI": "10.1109/percomworkshops53856.2022.9767420",
+          "title": [
+            "The Weak Supervision Landscape"
+          ],
+          "author": [
+            {
+              "given": "Rafael",
+              "family": "Poyiadzi",
+              "sequence": "first",
+              "affiliation": [
+                {
+                  "name": "University of Bristol,Intelligent Systems Lab,Bristol,UK"
+                }
+              ],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Daniel",
+              "family": "Bacaicoa-Barber",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "Universidad Carlos III of Madrid,Signal Theory and Communications Dept.,Spain"
+                }
+              ],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Jesus",
+              "family": "Cid-Sueiro",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "Universidad Carlos III of Madrid,Signal Theory and Communications Dept.,Spain"
+                }
+              ],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Miquel",
+              "family": "Perello-Nieto",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "University of Bristol,Intelligent Systems Lab,Bristol,UK"
+                }
+              ],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Peter",
+              "family": "Flach",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "University of Bristol,Intelligent Systems Lab,Bristol,UK"
+                }
+              ],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Raul",
+              "family": "Santos-Rodriguez",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "University of Bristol,Intelligent Systems Lab,Bristol,UK"
+                }
+              ],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2022,
+                3,
+                21
+              ]
+            ]
+          },
+          "container-title": [
+            "2022 IEEE International Conference on Pervasive Computing and Communications Workshops and other Affiliated Events (PerCom Workshops)"
+          ],
+          "type": "proceedings-article",
+          "URL": "https://doi.org/10.1109/percomworkshops53856.2022.9767420"
+        },
+        {
+          "DOI": "10.18653/v1/2021.naacl-main.66",
+          "title": [
+            "Self-Training with Weak Supervision"
+          ],
+          "author": [
+            {
+              "given": "Giannis",
+              "family": "Karamanolakis",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Subhabrata",
+              "family": "Mukherjee",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Guoqing",
+              "family": "Zheng",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Ahmed Hassan",
+              "family": "Awadallah",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2021
+              ]
+            ]
+          },
+          "container-title": [
+            "Proceedings of the 2021 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies"
+          ],
+          "type": "proceedings-article",
+          "URL": "https://doi.org/10.18653/v1/2021.naacl-main.66"
+        },
+        {
+          "DOI": "10.1109/icpm49681.2020.00023",
+          "title": [
+            "Classifying process deviations with weak supervision"
+          ],
+          "author": [
+            {
+              "given": "Manal",
+              "family": "Laghmouch",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Mieke",
+              "family": "Jans",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Benoit",
+              "family": "Depaire",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2020,
+                10
+              ]
+            ]
+          },
+          "container-title": [
+            "2020 2nd International Conference on Process Mining (ICPM)"
+          ],
+          "type": "proceedings-article",
+          "URL": "https://doi.org/10.1109/icpm49681.2020.00023"
+        },
+        {
+          "DOI": "10.1109/wacv45572.2020.9093544",
+          "title": [
+            "Erasing Scene Text with Weak Supervision"
+          ],
+          "author": [
+            {
+              "given": "Jan",
+              "family": "Zdenek",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Hideki",
+              "family": "Nakayama",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2020,
+                3
+              ]
+            ]
+          },
+          "container-title": [
+            "2020 IEEE Winter Conference on Applications of Computer Vision (WACV)"
+          ],
+          "type": "proceedings-article",
+          "URL": "https://doi.org/10.1109/wacv45572.2020.9093544"
+        },
+        {
+          "DOI": "10.1109/lra.2020.2967712",
+          "title": [
+            "Semantic Foreground Inpainting From Weak Supervision"
+          ],
+          "author": [
+            {
+              "ORCID": "https://orcid.org/0000-0002-5565-7689",
+              "authenticated-orcid": false,
+              "given": "Chenyang",
+              "family": "Lu",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "ORCID": "https://orcid.org/0000-0001-6635-3245",
+              "authenticated-orcid": false,
+              "given": "Gijs",
+              "family": "Dubbelman",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2020,
+                4
+              ]
+            ]
+          },
+          "container-title": [
+            "IEEE Robotics and Automation Letters"
+          ],
+          "type": "journal-article",
+          "URL": "https://doi.org/10.1109/lra.2020.2967712"
+        },
+        {
+          "DOI": "10.1609/aaai.v33i01.33019528",
+          "title": [
+            "Bootstrapping Conversational Agents with Weak Supervision"
+          ],
+          "author": [
+            {
+              "given": "Neil",
+              "family": "Mallinar",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Abhishek",
+              "family": "Shah",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Rajendra",
+              "family": "Ugrani",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Ayush",
+              "family": "Gupta",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Manikandan",
+              "family": "Gurusankar",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Tin Kam",
+              "family": "Ho",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Q. Vera",
+              "family": "Liao",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Yunfeng",
+              "family": "Zhang",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Rachel K.E.",
+              "family": "Bellamy",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Robert",
+              "family": "Yates",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Chris",
+              "family": "Desmarais",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Blake",
+              "family": "McGregor",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2019,
+                7,
+                17
+              ]
+            ]
+          },
+          "container-title": [
+            "Proceedings of the AAAI Conference on Artificial Intelligence"
+          ],
+          "abstract": "<jats:p>Many conversational agents in the market today follow a standard bot development framework which requires training intent classifiers to recognize user input. The need to create a proper set of training examples is often the bottleneck in the development process. In many occasions agent developers have access to historical chat logs that can provide a good quantity as well as coverage of training examples. However, the cost of labeling them with tens to hundreds of intents often prohibits taking full advantage of these chat logs. In this paper, we present a framework called search, label, and propagate (SLP) for bootstrapping intents from existing chat logs using weak supervision. The framework reduces hours to days of labeling effort down to minutes of work by using a search engine to find examples, then relies on a data programming approach to automatically expand the labels. We report on a user study that shows positive user feedback for this new approach to build conversational agents, and demonstrates the effectiveness of using data programming for autolabeling. While the system is developed for training conversational agents, the framework has broader application in significantly reducing labeling effort for training text classifiers.</jats:p>",
+          "type": "journal-article",
+          "URL": "https://doi.org/10.1609/aaai.v33i01.33019528"
+        },
+        {
+          "DOI": "10.18653/v1/2026.eacl-long.336",
+          "title": [
+            "Incentivizing Strong Reasoning from Weak Supervision"
+          ],
+          "author": [
+            {
+              "given": "Yige",
+              "family": "Yuan",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Teng",
+              "family": "Xiao",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Shuchang",
+              "family": "Tao",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Xue",
+              "family": "Wang",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Jinyang",
+              "family": "Gao",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Bolin",
+              "family": "Ding",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Bingbing",
+              "family": "Xu",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2026
+              ]
+            ]
+          },
+          "container-title": [
+            "Proceedings of the 19th Conference of the European Chapter of the Association for Computational Linguistics (Volume 1: Long Papers)"
+          ],
+          "type": "proceedings-article",
+          "URL": "https://doi.org/10.18653/v1/2026.eacl-long.336"
+        },
+        {
+          "DOI": "10.1145/3077136.3080832",
+          "title": [
+            "Neural Ranking Models with Weak Supervision"
+          ],
+          "author": [
+            {
+              "given": "Mostafa",
+              "family": "Dehghani",
+              "sequence": "first",
+              "affiliation": [
+                {
+                  "name": "University of Amsterdam &amp; Google Research, Amsterdam, Netherlands"
+                }
+              ],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Hamed",
+              "family": "Zamani",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "University of Massachusetts Amherst, Amherst, MA, USA"
+                }
+              ],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Aliaksei",
+              "family": "Severyn",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "Google Research, Zurich, Switzerland"
+                }
+              ],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Jaap",
+              "family": "Kamps",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "University of Amsterdam, Amsterdam, Netherlands"
+                }
+              ],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "W. Bruce",
+              "family": "Croft",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "University of Massachusetts Amherst, Amherst, MA, USA"
+                }
+              ],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2017,
+                8,
+                7
+              ]
+            ]
+          },
+          "container-title": [
+            "Proceedings of the 40th International ACM SIGIR Conference on Research and Development in Information Retrieval"
+          ],
+          "type": "proceedings-article",
+          "URL": "https://doi.org/10.1145/3077136.3080832"
+        },
+        {
+          "DOI": "10.18653/v1/2022.repl4nlp-1.27",
+          "title": [
+            "WeaNF”:\" Weak Supervision with Normalizing Flows"
+          ],
+          "author": [
+            {
+              "given": "Andreas",
+              "family": "Stephan",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Benjamin",
+              "family": "Roth",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2022
+              ]
+            ]
+          },
+          "container-title": [
+            "Proceedings of the 7th Workshop on Representation Learning for NLP"
+          ],
+          "type": "proceedings-article",
+          "URL": "https://doi.org/10.18653/v1/2022.repl4nlp-1.27"
+        },
+        {
+          "DOI": "10.18653/v1/2021.acl-long.189",
+          "title": [
+            "Discovering Dialogue Slots with Weak Supervision"
+          ],
+          "author": [
+            {
+              "given": "Vojtěch",
+              "family": "Hudeček",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Ondřej",
+              "family": "Dušek",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Zhou",
+              "family": "Yu",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2021
+              ]
+            ]
+          },
+          "container-title": [
+            "Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 1: Long Papers)"
+          ],
+          "type": "proceedings-article",
+          "URL": "https://doi.org/10.18653/v1/2021.acl-long.189"
+        },
+        {
+          "DOI": "10.14778/3583140.3583148",
+          "title": [
+            "VersaMatch: Ontology Matching with Weak Supervision"
+          ],
+          "author": [
+            {
+              "given": "Jonathan",
+              "family": "Fürst",
+              "sequence": "first",
+              "affiliation": [
+                {
+                  "name": "NEC Laboratories Europe, Zurich University of Applied Sciences"
+                }
+              ],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Mauricio Fadel",
+              "family": "Argerich",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "NEC Laboratories Europe, Universidad Politécnica de Madrid"
+                }
+              ],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Bin",
+              "family": "Cheng",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "NEC Laboratories Europe, Springer Nature"
+                }
+              ],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2023,
+                2
+              ]
+            ]
+          },
+          "container-title": [
+            "Proceedings of the VLDB Endowment"
+          ],
+          "abstract": "<jats:p>\n            Ontology matching is crucial to data integration for across-silo data sharing and has been mainly addressed with heuristic and machine learning (ML) methods. While heuristic methods are often inflexible and hard to extend to new domains, ML methods rely on substantial and hard to obtain amounts of labeled training data. To overcome these limitations, we propose\n            <jats:italic>VersaMatch</jats:italic>\n            , a flexible, weakly-supervised ontology matching system. VersaMatch employs various weak supervision sources, such as heuristic rules, pattern matching, and external knowledge bases, to produce labels from a large amount of unlabeled data for training a discriminative ML model. For prediction, VersaMatch develops a novel ensemble model combining the weak supervision sources with the discriminative model to support generalization while retaining a high precision. Our ensemble method boosts end model performance by 4 points compared to a traditional weak-supervision baseline. In addition, compared to state-of-the-art ontology matchers, VersaMatch achieves an overall 4-point performance improvement in F1 score across 26 ontology combinations from different domains. For recently released, in-the-wild datasets, VersaMatch beats the next best matchers by 9 points in F1. Furthermore, its core weak-supervision logic can easily be improved by adding more knowledge sources and collecting more unlabeled data for training.\n          </jats:p>",
+          "type": "journal-article",
+          "URL": "https://doi.org/10.14778/3583140.3583148"
+        },
+        {
+          "DOI": "10.18653/v1/d18-1522",
+          "title": [
+            "Learning Concept Abstractness Using Weak Supervision"
+          ],
+          "author": [
+            {
+              "given": "Ella",
+              "family": "Rabinovich",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Benjamin",
+              "family": "Sznajder",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Artem",
+              "family": "Spector",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Ilya",
+              "family": "Shnayderman",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Ranit",
+              "family": "Aharonov",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "David",
+              "family": "Konopnicki",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Noam",
+              "family": "Slonim",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2018
+              ]
+            ]
+          },
+          "container-title": [
+            "Proceedings of the 2018 Conference on Empirical Methods in Natural Language Processing"
+          ],
+          "type": "proceedings-article",
+          "URL": "https://doi.org/10.18653/v1/d18-1522"
+        },
+        {
+          "DOI": "10.1145/3532213.3532289",
+          "title": [
+            "Interactive Semantic Segmentation With Weak Supervision"
+          ],
+          "author": [
+            {
+              "given": "Lei",
+              "family": "Gong",
+              "sequence": "first",
+              "affiliation": [
+                {
+                  "name": "Computer and Information Engineering, Xiamen University of Technology, China and Fujian Key Laboratory of Pattern Recognition and Image Understanding, Xiamen University of Technology, China"
+                }
+              ],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Da-Han",
+              "family": "Wang",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "Computer and Information Engineering, Xiamen University of Technology, China and Fujian Key Laboratory of Pattern Recognition and Image Understanding, Xiamen University of Technology, China"
+                }
+              ],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Hai-Li",
+              "family": "Ye",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "Computer and Information Engineering, Xiamen University of Technology, China and Fujian Key Laboratory of Pattern Recognition and Image Understanding, Xiamen University of Technology, China"
+                }
+              ],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Yun",
+              "family": "Wu",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "Computer and Information Engineering, Xiamen University of Technology, China and Fujian Key Laboratory of Pattern Recognition and Image Understanding, Xiamen University of Technology, China"
+                }
+              ],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Chen-Yan",
+              "family": "Zhu",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "Motic (Xiamen) Medical Diagnostic Systems Co. Ltd, China and Fujian Key Laboratory of Pattern Recognition and Image Understanding, Xiamen University of Technology, China"
+                }
+              ],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2022,
+                3,
+                18
+              ]
+            ]
+          },
+          "container-title": [
+            "Proceedings of the 8th International Conference on Computing and Artificial Intelligence"
+          ],
+          "type": "proceedings-article",
+          "URL": "https://doi.org/10.1145/3532213.3532289"
+        },
+        {
+          "DOI": "10.1145/3583780.3614950",
+          "title": [
+            "Learning Node Abnormality with Weak Supervision"
+          ],
+          "author": [
+            {
+              "ORCID": "https://orcid.org/0000-0002-2571-5796",
+              "authenticated-orcid": false,
+              "given": "Qinghai",
+              "family": "Zhou",
+              "sequence": "first",
+              "affiliation": [
+                {
+                  "name": "University of Illinois at Urbana-Champaign, Urbana, IL, USA"
+                }
+              ],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "ORCID": "https://orcid.org/0000-0001-6684-6752",
+              "authenticated-orcid": false,
+              "given": "Kaize",
+              "family": "Ding",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "Northwestern University, Evanston, IL, USA"
+                }
+              ],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "ORCID": "https://orcid.org/0000-0002-3264-7904",
+              "authenticated-orcid": false,
+              "given": "Huan",
+              "family": "Liu",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "Arizona State University, Tempe, AZ, USA"
+                }
+              ],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "ORCID": "https://orcid.org/0000-0003-4405-3887",
+              "authenticated-orcid": false,
+              "given": "Hanghang",
+              "family": "Tong",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "University of Illinois at Urbana-Champaign, Urbana, IL, USA"
+                }
+              ],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2023,
+                10,
+                21
+              ]
+            ]
+          },
+          "container-title": [
+            "Proceedings of the 32nd ACM International Conference on Information and Knowledge Management"
+          ],
+          "type": "proceedings-article",
+          "URL": "https://doi.org/10.1145/3583780.3614950"
+        }
+      ],
+      "items-per-page": 15,
+      "query": {
+        "start-index": 0,
+        "search-terms": null
+      }
+    }
+  }
+}

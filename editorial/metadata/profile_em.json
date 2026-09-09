@@ -1,0 +1,360 @@
+{
+  "database": "Crossref",
+  "endpoint": "https://api.crossref.org/works/10.1145/3340531.3412781",
+  "retrieved": "2026-09-09",
+  "status_code": 200,
+  "response": {
+    "status": "ok",
+    "message-type": "work",
+    "message-version": "1.0.0",
+    "message": {
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            8,
+            13
+          ]
+        ],
+        "date-time": "2026-08-13T15:43:50Z",
+        "timestamp": 1786635830705,
+        "version": "build-2736575974"
+      },
+      "publisher-location": "New York, NY, USA",
+      "reference-count": 24,
+      "publisher": "ACM",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2020,
+                10,
+                19
+              ]
+            ],
+            "date-time": "2020-10-19T00:00:00Z",
+            "timestamp": 1603065600000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "https://www.acm.org/publications/policies/copyright_policy#Background"
+        }
+      ],
+      "content-domain": {
+        "domain": [
+          "dl.acm.org"
+        ],
+        "crossmark-restriction": true
+      },
+      "short-container-title": [],
+      "published-print": {
+        "date-parts": [
+          [
+            2020,
+            10,
+            19
+          ]
+        ]
+      },
+      "DOI": "10.1145/3340531.3412781",
+      "type": "proceedings-article",
+      "created": {
+        "date-parts": [
+          [
+            2020,
+            10,
+            19
+          ]
+        ],
+        "date-time": "2020-10-19T05:31:06Z",
+        "timestamp": 1603085466000
+      },
+      "page": "3101-3108",
+      "update-policy": "https://doi.org/10.1145/crossmark-policy",
+      "source": "Crossref",
+      "is-referenced-by-count": 18,
+      "title": [
+        "Profiling Entity Matching Benchmark Tasks"
+      ],
+      "prefix": "10.1145",
+      "author": [
+        {
+          "given": "Anna",
+          "family": "Primpeli",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "University of Mannheim, Mannheim, Germany"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Christian",
+          "family": "Bizer",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "University of Mannheim, Mannheim, Germany"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "320",
+      "published-online": {
+        "date-parts": [
+          [
+            2020,
+            10,
+            19
+          ]
+        ]
+      },
+      "reference": [
+        {
+          "key": "e_1_3_2_2_1_1",
+          "volume-title": "Computational learning theory",
+          "author": "Anthony M. H. G.",
+          "unstructured": "M. H. G. Anthony and Norman Biggs . 1997. Computational learning theory . Vol. 30 . Cambridge University Press . M. H. G. Anthony and Norman Biggs. 1997. Computational learning theory. Vol. 30. Cambridge University Press."
+        },
+        {
+          "key": "e_1_3_2_2_2_1",
+          "unstructured": "Ursin Brunner and Kurt Stockinger. 2020. Entity matching with transformer architectures-a step forward in data integration. In EDBT. 463--473.  Ursin Brunner and Kurt Stockinger. 2020. Entity matching with transformer architectures-a step forward in data integration. In EDBT. 463--473."
+        },
+        {
+          "key": "e_1_3_2_2_3_1",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Davide Buscaldi Aldo Gangemi and Diego Reforgiato Recupero (Eds.). 2018. Semantic Web Challenges - 5th SemWebEval Challenge at ESWC 2018 Heraklion Greece June 3--7 2018 Revised Selected Papers.  Davide Buscaldi Aldo Gangemi and Diego Reforgiato Recupero (Eds.). 2018. Semantic Web Challenges - 5th SemWebEval Challenge at ESWC 2018 Heraklion Greece June 3--7 2018 Revised Selected Papers.",
+          "DOI": "10.1007/978-3-030-00072-1"
+        },
+        {
+          "key": "e_1_3_2_2_4_1",
+          "volume-title": "Data matching: concepts and techniques for record linkage, entity resolution, and duplicate detection",
+          "author": "Christen Peter",
+          "unstructured": "Peter Christen . 2012. Data matching: concepts and techniques for record linkage, entity resolution, and duplicate detection . Springer . Peter Christen. 2012. Data matching: concepts and techniques for record linkage, entity resolution, and duplicate detection .Springer."
+        },
+        {
+          "key": "e_1_3_2_2_5_1",
+          "volume-title": "mbox",
+          "author": "Vassilis Christophides",
+          "year": "2019",
+          "unstructured": "Vassilis Christophides et al mbox . 2019 . End-to-End Entity Resolution for Big Data: A Survey . arXiv:1905.06397 [cs] (2019). Vassilis Christophides et almbox. 2019. End-to-End Entity Resolution for Big Data: A Survey. arXiv:1905.06397 [cs] (2019)."
+        },
+        {
+          "key": "e_1_3_2_2_6_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.websem.2016.06.002"
+        },
+        {
+          "key": "e_1_3_2_2_7_1",
+          "volume-title": "DuDe: The Duplicate Detection Toolkit. In QDB Workshop.",
+          "author": "Draisbach Uwe",
+          "year": "2010",
+          "unstructured": "Uwe Draisbach and Felix Naumann . 2010 . DuDe: The Duplicate Detection Toolkit. In QDB Workshop. Uwe Draisbach and Felix Naumann. 2010. DuDe: The Duplicate Detection Toolkit. In QDB Workshop."
+        },
+        {
+          "key": "e_1_3_2_2_8_1",
+          "volume-title": "mbox",
+          "author": "Muhammad Ebraheem",
+          "year": "2018",
+          "unstructured": "Muhammad Ebraheem et al mbox . 2018 . Distributed Representations of Tuples for Entity Resolution. In VLDB. 1454--1467. Muhammad Ebraheem et almbox. 2018. Distributed Representations of Tuples for Entity Resolution. In VLDB. 1454--1467."
+        },
+        {
+          "key": "e_1_3_2_2_9_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.5555/1191547.1191739"
+        },
+        {
+          "key": "e_1_3_2_2_10_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1080/01621459.1969.10501049"
+        },
+        {
+          "key": "e_1_3_2_2_11_1",
+          "volume-title": "mbox",
+          "author": "Chaitanya Gokhale",
+          "year": "2014",
+          "unstructured": "Chaitanya Gokhale et al mbox . 2014 . Corleone: hands-off crowdsourcing for entity matching. In SIGMOD. 601--612. Chaitanya Gokhale et almbox. 2014. Corleone: hands-off crowdsourcing for entity matching. In SIGMOD. 601--612."
+        },
+        {
+          "key": "e_1_3_2_2_12_1",
+          "volume-title": "Deep Learning",
+          "author": "Goodfellow Ian",
+          "unstructured": "Ian Goodfellow , Yoshua Bengio , and Aaron Courville . 2016. Deep Learning . MIT Press . Ian Goodfellow, Yoshua Bengio, and Aaron Courville. 2016. Deep Learning .MIT Press."
+        },
+        {
+          "key": "e_1_3_2_2_13_1",
+          "volume-title": "mbox",
+          "author": "Jungo Kasai",
+          "year": "2019",
+          "unstructured": "Jungo Kasai et al mbox . 2019 . Low-resource Deep Entity Resolution with Transfer and Active Learning . arXiv preprint arXiv:1906.08042 (2019). Jungo Kasai et almbox. 2019. Low-resource Deep Entity Resolution with Transfer and Active Learning. arXiv preprint arXiv:1906.08042 (2019)."
+        },
+        {
+          "key": "e_1_3_2_2_14_1",
+          "first-page": "1581",
+          "article-title": "Magellan: Toward Building Entity Matching Management Systems over Data Science Stacks",
+          "volume": "13",
+          "author": "Pradap Konda",
+          "year": "2016",
+          "unstructured": "Pradap Konda et almbox. 2016 . Magellan: Toward Building Entity Matching Management Systems over Data Science Stacks . PVLDB 13 (2016), 1581 -- 1584 . Pradap Konda et almbox. 2016. Magellan: Toward Building Entity Matching Management Systems over Data Science Stacks. PVLDB 13 (2016), 1581--1584.",
+          "journal-title": "PVLDB"
+        },
+        {
+          "key": "e_1_3_2_2_15_1",
+          "volume-title": "Evaluation of entity resolution approaches on real-world match problems. PVLDB",
+          "author": "Köpcke Hanna",
+          "year": "2010",
+          "unstructured": "Hanna Köpcke , Andreas Thor , and Erhard Rahm . 2010. Evaluation of entity resolution approaches on real-world match problems. PVLDB ( 2010 ), 484--493. Hanna Köpcke, Andreas Thor, and Erhard Rahm. 2010. Evaluation of entity resolution approaches on real-world match problems. PVLDB (2010), 484--493."
+        },
+        {
+          "key": "e_1_3_2_2_16_1",
+          "volume-title": "mbox",
+          "author": "Yuliang Li",
+          "year": "2020",
+          "unstructured": "Yuliang Li et al mbox . 2020 . Deep Entity Matching with Pre-Trained Language Models . arXiv:2004.00584 [cs] (2020). Yuliang Li et almbox. 2020. Deep Entity Matching with Pre-Trained Language Models. arXiv:2004.00584 [cs] (2020)."
+        },
+        {
+          "key": "e_1_3_2_2_17_1",
+          "volume-title": "mbox",
+          "author": "Sidharth Mudgal",
+          "year": "2018",
+          "unstructured": "Sidharth Mudgal et al mbox . 2018 . Deep Learning for Entity Matching: A Design Space Exploration. In SIGMOD. 19--34. Sidharth Mudgal et almbox. 2018. Deep Learning for Entity Matching: A Design Space Exploration. In SIGMOD. 19--34."
+        },
+        {
+          "key": "e_1_3_2_2_18_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/3385658.3385664"
+        },
+        {
+          "key": "e_1_3_2_2_19_1",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Ralph Peeters et almbox. 2020 b. Using schema. org Annotations for Training and Maintaining Product Matchers. In WIMS.  Ralph Peeters et almbox. 2020 b. Using schema. org Annotations for Training and Maintaining Product Matchers. In WIMS.",
+          "DOI": "10.1145/3405962.3405964"
+        },
+        {
+          "key": "e_1_3_2_2_20_1",
+          "unstructured": "Ralph Peeters Christian Bizer and Goran Glavavs. 2020 a. Intermediate Training of BERT for Product Matching. In DI2KG Workshop @ VLDB.  Ralph Peeters Christian Bizer and Goran Glavavs. 2020 a. Intermediate Training of BERT for Product Matching. In DI2KG Workshop @ VLDB."
+        },
+        {
+          "key": "e_1_3_2_2_21_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.3233/SW-190356"
+        },
+        {
+          "key": "e_1_3_2_2_22_1",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Anna Primpeli and Christian Bizer. 2019. Robust active learning of expressive linkage rules. In WIMS. 1--7.  Anna Primpeli and Christian Bizer. 2019. Robust active learning of expressive linkage rules. In WIMS. 1--7.",
+          "DOI": "10.1145/3326467.3326484"
+        },
+        {
+          "key": "e_1_3_2_2_23_1",
+          "volume-title": "mbox",
+          "author": "van Erp Marieke",
+          "year": "2016",
+          "unstructured": "Marieke van Erp mbox . 2016 . Evaluating Entity Linking: An Analysis of Current Benchmark Datasets and a Roadmap for Doing a Better Job. In LREC. 4373--4379. Marieke van Erp et almbox. 2016. Evaluating Entity Linking: An Analysis of Current Benchmark Datasets and a Roadmap for Doing a Better Job. In LREC. 4373--4379."
+        },
+        {
+          "key": "e_1_3_2_2_24_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.14778/2021017.2021020"
+        }
+      ],
+      "event": {
+        "name": "CIKM '20: The 29th ACM International Conference on Information and Knowledge Management",
+        "location": "Virtual Event Ireland",
+        "acronym": "CIKM '20",
+        "sponsor": [
+          "SIGWEB ACM Special Interest Group on Hypertext, Hypermedia, and Web",
+          "SIGIR ACM Special Interest Group on Information Retrieval"
+        ]
+      },
+      "container-title": [
+        "Proceedings of the 29th ACM International Conference on Information &amp; Knowledge Management"
+      ],
+      "original-title": [],
+      "link": [
+        {
+          "URL": "https://dl.acm.org/doi/10.1145/3340531.3412781",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        },
+        {
+          "URL": "https://dl.acm.org/doi/pdf/10.1145/3340531.3412781",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2025,
+            6,
+            17
+          ]
+        ],
+        "date-time": "2025-06-17T22:02:56Z",
+        "timestamp": 1750197776000
+      },
+      "score": 1,
+      "resource": {
+        "primary": {
+          "URL": "https://dl.acm.org/doi/10.1145/3340531.3412781"
+        }
+      },
+      "subtitle": [],
+      "short-title": [],
+      "issued": {
+        "date-parts": [
+          [
+            2020,
+            10,
+            19
+          ]
+        ]
+      },
+      "references-count": 24,
+      "alternative-id": [
+        "10.1145/3340531.3412781",
+        "10.1145/3340531"
+      ],
+      "URL": "https://doi.org/10.1145/3340531.3412781",
+      "relation": {},
+      "subject": [],
+      "published": {
+        "date-parts": [
+          [
+            2020,
+            10,
+            19
+          ]
+        ]
+      },
+      "assertion": [
+        {
+          "value": "2020-10-19",
+          "order": 2,
+          "name": "published",
+          "label": "Published",
+          "group": {
+            "name": "publication_history",
+            "label": "Publication History"
+          }
+        }
+      ]
+    }
+  }
+}

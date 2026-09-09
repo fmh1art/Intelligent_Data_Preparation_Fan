@@ -1,0 +1,536 @@
+{
+  "database": "Crossref",
+  "endpoint": "https://api.crossref.org/works/10.1007/s13222-023-00457-y",
+  "retrieved": "2026-09-09",
+  "status_code": 200,
+  "response": {
+    "status": "ok",
+    "message-type": "work",
+    "message-version": "1.0.0",
+    "message": {
+      "indexed": {
+        "date-parts": [
+          [
+            2025,
+            2,
+            21
+          ]
+        ],
+        "date-time": "2025-02-21T17:38:39Z",
+        "timestamp": 1740159519800,
+        "version": "3.37.3"
+      },
+      "reference-count": 26,
+      "publisher": "Springer Science and Business Media LLC",
+      "issue": "3",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2023,
+                10,
+                16
+              ]
+            ],
+            "date-time": "2023-10-16T00:00:00Z",
+            "timestamp": 1697414400000
+          },
+          "content-version": "tdm",
+          "delay-in-days": 0,
+          "URL": "https://creativecommons.org/licenses/by/4.0"
+        },
+        {
+          "start": {
+            "date-parts": [
+              [
+                2023,
+                10,
+                16
+              ]
+            ],
+            "date-time": "2023-10-16T00:00:00Z",
+            "timestamp": 1697414400000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "https://creativecommons.org/licenses/by/4.0"
+        }
+      ],
+      "funder": [
+        {
+          "DOI": "10.13039/501100005714",
+          "name": "Technische Universität Darmstadt",
+          "doi-asserted-by": "publisher",
+          "id": [
+            {
+              "id": "10.13039/501100005714",
+              "id-type": "DOI",
+              "asserted-by": "publisher"
+            }
+          ]
+        },
+        {
+          "name": "Baden-Wuerttemberg Cooperative State University Mosbach (DHBW Mosbach)"
+        }
+      ],
+      "content-domain": {
+        "domain": [
+          "link.springer.com"
+        ],
+        "crossmark-restriction": false
+      },
+      "short-container-title": [
+        "Datenbank Spektrum"
+      ],
+      "published-print": {
+        "date-parts": [
+          [
+            2023,
+            11
+          ]
+        ]
+      },
+      "abstract": "<jats:title>Abstract</jats:title><jats:p>Table corpora such as VizNet or TURL which contain annotated semantic types per column are important to build machine learning models for the task of automatic semantic type detection. However, there is a huge discrepancy between corpora and real-world data lakes since they contain a huge fraction of numerical data which are not present in existing corpora. Hence, in this paper, we introduce a new corpus that contains a much higher proportion of numerical columns than existing corpora. To reflect the distribution in real-world data lakes, our corpus SportsTables has on average approx. 86% numerical columns, posing new challenges to existing semantic type detection models which have mainly targeted non-numerical columns so far. To demonstrate this effect, we show in this extended version paper of [18] the results of an extensive study using four different state-of-the-art approaches for semantic type detection on our new corpus. Overall, the results demonstrate significant performance differences in predicting semantic types for textual and numerical data.</jats:p>",
+      "DOI": "10.1007/s13222-023-00457-y",
+      "type": "journal-article",
+      "created": {
+        "date-parts": [
+          [
+            2023,
+            10,
+            16
+          ]
+        ],
+        "date-time": "2023-10-16T16:02:12Z",
+        "timestamp": 1697472132000
+      },
+      "page": "189-197",
+      "update-policy": "https://doi.org/10.1007/springer_crossmark_policy",
+      "source": "Crossref",
+      "is-referenced-by-count": 0,
+      "title": [
+        "SportsTables: A New Corpus for Semantic Type Detection (Extended Version)"
+      ],
+      "prefix": "10.1007",
+      "volume": "23",
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0009-0002-2809-5331",
+          "authenticated-orcid": false,
+          "given": "Sven",
+          "family": "Langenecker",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Christoph",
+          "family": "Sturm",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Christian",
+          "family": "Schalles",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Carsten",
+          "family": "Binnig",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "member": "297",
+      "published-online": {
+        "date-parts": [
+          [
+            2023,
+            10,
+            16
+          ]
+        ]
+      },
+      "reference": [
+        {
+          "key": "457_CR1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.5281/zenodo.5584180",
+          "volume-title": "fusion-jena/biodivtab",
+          "author": "N Abdelmageed",
+          "year": "2021",
+          "unstructured": "Abdelmageed N, Schindler S, König-Ries B (2021) fusion-jena/biodivtab https://doi.org/10.5281/zenodo.5584180"
+        },
+        {
+          "key": "457_CR2",
+          "doi-asserted-by": "publisher",
+          "first-page": "722",
+          "DOI": "10.1007/978-3-540-76298-0_52",
+          "volume-title": "The Semantic Web",
+          "author": "S Auer",
+          "year": "2007",
+          "unstructured": "Auer S, Bizer C, Kobilarov G et al (2007) Dbpedia: A nucleus for a web of open data. In: Aberer K, Choi KS, Noy N, al (eds) The Semantic Web. Springer Berlin Heidelberg, Berlin, Heidelberg, pp 722–735"
+        },
+        {
+          "key": "457_CR3",
+          "volume-title": "Tabel: Entity linking in web tables",
+          "author": "CS Bhagavatula",
+          "year": "2015",
+          "unstructured": "Bhagavatula CS, Noraset T, Downey D (2015) Tabel: Entity linking in web tables"
+        },
+        {
+          "key": "457_CR4",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.14778/1453856.1453916",
+          "volume-title": "Webtables: Exploring the power of tables on the web",
+          "author": "MJ Cafarella",
+          "year": "2008",
+          "unstructured": "Cafarella MJ, Halevy A, Wang DZ et al (2008) Webtables: Exploring the power of tables on the web https://doi.org/10.14778/1453856.1453916"
+        },
+        {
+          "key": "457_CR5",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.5281/zenodo.4246370",
+          "volume-title": "Tough Tables: Carefully Evaluating Entity Linking for Tabular Data",
+          "author": "V Cutrona",
+          "year": "2020",
+          "unstructured": "Cutrona V, Bianchi F, Jiménez-Ruiz E et al (2020) Tough Tables: Carefully Evaluating Entity Linking for Tabular Data https://doi.org/10.5281/zenodo.4246370"
+        },
+        {
+          "key": "457_CR6",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.14778/3430915.3430921",
+          "volume-title": "TURL: Table Understanding through Representation Learning",
+          "author": "X Deng",
+          "year": "2021",
+          "unstructured": "Deng X, Sun H, Lees A et al (2021) TURL: Table Understanding through Representation Learning https://doi.org/10.14778/3430915.3430921 (https://github.com/sunlab-osu/TURL)"
+        },
+        {
+          "key": "457_CR7",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.18653/v1/N19-1423",
+          "volume-title": "BERT: Pre-training of deep bidirectional transformers for language understanding",
+          "author": "J Devlin",
+          "year": "2019",
+          "unstructured": "Devlin J, Chang MW, Lee K et al (2019) BERT: Pre-training of deep bidirectional transformers for language understanding https://doi.org/10.18653/v1/N19-1423 (https://aclanthology.org/N19-1423)"
+        },
+        {
+          "key": "457_CR8",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/BigData47090.2019.9005594",
+          "volume-title": "Web scraping: State-of-the-art and areas of application",
+          "author": "R Diouf",
+          "year": "2019",
+          "unstructured": "Diouf R, Sarr EN, Sall O et al (2019) Web scraping: State-of-the-art and areas of application https://doi.org/10.1109/BigData47090.2019.9005594"
+        },
+        {
+          "key": "457_CR9",
+          "unstructured": "Google (2022) Freebase data dumps. https://developers.google.com/freebase"
+        },
+        {
+          "issue": "2",
+          "key": "457_CR10",
+          "doi-asserted-by": "publisher",
+          "first-page": "44",
+          "DOI": "10.1145/2844544",
+          "volume": "59",
+          "author": "RV Guha",
+          "year": "2016",
+          "unstructured": "Guha RV, Brickley D, Macbeth S (2016) Schema.org: Evolution of structured data on the web. Commun ACM 59(2):44–51. https://doi.org/10.1145/2844544",
+          "journal-title": "Commun ACM"
+        },
+        {
+          "key": "457_CR11",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.5281/zenodo.3518539",
+          "volume-title": "SemTab 2019: Semantic Web Challenge on Tabular Data to Knowledge Graph Matching Data Sets",
+          "author": "O Hassanzadeh",
+          "year": "2019",
+          "unstructured": "Hassanzadeh O, Efthymiou V, Chen J et al (2019) SemTab 2019: Semantic Web Challenge on Tabular Data to Knowledge Graph Matching Data Sets https://doi.org/10.5281/zenodo.3518539"
+        },
+        {
+          "key": "457_CR12",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.5281/zenodo.4282879",
+          "volume-title": "SemTab 2020: Semantic Web Challenge on Tabular Data to Knowledge Graph Matching Data Sets",
+          "author": "O Hassanzadeh",
+          "year": "2020",
+          "unstructured": "Hassanzadeh O, Efthymiou V, Chen J et al (2020) SemTab 2020: Semantic Web Challenge on Tabular Data to Knowledge Graph Matching Data Sets https://doi.org/10.5281/zenodo.4282879"
+        },
+        {
+          "key": "457_CR13",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.5281/zenodo.6154708",
+          "volume-title": "SemTab 2021: Semantic Web Challenge on Tabular Data to Knowledge Graph Matching Data Sets",
+          "author": "O Hassanzadeh",
+          "year": "2021",
+          "unstructured": "Hassanzadeh O, Efthymiou V, Chen J et al (2021) SemTab 2021: Semantic Web Challenge on Tabular Data to Knowledge Graph Matching Data Sets https://doi.org/10.5281/zenodo.6154708"
+        },
+        {
+          "key": "457_CR14",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/3290605.3300892",
+          "volume-title": "Viznet: Towards a large-scale visualization learning and benchmarking repository",
+          "author": "K Hu",
+          "year": "2019",
+          "unstructured": "Hu K, Gaikwad SNS, Hulsebos M et al (2019) Viznet: Towards a large-scale visualization learning and benchmarking repository https://doi.org/10.1145/3290605.3300892"
+        },
+        {
+          "key": "457_CR15",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/3292500.3330993",
+          "volume-title": "Sherlock: A deep learning approach to semantic data type detection",
+          "author": "M Hulsebos",
+          "year": "2019",
+          "unstructured": "Hulsebos M, Hu K, Bakker M et al (2019) Sherlock: A deep learning approach to semantic data type detection https://doi.org/10.1145/3292500.3330993"
+        },
+        {
+          "key": "457_CR16",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.5281/zenodo.5706316",
+          "volume-title": "Gittables benchmark - column type detection",
+          "author": "M Hulsebos",
+          "year": "2021",
+          "unstructured": "Hulsebos M, Demiralp C, Demiralp P (2021a) Gittables benchmark - column type detection https://doi.org/10.5281/zenodo.5706316"
+        },
+        {
+          "key": "457_CR17",
+          "unstructured": "Hulsebos M, Demiralp Ç, Groth P (2021b) Gittables: A large-scale corpus of relational tables. CoRR abs/2106.07258. https://arxiv.org/abs/2106.07258. Accessed 24 April 2023."
+        },
+        {
+          "key": "457_CR18",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.18420/BTW2023-68",
+          "volume-title": "BTW 2023",
+          "author": "S Langenecker",
+          "year": "2023",
+          "unstructured": "Langenecker S, Sturm C, Schalles C et al (2023) Sportstables: A new corpus for semantic type detection. In: König-Ries B, Scherzinger S, Lehner W et al (eds) BTW 2023. Gesellschaft für Informatik e.V., https://doi.org/10.18420/BTW2023-68"
+        },
+        {
+          "key": "457_CR19",
+          "doi-asserted-by": "publisher",
+          "first-page": "72",
+          "DOI": "10.1109/OBD.2016.18",
+          "volume-title": "International Conference on Open and Big Data (OBD)",
+          "author": "J Mitlöhner",
+          "year": "2016",
+          "unstructured": "Mitlöhner J, Neumaier S, Umbrich J et al (2016) Characteristics of open data csv files. In: IEEE (ed) International Conference on Open and Big Data (OBD). IEEE, pp 72–79 https://doi.org/10.1109/OBD.2016.18"
+        },
+        {
+          "key": "457_CR20",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/2964909",
+          "author": "S Neumaier",
+          "year": "2016",
+          "unstructured": "Neumaier S, Umbrich J, Polleres A (2016) Automated quality assessment of metadata across open data portals. J Data Inf Qual. https://doi.org/10.1145/2964909",
+          "journal-title": "J Data Inf Qual"
+        },
+        {
+          "key": "457_CR21",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.5281/zenodo.5606585",
+          "volume-title": "Semtab 2021 biotable dataset",
+          "author": "D Oliveira",
+          "year": "2021",
+          "unstructured": "Oliveira D, Pesquita C (2021) Semtab 2021 biotable dataset https://doi.org/10.5281/zenodo.5606585"
+        },
+        {
+          "key": "457_CR22",
+          "unstructured": "Plotly (2018) Plotly. https://chart-studio.plotly.com/feed/. Accessed 24 April 2023."
+        },
+        {
+          "key": "457_CR23",
+          "doi-asserted-by": "publisher",
+          "first-page": "379",
+          "DOI": "10.1002/j.1538-7305.1948.tb01338.x",
+          "volume": "27",
+          "author": "CE Shannon",
+          "year": "1948",
+          "unstructured": "Shannon CE (1948) A mathematical theory of communication. Bell Syst Tech J 27:379–423 (http://plan9.bell-labs.com/cm/ms/what/shannonday/shannon1948.pdf)",
+          "journal-title": "Bell Syst Tech J"
+        },
+        {
+          "key": "457_CR24",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/3514221.3517906",
+          "volume-title": "Annotating columns with pre-trained language models",
+          "author": "Y Suhara",
+          "year": "2022",
+          "unstructured": "Suhara Y, Li J, Li Y et al (2022) Annotating columns with pre-trained language models"
+        },
+        {
+          "issue": "6",
+          "key": "457_CR25",
+          "doi-asserted-by": "publisher",
+          "first-page": "1121",
+          "DOI": "10.1109/TVCG.2007.70577",
+          "volume": "13",
+          "author": "FB Viegas",
+          "year": "2007",
+          "unstructured": "Viegas FB, Wattenberg M, van Ham F et al (2007) Manyeyes: A site for visualization at internet scale. IEEE Trans Visual Comput Graphics 13(6):1121–1128. https://doi.org/10.1109/TVCG.2007.70577",
+          "journal-title": "IEEE Trans Visual Comput Graphics"
+        },
+        {
+          "key": "457_CR26",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.14778/3407790.3407793",
+          "volume-title": "Sato: Contextual semantic type detection in tables",
+          "author": "D Zhang",
+          "year": "2020",
+          "unstructured": "Zhang D, Hulsebos M, Suhara Y et al (2020) Sato: Contextual semantic type detection in tables https://doi.org/10.14778/3407790.3407793"
+        }
+      ],
+      "container-title": [
+        "Datenbank-Spektrum"
+      ],
+      "original-title": [],
+      "language": "en",
+      "link": [
+        {
+          "URL": "https://link.springer.com/content/pdf/10.1007/s13222-023-00457-y.pdf",
+          "content-type": "application/pdf",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        },
+        {
+          "URL": "https://link.springer.com/article/10.1007/s13222-023-00457-y/fulltext.html",
+          "content-type": "text/html",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        },
+        {
+          "URL": "https://link.springer.com/content/pdf/10.1007/s13222-023-00457-y.pdf",
+          "content-type": "application/pdf",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2024,
+            7,
+            15
+          ]
+        ],
+        "date-time": "2024-07-15T11:08:33Z",
+        "timestamp": 1721041713000
+      },
+      "score": 1,
+      "resource": {
+        "primary": {
+          "URL": "https://link.springer.com/10.1007/s13222-023-00457-y"
+        }
+      },
+      "subtitle": [],
+      "short-title": [],
+      "issued": {
+        "date-parts": [
+          [
+            2023,
+            10,
+            16
+          ]
+        ]
+      },
+      "references-count": 26,
+      "journal-issue": {
+        "issue": "3",
+        "published-print": {
+          "date-parts": [
+            [
+              2023,
+              11
+            ]
+          ]
+        }
+      },
+      "alternative-id": [
+        "457"
+      ],
+      "URL": "https://doi.org/10.1007/s13222-023-00457-y",
+      "relation": {},
+      "ISSN": [
+        "1618-2162",
+        "1610-1995"
+      ],
+      "issn-type": [
+        {
+          "type": "print",
+          "value": "1618-2162"
+        },
+        {
+          "type": "electronic",
+          "value": "1610-1995"
+        }
+      ],
+      "subject": [],
+      "published": {
+        "date-parts": [
+          [
+            2023,
+            10,
+            16
+          ]
+        ]
+      },
+      "assertion": [
+        {
+          "value": "7 June 2023",
+          "order": 1,
+          "name": "received",
+          "label": "Received",
+          "group": {
+            "name": "ArticleHistory",
+            "label": "Article History"
+          }
+        },
+        {
+          "value": "22 September 2023",
+          "order": 2,
+          "name": "accepted",
+          "label": "Accepted",
+          "group": {
+            "name": "ArticleHistory",
+            "label": "Article History"
+          }
+        },
+        {
+          "value": "16 October 2023",
+          "order": 3,
+          "name": "first_online",
+          "label": "First Online",
+          "group": {
+            "name": "ArticleHistory",
+            "label": "Article History"
+          }
+        }
+      ]
+    }
+  }
+}

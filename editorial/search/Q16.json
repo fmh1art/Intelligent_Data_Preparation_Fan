@@ -1,0 +1,717 @@
+{
+  "id": "Q16",
+  "source": "Crossref works relevance search",
+  "query": {
+    "query.title": "data preparation",
+    "rows": 15,
+    "filter": "from-pub-date:2009-01-01,until-pub-date:2026-09-09",
+    "select": "DOI,title,author,published,container-title,abstract,type,URL"
+  },
+  "endpoint": "https://api.crossref.org/works?query.title=data+preparation&rows=15&filter=from-pub-date%3A2009-01-01%2Cuntil-pub-date%3A2026-09-09&select=DOI%2Ctitle%2Cauthor%2Cpublished%2Ccontainer-title%2Cabstract%2Ctype%2CURL",
+  "retrieved": "2026-09-09",
+  "response": {
+    "status": "ok",
+    "message-type": "work-list",
+    "message-version": "1.0.0",
+    "message": {
+      "facets": {},
+      "total-results": 1921133,
+      "items": [
+        {
+          "DOI": "10.1002/9780470753866.ch6",
+          "title": [
+            "Data Preparation"
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2009,
+                3,
+                17
+              ]
+            ]
+          },
+          "container-title": [
+            "Business Intelligence"
+          ],
+          "type": "other",
+          "URL": "https://doi.org/10.1002/9780470753866.ch6"
+        },
+        {
+          "DOI": "10.1007/978-1-84882-260-3_6",
+          "title": [
+            "Data Preparation"
+          ],
+          "author": [
+            {
+              "given": "Michael R.",
+              "family": "Berthold",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Christian",
+              "family": "Borgelt",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Frank",
+              "family": "Höppner",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Frank",
+              "family": "Klawonn",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2010
+              ]
+            ]
+          },
+          "container-title": [
+            "Texts in Computer Science",
+            "Guide to Intelligent Data Analysis"
+          ],
+          "type": "book-chapter",
+          "URL": "https://doi.org/10.1007/978-1-84882-260-3_6"
+        },
+        {
+          "DOI": "10.4135/9781446287903.n4",
+          "title": [
+            "Data Preparation"
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2012
+              ]
+            ]
+          },
+          "container-title": [
+            "Diary Methods for Social and Personality Psychology"
+          ],
+          "type": "book-chapter",
+          "URL": "https://doi.org/10.4135/9781446287903.n4"
+        },
+        {
+          "DOI": "10.1201/b17525-13",
+          "title": [
+            "Data Preparation"
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2014,
+                10,
+                15
+              ]
+            ]
+          },
+          "container-title": [
+            "Pricing in General Insurance"
+          ],
+          "type": "book-chapter",
+          "URL": "https://doi.org/10.1201/b17525-13"
+        },
+        {
+          "DOI": "10.1201/9781003486817-3",
+          "title": [
+            "Data preparation"
+          ],
+          "author": [
+            {
+              "given": "Ally S.",
+              "family": "Nyamawe",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Mohamedi M.",
+              "family": "Mjahidi",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Noe E.",
+              "family": "Nnko",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Salim A.",
+              "family": "Diwani",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Godbless G.",
+              "family": "Minja",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Kulwa",
+              "family": "Malyango",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2025,
+                1,
+                29
+              ]
+            ]
+          },
+          "container-title": [
+            "Practical Machine Learning"
+          ],
+          "type": "book-chapter",
+          "URL": "https://doi.org/10.1201/9781003486817-3"
+        },
+        {
+          "DOI": "10.1007/978-1-4842-4137-0_3",
+          "title": [
+            "Data Preparation"
+          ],
+          "author": [
+            {
+              "given": "Roger",
+              "family": "Cornejo",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2018
+              ]
+            ]
+          },
+          "container-title": [
+            "Dynamic Oracle Performance Analytics"
+          ],
+          "type": "book-chapter",
+          "URL": "https://doi.org/10.1007/978-1-4842-4137-0_3"
+        },
+        {
+          "DOI": "10.1007/978-1-4842-2178-5_3",
+          "title": [
+            "Data Preparation"
+          ],
+          "author": [
+            {
+              "given": "Chris",
+              "family": "Conlan",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2016
+              ]
+            ]
+          },
+          "container-title": [
+            "Automated Trading with R"
+          ],
+          "type": "book-chapter",
+          "URL": "https://doi.org/10.1007/978-1-4842-2178-5_3"
+        },
+        {
+          "DOI": "10.1016/b978-0-32-391778-0.00010-7",
+          "title": [
+            "Data preparation"
+          ],
+          "author": [
+            {
+              "given": "Jugal K.",
+              "family": "Kalita",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Dhruba K.",
+              "family": "Bhattacharyya",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Swarup",
+              "family": "Roy",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2024
+              ]
+            ]
+          },
+          "container-title": [
+            "Fundamentals of Data Science"
+          ],
+          "type": "book-chapter",
+          "URL": "https://doi.org/10.1016/b978-0-32-391778-0.00010-7"
+        },
+        {
+          "DOI": "10.1002/9781119005056.ch6",
+          "title": [
+            "Data Preparation"
+          ],
+          "author": [
+            {
+              "given": "Jean‐Louis",
+              "family": "Boulanger",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2015,
+                3,
+                27
+              ]
+            ]
+          },
+          "container-title": [
+            "CENELEC 50128 and IEC 62279 Standards"
+          ],
+          "type": "other",
+          "URL": "https://doi.org/10.1002/9781119005056.ch6"
+        },
+        {
+          "DOI": "10.1007/978-1-4842-5729-6_9",
+          "title": [
+            "Data Preparation"
+          ],
+          "author": [
+            {
+              "given": "Tom",
+              "family": "Taulli",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2020
+              ]
+            ]
+          },
+          "container-title": [
+            "The Robotic Process Automation Handbook"
+          ],
+          "type": "book-chapter",
+          "URL": "https://doi.org/10.1007/978-1-4842-5729-6_9"
+        },
+        {
+          "DOI": "10.1145/3444831.3444835",
+          "title": [
+            "Data Preparation"
+          ],
+          "author": [
+            {
+              "given": "Mazhar",
+              "family": "Hameed",
+              "sequence": "first",
+              "affiliation": [
+                {
+                  "name": "University of Potsdam, Potsdam, Germany"
+                }
+              ],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Felix",
+              "family": "Naumann",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "University of Potsdam, Potsdam, Germany"
+                }
+              ],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2020,
+                12,
+                17
+              ]
+            ]
+          },
+          "container-title": [
+            "ACM SIGMOD Record"
+          ],
+          "abstract": "<jats:p>Raw data are often messy: they follow different encodings, records are not well structured, values do not adhere to patterns, etc. Such data are in general not fit to be ingested by downstream applications, such as data analytics tools, or even by data management systems. The act of obtaining information from raw data relies on some data preparation process. Data preparation is integral to advanced data analysis and data management, not only for data science but for any data-driven applications. Existing data preparation tools are operational and useful, but there is still room for improvement and optimization. With increasing data volume and its messy nature, the demand for prepared data increases day by day.</jats:p>\n          <jats:p>To cater to this demand, companies and researchers are developing techniques and tools for data preparation. To better understand the available data preparation systems, we have conducted a survey to investigate (1) prominent data preparation tools, (2) distinctive tool features, (3) the need for preliminary data processing even for these tools and, (4) features and abilities that are still lacking. We conclude with an argument in support of automatic and intelligent data preparation beyond traditional and simplistic techniques.</jats:p>",
+          "type": "journal-article",
+          "URL": "https://doi.org/10.1145/3444831.3444835"
+        },
+        {
+          "DOI": "10.1007/978-981-96-6259-3_4",
+          "title": [
+            "Data Preparation"
+          ],
+          "author": [
+            {
+              "given": "Wayne Xin",
+              "family": "Zhao",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Kun",
+              "family": "Zhou",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Junyi",
+              "family": "Li",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Tianyi",
+              "family": "Tang",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Ji-Rong",
+              "family": "Wen",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2025,
+                7,
+                30
+              ]
+            ]
+          },
+          "container-title": [
+            "Artificial Intelligence: Foundations, Theory, and Algorithms",
+            "Large Language Models"
+          ],
+          "type": "book-chapter",
+          "URL": "https://doi.org/10.1007/978-981-96-6259-3_4"
+        },
+        {
+          "DOI": "10.1201/9781003028611-9",
+          "title": [
+            "Data Preparation"
+          ],
+          "author": [
+            {
+              "given": "Thierry",
+              "family": "Worch",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Julien",
+              "family": "Delarue",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Vanessa Rios",
+              "family": "de Souza",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "John",
+              "family": "Ennis",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2023,
+                9,
+                29
+              ]
+            ]
+          },
+          "container-title": [
+            "Data Science for Sensory and Consumer Scientists"
+          ],
+          "type": "book-chapter",
+          "URL": "https://doi.org/10.1201/9781003028611-9"
+        },
+        {
+          "DOI": "10.1007/978-1-4899-7687-1_62",
+          "title": [
+            "Data Preparation"
+          ],
+          "author": [
+            {
+              "given": "Zahraa S.",
+              "family": "Abdallah",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Lan",
+              "family": "Du",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Geoffrey I.",
+              "family": "Webb",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2017
+              ]
+            ]
+          },
+          "container-title": [
+            "Encyclopedia of Machine Learning and Data Mining"
+          ],
+          "type": "book-chapter",
+          "URL": "https://doi.org/10.1007/978-1-4899-7687-1_62"
+        },
+        {
+          "DOI": "10.1007/978-3-319-77525-8_100087",
+          "title": [
+            "Data Preparation"
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2019
+              ]
+            ]
+          },
+          "container-title": [
+            "Encyclopedia of Big Data Technologies"
+          ],
+          "type": "book-chapter",
+          "URL": "https://doi.org/10.1007/978-3-319-77525-8_100087"
+        }
+      ],
+      "items-per-page": 15,
+      "query": {
+        "start-index": 0,
+        "search-terms": null
+      }
+    }
+  }
+}

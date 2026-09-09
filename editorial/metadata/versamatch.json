@@ -1,0 +1,688 @@
+{
+  "database": "Crossref",
+  "endpoint": "https://api.crossref.org/works/10.14778/3583140.3583148",
+  "retrieved": "2026-09-09",
+  "status_code": 200,
+  "response": {
+    "status": "ok",
+    "message-type": "work",
+    "message-version": "1.0.0",
+    "message": {
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            7,
+            24
+          ]
+        ],
+        "date-time": "2026-07-24T15:24:02Z",
+        "timestamp": 1784906642242,
+        "version": "3.55.0"
+      },
+      "reference-count": 77,
+      "publisher": "Association for Computing Machinery (ACM)",
+      "issue": "6",
+      "content-domain": {
+        "domain": [
+          "dl.acm.org"
+        ],
+        "crossmark-restriction": true
+      },
+      "short-container-title": [
+        "Proc. VLDB Endow."
+      ],
+      "published-print": {
+        "date-parts": [
+          [
+            2023,
+            2
+          ]
+        ]
+      },
+      "abstract": "<jats:p>\n            Ontology matching is crucial to data integration for across-silo data sharing and has been mainly addressed with heuristic and machine learning (ML) methods. While heuristic methods are often inflexible and hard to extend to new domains, ML methods rely on substantial and hard to obtain amounts of labeled training data. To overcome these limitations, we propose\n            <jats:italic>VersaMatch</jats:italic>\n            , a flexible, weakly-supervised ontology matching system. VersaMatch employs various weak supervision sources, such as heuristic rules, pattern matching, and external knowledge bases, to produce labels from a large amount of unlabeled data for training a discriminative ML model. For prediction, VersaMatch develops a novel ensemble model combining the weak supervision sources with the discriminative model to support generalization while retaining a high precision. Our ensemble method boosts end model performance by 4 points compared to a traditional weak-supervision baseline. In addition, compared to state-of-the-art ontology matchers, VersaMatch achieves an overall 4-point performance improvement in F1 score across 26 ontology combinations from different domains. For recently released, in-the-wild datasets, VersaMatch beats the next best matchers by 9 points in F1. Furthermore, its core weak-supervision logic can easily be improved by adding more knowledge sources and collecting more unlabeled data for training.\n          </jats:p>",
+      "DOI": "10.14778/3583140.3583148",
+      "type": "journal-article",
+      "created": {
+        "date-parts": [
+          [
+            2023,
+            4,
+            20
+          ]
+        ],
+        "date-time": "2023-04-20T16:45:59Z",
+        "timestamp": 1682009159000
+      },
+      "page": "1305-1318",
+      "update-policy": "https://doi.org/10.1145/crossmark-policy",
+      "source": "Crossref",
+      "is-referenced-by-count": 7,
+      "title": [
+        "VersaMatch: Ontology Matching with Weak Supervision"
+      ],
+      "prefix": "10.14778",
+      "volume": "16",
+      "author": [
+        {
+          "given": "Jonathan",
+          "family": "Fürst",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "NEC Laboratories Europe, Zurich University of Applied Sciences"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Mauricio Fadel",
+          "family": "Argerich",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "NEC Laboratories Europe, Universidad Politécnica de Madrid"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Bin",
+          "family": "Cheng",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "NEC Laboratories Europe, Springer Nature"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "320",
+      "published-online": {
+        "date-parts": [
+          [
+            2023,
+            4,
+            20
+          ]
+        ]
+      },
+      "reference": [
+        {
+          "key": "e_1_2_1_1_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/1066157.1066283"
+        },
+        {
+          "key": "e_1_2_1_2_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/3299869.3314036"
+        },
+        {
+          "key": "e_1_2_1_3_1",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1515/9781400874668",
+          "volume-title": "Adaptive control processes: a guided tour princeton university press",
+          "author": "Bellman Richard",
+          "year": "1961",
+          "unstructured": "Richard Bellman . 1961. Adaptive control processes: a guided tour princeton university press . Princeton, New Jersey, USA ( 1961 ), 96. Richard Bellman. 1961. Adaptive control processes: a guided tour princeton university press. Princeton, New Jersey, USA (1961), 96."
+        },
+        {
+          "key": "e_1_2_1_4_1",
+          "volume-title": "NLTK: the natural language toolkit",
+          "author": "Bird SG",
+          "unstructured": "SG Bird and Edward Loper . 2004. NLTK: the natural language toolkit . Association for Computational Linguistics . SG Bird and Edward Loper. 2004. NLTK: the natural language toolkit. Association for Computational Linguistics."
+        },
+        {
+          "key": "e_1_2_1_5_1",
+          "volume-title": "Translating embeddings for modeling multi-relational data. Advances in neural information processing systems 26",
+          "author": "Bordes Antoine",
+          "year": "2013",
+          "unstructured": "Antoine Bordes , Nicolas Usunier , Alberto Garcia-Duran , Jason Weston , and Oksana Yakhnenko . 2013. Translating embeddings for modeling multi-relational data. Advances in neural information processing systems 26 ( 2013 ). Antoine Bordes, Nicolas Usunier, Alberto Garcia-Duran, Jason Weston, and Oksana Yakhnenko. 2013. Translating embeddings for modeling multi-relational data. Advances in neural information processing systems 26 (2013)."
+        },
+        {
+          "key": "e_1_2_1_6_1",
+          "volume-title": "Bagging predictors. Machine learning 24, 2",
+          "author": "Breiman Leo",
+          "year": "1996",
+          "unstructured": "Leo Breiman . 1996. Bagging predictors. Machine learning 24, 2 ( 1996 ), 123--140. Leo Breiman. 1996. Bagging predictors. Machine learning 24, 2 (1996), 123--140."
+        },
+        {
+          "key": "e_1_2_1_7_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/3329486.3329492"
+        },
+        {
+          "key": "e_1_2_1_8_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.5555/647819.736184"
+        },
+        {
+          "key": "e_1_2_1_9_1",
+          "volume-title": "23rd International Conference on Extending Database Technology",
+          "author": "Brunner Ursin",
+          "year": "2020",
+          "unstructured": "Ursin Brunner and Kurt Stockinger . 2020 . Entity matching with transformer architectures-a step forward in data integration . In 23rd International Conference on Extending Database Technology , Copenhagen, 30 March-2 April 2020. OpenProceedings. Ursin Brunner and Kurt Stockinger. 2020. Entity matching with transformer architectures-a step forward in data integration. In 23rd International Conference on Extending Database Technology, Copenhagen, 30 March-2 April 2020. OpenProceedings."
+        },
+        {
+          "key": "e_1_2_1_10_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/3318464.3389742"
+        },
+        {
+          "key": "e_1_2_1_11_1",
+          "volume-title": "Noah Constant, Mario Guajardo-Céspedes, Steve Yuan, Chris Tar, et al.",
+          "author": "Cer Daniel",
+          "year": "2018",
+          "unstructured": "Daniel Cer , Yinfei Yang , Sheng-yi Kong, Nan Hua , Nicole Limtiaco , Rhomni St John , Noah Constant, Mario Guajardo-Céspedes, Steve Yuan, Chris Tar, et al. 2018 . Universal sentence encoder. arXiv preprint arXiv:1803.11175 (2018). Daniel Cer, Yinfei Yang, Sheng-yi Kong, Nan Hua, Nicole Limtiaco, Rhomni St John, Noah Constant, Mario Guajardo-Céspedes, Steve Yuan, Chris Tar, et al. 2018. Universal sentence encoder. arXiv preprint arXiv:1803.11175 (2018)."
+        },
+        {
+          "key": "e_1_2_1_12_1",
+          "first-page": "10",
+          "article-title": "BigGorilla: An Open-Source Ecosystem for Data Preparation and Integration",
+          "volume": "41",
+          "author": "Chen Chen",
+          "year": "2018",
+          "unstructured": "Chen Chen , Behzad Golshan , Alon Y Halevy , Wang-Chiew Tan , and AnHai Doan . 2018 . BigGorilla: An Open-Source Ecosystem for Data Preparation and Integration . IEEE Data Eng. Bull. 41 , 2 (2018), 10 -- 22 . Chen Chen, Behzad Golshan, Alon Y Halevy, Wang-Chiew Tan, and AnHai Doan. 2018. BigGorilla: An Open-Source Ecosystem for Data Preparation and Integration. IEEE Data Eng. Bull. 41, 2 (2018), 10--22.",
+          "journal-title": "IEEE Data Eng. Bull."
+        },
+        {
+          "key": "e_1_2_1_13_1",
+          "volume-title": "Multilingual knowledge graph embeddings for cross-lingual knowledge alignment. arXiv preprint arXiv:1611.03954",
+          "author": "Chen Muhao",
+          "year": "2016",
+          "unstructured": "Muhao Chen , Yingtao Tian , Mohan Yang , and Carlo Zaniolo . 2016. Multilingual knowledge graph embeddings for cross-lingual knowledge alignment. arXiv preprint arXiv:1611.03954 ( 2016 ). Muhao Chen, Yingtao Tian, Mohan Yang, and Carlo Zaniolo. 2016. Multilingual knowledge graph embeddings for cross-lingual knowledge alignment. arXiv preprint arXiv:1611.03954 (2016)."
+        },
+        {
+          "key": "e_1_2_1_14_1",
+          "unstructured": "Xi Chen Weiguo Xia Ernesto Jiménez-Ruiz and Valerie V Cross. 2014. Extending an ontology alignment system with BioPortal: a preliminary analysis.. In International semantic web conference (posters & demos). Citeseer 313--316.  Xi Chen Weiguo Xia Ernesto Jiménez-Ruiz and Valerie V Cross. 2014. Extending an ontology alignment system with BioPortal: a preliminary analysis.. In International semantic web conference (posters & demos). Citeseer 313--316."
+        },
+        {
+          "key": "e_1_2_1_15_1",
+          "volume-title": "Proceedings of the 2017 ACM International Conference on Management of Data. 1431--1446",
+          "author": "Das Sanjib",
+          "year": "2017",
+          "unstructured": "Sanjib Das , Paul Suganthan GC , AnHai Doan , Jeffrey F Naughton , Ganesh Krishnan , Rohit Deep , Esteban Arcaute , Vijay Raghavendra , and Youngchoon Park . 2017 . Falcon: Scaling up hands-off crowdsourced entity matching to build cloud services . In Proceedings of the 2017 ACM International Conference on Management of Data. 1431--1446 . Sanjib Das, Paul Suganthan GC, AnHai Doan, Jeffrey F Naughton, Ganesh Krishnan, Rohit Deep, Esteban Arcaute, Vijay Raghavendra, and Youngchoon Park. 2017. Falcon: Scaling up hands-off crowdsourced entity matching to build cloud services. In Proceedings of the 2017 ACM International Conference on Management of Data. 1431--1446."
+        },
+        {
+          "key": "e_1_2_1_16_1",
+          "volume-title": "Bert: Pre-training of deep bidirectional transformers for language understanding. arXiv preprint arXiv:1810.04805",
+          "author": "Devlin Jacob",
+          "year": "2018",
+          "unstructured": "Jacob Devlin , Ming-Wei Chang , Kenton Lee , and Kristina Toutanova . 2018 . Bert: Pre-training of deep bidirectional transformers for language understanding. arXiv preprint arXiv:1810.04805 (2018). Jacob Devlin, Ming-Wei Chang, Kenton Lee, and Kristina Toutanova. 2018. Bert: Pre-training of deep bidirectional transformers for language understanding. arXiv preprint arXiv:1810.04805 (2018)."
+        },
+        {
+          "key": "e_1_2_1_17_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/B978-155860869-6/50060-3"
+        },
+        {
+          "key": "e_1_2_1_18_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/s00778-003-0104-2"
+        },
+        {
+          "key": "e_1_2_1_19_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/3219819.3219938"
+        },
+        {
+          "key": "e_1_2_1_20_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.patter.2020.100019"
+        },
+        {
+          "key": "e_1_2_1_21_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.14778/3236187.3269461"
+        },
+        {
+          "key": "e_1_2_1_22_1",
+          "volume-title": "Journal on data semantics",
+          "author": "Euzenat Jérôme",
+          "unstructured": "Jérôme Euzenat , Christian Meilicke , Heiner Stuckenschmidt , Pavel Shvaiko , and Cássia Trojahn . 2011. Ontology alignment evaluation initiative: six years of experience . In Journal on data semantics XV. Springer , 158--192. Jérôme Euzenat, Christian Meilicke, Heiner Stuckenschmidt, Pavel Shvaiko, and Cássia Trojahn. 2011. Ontology alignment evaluation initiative: six years of experience. In Journal on data semantics XV. Springer, 158--192."
+        },
+        {
+          "key": "e_1_2_1_23_1",
+          "unstructured": "Jérôme Euzenat Pavel Shvaiko etal 2007. Ontology matching. Vol. 18. Springer.  Jérôme Euzenat Pavel Shvaiko et al. 2007. Ontology matching. Vol. 18. Springer."
+        },
+        {
+          "key": "e_1_2_1_24_1",
+          "volume-title": "OTM Confederated International Conferences \"On the Move to Meaningful Internet Systems\". Springer, 527--541",
+          "author": "Faria Daniel",
+          "year": "2013",
+          "unstructured": "Daniel Faria , Catia Pesquita , Emanuel Santos , Matteo Palmonari , Isabel F Cruz , and Francisco M Couto . 2013 . The agreementmakerlight ontology matching system . In OTM Confederated International Conferences \"On the Move to Meaningful Internet Systems\". Springer, 527--541 . Daniel Faria, Catia Pesquita, Emanuel Santos, Matteo Palmonari, Isabel F Cruz, and Francisco M Couto. 2013. The agreementmakerlight ontology matching system. In OTM Confederated International Conferences \"On the Move to Meaningful Internet Systems\". Springer, 527--541."
+        },
+        {
+          "key": "e_1_2_1_25_1",
+          "volume-title": "Data Market Platforms: Trading Data Assets to Solve Data Problems [Vision Paper]. arXiv preprint arXiv:2002.01047",
+          "author": "Fernandez Raul Castro",
+          "year": "2020",
+          "unstructured": "Raul Castro Fernandez , Pranav Subramaniam , and Michael J Franklin . 2020. Data Market Platforms: Trading Data Assets to Solve Data Problems [Vision Paper]. arXiv preprint arXiv:2002.01047 ( 2020 ). Raul Castro Fernandez, Pranav Subramaniam, and Michael J Franklin. 2020. Data Market Platforms: Trading Data Assets to Solve Data Problems [Vision Paper]. arXiv preprint arXiv:2002.01047 (2020)."
+        },
+        {
+          "key": "e_1_2_1_26_1",
+          "volume-title": "Mauricio Fadel Argerich, and Bin Cheng",
+          "author": "Fuerst Jonathan",
+          "year": "2023",
+          "unstructured": "Jonathan Fuerst , Mauricio Fadel Argerich, and Bin Cheng . 2023 . VersaMatch Data and Code. Retrieved 2023-02-15 from https://github.com/nec-research/VersaMatch Jonathan Fuerst, Mauricio Fadel Argerich, and Bin Cheng. 2023. VersaMatch Data and Code. Retrieved 2023-02-15 from https://github.com/nec-research/VersaMatch"
+        },
+        {
+          "key": "e_1_2_1_27_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.5555/3295222.3295265"
+        },
+        {
+          "key": "e_1_2_1_28_1",
+          "volume-title": "Proceedings of the Twentieth ACM Conference on Embedded Networked Sensor Systems. 1026--1030",
+          "author": "Garrido-Hidalgo Celia",
+          "year": "2022",
+          "unstructured": "Celia Garrido-Hidalgo , Jonathan Fürst , Bin Cheng , Luis Roda-Sanchez , Teresa Olivares , and Ernö Kovacs . 2022 . Interlinking the Brick Schema with Building Domain Ontologies . In Proceedings of the Twentieth ACM Conference on Embedded Networked Sensor Systems. 1026--1030 . Celia Garrido-Hidalgo, Jonathan Fürst, Bin Cheng, Luis Roda-Sanchez, Teresa Olivares, and Ernö Kovacs. 2022. Interlinking the Brick Schema with Building Domain Ontologies. In Proceedings of the Twentieth ACM Conference on Embedded Networked Sensor Systems. 1026--1030."
+        },
+        {
+          "key": "e_1_2_1_29_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/2588555.2588576"
+        },
+        {
+          "key": "e_1_2_1_30_1",
+          "volume-title": "Companion Proceedings of the The Web Conference 2018. 1935",
+          "author": "Gyrard Amelie",
+          "year": "2018",
+          "unstructured": "Amelie Gyrard , Manas Gaur , Swati Padhee , Amit Sheth , and Mihaela Juganaru-Mathieu . 2018 . Knowledge Extraction for the Web of Things (KE4WoT) WWW 2018 Challenge Summary . In Companion Proceedings of the The Web Conference 2018. 1935 --1936. Amelie Gyrard, Manas Gaur, Swati Padhee, Amit Sheth, and Mihaela Juganaru-Mathieu. 2018. Knowledge Extraction for the Web of Things (KE4WoT) WWW 2018 Challenge Summary. In Companion Proceedings of the The Web Conference 2018. 1935--1936."
+        },
+        {
+          "key": "e_1_2_1_31_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/JIOT.2018.2854278"
+        },
+        {
+          "key": "e_1_2_1_32_1",
+          "volume-title": "Uberon: towards a comprehensive multi-species anatomy ontology. Nature precedings",
+          "author": "Haendel Melissa",
+          "year": "2009",
+          "unstructured": "Melissa Haendel , Georgios Gkoutos , Suzanna Lewis , and Chris Mungall . 2009. Uberon: towards a comprehensive multi-species anatomy ontology. Nature precedings ( 2009 ), 1--1. Melissa Haendel, Georgios Gkoutos, Suzanna Lewis, and Chris Mungall. 2009. Uberon: towards a comprehensive multi-species anatomy ontology. Nature precedings (2009), 1--1."
+        },
+        {
+          "key": "e_1_2_1_33_1",
+          "unstructured": "Matthew Honnibal and Ines Montani. 2017. spaCy: Natural language understanding with Bloom embeddings convolutional neural networks and incremental parsing. (2017).  Matthew Honnibal and Ines Montani. 2017. spaCy: Natural language understanding with Bloom embeddings convolutional neural networks and incremental parsing. (2017)."
+        },
+        {
+          "key": "e_1_2_1_34_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/276698.276876"
+        },
+        {
+          "key": "e_1_2_1_35_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.5555/2063016.2063035"
+        },
+        {
+          "key": "e_1_2_1_36_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.14778/3007263.3007314"
+        },
+        {
+          "key": "e_1_2_1_37_1",
+          "volume-title": "Valentine: Evaluating Matching Techniques for Dataset Discovery. In 2021 IEEE 37th International Conference on Data Engineering (ICDE). IEEE, 468--479",
+          "author": "Koutras Christos",
+          "year": "2021",
+          "unstructured": "Christos Koutras , George Siachamis , Andra Ionescu , Kyriakos Psarakis , Jerry Brons , Marios Fragkoulis , Christoph Lofi , Angela Bonifati , and Asterios Katsifodimos . 2021 . Valentine: Evaluating Matching Techniques for Dataset Discovery. In 2021 IEEE 37th International Conference on Data Engineering (ICDE). IEEE, 468--479 . Christos Koutras, George Siachamis, Andra Ionescu, Kyriakos Psarakis, Jerry Brons, Marios Fragkoulis, Christoph Lofi, Angela Bonifati, and Asterios Katsifodimos. 2021. Valentine: Evaluating Matching Techniques for Dataset Discovery. In 2021 IEEE 37th International Conference on Data Engineering (ICDE). IEEE, 468--479."
+        },
+        {
+          "key": "e_1_2_1_38_1",
+          "volume-title": "Mining of massive data sets",
+          "author": "Leskovec Jure",
+          "unstructured": "Jure Leskovec , Anand Rajaraman , and Jeffrey David Ullman . 2020. Mining of massive data sets . Cambridge university press . Jure Leskovec, Anand Rajaraman, and Jeffrey David Ullman. 2020. Mining of massive data sets. Cambridge university press."
+        },
+        {
+          "key": "e_1_2_1_39_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.3115/v1/P14-2050"
+        },
+        {
+          "key": "e_1_2_1_40_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.14778/3421424.3421431"
+        },
+        {
+          "key": "e_1_2_1_41_1",
+          "volume-title": "Roberta: A robustly optimized bert pretraining approach. arXiv preprint arXiv:1907.11692",
+          "author": "Liu Yinhan",
+          "year": "2019",
+          "unstructured": "Yinhan Liu , Myle Ott , Naman Goyal , Jingfei Du , Mandar Joshi , Danqi Chen , Omer Levy , Mike Lewis , Luke Zettlemoyer , and Veselin Stoyanov . 2019 . Roberta: A robustly optimized bert pretraining approach. arXiv preprint arXiv:1907.11692 (2019). Yinhan Liu, Myle Ott, Naman Goyal, Jingfei Du, Mandar Joshi, Danqi Chen, Omer Levy, Mike Lewis, Luke Zettlemoyer, and Veselin Stoyanov. 2019. Roberta: A robustly optimized bert pretraining approach. arXiv preprint arXiv:1907.11692 (2019)."
+        },
+        {
+          "key": "e_1_2_1_42_1",
+          "doi-asserted-by": "crossref",
+          "first-page": "1750027",
+          "DOI": "10.1142/S0218001417500276",
+          "article-title": "Learning similarity scores by using a family of distance functions in multiple feature spaces",
+          "volume": "31",
+          "author": "López-Iñesta Emilia",
+          "year": "2017",
+          "unstructured": "Emilia López-Iñesta , Francisco Grimaldo , and Miguel Arevalillo-Herráez . 2017 . Learning similarity scores by using a family of distance functions in multiple feature spaces . International Journal of Pattern Recognition and Artificial Intelligence 31 , 08 (2017), 1750027 . Emilia López-Iñesta, Francisco Grimaldo, and Miguel Arevalillo-Herráez. 2017. Learning similarity scores by using a family of distance functions in multiple feature spaces. International Journal of Pattern Recognition and Artificial Intelligence 31, 08 (2017), 1750027.",
+          "journal-title": "International Journal of Pattern Recognition and Artificial Intelligence"
+        },
+        {
+          "key": "e_1_2_1_43_1",
+          "volume-title": "Generic schema matching with cupid. In vldb",
+          "author": "Madhavan Jayant",
+          "unstructured": "Jayant Madhavan , Philip A Bernstein , and Erhard Rahm . 2001. Generic schema matching with cupid. In vldb , Vol. 1 . 49--58. Jayant Madhavan, Philip A Bernstein, and Erhard Rahm. 2001. Generic schema matching with cupid. In vldb, Vol. 1. 49--58."
+        },
+        {
+          "key": "e_1_2_1_44_1",
+          "first-page": "5263",
+          "article-title": "Second order PAC-Bayesian bounds for the weighted majority vote",
+          "volume": "33",
+          "author": "Masegosa Andrés",
+          "year": "2020",
+          "unstructured": "Andrés Masegosa , Stephan Lorenzen , Christian Igel , and Yevgeny Seldin . 2020 . Second order PAC-Bayesian bounds for the weighted majority vote . Advances in Neural Information Processing Systems 33 (2020), 5263 -- 5273 . Andrés Masegosa, Stephan Lorenzen, Christian Igel, and Yevgeny Seldin. 2020. Second order PAC-Bayesian bounds for the weighted majority vote. Advances in Neural Information Processing Systems 33 (2020), 5263--5273.",
+          "journal-title": "Advances in Neural Information Processing Systems"
+        },
+        {
+          "key": "e_1_2_1_45_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/3318464.3380597"
+        },
+        {
+          "key": "e_1_2_1_46_1",
+          "first-page": "6",
+          "article-title": "Repairing ontology mappings",
+          "volume": "3",
+          "author": "Meilicke Christian",
+          "year": "2007",
+          "unstructured": "Christian Meilicke , Heiner Stuckenschmidt , and Andrei Tamilin . 2007 . Repairing ontology mappings . In AAAI , Vol. 3. 6 . Christian Meilicke, Heiner Stuckenschmidt, and Andrei Tamilin. 2007. Repairing ontology mappings. In AAAI, Vol. 3. 6.",
+          "journal-title": "AAAI"
+        },
+        {
+          "key": "e_1_2_1_47_1",
+          "volume-title": "Proceedings 18th international conference on data engineering. IEEE, 117--128",
+          "author": "Melnik Sergey",
+          "year": "2002",
+          "unstructured": "Sergey Melnik , Hector Garcia-Molina , and Erhard Rahm . 2002 . Similarity flooding: A versatile graph matching algorithm and its application to schema matching . In Proceedings 18th international conference on data engineering. IEEE, 117--128 . Sergey Melnik, Hector Garcia-Molina, and Erhard Rahm. 2002. Similarity flooding: A versatile graph matching algorithm and its application to schema matching. In Proceedings 18th international conference on data engineering. IEEE, 117--128."
+        },
+        {
+          "key": "e_1_2_1_48_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.14778/2735471.2735474"
+        },
+        {
+          "key": "e_1_2_1_49_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/3183713.3196926"
+        },
+        {
+          "key": "e_1_2_1_50_1",
+          "volume-title": "On the importance of adaptive data collection for extremely imbalanced pairwise tasks. arXiv preprint arXiv:2010.05103",
+          "author": "Mussmann Stephen",
+          "year": "2020",
+          "unstructured": "Stephen Mussmann , Robin Jia , and Percy Liang . 2020. On the importance of adaptive data collection for extremely imbalanced pairwise tasks. arXiv preprint arXiv:2010.05103 ( 2020 ). Stephen Mussmann, Robin Jia, and Percy Liang. 2020. On the importance of adaptive data collection for extremely imbalanced pairwise tasks. arXiv preprint arXiv:2010.05103 (2020)."
+        },
+        {
+          "key": "e_1_2_1_51_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/978-3-642-33876-2_38"
+        },
+        {
+          "key": "e_1_2_1_52_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.5555/2898607.2898832"
+        },
+        {
+          "key": "e_1_2_1_53_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/JIOT.2019.2918327"
+        },
+        {
+          "key": "e_1_2_1_54_1",
+          "volume-title": "Conference track. Retrieved 2020-07-03 from http://oaei.ontologymatching.org/2019/conference",
+          "author": "Evaluation Initiative Ontology Alignment",
+          "year": "2019",
+          "unstructured": "Ontology Alignment Evaluation Initiative . 2019 . Conference track. Retrieved 2020-07-03 from http://oaei.ontologymatching.org/2019/conference Ontology Alignment Evaluation Initiative. 2019. Conference track. Retrieved 2020-07-03 from http://oaei.ontologymatching.org/2019/conference"
+        },
+        {
+          "key": "e_1_2_1_55_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/3377455"
+        },
+        {
+          "key": "e_1_2_1_56_1",
+          "volume-title": "Knowledge graph refinement: A survey of approaches and evaluation methods. Semantic web 8, 3",
+          "author": "Paulheim Heiko",
+          "year": "2017",
+          "unstructured": "Heiko Paulheim . 2017. Knowledge graph refinement: A survey of approaches and evaluation methods. Semantic web 8, 3 ( 2017 ), 489--508. Heiko Paulheim. 2017. Knowledge graph refinement: A survey of approaches and evaluation methods. Semantic web 8, 3 (2017), 489--508."
+        },
+        {
+          "key": "e_1_2_1_57_1",
+          "first-page": "25",
+          "article-title": "WordNet:: Similarity-Measuring the Relatedness of Concepts",
+          "volume": "4",
+          "author": "Pedersen Ted",
+          "year": "2004",
+          "unstructured": "Ted Pedersen , Siddharth Patwardhan , Jason Michelizzi , 2004 . WordNet:: Similarity-Measuring the Relatedness of Concepts .. In AAAI , Vol. 4. 25 -- 29 . Ted Pedersen, Siddharth Patwardhan, Jason Michelizzi, et al. 2004. WordNet:: Similarity-Measuring the Relatedness of Concepts.. In AAAI, Vol. 4. 25--29.",
+          "journal-title": "AAAI"
+        },
+        {
+          "key": "e_1_2_1_58_1",
+          "volume-title": "CEUR Workshop Proceedings",
+          "volume": "2726",
+          "author": "Peeters Ralph",
+          "year": "2020",
+          "unstructured": "Ralph Peeters , Christian Bizer , and Goran Glavaš . 2020 . Intermediate training of BERT for product matching . In CEUR Workshop Proceedings , Vol. 2726 . RWTH, 1--2. Ralph Peeters, Christian Bizer, and Goran Glavaš. 2020. Intermediate training of BERT for product matching. In CEUR Workshop Proceedings, Vol. 2726. RWTH, 1--2."
+        },
+        {
+          "key": "e_1_2_1_59_1",
+          "volume-title": "Snorkel: Rapid training data creation with weak supervision. The VLDB Journal",
+          "author": "Ratner Alexander",
+          "year": "2019",
+          "unstructured": "Alexander Ratner , Stephen H Bach , Henry Ehrenberg , Jason Fries , Sen Wu , and Christopher Ré . 2019 . Snorkel: Rapid training data creation with weak supervision. The VLDB Journal (2019), 1--22. Alexander Ratner, Stephen H Bach, Henry Ehrenberg, Jason Fries, Sen Wu, and Christopher Ré. 2019. Snorkel: Rapid training data creation with weak supervision. The VLDB Journal (2019), 1--22."
+        },
+        {
+          "key": "e_1_2_1_60_1",
+          "volume-title": "Sen Wu, Daniel Selsam, and Christopher Ré.",
+          "author": "Ratner Alexander J",
+          "year": "2016",
+          "unstructured": "Alexander J Ratner , Christopher M De Sa , Sen Wu, Daniel Selsam, and Christopher Ré. 2016 . Data programming: Creating large training sets, quickly. Advances in neural information processing systems 29 (2016). Alexander J Ratner, Christopher M De Sa, Sen Wu, Daniel Selsam, and Christopher Ré. 2016. Data programming: Creating large training sets, quickly. Advances in neural information processing systems 29 (2016)."
+        },
+        {
+          "key": "e_1_2_1_61_1",
+          "volume-title": "IDC",
+          "author": "Reinsel David",
+          "year": "2017",
+          "unstructured": "David Reinsel , John Gantz , and John Rydning . 2017 . Data age 2025: the evolution of data to life-critical don't focus on big data; focus on the data that's big . IDC , Seagate , April (2017). David Reinsel, John Gantz, and John Rydning. 2017. Data age 2025: the evolution of data to life-critical don't focus on big data; focus on the data that's big. IDC, Seagate, April (2017)."
+        },
+        {
+          "key": "e_1_2_1_62_1",
+          "unstructured": "Richard M. Keller NASA. 2018. The NASA Air Traffic Management Ontology (atmonto). Retrieved 2021-11-21 from https://data.nasa.gov/ontologies/atmonto/ATM  Richard M. Keller NASA. 2018. The NASA Air Traffic Management Ontology (atmonto). Retrieved 2021-11-21 from https://data.nasa.gov/ontologies/atmonto/ATM"
+        },
+        {
+          "key": "e_1_2_1_63_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/978-3-319-11257-2_20"
+        },
+        {
+          "key": "e_1_2_1_64_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.ipm.2019.102090"
+        },
+        {
+          "key": "e_1_2_1_65_1",
+          "unstructured": "AI4EU Trialog. 2021. Knowledge Extraction for the Web of Things (KE4WoT). Retrieved 2022-05-16 from https://www.ai4eu.eu/ke4wot  AI4EU Trialog. 2021. Knowledge Extraction for the Web of Things (KE4WoT). Retrieved 2022-05-16 from https://www.ai4eu.eu/ke4wot"
+        },
+        {
+          "key": "e_1_2_1_66_1",
+          "volume-title": "Graph attention networks. arXiv preprint arXiv:1710.10903",
+          "author": "Veličković Petar",
+          "year": "2017",
+          "unstructured": "Petar Veličković , Guillem Cucurull , Arantxa Casanova , Adriana Romero , Pietro Lio , and Yoshua Bengio . 2017. Graph attention networks. arXiv preprint arXiv:1710.10903 ( 2017 ). Petar Veličković, Guillem Cucurull, Arantxa Casanova, Adriana Romero, Pietro Lio, and Yoshua Bengio. 2017. Graph attention networks. arXiv preprint arXiv:1710.10903 (2017)."
+        },
+        {
+          "key": "e_1_2_1_67_1",
+          "unstructured": "Audun Vennesland Richard M Keller Christoph G Schuetz Eduard Gringinger and Bernd Neumayr. 2019. Matching Ontologies for Air Traffic Management: a Comparison and Reference Alignment of the AIRM and NASA ATM Ontologies.. In OM@ISWC. 1--12.  Audun Vennesland Richard M Keller Christoph G Schuetz Eduard Gringinger and Bernd Neumayr. 2019. Matching Ontologies for Air Traffic Management: a Comparison and Reference Alignment of the AIRM and NASA ATM Ontologies.. In OM@ISWC. 1--12."
+        },
+        {
+          "key": "e_1_2_1_68_1",
+          "unstructured": "Vennesland A. Neumayr B. Schuetz C. G. Savulov A. Wilson S. Gringinger E. Gorman J. 2017. AIRM-O - ATM Information Reference Model Ontology. Retrieved 2021-11-21 from https://airm-o.github.io/airm-o/  Vennesland A. Neumayr B. Schuetz C. G. Savulov A. Wilson S. Gringinger E. Gorman J. 2017. AIRM-O - ATM Information Reference Model Ontology. Retrieved 2021-11-21 from https://airm-o.github.io/airm-o/"
+        },
+        {
+          "key": "e_1_2_1_69_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/2629489"
+        },
+        {
+          "key": "e_1_2_1_70_1",
+          "volume-title": "Proceedings of the BioNLP 2018 workshop. 47--55",
+          "author": "Wang Lucy",
+          "year": "2018",
+          "unstructured": "Lucy Wang , Chandra Bhagavatula , Mark Neumann , Kyle Lo , Chris Wilhelm , and Waleed Ammar . 2018 . Ontology alignment in the biomedical domain using entity definitions and context . In Proceedings of the BioNLP 2018 workshop. 47--55 . Lucy Wang, Chandra Bhagavatula, Mark Neumann, Kyle Lo, Chris Wilhelm, and Waleed Ammar. 2018. Ontology alignment in the biomedical domain using entity definitions and context. In Proceedings of the BioNLP 2018 workshop. 47--55."
+        },
+        {
+          "key": "e_1_2_1_71_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.18653/v1/D18-1032"
+        },
+        {
+          "key": "e_1_2_1_72_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/3318464.3389743"
+        },
+        {
+          "key": "e_1_2_1_73_1",
+          "volume-title": "Demonstration of Panda: A Weakly Supervised Entity Matching System. arXiv preprint arXiv:2106.10821",
+          "author": "Wu Renzhi",
+          "year": "2021",
+          "unstructured": "Renzhi Wu , Prem Sakala , Peng Li , Xu Chu , and Yeye He. 2021. Demonstration of Panda: A Weakly Supervised Entity Matching System. arXiv preprint arXiv:2106.10821 ( 2021 ). Renzhi Wu, Prem Sakala, Peng Li, Xu Chu, and Yeye He. 2021. Demonstration of Panda: A Weakly Supervised Entity Matching System. arXiv preprint arXiv:2106.10821 (2021)."
+        },
+        {
+          "key": "e_1_2_1_74_1",
+          "volume-title": "Proceedings of the AAAI Conference on Artificial Intelligence",
+          "volume": "34",
+          "author": "Yang Kai",
+          "year": "2020",
+          "unstructured": "Kai Yang , Shaoqin Liu , Junfeng Zhao , Yasha Wang , and Bing Xie . 2020 . Cotsae: Co-training of structure and attribute embeddings for entity alignment . In Proceedings of the AAAI Conference on Artificial Intelligence , Vol. 34 . 3025--3032. Kai Yang, Shaoqin Liu, Junfeng Zhao, Yasha Wang, and Bing Xie. 2020. Cotsae: Co-training of structure and attribute embeddings for entity alignment. In Proceedings of the AAAI Conference on Artificial Intelligence, Vol. 34. 3025--3032."
+        },
+        {
+          "key": "e_1_2_1_75_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/1989323.1989336"
+        },
+        {
+          "key": "e_1_2_1_76_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/3308558.3313578"
+        },
+        {
+          "key": "e_1_2_1_77_1",
+          "volume-title": "RAGA: Relation-Aware Graph Attention Networks for Global Entity Alignment.. In PAKDD (1)",
+          "author": "Zhu Renbo",
+          "year": "2021",
+          "unstructured": "Renbo Zhu , Meng Ma , and Ping Wang . 2021 . RAGA: Relation-Aware Graph Attention Networks for Global Entity Alignment.. In PAKDD (1) . Springer , 501--513. Renbo Zhu, Meng Ma, and Ping Wang. 2021. RAGA: Relation-Aware Graph Attention Networks for Global Entity Alignment.. In PAKDD (1). Springer, 501--513."
+        }
+      ],
+      "container-title": [
+        "Proceedings of the VLDB Endowment"
+      ],
+      "original-title": [],
+      "language": "en",
+      "link": [
+        {
+          "URL": "https://dl.acm.org/doi/pdf/10.14778/3583140.3583148",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2023,
+            4,
+            20
+          ]
+        ],
+        "date-time": "2023-04-20T16:53:01Z",
+        "timestamp": 1682009581000
+      },
+      "score": 1,
+      "resource": {
+        "primary": {
+          "URL": "https://dl.acm.org/doi/10.14778/3583140.3583148"
+        }
+      },
+      "subtitle": [],
+      "short-title": [],
+      "issued": {
+        "date-parts": [
+          [
+            2023,
+            2
+          ]
+        ]
+      },
+      "references-count": 77,
+      "journal-issue": {
+        "issue": "6",
+        "published-print": {
+          "date-parts": [
+            [
+              2023,
+              2
+            ]
+          ]
+        }
+      },
+      "alternative-id": [
+        "10.14778/3583140.3583148"
+      ],
+      "URL": "https://doi.org/10.14778/3583140.3583148",
+      "relation": {},
+      "ISSN": [
+        "2150-8097"
+      ],
+      "issn-type": [
+        {
+          "value": "2150-8097",
+          "type": "print"
+        }
+      ],
+      "subject": [],
+      "published": {
+        "date-parts": [
+          [
+            2023,
+            2
+          ]
+        ]
+      },
+      "assertion": [
+        {
+          "value": "2023-04-20",
+          "order": 2,
+          "name": "published",
+          "label": "Published",
+          "group": {
+            "name": "publication_history",
+            "label": "Publication History"
+          }
+        }
+      ]
+    }
+  }
+}

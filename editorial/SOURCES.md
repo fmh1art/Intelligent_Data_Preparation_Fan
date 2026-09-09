@@ -1,6 +1,6 @@
 # 文献来源与核验记录
 
-核验日期：2026-09-09。最终参考文献为34项，全部在正文引用。本文通过出版平台、作者公开论文和学术搜索发现文献，以Crossref检查DOI元数据，并以期刊官网与原文处理出版版本及中文条目。没有使用博客、自动翻译页面或模型生成摘要作为论文技术结论的证据。
+核验日期：2026-09-09。修订后参考文献为48项，全部在正文引用。原稿及本次修订通过出版平台、作者公开论文和学术搜索发现文献，以Crossref检查DOI元数据，并以期刊官网与原文处理出版版本及中文条目。没有使用博客、自动翻译页面或模型生成摘要作为论文技术结论的证据。
 
 ## 检索与保留规则
 
@@ -8,7 +8,7 @@
 
 本次访问的结构化学术数据库为 **Crossref REST API**。请求端点采用 `https://api.crossref.org/works/{doi}`，题名发现采用 `https://api.crossref.org/works?query.bibliographic=...&rows=3`。每次请求的准确URL、状态码和原始JSON位于[metadata目录](metadata/)；题名检索实际选择的记录见[metadata_selection.json](metadata_selection.json)。可用[scripts/collect_metadata.py](../scripts/collect_metadata.py)复核元数据，脚本不自动把搜索首条结果写入BibTeX。
 
-网页与预印本发现使用学术搜索、arXiv、ACM、IEEE、VLDB、ACL Anthology、中文期刊官网和作者主页。DBLP仅用于发现和记录交叉核对，不替代论文原文。未宣称检索CNKI、Web of Science等本次未调用的付费数据库；未建立完整筛选漏斗或数量统计。
+网页与预印本发现使用学术搜索、arXiv、ACM、IEEE、VLDB、ACL Anthology、中文期刊官网和作者主页。DBLP仅用于发现和记录交叉核对，不替代论文原文。未宣称检索CNKI、Web of Science等本次未调用的付费数据库；原稿没有完整筛选统计；审稿修订新增独立的固定查询筛选流程，见[检索协议与台账](search/README.md)，不倒推旧稿筛选数量。
 
 ## 近期中文参照
 
@@ -22,10 +22,10 @@
 
 ## 关键出版版本决策
 
-- **PrepBench**：原稿为2026-05-09预印本。Crossref正式记录为PVLDB **19(10): 2866–2879 (2026)**，DOI [10.14778/3828612.3828638](https://doi.org/10.14778/3828612.3828638)。已更新为正式条目。任务定义与“3至18步”等描述核对[作者预印本摘要](https://arxiv.org/abs/2605.08687)，不混用不同版本的实测分数。
-- **DeepPrep**：核对[VLDB正式PDF](https://www.vldb.org/pvldb/vol19/p3371-fan.pdf)，确认为19(11):3371–3384，DOI 10.14778/3836663.3836695。本文仅讨论其执行状态、树状推理与渐进训练机制，不引用摘要中的推理成本倍率。
+- **PrepBench**：原稿为2026-05-09预印本。Crossref正式记录为PVLDB **19(10): 2866–2879 (2026)**，DOI [10.14778/3828612.3828638](https://doi.org/10.14778/3828612.3828638)。已更新为正式条目。本次任务、基准规模及实验表6均核对[作者v1全文](https://arxiv.org/html/2605.08687v1)，正文明确该数字版本，不声称已对正式PDF逐表核对。
+- **DeepPrep**：核对[VLDB正式PDF](https://www.vldb.org/pvldb/vol19/p3371-fan.pdf)，确认为19(11):3371–3384，DOI 10.14778/3836663.3836695。本次在原机制分析外，增加表1—3的规模、准确率、完成率与消融数据，详见[EVIDENCE.md](EVIDENCE.md)；仍不引用未核实的摘要倍率。
 - **AutoPrep**：正式卷页由Crossref核验为18(10):3504–3517。技术机制核对[作者arXiv v3正文](https://arxiv.org/html/2412.10422v3)；该预印本内页的占位卷页不用于书目。
-- **Text-to-Pipeline**：固定使用[arXiv v2](https://arxiv.org/abs/2505.15874v2)，2025-11-10，作者包含Zhangyan Ye；不混用v1作者列表或v1的分数。正文保留约1.8万任务、16类算子的规模信息。
+- **Text-to-Pipeline**：固定使用[arXiv v2](https://arxiv.org/abs/2505.15874v2)，2025-11-10，作者包含Zhangyan Ye；不混用v1作者列表或v1的分数。本次按v2表2—3更新为17168任务、16类算子，并区别DeepPrep改写后的Parrot。
 - **BAT**：采用ACM正式条目4(3):143:1–143:25，DOI 10.1145/3802020。机制核对出版方存入Crossref的摘要及[作者实现仓库](https://github.com/ZJU-DAILY/BAT)。不把曾用题名MontePrep作为另一项独立研究；明确无目标表实例仍有目标模式。
 - **Unicorn**：采用2023年PACMMOD原始论文，第一作者Jianhong Tu，DOI 10.1145/3588938。2024年SIGMOD Record研究亮点版本的第一作者和题名不同，不混合两版信息。
 - **Data Management for Machine Learning: A Survey**：题名查询的首项误匹配到天文学书章，已拒绝；以准确DOI 10.1109/TKDE.2022.3148237重新检索。Crossref仍保留2022年early access及1–1占位页码；按[作者公开的正式PDF](https://luoyuyu.vip/files/DM4ML_Survey.pdf)使用2023年35(5):4646–4667。
@@ -33,7 +33,7 @@
 - **Can LLMs Clean Up Your Mess?**：引用[2026-01-22 arXiv v1](https://arxiv.org/abs/2601.17058v1)，明确为预印本。没有把预印本中的期刊模板当作正式发表证明。
 - **FM、Ditto、Snorkel**：按PVLDB实际出版年分别保留2022、2020、2017，避免与会议举办年混淆。
 
-## 技术结论的主要依据
+## 原稿技术依据（修订扩展以EVIDENCE.md为准）
 
 “全文片段”表示本次查看了相关原文部分，不表示逐页精读整篇。出版摘要可以支撑方法定位，不能支撑摘要未披露的训练、消融或性能细节。
 
@@ -79,3 +79,7 @@
 - 不报告无法在同一模型、数据和预算下比较的优劣排名，不补写缺失的实验数据。
 - 没有获取作者照片或添加未经原稿提供的作者履历。作者简介默认不进入正文。
 - 原论文全文仅在本地临时目录用于核读；仓库保存书目元数据、链接与本次撰写的综述，不重新发布原论文全文。
+
+## 审稿修订补充
+
+新增14项文献的定位、统一矩阵编码和E1—E6量化证据，集中记录于[EVIDENCE.md](EVIDENCE.md)。检索原始记录、初筛/复筛、非互斥任务覆盖见[search目录](search/README.md)。REIN正式版已通过OpenProceedings核对为EDBT2023:499—511，DOI10.48786/edbt.2023.43；保留Crossref题名误匹配的原始记录，未使用其首项ReClean。

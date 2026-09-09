@@ -1,0 +1,610 @@
+{
+  "id": "Q1",
+  "source": "Crossref works relevance search",
+  "query": {
+    "query": "data discovery table union search",
+    "rows": 15,
+    "filter": "from-pub-date:2009-01-01,until-pub-date:2026-09-09",
+    "select": "DOI,title,author,published,container-title,abstract,type,URL"
+  },
+  "endpoint": "https://api.crossref.org/works?query=data+discovery+table+union+search&rows=15&filter=from-pub-date%3A2009-01-01%2Cuntil-pub-date%3A2026-09-09&select=DOI%2Ctitle%2Cauthor%2Cpublished%2Ccontainer-title%2Cabstract%2Ctype%2CURL",
+  "retrieved": "2026-09-09",
+  "response": {
+    "status": "ok",
+    "message-type": "work-list",
+    "message-version": "1.0.0",
+    "message": {
+      "facets": {},
+      "total-results": 3290448,
+      "items": [
+        {
+          "DOI": "10.1109/bigdata66926.2025.11402613",
+          "title": [
+            "EasyTUS: A Comprehensive Framework for Fast and Accurate Table Union Search Across Data Lakes"
+          ],
+          "author": [
+            {
+              "given": "Tim",
+              "family": "Otto",
+              "sequence": "first",
+              "affiliation": [
+                {
+                  "name": "RPTU Kaiserslautern-Landau,Heterogeneous Information Systems,Kaiserslautern,Germany"
+                }
+              ],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2025,
+                12,
+                8
+              ]
+            ]
+          },
+          "container-title": [
+            "2025 IEEE International Conference on Big Data (BigData)"
+          ],
+          "type": "proceedings-article",
+          "URL": "https://doi.org/10.1109/bigdata66926.2025.11402613"
+        },
+        {
+          "DOI": "10.18653/v1/2025.trl-1.7",
+          "title": [
+            "Something’s Fishy in the Data Lake: A Critical Re-evaluation of Table Union Search Benchmarks"
+          ],
+          "author": [
+            {
+              "given": "Allaa",
+              "family": "Boutaleb",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Bernd",
+              "family": "Amann",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Hubert",
+              "family": "Naacke",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Rafael",
+              "family": "Angarita",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2025
+              ]
+            ]
+          },
+          "container-title": [
+            "Proceedings of the 4th Table Representation Learning Workshop"
+          ],
+          "type": "proceedings-article",
+          "URL": "https://doi.org/10.18653/v1/2025.trl-1.7"
+        },
+        {
+          "DOI": "10.1109/icde51399.2021.00045",
+          "title": [
+            "Relational Header Discovery using Similarity Search in a Table Corpus"
+          ],
+          "author": [
+            {
+              "given": "Hazar",
+              "family": "Harmouch",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Thorsten",
+              "family": "Papenbrock",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Felix",
+              "family": "Naumann",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2021,
+                4
+              ]
+            ]
+          },
+          "container-title": [
+            "2021 IEEE 37th International Conference on Data Engineering (ICDE)"
+          ],
+          "type": "proceedings-article",
+          "URL": "https://doi.org/10.1109/icde51399.2021.00045"
+        },
+        {
+          "DOI": "10.1109/icde65448.2025.00165",
+          "title": [
+            "LIFTus: An Adaptive Multi-Aspect Column Representation Learning for Table Union Search"
+          ],
+          "author": [
+            {
+              "given": "Ermu",
+              "family": "Qiu",
+              "sequence": "first",
+              "affiliation": [
+                {
+                  "name": "Peking University,Key Laboratory of High Confidence Software Technologies, CS,China"
+                }
+              ],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Jun",
+              "family": "Gao",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "Peking University,Key Laboratory of High Confidence Software Technologies, CS,China"
+                }
+              ],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Yaofeng",
+              "family": "Tu",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "ZTE Corporation"
+                }
+              ],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Jingru",
+              "family": "Yang",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "National Key Laboratory of Data Space Technology and System"
+                }
+              ],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2025,
+                5,
+                19
+              ]
+            ]
+          },
+          "container-title": [
+            "2025 IEEE 41st International Conference on Data Engineering (ICDE)"
+          ],
+          "type": "proceedings-article",
+          "URL": "https://doi.org/10.1109/icde65448.2025.00165"
+        },
+        {
+          "DOI": "10.14778/3192965.3192973",
+          "title": [
+            "Table union search on open data"
+          ],
+          "author": [
+            {
+              "given": "Fatemeh",
+              "family": "Nargesian",
+              "sequence": "first",
+              "affiliation": [
+                {
+                  "name": "University of Toronto"
+                }
+              ],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Erkang",
+              "family": "Zhu",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "University of Toronto"
+                }
+              ],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Ken Q.",
+              "family": "Pu",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "UOIT"
+                }
+              ],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Renée J.",
+              "family": "Miller",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "University of Toronto"
+                }
+              ],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2018,
+                3
+              ]
+            ]
+          },
+          "container-title": [
+            "Proceedings of the VLDB Endowment"
+          ],
+          "abstract": "<jats:p>\n                    We define the table union search problem and present a probabilistic solution for finding tables that are unionable with a query table within massive repositories. Two tables are\n                    <jats:italic>unionable</jats:italic>\n                    if they share attributes from the same domain. Our solution formalizes three statistical models that describe how unionable attributes are generated from set domains, semantic domains with values from an ontology, and natural language domains. We propose a data-driven approach that automatically determines the best model to use for each pair of attributes. Through a distribution-aware algorithm, we are able to find the optimal number of attributes in two tables that can be unioned. To evaluate accuracy, we created and open-sourced a benchmark of Open Data tables. We show that our table union search outperforms in speed and accuracy existing algorithms for finding related tables and scales to provide efficient search over Open Data repositories containing more than one million attributes.\n                  </jats:p>",
+          "type": "journal-article",
+          "URL": "https://doi.org/10.14778/3192965.3192973"
+        },
+        {
+          "DOI": "10.1109/bigdata.2016.7840799",
+          "title": [
+            "Subgroup discovery on big data: Pruning the search space on exhaustive search algorithms"
+          ],
+          "author": [
+            {
+              "given": "F.",
+              "family": "Padillo",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "J. M.",
+              "family": "Luna",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "S.",
+              "family": "Ventura",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2016,
+                12
+              ]
+            ]
+          },
+          "container-title": [
+            "2016 IEEE International Conference on Big Data (Big Data)"
+          ],
+          "type": "proceedings-article",
+          "URL": "https://doi.org/10.1109/bigdata.2016.7840799"
+        },
+        {
+          "DOI": "10.2139/ssrn.2495273",
+          "title": [
+            "The European Union and the Search for an International Data Protection Framework"
+          ],
+          "author": [
+            {
+              "given": "Christopher",
+              "family": "Kuner",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2014
+              ]
+            ]
+          },
+          "abstract": "<jats:p>The European Union (EU) has supported the growing calls for the creation of an international legal framework to safeguard data protection rights. At the same time, it has worked to spread its data protection law to other regions, and recent judgments of the Court of Justice of the European Union (CJEU) have reaffirmed the autonomous nature of EU law and the primacy of EU fundamental rights law. The tension between initiatives to create a global data protection framework and the assertion of EU data protection law raises questions about how the EU can best promote data protection on a global level, and about the EU’s responsibilities to third countries that have adopted its system of data protection.</jats:p>",
+          "type": "posted-content",
+          "URL": "https://doi.org/10.2139/ssrn.2495273"
+        },
+        {
+          "DOI": "10.7287/peerj-cs.152v0.1/reviews/2",
+          "title": [
+            "Peer Review #2 of \"Enhancing discovery in spatial data infrastructures using a search engine (v0.1)\""
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2018,
+                5,
+                21
+              ]
+            ]
+          },
+          "type": "peer-review",
+          "URL": "https://doi.org/10.7287/peerj-cs.152v0.1/reviews/2"
+        },
+        {
+          "DOI": "10.2307/jj.5806813.2",
+          "title": [
+            "Table of Contents"
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2024,
+                2,
+                6
+              ]
+            ]
+          },
+          "container-title": [
+            "The Last of Its Kind"
+          ],
+          "type": "book-chapter",
+          "URL": "https://doi.org/10.2307/jj.5806813.2"
+        },
+        {
+          "DOI": "10.1016/b978-1-59749-296-6.00008-0",
+          "title": [
+            "Data Identification and Search Techniques"
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2009
+              ]
+            ]
+          },
+          "container-title": [
+            "E-discovery: Creating and Managing an Enterprisewide Program"
+          ],
+          "type": "book-chapter",
+          "URL": "https://doi.org/10.1016/b978-1-59749-296-6.00008-0"
+        },
+        {
+          "DOI": "10.7287/peerj-cs.152v0.1/reviews/1",
+          "title": [
+            "Peer Review #1 of \"Enhancing discovery in spatial data infrastructures using a search engine (v0.1)\""
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2018,
+                5,
+                21
+              ]
+            ]
+          },
+          "type": "peer-review",
+          "URL": "https://doi.org/10.7287/peerj-cs.152v0.1/reviews/1"
+        },
+        {
+          "DOI": "10.7287/peerj-cs.152v0.2/reviews/1",
+          "title": [
+            "Peer Review #1 of \"Enhancing discovery in spatial data infrastructures using a search engine (v0.2)\""
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2018,
+                5,
+                21
+              ]
+            ]
+          },
+          "type": "peer-review",
+          "URL": "https://doi.org/10.7287/peerj-cs.152v0.2/reviews/1"
+        },
+        {
+          "DOI": "10.32614/cran.package.statsearchanalyticsr",
+          "title": [
+            "statsearchanalyticsr: An Interface for the 'STAT Search Analytics' 'API'"
+          ],
+          "author": [
+            {
+              "given": "Ben",
+              "family": "Woodard",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2021,
+                9,
+                28
+              ]
+            ]
+          },
+          "container-title": [
+            "CRAN: Contributed Packages"
+          ],
+          "type": "dataset",
+          "URL": "https://doi.org/10.32614/cran.package.statsearchanalyticsr"
+        },
+        {
+          "DOI": "10.1109/wkdd.2010.7",
+          "title": [
+            "Table of Contents"
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2010,
+                1
+              ]
+            ]
+          },
+          "container-title": [
+            "2010 Third International Conference on Knowledge Discovery and Data Mining"
+          ],
+          "type": "proceedings-article",
+          "URL": "https://doi.org/10.1109/wkdd.2010.7"
+        },
+        {
+          "DOI": "10.1016/b978-0-12-410437-2.15001-5",
+          "title": [
+            "Table of Unit Conversion"
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2014
+              ]
+            ]
+          },
+          "container-title": [
+            "Data Mining and Knowledge Discovery for Geoscientists"
+          ],
+          "type": "book-chapter",
+          "URL": "https://doi.org/10.1016/b978-0-12-410437-2.15001-5"
+        }
+      ],
+      "items-per-page": 15,
+      "query": {
+        "start-index": 0,
+        "search-terms": "data discovery table union search"
+      }
+    }
+  }
+}

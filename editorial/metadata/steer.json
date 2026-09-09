@@ -1,0 +1,472 @@
+{
+  "database": "Crossref",
+  "endpoint": "https://api.crossref.org/works/10.1145/3589786",
+  "retrieved": "2026-09-09",
+  "status_code": 200,
+  "response": {
+    "status": "ok",
+    "message-type": "work",
+    "message-version": "1.0.0",
+    "message": {
+      "indexed": {
+        "date-parts": [
+          [
+            2025,
+            8,
+            22
+          ]
+        ],
+        "date-time": "2025-08-22T05:12:31Z",
+        "timestamp": 1755839551970,
+        "version": "3.41.0"
+      },
+      "reference-count": 40,
+      "publisher": "Association for Computing Machinery (ACM)",
+      "issue": "2",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2023,
+                6,
+                13
+              ]
+            ],
+            "date-time": "2023-06-13T00:00:00Z",
+            "timestamp": 1686614400000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "https://www.acm.org/publications/policies/copyright_policy#Background"
+        }
+      ],
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "short-container-title": [
+        "Proc. ACM Manag. Data"
+      ],
+      "published-print": {
+        "date-parts": [
+          [
+            2023,
+            6,
+            13
+          ]
+        ]
+      },
+      "abstract": "<jats:p>In this paper, we introduce STEER to adapt learned semantic type extraction approaches to a new, unseen data lake. STEER provides a data programming framework for semantic labeling which is used to generate new labeled training data with minimal overhead. At its core, STEER comes with a novel training data generation procedure called Steered-Labeling that can generate high quality training data not only for non-numeric but also for numerical columns. With this generated training data STEER is able to fine-tune existing learned semantic type extraction models. We evaluate our approach on four different data lakes and show that we can significantly improve the performance of two different types of learned models across all data lakes.</jats:p>",
+      "DOI": "10.1145/3589786",
+      "type": "journal-article",
+      "created": {
+        "date-parts": [
+          [
+            2023,
+            6,
+            20
+          ]
+        ],
+        "date-time": "2023-06-20T20:26:45Z",
+        "timestamp": 1687292805000
+      },
+      "page": "1-25",
+      "source": "Crossref",
+      "is-referenced-by-count": 1,
+      "title": [
+        "Steered Training Data Generation for Learned Semantic Type Detection"
+      ],
+      "prefix": "10.1145",
+      "volume": "1",
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0009-0002-2809-5331",
+          "authenticated-orcid": false,
+          "given": "Sven",
+          "family": "Langenecker",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "LÄPPLE AG; DHBW Mosbach; &amp; Technical University of Darmstadt, Heilbronn, Germany"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0009-0008-5706-3041",
+          "authenticated-orcid": false,
+          "given": "Christoph",
+          "family": "Sturm",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "DHBW Mosbach, Mosbach, Germany"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0009-0005-7036-3012",
+          "authenticated-orcid": false,
+          "given": "Christian Schalles",
+          "family": "Schalles",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "DHBW Mosbach, Mosbach, Germany"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-2744-7836",
+          "authenticated-orcid": false,
+          "given": "Carsten",
+          "family": "Binnig",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Technical University of Darmstadt &amp; DFKI, Darmstadt, Germany"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "member": "320",
+      "published-online": {
+        "date-parts": [
+          [
+            2023,
+            6,
+            20
+          ]
+        ]
+      },
+      "reference": [
+        {
+          "key": "e_1_2_2_1_1",
+          "unstructured": "Alation 2022. Alation Data Catalog. https://www.alation.com/. Accessed: 2022--10--15."
+        },
+        {
+          "key": "e_1_2_2_2_1",
+          "unstructured": "Amazon Web Services 2022. AWS Glue Data Catalog. https://docs.aws.amazon.com/glue/latest/dg/what-is-glue.html. Accessed: 2022--10--15."
+        },
+        {
+          "key": "e_1_2_2_3_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/978-3-319-25007-6_25"
+        },
+        {
+          "key": "e_1_2_2_4_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1609/aaai.v33i01.330129"
+        },
+        {
+          "key": "e_1_2_2_5_1",
+          "unstructured": "Collibra 2022. Collibra Data Catalog. https://www.collibra.com/us/en/products/data-catalog. Accessed: 2022--10--15."
+        },
+        {
+          "key": "e_1_2_2_6_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.14778/3430915.3430921"
+        },
+        {
+          "key": "e_1_2_2_7_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.14778/3551793.3551797"
+        },
+        {
+          "key": "e_1_2_2_8_1",
+          "unstructured": "James Dixon. 2014. Data Lakes Revisited. https://jamesdixon.wordpress.com/2014/09/25/data-lakes-revisited/. Accessed: 2022--10--15."
+        },
+        {
+          "key": "e_1_2_2_9_1",
+          "unstructured": "Dremio 2022. Dremio. https://www.dremio.com/. Accessed: 2022--10--15."
+        },
+        {
+          "key": "e_1_2_2_10_1",
+          "volume-title": "Data Programming by Demonstration: A Framework for Interactively Learning Labeling Functions. CoRR abs/2009.01444",
+          "author": "Evensen Sara",
+          "year": "2020",
+          "unstructured": "Sara Evensen, Chang Ge, Dongjin Choi, and Çagatay Demiralp. 2020. Data Programming by Demonstration: A Framework for Interactively Learning Labeling Functions. CoRR abs/2009.01444 (2020). arXiv:2009.01444 https://arxiv.org/abs/2009.01444"
+        },
+        {
+          "key": "e_1_2_2_11_1",
+          "unstructured": "Bogdan Ghita. 2019. Public BI benchmark. https://github.com/cwida/public_bi_benchmark/tree/master. Accessed: 2022--10--15."
+        },
+        {
+          "key": "e_1_2_2_12_1",
+          "unstructured": "Google 2022. Freebase Data Dumps. https://developers.google.com/freebase. Accessed: 2022--10--15."
+        },
+        {
+          "key": "e_1_2_2_13_1",
+          "unstructured": "Google 2022. Google Cloud Data Catalog. https://cloud.google.com/data-catalog/docs/concepts/overview. Accessed: 2022--10--15."
+        },
+        {
+          "key": "e_1_2_2_14_1",
+          "first-page": "5",
+          "article-title": "Managing Google's data lake: an overview of the Goods system",
+          "volume": "39",
+          "author": "Halevy Alon",
+          "year": "2016",
+          "unstructured": "Alon Halevy, Flip Korn, Natasha Noy, Christopher Olston, Neoklis Polyzotis, Sudip Roy, and Steven Euijong Whang. 2016. Managing Google's data lake: an overview of the Goods system. IEEE Data Eng. Bull. 39 (2016), 5--14.",
+          "journal-title": "IEEE Data Eng. Bull."
+        },
+        {
+          "key": "e_1_2_2_15_1",
+          "volume-title": "Auto-Tag: Tagging-Data-By-Example in Data Lakes. CoRR abs/2112.06049",
+          "author": "He Yeye",
+          "year": "2021",
+          "unstructured": "Yeye He, Jie Song, Yue Wang, Surajit Chaudhuri, Vishal Anil, Blake Lassiter, Yaron Goland, and Gaurav Malhotra. 2021. Auto-Tag: Tagging-Data-By-Example in Data Lakes. CoRR abs/2112.06049 (2021). arXiv:2112.06049 https://arxiv.org/abs/2112.06049"
+        },
+        {
+          "key": "e_1_2_2_16_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.18653/v1"
+        },
+        {
+          "key": "e_1_2_2_17_1",
+          "volume-title": "GitTables: A Large-Scale Corpus of Relational Tables. CoRR abs/2106.07258",
+          "author": "Hulsebos Madelon",
+          "year": "2021",
+          "unstructured": "Madelon Hulsebos, Çagatay Demiralp, and Paul Groth. 2021. GitTables: A Large-Scale Corpus of Relational Tables. CoRR abs/2106.07258 (2021). arXiv:2106.07258 https://arxiv.org/abs/2106.07258"
+        },
+        {
+          "key": "e_1_2_2_18_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/nnnnnnn.nnnnnnn"
+        },
+        {
+          "key": "e_1_2_2_19_1",
+          "volume-title": "Making Table Understanding Work in Practice. CoRR abs/2109.05173",
+          "author": "Hulsebos Madelon",
+          "year": "2021",
+          "unstructured": "Madelon Hulsebos, Sneha Gathani, James Gale, Isil Dillig, Paul Groth, and Çagatay Demiralp. 2021. Making Table Understanding Work in Practice. CoRR abs/2109.05173 (2021). arXiv:2109.05173"
+        },
+        {
+          "key": "e_1_2_2_20_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/3292500.3330993"
+        },
+        {
+          "key": "e_1_2_2_21_1",
+          "volume-title": "Valentine: Evaluating Matching Techniques for Dataset Discovery. In ICDE",
+          "author": "Koutras Christos",
+          "year": "2021",
+          "unstructured": "Christos Koutras, George Siachamis, Andra Ionescu, Kyriakos Psarakis, Jerry Brons, Marios Fragkoulis, Christoph Lofi, Angela Bonifati, and Asterios Katsifodimos. 2021. Valentine: Evaluating Matching Techniques for Dataset Discovery. In ICDE 2021. IEEE, 468--479."
+        },
+        {
+          "key": "e_1_2_2_22_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.18420/btw2021--17"
+        },
+        {
+          "key": "e_1_2_2_23_1",
+          "volume-title": "Swapna Sourav Rout, and Sudeep Choudhary",
+          "author": "Maji Subhadip",
+          "year": "2021",
+          "unstructured": "Subhadip Maji, Swapna Sourav Rout, and Sudeep Choudhary. 2021. DCoM: A Deep Column Mapper for Semantic Data Type Detection. CoRR abs/2106.12871 (2021). arXiv:2106.12871 https://arxiv.org/abs/2106.12871"
+        },
+        {
+          "key": "e_1_2_2_24_1",
+          "volume-title": "Rajendra Ugrani, and Ayush Gupta.",
+          "author": "Mallinar Neil",
+          "year": "2020",
+          "unstructured": "Neil Mallinar, Abhishek Shah, Tin Kam Ho, Rajendra Ugrani, and Ayush Gupta. 2020. Iterative Data Programming for Expanding Text Classification Corpora. In AAAI'20. AAAI Press, 13332--13337. https://ojs.aaai.org/index.php/AAAI/article/view/7045"
+        },
+        {
+          "key": "e_1_2_2_25_1",
+          "unstructured": "Microsoft 2022. Azure Purview: 100 standard data-types for auto- tagging. https://docs.microsoft.com/en-us/azure/purview/supported-classifications. Accessed: 2022--10--15."
+        },
+        {
+          "key": "e_1_2_2_26_1",
+          "unstructured": "Microsoft 2022. Microsoft Power BI Interactive Data Visualization BI. https://powerbi.microsoft.com. Accessed: 2022--10--15."
+        },
+        {
+          "key": "e_1_2_2_27_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/3385188"
+        },
+        {
+          "key": "e_1_2_2_28_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/978--3--319--46523--4"
+        },
+        {
+          "key": "e_1_2_2_29_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/978--3--319--18818--8"
+        },
+        {
+          "key": "e_1_2_2_30_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.14778/3157794.3157797"
+        },
+        {
+          "key": "e_1_2_2_31_1",
+          "volume-title": "Sen Wu, Daniel Selsam, and Christopher Ré.",
+          "author": "Ratner Alexander",
+          "year": "2016",
+          "unstructured": "Alexander Ratner, Christopher De Sa, Sen Wu, Daniel Selsam, and Christopher Ré. 2016. Data Programming: Creating Large Training Sets, Quickly. In NIPS (Barcelona, Spain). Curran Associates Inc., Red Hook, NY, USA, 3574--3582."
+        },
+        {
+          "key": "e_1_2_2_32_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/j.1538-7305.1948.tb01338.x"
+        },
+        {
+          "volume-title": "EMNLP-CoNLL (EMNLP-CoNLL '12)",
+          "author": "Socher Richard",
+          "key": "e_1_2_2_33_1",
+          "unstructured": "Richard Socher, Brody Huval, Christopher D Manning, and Andrew Y Ng. 2012. Semantic compositionality through recursive matrix-vector spaces. In EMNLP-CoNLL (EMNLP-CoNLL '12). Association for Computational Linguistics, USA, 1201--1211."
+        },
+        {
+          "key": "e_1_2_2_34_1",
+          "volume-title": "Annotating Columns with Pre-Trained Language Models. In SIGMOD",
+          "author": "Suhara Yoshihiko",
+          "year": "2022",
+          "unstructured": "Yoshihiko Suhara, Jinfeng Li, Yuliang Li, Dan Zhang, Çagatay Demiralp, Chen Chen, and Wang-Chiew Tan. 2022. Annotating Columns with Pre-Trained Language Models. In SIGMOD 2022. ACM, New York, NY, USA, 1493--1503."
+        },
+        {
+          "key": "e_1_2_2_35_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.14778/3291264.3291268"
+        },
+        {
+          "key": "e_1_2_2_36_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/3447548.3467434"
+        },
+        {
+          "key": "e_1_2_2_37_1",
+          "volume-title": "Steve Yuan, Chris Tar, Yun-Hsuan Sung, Brian Strope, and Ray Kurzweil.",
+          "author": "Yang Yinfei",
+          "year": "2019",
+          "unstructured": "Yinfei Yang, Daniel Cer, Amin Ahmad, Mandy Guo, Jax Law, Noah Constant, Gustavo Hernandez Abrego, Steve Yuan, Chris Tar, Yun-Hsuan Sung, Brian Strope, and Ray Kurzweil. 2019. Multilingual Universal Sentence Encoder for Semantic Retrieval. CoRR abs/1907.04307 (2019). arXiv:1907.04307"
+        },
+        {
+          "key": "e_1_2_2_38_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.18653/v1"
+        },
+        {
+          "key": "e_1_2_2_39_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.14778/3407790.3407793"
+        },
+        {
+          "key": "e_1_2_2_40_1",
+          "volume-title": "Automatic Discovery of Attributes in Relational Databases. In SIGMOD",
+          "author": "Zhang Meihui",
+          "year": "2011",
+          "unstructured": "Meihui Zhang, Marios Hadjieleftheriou, Beng Chin Ooi, Cecilia M. Procopiuc, and Divesh Srivastava. 2011. Automatic Discovery of Attributes in Relational Databases. In SIGMOD 2011. ACM, New York, NY, USA, 109--120."
+        }
+      ],
+      "container-title": [
+        "Proceedings of the ACM on Management of Data"
+      ],
+      "original-title": [],
+      "language": "en",
+      "link": [
+        {
+          "URL": "https://dl.acm.org/doi/10.1145/3589786",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        },
+        {
+          "URL": "https://dl.acm.org/doi/pdf/10.1145/3589786",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2025,
+            6,
+            17
+          ]
+        ],
+        "date-time": "2025-06-17T17:49:22Z",
+        "timestamp": 1750182562000
+      },
+      "score": 1,
+      "resource": {
+        "primary": {
+          "URL": "https://dl.acm.org/doi/10.1145/3589786"
+        }
+      },
+      "subtitle": [],
+      "short-title": [],
+      "issued": {
+        "date-parts": [
+          [
+            2023,
+            6,
+            13
+          ]
+        ]
+      },
+      "references-count": 40,
+      "journal-issue": {
+        "issue": "2",
+        "published-print": {
+          "date-parts": [
+            [
+              2023,
+              6,
+              13
+            ]
+          ]
+        }
+      },
+      "alternative-id": [
+        "10.1145/3589786"
+      ],
+      "URL": "https://doi.org/10.1145/3589786",
+      "relation": {},
+      "ISSN": [
+        "2836-6573"
+      ],
+      "issn-type": [
+        {
+          "type": "electronic",
+          "value": "2836-6573"
+        }
+      ],
+      "subject": [],
+      "published": {
+        "date-parts": [
+          [
+            2023,
+            6,
+            13
+          ]
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,751 @@
+{
+  "id": "Q2",
+  "source": "Crossref works relevance search",
+  "query": {
+    "query": "table semantic type detection representation learning",
+    "rows": 15,
+    "filter": "from-pub-date:2009-01-01,until-pub-date:2026-09-09",
+    "select": "DOI,title,author,published,container-title,abstract,type,URL"
+  },
+  "endpoint": "https://api.crossref.org/works?query=table+semantic+type+detection+representation+learning&rows=15&filter=from-pub-date%3A2009-01-01%2Cuntil-pub-date%3A2026-09-09&select=DOI%2Ctitle%2Cauthor%2Cpublished%2Ccontainer-title%2Cabstract%2Ctype%2CURL",
+  "retrieved": "2026-09-09",
+  "response": {
+    "status": "ok",
+    "message-type": "work-list",
+    "message-version": "1.0.0",
+    "message": {
+      "facets": {},
+      "total-results": 4828318,
+      "items": [
+        {
+          "DOI": "10.1016/j.neucom.2023.126613",
+          "title": [
+            "A contrastive learning framework for Event Detection via semantic type prototype representation modelling"
+          ],
+          "author": [
+            {
+              "ORCID": "https://orcid.org/0000-0001-7095-1424",
+              "authenticated-orcid": false,
+              "given": "Anran",
+              "family": "Hao",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Anh Tuan",
+              "family": "Luu",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "ORCID": "https://orcid.org/0000-0001-5397-4472",
+              "authenticated-orcid": false,
+              "given": "Siu Cheung",
+              "family": "Hui",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Jian",
+              "family": "Su",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2023,
+                11
+              ]
+            ]
+          },
+          "container-title": [
+            "Neurocomputing"
+          ],
+          "type": "journal-article",
+          "URL": "https://doi.org/10.1016/j.neucom.2023.126613"
+        },
+        {
+          "DOI": "10.1109/icsc.2020.00048",
+          "title": [
+            "Learning a Lightweight Representation: First Step Towards Automatic Detection of Multidimensional Relationships between Ideas"
+          ],
+          "author": [
+            {
+              "given": "Abderrahmane",
+              "family": "Khiat",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2020,
+                2
+              ]
+            ]
+          },
+          "container-title": [
+            "2020 IEEE 14th International Conference on Semantic Computing (ICSC)"
+          ],
+          "type": "proceedings-article",
+          "URL": "https://doi.org/10.1109/icsc.2020.00048"
+        },
+        {
+          "DOI": "10.2139/ssrn.6458422",
+          "title": [
+            "MAWNet: Adaptive Spatio-Frequency Representation Learning for Semantic Change Detection in Remote Sensing Images"
+          ],
+          "author": [
+            {
+              "given": "Mingyu",
+              "family": "Li",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Shuqi",
+              "family": "Zhao",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Shuyin",
+              "family": "Zhang",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Yifang",
+              "family": "Zhang",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Chao",
+              "family": "Xu",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "ORCID": "https://orcid.org/0000-0003-3557-893X",
+              "authenticated-orcid": true,
+              "given": "Quanwei",
+              "family": "Gao",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2026
+              ]
+            ]
+          },
+          "abstract": "<jats:p>Semantic change detection (SCD) using multi-temporal remote sensing imagery is critical for land-cover dynamics analysis and wetland ecosystem monitoring. However, most existing SCD methods rely primarily on spatial domain features, which limits their ability to capture fine-grained semantic transitions, scale variations, and ambiguous boundaries in complex wetland scenarios. To address these challenges, this paper proposes a multi-scale adaptive network for wetland semantic change detection (MAW Net). Under a bi-temporal framework, MAW Net integrates spatial-domain and frequency domain representations to enhance the discrimination of subtle semantic changes under complex natural conditions. A multi-scale atrous spatial pyramid pooling module (MASPP) is adopted to effectively model irregular objects and land-cover patterns with diverse scales, while an adaptive frequency aware spatial-temporal modeling (AFSM) mechanism explicitly captures the temporal evolution of semantic features. Furthermore, a semantic change guided feature fusion strategy with boundary-aware constraints is designed to improve semantic consistency and boundary delineation accuracy in changed regions. The proposed method is comprehensively evaluated on three benchmark datasets, namely SECOND, HRSCD, and the Dongting Lake wetland dataset. Experimental results demonstrate that MAW Net consistently outperforms state-of-the-art SCD methods, achieving mloU scores of 75.25% and 71.55% on the SECOND and HRSCD datasets, respectively. On the Dongting Lake wetland dataset, MAW Net further attains an mIoU of 88.86% and an Fscd of 91.01%. These results validate the robustness and generalizability of MAWNetfor semantic change detection in complex wetland environments.</jats:p>",
+          "type": "posted-content",
+          "URL": "https://doi.org/10.2139/ssrn.6458422"
+        },
+        {
+          "DOI": "10.1515/9783110329704.toc",
+          "title": [
+            "Table of Contents"
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2014,
+                8,
+                15
+              ]
+            ]
+          },
+          "container-title": [
+            "Semantic Knowledge Representation for Information Retrieval"
+          ],
+          "type": "book-chapter",
+          "URL": "https://doi.org/10.1515/9783110329704.toc"
+        },
+        {
+          "DOI": "10.1117/12.3095699",
+          "title": [
+            "Semantic-prior enhanced representation learning for weakly supervised video anomaly detection"
+          ],
+          "author": [
+            {
+              "given": "Wenqiang",
+              "family": "Zheng",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Chunyan",
+              "family": "Xu",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2026,
+                3,
+                4
+              ]
+            ]
+          },
+          "container-title": [
+            "Seventeenth International Conference on Graphics and Image Processing (ICGIP 2025)"
+          ],
+          "type": "proceedings-article",
+          "URL": "https://doi.org/10.1117/12.3095699"
+        },
+        {
+          "DOI": "10.2139/ssrn.6042475",
+          "title": [
+            "Semantic Representation Learning for NLP Using Deep Models"
+          ],
+          "author": [
+            {
+              "given": "Garba",
+              "family": "M.",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2026
+              ]
+            ]
+          },
+          "type": "posted-content",
+          "URL": "https://doi.org/10.2139/ssrn.6042475"
+        },
+        {
+          "DOI": "10.3724/sp.j.1001.2008.02853",
+          "title": [
+            "Transductive Multi-Modality Video Semantic Concept Detection with Tensor Representation"
+          ],
+          "author": [
+            {
+              "given": "Fei",
+              "family": "WU",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Ya-Nan",
+              "family": "LIU",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Yue-Ting",
+              "family": "ZHUANG",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2009,
+                4,
+                7
+              ]
+            ]
+          },
+          "container-title": [
+            "Journal of Software"
+          ],
+          "type": "journal-article",
+          "URL": "https://doi.org/10.3724/sp.j.1001.2008.02853"
+        },
+        {
+          "DOI": "10.1016/b978-0-12-802409-6.00004-2",
+          "title": [
+            "Supervised Dictionary Learning via Semantic Embedding"
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2015
+              ]
+            ]
+          },
+          "container-title": [
+            "Learning-Based Local Visual Representation and Indexing"
+          ],
+          "type": "book-chapter",
+          "URL": "https://doi.org/10.1016/b978-0-12-802409-6.00004-2"
+        },
+        {
+          "DOI": "10.18653/v1/2025.trl-1",
+          "title": [
+            "Proceedings of the 4th Table Representation Learning Workshop"
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2025
+              ]
+            ]
+          },
+          "type": "proceedings",
+          "URL": "https://doi.org/10.18653/v1/2025.trl-1"
+        },
+        {
+          "DOI": "10.31224/7329",
+          "title": [
+            "Momentum-Guided Semantic Forecasting (MoFore) for Self-Supervised Video Representation Learning"
+          ],
+          "author": [
+            {
+              "given": "Qinwu",
+              "family": "Xu",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2026,
+                6,
+                15
+              ]
+            ]
+          },
+          "abstract": "<jats:p>Self-supervised video representation learning has recently advanced through con- trastive learning, masked reconstruction, and predictive representation learning. Reconstruction-based approaches such as MAE and VideoMAE learn representa- tions by recovering masked visual content [1, 2], while contrastive methods such as CLIP learn semantically meaningful embedding spaces through representation alignment [3].\nIn this work, we introduce a Momentum-Guided Semantic Forecasting framework (MoFore) for self-supervised video representation learning. Instead of optimizing for pixel-level reconstruction or task-specific semantic alignment, the proposed method learns temporally predictive video representations by forecasting future latent embeddings from temporally distant context clips. To improve robustness across temporal scales, we further introduce randomized temporal-gap forecasting during training. The framework combines predictive latent forecasting with con- trastive regularization to encourage temporal consistency while preventing repre- sentation collapse.\nExperiments on the UCF101 dataset demonstrate that the proposed framework learns temporally consistent and semantically meaningful video representations without using action labels during training. Quantitative analysis shows strong temporal stability and emergent category-level structure in the learned embed- ding space, while qualitative retrieval experiments reveal motion-aware organiza- tion across related activities. Overall, the results suggest that long-range latent forecasting provides an effective and computationally efficient approach for self- supervised video representation learning without relying on reconstruction-based objectives.</jats:p>",
+          "type": "posted-content",
+          "URL": "https://doi.org/10.31224/7329"
+        },
+        {
+          "DOI": "10.21203/rs.3.rs-3593929/v1",
+          "title": [
+            "Semantic Relational Extraction via Learning Syntactic Structural Representation"
+          ],
+          "author": [
+            {
+              "given": "Nguyen",
+              "family": "Éric",
+              "sequence": "first",
+              "affiliation": [
+                {
+                  "name": "VinAI Research"
+                }
+              ],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Tsuruoka",
+              "family": "Ari",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "VinAI Research"
+                }
+              ],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2023,
+                11,
+                15
+              ]
+            ]
+          },
+          "abstract": "<jats:title>Abstract</jats:title>\n        <jats:p>Leveraging distant supervision for relation extraction has emerged as a robust method to harness large text corpora, widely adopted to unearth new relational facts from unstructured text. Prevailing neural approaches have made significant strides in relation extraction by representing sentences in compact, low-dimensional vectors. However, the incorporation of syntactic nuances when modeling entities remains underexplored. Our study introduces a novel method for crafting syntax-aware entity embeddings to boost neural relation extraction. We start by encoding entity contexts within dependency trees through tree-GRU to generate sentence-level entity embeddings. We then apply both intra-sentence and inter-sentence attention mechanisms to distill entity embeddings at the sentence set level, considering every occurrence of the pertinent entity pair. The culmination of our methodology is the fusion of sentence and entity embeddings for relation classification. Our experiments on a benchmark dataset indicate that our approach harnesses the full potential of informative instances, thereby setting new benchmarks for relation extraction performance.</jats:p>",
+          "type": "posted-content",
+          "URL": "https://doi.org/10.21203/rs.3.rs-3593929/v1"
+        },
+        {
+          "DOI": "10.1109/iccpct70290.2026.11654965",
+          "title": [
+            "Semantic Representation Learning using Transformer Architectures for Context Aware Detection of Web Application Attack"
+          ],
+          "author": [
+            {
+              "given": "G",
+              "family": "Joshna",
+              "sequence": "first",
+              "affiliation": [
+                {
+                  "name": "SRM Institute of science and technology Kattankulathur",
+                  "place": [
+                    "Chennai, India"
+                  ],
+                  "department": [
+                    "Department of Networking and Communication"
+                  ]
+                }
+              ],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "J",
+              "family": "Godwin Ponsam",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "SRM Institute of science and technology Kattankulathur",
+                  "place": [
+                    "Chennai, India"
+                  ],
+                  "department": [
+                    "Department of Networking and Communication"
+                  ]
+                }
+              ],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2026,
+                8
+              ]
+            ]
+          },
+          "container-title": [
+            "2026 9th International Conference on Circuit, Power &amp; Computing Technologies (ICCPCT)"
+          ],
+          "type": "proceedings-article",
+          "URL": "https://doi.org/10.1109/iccpct70290.2026.11654965"
+        },
+        {
+          "DOI": "10.18653/v1/2026.semeval-1.81",
+          "title": [
+            "CUETLuminaries0227 at SemEval-2026 Task 13: Invariance-Oriented Representation Learning for Robust AI-Generated Code Detection"
+          ],
+          "author": [
+            {
+              "given": "Shiti",
+              "family": "Chowdhury",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Adnan",
+              "family": "Faisal",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2026
+              ]
+            ]
+          },
+          "container-title": [
+            "Proceedings of the 20th International Workshop on Semantic Evaluation (2026)"
+          ],
+          "type": "proceedings-article",
+          "URL": "https://doi.org/10.18653/v1/2026.semeval-1.81"
+        },
+        {
+          "DOI": "10.1109/igarss46834.2022.9883441",
+          "title": [
+            "Semantic Decoupled Representation Learning for Remote Sensing Image Change Detection"
+          ],
+          "author": [
+            {
+              "given": "Hao",
+              "family": "Chen",
+              "sequence": "first",
+              "affiliation": [
+                {
+                  "name": "Image Processing Center, School of Astronautics, Beihang University,Beijing,China,100191"
+                }
+              ],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Yifan",
+              "family": "Zao",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "Image Processing Center, School of Astronautics, Beihang University,Beijing,China,100191"
+                }
+              ],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Liqin",
+              "family": "Liu",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "Image Processing Center, School of Astronautics, Beihang University,Beijing,China,100191"
+                }
+              ],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Song",
+              "family": "Chen",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "Jeonuk National University,Department of Journalism and Communications,Jeonju-si,South Korea,54896"
+                }
+              ],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Zhenwei",
+              "family": "Shi",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "Image Processing Center, School of Astronautics, Beihang University,Beijing,China,100191"
+                }
+              ],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2022,
+                7,
+                17
+              ]
+            ]
+          },
+          "container-title": [
+            "IGARSS 2022 - 2022 IEEE International Geoscience and Remote Sensing Symposium"
+          ],
+          "type": "proceedings-article",
+          "URL": "https://doi.org/10.1109/igarss46834.2022.9883441"
+        },
+        {
+          "DOI": "10.3115/v1/w14-2908",
+          "title": [
+            "Is the Stanford Dependency Representation Semantic?"
+          ],
+          "author": [
+            {
+              "given": "Rachel",
+              "family": "Rudinger",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Benjamin",
+              "family": "Van Durme",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2014
+              ]
+            ]
+          },
+          "container-title": [
+            "Proceedings of the Second Workshop on EVENTS: Definition, Detection, Coreference, and Representation"
+          ],
+          "type": "proceedings-article",
+          "URL": "https://doi.org/10.3115/v1/w14-2908"
+        }
+      ],
+      "items-per-page": 15,
+      "query": {
+        "start-index": 0,
+        "search-terms": "table semantic type detection representation learning"
+      }
+    }
+  }
+}

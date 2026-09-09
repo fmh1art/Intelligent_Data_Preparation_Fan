@@ -1,0 +1,913 @@
+{
+  "id": "Q7",
+  "source": "Crossref works relevance search",
+  "query": {
+    "query": "data preprocessing pipeline search",
+    "rows": 15,
+    "filter": "from-pub-date:2009-01-01,until-pub-date:2026-09-09",
+    "select": "DOI,title,author,published,container-title,abstract,type,URL"
+  },
+  "endpoint": "https://api.crossref.org/works?query=data+preprocessing+pipeline+search&rows=15&filter=from-pub-date%3A2009-01-01%2Cuntil-pub-date%3A2026-09-09&select=DOI%2Ctitle%2Cauthor%2Cpublished%2Ccontainer-title%2Cabstract%2Ctype%2CURL",
+  "retrieved": "2026-09-09",
+  "response": {
+    "status": "ok",
+    "message-type": "work-list",
+    "message-version": "1.0.0",
+    "message": {
+      "facets": {},
+      "total-results": 2563752,
+      "items": [
+        {
+          "DOI": "10.1145/3589328",
+          "title": [
+            "DiffPrep: Differentiable Data Preprocessing Pipeline Search for Learning over Tabular Data"
+          ],
+          "author": [
+            {
+              "ORCID": "https://orcid.org/0009-0007-7150-7633",
+              "authenticated-orcid": false,
+              "given": "Peng",
+              "family": "Li",
+              "sequence": "first",
+              "affiliation": [
+                {
+                  "name": "Georgia Institute of Technology, Atlanta, GA, USA"
+                }
+              ],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "ORCID": "https://orcid.org/0000-0002-5420-9956",
+              "authenticated-orcid": false,
+              "given": "Zhiyi",
+              "family": "Chen",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "Georgia Institute of Technology, Atlanta, GA, USA"
+                }
+              ],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "ORCID": "https://orcid.org/0009-0007-3202-3767",
+              "authenticated-orcid": false,
+              "given": "Xu",
+              "family": "Chu",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "Georgia Institute of Technology, Atlanta, GA, USA"
+                }
+              ],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "ORCID": "https://orcid.org/0000-0002-3282-5360",
+              "authenticated-orcid": false,
+              "given": "Kexin",
+              "family": "Rong",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "Georgia Institute of Technology, Atlanta, GA, USA"
+                }
+              ],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2023,
+                6,
+                13
+              ]
+            ]
+          },
+          "container-title": [
+            "Proceedings of the ACM on Management of Data"
+          ],
+          "abstract": "<jats:p>Data preprocessing is a crucial step in the machine learning process that transforms raw data into a more usable format for downstream ML models. However, it can be costly and time-consuming, often requiring the expertise of domain experts. Existing automated machine learning (AutoML) frameworks claim to automate data preprocessing. However, they often use a restricted search space of data preprocessing pipelines which limits the potential performance gains, and they are often too slow as they require training the ML model multiple times. In this paper, we propose DiffPrep, a method that can automatically and efficiently search for a data preprocessing pipeline for a given tabular dataset and a differentiable ML model such that the performance of the ML model is maximized. We formalize the problem of data preprocessing pipeline search as a bi-level optimization problem. To solve this problem efficiently, we transform and relax the discrete, non-differential search space into a continuous and differentiable one, which allows us to perform the pipeline search using gradient descent with training the ML model only once. Our experiments show that DiffPrep achieves the best test accuracy on 15 out of the 18 real-world datasets evaluated and improves the model's test accuracy by up to 6.6 percentage points.</jats:p>",
+          "type": "journal-article",
+          "URL": "https://doi.org/10.1145/3589328"
+        },
+        {
+          "DOI": "10.1016/b978-0-12-819084-5.00012-2",
+          "title": [
+            "Preprocessing pipeline on FPGA"
+          ],
+          "author": [
+            {
+              "given": "Tian",
+              "family": "Huang",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Yongxin",
+              "family": "Zhu",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Yu",
+              "family": "Zheng",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2020
+              ]
+            ]
+          },
+          "container-title": [
+            "Big Data in Astronomy"
+          ],
+          "type": "book-chapter",
+          "URL": "https://doi.org/10.1016/b978-0-12-819084-5.00012-2"
+        },
+        {
+          "DOI": "10.1101/192302",
+          "title": [
+            "hichipper: A preprocessing pipeline for assessing library quality and DNA loops from HiChIP data"
+          ],
+          "author": [
+            {
+              "ORCID": "https://orcid.org/0000-0003-4179-4807",
+              "authenticated-orcid": false,
+              "given": "Caleb",
+              "family": "Lareau",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "ORCID": "https://orcid.org/0000-0002-6848-1344",
+              "authenticated-orcid": false,
+              "given": "Martin",
+              "family": "Aryee",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2017,
+                9,
+                21
+              ]
+            ]
+          },
+          "abstract": "<jats:p>Mumbach et al. recently described HiChIP, a novel protein-mediated chromatin conformation assay that lowers cellular input requirements while simultaneously increasing the yield of informative reads compared to previous methods. To facilitate the dissemination and adoption of this assay, we introduce hichipper (http://aryeelab.org/hichipper), an open-source HiChIP data preprocessing tool, with features that include bias-corrected peak calling, library quality control, DNA loop calling, and output of processed data for downstream analysis and visualization.</jats:p>",
+          "type": "posted-content",
+          "URL": "https://doi.org/10.1101/192302"
+        },
+        {
+          "DOI": "10.1109/pesim67009.2026.11439034",
+          "title": [
+            "Optimized Data Preprocessing Pipeline for Deep Learning with Real EV Battery Data"
+          ],
+          "author": [
+            {
+              "given": "Jose",
+              "family": "Betancourt",
+              "sequence": "first",
+              "affiliation": [
+                {
+                  "name": "McNeese State University,Lake Charles,LA,USA"
+                }
+              ],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Cunzhi",
+              "family": "Zhao",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "McNeese State University,Lake Charles,LA,USA"
+                }
+              ],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "David",
+              "family": "Okpo",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "McNeese State University,Lake Charles,LA,USA"
+                }
+              ],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2026,
+                1,
+                18
+              ]
+            ]
+          },
+          "container-title": [
+            "2026 IEEE PES International Meeting (PES IM)"
+          ],
+          "type": "proceedings-article",
+          "URL": "https://doi.org/10.1109/pesim67009.2026.11439034"
+        },
+        {
+          "DOI": "10.1016/j.dib.2026.113129",
+          "title": [
+            "Dasinya: A dataset and preprocessing pipeline for the Badini Kurdish dialect"
+          ],
+          "author": [
+            {
+              "given": "Vaman A.",
+              "family": "Saeed",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "ORCID": "https://orcid.org/0000-0002-5220-5548",
+              "authenticated-orcid": false,
+              "given": "Karwan",
+              "family": "Jacksi",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2026,
+                8
+              ]
+            ]
+          },
+          "container-title": [
+            "Data in Brief"
+          ],
+          "type": "journal-article",
+          "URL": "https://doi.org/10.1016/j.dib.2026.113129"
+        },
+        {
+          "DOI": "10.1007/978-981-19-6798-6_5",
+          "title": [
+            "Data Preprocessing Technology in Pipeline Health Monitoring"
+          ],
+          "author": [
+            {
+              "given": "Hongfang",
+              "family": "Lu",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Zhao-Dong",
+              "family": "Xu",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Tom",
+              "family": "Iseley",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Haoyan",
+              "family": "Peng",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Lingdi",
+              "family": "Fu",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2023
+              ]
+            ]
+          },
+          "container-title": [
+            "Pipeline Inspection and Health Monitoring Technology"
+          ],
+          "type": "book-chapter",
+          "URL": "https://doi.org/10.1007/978-981-19-6798-6_5"
+        },
+        {
+          "DOI": "10.1007/978-1-4842-5349-6_6",
+          "title": [
+            "Data Wrangling and Preprocessing"
+          ],
+          "author": [
+            {
+              "given": "Hisham",
+              "family": "El-Amir",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Mahmoud",
+              "family": "Hamdy",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2019,
+                12,
+                21
+              ]
+            ]
+          },
+          "container-title": [
+            "Deep Learning Pipeline"
+          ],
+          "type": "book-chapter",
+          "URL": "https://doi.org/10.1007/978-1-4842-5349-6_6"
+        },
+        {
+          "DOI": "10.5256/f1000research.135465.r146797",
+          "title": [
+            "Peer Review Report For: An R-based reproducible and user-friendly preprocessing pipeline for CyTOF data [version 2; peer review: 2 approved]"
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2022,
+                8,
+                25
+              ]
+            ]
+          },
+          "type": "peer-review",
+          "URL": "https://doi.org/10.5256/f1000research.135465.r146797"
+        },
+        {
+          "DOI": "10.1007/978-981-96-8019-1_4",
+          "title": [
+            "Data Integration and Preprocessing Techniques"
+          ],
+          "author": [
+            {
+              "given": "Muhammad",
+              "family": "Hussain",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Tieling",
+              "family": "Zhang",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2025
+              ]
+            ]
+          },
+          "container-title": [
+            "Lecture Notes in Energy",
+            "Big Data Analytics in Energy Pipeline Integrity Management"
+          ],
+          "type": "book-chapter",
+          "URL": "https://doi.org/10.1007/978-981-96-8019-1_4"
+        },
+        {
+          "DOI": "10.2139/ssrn.4988243",
+          "title": [
+            "Radiosunpy: A Robust Preprocessing Pipeline for Ratan-600 Solar Radio Observations Data"
+          ],
+          "author": [
+            {
+              "given": "Irina",
+              "family": "Knyazeva",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Igor",
+              "family": "Lysov",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Evgenii",
+              "family": "Kurochkin",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Andrey",
+              "family": "Shendrik",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Nikolay",
+              "family": "Makarenko",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Denis",
+              "family": "Derkach",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2024
+              ]
+            ]
+          },
+          "type": "posted-content",
+          "URL": "https://doi.org/10.2139/ssrn.4988243"
+        },
+        {
+          "DOI": "10.7490/f1000research.1114420.1",
+          "title": [
+            "FMRIprep: a robust preprocessing pipeline for task-based and resting-state fMRI data"
+          ],
+          "author": [
+            {
+              "given": "Oscar",
+              "family": "Esteban",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Krzysztof",
+              "family": "Gorgolewski",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Ross",
+              "family": "Blair",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Shoshana",
+              "family": "Berleant",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Craig",
+              "family": "Moodie",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Russell",
+              "family": "Poldrack",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2017,
+                7,
+                15
+              ]
+            ]
+          },
+          "abstract": "<ns3:p>The statistical analysis of functional MRI requires suitable data, which is prepared with pre-processing workflows [1]. These workflows typically include head-motion and distortion corrections, intra-subject registration, spatial normalization, etc. [2]. However, these workflows remain largely subordinated to the features of the input data, the subsequent statistical analysis tool of choice, the investigator's preferences. Moreover settings and details are rarely reported in published literature. FMRIprep is a software instrument for fMRI preparation that aims at the standardization of fMRI preprocessing. The tool is designed around three principles: 1) robustness to the heterogeneity of input data (e.g. acquisition parameters, protocol design, etc.); 2) ease of use, relying on the BIDS standards [3] for the input data and the resulting derivatives; and 3) a \"glass-box\" philosophy that stresses the need for visually assessing the outcomes before analysis, and the transparency on the workflow design and tooling configuration.</ns3:p>\n                <ns3:p>\n                  [1] Ashburner J\n                  <ns3:italic>et al.</ns3:italic>\n                  (2009), Preparing fMRI data for statistical analysis, fMRI Techniques and Protocols (Neuromethods), Humana Press, doi:10.1007/978-1-60327-919-2_6;\n                </ns3:p>\n                <ns3:p>[2] Strother S. (2006), Review of Preprocessing Steps for BOLD fMRI, IEEE EMB Mag, 25(2):27-41. doi:10.1109/MEMB.2006.1607667; </ns3:p>\n                <ns3:p>\n                  [3] Gorgolewski KJ\n                  <ns3:italic>et al.</ns3:italic>\n                  (2016), The brain imaging data structure, a format for organizing and describing outputs of neuroimaging experiments. Sci Data. 3:160044. doi:10.1038/sdata.2016.44;\n                </ns3:p>\n                <ns3:p>\n                  [4] Poldrack RA\n                  <ns3:italic>et al.</ns3:italic>\n                  (2013), Toward open sharing of task-based fMRI data: the OpenfMRI project. Frontiers in Neuroinformatics 7:12. doi:10.3389/fninf.2013.00012;\n                </ns3:p>\n                <ns3:p>\n                  [5] Gorgolewski KJ\n                  <ns3:italic>et al.</ns3:italic>\n                  (2016), Nipype: a flexible, lightweight and extensible neuroimaging data processing framework in Python. Zenodo [Software]. doi:10.5281/zenodo.50186;\n                </ns3:p>\n                <ns3:p>\n                  [6] Gorgolewski KJ\n                  <ns3:italic>et al.</ns3:italic>\n                  (2016), BIDS Apps: Improving ease of use, accessibility and reproducibility of neuroimaging data analysis methods [Internet]. bioRxiv. p. 079145. doi:10.1101/079145;\n                </ns3:p>",
+          "type": "posted-content",
+          "URL": "https://doi.org/10.7490/f1000research.1114420.1"
+        },
+        {
+          "DOI": "10.1101/2025.04.26.650748",
+          "title": [
+            "GTEx_Pro: A robust and accurate preprocessing pipeline for GTEx data: TMM+CPM normalization and SVA batch correction for enhanced multi-tissue analysis"
+          ],
+          "author": [
+            {
+              "ORCID": "https://orcid.org/0009-0005-8987-527X",
+              "authenticated-orcid": false,
+              "given": "D.",
+              "family": "Jothi",
+              "sequence": "first",
+              "affiliation": [
+                {
+                  "name": "Department of Biochemistry II, Friedrich Schiller University, Jena"
+                }
+              ],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2025,
+                4,
+                29
+              ]
+            ]
+          },
+          "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>GTEx_Pro is a Nextflow-based pipeline for preprocessing GTEx v8 transcriptomic data, enhancing multi-tissue comparability. It integrates TMM + CPM normalization and SVA batch effect correction to improve biological signal recovery while reducing systematic variations across 54 GTEx tissues. Designed for scalability and reproducibility, GTEx_Pro facilitates accurate multi-tissue transcriptomic analysis and a similar framework can be adapted to other large-scale transcriptome datasets.</jats:p>",
+          "type": "posted-content",
+          "URL": "https://doi.org/10.1101/2025.04.26.650748"
+        },
+        {
+          "DOI": "10.1017/s1431927620021200",
+          "title": [
+            "Automatic Pipeline for Cryo-EM Data Preprocessing"
+          ],
+          "author": [
+            {
+              "given": "Yilai",
+              "family": "Li",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Michael",
+              "family": "Cianfrocco",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2020,
+                7,
+                30
+              ]
+            ]
+          },
+          "container-title": [
+            "Microscopy and Microanalysis"
+          ],
+          "type": "journal-article",
+          "URL": "https://doi.org/10.1017/s1431927620021200"
+        },
+        {
+          "DOI": "10.5220/0015063400004103",
+          "title": [
+            "Logfusion: A Lightweight Preprocessing Pipeline for Anomaly Detection"
+          ],
+          "author": [
+            {
+              "given": "S.",
+              "family": "Rahman",
+              "sequence": "first",
+              "affiliation": [
+                {
+                  "name": "University of Canberra, Bruce ACT 2617, Australia"
+                }
+              ],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Abu",
+              "family": "Ullah",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "University of Canberra, Bruce ACT 2617, Australia"
+                }
+              ],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Masoud",
+              "family": "Mohammadian",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "University of Canberra, Bruce ACT 2617, Australia"
+                }
+              ],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Yibeltal",
+              "family": "Alem",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "University of Canberra, Bruce ACT 2617, Australia"
+                }
+              ],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2026
+              ]
+            ]
+          },
+          "container-title": [
+            "Proceedings of the 23rd International Conference on Security and Cryptography"
+          ],
+          "type": "proceedings-article",
+          "URL": "https://doi.org/10.5220/0015063400004103"
+        },
+        {
+          "DOI": "10.31224/osf.io/8d9w5",
+          "title": [
+            "High-throughput preprocessing pipeline for resting-state fMRI"
+          ],
+          "author": [
+            {
+              "given": "Evangeline",
+              "family": "Yee",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2018,
+                7,
+                19
+              ]
+            ]
+          },
+          "abstract": "<p>Resting-state functional magnetic resonance imaging (fMRI) examines functional connectivity between brain regions by measuring spontaneous fluctuation of blood-oxygen-level dependent (BOLD) signal while subjects are at rest. Recent studies have revealed that neurodegenerative diseases are associated with abnormalities in resting-state functional connectivity. This thesis work aimed to develop a high-throughput preprocessing pipeline for minimizing spatial and temporal artifacts in resting-state fMRI data. The building blocks and cluster computing capabilities of the pipeline are discussed in detail. In an effort to validate this pipeline, a seed-based analysis was performed on preprocessed data using 3 seeds placed in the posterior cingulate cortex (PCC), supplementary motor area (SMA) and inferior parietal sulcus (IPS). These 3 seeds represent the core components of the default mode network (DMN) and task-positive network (TPN), two of the most commonly examined resting-state networks. Consistent with literature, results indicate that activity in the PCC is functionally correlated to regions of the DMN and anti-correlated to regions of the TPN, whereas activities in the SMA and IPS are functionally correlated to regions of the TPN and anti-correlated to regions of the DMN. These functional connectivity patterns were consistent across scans on both group-level and subject-level. This preprocessing pipeline will support researchers and clinical collaborators of Medical Image Analysis Lab (MIAL) in their analysis of resting-state functional connectivity.</p>",
+          "type": "posted-content",
+          "URL": "https://doi.org/10.31224/osf.io/8d9w5"
+        }
+      ],
+      "items-per-page": 15,
+      "query": {
+        "start-index": 0,
+        "search-terms": "data preprocessing pipeline search"
+      }
+    }
+  }
+}

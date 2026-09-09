@@ -1,0 +1,1175 @@
+{
+  "id": "Q12",
+  "source": "Crossref works relevance search",
+  "query": {
+    "query.title": "entity matching",
+    "rows": 15,
+    "filter": "from-pub-date:2009-01-01,until-pub-date:2026-09-09",
+    "select": "DOI,title,author,published,container-title,abstract,type,URL"
+  },
+  "endpoint": "https://api.crossref.org/works?query.title=entity+matching&rows=15&filter=from-pub-date%3A2009-01-01%2Cuntil-pub-date%3A2026-09-09&select=DOI%2Ctitle%2Cauthor%2Cpublished%2Ccontainer-title%2Cabstract%2Ctype%2CURL",
+  "retrieved": "2026-09-09",
+  "response": {
+    "status": "ok",
+    "message-type": "work-list",
+    "message-version": "1.0.0",
+    "message": {
+      "facets": {},
+      "total-results": 121669,
+      "items": [
+        {
+          "DOI": "10.14778/2021017.2021020",
+          "title": [
+            "Entity matching"
+          ],
+          "author": [
+            {
+              "given": "Jiannan",
+              "family": "Wang",
+              "sequence": "first",
+              "affiliation": [
+                {
+                  "name": "Tsinghua University, Beijing, China"
+                }
+              ],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Guoliang",
+              "family": "Li",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "Tsinghua University, Beijing, China"
+                }
+              ],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Jeffrey Xu",
+              "family": "Yu",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "Chinese University of Hong Kong, Hong Kong, China"
+                }
+              ],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Jianhua",
+              "family": "Feng",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "Tsinghua University, Beijing, China"
+                }
+              ],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2011,
+                7
+              ]
+            ]
+          },
+          "container-title": [
+            "Proceedings of the VLDB Endowment"
+          ],
+          "abstract": "<jats:p>Entity matching that finds records referring to the same entity is an important operation in data cleaning and integration. Existing studies usually use a given similarity function to quantify the similarity of records, and focus on devising index structures and algorithms for efficient entity matching. However it is a big challenge to define \"how similar is similar\" for real applications, since it is rather hard to automatically select appropriate similarity functions. In this paper we attempt to address this problem. As there are a large number of similarity functions, and even worse thresholds may have infinite values, it is rather expensive to find appropriate similarity functions and thresholds. Fortunately, we have an observation that different similarity functions and thresholds have redundancy, and we have an opportunity to prune inappropriate similarity functions. To this end, we propose effective optimization techniques to eliminate such redundancy, and devise efficient algorithms to find the best similarity functions. The experimental results on both real and synthetic datasets show that our method achieves high accuracy and outperforms the baseline algorithms.</jats:p>",
+          "type": "journal-article",
+          "URL": "https://doi.org/10.14778/2021017.2021020"
+        },
+        {
+          "DOI": "10.1145/3431816",
+          "title": [
+            "Deep Entity Matching"
+          ],
+          "author": [
+            {
+              "given": "Yuliang",
+              "family": "Li",
+              "sequence": "first",
+              "affiliation": [
+                {
+                  "name": "Megagon Labs, Mountain View, CA"
+                }
+              ],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Jinfeng",
+              "family": "Li",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "Megagon Labs, Mountain View, CA"
+                }
+              ],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Yoshihiko",
+              "family": "Suhara",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "Megagon Labs, Mountain View, CA"
+                }
+              ],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Jin",
+              "family": "Wang",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "Megagon Labs, Mountain View, CA"
+                }
+              ],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Wataru",
+              "family": "Hirota",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "Megagon Labs, Mountain View, CA"
+                }
+              ],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Wang-Chiew",
+              "family": "Tan",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "Megagon Labs, Mountain View, CA"
+                }
+              ],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2021,
+                1,
+                6
+              ]
+            ]
+          },
+          "container-title": [
+            "Journal of Data and Information Quality"
+          ],
+          "abstract": "<jats:p>Entity matching refers to the task of determining whether two different representations refer to the same real-world entity. It continues to be a prevalent problem for many organizations where data resides in different sources and duplicates the need to be identified and managed. The term “entity matching” also loosely refers to the broader problem of determining whether two heterogeneous representations of<jats:italic>different entities</jats:italic>should be associated together. This problem has an even wider scope of applications, from determining the subsidiaries of companies to matching jobs to job seekers, which has impactful consequences.</jats:p><jats:p>In this article, we first report our recent system D<jats:sc>ITTO</jats:sc>, which is an example of a modern entity matching system based on pretrained language models. Then we summarize recent solutions in applying deep learning and pre-trained language models for solving the entity matching task. Finally, we discuss research directions beyond entity matching, including the promise of synergistically integrating blocking and entity matching steps together, the need to examine methods to alleviate steep training data requirements that are typical of deep learning or pre-trained language models, and the importance of generalizing entity matching solutions to handle the broader entity matching problem, which leads to an even more pressing need to explain matching outcomes.</jats:p>",
+          "type": "journal-article",
+          "URL": "https://doi.org/10.1145/3431816"
+        },
+        {
+          "DOI": "10.1007/978-3-030-15032-7_68",
+          "title": [
+            "Multilingual Entity Matching"
+          ],
+          "author": [
+            {
+              "given": "Ilgiz",
+              "family": "Mustafin",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Marius-Cristian",
+              "family": "Frunza",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "JooYoung",
+              "family": "Lee",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2019,
+                3,
+                15
+              ]
+            ]
+          },
+          "container-title": [
+            "Advances in Intelligent Systems and Computing",
+            "Advanced Information Networking and Applications"
+          ],
+          "type": "book-chapter",
+          "URL": "https://doi.org/10.1007/978-3-030-15032-7_68"
+        },
+        {
+          "DOI": "10.2139/ssrn.3306378",
+          "title": [
+            "Multilingual Entity Matching"
+          ],
+          "author": [
+            {
+              "given": "Ilgiz",
+              "family": "Mustafin",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Marius",
+              "family": "Frunza",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Jooyoung",
+              "family": "Lee",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2018
+              ]
+            ]
+          },
+          "container-title": [
+            "SSRN Electronic Journal"
+          ],
+          "type": "journal-article",
+          "URL": "https://doi.org/10.2139/ssrn.3306378"
+        },
+        {
+          "DOI": "10.1109/tkde.2022.3200644",
+          "title": [
+            "LEMON: Explainable Entity Matching"
+          ],
+          "author": [
+            {
+              "ORCID": "https://orcid.org/0000-0003-4618-9702",
+              "authenticated-orcid": false,
+              "given": "Nils",
+              "family": "Barlaug",
+              "sequence": "first",
+              "affiliation": [
+                {
+                  "name": "Department of Computer Science, Norwegian University of Science and Technology, Trondheim, Norway"
+                }
+              ],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2022
+              ]
+            ]
+          },
+          "container-title": [
+            "IEEE Transactions on Knowledge and Data Engineering"
+          ],
+          "type": "journal-article",
+          "URL": "https://doi.org/10.1109/tkde.2022.3200644"
+        },
+        {
+          "DOI": "10.1145/3459637.3482338",
+          "title": [
+            "Entity and Relation Matching Consensus for Entity Alignment"
+          ],
+          "author": [
+            {
+              "given": "Jinzhu",
+              "family": "Yang",
+              "sequence": "first",
+              "affiliation": [
+                {
+                  "name": "University of Chinese Academy of Sciences Institute of Information Engineering &amp; Chinese Academy of Sciences, Beijing, China"
+                }
+              ],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Ding",
+              "family": "Wang",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "University of Chinese Academy of Sciences Institute of Information Engineering &amp; Chinese Academy of Sciences, Beijing, China"
+                }
+              ],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Wei",
+              "family": "Zhou",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "University of Chinese Academy of Sciences Institute of Information Engineering &amp; Chinese Academy of Sciences, Beijing, China"
+                }
+              ],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Wanhui",
+              "family": "Qian",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "University of Chinese Academy of Sciences Institute of Information Engineering &amp; Chinese Academy of Sciences, Beijing, China"
+                }
+              ],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Xin",
+              "family": "Wang",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "Chinese Academy of Sciences, Beijing, China"
+                }
+              ],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Jizhong",
+              "family": "Han",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "Institute of Information Engineering, Chinese Academy of Sciences, Beijing, China"
+                }
+              ],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Songlin",
+              "family": "Hu",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "University of Chinese Academy of Sciences Institute of Information Engineering &amp; Chinese Academy of Sciences, Beijing, China"
+                }
+              ],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2021,
+                10,
+                26
+              ]
+            ]
+          },
+          "container-title": [
+            "Proceedings of the 30th ACM International Conference on Information &amp; Knowledge Management"
+          ],
+          "type": "proceedings-article",
+          "URL": "https://doi.org/10.1145/3459637.3482338"
+        },
+        {
+          "DOI": "10.1007/978-3-030-88389-8_19",
+          "title": [
+            "Entity Matching: Matching Entities Between Multiple Data Sources"
+          ],
+          "author": [
+            {
+              "given": "Ivan",
+              "family": "Bilan",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2022
+              ]
+            ]
+          },
+          "container-title": [
+            "Tourism on the Verge",
+            "Applied Data Science in Tourism"
+          ],
+          "type": "book-chapter",
+          "URL": "https://doi.org/10.1007/978-3-030-88389-8_19"
+        },
+        {
+          "DOI": "10.14778/1938545.1938546",
+          "title": [
+            "Large-scale collective entity matching"
+          ],
+          "author": [
+            {
+              "given": "Vibhor",
+              "family": "Rastogi",
+              "sequence": "first",
+              "affiliation": [
+                {
+                  "name": "Yahoo! Research"
+                }
+              ],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Nilesh",
+              "family": "Dalvi",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "Yahoo! Research"
+                }
+              ],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Minos",
+              "family": "Garofalakis",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "Technical University of Crete"
+                }
+              ],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2011,
+                1
+              ]
+            ]
+          },
+          "container-title": [
+            "Proceedings of the VLDB Endowment"
+          ],
+          "abstract": "<jats:p>\n            There have been several recent advancements in Machine Learning community on the Entity Matching (EM) problem. However, their lack of scalability has prevented them from being applied in practical settings on large real-life datasets. Towards this end, we propose a principled framework to scale any generic EM algorithm. Our technique consists of running multiple instances of the EM algorithm on small\n            <jats:italic>neighborhoods</jats:italic>\n            of the data and\n            <jats:italic>passing messages</jats:italic>\n            across neighborhoods to construct a global solution. We prove formal properties of our framework and experimentally demonstrate the effectiveness of our approach in scaling EM algorithms.\n          </jats:p>",
+          "type": "journal-article",
+          "URL": "https://doi.org/10.14778/1938545.1938546"
+        },
+        {
+          "DOI": "10.1145/3340531.3412781",
+          "title": [
+            "Profiling Entity Matching Benchmark Tasks"
+          ],
+          "author": [
+            {
+              "given": "Anna",
+              "family": "Primpeli",
+              "sequence": "first",
+              "affiliation": [
+                {
+                  "name": "University of Mannheim, Mannheim, Germany"
+                }
+              ],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Christian",
+              "family": "Bizer",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "University of Mannheim, Mannheim, Germany"
+                }
+              ],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2020,
+                10,
+                19
+              ]
+            ]
+          },
+          "container-title": [
+            "Proceedings of the 29th ACM International Conference on Information &amp; Knowledge Management"
+          ],
+          "type": "proceedings-article",
+          "URL": "https://doi.org/10.1145/3340531.3412781"
+        },
+        {
+          "DOI": "10.1007/978-3-030-80418-3_20",
+          "title": [
+            "Exploiting Transitivity for Entity Matching"
+          ],
+          "author": [
+            {
+              "given": "Jurian",
+              "family": "Baas",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Mehdi M.",
+              "family": "Dastani",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Ad J.",
+              "family": "Feelders",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2021
+              ]
+            ]
+          },
+          "container-title": [
+            "Lecture Notes in Computer Science",
+            "The Semantic Web: ESWC 2021 Satellite Events"
+          ],
+          "type": "book-chapter",
+          "URL": "https://doi.org/10.1007/978-3-030-80418-3_20"
+        },
+        {
+          "DOI": "10.1145/3183713.3196926",
+          "title": [
+            "Deep Learning for Entity Matching"
+          ],
+          "author": [
+            {
+              "given": "Sidharth",
+              "family": "Mudgal",
+              "sequence": "first",
+              "affiliation": [
+                {
+                  "name": "University of Wisconsin-Madison, Madison, USA"
+                }
+              ],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Han",
+              "family": "Li",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "University of Wisconsin-Madison, Madison, USA"
+                }
+              ],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Theodoros",
+              "family": "Rekatsinas",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "University of Wisconsin-Madison, Madison, USA"
+                }
+              ],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "AnHai",
+              "family": "Doan",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "University of Wisconsin-Madison, Madison, USA"
+                }
+              ],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Youngchoon",
+              "family": "Park",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "Johnson Controls, Milwaukee, USA"
+                }
+              ],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Ganesh",
+              "family": "Krishnan",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "@WalmartLabs, Mountain View, USA"
+                }
+              ],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Rohit",
+              "family": "Deep",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "@WalmartLabs, Mountain View, USA"
+                }
+              ],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Esteban",
+              "family": "Arcaute",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "Facebook, Menlo Park, USA"
+                }
+              ],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Vijay",
+              "family": "Raghavendra",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "@WalmartLabs, Mountain View, USA"
+                }
+              ],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2018,
+                5,
+                27
+              ]
+            ]
+          },
+          "container-title": [
+            "Proceedings of the 2018 International Conference on Management of Data"
+          ],
+          "type": "proceedings-article",
+          "URL": "https://doi.org/10.1145/3183713.3196926"
+        },
+        {
+          "DOI": "10.1002/9781119381877.ch7",
+          "title": [
+            "Entity Resolution and Watchlist Matching"
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2020,
+                12,
+                8
+              ]
+            ]
+          },
+          "container-title": [
+            "Anti‐Money Laundering Transaction Monitoring Systems Implementation"
+          ],
+          "type": "other",
+          "URL": "https://doi.org/10.1002/9781119381877.ch7"
+        },
+        {
+          "DOI": "10.1109/icde51399.2021.00116",
+          "title": [
+            "Automating Entity Matching Model Development"
+          ],
+          "author": [
+            {
+              "given": "Pei",
+              "family": "Wang",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Weiling",
+              "family": "Zheng",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Jiannan",
+              "family": "Wang",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Jian",
+              "family": "Pei",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2021,
+                4
+              ]
+            ]
+          },
+          "container-title": [
+            "2021 IEEE 37th International Conference on Data Engineering (ICDE)"
+          ],
+          "type": "proceedings-article",
+          "URL": "https://doi.org/10.1109/icde51399.2021.00116"
+        },
+        {
+          "DOI": "10.1007/s00778-023-00779-z",
+          "title": [
+            "Effective entity matching with transformers"
+          ],
+          "author": [
+            {
+              "ORCID": "https://orcid.org/0000-0002-0602-149X",
+              "authenticated-orcid": false,
+              "given": "Yuliang",
+              "family": "Li",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Jinfeng",
+              "family": "Li",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Yoshi",
+              "family": "Suhara",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "AnHai",
+              "family": "Doan",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Wang-Chiew",
+              "family": "Tan",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2023,
+                1,
+                17
+              ]
+            ]
+          },
+          "container-title": [
+            "The VLDB Journal"
+          ],
+          "type": "journal-article",
+          "URL": "https://doi.org/10.1007/s00778-023-00779-z"
+        },
+        {
+          "DOI": "10.1145/2783258.2783353",
+          "title": [
+            "Entity Matching across Heterogeneous Sources"
+          ],
+          "author": [
+            {
+              "given": "Yang",
+              "family": "Yang",
+              "sequence": "first",
+              "affiliation": [
+                {
+                  "name": "Tsinghua University, Beijing, China"
+                }
+              ],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Yizhou",
+              "family": "Sun",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "Northeastern University, Boston, NY, USA"
+                }
+              ],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Jie",
+              "family": "Tang",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "Tsinghua University, Beijing, China"
+                }
+              ],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Bo",
+              "family": "Ma",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "Tsinghua University, Beijing, China"
+                }
+              ],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Juanzi",
+              "family": "Li",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "Tsinghua University, Beijing, China"
+                }
+              ],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2015,
+                8,
+                10
+              ]
+            ]
+          },
+          "container-title": [
+            "Proceedings of the 21th ACM SIGKDD International Conference on Knowledge Discovery and Data Mining"
+          ],
+          "type": "proceedings-article",
+          "URL": "https://doi.org/10.1145/2783258.2783353"
+        }
+      ],
+      "items-per-page": 15,
+      "query": {
+        "start-index": 0,
+        "search-terms": null
+      }
+    }
+  }
+}

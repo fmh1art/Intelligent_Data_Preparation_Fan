@@ -1,0 +1,590 @@
+{
+  "database": "Crossref",
+  "endpoint": "https://api.crossref.org/works?query.bibliographic=REIN+A+Comprehensive+Benchmark+Framework+for+Data+Cleaning+Methods+in+ML+Pipelines&rows=3",
+  "retrieved": "2026-09-09",
+  "status_code": 200,
+  "response": {
+    "status": "ok",
+    "message-type": "work-list",
+    "message-version": "1.0.0",
+    "message": {
+      "facets": {},
+      "total-results": 6088939,
+      "items": [
+        {
+          "indexed": {
+            "date-parts": [
+              [
+                2026,
+                6,
+                4
+              ]
+            ],
+            "date-time": "2026-06-04T02:59:41Z",
+            "timestamp": 1780541981644,
+            "version": "3.54.1"
+          },
+          "reference-count": 25,
+          "publisher": "IEEE",
+          "license": [
+            {
+              "start": {
+                "date-parts": [
+                  [
+                    2024,
+                    5,
+                    13
+                  ]
+                ],
+                "date-time": "2024-05-13T00:00:00Z",
+                "timestamp": 1715558400000
+              },
+              "content-version": "stm-asf",
+              "delay-in-days": 0,
+              "URL": "https://doi.org/10.15223/policy-029"
+            },
+            {
+              "start": {
+                "date-parts": [
+                  [
+                    2024,
+                    5,
+                    13
+                  ]
+                ],
+                "date-time": "2024-05-13T00:00:00Z",
+                "timestamp": 1715558400000
+              },
+              "content-version": "stm-asf",
+              "delay-in-days": 0,
+              "URL": "https://doi.org/10.15223/policy-037"
+            }
+          ],
+          "funder": [
+            {
+              "DOI": "10.13039/100010002",
+              "name": "Ministry of Education",
+              "doi-asserted-by": "publisher",
+              "id": [
+                {
+                  "id": "10.13039/100010002",
+                  "id-type": "DOI",
+                  "asserted-by": "publisher"
+                }
+              ]
+            }
+          ],
+          "content-domain": {
+            "domain": [],
+            "crossmark-restriction": false
+          },
+          "published-print": {
+            "date-parts": [
+              [
+                2024,
+                5,
+                13
+              ]
+            ]
+          },
+          "DOI": "10.1109/icdew61823.2024.00048",
+          "type": "proceedings-article",
+          "created": {
+            "date-parts": [
+              [
+                2024,
+                6,
+                17
+              ]
+            ],
+            "date-time": "2024-06-17T17:58:38Z",
+            "timestamp": 1718647118000
+          },
+          "page": "324-330",
+          "source": "Crossref",
+          "is-referenced-by-count": 4,
+          "title": [
+            "ReClean: Reinforcement Learning for Automated Data Cleaning in ML Pipelines*"
+          ],
+          "prefix": "10.1109",
+          "author": [
+            {
+              "given": "Mohamed",
+              "family": "Abdelaal",
+              "sequence": "first",
+              "affiliation": [
+                {
+                  "name": "Software AG,Darmstadt,Germany"
+                }
+              ],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Anil Bora",
+              "family": "Yayak",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "Friedrich-Alexander-University of Erlangen-Nueremberg,Erlangen,Germany"
+                }
+              ],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Kai",
+              "family": "Klede",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "Friedrich-Alexander-University of Erlangen-Nueremberg,Erlangen,Germany"
+                }
+              ],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Harald",
+              "family": "Schöning",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "Software AG,Darmstadt,Germany"
+                }
+              ],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            }
+          ],
+          "member": "263",
+          "reference": [
+            {
+              "key": "ref1",
+              "article-title": "REIN: A Comprehensive Benchmark Framework for Data Cleaning Methods in ML Pipelines",
+              "volume-title": "26th International Conference on Extending Database Technology (EDBT)",
+              "author": "Abdelaal"
+            },
+            {
+              "key": "ref2",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1145/3593078.3593930"
+            },
+            {
+              "key": "ref3",
+              "article-title": "SAGED: Few-shot Meta Learning for Tabular Data Error Detection",
+              "volume-title": "27th International Conference on Extending Database Technology (EDBT)",
+              "author": "Abdelaal"
+            },
+            {
+              "key": "ref4",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1145/3308558.3313602"
+            },
+            {
+              "key": "ref5",
+              "article-title": "Smart factory: High storage system data for energy optimization",
+              "author": "Birgelen",
+              "year": "2018"
+            },
+            {
+              "key": "ref6",
+              "article-title": "Dua and Casey Graff",
+              "author": "Dheeru",
+              "year": "2017",
+              "journal-title": "UCI machine learning repository"
+            },
+            {
+              "key": "ref7",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1145/3299869.3319888"
+            },
+            {
+              "key": "ref8",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1145/3595360.3595857"
+            },
+            {
+              "key": "ref9",
+              "article-title": "Categorical reparameterization with gumbel-softmax",
+              "author": "Jang",
+              "year": "2016"
+            },
+            {
+              "key": "ref10",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.14778/3430915.3430917"
+            },
+            {
+              "key": "ref11",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1145/3589328"
+            },
+            {
+              "key": "ref12",
+              "article-title": "Picket: Guarding against corrupted data in tabular data during learning and inference",
+              "author": "Liu",
+              "year": "2020",
+              "journal-title": "arXiv preprint arXiv:2006.04730"
+            },
+            {
+              "key": "ref13",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1145/3299869.3324956"
+            },
+            {
+              "key": "ref14",
+              "article-title": "An empirical model of large-batch training",
+              "author": "McCandlish",
+              "year": "2018",
+              "journal-title": "CoRR"
+            },
+            {
+              "key": "ref15",
+              "article-title": "Online business sales 2017-2019",
+              "author": "Morse",
+              "year": "2019"
+            },
+            {
+              "key": "ref16",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1145/3357384.3358129"
+            },
+            {
+              "key": "ref17",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1007/978-3-030-58793-2_3"
+            },
+            {
+              "key": "ref18",
+              "article-title": "Wine quality data set",
+              "author": "Kaya Pınar Tufekci",
+              "year": "2014"
+            },
+            {
+              "key": "ref19",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.14778/3137628.3137631"
+            },
+            {
+              "key": "ref20",
+              "article-title": "Stochastic backpropagation and approximate inference in deep generative models",
+              "author": "Rezende",
+              "year": "2014"
+            },
+            {
+              "key": "ref21",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1145/1390334.1390409"
+            },
+            {
+              "key": "ref22",
+              "article-title": "Marcolini",
+              "author": "Stuart Pope",
+              "year": "2014",
+              "journal-title": "Nasa airfoil self-noise dataset"
+            },
+            {
+              "key": "ref23",
+              "article-title": "Breast cancer wisconsin (diagnostic) data set",
+              "author": "Mangasarian",
+              "year": "1992"
+            },
+            {
+              "key": "ref24",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1023/A:1022672621406"
+            },
+            {
+              "key": "ref25",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1007/BF00992696"
+            }
+          ],
+          "event": {
+            "name": "2024 IEEE 40th International Conference on Data Engineering Workshops (ICDEW)",
+            "location": "Utrecht, Netherlands",
+            "start": {
+              "date-parts": [
+                [
+                  2024,
+                  5,
+                  13
+                ]
+              ]
+            },
+            "end": {
+              "date-parts": [
+                [
+                  2024,
+                  5,
+                  16
+                ]
+              ]
+            }
+          },
+          "container-title": [
+            "2024 IEEE 40th International Conference on Data Engineering Workshops (ICDEW)"
+          ],
+          "link": [
+            {
+              "URL": "http://xplorestaging.ieee.org/ielx8/10555031/10555051/10555058.pdf?arnumber=10555058",
+              "content-type": "unspecified",
+              "content-version": "vor",
+              "intended-application": "similarity-checking"
+            }
+          ],
+          "deposited": {
+            "date-parts": [
+              [
+                2024,
+                6,
+                25
+              ]
+            ],
+            "date-time": "2024-06-25T19:14:29Z",
+            "timestamp": 1719342869000
+          },
+          "score": 31.088377,
+          "resource": {
+            "primary": {
+              "URL": "https://ieeexplore.ieee.org/document/10555058/"
+            }
+          },
+          "issued": {
+            "date-parts": [
+              [
+                2024,
+                5,
+                13
+              ]
+            ]
+          },
+          "references-count": 25,
+          "URL": "https://doi.org/10.1109/icdew61823.2024.00048",
+          "published": {
+            "date-parts": [
+              [
+                2024,
+                5,
+                13
+              ]
+            ]
+          }
+        },
+        {
+          "indexed": {
+            "date-parts": [
+              [
+                2026,
+                2,
+                28
+              ]
+            ],
+            "date-time": "2026-02-28T09:33:09Z",
+            "timestamp": 1772271189495,
+            "version": "3.50.1"
+          },
+          "reference-count": 0,
+          "publisher": "PeerJ",
+          "content-domain": {
+            "domain": [],
+            "crossmark-restriction": false
+          },
+          "DOI": "10.7717/peerj-cs.2793/supp-2",
+          "type": "component",
+          "created": {
+            "date-parts": [
+              [
+                2025,
+                4,
+                2
+              ]
+            ],
+            "date-time": "2025-04-02T05:43:30Z",
+            "timestamp": 1743572610000
+          },
+          "source": "Crossref",
+          "is-referenced-by-count": 0,
+          "title": [
+            "Supplemental Information 2: Different data cleaning pipelines."
+          ],
+          "prefix": "10.7717",
+          "member": "4443",
+          "deposited": {
+            "date-parts": [
+              [
+                2025,
+                4,
+                2
+              ]
+            ],
+            "date-time": "2025-04-02T05:43:35Z",
+            "timestamp": 1743572615000
+          },
+          "score": 30.786057,
+          "resource": {
+            "primary": {
+              "URL": "https://peerj.com/articles/cs-2793/supp-2"
+            }
+          },
+          "issued": {
+            "date-parts": [
+              [
+                null
+              ]
+            ]
+          },
+          "references-count": 0,
+          "URL": "https://doi.org/10.7717/peerj-cs.2793/supp-2",
+          "relation": {
+            "is-component-of": [
+              {
+                "id-type": "doi",
+                "id": "10.7717/peerj-cs.2793",
+                "asserted-by": "object"
+              }
+            ]
+          }
+        },
+        {
+          "indexed": {
+            "date-parts": [
+              [
+                2026,
+                4,
+                23
+              ]
+            ],
+            "date-time": "2026-04-23T13:55:08Z",
+            "timestamp": 1776952508120,
+            "version": "3.51.4"
+          },
+          "reference-count": 0,
+          "publisher": "Iconic Digital Lab",
+          "issue": "8",
+          "content-domain": {
+            "domain": [],
+            "crossmark-restriction": false
+          },
+          "short-container-title": [
+            "IRE Journals"
+          ],
+          "DOI": "10.64388/irev8i8-1716726",
+          "type": "journal-article",
+          "created": {
+            "date-parts": [
+              [
+                2026,
+                4,
+                23
+              ]
+            ],
+            "date-time": "2026-04-23T13:18:47Z",
+            "timestamp": 1776950327000
+          },
+          "source": "Crossref",
+          "is-referenced-by-count": 0,
+          "title": [
+            "Reliability of LLM-Assisted Data Cleaning in Pandas Pipelines: An Empirical Evaluation Framework for Detecting Silent Data Corruption"
+          ],
+          "prefix": "10.64388",
+          "volume": "8",
+          "member": "53825",
+          "published-online": {
+            "date-parts": [
+              [
+                2025,
+                2,
+                28
+              ]
+            ]
+          },
+          "container-title": [
+            "Iconic Research and Engineering Journals"
+          ],
+          "language": "en",
+          "deposited": {
+            "date-parts": [
+              [
+                2026,
+                4,
+                23
+              ]
+            ],
+            "date-time": "2026-04-23T13:18:49Z",
+            "timestamp": 1776950329000
+          },
+          "score": 28.722324,
+          "resource": {
+            "primary": {
+              "URL": "https://www.irejournals.com/paper-details/1716726"
+            }
+          },
+          "issued": {
+            "date-parts": [
+              [
+                2025,
+                2,
+                28
+              ]
+            ]
+          },
+          "references-count": 0,
+          "journal-issue": {
+            "issue": "8",
+            "published-online": {
+              "date-parts": [
+                [
+                  2025,
+                  2,
+                  28
+                ]
+              ]
+            }
+          },
+          "URL": "https://doi.org/10.64388/irev8i8-1716726",
+          "ISSN": [
+            "2456-8880"
+          ],
+          "issn-type": [
+            {
+              "value": "2456-8880",
+              "type": "electronic"
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2025,
+                2,
+                28
+              ]
+            ]
+          }
+        }
+      ],
+      "items-per-page": 3,
+      "query": {
+        "start-index": 0,
+        "search-terms": null
+      }
+    }
+  }
+}

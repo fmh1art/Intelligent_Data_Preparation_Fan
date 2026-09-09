@@ -1,0 +1,515 @@
+{
+  "database": "Crossref",
+  "endpoint": "https://api.crossref.org/works/10.1145/3062341.3062351",
+  "retrieved": "2026-09-09",
+  "status_code": 200,
+  "response": {
+    "status": "ok",
+    "message-type": "work",
+    "message-version": "1.0.0",
+    "message": {
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            7,
+            23
+          ]
+        ],
+        "date-time": "2026-07-23T18:21:19Z",
+        "timestamp": 1784830879274,
+        "version": "3.55.0"
+      },
+      "publisher-location": "New York, NY, USA",
+      "reference-count": 38,
+      "publisher": "ACM",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2017,
+                6,
+                14
+              ]
+            ],
+            "date-time": "2017-06-14T00:00:00Z",
+            "timestamp": 1497398400000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "https://www.acm.org/publications/policies/copyright_policy#Background"
+        }
+      ],
+      "funder": [
+        {
+          "DOI": "10.13039/100000185",
+          "name": "Defense Advanced Research Projects Agency",
+          "doi-asserted-by": "publisher",
+          "award": [
+            "8750-14-2-0270"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "8750-14-2-0270"
+              ]
+            }
+          ],
+          "id": [
+            {
+              "id": "10.13039/100000185",
+              "id-type": "DOI",
+              "asserted-by": "publisher"
+            }
+          ]
+        },
+        {
+          "DOI": "10.13039/100000001",
+          "name": "National Science Foundation",
+          "doi-asserted-by": "publisher",
+          "award": [
+            "1453386"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "1453386"
+              ]
+            }
+          ],
+          "id": [
+            {
+              "id": "10.13039/100000001",
+              "id-type": "DOI",
+              "asserted-by": "publisher"
+            }
+          ]
+        }
+      ],
+      "content-domain": {
+        "domain": [
+          "dl.acm.org"
+        ],
+        "crossmark-restriction": true
+      },
+      "short-container-title": [],
+      "published-print": {
+        "date-parts": [
+          [
+            2017,
+            6,
+            14
+          ]
+        ]
+      },
+      "DOI": "10.1145/3062341.3062351",
+      "type": "proceedings-article",
+      "created": {
+        "date-parts": [
+          [
+            2017,
+            6,
+            14
+          ]
+        ],
+        "date-time": "2017-06-14T10:01:04Z",
+        "timestamp": 1497434464000
+      },
+      "page": "422-436",
+      "update-policy": "https://doi.org/10.1145/crossmark-policy",
+      "source": "Crossref",
+      "is-referenced-by-count": 96,
+      "title": [
+        "Component-based synthesis of table consolidation and transformation tasks from examples"
+      ],
+      "prefix": "10.1145",
+      "author": [
+        {
+          "given": "Yu",
+          "family": "Feng",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "University of Texas at Austin, USA"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Ruben",
+          "family": "Martins",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "University of Texas at Austin, USA"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Jacob",
+          "family": "Van Geffen",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "University of Texas at Austin, USA"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Isil",
+          "family": "Dillig",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "University of Texas at Austin, USA"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Swarat",
+          "family": "Chaudhuri",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Rice University, USA"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "320",
+      "published-online": {
+        "date-parts": [
+          [
+            2017,
+            6,
+            14
+          ]
+        ]
+      },
+      "reference": [
+        {
+          "key": "e_1_3_2_1_1_1",
+          "unstructured": "Motivating Example 1. http://stackoverflow. com/questions/30399516/complex-datareshaping-in-r. Accessed 27-Mar-2017.  Motivating Example 1. http://stackoverflow. com/questions/30399516/complex-datareshaping-in-r. Accessed 27-Mar-2017."
+        },
+        {
+          "key": "e_1_3_2_1_2_1",
+          "unstructured": "Motivating Example 2. http://stackoverflow.com/ questions/33207263/finding-proportionsin-flights-dataset-in-r. Accessed 27-Mar-2017.  Motivating Example 2. http://stackoverflow.com/ questions/33207263/finding-proportionsin-flights-dataset-in-r. Accessed 27-Mar-2017."
+        },
+        {
+          "key": "e_1_3_2_1_3_1",
+          "unstructured": "Motivating Example 3. http://stackoverflow. com/questions/32875699/how-to-combinetwo-data-frames-in-r-see-details. Accessed 27-Mar-2017.  Motivating Example 3. http://stackoverflow. com/questions/32875699/how-to-combinetwo-data-frames-in-r-see-details. Accessed 27-Mar-2017."
+        },
+        {
+          "key": "e_1_3_2_1_4_1",
+          "unstructured": "Morpheus. https://utopia-group.github.io/ morpheus/. Accessed 27-Mar-2017.  Morpheus. https://utopia-group.github.io/ morpheus/. Accessed 27-Mar-2017."
+        },
+        {
+          "key": "e_1_3_2_1_5_1",
+          "first-page": "950",
+          "volume-title": "Proc. International Conference on Computer Aided Verification",
+          "author": "Albarghouthi A.",
+          "unstructured": "A. Albarghouthi , S. Gulwani , and Z. Kincaid . Recursive Program Synthesis . In Proc. International Conference on Computer Aided Verification , pages 934– 950 . Springer, 2013. A. Albarghouthi, S. Gulwani, and Z. Kincaid. Recursive Program Synthesis. In Proc. International Conference on Computer Aided Verification, pages 934–950. Springer, 2013."
+        },
+        {
+          "key": "e_1_3_2_1_6_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/2737924.2737952"
+        },
+        {
+          "key": "e_1_3_2_1_7_1",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1002/0471448354",
+          "volume-title": "Exploratory data mining and data cleaning",
+          "author": "Dasu T.",
+          "year": "2003",
+          "unstructured": "T. Dasu and T. Johnson . Exploratory data mining and data cleaning , volume 479 . John Wiley & amp; Sons, 2003 . T. Dasu and T. Johnson. Exploratory data mining and data cleaning, volume 479. John Wiley &amp; Sons, 2003."
+        },
+        {
+          "key": "e_1_3_2_1_8_1",
+          "first-page": "340",
+          "volume-title": "Proc. Tools and Algorithms for Construction and Analysis of Systems",
+          "author": "De Moura L.",
+          "unstructured": "L. De Moura and N. Bjørner . Z3: An efficient SMT solver . In Proc. Tools and Algorithms for Construction and Analysis of Systems , pages 337– 340 . Springer, 2008. L. De Moura and N. Bjørner. Z3: An efficient SMT solver. In Proc. Tools and Algorithms for Construction and Analysis of Systems, pages 337–340. Springer, 2008."
+        },
+        {
+          "key": "e_1_3_2_1_9_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/3009837.3009851"
+        },
+        {
+          "key": "e_1_3_2_1_10_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/2737924.2737977"
+        },
+        {
+          "key": "e_1_3_2_1_11_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/2837614.2837629"
+        },
+        {
+          "key": "e_1_3_2_1_12_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/1926385.1926423"
+        },
+        {
+          "key": "e_1_3_2_1_13_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/1925844.1926423"
+        },
+        {
+          "key": "e_1_3_2_1_14_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/1993498.1993506"
+        },
+        {
+          "key": "e_1_3_2_1_15_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/2047196.2047205"
+        },
+        {
+          "key": "e_1_3_2_1_16_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/2491956.2462192"
+        },
+        {
+          "key": "e_1_3_2_1_17_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/1993498.1993536"
+        },
+        {
+          "key": "e_1_3_2_1_18_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/1806799.1806833"
+        },
+        {
+          "key": "e_1_3_2_1_19_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/1133981.1134003"
+        },
+        {
+          "key": "e_1_3_2_1_20_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/1978942.1979444"
+        },
+        {
+          "key": "e_1_3_2_1_21_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/s13218-010-0071-x"
+        },
+        {
+          "key": "e_1_3_2_1_22_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/2594291.2594333"
+        },
+        {
+          "key": "e_1_3_2_1_23_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/1065010.1065018"
+        },
+        {
+          "key": "e_1_3_2_1_24_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/2737924.2738007"
+        },
+        {
+          "key": "e_1_3_2_1_25_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/2594291.2594297"
+        },
+        {
+          "key": "e_1_3_2_1_26_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/2908080.2908093"
+        },
+        {
+          "key": "e_1_3_2_1_27_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/2814270.2814310"
+        },
+        {
+          "key": "e_1_3_2_1_28_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/2594291.2594321"
+        },
+        {
+          "key": "e_1_3_2_1_29_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/1375581.1375602"
+        },
+        {
+          "key": "e_1_3_2_1_30_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/2908080.2908102"
+        },
+        {
+          "key": "e_1_3_2_1_31_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/1065010.1065045"
+        },
+        {
+          "key": "e_1_3_2_1_32_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/1168857.1168907"
+        },
+        {
+          "key": "e_1_3_2_1_33_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/1250734.1250754"
+        },
+        {
+          "key": "e_1_3_2_1_34_1",
+          "first-page": "904",
+          "volume-title": "Proc. International Conference on Spoken Language Processing",
+          "author": "Stolcke A.",
+          "unstructured": "A. Stolcke . SRILM - an extensible language modeling toolkit . In Proc. International Conference on Spoken Language Processing , pages 901– 904 . ISCA, 2002. A. Stolcke. SRILM - an extensible language modeling toolkit. In Proc. International Conference on Spoken Language Processing, pages 901–904. ISCA, 2002."
+        },
+        {
+          "key": "e_1_3_2_1_35_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/2908080.2908110"
+        },
+        {
+          "key": "e_1_3_2_1_36_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/2908080.2908088"
+        },
+        {
+          "key": "e_1_3_2_1_37_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/ASE.2013.6693082"
+        },
+        {
+          "key": "e_1_3_2_1_38_1",
+          "unstructured": "Introduction Motivating Examples Problem Formulation Hypotheses as Refinement Trees Synthesis Algorithm SMT-based Deduction Sketch Completion Implementation Evaluation Related Work Conclusion  Introduction Motivating Examples Problem Formulation Hypotheses as Refinement Trees Synthesis Algorithm SMT-based Deduction Sketch Completion Implementation Evaluation Related Work Conclusion"
+        }
+      ],
+      "event": {
+        "name": "PLDI '17: ACM SIGPLAN Conference on Programming Language Design and Implementation",
+        "location": "Barcelona Spain",
+        "acronym": "PLDI '17",
+        "sponsor": [
+          "SIGPLAN ACM Special Interest Group on Programming Languages"
+        ]
+      },
+      "container-title": [
+        "Proceedings of the 38th ACM SIGPLAN Conference on Programming Language Design and Implementation"
+      ],
+      "original-title": [],
+      "link": [
+        {
+          "URL": "https://dl.acm.org/doi/10.1145/3062341.3062351",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        },
+        {
+          "URL": "https://dl.acm.org/doi/pdf/10.1145/3062341.3062351",
+          "content-type": "application/pdf",
+          "content-version": "vor",
+          "intended-application": "syndication"
+        },
+        {
+          "URL": "https://dl.acm.org/doi/pdf/10.1145/3062341.3062351",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2025,
+            6,
+            17
+          ]
+        ],
+        "date-time": "2025-06-17T23:36:32Z",
+        "timestamp": 1750203392000
+      },
+      "score": 1,
+      "resource": {
+        "primary": {
+          "URL": "https://dl.acm.org/doi/10.1145/3062341.3062351"
+        }
+      },
+      "subtitle": [],
+      "short-title": [],
+      "issued": {
+        "date-parts": [
+          [
+            2017,
+            6,
+            14
+          ]
+        ]
+      },
+      "references-count": 38,
+      "alternative-id": [
+        "10.1145/3062341.3062351",
+        "10.1145/3062341"
+      ],
+      "URL": "https://doi.org/10.1145/3062341.3062351",
+      "relation": {
+        "is-identical-to": [
+          {
+            "id-type": "doi",
+            "id": "10.1145/3140587.3062351",
+            "asserted-by": "object"
+          }
+        ]
+      },
+      "subject": [],
+      "published": {
+        "date-parts": [
+          [
+            2017,
+            6,
+            14
+          ]
+        ]
+      },
+      "assertion": [
+        {
+          "value": "2017-06-14",
+          "order": 2,
+          "name": "published",
+          "label": "Published",
+          "group": {
+            "name": "publication_history",
+            "label": "Publication History"
+          }
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,1264 @@
+{
+  "database": "Crossref",
+  "endpoint": "https://api.crossref.org/works?query.bibliographic=Auto-Pipeline+Synthesizing+Complex+Data+Pipelines+By-Target+Using+Reinforcement+Learning+and+Search&rows=3",
+  "retrieved": "2026-09-09",
+  "status_code": 200,
+  "response": {
+    "status": "ok",
+    "message-type": "work-list",
+    "message-version": "1.0.0",
+    "message": {
+      "facets": {},
+      "total-results": 1088896,
+      "items": [
+        {
+          "indexed": {
+            "date-parts": [
+              [
+                2026,
+                9,
+                5
+              ]
+            ],
+            "date-time": "2026-09-05T01:14:12Z",
+            "timestamp": 1788570852104,
+            "version": "build-2803163510"
+          },
+          "reference-count": 52,
+          "publisher": "Association for Computing Machinery (ACM)",
+          "issue": "11",
+          "content-domain": {
+            "domain": [],
+            "crossmark-restriction": false
+          },
+          "short-container-title": [
+            "Proc. VLDB Endow."
+          ],
+          "published-print": {
+            "date-parts": [
+              [
+                2021,
+                7
+              ]
+            ]
+          },
+          "abstract": "<jats:p>\n            Recent work has made significant progress in helping users to automate\n            <jats:italic>single</jats:italic>\n            data preparation steps, such as string-transformations and table-manipulation operators (e.g., Join, GroupBy, Pivot, etc.). We in this work propose to automate\n            <jats:italic>multiple</jats:italic>\n            such steps end-to-end, by synthesizing complex data-pipelines with both string-transformations and table-manipulation operators.\n          </jats:p>\n          <jats:p>\n            We propose a novel\n            <jats:italic>by-target</jats:italic>\n            paradigm that allows users to easily specify the desired pipeline, which is a significant departure from the traditional\n            <jats:italic>by-example</jats:italic>\n            paradigm. Using by-target, users would provide input tables (e.g., csv or json files), and point us to a \"target table\" (e.g., an existing database table or BI dashboard) to demonstrate how the output from the desired pipeline would schematically \"look like\". While the problem is seemingly under-specified, our unique insight is that implicit table constraints such as FDs and keys can be exploited to significantly constrain the space and make the problem tractable. We develop an AUTO-PIPELINE system that learns to synthesize pipelines using deep reinforcement-learning (DRL) and search. Experiments using a benchmark of 700 real pipelines crawled from GitHub and commercial vendors suggest that AUTO-PIPELINE can successfully synthesize around 70% of complex pipelines with up to 10 steps.\n          </jats:p>",
+          "DOI": "10.14778/3476249.3476303",
+          "type": "journal-article",
+          "created": {
+            "date-parts": [
+              [
+                2021,
+                10,
+                27
+              ]
+            ],
+            "date-time": "2021-10-27T16:46:23Z",
+            "timestamp": 1635353183000
+          },
+          "page": "2563-2575",
+          "source": "Crossref",
+          "is-referenced-by-count": 28,
+          "title": [
+            "Auto-pipeline"
+          ],
+          "prefix": "10.14778",
+          "volume": "14",
+          "author": [
+            {
+              "given": "Junwen",
+              "family": "Yang",
+              "sequence": "first",
+              "affiliation": [
+                {
+                  "name": "University of Chicago"
+                }
+              ],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Yeye",
+              "family": "He",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "Microsoft Research"
+                }
+              ],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Surajit",
+              "family": "Chaudhuri",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "Microsoft Research"
+                }
+              ],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            }
+          ],
+          "member": "320",
+          "published-online": {
+            "date-parts": [
+              [
+                2021,
+                10,
+                27
+              ]
+            ]
+          },
+          "reference": [
+            {
+              "key": "e_1_2_1_1_1",
+              "unstructured": "[n.d.]. Full version of Auto-Pipeline: Synthesize Data Pipelines By-Target Using Search and Reinforcement Learning. https://arxiv.org/abs/2106.13861.  [n.d.]. Full version of Auto-Pipeline: Synthesize Data Pipelines By-Target Using Search and Reinforcement Learning. https://arxiv.org/abs/2106.13861."
+            },
+            {
+              "key": "e_1_2_1_2_1",
+              "unstructured": "[n.d.]. Microsoft Azure Data Factory. https://azure.microsoft.com/en-us/services/data-factory/.  [n.d.]. Microsoft Azure Data Factory. https://azure.microsoft.com/en-us/services/data-factory/."
+            },
+            {
+              "key": "e_1_2_1_3_1",
+              "unstructured": "[n.d.]. Microsoft Excel Power Query. http://office.microsoft.com/powerbi.  [n.d.]. Microsoft Excel Power Query. http://office.microsoft.com/powerbi."
+            },
+            {
+              "key": "e_1_2_1_4_1",
+              "unstructured": "[n.d.]. Titanic challenge on Kaggle. https://www.kaggle.com/c/titanic.  [n.d.]. Titanic challenge on Kaggle. https://www.kaggle.com/c/titanic."
+            },
+            {
+              "key": "e_1_2_1_5_1",
+              "unstructured": "[n.d.]. Titanic Challenge on Kaggle. https://www.kaggle.com/c/titanic.  [n.d.]. Titanic Challenge on Kaggle. https://www.kaggle.com/c/titanic."
+            },
+            {
+              "key": "e_1_2_1_6_1",
+              "unstructured": "[n.d.]. Transform-by-Example feature in Power Query. http://powerbi.microsoft.com/en-us/blog/power-bi-desktop-june-feature-summary/#addColumn.  [n.d.]. Transform-by-Example feature in Power Query. http://powerbi.microsoft.com/en-us/blog/power-bi-desktop-june-feature-summary/#addColumn."
+            },
+            {
+              "key": "e_1_2_1_7_1",
+              "unstructured": "[n.d.]. Transform-by-Example feature in Trifacta. https://www.trifacta.com/blog/transform-by-example-your-data-cleaning-wish-is-our-command.  [n.d.]. Transform-by-Example feature in Trifacta. https://www.trifacta.com/blog/transform-by-example-your-data-cleaning-wish-is-our-command."
+            },
+            {
+              "key": "e_1_2_1_8_1",
+              "unstructured": "2016.10.21. Alteryx. https://www.alteryx.com/.  2016.10.21. Alteryx. https://www.alteryx.com/."
+            },
+            {
+              "key": "e_1_2_1_9_1",
+              "unstructured": "2016.10.21. Implementation for SQL-by-example. https://github.com/Mestway/Scythe.  2016.10.21. Implementation for SQL-by-example. https://github.com/Mestway/Scythe."
+            },
+            {
+              "key": "e_1_2_1_10_1",
+              "unstructured": "2016.10.21. SQL Server Integration Service. https://docs.microsoft.com/en-us/sql/integration-services/sql-server-integration-services.  2016.10.21. SQL Server Integration Service. https://docs.microsoft.com/en-us/sql/integration-services/sql-server-integration-services."
+            },
+            {
+              "key": "e_1_2_1_11_1",
+              "unstructured": "2017.04.26. Auto-Pandas code. https://github.com/rbavishi/atlas/blob/oopsla19-snapshot/autopandas_v2/evaluation/benchmarks/stackoverflow.py.  2017.04.26. Auto-Pandas code. https://github.com/rbavishi/atlas/blob/oopsla19-snapshot/autopandas_v2/evaluation/benchmarks/stackoverflow.py."
+            },
+            {
+              "key": "e_1_2_1_12_1",
+              "unstructured": "2017.04.26. FlashFill in Excel. https://www.microsoft.com/en-us/microsoft-365/blog/2012/08/09/flash-fill/.  2017.04.26. FlashFill in Excel. https://www.microsoft.com/en-us/microsoft-365/blog/2012/08/09/flash-fill/."
+            },
+            {
+              "key": "e_1_2_1_13_1",
+              "unstructured": "2017.04.26. Jupter Notebooks. https://jupyter.org/.  2017.04.26. Jupter Notebooks. https://jupyter.org/."
+            },
+            {
+              "key": "e_1_2_1_14_1",
+              "unstructured": "2017.04.26. Python Pandas Library. https://pandas.pydata.org/.  2017.04.26. Python Pandas Library. https://pandas.pydata.org/."
+            },
+            {
+              "key": "e_1_2_1_15_1",
+              "unstructured": "2017.04.26. Recommended Join in Tableau. https://help.tableau.com/current/prep/en-us/prep_combine.htm.  2017.04.26. Recommended Join in Tableau. https://help.tableau.com/current/prep/en-us/prep_combine.htm."
+            },
+            {
+              "key": "e_1_2_1_16_1",
+              "unstructured": "2017.04.26. Recommended Join in Trifacta. https://www.trifacta.com/blog/making-data-blending-faster-easier/.  2017.04.26. Recommended Join in Trifacta. https://www.trifacta.com/blog/making-data-blending-faster-easier/."
+            },
+            {
+              "key": "e_1_2_1_17_1",
+              "doi-asserted-by": "crossref",
+              "unstructured": "Ziawasch Abedjan John Morcos Ihab F. Ilyas Mourad Ouzzani Paolo Papotti and Michael Stonebraker. 2016. DataXFormer: A robust transformation discovery system. In ICDE.  Ziawasch Abedjan John Morcos Ihab F. Ilyas Mourad Ouzzani Paolo Papotti and Michael Stonebraker. 2016. DataXFormer: A robust transformation discovery system. In ICDE.",
+              "DOI": "10.1109/ICDE.2016.7498319"
+            },
+            {
+              "key": "e_1_2_1_18_1",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1145/2813885.2737952"
+            },
+            {
+              "key": "e_1_2_1_19_1",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1145/3360594"
+            },
+            {
+              "key": "e_1_2_1_20_1",
+              "volume-title": "FDTool: a Python application to mine for functional dependencies and candidate keys in tabular data. F1000Research 7",
+              "author": "Buranosky Matt",
+              "year": "2018"
+            },
+            {
+              "key": "e_1_2_1_21_1",
+              "volume-title": "Online edition (c) 2009 Cambridge UP An Introduction to Information Retrieval Christopher D",
+              "author": "Cambridge UP"
+            },
+            {
+              "key": "e_1_2_1_22_1",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1145/1804669.1804683"
+            },
+            {
+              "key": "e_1_2_1_23_1",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.5555/861869"
+            },
+            {
+              "key": "e_1_2_1_24_1",
+              "volume-title": "Ziawasch Abedjan, Sibo Wang, Michael Stonebraker, Ahmed K Elmagarmid, Ihab F Ilyas, Samuel Madden, Mourad Ouzzani, and Nan Tang.",
+              "author": "Deng Dong",
+              "year": "2017"
+            },
+            {
+              "key": "e_1_2_1_25_1",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.5555/2969239.2969348"
+            },
+            {
+              "key": "e_1_2_1_26_1",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.5555/1213810"
+            },
+            {
+              "key": "e_1_2_1_27_1",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1145/1926385.1926423"
+            },
+            {
+              "key": "e_1_2_1_28_1",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1145/1926385.1926423"
+            },
+            {
+              "key": "e_1_2_1_29_1",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1145/1993498.1993536"
+            },
+            {
+              "key": "e_1_2_1_30_1",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.14778/3231751.3231766"
+            },
+            {
+              "key": "e_1_2_1_31_1",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1145/3183713.3193539"
+            },
+            {
+              "key": "e_1_2_1_32_1",
+              "unstructured": "Jeffrey Heer Joseph M Hellerstein and Sean Kandel. 2015. Predictive Interaction for Data Transformation.. In CIDR.  Jeffrey Heer Joseph M Hellerstein and Sean Kandel. 2015. Predictive Interaction for Data Transformation.. In CIDR."
+            },
+            {
+              "key": "e_1_2_1_33_1",
+              "unstructured": "Jeffrey Heer Joseph M. Hellerstein and Sean Kandel. 2015. Predictive Interaction for Data Transformation. In CIDR.  Jeffrey Heer Joseph M. Hellerstein and Sean Kandel. 2015. Predictive Interaction for Data Transformation. In CIDR."
+            },
+            {
+              "key": "e_1_2_1_34_1",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1145/3035918.3064034"
+            },
+            {
+              "key": "e_1_2_1_35_1",
+              "volume-title": "CLX: Towards verifiable PBE data transformation. arXiv preprint arXiv:1803.00701",
+              "author": "Jin Zhongjun",
+              "year": "2018"
+            },
+            {
+              "key": "e_1_2_1_36_1",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.14778/3407790.3407831"
+            },
+            {
+              "key": "e_1_2_1_37_1",
+              "first-page": "1",
+              "article-title": "Incorporating Data Context to Cost-Effectively Automate End-to-End Data Wrangling",
+              "volume": "01",
+              "author": "Koehler Martin",
+              "year": "2019",
+              "journal-title": "IEEE Computer Architecture Letters"
+            },
+            {
+              "key": "e_1_2_1_38_1",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1016/j.websem.2015.05.001"
+            },
+            {
+              "key": "e_1_2_1_40_1",
+              "volume-title": "Playing atari with deep reinforcement learning. arXiv preprint arXiv:1312.5602",
+              "author": "Mnih Volodymyr",
+              "year": "2013"
+            },
+            {
+              "key": "e_1_2_1_41_1",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1080/00207548808947840"
+            },
+            {
+              "key": "e_1_2_1_42_1",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.14778/2794367.2794377"
+            },
+            {
+              "key": "e_1_2_1_43_1",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1145/2882903.2915203"
+            },
+            {
+              "key": "e_1_2_1_44_1",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1007/s007780100057"
+            },
+            {
+              "key": "e_1_2_1_45_1",
+              "volume-title": "Gartner: Market Guide for Self-Service Data Preparation.",
+              "author": "Sallam Rita L.",
+              "year": "2016"
+            },
+            {
+              "key": "e_1_2_1_46_1",
+              "volume-title": "Prioritized experience replay. arXiv preprint arXiv:1511.05952",
+              "author": "Schaul Tom",
+              "year": "2015"
+            },
+            {
+              "key": "e_1_2_1_47_1",
+              "doi-asserted-by": "crossref",
+              "unstructured": "David Silver Julian Schrittwieser Karen Simonyan Ioannis Antonoglou Aja Huang Arthur Guez Thomas Hubert Lucas Baker Matthew Lai Adrian Bolton etal 2017. Mastering the game of go without human knowledge. nature 550 7676 (2017) 354--359.  David Silver Julian Schrittwieser Karen Simonyan Ioannis Antonoglou Aja Huang Arthur Guez Thomas Hubert Lucas Baker Matthew Lai Adrian Bolton et al. 2017. Mastering the game of go without human knowledge. nature 550 7676 (2017) 354--359.",
+              "DOI": "10.1038/nature24270"
+            },
+            {
+              "key": "e_1_2_1_48_1",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.14778/2977797.2977807"
+            },
+            {
+              "key": "e_1_2_1_49_1",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.5555/3312046"
+            },
+            {
+              "key": "e_1_2_1_50_1",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1145/1559845.1559902"
+            },
+            {
+              "key": "e_1_2_1_51_1",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1145/3140587.3062365"
+            },
+            {
+              "key": "e_1_2_1_52_1",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1145/3318464.3389738"
+            },
+            {
+              "key": "e_1_2_1_53_1",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.14778/3115404.3115409"
+            }
+          ],
+          "container-title": [
+            "Proceedings of the VLDB Endowment"
+          ],
+          "language": "en",
+          "link": [
+            {
+              "URL": "https://dl.acm.org/doi/pdf/10.14778/3476249.3476303",
+              "content-type": "unspecified",
+              "content-version": "vor",
+              "intended-application": "similarity-checking"
+            }
+          ],
+          "deposited": {
+            "date-parts": [
+              [
+                2022,
+                12,
+                28
+              ]
+            ],
+            "date-time": "2022-12-28T10:09:36Z",
+            "timestamp": 1672222176000
+          },
+          "score": 68.71759,
+          "resource": {
+            "primary": {
+              "URL": "https://dl.acm.org/doi/10.14778/3476249.3476303"
+            }
+          },
+          "subtitle": [
+            "synthesizing complex data pipelines by-target using reinforcement learning and search"
+          ],
+          "issued": {
+            "date-parts": [
+              [
+                2021,
+                7
+              ]
+            ]
+          },
+          "references-count": 52,
+          "journal-issue": {
+            "issue": "11",
+            "published-print": {
+              "date-parts": [
+                [
+                  2021,
+                  7
+                ]
+              ]
+            }
+          },
+          "alternative-id": [
+            "10.14778/3476249.3476303"
+          ],
+          "URL": "https://doi.org/10.14778/3476249.3476303",
+          "ISSN": [
+            "2150-8097"
+          ],
+          "issn-type": [
+            {
+              "value": "2150-8097",
+              "type": "print"
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2021,
+                7
+              ]
+            ]
+          }
+        },
+        {
+          "indexed": {
+            "date-parts": [
+              [
+                2026,
+                7,
+                30
+              ]
+            ],
+            "date-time": "2026-07-30T11:04:23Z",
+            "timestamp": 1785409463826,
+            "version": "3.56.0"
+          },
+          "publisher-location": "Reston, VA",
+          "reference-count": 16,
+          "publisher": "American Society of Civil Engineers",
+          "content-domain": {
+            "domain": [],
+            "crossmark-restriction": false
+          },
+          "published-print": {
+            "date-parts": [
+              [
+                2026,
+                7,
+                30
+              ]
+            ]
+          },
+          "DOI": "10.1061/9780784487112.019",
+          "type": "proceedings-article",
+          "created": {
+            "date-parts": [
+              [
+                2026,
+                7,
+                30
+              ]
+            ],
+            "date-time": "2026-07-30T10:02:59Z",
+            "timestamp": 1785405779000
+          },
+          "page": "173-183",
+          "source": "Crossref",
+          "is-referenced-by-count": 0,
+          "title": [
+            "Critical Branch Search in Interdependent Energy and Gas Pipeline Networks Using Reinforcement Learning"
+          ],
+          "prefix": "10.1061",
+          "author": [
+            {
+              "given": "Nof",
+              "family": "Yasir",
+              "sequence": "first",
+              "affiliation": [
+                {
+                  "name": "North Dakota State Univ."
+                },
+                {
+                  "name": "North Dakota State Univ. Fargo"
+                },
+                {
+                  "name": "North Dakota State Univ. Fargo"
+                }
+              ],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Di",
+              "family": "Wu",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "North Dakota State Univ."
+                },
+                {
+                  "name": "North Dakota State Univ. Fargo"
+                },
+                {
+                  "name": "North Dakota State Univ. Fargo"
+                }
+              ],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Ying",
+              "family": "Huang",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "North Dakota State Univ."
+                },
+                {
+                  "name": "North Dakota State Univ. Fargo"
+                },
+                {
+                  "name": "North Dakota State Univ. Fargo"
+                }
+              ],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            }
+          ],
+          "member": "30",
+          "published-online": {
+            "date-parts": [
+              [
+                2026,
+                7,
+                30
+              ]
+            ]
+          },
+          "reference": [
+            {
+              "key": "e_1_4_2_1_2_1",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.3390/app11114987"
+            },
+            {
+              "key": "e_1_4_2_1_3_1",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1016/j.apenergy.2016.05.060"
+            },
+            {
+              "key": "e_1_4_2_1_4_1",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.3390/en14041103"
+            },
+            {
+              "key": "e_1_4_2_1_5_1",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1016/j.energy.2023.126898"
+            },
+            {
+              "key": "e_1_4_2_1_6_1",
+              "unstructured": "Shahzad U. (2021). Vulnerability Assessment in Power Systems: A Review. Journal of Electrical Engineering Electronics Control and Computer Science."
+            },
+            {
+              "key": "e_1_4_2_1_7_1",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1016/j.egypro.2019.01.132"
+            },
+            {
+              "key": "e_1_4_2_1_8_1",
+              "doi-asserted-by": "publisher",
+              "unstructured": "Rajagopal Ananth & Karacelebi Mert & Cremer Jochen. (2025). Probabilistic Contingency Ranking for Cascading Failures in Power Systems. https://doi.org/10.2139/ssrn.5480438.",
+              "DOI": "10.2139/ssrn.5480438"
+            },
+            {
+              "key": "e_1_4_2_1_9_1",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1093/comnet/cnaa013"
+            },
+            {
+              "key": "e_1_4_2_1_10_1",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1016/j.parco.2016.09.002"
+            },
+            {
+              "key": "e_1_4_2_1_11_1",
+              "volume-title": "Reinforcement Learning: An Introduction",
+              "author": "Sutton R. S.",
+              "year": "2020",
+              "unstructured": "Sutton, R. S. & Barto, A. G. Reinforcement Learning: An Introduction, 2nd ed., MIT Press, 2020.",
+              "edition": "2"
+            },
+            {
+              "key": "e_1_4_2_1_12_1",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1109/TCSS.2021.3096824"
+            },
+            {
+              "key": "e_1_4_2_1_13_1",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1016/j.epsr.2016.06.041"
+            },
+            {
+              "key": "e_1_4_2_1_14_1",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.61927/igmin210"
+            },
+            {
+              "key": "e_1_4_2_1_15_1",
+              "unstructured": "Dai F. Z. (2023). On Reward Structures of Markov Decision Processes. ArXiv. https://arxiv.org/abs/2308.14919"
+            },
+            {
+              "key": "e_1_4_2_1_16_1",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1016/j.eswa.2021.116180"
+            },
+            {
+              "key": "e_1_4_2_1_17_1",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1016/j.asoc.2024.111545"
+            }
+          ],
+          "event": {
+            "name": "Pipelines 2026",
+            "location": "Detroit, Michigan"
+          },
+          "container-title": [
+            "Pipelines 2026"
+          ],
+          "link": [
+            {
+              "URL": "https://ascelibrary.org/doi/pdf/10.1061/9780784487112.019",
+              "content-type": "unspecified",
+              "content-version": "vor",
+              "intended-application": "similarity-checking"
+            }
+          ],
+          "deposited": {
+            "date-parts": [
+              [
+                2026,
+                7,
+                30
+              ]
+            ],
+            "date-time": "2026-07-30T10:03:05Z",
+            "timestamp": 1785405785000
+          },
+          "score": 41.582745,
+          "resource": {
+            "primary": {
+              "URL": "https://ascelibrary.org/doi/10.1061/9780784487112.019"
+            }
+          },
+          "issued": {
+            "date-parts": [
+              [
+                2026,
+                7,
+                30
+              ]
+            ]
+          },
+          "references-count": 16,
+          "alternative-id": [
+            "10.1061/9780784487112.019",
+            "10.1061/9780784487112"
+          ],
+          "URL": "https://doi.org/10.1061/9780784487112.019",
+          "published": {
+            "date-parts": [
+              [
+                2026,
+                7,
+                30
+              ]
+            ]
+          }
+        },
+        {
+          "institution": [
+            {
+              "name": "Research Square"
+            }
+          ],
+          "indexed": {
+            "date-parts": [
+              [
+                2026,
+                4,
+                14
+              ]
+            ],
+            "date-time": "2026-04-14T05:54:51Z",
+            "timestamp": 1776146091124,
+            "version": "3.50.1"
+          },
+          "posted": {
+            "date-parts": [
+              [
+                2026,
+                4,
+                14
+              ]
+            ]
+          },
+          "group-title": "In Review",
+          "reference-count": 40,
+          "publisher": "Springer Science and Business Media LLC",
+          "license": [
+            {
+              "start": {
+                "date-parts": [
+                  [
+                    2026,
+                    4,
+                    14
+                  ]
+                ],
+                "date-time": "2026-04-14T00:00:00Z",
+                "timestamp": 1776124800000
+              },
+              "content-version": "unspecified",
+              "delay-in-days": 0,
+              "URL": "https://creativecommons.org/licenses/by/4.0/"
+            }
+          ],
+          "content-domain": {
+            "domain": [],
+            "crossmark-restriction": false
+          },
+          "accepted": {
+            "date-parts": [
+              [
+                2026,
+                4,
+                10
+              ]
+            ]
+          },
+          "abstract": "<title>Abstract</title>\n                <p>Serverless data pipelines have a very dynamic, non-stationary workload, bursty request patterns, cold-start delays, and resource variability are the order of the day, and traditional one-dimensional or statical optimization strategies do not apply. The currently used methods mainly aim at minimizing either cost or latency without paying much attention to predictive uncertainty and its effects on the stability of the decision making which results in suboptimal and unstable scheduling in real world situations. In a bid to fill this gap, this paper introduces a new multi-objective framework called ERUO (Entropy-Regularized Uncertainty-Aware Optimization) that concurrently optimizes the latency, cost, probability of cold-start, and uncertainty in a single reinforcement learning framework. ERUO proposes to use an entropy-based regularization on predictive uncertainty distributions to allow the system to discourage unstable regimes of decisions and enhance resistance to workload variability. The structure combines the use of quantile-based uncertainty modelling, gradient-boosted prediction, LSTM-based workload forecasting and PPO-based policy optimizer. As shown by experimental assessment on real-world cloud traces (Alibaba and Google cluster datasets), ERUO can make latency, cost, and cold-start instances reductions of up to 23.6, 18.4 and 27.1 over baseline approaches, as well as converge faster and can make improved decisions. The importance of this work is that uncertainty entropy has been formally coupled with the control optimization, which offers an efficient and scalable solution to managing next-generation serverless data pipelines.</p>",
+          "DOI": "10.21203/rs.3.rs-9382021/v1",
+          "type": "posted-content",
+          "created": {
+            "date-parts": [
+              [
+                2026,
+                4,
+                14
+              ]
+            ],
+            "date-time": "2026-04-14T05:10:51Z",
+            "timestamp": 1776143451000
+          },
+          "source": "Crossref",
+          "is-referenced-by-count": 0,
+          "title": [
+            "Entropy-Regularized Uncertainty-Aware Multi-Objective Optimization for Serverless Data Pipelines using Hybrid Reinforcement Learning"
+          ],
+          "prefix": "10.21203",
+          "author": [
+            {
+              "ORCID": "https://orcid.org/0009-0000-7460-047X",
+              "authenticated-orcid": false,
+              "given": "Venkat",
+              "family": "Alamuri",
+              "sequence": "first",
+              "affiliation": [
+                {
+                  "name": "NO"
+                }
+              ],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            }
+          ],
+          "member": "297",
+          "reference": [
+            {
+              "issue": "4",
+              "key": "ref1",
+              "doi-asserted-by": "crossref",
+              "first-page": "1",
+              "DOI": "10.1145/3579643",
+              "article-title": "Rise of the planet of serverless computing: A systematic review",
+              "volume": "32",
+              "author": "Wen J",
+              "year": "2023",
+              "unstructured": "Wen J, Chen Z, Jin X, Liu X (2023) Rise of the planet of serverless computing: A systematic review. ACM Trans Softw Eng Methodol 32(4):1–38",
+              "journal-title": "ACM Trans Softw Eng Methodol"
+            },
+            {
+              "issue": "2",
+              "key": "ref2",
+              "first-page": "1453",
+              "article-title": "A survey on the scheduling mechanisms in serverless computing: A taxonomy, challenges, and trends",
+              "volume": "27",
+              "author": "Ghorbian M",
+              "year": "2024",
+              "unstructured": "Ghorbian M, Ghobaei-Arani M, Esmaeili L (2024) A survey on the scheduling mechanisms in serverless computing: A taxonomy, challenges, and trends. Cluster Comput 27(2):1453–1482",
+              "journal-title": "Cluster Comput"
+            },
+            {
+              "issue": "1",
+              "key": "ref3",
+              "first-page": "12",
+              "article-title": "Challenges and opportunities in sustainable serverless computing",
+              "volume": "3",
+              "author": "Sharma P",
+              "year": "2023",
+              "unstructured": "Sharma P (2023) Challenges and opportunities in sustainable serverless computing. ACM SIGENERGY Energy Inf Rev 3(1):12–20",
+              "journal-title": "ACM SIGENERGY Energy Inf Rev"
+            },
+            {
+              "issue": "9",
+              "key": "ref4",
+              "doi-asserted-by": "crossref",
+              "first-page": "80",
+              "DOI": "10.1145/3587249",
+              "article-title": "Serverless computing: What it is, and what it is not",
+              "volume": "66",
+              "author": "Kounev S",
+              "year": "2023",
+              "unstructured": "Kounev S, Herbst N, Abad CL, Iosup A, Foster I (2023) Serverless computing: What it is, and what it is not. Commun ACM 66(9):80–87",
+              "journal-title": "Commun ACM"
+            },
+            {
+              "issue": "7",
+              "key": "ref5",
+              "first-page": "2105",
+              "article-title": "Demystifying the cost of serverless computing: Towards a win-win deal",
+              "volume": "34",
+              "author": "Liu F",
+              "year": "2023",
+              "unstructured": "Liu F, Niu Y (2023) Demystifying the cost of serverless computing: Towards a win-win deal. IEEE Trans Parallel Distrib Syst 34(7):2105–2118",
+              "journal-title": "IEEE Trans Parallel Distrib Syst"
+            },
+            {
+              "key": "ref6",
+              "first-page": "45",
+              "volume-title": "Serverless Computing: From Paradigm to Practice",
+              "author": "Castro P",
+              "year": "2023",
+              "unstructured": "Castro P, Isahagian V, Muthusamy V, Slominski A (2023) Hybrid serverless computing: Opportunities and challenges. Serverless Computing: From Paradigm to Practice. Springer, pp 45–63"
+            },
+            {
+              "key": "ref7",
+              "author": "Hamza M",
+              "year": "2023",
+              "unstructured": "Hamza M, Akbar MA, Capilla R (2023) Understanding cost dynamics of serverless computing: An empirical study. International Conference on Software Engineering and Knowledge Engineering, pp.210–218"
+            },
+            {
+              "issue": "2",
+              "key": "ref8",
+              "first-page": "1120",
+              "article-title": "Reducing environmental impact with sustainable serverless computing",
+              "volume": "17",
+              "author": "Akour M",
+              "year": "2025",
+              "unstructured": "Akour M, Alenezi M (2025) Reducing environmental impact with sustainable serverless computing. Sustainability 17(2):1120–1135",
+              "journal-title": "Sustainability"
+            },
+            {
+              "key": "ref9",
+              "author": "Ghorbian M",
+              "year": "2024",
+              "unstructured": "Ghorbian M, Ghobaei-Arani M (2024) Function offloading approaches in serverless computing: A survey. Computers and Electrical Engineering, 110, pp.108789"
+            },
+            {
+              "key": "ref10",
+              "author": "Tari M",
+              "year": "2024",
+              "unstructured": "Tari M, Ghobaei-Arani M, Pouramini J (2024) Auto-scaling mechanisms in serverless computing: A comprehensive review. Computer Science Review, 52, pp.100598"
+            },
+            {
+              "issue": "6",
+              "key": "ref11",
+              "first-page": "1",
+              "article-title": "Cold start latency in serverless computing: A systematic review, taxonomy, and future directions",
+              "volume": "56",
+              "author": "Golec M",
+              "year": "2024",
+              "unstructured": "Golec M, Walia GK, Kumar M, Cuadrado F (2024) Cold start latency in serverless computing: A systematic review, taxonomy, and future directions. ACM-CSUR 56(6):1–36",
+              "journal-title": "ACM-CSUR"
+            },
+            {
+              "issue": "3",
+              "key": "ref12",
+              "first-page": "55",
+              "article-title": "Serverless computing: Advantages, limitations and use cases",
+              "volume": "7",
+              "author": "Thatikonda VK",
+              "year": "2023",
+              "unstructured": "Thatikonda VK (2023) Serverless computing: Advantages, limitations and use cases. Eur J Theoretical Appl Sci 7(3):55–63",
+              "journal-title": "Eur J Theoretical Appl Sci"
+            },
+            {
+              "issue": "1",
+              "key": "ref13",
+              "doi-asserted-by": "crossref",
+              "first-page": "1",
+              "DOI": "10.1186/s40537-024-00939-0",
+              "article-title": "Data pipeline approaches in serverless computing: A taxonomy, review, and research trends",
+              "volume": "11",
+              "author": "Shojaee Rad Z",
+              "year": "2024",
+              "unstructured": "Shojaee Rad Z, Ghobaei-Arani M (2024) Data pipeline approaches in serverless computing: A taxonomy, review, and research trends. J Big Data 11(1):1–28",
+              "journal-title": "J Big Data"
+            },
+            {
+              "key": "ref14",
+              "first-page": "102",
+              "article-title": "Serverless computing for next-generation application development",
+              "volume": "155",
+              "author": "Toosi AN",
+              "year": "2025",
+              "unstructured": "Toosi AN, Javadi B, Iosup A, Smirni E (2025) Serverless computing for next-generation application development. Future Generation Comput Syst 155:102–118",
+              "journal-title": "Future Generation Comput Syst"
+            },
+            {
+              "issue": "1",
+              "key": "ref15",
+              "doi-asserted-by": "crossref",
+              "first-page": "120",
+              "DOI": "10.47191/ijcsrr/V7-i1-23",
+              "article-title": "Challenges and solutions in network security for serverless computing",
+              "volume": "7",
+              "author": "Ahmadi S",
+              "year": "2024",
+              "unstructured": "Ahmadi S (2024) Challenges and solutions in network security for serverless computing. Int J Curr Sci Res Rev 7(1):120–130",
+              "journal-title": "Int J Curr Sci Res Rev"
+            },
+            {
+              "issue": "2",
+              "key": "ref16",
+              "first-page": "45",
+              "article-title": "Transforming application development with serverless computing",
+              "volume": "14",
+              "author": "Fati SM",
+              "year": "2024",
+              "unstructured": "Fati SM, Alenezi M (2024) Transforming application development with serverless computing. Int J Cloud Appl Comput 14(2):45–60",
+              "journal-title": "Int J Cloud Appl Comput"
+            },
+            {
+              "key": "ref17",
+              "author": "Ghorbian M",
+              "year": "2024",
+              "unstructured": "Ghorbian M, Ghobaei-Arani M (2024) Function placement approaches in serverless computing: A survey. Journal of Systems Architecture, 143, pp.102890"
+            },
+            {
+              "issue": "1",
+              "key": "ref18",
+              "doi-asserted-by": "crossref",
+              "first-page": "1",
+              "DOI": "10.1145/3717609",
+              "article-title": "SCOPE: Performance testing for serverless computing",
+              "volume": "34",
+              "author": "Wen J",
+              "year": "2025",
+              "unstructured": "Wen J, Chen Z, Zhao J, Sarro F, Ping H (2025) SCOPE: Performance testing for serverless computing. ACM Trans Softw Eng Methodol 34(1):1–29",
+              "journal-title": "ACM Trans Softw Eng Methodol"
+            },
+            {
+              "issue": "8",
+              "key": "ref19",
+              "first-page": "1",
+              "article-title": "Characterizing commodity serverless computing platforms",
+              "volume": "35",
+              "author": "Wen J",
+              "year": "2023",
+              "unstructured": "Wen J, Liu Y, Chen Z, Chen J (2023) Characterizing commodity serverless computing platforms. J Software: Evol Process 35(8):1–18",
+              "journal-title": "J Software: Evol Process"
+            },
+            {
+              "issue": "1",
+              "key": "ref20",
+              "first-page": "1",
+              "article-title": "Toward security quantification of serverless computing",
+              "volume": "13",
+              "author": "Ni K",
+              "year": "2024",
+              "unstructured": "Ni K, Mondal SK, Kabir HMD, Tan HN, Dai H (2024) Toward security quantification of serverless computing. J Cloud Comput 13(1):1–20",
+              "journal-title": "J Cloud Comput"
+            },
+            {
+              "issue": "1",
+              "key": "ref21",
+              "first-page": "34",
+              "article-title": "Serverless computing: Emerging challenges and research directions",
+              "volume": "29",
+              "author": "Ibrahim S",
+              "year": "2025",
+              "unstructured": "Ibrahim S, Rana O, Beaumont O (2025) Serverless computing: Emerging challenges and research directions. IEEE Internet Comput 29(1):34–42",
+              "journal-title": "IEEE Internet Comput"
+            },
+            {
+              "key": "ref22",
+              "author": "Manner J",
+              "year": "2023",
+              "unstructured": "Manner J (2023) A structured literature review approach to define serverless computing and function as a service. Proceedings of IEEE International Conference on Cloud Computing, pp.210–217"
+            },
+            {
+              "key": "ref23",
+              "first-page": "120",
+              "article-title": "Ilúvatar: A fast control plane for serverless computing",
+              "volume": "177",
+              "author": "Fuerst A",
+              "year": "2023",
+              "unstructured": "Fuerst A, Rehman A, Sharma P (2023) Ilúvatar: A fast control plane for serverless computing. J Parallel Distrib Comput 177:120–132",
+              "journal-title": "J Parallel Distrib Comput"
+            },
+            {
+              "issue": "3",
+              "key": "ref24",
+              "first-page": "1450",
+              "article-title": "Fluid-shuttle: Efficient cloud data transmission using serverless compression",
+              "volume": "32",
+              "author": "Gu R",
+              "year": "2024",
+              "unstructured": "Gu R, Wang S, Dai H, Chen X, Wang Z (2024) Fluid-shuttle: Efficient cloud data transmission using serverless compression. IEEE/ACM Trans Networking 32(3):1450–1463",
+              "journal-title": "IEEE/ACM Trans Networking"
+            },
+            {
+              "key": "ref25",
+              "author": "Yu M",
+              "year": "2023",
+              "unstructured": "Yu M, Cao T, Wang W, Chen R (2023) Following the data, not the function: Rethinking function orchestration in serverless computing. Proceedings of USENIX Symposium on Operating Systems Design and Implementation, pp.1021–1038"
+            },
+            {
+              "key": "ref26",
+              "first-page": "210",
+              "article-title": "StructMesh: A storage framework for serverless computing continuum",
+              "volume": "149",
+              "author": "Carrizales-Espinoza D",
+              "year": "2024",
+              "unstructured": "Carrizales-Espinoza D, Sanchez-Gallegos DD et al (2024) StructMesh: A storage framework for serverless computing continuum. Future Generation Comput Syst 149:210–225",
+              "journal-title": "Future Generation Comput Syst"
+            },
+            {
+              "issue": "3",
+              "key": "ref27",
+              "first-page": "789",
+              "article-title": "Machine learning inference serving models in serverless computing: A survey",
+              "volume": "107",
+              "author": "Aslani A",
+              "year": "2025",
+              "unstructured": "Aslani A, Ghobaei-Arani M (2025) Machine learning inference serving models in serverless computing: A survey. Computing 107(3):789–812",
+              "journal-title": "Computing"
+            },
+            {
+              "key": "ref28",
+              "author": "Wang L",
+              "year": "2024",
+              "unstructured": "Wang L, Jiang Y, Mi N (2024) Advancing serverless computing for scalable AI model inference: Challenges and opportunities. Proceedings of ACM Workshop on Serverless Computing, pp.55–63"
+            },
+            {
+              "key": "ref29",
+              "author": "Roy RB",
+              "year": "2024",
+              "unstructured": "Roy RB, Kanakagiri R, Jiang Y, Tiwari D (2024) The hidden carbon footprint of serverless computing. ACM Symposium on Cloud Computing, pp.95–108"
+            },
+            {
+              "key": "ref30",
+              "doi-asserted-by": "crossref",
+              "first-page": "10234",
+              "DOI": "10.1109/ACCESS.2025.3633989",
+              "article-title": "High-performance serverless computing: A systematic literature review for HPC, AI, and big data",
+              "volume": "13",
+              "author": "Besozzi V",
+              "year": "2025",
+              "unstructured": "Besozzi V, Della Bartola M, Dazzi P (2025) High-performance serverless computing: A systematic literature review for HPC, AI, and big data. IEEE Access 13:10234–10255",
+              "journal-title": "IEEE Access"
+            },
+            {
+              "key": "ref31",
+              "author": "Sabanic P",
+              "year": "2025",
+              "unstructured": "Sabanic P, Misono M, Bodea T, Pritzi J, Hackl M (2025) Confidential serverless computing. arXiv preprint arXiv:2501, pp.1–15"
+            },
+            {
+              "key": "ref32",
+              "author": "Verma P",
+              "year": "2024",
+              "unstructured": "Verma P, Goel P, Rani N (2024) A review: Cold start latency in serverless computing. Proceedings of the 6th International Conference on Computing and Communication Systems, pp.210–217"
+            },
+            {
+              "key": "ref33",
+              "author": "Xu C",
+              "year": "2024",
+              "unstructured": "Xu C, Liu Y, Li Z, Chen Q, Zhao H, Zeng D (2024) Faasmem: Improving memory efficiency of serverless computing with memory pool architecture. Proceedings of the 29th ACM Symposium on Cloud Computing, pp.320–334"
+            },
+            {
+              "key": "ref34",
+              "author": "Zhao S",
+              "year": "2023",
+              "unstructured": "Zhao S, Xu P, Chen G, Zhang M, Zhang Y (2023) Reusable enclaves for confidential serverless computing. Proceedings of the 32nd USENIX Security Symposium, pp.1850–1867"
+            },
+            {
+              "key": "ref35",
+              "author": "Kalaiselvi T",
+              "year": "2024",
+              "unstructured": "Kalaiselvi T, Saravanan G, Haritha T, Kumar R (2024) A study on the landscape of serverless computing: Technologies and tools for seamless implementation. Advances in Serverless Computing, IGI Global, pp.75–92"
+            },
+            {
+              "key": "ref36",
+              "author": "Liu G",
+              "year": "2024",
+              "unstructured": "Liu G, Zhao L, Li Y, Duan Z, Chen S, Hu Y (2024) Fuyao: DPU-enabled direct data transfer for serverless computing. Proceedings of the 29th ACM Symposium on Cloud Computing, pp.410–423"
+            },
+            {
+              "issue": "12",
+              "key": "ref37",
+              "first-page": "10560",
+              "article-title": "HealthFaaS: AI-based smart healthcare system for heart patients using serverless computing",
+              "volume": "10",
+              "author": "Golec M",
+              "year": "2023",
+              "unstructured": "Golec M, Gill SS, Parlikad AK et al (2023) HealthFaaS: AI-based smart healthcare system for heart patients using serverless computing. IEEE Internet Things J 10(12):10560–10572",
+              "journal-title": "IEEE Internet Things J"
+            },
+            {
+              "key": "ref38",
+              "author": "Liu X",
+              "year": "2023",
+              "unstructured": "Liu X, Wen J, Chen Z, Li D, Chen J, Liu Y (2023) FaaSLight: General application-level cold-start latency optimization for function-as-a-service in serverless computing. ACM Transactions on Software Engineering and Methodology, 32(5), pp.1–35"
+            },
+            {
+              "issue": "1",
+              "key": "ref39",
+              "doi-asserted-by": "crossref",
+              "first-page": "95",
+              "DOI": "10.1145/3673660.3655082",
+              "article-title": "Starship: Mitigating I/O bottlenecks in serverless computing for scientific workflows",
+              "volume": "52",
+              "author": "Basu Roy R",
+              "year": "2024",
+              "unstructured": "Basu Roy R, Tiwari D (2024) Starship: Mitigating I/O bottlenecks in serverless computing for scientific workflows. ACM SIGMETRICS Perform Evaluation Rev 52(1):95–108",
+              "journal-title": "ACM SIGMETRICS Perform Evaluation Rev"
+            },
+            {
+              "issue": "3",
+              "key": "ref40",
+              "doi-asserted-by": "crossref",
+              "first-page": "1",
+              "DOI": "10.1007/s10723-023-09669-8",
+              "article-title": "WebAssembly as an enabler for next-generation serverless computing",
+              "volume": "21",
+              "author": "Kjorveziroski V",
+              "year": "2023",
+              "unstructured": "Kjorveziroski V, Filiposka S (2023) WebAssembly as an enabler for next-generation serverless computing. J Grid Comput 21(3):1–18",
+              "journal-title": "J Grid Comput"
+            }
+          ],
+          "link": [
+            {
+              "URL": "https://www.researchsquare.com/article/rs-9382021/v1",
+              "content-type": "text/html",
+              "content-version": "vor",
+              "intended-application": "text-mining"
+            },
+            {
+              "URL": "https://www.researchsquare.com/article/rs-9382021/v1.html",
+              "content-type": "unspecified",
+              "content-version": "vor",
+              "intended-application": "similarity-checking"
+            }
+          ],
+          "deposited": {
+            "date-parts": [
+              [
+                2026,
+                4,
+                14
+              ]
+            ],
+            "date-time": "2026-04-14T05:11:01Z",
+            "timestamp": 1776143461000
+          },
+          "score": 32.734894,
+          "resource": {
+            "primary": {
+              "URL": "https://www.researchsquare.com/article/rs-9382021/v1"
+            }
+          },
+          "issued": {
+            "date-parts": [
+              [
+                2026,
+                4,
+                14
+              ]
+            ]
+          },
+          "references-count": 40,
+          "URL": "https://doi.org/10.21203/rs.3.rs-9382021/v1",
+          "published": {
+            "date-parts": [
+              [
+                2026,
+                4,
+                14
+              ]
+            ]
+          },
+          "subtype": "preprint"
+        }
+      ],
+      "items-per-page": 3,
+      "query": {
+        "start-index": 0,
+        "search-terms": null
+      }
+    }
+  }
+}

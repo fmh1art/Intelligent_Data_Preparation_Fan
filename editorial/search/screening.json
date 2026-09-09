@@ -1,0 +1,1982 @@
+{
+  "date": "2026-09-09",
+  "protocol": "Structured purposive scope sampling; one screening pass; not exhaustive or independent double screening.",
+  "raw_records": [
+    {
+      "record_id": "Q9:01",
+      "doi": "10.14778/3192965.3192973",
+      "title": "Table union search on open data",
+      "type": "journal-article",
+      "canonical_work": "10.14778/3192965.3192973"
+    },
+    {
+      "record_id": "Q9:02",
+      "doi": "10.1145/3588689",
+      "title": "SANTOS: Relationship-based Semantic Table Union Search",
+      "type": "journal-article",
+      "canonical_work": "10.1145/3588689"
+    },
+    {
+      "record_id": "Q9:03",
+      "doi": "10.18653/v1/2023.findings-acl.233",
+      "title": "Automatic Table Union Search with Tabular Representation Learning",
+      "type": "proceedings-article",
+      "canonical_work": "10.18653/v1/2023.findings-acl.233"
+    },
+    {
+      "record_id": "Q9:04",
+      "doi": "10.1109/icde65448.2025.00165",
+      "title": "LIFTus: An Adaptive Multi-Aspect Column Representation Learning for Table Union Search",
+      "type": "proceedings-article",
+      "canonical_work": "10.1109/icde65448.2025.00165"
+    },
+    {
+      "record_id": "Q9:05",
+      "doi": "10.1109/bigdata66926.2025.11402613",
+      "title": "EasyTUS: A Comprehensive Framework for Fast and Accurate Table Union Search Across Data Lakes",
+      "type": "proceedings-article",
+      "canonical_work": "10.1109/bigdata66926.2025.11402613"
+    },
+    {
+      "record_id": "Q9:06",
+      "doi": "10.1093/law/9780198826507.002.0008",
+      "title": "Table of European Union",
+      "type": "other",
+      "canonical_work": "10.1093/law/9780198826507.002.0008"
+    },
+    {
+      "record_id": "Q9:07",
+      "doi": "10.1093/law/9780198932772.002.0014",
+      "title": "Table of European Union",
+      "type": "other",
+      "canonical_work": "10.1093/law/9780198932772.002.0014"
+    },
+    {
+      "record_id": "Q9:08",
+      "doi": "10.1093/law/9780192846914.002.0015",
+      "title": "Table of European Union",
+      "type": "other",
+      "canonical_work": "10.1093/law/9780192846914.002.0015"
+    },
+    {
+      "record_id": "Q9:09",
+      "doi": "10.1109/icde65706.2026.00150",
+      "title": "Novel Table Search",
+      "type": "proceedings-article",
+      "canonical_work": "10.1109/icde65706.2026.00150"
+    },
+    {
+      "record_id": "Q9:10",
+      "doi": "10.18653/v1/2025.trl-1.7",
+      "title": "Something’s Fishy in the Data Lake: A Critical Re-evaluation of Table Union Search Benchmarks",
+      "type": "proceedings-article",
+      "canonical_work": "10.18653/v1/2025.trl-1.7"
+    },
+    {
+      "record_id": "Q9:11",
+      "doi": "10.1093/oxfordhb/9780197615317.013.27",
+      "title": "In Search of One Big Union",
+      "type": "book-chapter",
+      "canonical_work": "10.1093/oxfordhb/9780197615317.013.27"
+    },
+    {
+      "record_id": "Q9:12",
+      "doi": "10.1017/s1574019615000371",
+      "title": "In search of the Union Method",
+      "type": "journal-article",
+      "canonical_work": "10.1017/s1574019615000371"
+    },
+    {
+      "record_id": "Q9:13",
+      "doi": "10.4324/9781315862552-8",
+      "title": "In Search of International Union Theory",
+      "type": "book-chapter",
+      "canonical_work": "10.4324/9781315862552-8"
+    },
+    {
+      "record_id": "Q9:14",
+      "doi": "10.1017/9781108913225.006",
+      "title": "Table of European Union Directives",
+      "type": "other",
+      "canonical_work": "10.1017/9781108913225.006"
+    },
+    {
+      "record_id": "Q9:15",
+      "doi": "10.1093/9780198913825.002.0007",
+      "title": "Table of European Union Acts",
+      "type": "other",
+      "canonical_work": "10.1093/9780198913825.002.0007"
+    },
+    {
+      "record_id": "Q10:01",
+      "doi": "10.1109/icwite59797.2024.10503084",
+      "title": "Semantic Type Detection or Unlabelled Dataset",
+      "type": "proceedings-article",
+      "canonical_work": "10.1109/icwite59797.2024.10503084"
+    },
+    {
+      "record_id": "Q10:02",
+      "doi": "10.1609/aaai.v36i11.21735",
+      "title": "Semantic Feature Discovery with Code Mining and Semantic Type Detection",
+      "type": "journal-article",
+      "canonical_work": "10.1609/aaai.v36i11.21735"
+    },
+    {
+      "record_id": "Q10:03",
+      "doi": "10.1007/978-3-319-11964-9_24",
+      "title": "Noisy Type Assertion Detection in Semantic Datasets",
+      "type": "book-chapter",
+      "canonical_work": "10.1007/978-3-319-11964-9_24"
+    },
+    {
+      "record_id": "Q10:04",
+      "doi": "10.1109/iwsc55060.2022.00013",
+      "title": "Towards Overcoming Type Limitations in Semantic Clone Detection",
+      "type": "proceedings-article",
+      "canonical_work": "10.1109/iwsc55060.2022.00013"
+    },
+    {
+      "record_id": "Q10:05",
+      "doi": "10.1145/3589786",
+      "title": "Steered Training Data Generation for Learned Semantic Type Detection",
+      "type": "journal-article",
+      "canonical_work": "10.1145/3589786"
+    },
+    {
+      "record_id": "Q10:06",
+      "doi": "10.1109/bdcat63179.2024.00030",
+      "title": "Attribute-Based Semantic Type Detection and Data Quality Assessment",
+      "type": "proceedings-article",
+      "canonical_work": "10.1109/bdcat63179.2024.00030"
+    },
+    {
+      "record_id": "Q10:07",
+      "doi": "10.1145/3774904.3792369",
+      "title": "Cross-Type Semantic Alignment for Multi-Type Anomaly Detection in Heterogeneous Graphs",
+      "type": "proceedings-article",
+      "canonical_work": "10.1145/3774904.3792369"
+    },
+    {
+      "record_id": "Q10:08",
+      "doi": "10.1007/s13222-023-00457-y",
+      "title": "SportsTables: A New Corpus for Semantic Type Detection (Extended Version)",
+      "type": "journal-article",
+      "canonical_work": "10.1007/s13222-023-00457-y"
+    },
+    {
+      "record_id": "Q10:09",
+      "doi": "10.1007/978-981-97-2266-2_10",
+      "title": "Graph Neural Network Approach to Semantic Type Detection in Tables",
+      "type": "book-chapter",
+      "canonical_work": "10.1007/978-981-97-2266-2_10"
+    },
+    {
+      "record_id": "Q10:10",
+      "doi": "10.1007/978-3-031-08129-3_8",
+      "title": "SEED: Semantic Graph Based Deep Detection for Type-4 Clone",
+      "type": "book-chapter",
+      "canonical_work": "10.1007/978-3-031-08129-3_8"
+    },
+    {
+      "record_id": "Q10:11",
+      "doi": "10.1109/skg.2009.75",
+      "title": "Semantic Shift Detection in Semantic Web",
+      "type": "proceedings-article",
+      "canonical_work": "10.1109/skg.2009.75"
+    },
+    {
+      "record_id": "Q10:12",
+      "doi": "10.1109/icarcv.2018.8581264",
+      "title": "Semantic Change Detection",
+      "type": "proceedings-article",
+      "canonical_work": "10.1109/icarcv.2018.8581264"
+    },
+    {
+      "record_id": "Q10:13",
+      "doi": "10.1109/asiancon51346.2021.9544660",
+      "title": "Code Semantic Detection",
+      "type": "proceedings-article",
+      "canonical_work": "10.1109/asiancon51346.2021.9544660"
+    },
+    {
+      "record_id": "Q10:14",
+      "doi": "10.18653/v1/n18-2036",
+      "title": "Semantic Pleonasm Detection",
+      "type": "proceedings-article",
+      "canonical_work": "10.18653/v1/n18-2036"
+    },
+    {
+      "record_id": "Q10:15",
+      "doi": "10.1007/978-3-642-32790-2_43",
+      "title": "Detection of Semantic Compositionality Using Semantic Spaces",
+      "type": "book-chapter",
+      "canonical_work": "10.1007/978-3-642-32790-2_43"
+    },
+    {
+      "record_id": "Q11:01",
+      "doi": "10.1016/b978-0-323-95502-7.00358-4",
+      "title": "Data Cleaning",
+      "type": "book-chapter",
+      "canonical_work": "10.1016/b978-0-323-95502-7.00358-4"
+    },
+    {
+      "record_id": "Q11:02",
+      "doi": "10.4135/9781526421036842861",
+      "title": "Data Cleaning",
+      "type": "reference-entry",
+      "canonical_work": "10.4135/9781526421036842861"
+    },
+    {
+      "record_id": "Q11:03",
+      "doi": "10.1016/b978-0-443-15845-2.00008-6",
+      "title": "Data cleaning",
+      "type": "book-chapter",
+      "canonical_work": "10.1016/b978-0-443-15845-2.00008-6"
+    },
+    {
+      "record_id": "Q11:04",
+      "doi": "10.4135/9781483391700.n13",
+      "title": "Data Cleaning",
+      "type": "book-chapter",
+      "canonical_work": "10.4135/9781483391700.n13"
+    },
+    {
+      "record_id": "Q11:05",
+      "doi": "10.1002/9781118897126.ch1",
+      "title": "Data Cleaning",
+      "type": "other",
+      "canonical_work": "10.1002/9781118897126.ch1"
+    },
+    {
+      "record_id": "Q11:06",
+      "doi": "10.1007/978-94-007-5989-3_20",
+      "title": "Data Cleaning",
+      "type": "book-chapter",
+      "canonical_work": "10.1007/978-94-007-5989-3_20"
+    },
+    {
+      "record_id": "Q11:07",
+      "doi": "10.1007/978-1-4614-8265-9_592",
+      "title": "Data Cleaning",
+      "type": "book-chapter",
+      "canonical_work": "10.1007/978-1-4614-8265-9_592"
+    },
+    {
+      "record_id": "Q11:08",
+      "doi": "10.1201/9780429262180-ch10",
+      "title": "Data cleaning",
+      "type": "book-chapter",
+      "canonical_work": "10.1201/9780429262180-ch10"
+    },
+    {
+      "record_id": "Q11:09",
+      "doi": "10.1017/9781316338599.005",
+      "title": "Cleaning Data",
+      "type": "book-chapter",
+      "canonical_work": "10.1017/9781316338599.005"
+    },
+    {
+      "record_id": "Q11:10",
+      "doi": "10.4135/9781412961288.n100",
+      "title": "Data Cleaning",
+      "type": "reference-entry",
+      "canonical_work": "10.4135/9781412961288.n100"
+    },
+    {
+      "record_id": "Q11:11",
+      "doi": "10.4135/9781071812082.n145",
+      "title": "Data Cleaning",
+      "type": "reference-entry",
+      "canonical_work": "10.4135/9781071812082.n145"
+    },
+    {
+      "record_id": "Q11:12",
+      "doi": "10.1007/978-3-319-32010-6_300051",
+      "title": "Data Cleaning",
+      "type": "book-chapter",
+      "canonical_work": "10.1007/978-3-319-32010-6_300051"
+    },
+    {
+      "record_id": "Q11:13",
+      "doi": "10.1007/978-3-319-77525-8_3",
+      "title": "Data Cleaning",
+      "type": "book-chapter",
+      "canonical_work": "10.1007/978-3-319-77525-8_3"
+    },
+    {
+      "record_id": "Q11:14",
+      "doi": "10.1145/3310205",
+      "title": "Data Cleaning",
+      "type": "monograph",
+      "canonical_work": "10.1145/3310205"
+    },
+    {
+      "record_id": "Q11:15",
+      "doi": "10.4135/9781483381411.n126",
+      "title": "Data Cleaning",
+      "type": "reference-entry",
+      "canonical_work": "10.4135/9781483381411.n126"
+    },
+    {
+      "record_id": "Q12:01",
+      "doi": "10.14778/2021017.2021020",
+      "title": "Entity matching",
+      "type": "journal-article",
+      "canonical_work": "10.14778/2021017.2021020"
+    },
+    {
+      "record_id": "Q12:02",
+      "doi": "10.1145/3431816",
+      "title": "Deep Entity Matching",
+      "type": "journal-article",
+      "canonical_work": "10.1145/3431816"
+    },
+    {
+      "record_id": "Q12:03",
+      "doi": "10.1007/978-3-030-15032-7_68",
+      "title": "Multilingual Entity Matching",
+      "type": "book-chapter",
+      "canonical_work": "10.1007/978-3-030-15032-7_68"
+    },
+    {
+      "record_id": "Q12:04",
+      "doi": "10.2139/ssrn.3306378",
+      "title": "Multilingual Entity Matching",
+      "type": "journal-article",
+      "canonical_work": "10.1007/978-3-030-15032-7_68"
+    },
+    {
+      "record_id": "Q12:05",
+      "doi": "10.1109/tkde.2022.3200644",
+      "title": "LEMON: Explainable Entity Matching",
+      "type": "journal-article",
+      "canonical_work": "10.1109/tkde.2022.3200644"
+    },
+    {
+      "record_id": "Q12:06",
+      "doi": "10.1145/3459637.3482338",
+      "title": "Entity and Relation Matching Consensus for Entity Alignment",
+      "type": "proceedings-article",
+      "canonical_work": "10.1145/3459637.3482338"
+    },
+    {
+      "record_id": "Q12:07",
+      "doi": "10.1007/978-3-030-88389-8_19",
+      "title": "Entity Matching: Matching Entities Between Multiple Data Sources",
+      "type": "book-chapter",
+      "canonical_work": "10.1007/978-3-030-88389-8_19"
+    },
+    {
+      "record_id": "Q12:08",
+      "doi": "10.14778/1938545.1938546",
+      "title": "Large-scale collective entity matching",
+      "type": "journal-article",
+      "canonical_work": "10.14778/1938545.1938546"
+    },
+    {
+      "record_id": "Q12:09",
+      "doi": "10.1145/3340531.3412781",
+      "title": "Profiling Entity Matching Benchmark Tasks",
+      "type": "proceedings-article",
+      "canonical_work": "10.1145/3340531.3412781"
+    },
+    {
+      "record_id": "Q12:10",
+      "doi": "10.1007/978-3-030-80418-3_20",
+      "title": "Exploiting Transitivity for Entity Matching",
+      "type": "book-chapter",
+      "canonical_work": "10.1007/978-3-030-80418-3_20"
+    },
+    {
+      "record_id": "Q12:11",
+      "doi": "10.1145/3183713.3196926",
+      "title": "Deep Learning for Entity Matching",
+      "type": "proceedings-article",
+      "canonical_work": "10.1145/3183713.3196926"
+    },
+    {
+      "record_id": "Q12:12",
+      "doi": "10.1002/9781119381877.ch7",
+      "title": "Entity Resolution and Watchlist Matching",
+      "type": "other",
+      "canonical_work": "10.1002/9781119381877.ch7"
+    },
+    {
+      "record_id": "Q12:13",
+      "doi": "10.1109/icde51399.2021.00116",
+      "title": "Automating Entity Matching Model Development",
+      "type": "proceedings-article",
+      "canonical_work": "10.1109/icde51399.2021.00116"
+    },
+    {
+      "record_id": "Q12:14",
+      "doi": "10.1007/s00778-023-00779-z",
+      "title": "Effective entity matching with transformers",
+      "type": "journal-article",
+      "canonical_work": "10.1007/s00778-023-00779-z"
+    },
+    {
+      "record_id": "Q12:15",
+      "doi": "10.1145/2783258.2783353",
+      "title": "Entity Matching across Heterogeneous Sources",
+      "type": "proceedings-article",
+      "canonical_work": "10.1145/2783258.2783353"
+    },
+    {
+      "record_id": "Q13:01",
+      "doi": "10.1109/icist.2018.8426166",
+      "title": "Table Transformation Rule Learner",
+      "type": "proceedings-article",
+      "canonical_work": "10.1109/icist.2018.8426166"
+    },
+    {
+      "record_id": "Q13:02",
+      "doi": "10.4324/9780429282454-12",
+      "title": "The Time-Table of Transformation",
+      "type": "book-chapter",
+      "canonical_work": "10.4324/9780429282454-12"
+    },
+    {
+      "record_id": "Q13:03",
+      "doi": "10.4135/9781506335292.n2",
+      "title": "Setting the Table for Transformation",
+      "type": "book-chapter",
+      "canonical_work": "10.4135/9781506335292.n2"
+    },
+    {
+      "record_id": "Q13:04",
+      "doi": "10.1109/scam.2012.12",
+      "title": "Optimizing Expression Selection for Lookup Table Program Transformation",
+      "type": "proceedings-article",
+      "canonical_work": "10.1109/scam.2012.12"
+    },
+    {
+      "record_id": "Q13:05",
+      "doi": "10.1007/s10596-016-9597-9",
+      "title": "Efficient water table evolution discretization using domain transformation",
+      "type": "journal-article",
+      "canonical_work": "10.1007/s10596-016-9597-9"
+    },
+    {
+      "record_id": "Q13:06",
+      "doi": "10.1109/icsedis68157.2026.11518392",
+      "title": "TABLE-SMITH: Structured Data Transformation Through Class-based Segmentation",
+      "type": "proceedings-article",
+      "canonical_work": "10.1109/icsedis68157.2026.11518392"
+    },
+    {
+      "record_id": "Q13:07",
+      "doi": "10.5194/hess-2018-298-sc1",
+      "title": "On Table 1: A fifth transformation of the low flow",
+      "type": "peer-review",
+      "canonical_work": "10.5194/hess-2018-298-sc1"
+    },
+    {
+      "record_id": "Q13:08",
+      "doi": "10.1017/pds.2026.10402",
+      "title": "Capability-based engineering transformation – the periodic table of engineering capabilities",
+      "type": "journal-article",
+      "canonical_work": "10.1017/pds.2026.10402"
+    },
+    {
+      "record_id": "Q13:09",
+      "doi": "10.1117/12.2078188",
+      "title": "JPEG quantization table mismatched steganalysis via robust discriminative feature transformation",
+      "type": "proceedings-article",
+      "canonical_work": "10.1117/12.2078188"
+    },
+    {
+      "record_id": "Q13:10",
+      "doi": "10.1109/epee63731.2024.10875108",
+      "title": "Fast Static Security Analysis Based on Rapid Factor Table Transformation",
+      "type": "proceedings-article",
+      "canonical_work": "10.1109/epee63731.2024.10875108"
+    },
+    {
+      "record_id": "Q13:11",
+      "doi": "10.1158/2159-8290.22541408",
+      "title": "Supplementary Table from Phase Separation Mediates NUP98 Fusion Oncoprotein Leukemic Transformation",
+      "type": "posted-content",
+      "canonical_work": "10.1158/2159-8290.22541408"
+    },
+    {
+      "record_id": "Q13:12",
+      "doi": "10.1158/2159-8290.22541408.v1",
+      "title": "Supplementary Table from Phase Separation Mediates NUP98 Fusion Oncoprotein Leukemic Transformation",
+      "type": "posted-content",
+      "canonical_work": "10.1158/2159-8290.22541408"
+    },
+    {
+      "record_id": "Q13:13",
+      "doi": "10.1016/j.comcom.2019.08.015",
+      "title": "Efficient topview person detector using point based transformation and lookup table",
+      "type": "journal-article",
+      "canonical_work": "10.1016/j.comcom.2019.08.015"
+    },
+    {
+      "record_id": "Q13:14",
+      "doi": "10.1145/3140587.3062351",
+      "title": "Component-based synthesis of table consolidation and transformation tasks from examples",
+      "type": "journal-article",
+      "canonical_work": "10.1145/3062341.3062351"
+    },
+    {
+      "record_id": "Q13:15",
+      "doi": "10.1145/3062341.3062351",
+      "title": "Component-based synthesis of table consolidation and transformation tasks from examples",
+      "type": "proceedings-article",
+      "canonical_work": "10.1145/3062341.3062351"
+    },
+    {
+      "record_id": "Q14:01",
+      "doi": "10.1007/978-981-16-9012-9_33",
+      "title": "Impeachment and Weak Supervision",
+      "type": "book-chapter",
+      "canonical_work": "10.1007/978-981-16-9012-9_33"
+    },
+    {
+      "record_id": "Q14:02",
+      "doi": "10.1109/percomworkshops53856.2022.9767420",
+      "title": "The Weak Supervision Landscape",
+      "type": "proceedings-article",
+      "canonical_work": "10.1109/percomworkshops53856.2022.9767420"
+    },
+    {
+      "record_id": "Q14:03",
+      "doi": "10.18653/v1/2021.naacl-main.66",
+      "title": "Self-Training with Weak Supervision",
+      "type": "proceedings-article",
+      "canonical_work": "10.18653/v1/2021.naacl-main.66"
+    },
+    {
+      "record_id": "Q14:04",
+      "doi": "10.1109/icpm49681.2020.00023",
+      "title": "Classifying process deviations with weak supervision",
+      "type": "proceedings-article",
+      "canonical_work": "10.1109/icpm49681.2020.00023"
+    },
+    {
+      "record_id": "Q14:05",
+      "doi": "10.1109/wacv45572.2020.9093544",
+      "title": "Erasing Scene Text with Weak Supervision",
+      "type": "proceedings-article",
+      "canonical_work": "10.1109/wacv45572.2020.9093544"
+    },
+    {
+      "record_id": "Q14:06",
+      "doi": "10.1109/lra.2020.2967712",
+      "title": "Semantic Foreground Inpainting From Weak Supervision",
+      "type": "journal-article",
+      "canonical_work": "10.1109/lra.2020.2967712"
+    },
+    {
+      "record_id": "Q14:07",
+      "doi": "10.1609/aaai.v33i01.33019528",
+      "title": "Bootstrapping Conversational Agents with Weak Supervision",
+      "type": "journal-article",
+      "canonical_work": "10.1609/aaai.v33i01.33019528"
+    },
+    {
+      "record_id": "Q14:08",
+      "doi": "10.18653/v1/2026.eacl-long.336",
+      "title": "Incentivizing Strong Reasoning from Weak Supervision",
+      "type": "proceedings-article",
+      "canonical_work": "10.18653/v1/2026.eacl-long.336"
+    },
+    {
+      "record_id": "Q14:09",
+      "doi": "10.1145/3077136.3080832",
+      "title": "Neural Ranking Models with Weak Supervision",
+      "type": "proceedings-article",
+      "canonical_work": "10.1145/3077136.3080832"
+    },
+    {
+      "record_id": "Q14:10",
+      "doi": "10.18653/v1/2022.repl4nlp-1.27",
+      "title": "WeaNF”:\" Weak Supervision with Normalizing Flows",
+      "type": "proceedings-article",
+      "canonical_work": "10.18653/v1/2022.repl4nlp-1.27"
+    },
+    {
+      "record_id": "Q14:11",
+      "doi": "10.18653/v1/2021.acl-long.189",
+      "title": "Discovering Dialogue Slots with Weak Supervision",
+      "type": "proceedings-article",
+      "canonical_work": "10.18653/v1/2021.acl-long.189"
+    },
+    {
+      "record_id": "Q14:12",
+      "doi": "10.14778/3583140.3583148",
+      "title": "VersaMatch: Ontology Matching with Weak Supervision",
+      "type": "journal-article",
+      "canonical_work": "10.14778/3583140.3583148"
+    },
+    {
+      "record_id": "Q14:13",
+      "doi": "10.18653/v1/d18-1522",
+      "title": "Learning Concept Abstractness Using Weak Supervision",
+      "type": "proceedings-article",
+      "canonical_work": "10.18653/v1/d18-1522"
+    },
+    {
+      "record_id": "Q14:14",
+      "doi": "10.1145/3532213.3532289",
+      "title": "Interactive Semantic Segmentation With Weak Supervision",
+      "type": "proceedings-article",
+      "canonical_work": "10.1145/3532213.3532289"
+    },
+    {
+      "record_id": "Q14:15",
+      "doi": "10.1145/3583780.3614950",
+      "title": "Learning Node Abnormality with Weak Supervision",
+      "type": "proceedings-article",
+      "canonical_work": "10.1145/3583780.3614950"
+    },
+    {
+      "record_id": "Q15:01",
+      "doi": "10.1007/978-981-19-6798-6_5",
+      "title": "Data Preprocessing Technology in Pipeline Health Monitoring",
+      "type": "book-chapter",
+      "canonical_work": "10.1007/978-981-19-6798-6_5"
+    },
+    {
+      "record_id": "Q15:02",
+      "doi": "10.1017/s1431927620021200",
+      "title": "Automatic Pipeline for Cryo-EM Data Preprocessing",
+      "type": "journal-article",
+      "canonical_work": "10.1017/s1431927620021200"
+    },
+    {
+      "record_id": "Q15:03",
+      "doi": "10.1007/978-3-030-31635-8_28",
+      "title": "Preprocessing Pipeline for fNIRS Data in Children",
+      "type": "book-chapter",
+      "canonical_work": "10.1007/978-3-030-31635-8_28"
+    },
+    {
+      "record_id": "Q15:04",
+      "doi": "10.1109/access.2022.3198662",
+      "title": "Auto-Prep: Efficient and Automated Data Preprocessing Pipeline",
+      "type": "journal-article",
+      "canonical_work": "10.1109/access.2022.3198662"
+    },
+    {
+      "record_id": "Q15:05",
+      "doi": "10.1016/j.rechem.2026.103175",
+      "title": "Systematic investigation of preprocessing pipeline for MALDI data",
+      "type": "journal-article",
+      "canonical_work": "10.1016/j.rechem.2026.103175"
+    },
+    {
+      "record_id": "Q15:06",
+      "doi": "10.3389/fninf.2022.843114",
+      "title": "NeoRS: A Neonatal Resting State fMRI Data Preprocessing Pipeline",
+      "type": "journal-article",
+      "canonical_work": "10.3389/fninf.2022.843114"
+    },
+    {
+      "record_id": "Q15:07",
+      "doi": "10.1145/3589328",
+      "title": "DiffPrep: Differentiable Data Preprocessing Pipeline Search for Learning over Tabular Data",
+      "type": "journal-article",
+      "canonical_work": "10.1145/3589328"
+    },
+    {
+      "record_id": "Q15:08",
+      "doi": "10.1016/b978-0-12-819084-5.00012-2",
+      "title": "Preprocessing pipeline on FPGA",
+      "type": "book-chapter",
+      "canonical_work": "10.1016/b978-0-12-819084-5.00012-2"
+    },
+    {
+      "record_id": "Q15:09",
+      "doi": "10.56441/hilbertpress.2207.6599",
+      "title": "FMRI minimal preprocessing pipeline",
+      "type": "book-chapter",
+      "canonical_work": "10.56441/hilbertpress.2207.6599"
+    },
+    {
+      "record_id": "Q15:10",
+      "doi": "10.14445/23488549/ijece-v11i4p106",
+      "title": "Transforming 3D Brain MRI Data: Building a Robust Preprocessing Pipeline",
+      "type": "journal-article",
+      "canonical_work": "10.14445/23488549/ijece-v11i4p106"
+    },
+    {
+      "record_id": "Q15:11",
+      "doi": "10.1016/j.engappai.2024.109893",
+      "title": "A preprocessing data-driven pipeline for estimating number of clusters",
+      "type": "journal-article",
+      "canonical_work": "10.1016/j.engappai.2024.109893"
+    },
+    {
+      "record_id": "Q15:12",
+      "doi": "10.1109/pesim67009.2026.11439034",
+      "title": "Optimized Data Preprocessing Pipeline for Deep Learning with Real EV Battery Data",
+      "type": "proceedings-article",
+      "canonical_work": "10.1109/pesim67009.2026.11439034"
+    },
+    {
+      "record_id": "Q15:13",
+      "doi": "10.21105/joss.06636",
+      "title": "fMRIStroke: A preprocessing pipeline for fMRI Data from\nStroke patients",
+      "type": "journal-article",
+      "canonical_work": "10.21105/joss.06636"
+    },
+    {
+      "record_id": "Q15:14",
+      "doi": "10.3390/s25154737",
+      "title": "A Preprocessing Pipeline for Pupillometry Signal from Multimodal iMotion Data",
+      "type": "journal-article",
+      "canonical_work": "10.3390/s25154737"
+    },
+    {
+      "record_id": "Q15:15",
+      "doi": "10.3389/fimmu.2021.677870",
+      "title": "Microbiome Preprocessing Machine Learning Pipeline",
+      "type": "journal-article",
+      "canonical_work": "10.3389/fimmu.2021.677870"
+    },
+    {
+      "record_id": "Q16:01",
+      "doi": "10.1002/9780470753866.ch6",
+      "title": "Data Preparation",
+      "type": "other",
+      "canonical_work": "10.1002/9780470753866.ch6"
+    },
+    {
+      "record_id": "Q16:02",
+      "doi": "10.1007/978-1-84882-260-3_6",
+      "title": "Data Preparation",
+      "type": "book-chapter",
+      "canonical_work": "10.1007/978-1-84882-260-3_6"
+    },
+    {
+      "record_id": "Q16:03",
+      "doi": "10.4135/9781446287903.n4",
+      "title": "Data Preparation",
+      "type": "book-chapter",
+      "canonical_work": "10.4135/9781446287903.n4"
+    },
+    {
+      "record_id": "Q16:04",
+      "doi": "10.1201/b17525-13",
+      "title": "Data Preparation",
+      "type": "book-chapter",
+      "canonical_work": "10.1201/b17525-13"
+    },
+    {
+      "record_id": "Q16:05",
+      "doi": "10.1201/9781003486817-3",
+      "title": "Data preparation",
+      "type": "book-chapter",
+      "canonical_work": "10.1201/9781003486817-3"
+    },
+    {
+      "record_id": "Q16:06",
+      "doi": "10.1007/978-1-4842-4137-0_3",
+      "title": "Data Preparation",
+      "type": "book-chapter",
+      "canonical_work": "10.1007/978-1-4842-4137-0_3"
+    },
+    {
+      "record_id": "Q16:07",
+      "doi": "10.1007/978-1-4842-2178-5_3",
+      "title": "Data Preparation",
+      "type": "book-chapter",
+      "canonical_work": "10.1007/978-1-4842-2178-5_3"
+    },
+    {
+      "record_id": "Q16:08",
+      "doi": "10.1016/b978-0-32-391778-0.00010-7",
+      "title": "Data preparation",
+      "type": "book-chapter",
+      "canonical_work": "10.1016/b978-0-32-391778-0.00010-7"
+    },
+    {
+      "record_id": "Q16:09",
+      "doi": "10.1002/9781119005056.ch6",
+      "title": "Data Preparation",
+      "type": "other",
+      "canonical_work": "10.1002/9781119005056.ch6"
+    },
+    {
+      "record_id": "Q16:10",
+      "doi": "10.1007/978-1-4842-5729-6_9",
+      "title": "Data Preparation",
+      "type": "book-chapter",
+      "canonical_work": "10.1007/978-1-4842-5729-6_9"
+    },
+    {
+      "record_id": "Q16:11",
+      "doi": "10.1145/3444831.3444835",
+      "title": "Data Preparation",
+      "type": "journal-article",
+      "canonical_work": "10.1145/3444831.3444835"
+    },
+    {
+      "record_id": "Q16:12",
+      "doi": "10.1007/978-981-96-6259-3_4",
+      "title": "Data Preparation",
+      "type": "book-chapter",
+      "canonical_work": "10.1007/978-981-96-6259-3_4"
+    },
+    {
+      "record_id": "Q16:13",
+      "doi": "10.1201/9781003028611-9",
+      "title": "Data Preparation",
+      "type": "book-chapter",
+      "canonical_work": "10.1201/9781003028611-9"
+    },
+    {
+      "record_id": "Q16:14",
+      "doi": "10.1007/978-1-4899-7687-1_62",
+      "title": "Data Preparation",
+      "type": "book-chapter",
+      "canonical_work": "10.1007/978-1-4899-7687-1_62"
+    },
+    {
+      "record_id": "Q16:15",
+      "doi": "10.1007/978-3-319-77525-8_100087",
+      "title": "Data Preparation",
+      "type": "book-chapter",
+      "canonical_work": "10.1007/978-3-319-77525-8_100087"
+    }
+  ],
+  "works": [
+    {
+      "work_id": "10.14778/3192965.3192973",
+      "records": [
+        "Q9:01"
+      ],
+      "stage1": "retain",
+      "stage1_reason": "题名/摘要涉及相关方法、监督、程序合成或基准，进入范围复核。",
+      "query": 9,
+      "stage2": "include",
+      "bibkey": "tus",
+      "stage2_reason": "补充明确的机制、监督来源或基准维度；技术依据与原文位置见EVIDENCE.md。"
+    },
+    {
+      "work_id": "10.1145/3588689",
+      "records": [
+        "Q9:02"
+      ],
+      "stage1": "retain",
+      "stage1_reason": "题名/摘要涉及相关方法、监督、程序合成或基准，进入范围复核。",
+      "query": 9,
+      "stage2": "include",
+      "bibkey": "santos",
+      "stage2_reason": "补充明确的机制、监督来源或基准维度；技术依据与原文位置见EVIDENCE.md。"
+    },
+    {
+      "work_id": "10.18653/v1/2023.findings-acl.233",
+      "records": [
+        "Q9:03"
+      ],
+      "stage1": "retain",
+      "stage1_reason": "题名/摘要涉及相关方法、监督、程序合成或基准，进入范围复核。",
+      "query": 9,
+      "stage2": "exclude_scope_sample",
+      "stage2_reason": "候选仍相关；本轮用TUS、SANTOS和基准再分析覆盖统计、关系语义和评测偏差，其余检索变体保留候选，未展开专门检索算法综述。"
+    },
+    {
+      "work_id": "10.1109/icde65448.2025.00165",
+      "records": [
+        "Q9:04"
+      ],
+      "stage1": "retain",
+      "stage1_reason": "题名/摘要涉及相关方法、监督、程序合成或基准，进入范围复核。",
+      "query": 9,
+      "stage2": "exclude_scope_sample",
+      "stage2_reason": "候选仍相关；本轮用TUS、SANTOS和基准再分析覆盖统计、关系语义和评测偏差，其余检索变体保留候选，未展开专门检索算法综述。"
+    },
+    {
+      "work_id": "10.1109/bigdata66926.2025.11402613",
+      "records": [
+        "Q9:05"
+      ],
+      "stage1": "retain",
+      "stage1_reason": "题名/摘要涉及相关方法、监督、程序合成或基准，进入范围复核。",
+      "query": 9,
+      "stage2": "exclude_scope_sample",
+      "stage2_reason": "候选仍相关；本轮用TUS、SANTOS和基准再分析覆盖统计、关系语义和评测偏差，其余检索变体保留候选，未展开专门检索算法综述。"
+    },
+    {
+      "work_id": "10.1093/law/9780198826507.002.0008",
+      "records": [
+        "Q9:06"
+      ],
+      "stage1": "exclude",
+      "stage1_reason": "题名/文献类型与本文可复用方法和基准范围不符：一般领域应用、同名异义或说明性资料。",
+      "stage2": "not_applicable"
+    },
+    {
+      "work_id": "10.1093/law/9780198932772.002.0014",
+      "records": [
+        "Q9:07"
+      ],
+      "stage1": "exclude",
+      "stage1_reason": "题名/文献类型与本文可复用方法和基准范围不符：一般领域应用、同名异义或说明性资料。",
+      "stage2": "not_applicable"
+    },
+    {
+      "work_id": "10.1093/law/9780192846914.002.0015",
+      "records": [
+        "Q9:08"
+      ],
+      "stage1": "exclude",
+      "stage1_reason": "题名/文献类型与本文可复用方法和基准范围不符：一般领域应用、同名异义或说明性资料。",
+      "stage2": "not_applicable"
+    },
+    {
+      "work_id": "10.1109/icde65706.2026.00150",
+      "records": [
+        "Q9:09"
+      ],
+      "stage1": "retain",
+      "stage1_reason": "题名/摘要涉及相关方法、监督、程序合成或基准，进入范围复核。",
+      "query": 9,
+      "stage2": "exclude_scope_sample",
+      "stage2_reason": "候选仍相关；本轮用TUS、SANTOS和基准再分析覆盖统计、关系语义和评测偏差，其余检索变体保留候选，未展开专门检索算法综述。"
+    },
+    {
+      "work_id": "10.18653/v1/2025.trl-1.7",
+      "records": [
+        "Q9:10"
+      ],
+      "stage1": "retain",
+      "stage1_reason": "题名/摘要涉及相关方法、监督、程序合成或基准，进入范围复核。",
+      "query": 9,
+      "stage2": "include",
+      "bibkey": "fishy",
+      "stage2_reason": "补充明确的机制、监督来源或基准维度；技术依据与原文位置见EVIDENCE.md。"
+    },
+    {
+      "work_id": "10.1093/oxfordhb/9780197615317.013.27",
+      "records": [
+        "Q9:11"
+      ],
+      "stage1": "exclude",
+      "stage1_reason": "题名/文献类型与本文可复用方法和基准范围不符：一般领域应用、同名异义或说明性资料。",
+      "stage2": "not_applicable"
+    },
+    {
+      "work_id": "10.1017/s1574019615000371",
+      "records": [
+        "Q9:12"
+      ],
+      "stage1": "exclude",
+      "stage1_reason": "题名/文献类型与本文可复用方法和基准范围不符：一般领域应用、同名异义或说明性资料。",
+      "stage2": "not_applicable"
+    },
+    {
+      "work_id": "10.4324/9781315862552-8",
+      "records": [
+        "Q9:13"
+      ],
+      "stage1": "exclude",
+      "stage1_reason": "题名/文献类型与本文可复用方法和基准范围不符：一般领域应用、同名异义或说明性资料。",
+      "stage2": "not_applicable"
+    },
+    {
+      "work_id": "10.1017/9781108913225.006",
+      "records": [
+        "Q9:14"
+      ],
+      "stage1": "exclude",
+      "stage1_reason": "题名/文献类型与本文可复用方法和基准范围不符：一般领域应用、同名异义或说明性资料。",
+      "stage2": "not_applicable"
+    },
+    {
+      "work_id": "10.1093/9780198913825.002.0007",
+      "records": [
+        "Q9:15"
+      ],
+      "stage1": "exclude",
+      "stage1_reason": "题名/文献类型与本文可复用方法和基准范围不符：一般领域应用、同名异义或说明性资料。",
+      "stage2": "not_applicable"
+    },
+    {
+      "work_id": "10.1109/icwite59797.2024.10503084",
+      "records": [
+        "Q10:01"
+      ],
+      "stage1": "retain",
+      "stage1_reason": "题名/摘要涉及相关方法、监督、程序合成或基准，进入范围复核。",
+      "query": 10,
+      "stage2": "exclude_scope_sample",
+      "stage2_reason": "候选仍相关；本轮补充STEER的新域监督与SportsTables的数值列分布，未扩展为全部类型检测方法清单。"
+    },
+    {
+      "work_id": "10.1609/aaai.v36i11.21735",
+      "records": [
+        "Q10:02"
+      ],
+      "stage1": "retain",
+      "stage1_reason": "题名/摘要涉及相关方法、监督、程序合成或基准，进入范围复核。",
+      "query": 10,
+      "stage2": "exclude_scope_sample",
+      "stage2_reason": "候选仍相关；本轮补充STEER的新域监督与SportsTables的数值列分布，未扩展为全部类型检测方法清单。"
+    },
+    {
+      "work_id": "10.1007/978-3-319-11964-9_24",
+      "records": [
+        "Q10:03"
+      ],
+      "stage1": "exclude",
+      "stage1_reason": "题名/文献类型与本文可复用方法和基准范围不符：一般领域应用、同名异义或说明性资料。",
+      "stage2": "not_applicable"
+    },
+    {
+      "work_id": "10.1109/iwsc55060.2022.00013",
+      "records": [
+        "Q10:04"
+      ],
+      "stage1": "exclude",
+      "stage1_reason": "题名/文献类型与本文可复用方法和基准范围不符：一般领域应用、同名异义或说明性资料。",
+      "stage2": "not_applicable"
+    },
+    {
+      "work_id": "10.1145/3589786",
+      "records": [
+        "Q10:05"
+      ],
+      "stage1": "retain",
+      "stage1_reason": "题名/摘要涉及相关方法、监督、程序合成或基准，进入范围复核。",
+      "query": 10,
+      "stage2": "include",
+      "bibkey": "steer",
+      "stage2_reason": "补充明确的机制、监督来源或基准维度；技术依据与原文位置见EVIDENCE.md。"
+    },
+    {
+      "work_id": "10.1109/bdcat63179.2024.00030",
+      "records": [
+        "Q10:06"
+      ],
+      "stage1": "retain",
+      "stage1_reason": "题名/摘要涉及相关方法、监督、程序合成或基准，进入范围复核。",
+      "query": 10,
+      "stage2": "exclude_scope_sample",
+      "stage2_reason": "候选仍相关；本轮补充STEER的新域监督与SportsTables的数值列分布，未扩展为全部类型检测方法清单。"
+    },
+    {
+      "work_id": "10.1145/3774904.3792369",
+      "records": [
+        "Q10:07"
+      ],
+      "stage1": "exclude",
+      "stage1_reason": "题名/文献类型与本文可复用方法和基准范围不符：一般领域应用、同名异义或说明性资料。",
+      "stage2": "not_applicable"
+    },
+    {
+      "work_id": "10.1007/s13222-023-00457-y",
+      "records": [
+        "Q10:08"
+      ],
+      "stage1": "retain",
+      "stage1_reason": "题名/摘要涉及相关方法、监督、程序合成或基准，进入范围复核。",
+      "query": 10,
+      "stage2": "include",
+      "bibkey": "sportstables",
+      "stage2_reason": "补充明确的机制、监督来源或基准维度；技术依据与原文位置见EVIDENCE.md。"
+    },
+    {
+      "work_id": "10.1007/978-981-97-2266-2_10",
+      "records": [
+        "Q10:09"
+      ],
+      "stage1": "retain",
+      "stage1_reason": "题名/摘要涉及相关方法、监督、程序合成或基准，进入范围复核。",
+      "query": 10,
+      "stage2": "exclude_scope_sample",
+      "stage2_reason": "候选仍相关；本轮补充STEER的新域监督与SportsTables的数值列分布，未扩展为全部类型检测方法清单。"
+    },
+    {
+      "work_id": "10.1007/978-3-031-08129-3_8",
+      "records": [
+        "Q10:10"
+      ],
+      "stage1": "exclude",
+      "stage1_reason": "题名/文献类型与本文可复用方法和基准范围不符：一般领域应用、同名异义或说明性资料。",
+      "stage2": "not_applicable"
+    },
+    {
+      "work_id": "10.1109/skg.2009.75",
+      "records": [
+        "Q10:11"
+      ],
+      "stage1": "exclude",
+      "stage1_reason": "题名/文献类型与本文可复用方法和基准范围不符：一般领域应用、同名异义或说明性资料。",
+      "stage2": "not_applicable"
+    },
+    {
+      "work_id": "10.1109/icarcv.2018.8581264",
+      "records": [
+        "Q10:12"
+      ],
+      "stage1": "exclude",
+      "stage1_reason": "题名/文献类型与本文可复用方法和基准范围不符：一般领域应用、同名异义或说明性资料。",
+      "stage2": "not_applicable"
+    },
+    {
+      "work_id": "10.1109/asiancon51346.2021.9544660",
+      "records": [
+        "Q10:13"
+      ],
+      "stage1": "exclude",
+      "stage1_reason": "题名/文献类型与本文可复用方法和基准范围不符：一般领域应用、同名异义或说明性资料。",
+      "stage2": "not_applicable"
+    },
+    {
+      "work_id": "10.18653/v1/n18-2036",
+      "records": [
+        "Q10:14"
+      ],
+      "stage1": "exclude",
+      "stage1_reason": "题名/文献类型与本文可复用方法和基准范围不符：一般领域应用、同名异义或说明性资料。",
+      "stage2": "not_applicable"
+    },
+    {
+      "work_id": "10.1007/978-3-642-32790-2_43",
+      "records": [
+        "Q10:15"
+      ],
+      "stage1": "exclude",
+      "stage1_reason": "题名/文献类型与本文可复用方法和基准范围不符：一般领域应用、同名异义或说明性资料。",
+      "stage2": "not_applicable"
+    },
+    {
+      "work_id": "10.1016/b978-0-323-95502-7.00358-4",
+      "records": [
+        "Q11:01"
+      ],
+      "stage1": "exclude",
+      "stage1_reason": "题名/文献类型与本文可复用方法和基准范围不符：一般领域应用、同名异义或说明性资料。",
+      "stage2": "not_applicable"
+    },
+    {
+      "work_id": "10.4135/9781526421036842861",
+      "records": [
+        "Q11:02"
+      ],
+      "stage1": "exclude",
+      "stage1_reason": "题名/文献类型与本文可复用方法和基准范围不符：一般领域应用、同名异义或说明性资料。",
+      "stage2": "not_applicable"
+    },
+    {
+      "work_id": "10.1016/b978-0-443-15845-2.00008-6",
+      "records": [
+        "Q11:03"
+      ],
+      "stage1": "exclude",
+      "stage1_reason": "题名/文献类型与本文可复用方法和基准范围不符：一般领域应用、同名异义或说明性资料。",
+      "stage2": "not_applicable"
+    },
+    {
+      "work_id": "10.4135/9781483391700.n13",
+      "records": [
+        "Q11:04"
+      ],
+      "stage1": "exclude",
+      "stage1_reason": "题名/文献类型与本文可复用方法和基准范围不符：一般领域应用、同名异义或说明性资料。",
+      "stage2": "not_applicable"
+    },
+    {
+      "work_id": "10.1002/9781118897126.ch1",
+      "records": [
+        "Q11:05"
+      ],
+      "stage1": "exclude",
+      "stage1_reason": "题名/文献类型与本文可复用方法和基准范围不符：一般领域应用、同名异义或说明性资料。",
+      "stage2": "not_applicable"
+    },
+    {
+      "work_id": "10.1007/978-94-007-5989-3_20",
+      "records": [
+        "Q11:06"
+      ],
+      "stage1": "exclude",
+      "stage1_reason": "题名/文献类型与本文可复用方法和基准范围不符：一般领域应用、同名异义或说明性资料。",
+      "stage2": "not_applicable"
+    },
+    {
+      "work_id": "10.1007/978-1-4614-8265-9_592",
+      "records": [
+        "Q11:07"
+      ],
+      "stage1": "exclude",
+      "stage1_reason": "题名/文献类型与本文可复用方法和基准范围不符：一般领域应用、同名异义或说明性资料。",
+      "stage2": "not_applicable"
+    },
+    {
+      "work_id": "10.1201/9780429262180-ch10",
+      "records": [
+        "Q11:08"
+      ],
+      "stage1": "exclude",
+      "stage1_reason": "题名/文献类型与本文可复用方法和基准范围不符：一般领域应用、同名异义或说明性资料。",
+      "stage2": "not_applicable"
+    },
+    {
+      "work_id": "10.1017/9781316338599.005",
+      "records": [
+        "Q11:09"
+      ],
+      "stage1": "exclude",
+      "stage1_reason": "题名/文献类型与本文可复用方法和基准范围不符：一般领域应用、同名异义或说明性资料。",
+      "stage2": "not_applicable"
+    },
+    {
+      "work_id": "10.4135/9781412961288.n100",
+      "records": [
+        "Q11:10"
+      ],
+      "stage1": "exclude",
+      "stage1_reason": "题名/文献类型与本文可复用方法和基准范围不符：一般领域应用、同名异义或说明性资料。",
+      "stage2": "not_applicable"
+    },
+    {
+      "work_id": "10.4135/9781071812082.n145",
+      "records": [
+        "Q11:11"
+      ],
+      "stage1": "exclude",
+      "stage1_reason": "题名/文献类型与本文可复用方法和基准范围不符：一般领域应用、同名异义或说明性资料。",
+      "stage2": "not_applicable"
+    },
+    {
+      "work_id": "10.1007/978-3-319-32010-6_300051",
+      "records": [
+        "Q11:12"
+      ],
+      "stage1": "exclude",
+      "stage1_reason": "题名/文献类型与本文可复用方法和基准范围不符：一般领域应用、同名异义或说明性资料。",
+      "stage2": "not_applicable"
+    },
+    {
+      "work_id": "10.1007/978-3-319-77525-8_3",
+      "records": [
+        "Q11:13"
+      ],
+      "stage1": "exclude",
+      "stage1_reason": "题名/文献类型与本文可复用方法和基准范围不符：一般领域应用、同名异义或说明性资料。",
+      "stage2": "not_applicable"
+    },
+    {
+      "work_id": "10.1145/3310205",
+      "records": [
+        "Q11:14"
+      ],
+      "stage1": "exclude",
+      "stage1_reason": "题名/文献类型与本文可复用方法和基准范围不符：一般领域应用、同名异义或说明性资料。",
+      "stage2": "not_applicable"
+    },
+    {
+      "work_id": "10.4135/9781483381411.n126",
+      "records": [
+        "Q11:15"
+      ],
+      "stage1": "exclude",
+      "stage1_reason": "题名/文献类型与本文可复用方法和基准范围不符：一般领域应用、同名异义或说明性资料。",
+      "stage2": "not_applicable"
+    },
+    {
+      "work_id": "10.14778/2021017.2021020",
+      "records": [
+        "Q12:01"
+      ],
+      "stage1": "retain",
+      "stage1_reason": "题名/摘要涉及相关方法、监督、程序合成或基准，进入范围复核。",
+      "query": 12,
+      "stage2": "exclude_scope_sample",
+      "stage2_reason": "候选仍相关；本轮补充DeepMatcher与21任务画像，配合已有Ditto、Unicorn、BATCHER比较表示、监督与任务难度，未单列其余匹配变体。"
+    },
+    {
+      "work_id": "10.1145/3431816",
+      "records": [
+        "Q12:02"
+      ],
+      "stage1": "retain",
+      "stage1_reason": "题名/摘要涉及相关方法、监督、程序合成或基准，进入范围复核。",
+      "query": 12,
+      "stage2": "exclude_scope_sample",
+      "stage2_reason": "候选仍相关；本轮补充DeepMatcher与21任务画像，配合已有Ditto、Unicorn、BATCHER比较表示、监督与任务难度，未单列其余匹配变体。"
+    },
+    {
+      "work_id": "10.1007/978-3-030-15032-7_68",
+      "records": [
+        "Q12:03",
+        "Q12:04"
+      ],
+      "stage1": "retain",
+      "stage1_reason": "题名/摘要涉及相关方法、监督、程序合成或基准，进入范围复核。",
+      "query": 12,
+      "stage2": "exclude_scope_sample",
+      "stage2_reason": "候选仍相关；本轮补充DeepMatcher与21任务画像，配合已有Ditto、Unicorn、BATCHER比较表示、监督与任务难度，未单列其余匹配变体。"
+    },
+    {
+      "work_id": "10.1109/tkde.2022.3200644",
+      "records": [
+        "Q12:05"
+      ],
+      "stage1": "retain",
+      "stage1_reason": "题名/摘要涉及相关方法、监督、程序合成或基准，进入范围复核。",
+      "query": 12,
+      "stage2": "exclude_scope_sample",
+      "stage2_reason": "候选仍相关；本轮补充DeepMatcher与21任务画像，配合已有Ditto、Unicorn、BATCHER比较表示、监督与任务难度，未单列其余匹配变体。"
+    },
+    {
+      "work_id": "10.1145/3459637.3482338",
+      "records": [
+        "Q12:06"
+      ],
+      "stage1": "exclude",
+      "stage1_reason": "题名/文献类型与本文可复用方法和基准范围不符：一般领域应用、同名异义或说明性资料。",
+      "stage2": "not_applicable"
+    },
+    {
+      "work_id": "10.1007/978-3-030-88389-8_19",
+      "records": [
+        "Q12:07"
+      ],
+      "stage1": "exclude",
+      "stage1_reason": "题名/文献类型与本文可复用方法和基准范围不符：一般领域应用、同名异义或说明性资料。",
+      "stage2": "not_applicable"
+    },
+    {
+      "work_id": "10.14778/1938545.1938546",
+      "records": [
+        "Q12:08"
+      ],
+      "stage1": "retain",
+      "stage1_reason": "题名/摘要涉及相关方法、监督、程序合成或基准，进入范围复核。",
+      "query": 12,
+      "stage2": "exclude_scope_sample",
+      "stage2_reason": "候选仍相关；本轮补充DeepMatcher与21任务画像，配合已有Ditto、Unicorn、BATCHER比较表示、监督与任务难度，未单列其余匹配变体。"
+    },
+    {
+      "work_id": "10.1145/3340531.3412781",
+      "records": [
+        "Q12:09"
+      ],
+      "stage1": "retain",
+      "stage1_reason": "题名/摘要涉及相关方法、监督、程序合成或基准，进入范围复核。",
+      "query": 12,
+      "stage2": "include",
+      "bibkey": "profile_em",
+      "stage2_reason": "补充明确的机制、监督来源或基准维度；技术依据与原文位置见EVIDENCE.md。"
+    },
+    {
+      "work_id": "10.1007/978-3-030-80418-3_20",
+      "records": [
+        "Q12:10"
+      ],
+      "stage1": "retain",
+      "stage1_reason": "题名/摘要涉及相关方法、监督、程序合成或基准，进入范围复核。",
+      "query": 12,
+      "stage2": "exclude_scope_sample",
+      "stage2_reason": "候选仍相关；本轮补充DeepMatcher与21任务画像，配合已有Ditto、Unicorn、BATCHER比较表示、监督与任务难度，未单列其余匹配变体。"
+    },
+    {
+      "work_id": "10.1145/3183713.3196926",
+      "records": [
+        "Q12:11"
+      ],
+      "stage1": "retain",
+      "stage1_reason": "题名/摘要涉及相关方法、监督、程序合成或基准，进入范围复核。",
+      "query": 12,
+      "stage2": "include",
+      "bibkey": "deepmatcher",
+      "stage2_reason": "补充明确的机制、监督来源或基准维度；技术依据与原文位置见EVIDENCE.md。"
+    },
+    {
+      "work_id": "10.1002/9781119381877.ch7",
+      "records": [
+        "Q12:12"
+      ],
+      "stage1": "exclude",
+      "stage1_reason": "题名/文献类型与本文可复用方法和基准范围不符：一般领域应用、同名异义或说明性资料。",
+      "stage2": "not_applicable"
+    },
+    {
+      "work_id": "10.1109/icde51399.2021.00116",
+      "records": [
+        "Q12:13"
+      ],
+      "stage1": "retain",
+      "stage1_reason": "题名/摘要涉及相关方法、监督、程序合成或基准，进入范围复核。",
+      "query": 12,
+      "stage2": "exclude_scope_sample",
+      "stage2_reason": "候选仍相关；本轮补充DeepMatcher与21任务画像，配合已有Ditto、Unicorn、BATCHER比较表示、监督与任务难度，未单列其余匹配变体。"
+    },
+    {
+      "work_id": "10.1007/s00778-023-00779-z",
+      "records": [
+        "Q12:14"
+      ],
+      "stage1": "retain",
+      "stage1_reason": "题名/摘要涉及相关方法、监督、程序合成或基准，进入范围复核。",
+      "query": 12,
+      "stage2": "exclude_scope_sample",
+      "stage2_reason": "候选仍相关；本轮补充DeepMatcher与21任务画像，配合已有Ditto、Unicorn、BATCHER比较表示、监督与任务难度，未单列其余匹配变体。"
+    },
+    {
+      "work_id": "10.1145/2783258.2783353",
+      "records": [
+        "Q12:15"
+      ],
+      "stage1": "retain",
+      "stage1_reason": "题名/摘要涉及相关方法、监督、程序合成或基准，进入范围复核。",
+      "query": 12,
+      "stage2": "exclude_scope_sample",
+      "stage2_reason": "候选仍相关；本轮补充DeepMatcher与21任务画像，配合已有Ditto、Unicorn、BATCHER比较表示、监督与任务难度，未单列其余匹配变体。"
+    },
+    {
+      "work_id": "10.1109/icist.2018.8426166",
+      "records": [
+        "Q13:01"
+      ],
+      "stage1": "retain",
+      "stage1_reason": "题名/摘要涉及相关方法、监督、程序合成或基准，进入范围复核。",
+      "query": 13,
+      "stage2": "exclude_scope_sample",
+      "stage2_reason": "候选仍相关；本轮用Morpheus补充示例与形式规范驱动的合成条件，其余转换研究保留候选。"
+    },
+    {
+      "work_id": "10.4324/9780429282454-12",
+      "records": [
+        "Q13:02"
+      ],
+      "stage1": "exclude",
+      "stage1_reason": "题名/文献类型与本文可复用方法和基准范围不符：一般领域应用、同名异义或说明性资料。",
+      "stage2": "not_applicable"
+    },
+    {
+      "work_id": "10.4135/9781506335292.n2",
+      "records": [
+        "Q13:03"
+      ],
+      "stage1": "exclude",
+      "stage1_reason": "题名/文献类型与本文可复用方法和基准范围不符：一般领域应用、同名异义或说明性资料。",
+      "stage2": "not_applicable"
+    },
+    {
+      "work_id": "10.1109/scam.2012.12",
+      "records": [
+        "Q13:04"
+      ],
+      "stage1": "exclude",
+      "stage1_reason": "题名/文献类型与本文可复用方法和基准范围不符：一般领域应用、同名异义或说明性资料。",
+      "stage2": "not_applicable"
+    },
+    {
+      "work_id": "10.1007/s10596-016-9597-9",
+      "records": [
+        "Q13:05"
+      ],
+      "stage1": "exclude",
+      "stage1_reason": "题名/文献类型与本文可复用方法和基准范围不符：一般领域应用、同名异义或说明性资料。",
+      "stage2": "not_applicable"
+    },
+    {
+      "work_id": "10.1109/icsedis68157.2026.11518392",
+      "records": [
+        "Q13:06"
+      ],
+      "stage1": "retain",
+      "stage1_reason": "题名/摘要涉及相关方法、监督、程序合成或基准，进入范围复核。",
+      "query": 13,
+      "stage2": "exclude_scope_sample",
+      "stage2_reason": "候选仍相关；本轮用Morpheus补充示例与形式规范驱动的合成条件，其余转换研究保留候选。"
+    },
+    {
+      "work_id": "10.5194/hess-2018-298-sc1",
+      "records": [
+        "Q13:07"
+      ],
+      "stage1": "exclude",
+      "stage1_reason": "题名/文献类型与本文可复用方法和基准范围不符：一般领域应用、同名异义或说明性资料。",
+      "stage2": "not_applicable"
+    },
+    {
+      "work_id": "10.1017/pds.2026.10402",
+      "records": [
+        "Q13:08"
+      ],
+      "stage1": "exclude",
+      "stage1_reason": "题名/文献类型与本文可复用方法和基准范围不符：一般领域应用、同名异义或说明性资料。",
+      "stage2": "not_applicable"
+    },
+    {
+      "work_id": "10.1117/12.2078188",
+      "records": [
+        "Q13:09"
+      ],
+      "stage1": "exclude",
+      "stage1_reason": "题名/文献类型与本文可复用方法和基准范围不符：一般领域应用、同名异义或说明性资料。",
+      "stage2": "not_applicable"
+    },
+    {
+      "work_id": "10.1109/epee63731.2024.10875108",
+      "records": [
+        "Q13:10"
+      ],
+      "stage1": "exclude",
+      "stage1_reason": "题名/文献类型与本文可复用方法和基准范围不符：一般领域应用、同名异义或说明性资料。",
+      "stage2": "not_applicable"
+    },
+    {
+      "work_id": "10.1158/2159-8290.22541408",
+      "records": [
+        "Q13:11",
+        "Q13:12"
+      ],
+      "stage1": "exclude",
+      "stage1_reason": "题名/文献类型与本文可复用方法和基准范围不符：一般领域应用、同名异义或说明性资料。",
+      "stage2": "not_applicable"
+    },
+    {
+      "work_id": "10.1016/j.comcom.2019.08.015",
+      "records": [
+        "Q13:13"
+      ],
+      "stage1": "exclude",
+      "stage1_reason": "题名/文献类型与本文可复用方法和基准范围不符：一般领域应用、同名异义或说明性资料。",
+      "stage2": "not_applicable"
+    },
+    {
+      "work_id": "10.1145/3062341.3062351",
+      "records": [
+        "Q13:14",
+        "Q13:15"
+      ],
+      "stage1": "retain",
+      "stage1_reason": "题名/摘要涉及相关方法、监督、程序合成或基准，进入范围复核。",
+      "query": 13,
+      "stage2": "include",
+      "bibkey": "morpheus",
+      "stage2_reason": "补充明确的机制、监督来源或基准维度；技术依据与原文位置见EVIDENCE.md。"
+    },
+    {
+      "work_id": "10.1007/978-981-16-9012-9_33",
+      "records": [
+        "Q14:01"
+      ],
+      "stage1": "exclude",
+      "stage1_reason": "题名/文献类型与本文可复用方法和基准范围不符：一般领域应用、同名异义或说明性资料。",
+      "stage2": "not_applicable"
+    },
+    {
+      "work_id": "10.1109/percomworkshops53856.2022.9767420",
+      "records": [
+        "Q14:02"
+      ],
+      "stage1": "retain",
+      "stage1_reason": "题名/摘要涉及相关方法、监督、程序合成或基准，进入范围复核。",
+      "query": 14,
+      "stage2": "exclude_scope_sample",
+      "stage2_reason": "候选仍相关；本轮用VersaMatch联结弱监督与准备任务，配合已有Snorkel；通用弱监督模型/综述未扩展讨论。"
+    },
+    {
+      "work_id": "10.18653/v1/2021.naacl-main.66",
+      "records": [
+        "Q14:03"
+      ],
+      "stage1": "retain",
+      "stage1_reason": "题名/摘要涉及相关方法、监督、程序合成或基准，进入范围复核。",
+      "query": 14,
+      "stage2": "exclude_scope_sample",
+      "stage2_reason": "候选仍相关；本轮用VersaMatch联结弱监督与准备任务，配合已有Snorkel；通用弱监督模型/综述未扩展讨论。"
+    },
+    {
+      "work_id": "10.1109/icpm49681.2020.00023",
+      "records": [
+        "Q14:04"
+      ],
+      "stage1": "exclude",
+      "stage1_reason": "题名/文献类型与本文可复用方法和基准范围不符：一般领域应用、同名异义或说明性资料。",
+      "stage2": "not_applicable"
+    },
+    {
+      "work_id": "10.1109/wacv45572.2020.9093544",
+      "records": [
+        "Q14:05"
+      ],
+      "stage1": "exclude",
+      "stage1_reason": "题名/文献类型与本文可复用方法和基准范围不符：一般领域应用、同名异义或说明性资料。",
+      "stage2": "not_applicable"
+    },
+    {
+      "work_id": "10.1109/lra.2020.2967712",
+      "records": [
+        "Q14:06"
+      ],
+      "stage1": "exclude",
+      "stage1_reason": "题名/文献类型与本文可复用方法和基准范围不符：一般领域应用、同名异义或说明性资料。",
+      "stage2": "not_applicable"
+    },
+    {
+      "work_id": "10.1609/aaai.v33i01.33019528",
+      "records": [
+        "Q14:07"
+      ],
+      "stage1": "exclude",
+      "stage1_reason": "题名/文献类型与本文可复用方法和基准范围不符：一般领域应用、同名异义或说明性资料。",
+      "stage2": "not_applicable"
+    },
+    {
+      "work_id": "10.18653/v1/2026.eacl-long.336",
+      "records": [
+        "Q14:08"
+      ],
+      "stage1": "exclude",
+      "stage1_reason": "题名/文献类型与本文可复用方法和基准范围不符：一般领域应用、同名异义或说明性资料。",
+      "stage2": "not_applicable"
+    },
+    {
+      "work_id": "10.1145/3077136.3080832",
+      "records": [
+        "Q14:09"
+      ],
+      "stage1": "exclude",
+      "stage1_reason": "题名/文献类型与本文可复用方法和基准范围不符：一般领域应用、同名异义或说明性资料。",
+      "stage2": "not_applicable"
+    },
+    {
+      "work_id": "10.18653/v1/2022.repl4nlp-1.27",
+      "records": [
+        "Q14:10"
+      ],
+      "stage1": "retain",
+      "stage1_reason": "题名/摘要涉及相关方法、监督、程序合成或基准，进入范围复核。",
+      "query": 14,
+      "stage2": "exclude_scope_sample",
+      "stage2_reason": "候选仍相关；本轮用VersaMatch联结弱监督与准备任务，配合已有Snorkel；通用弱监督模型/综述未扩展讨论。"
+    },
+    {
+      "work_id": "10.18653/v1/2021.acl-long.189",
+      "records": [
+        "Q14:11"
+      ],
+      "stage1": "exclude",
+      "stage1_reason": "题名/文献类型与本文可复用方法和基准范围不符：一般领域应用、同名异义或说明性资料。",
+      "stage2": "not_applicable"
+    },
+    {
+      "work_id": "10.14778/3583140.3583148",
+      "records": [
+        "Q14:12"
+      ],
+      "stage1": "retain",
+      "stage1_reason": "题名/摘要涉及相关方法、监督、程序合成或基准，进入范围复核。",
+      "query": 14,
+      "stage2": "include",
+      "bibkey": "versamatch",
+      "stage2_reason": "补充明确的机制、监督来源或基准维度；技术依据与原文位置见EVIDENCE.md。"
+    },
+    {
+      "work_id": "10.18653/v1/d18-1522",
+      "records": [
+        "Q14:13"
+      ],
+      "stage1": "exclude",
+      "stage1_reason": "题名/文献类型与本文可复用方法和基准范围不符：一般领域应用、同名异义或说明性资料。",
+      "stage2": "not_applicable"
+    },
+    {
+      "work_id": "10.1145/3532213.3532289",
+      "records": [
+        "Q14:14"
+      ],
+      "stage1": "exclude",
+      "stage1_reason": "题名/文献类型与本文可复用方法和基准范围不符：一般领域应用、同名异义或说明性资料。",
+      "stage2": "not_applicable"
+    },
+    {
+      "work_id": "10.1145/3583780.3614950",
+      "records": [
+        "Q14:15"
+      ],
+      "stage1": "exclude",
+      "stage1_reason": "题名/文献类型与本文可复用方法和基准范围不符：一般领域应用、同名异义或说明性资料。",
+      "stage2": "not_applicable"
+    },
+    {
+      "work_id": "10.1007/978-981-19-6798-6_5",
+      "records": [
+        "Q15:01"
+      ],
+      "stage1": "exclude",
+      "stage1_reason": "题名/文献类型与本文可复用方法和基准范围不符：一般领域应用、同名异义或说明性资料。",
+      "stage2": "not_applicable"
+    },
+    {
+      "work_id": "10.1017/s1431927620021200",
+      "records": [
+        "Q15:02"
+      ],
+      "stage1": "exclude",
+      "stage1_reason": "题名/文献类型与本文可复用方法和基准范围不符：一般领域应用、同名异义或说明性资料。",
+      "stage2": "not_applicable"
+    },
+    {
+      "work_id": "10.1007/978-3-030-31635-8_28",
+      "records": [
+        "Q15:03"
+      ],
+      "stage1": "exclude",
+      "stage1_reason": "题名/文献类型与本文可复用方法和基准范围不符：一般领域应用、同名异义或说明性资料。",
+      "stage2": "not_applicable"
+    },
+    {
+      "work_id": "10.1109/access.2022.3198662",
+      "records": [
+        "Q15:04"
+      ],
+      "stage1": "retain",
+      "stage1_reason": "题名/摘要涉及相关方法、监督、程序合成或基准，进入范围复核。",
+      "query": 15,
+      "stage2": "exclude_scope_sample",
+      "stage2_reason": "候选仍相关；本轮用DiffPrep补充可微双层流程搜索；不将同名Auto-Prep（Bilal等2022）与AutoPrep（Fan等2025）合并。"
+    },
+    {
+      "work_id": "10.1016/j.rechem.2026.103175",
+      "records": [
+        "Q15:05"
+      ],
+      "stage1": "exclude",
+      "stage1_reason": "题名/文献类型与本文可复用方法和基准范围不符：一般领域应用、同名异义或说明性资料。",
+      "stage2": "not_applicable"
+    },
+    {
+      "work_id": "10.3389/fninf.2022.843114",
+      "records": [
+        "Q15:06"
+      ],
+      "stage1": "exclude",
+      "stage1_reason": "题名/文献类型与本文可复用方法和基准范围不符：一般领域应用、同名异义或说明性资料。",
+      "stage2": "not_applicable"
+    },
+    {
+      "work_id": "10.1145/3589328",
+      "records": [
+        "Q15:07"
+      ],
+      "stage1": "retain",
+      "stage1_reason": "题名/摘要涉及相关方法、监督、程序合成或基准，进入范围复核。",
+      "query": 15,
+      "stage2": "include",
+      "bibkey": "diffprep",
+      "stage2_reason": "补充明确的机制、监督来源或基准维度；技术依据与原文位置见EVIDENCE.md。"
+    },
+    {
+      "work_id": "10.1016/b978-0-12-819084-5.00012-2",
+      "records": [
+        "Q15:08"
+      ],
+      "stage1": "exclude",
+      "stage1_reason": "题名/文献类型与本文可复用方法和基准范围不符：一般领域应用、同名异义或说明性资料。",
+      "stage2": "not_applicable"
+    },
+    {
+      "work_id": "10.56441/hilbertpress.2207.6599",
+      "records": [
+        "Q15:09"
+      ],
+      "stage1": "exclude",
+      "stage1_reason": "题名/文献类型与本文可复用方法和基准范围不符：一般领域应用、同名异义或说明性资料。",
+      "stage2": "not_applicable"
+    },
+    {
+      "work_id": "10.14445/23488549/ijece-v11i4p106",
+      "records": [
+        "Q15:10"
+      ],
+      "stage1": "exclude",
+      "stage1_reason": "题名/文献类型与本文可复用方法和基准范围不符：一般领域应用、同名异义或说明性资料。",
+      "stage2": "not_applicable"
+    },
+    {
+      "work_id": "10.1016/j.engappai.2024.109893",
+      "records": [
+        "Q15:11"
+      ],
+      "stage1": "exclude",
+      "stage1_reason": "题名/文献类型与本文可复用方法和基准范围不符：一般领域应用、同名异义或说明性资料。",
+      "stage2": "not_applicable"
+    },
+    {
+      "work_id": "10.1109/pesim67009.2026.11439034",
+      "records": [
+        "Q15:12"
+      ],
+      "stage1": "exclude",
+      "stage1_reason": "题名/文献类型与本文可复用方法和基准范围不符：一般领域应用、同名异义或说明性资料。",
+      "stage2": "not_applicable"
+    },
+    {
+      "work_id": "10.21105/joss.06636",
+      "records": [
+        "Q15:13"
+      ],
+      "stage1": "exclude",
+      "stage1_reason": "题名/文献类型与本文可复用方法和基准范围不符：一般领域应用、同名异义或说明性资料。",
+      "stage2": "not_applicable"
+    },
+    {
+      "work_id": "10.3390/s25154737",
+      "records": [
+        "Q15:14"
+      ],
+      "stage1": "exclude",
+      "stage1_reason": "题名/文献类型与本文可复用方法和基准范围不符：一般领域应用、同名异义或说明性资料。",
+      "stage2": "not_applicable"
+    },
+    {
+      "work_id": "10.3389/fimmu.2021.677870",
+      "records": [
+        "Q15:15"
+      ],
+      "stage1": "exclude",
+      "stage1_reason": "题名/文献类型与本文可复用方法和基准范围不符：一般领域应用、同名异义或说明性资料。",
+      "stage2": "not_applicable"
+    },
+    {
+      "work_id": "10.1002/9780470753866.ch6",
+      "records": [
+        "Q16:01"
+      ],
+      "stage1": "exclude",
+      "stage1_reason": "题名/文献类型与本文可复用方法和基准范围不符：一般领域应用、同名异义或说明性资料。",
+      "stage2": "not_applicable"
+    },
+    {
+      "work_id": "10.1007/978-1-84882-260-3_6",
+      "records": [
+        "Q16:02"
+      ],
+      "stage1": "exclude",
+      "stage1_reason": "题名/文献类型与本文可复用方法和基准范围不符：一般领域应用、同名异义或说明性资料。",
+      "stage2": "not_applicable"
+    },
+    {
+      "work_id": "10.4135/9781446287903.n4",
+      "records": [
+        "Q16:03"
+      ],
+      "stage1": "exclude",
+      "stage1_reason": "题名/文献类型与本文可复用方法和基准范围不符：一般领域应用、同名异义或说明性资料。",
+      "stage2": "not_applicable"
+    },
+    {
+      "work_id": "10.1201/b17525-13",
+      "records": [
+        "Q16:04"
+      ],
+      "stage1": "exclude",
+      "stage1_reason": "题名/文献类型与本文可复用方法和基准范围不符：一般领域应用、同名异义或说明性资料。",
+      "stage2": "not_applicable"
+    },
+    {
+      "work_id": "10.1201/9781003486817-3",
+      "records": [
+        "Q16:05"
+      ],
+      "stage1": "exclude",
+      "stage1_reason": "题名/文献类型与本文可复用方法和基准范围不符：一般领域应用、同名异义或说明性资料。",
+      "stage2": "not_applicable"
+    },
+    {
+      "work_id": "10.1007/978-1-4842-4137-0_3",
+      "records": [
+        "Q16:06"
+      ],
+      "stage1": "exclude",
+      "stage1_reason": "题名/文献类型与本文可复用方法和基准范围不符：一般领域应用、同名异义或说明性资料。",
+      "stage2": "not_applicable"
+    },
+    {
+      "work_id": "10.1007/978-1-4842-2178-5_3",
+      "records": [
+        "Q16:07"
+      ],
+      "stage1": "exclude",
+      "stage1_reason": "题名/文献类型与本文可复用方法和基准范围不符：一般领域应用、同名异义或说明性资料。",
+      "stage2": "not_applicable"
+    },
+    {
+      "work_id": "10.1016/b978-0-32-391778-0.00010-7",
+      "records": [
+        "Q16:08"
+      ],
+      "stage1": "exclude",
+      "stage1_reason": "题名/文献类型与本文可复用方法和基准范围不符：一般领域应用、同名异义或说明性资料。",
+      "stage2": "not_applicable"
+    },
+    {
+      "work_id": "10.1002/9781119005056.ch6",
+      "records": [
+        "Q16:09"
+      ],
+      "stage1": "exclude",
+      "stage1_reason": "题名/文献类型与本文可复用方法和基准范围不符：一般领域应用、同名异义或说明性资料。",
+      "stage2": "not_applicable"
+    },
+    {
+      "work_id": "10.1007/978-1-4842-5729-6_9",
+      "records": [
+        "Q16:10"
+      ],
+      "stage1": "exclude",
+      "stage1_reason": "题名/文献类型与本文可复用方法和基准范围不符：一般领域应用、同名异义或说明性资料。",
+      "stage2": "not_applicable"
+    },
+    {
+      "work_id": "10.1145/3444831.3444835",
+      "records": [
+        "Q16:11"
+      ],
+      "stage1": "retain",
+      "stage1_reason": "题名/摘要涉及相关方法、监督、程序合成或基准，进入范围复核。",
+      "query": 16,
+      "stage2": "exclude_scope_sample",
+      "stage2_reason": "通用Data Preparation材料不补充本轮搜索状态、验证条件或基准对照的独立证据，未纳入正文。"
+    },
+    {
+      "work_id": "10.1007/978-981-96-6259-3_4",
+      "records": [
+        "Q16:12"
+      ],
+      "stage1": "exclude",
+      "stage1_reason": "题名/文献类型与本文可复用方法和基准范围不符：一般领域应用、同名异义或说明性资料。",
+      "stage2": "not_applicable"
+    },
+    {
+      "work_id": "10.1201/9781003028611-9",
+      "records": [
+        "Q16:13"
+      ],
+      "stage1": "exclude",
+      "stage1_reason": "题名/文献类型与本文可复用方法和基准范围不符：一般领域应用、同名异义或说明性资料。",
+      "stage2": "not_applicable"
+    },
+    {
+      "work_id": "10.1007/978-1-4899-7687-1_62",
+      "records": [
+        "Q16:14"
+      ],
+      "stage1": "exclude",
+      "stage1_reason": "题名/文献类型与本文可复用方法和基准范围不符：一般领域应用、同名异义或说明性资料。",
+      "stage2": "not_applicable"
+    },
+    {
+      "work_id": "10.1007/978-3-319-77525-8_100087",
+      "records": [
+        "Q16:15"
+      ],
+      "stage1": "exclude",
+      "stage1_reason": "题名/文献类型与本文可复用方法和基准范围不符：一般领域应用、同名异义或说明性资料。",
+      "stage2": "not_applicable"
+    }
+  ]
+}

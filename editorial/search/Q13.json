@@ -1,0 +1,1753 @@
+{
+  "id": "Q13",
+  "source": "Crossref works relevance search",
+  "query": {
+    "query.title": "table transformation",
+    "rows": 15,
+    "filter": "from-pub-date:2009-01-01,until-pub-date:2026-09-09",
+    "select": "DOI,title,author,published,container-title,abstract,type,URL"
+  },
+  "endpoint": "https://api.crossref.org/works?query.title=table+transformation&rows=15&filter=from-pub-date%3A2009-01-01%2Cuntil-pub-date%3A2026-09-09&select=DOI%2Ctitle%2Cauthor%2Cpublished%2Ccontainer-title%2Cabstract%2Ctype%2CURL",
+  "retrieved": "2026-09-09",
+  "response": {
+    "status": "ok",
+    "message-type": "work-list",
+    "message-version": "1.0.0",
+    "message": {
+      "facets": {},
+      "total-results": 576178,
+      "items": [
+        {
+          "DOI": "10.1109/icist.2018.8426166",
+          "title": [
+            "Table Transformation Rule Learner"
+          ],
+          "author": [
+            {
+              "given": "Yongchi",
+              "family": "Su",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Chunping",
+              "family": "Li",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Shaoxu",
+              "family": "Song",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Kenji",
+              "family": "Takao",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2018,
+                6
+              ]
+            ]
+          },
+          "container-title": [
+            "2018 Eighth International Conference on Information Science and Technology (ICIST)"
+          ],
+          "type": "proceedings-article",
+          "URL": "https://doi.org/10.1109/icist.2018.8426166"
+        },
+        {
+          "DOI": "10.4324/9780429282454-12",
+          "title": [
+            "The Time-Table of Transformation"
+          ],
+          "author": [
+            {
+              "given": "J. D.",
+              "family": "Bernal",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2019,
+                7,
+                8
+              ]
+            ]
+          },
+          "container-title": [
+            "World Without War"
+          ],
+          "type": "book-chapter",
+          "URL": "https://doi.org/10.4324/9780429282454-12"
+        },
+        {
+          "DOI": "10.4135/9781506335292.n2",
+          "title": [
+            "Setting the Table for Transformation"
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2012
+              ]
+            ]
+          },
+          "container-title": [
+            "Off the Clock: Moving Education From Time to Competency"
+          ],
+          "type": "book-chapter",
+          "URL": "https://doi.org/10.4135/9781506335292.n2"
+        },
+        {
+          "DOI": "10.1109/scam.2012.12",
+          "title": [
+            "Optimizing Expression Selection for Lookup Table Program Transformation"
+          ],
+          "author": [
+            {
+              "given": "Chris",
+              "family": "Wilcox",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Michelle Mills",
+              "family": "Strout",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "James M.",
+              "family": "Bieman",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2012,
+                9
+              ]
+            ]
+          },
+          "container-title": [
+            "2012 IEEE 12th International Working Conference on Source Code Analysis and Manipulation"
+          ],
+          "type": "proceedings-article",
+          "URL": "https://doi.org/10.1109/scam.2012.12"
+        },
+        {
+          "DOI": "10.1007/s10596-016-9597-9",
+          "title": [
+            "Efficient water table evolution discretization using domain transformation"
+          ],
+          "author": [
+            {
+              "given": "W. M.",
+              "family": "Boon",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "N.",
+              "family": "Balbarini",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "P. J.",
+              "family": "Binning",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "J. M.",
+              "family": "Nordbotten",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2016,
+                11,
+                2
+              ]
+            ]
+          },
+          "container-title": [
+            "Computational Geosciences"
+          ],
+          "type": "journal-article",
+          "URL": "https://doi.org/10.1007/s10596-016-9597-9"
+        },
+        {
+          "DOI": "10.1109/icsedis68157.2026.11518392",
+          "title": [
+            "TABLE-SMITH: Structured Data Transformation Through Class-based Segmentation"
+          ],
+          "author": [
+            {
+              "given": "M.",
+              "family": "Deepika",
+              "sequence": "first",
+              "affiliation": [
+                {
+                  "name": "Neil Gogte Institute of Technology,CSE (Artificial Intelligence &amp; Machine Learning),Hyderabad,Telangana,India"
+                }
+              ],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Sandeep",
+              "family": "Kumar",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "Nagpur Campus, Symbiosis International (Deemed University),Symbiosis Institute of Technology,Department of Computer Science &amp; Engineering,Pune,Maharashtra,India"
+                }
+              ],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "K Anirudh",
+              "family": "Sai",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "Neil Gogte Institute of Technology,Computer Science and Engineering,Hyderabad,Telangana,India"
+                }
+              ],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "B Sai",
+              "family": "Charan",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "Neil Gogte Institute of Technology,Computer Science and Engineering,Hyderabad,Telangana,India"
+                }
+              ],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "K",
+              "family": "Hari",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "Neil Gogte Institute of Technology,Computer Science and Engineering,Hyderabad,Telangana,India"
+                }
+              ],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Shilpa",
+              "family": "Choudhary",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "Neil Gogte Institute of Technology,CSE (Artificial Intelligence &amp; Machine Learning),Hyderabad,Telangana,India"
+                }
+              ],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2026,
+                4,
+                13
+              ]
+            ]
+          },
+          "container-title": [
+            "2026 International Conference on Smart Electronic Devices and Intelligent Systems (ICSEDIS)"
+          ],
+          "type": "proceedings-article",
+          "URL": "https://doi.org/10.1109/icsedis68157.2026.11518392"
+        },
+        {
+          "DOI": "10.5194/hess-2018-298-sc1",
+          "title": [
+            "On Table 1: A fifth transformation of the low flow"
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2018,
+                6,
+                9
+              ]
+            ]
+          },
+          "type": "peer-review",
+          "URL": "https://doi.org/10.5194/hess-2018-298-sc1"
+        },
+        {
+          "DOI": "10.1017/pds.2026.10402",
+          "title": [
+            "Capability-based engineering transformation – the periodic table of engineering capabilities"
+          ],
+          "author": [
+            {
+              "given": "Fabian",
+              "family": "Wyrwich",
+              "sequence": "first",
+              "affiliation": [
+                {
+                  "name": "Fraunhofer IEM"
+                }
+              ],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Fabian",
+              "family": "Hanke",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "Fraunhofer IEM"
+                }
+              ],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Malte",
+              "family": "Trienens",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "Fraunhofer IEM"
+                }
+              ],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Aschot",
+              "family": "Hovemann",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "Fraunhofer IEM"
+                }
+              ],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Roman",
+              "family": "Dumitrescu",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "Paderborn University"
+                }
+              ],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2026,
+                7,
+                2
+              ]
+            ]
+          },
+          "container-title": [
+            "Proceedings of the Design Society"
+          ],
+          "abstract": "<jats:title>ABSTRACT:</jats:title>\n                  <jats:p>The increasing digitalization and connectivity of development processes are forcing companies to transform their engineering comprehensively. The presented engineering reference capability map provides a structured framework for this transformation. The capability map is a four-level hierarchical model, contains essential engineering capabilities and is inspired by the periodic table of elements. Standardized profiles describe the characteristics and dependencies of each capability. The map serves as a reference framework for identifying gaps, potential, and development needs in engineering.</jats:p>",
+          "type": "journal-article",
+          "URL": "https://doi.org/10.1017/pds.2026.10402"
+        },
+        {
+          "DOI": "10.1117/12.2078188",
+          "title": [
+            "JPEG quantization table mismatched steganalysis via robust discriminative feature transformation"
+          ],
+          "author": [
+            {
+              "given": "Likai",
+              "family": "Zeng",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Xiangwei",
+              "family": "Kong",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Ming",
+              "family": "Li",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Yanqing",
+              "family": "Guo",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2015,
+                3,
+                4
+              ]
+            ]
+          },
+          "container-title": [
+            "SPIE Proceedings",
+            "Media Watermarking, Security, and Forensics 2015"
+          ],
+          "type": "proceedings-article",
+          "URL": "https://doi.org/10.1117/12.2078188"
+        },
+        {
+          "DOI": "10.1109/epee63731.2024.10875108",
+          "title": [
+            "Fast Static Security Analysis Based on Rapid Factor Table Transformation"
+          ],
+          "author": [
+            {
+              "given": "Juanjuan",
+              "family": "Lu",
+              "sequence": "first",
+              "affiliation": [
+                {
+                  "name": "NARI Group Corporation (State Grid Electric Power Research Institute) Co., Ltd,Grid Control Technology Branch,Nanjing,China"
+                }
+              ],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Kemeng",
+              "family": "Li",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "NARI Group Corporation (State Grid Electric Power Research Institute) Co., Ltd,Grid Control Technology Branch,Nanjing,China"
+                }
+              ],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Yi",
+              "family": "Wang",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "NARI Group Corporation (State Grid Electric Power Research Institute) Co., Ltd,Grid Control Technology Branch,Nanjing,China"
+                }
+              ],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Qiwen",
+              "family": "Tang",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "State Grid Zhejiang Electric Power Company, Ltd,Dispatch Control Centers,Hangzhou,Zhejiang,China"
+                }
+              ],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2024,
+                9,
+                20
+              ]
+            ]
+          },
+          "container-title": [
+            "2024 4th International Conference on Energy, Power and Electrical Engineering (EPEE)"
+          ],
+          "type": "proceedings-article",
+          "URL": "https://doi.org/10.1109/epee63731.2024.10875108"
+        },
+        {
+          "DOI": "10.1158/2159-8290.22541408",
+          "title": [
+            "Supplementary Table from Phase Separation Mediates NUP98 Fusion Oncoprotein Leukemic Transformation"
+          ],
+          "author": [
+            {
+              "given": "Bappaditya",
+              "family": "Chandra",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "ORCID": "https://orcid.org/0000-0002-9960-5119",
+              "authenticated-orcid": false,
+              "given": "Nicole L.",
+              "family": "Michmerhuizen",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Hazheen K.",
+              "family": "Shirnekhi",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Swarnendu",
+              "family": "Tripathi",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "ORCID": "https://orcid.org/0000-0002-0123-8905",
+              "authenticated-orcid": false,
+              "given": "Brittany J.",
+              "family": "Pioso",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "David W.",
+              "family": "Baggett",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Diana M.",
+              "family": "Mitrea",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "ORCID": "https://orcid.org/0000-0003-2008-1365",
+              "authenticated-orcid": false,
+              "given": "Ilaria",
+              "family": "Iacobucci",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Michael R.",
+              "family": "White",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "ORCID": "https://orcid.org/0000-0003-4179-0371",
+              "authenticated-orcid": false,
+              "given": "Jingjing",
+              "family": "Chen",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Cheon-Gil",
+              "family": "Park",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Huiyun",
+              "family": "Wu",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Stanley",
+              "family": "Pounds",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "ORCID": "https://orcid.org/0000-0001-5268-713X",
+              "authenticated-orcid": false,
+              "given": "Anna",
+              "family": "Medyukhina",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "ORCID": "https://orcid.org/0000-0002-9274-5928",
+              "authenticated-orcid": false,
+              "given": "Khaled",
+              "family": "Khairy",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Qingsong",
+              "family": "Gao",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Chunxu",
+              "family": "Qu",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "ORCID": "https://orcid.org/0000-0002-3319-2403",
+              "authenticated-orcid": false,
+              "given": "Sherif",
+              "family": "Abdelhamed",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Scott D.",
+              "family": "Gorman",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Simranjot",
+              "family": "Bawa",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Carolyn",
+              "family": "Maslanka",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "ORCID": "https://orcid.org/0000-0002-2053-0944",
+              "authenticated-orcid": false,
+              "given": "Swati",
+              "family": "Kinger",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Priyanka",
+              "family": "Dogra",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "ORCID": "https://orcid.org/0000-0002-9693-8401",
+              "authenticated-orcid": false,
+              "given": "Mylene C.",
+              "family": "Ferrolino",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Danika",
+              "family": "Di Giacomo",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Cristina",
+              "family": "Mecucci",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "ORCID": "https://orcid.org/0000-0003-2961-6960",
+              "authenticated-orcid": false,
+              "given": "Jeffery M.",
+              "family": "Klco",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "ORCID": "https://orcid.org/0000-0002-1871-1850",
+              "authenticated-orcid": false,
+              "given": "Charles G.",
+              "family": "Mullighan",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "ORCID": "https://orcid.org/0000-0002-9798-6018",
+              "authenticated-orcid": false,
+              "given": "Richard W.",
+              "family": "Kriwacki",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2023,
+                4,
+                4
+              ]
+            ]
+          },
+          "abstract": "<jats:p>Supplementary Table from Phase Separation Mediates NUP98 Fusion Oncoprotein Leukemic Transformation</jats:p>",
+          "type": "posted-content",
+          "URL": "https://doi.org/10.1158/2159-8290.22541408"
+        },
+        {
+          "DOI": "10.1158/2159-8290.22541408.v1",
+          "title": [
+            "Supplementary Table from Phase Separation Mediates NUP98 Fusion Oncoprotein Leukemic Transformation"
+          ],
+          "author": [
+            {
+              "given": "Bappaditya",
+              "family": "Chandra",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "ORCID": "https://orcid.org/0000-0002-9960-5119",
+              "authenticated-orcid": false,
+              "given": "Nicole L.",
+              "family": "Michmerhuizen",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Hazheen K.",
+              "family": "Shirnekhi",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Swarnendu",
+              "family": "Tripathi",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "ORCID": "https://orcid.org/0000-0002-0123-8905",
+              "authenticated-orcid": false,
+              "given": "Brittany J.",
+              "family": "Pioso",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "David W.",
+              "family": "Baggett",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Diana M.",
+              "family": "Mitrea",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "ORCID": "https://orcid.org/0000-0003-2008-1365",
+              "authenticated-orcid": false,
+              "given": "Ilaria",
+              "family": "Iacobucci",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Michael R.",
+              "family": "White",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "ORCID": "https://orcid.org/0000-0003-4179-0371",
+              "authenticated-orcid": false,
+              "given": "Jingjing",
+              "family": "Chen",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Cheon-Gil",
+              "family": "Park",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Huiyun",
+              "family": "Wu",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Stanley",
+              "family": "Pounds",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "ORCID": "https://orcid.org/0000-0001-5268-713X",
+              "authenticated-orcid": false,
+              "given": "Anna",
+              "family": "Medyukhina",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "ORCID": "https://orcid.org/0000-0002-9274-5928",
+              "authenticated-orcid": false,
+              "given": "Khaled",
+              "family": "Khairy",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Qingsong",
+              "family": "Gao",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Chunxu",
+              "family": "Qu",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "ORCID": "https://orcid.org/0000-0002-3319-2403",
+              "authenticated-orcid": false,
+              "given": "Sherif",
+              "family": "Abdelhamed",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Scott D.",
+              "family": "Gorman",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Simranjot",
+              "family": "Bawa",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Carolyn",
+              "family": "Maslanka",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "ORCID": "https://orcid.org/0000-0002-2053-0944",
+              "authenticated-orcid": false,
+              "given": "Swati",
+              "family": "Kinger",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Priyanka",
+              "family": "Dogra",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "ORCID": "https://orcid.org/0000-0002-9693-8401",
+              "authenticated-orcid": false,
+              "given": "Mylene C.",
+              "family": "Ferrolino",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Danika",
+              "family": "Di Giacomo",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Cristina",
+              "family": "Mecucci",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "ORCID": "https://orcid.org/0000-0003-2961-6960",
+              "authenticated-orcid": false,
+              "given": "Jeffery M.",
+              "family": "Klco",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "ORCID": "https://orcid.org/0000-0002-1871-1850",
+              "authenticated-orcid": false,
+              "given": "Charles G.",
+              "family": "Mullighan",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "ORCID": "https://orcid.org/0000-0002-9798-6018",
+              "authenticated-orcid": false,
+              "given": "Richard W.",
+              "family": "Kriwacki",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2023,
+                4,
+                4
+              ]
+            ]
+          },
+          "abstract": "<jats:p>Supplementary Table from Phase Separation Mediates NUP98 Fusion Oncoprotein Leukemic Transformation</jats:p>",
+          "type": "posted-content",
+          "URL": "https://doi.org/10.1158/2159-8290.22541408.v1"
+        },
+        {
+          "DOI": "10.1016/j.comcom.2019.08.015",
+          "title": [
+            "Efficient topview person detector using point based transformation and lookup table"
+          ],
+          "author": [
+            {
+              "given": "Imran",
+              "family": "Ahmed",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Misbah",
+              "family": "Ahmad",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Muhammad",
+              "family": "Nawaz",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Khalid",
+              "family": "Haseeb",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Sajidullah",
+              "family": "Khan",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Gwanggil",
+              "family": "Jeon",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2019,
+                11
+              ]
+            ]
+          },
+          "container-title": [
+            "Computer Communications"
+          ],
+          "type": "journal-article",
+          "URL": "https://doi.org/10.1016/j.comcom.2019.08.015"
+        },
+        {
+          "DOI": "10.1145/3140587.3062351",
+          "title": [
+            "Component-based synthesis of table consolidation and transformation tasks from examples"
+          ],
+          "author": [
+            {
+              "given": "Yu",
+              "family": "Feng",
+              "sequence": "first",
+              "affiliation": [
+                {
+                  "name": "University of Texas at Austin, USA"
+                }
+              ],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Ruben",
+              "family": "Martins",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "University of Texas at Austin, USA"
+                }
+              ],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Jacob",
+              "family": "Van Geffen",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "University of Texas at Austin, USA"
+                }
+              ],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Isil",
+              "family": "Dillig",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "University of Texas at Austin, USA"
+                }
+              ],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Swarat",
+              "family": "Chaudhuri",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "Rice University, USA"
+                }
+              ],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2017,
+                6,
+                14
+              ]
+            ]
+          },
+          "container-title": [
+            "ACM SIGPLAN Notices"
+          ],
+          "abstract": "<jats:p>This paper presents a novel component-based synthesis algorithm that marries the power of type-directed search with lightweight SMT-based deduction and partial evaluation. Given a set of components together with their over-approximate first-order specifications, our method first generates a program sketch over a subset of the components and checks its feasibility using an SMT solver. Since a program sketch typically represents many concrete programs, the use of SMT-based deduction greatly increases the scalability of the algorithm. Once a feasible program sketch is found, our algorithm completes the sketch in a bottom-up fashion, using partial evaluation to further increase the power of deduction for rejecting partially-filled program sketches. We apply the proposed synthesis methodology for automating a large class of data preparation tasks that commonly arise in data science. We have evaluated our synthesis algorithm on dozens of data wrangling and consolidation tasks obtained from on-line forums, and we show that our approach can automatically solve a large class of problems encountered by R users.</jats:p>",
+          "type": "journal-article",
+          "URL": "https://doi.org/10.1145/3140587.3062351"
+        },
+        {
+          "DOI": "10.1145/3062341.3062351",
+          "title": [
+            "Component-based synthesis of table consolidation and transformation tasks from examples"
+          ],
+          "author": [
+            {
+              "given": "Yu",
+              "family": "Feng",
+              "sequence": "first",
+              "affiliation": [
+                {
+                  "name": "University of Texas at Austin, USA"
+                }
+              ],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Ruben",
+              "family": "Martins",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "University of Texas at Austin, USA"
+                }
+              ],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Jacob",
+              "family": "Van Geffen",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "University of Texas at Austin, USA"
+                }
+              ],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Isil",
+              "family": "Dillig",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "University of Texas at Austin, USA"
+                }
+              ],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Swarat",
+              "family": "Chaudhuri",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "Rice University, USA"
+                }
+              ],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2017,
+                6,
+                14
+              ]
+            ]
+          },
+          "container-title": [
+            "Proceedings of the 38th ACM SIGPLAN Conference on Programming Language Design and Implementation"
+          ],
+          "type": "proceedings-article",
+          "URL": "https://doi.org/10.1145/3062341.3062351"
+        }
+      ],
+      "items-per-page": 15,
+      "query": {
+        "start-index": 0,
+        "search-terms": null
+      }
+    }
+  }
+}

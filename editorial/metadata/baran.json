@@ -1,0 +1,668 @@
+{
+  "database": "Crossref",
+  "endpoint": "https://api.crossref.org/works?query.bibliographic=Baran+Effective+Error+Correction+via+a+Unified+Context+Representation+and+Transfer+Learning&rows=3",
+  "retrieved": "2026-09-09",
+  "status_code": 200,
+  "response": {
+    "status": "ok",
+    "message-type": "work-list",
+    "message-version": "1.0.0",
+    "message": {
+      "facets": {},
+      "total-results": 229178,
+      "items": [
+        {
+          "indexed": {
+            "date-parts": [
+              [
+                2026,
+                9,
+                5
+              ]
+            ],
+            "date-time": "2026-09-05T01:25:05Z",
+            "timestamp": 1788571505974,
+            "version": "build-2803163510"
+          },
+          "reference-count": 50,
+          "publisher": "Association for Computing Machinery (ACM)",
+          "issue": "12",
+          "content-domain": {
+            "domain": [],
+            "crossmark-restriction": false
+          },
+          "short-container-title": [
+            "Proc. VLDB Endow."
+          ],
+          "published-print": {
+            "date-parts": [
+              [
+                2020,
+                8
+              ]
+            ]
+          },
+          "abstract": "<jats:p>Traditional error correction solutions leverage handmaid rules or master data to find the correct values. Both are often amiss in real-world scenarios. Therefore, it is desirable to additionally learn corrections from a limited number of example repairs. To effectively generalize example repairs, it is necessary to capture the entire context of each erroneous value. A context comprises the value itself, the co-occurring values inside the same tuple, and all values that define the attribute type. Typically, an error corrector based on any of these context information undergoes an individual process of operations that is not always easy to integrate with other types of error correctors. In this paper, we present a new error correction system, Baran, which provides a unifying abstraction for integrating multiple error corrector models that can be pretrained and updated in the same way. Because of the holistic nature of our approach, we generate more correction candidates than state of the art and, because of the underlying context-aware data representation, we achieve high precision. We show that, by pretraining our models based on Wikipedia revisions, our system can further improve its overall precision and recall. In our experiments, Baran significantly outperforms state-of-the-art error correction systems in terms of effectiveness and human involvement requiring only 20 labeled tuples.</jats:p>",
+          "DOI": "10.14778/3407790.3407801",
+          "type": "journal-article",
+          "created": {
+            "date-parts": [
+              [
+                2020,
+                9,
+                14
+              ]
+            ],
+            "date-time": "2020-09-14T18:46:35Z",
+            "timestamp": 1600109195000
+          },
+          "page": "1948-1961",
+          "source": "Crossref",
+          "is-referenced-by-count": 94,
+          "title": [
+            "Baran"
+          ],
+          "prefix": "10.14778",
+          "volume": "13",
+          "author": [
+            {
+              "given": "Mohammad",
+              "family": "Mahdavi",
+              "sequence": "first",
+              "affiliation": [
+                {
+                  "name": "Technische Universität Berlin"
+                }
+              ],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Ziawasch",
+              "family": "Abedjan",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "Technische Universität Berlin"
+                }
+              ],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            }
+          ],
+          "member": "320",
+          "published-online": {
+            "date-parts": [
+              [
+                2020,
+                7
+              ]
+            ]
+          },
+          "reference": [
+            {
+              "key": "e_1_2_1_1_1",
+              "volume-title": "https://en.wikipedia.org/wiki/Wikipedia:Database_download",
+              "year": "2019",
+              "unstructured": "Wikipedia:database download. https://en.wikipedia.org/wiki/Wikipedia:Database_download, 2019. Accessed: 12.09.2019."
+            },
+            {
+              "key": "e_1_2_1_2_1",
+              "volume-title": "https://www.mediawiki.org/wiki/Wikitext",
+              "year": "2019",
+              "unstructured": "Wikitext. https://www.mediawiki.org/wiki/Wikitext, 2019. Accessed: 12.09.2019."
+            },
+            {
+              "key": "e_1_2_1_3_1",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.14778/2994509.2994518"
+            },
+            {
+              "key": "e_1_2_1_4_1",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1007/s00778-015-0389-y"
+            },
+            {
+              "key": "e_1_2_1_5_1",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1109/ICDE.2016.7498319"
+            },
+            {
+              "key": "e_1_2_1_6_1",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.14778/1687627.1687686"
+            },
+            {
+              "key": "e_1_2_1_7_1",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.14778/2850578.2850579"
+            },
+            {
+              "key": "e_1_2_1_8_1",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1007/978-3-540-76298-0_52"
+            },
+            {
+              "key": "e_1_2_1_9_1",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1109/ICDE.2013.6544854"
+            },
+            {
+              "key": "e_1_2_1_10_1",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1007/s10994-013-5367-2"
+            },
+            {
+              "key": "e_1_2_1_11_1",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1109/ICDE.2013.6544847"
+            },
+            {
+              "key": "e_1_2_1_12_1",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1145/2723372.2749431"
+            },
+            {
+              "key": "e_1_2_1_13_1",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1145/2463676.2465327"
+            },
+            {
+              "key": "e_1_2_1_14_1",
+              "volume-title": "CIDR",
+              "author": "Deng D.",
+              "year": "2017",
+              "unstructured": "D. Deng, R. C. Fernandez, Z. Abedjan, S. Wang, M. Stonebraker, A. K. Elmagarmid, I. F. Ilyas, S. Madden, M. Ouzzani, and N. Tang. The data civilizer system. In CIDR, 2017."
+            },
+            {
+              "key": "e_1_2_1_15_1",
+              "volume-title": "Bert: Pre-training of deep bidirectional transformers for language understanding. In arXiv preprint arXiv:1810.04805",
+              "author": "Devlin J.",
+              "year": "2018",
+              "unstructured": "J. Devlin, M.-W. Chang, K. Lee, and K. Toutanova. Bert: Pre-training of deep bidirectional transformers for language understanding. In arXiv preprint arXiv:1810.04805, 2018."
+            },
+            {
+              "key": "e_1_2_1_16_1",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1006/jcss.1997.1504"
+            },
+            {
+              "key": "e_1_2_1_17_1",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.14778/2536360.2536363"
+            },
+            {
+              "key": "e_1_2_1_18_1",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1007/s00778-019-00586-5"
+            },
+            {
+              "key": "e_1_2_1_19_1",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1007/978-3-319-40229-1_2"
+            },
+            {
+              "key": "e_1_2_1_20_1",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1145/3299869.3319888"
+            },
+            {
+              "key": "e_1_2_1_21_1",
+              "volume-title": "Craft beers dataset. https://www.kaggle.com/nickhould/craft-cans",
+              "author": "Hould J.-N.",
+              "year": "2017",
+              "unstructured": "J.-N. Hould. Craft beers dataset. https://www.kaggle.com/nickhould/craft-cans, 2017. Version 1."
+            },
+            {
+              "key": "e_1_2_1_22_1",
+              "volume-title": "Bell Laboratories Murray Hill",
+              "author": "Hunt J. W.",
+              "year": "1976",
+              "unstructured": "J. W. Hunt and M. D. MacIlroy. An algorithm for differential file comparison. Bell Laboratories Murray Hill, 1976."
+            },
+            {
+              "key": "e_1_2_1_23_1",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1145/1978942.1979444"
+            },
+            {
+              "key": "e_1_2_1_24_1",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.14778/2994509.2994514"
+            },
+            {
+              "key": "e_1_2_1_25_1",
+              "volume-title": "Truth finding on the deep web: Is the problem solved? arXiv preprint arXiv:1503.00303",
+              "author": "Li X.",
+              "year": "2015",
+              "unstructured": "X. Li, X. L. Dong, K. Lyons, W. Meng, and D. Srivastava. Truth finding on the deep web: Is the problem solved? arXiv preprint arXiv:1503.00303, 2015."
+            },
+            {
+              "key": "e_1_2_1_26_1",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1145/3335783.3335808"
+            },
+            {
+              "key": "e_1_2_1_27_1",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1145/3299869.3324956"
+            },
+            {
+              "key": "e_1_2_1_28_1",
+              "volume-title": "LREC",
+              "author": "Max A.",
+              "year": "2010",
+              "unstructured": "A. Max and G. Wisniewski. Mining naturally-occurring corrections and paraphrases from wikipedia's revision history. In LREC, 2010."
+            },
+            {
+              "key": "e_1_2_1_29_1",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1145/3357384.3358129"
+            },
+            {
+              "key": "e_1_2_1_30_1",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1186/s13643-016-0384-4"
+            },
+            {
+              "key": "e_1_2_1_31_1",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1109/TKDE.2009.191"
+            },
+            {
+              "key": "e_1_2_1_32_1",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1145/2882903.2915203"
+            },
+            {
+              "key": "e_1_2_1_33_1",
+              "volume-title": "et al. Scikit-learn: Machine learning in python. JMLR, 12(Oct):2825--2830",
+              "author": "Pedregosa F.",
+              "year": "2011",
+              "unstructured": "F. Pedregosa, G. Varoquaux, A. Gramfort, V. Michel, B. Thirion, O. Grisel, M. Blondel, P. Prettenhofer, R. Weiss, V. Dubourg, et al. Scikit-learn: Machine learning in python. JMLR, 12(Oct):2825--2830, 2011."
+            },
+            {
+              "key": "e_1_2_1_34_1",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1007/978-3-642-54903-8_43"
+            },
+            {
+              "key": "e_1_2_1_35_1",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.14778/2856318.2856325"
+            },
+            {
+              "issue": "4",
+              "key": "e_1_2_1_36_1",
+              "first-page": "3",
+              "article-title": "Problems and current approaches",
+              "volume": "23",
+              "author": "Rahm E.",
+              "year": "2000",
+              "unstructured": "E. Rahm and H. H. Do. Data cleaning: Problems and current approaches. DE, 23(4):3--13, 2000.",
+              "journal-title": "DE"
+            },
+            {
+              "key": "e_1_2_1_37_1",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.14778/3137628.3137631"
+            },
+            {
+              "key": "e_1_2_1_38_1",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1007/978-3-642-41136-6_5"
+            },
+            {
+              "key": "e_1_2_1_39_1",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.14778/2977797.2977807"
+            },
+            {
+              "key": "e_1_2_1_40_1",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1145/2837614.2837668"
+            },
+            {
+              "key": "e_1_2_1_41_1",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1145/3221269.3223028"
+            },
+            {
+              "key": "e_1_2_1_42_1",
+              "volume-title": "Anatomy of metadata for data curation. JDIQ, 12(3)",
+              "author": "Visengeriyeva L.",
+              "year": "2020",
+              "unstructured": "L. Visengeriyeva and Z. Abedjan. Anatomy of metadata for data curation. JDIQ, 12(3), 2020."
+            },
+            {
+              "key": "e_1_2_1_43_1",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1109/ICDE.2014.6816655"
+            },
+            {
+              "key": "e_1_2_1_44_1",
+              "volume-title": "A transfer-based additive ls-svm classifier for handling missing data",
+              "author": "Wang G.",
+              "year": "2018",
+              "unstructured": "G. Wang, J. Lu, K.-S. Choi, and G. Zhang. A transfer-based additive ls-svm classifier for handling missing data. IEEE transactions on cybernetics, 50(2):739--752, 2018."
+            },
+            {
+              "key": "e_1_2_1_45_1",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1145/2588555.2610505"
+            },
+            {
+              "key": "e_1_2_1_46_1",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1145/3299869.3319855"
+            },
+            {
+              "key": "e_1_2_1_47_1",
+              "unstructured": "K. Whistler and L. Iancu. Unicode character database. http://www.unicode.org/reports/tr44/ 2019. Accessed: 12.09.2019."
+            },
+            {
+              "key": "e_1_2_1_48_1",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1145/2463676.2463706"
+            },
+            {
+              "key": "e_1_2_1_49_1",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.14778/1952376.1952378"
+            },
+            {
+              "key": "e_1_2_1_50_1",
+              "first-page": "2413",
+              "volume-title": "WWW",
+              "author": "Zhao C.",
+              "year": "2019",
+              "unstructured": "C. Zhao and Y. He. Auto-em: End-to-end fuzzy entity-matching using pre-trained deep models and transfer learning. In WWW, pages 2413--2424, 2019."
+            }
+          ],
+          "container-title": [
+            "Proceedings of the VLDB Endowment"
+          ],
+          "language": "en",
+          "link": [
+            {
+              "URL": "https://dl.acm.org/doi/pdf/10.14778/3407790.3407801",
+              "content-type": "unspecified",
+              "content-version": "vor",
+              "intended-application": "similarity-checking"
+            }
+          ],
+          "deposited": {
+            "date-parts": [
+              [
+                2025,
+                9,
+                17
+              ]
+            ],
+            "date-time": "2025-09-17T02:13:40Z",
+            "timestamp": 1758075220000
+          },
+          "score": 63.70784,
+          "resource": {
+            "primary": {
+              "URL": "https://dl.acm.org/doi/10.14778/3407790.3407801"
+            }
+          },
+          "subtitle": [
+            "effective error correction via a unified context representation and transfer learning"
+          ],
+          "issued": {
+            "date-parts": [
+              [
+                2020,
+                7
+              ]
+            ]
+          },
+          "references-count": 50,
+          "journal-issue": {
+            "issue": "12",
+            "published-print": {
+              "date-parts": [
+                [
+                  2020,
+                  8
+                ]
+              ]
+            }
+          },
+          "alternative-id": [
+            "10.14778/3407790.3407801"
+          ],
+          "URL": "https://doi.org/10.14778/3407790.3407801",
+          "ISSN": [
+            "2150-8097"
+          ],
+          "issn-type": [
+            {
+              "value": "2150-8097",
+              "type": "print"
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2020,
+                7
+              ]
+            ]
+          }
+        },
+        {
+          "indexed": {
+            "date-parts": [
+              [
+                2024,
+                9,
+                7
+              ]
+            ],
+            "date-time": "2024-09-07T10:03:26Z",
+            "timestamp": 1725703406089
+          },
+          "publisher-location": "ISCA",
+          "reference-count": 0,
+          "publisher": "ISCA",
+          "content-domain": {
+            "domain": [],
+            "crossmark-restriction": false
+          },
+          "DOI": "10.21437/interspeech.2022-10228",
+          "type": "proceedings-article",
+          "created": {
+            "date-parts": [
+              [
+                2022,
+                9,
+                16
+              ]
+            ],
+            "date-time": "2022-09-16T15:42:06Z",
+            "timestamp": 1663342926000
+          },
+          "page": "3133-3137",
+          "source": "Crossref",
+          "is-referenced-by-count": 0,
+          "title": [
+            "Cross-Lingual Transfer Learning Approach to Phoneme Error Detection via Latent Phonetic Representation"
+          ],
+          "prefix": "10.21437",
+          "author": [
+            {
+              "given": "Jovan M.",
+              "family": "Dalhouse",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Katunobu",
+              "family": "Itou",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            }
+          ],
+          "member": "8866",
+          "published-online": {
+            "date-parts": [
+              [
+                2022,
+                9,
+                18
+              ]
+            ]
+          },
+          "event": {
+            "name": "Interspeech 2022",
+            "acronym": "interspeech_2022"
+          },
+          "container-title": [
+            "Interspeech 2022"
+          ],
+          "deposited": {
+            "date-parts": [
+              [
+                2024,
+                1,
+                16
+              ]
+            ],
+            "date-time": "2024-01-16T10:17:02Z",
+            "timestamp": 1705400222000
+          },
+          "score": 31.91301,
+          "resource": {
+            "primary": {
+              "URL": "https://www.isca-archive.org/interspeech_2022/dalhouse22_interspeech.html"
+            }
+          },
+          "issued": {
+            "date-parts": [
+              [
+                2022,
+                9,
+                18
+              ]
+            ]
+          },
+          "references-count": 0,
+          "URL": "https://doi.org/10.21437/interspeech.2022-10228",
+          "published": {
+            "date-parts": [
+              [
+                2022,
+                9,
+                18
+              ]
+            ]
+          }
+        },
+        {
+          "indexed": {
+            "date-parts": [
+              [
+                2026,
+                2,
+                26
+              ]
+            ],
+            "date-time": "2026-02-26T18:35:14Z",
+            "timestamp": 1772130914480,
+            "version": "3.50.1"
+          },
+          "description": "Supplemental Information for 10.1021/acsomega.1c06805",
+          "reference-count": 0,
+          "publisher": "American Chemical Society (ACS)",
+          "content-domain": {
+            "domain": [],
+            "crossmark-restriction": false
+          },
+          "DOI": "10.1021/acsomega.1c06805.s001",
+          "type": "component",
+          "created": {
+            "date-parts": [
+              [
+                2022,
+                3,
+                11
+              ]
+            ],
+            "date-time": "2022-03-11T08:05:33Z",
+            "timestamp": 1646985933000
+          },
+          "source": "Crossref",
+          "is-referenced-by-count": 0,
+          "title": [
+            "Improving Compound Activity Classification via Deep Transfer and Representation Learning"
+          ],
+          "prefix": "10.1021",
+          "member": "316",
+          "deposited": {
+            "date-parts": [
+              [
+                2022,
+                3,
+                22
+              ]
+            ],
+            "date-time": "2022-03-22T05:15:02Z",
+            "timestamp": 1647926102000
+          },
+          "score": 29.580027,
+          "resource": {
+            "primary": {
+              "URL": "https://pubs.acs.org/doi/suppl/10.1021/acsomega.1c06805/suppl_file/ao1c06805_si_001.pdf"
+            }
+          },
+          "issued": {
+            "date-parts": [
+              [
+                null
+              ]
+            ]
+          },
+          "references-count": 0,
+          "URL": "https://doi.org/10.1021/acsomega.1c06805.s001",
+          "relation": {
+            "is-component-of": [
+              {
+                "id-type": "doi",
+                "id": "10.1021/acsomega.1c06805",
+                "asserted-by": "object"
+              }
+            ]
+          }
+        }
+      ],
+      "items-per-page": 3,
+      "query": {
+        "start-index": 0,
+        "search-terms": null
+      }
+    }
+  }
+}

@@ -1,0 +1,889 @@
+{
+  "id": "Q4",
+  "source": "Crossref works relevance search",
+  "query": {
+    "query": "entity matching schema matching benchmark",
+    "rows": 15,
+    "filter": "from-pub-date:2009-01-01,until-pub-date:2026-09-09",
+    "select": "DOI,title,author,published,container-title,abstract,type,URL"
+  },
+  "endpoint": "https://api.crossref.org/works?query=entity+matching+schema+matching+benchmark&rows=15&filter=from-pub-date%3A2009-01-01%2Cuntil-pub-date%3A2026-09-09&select=DOI%2Ctitle%2Cauthor%2Cpublished%2Ccontainer-title%2Cabstract%2Ctype%2CURL",
+  "retrieved": "2026-09-09",
+  "response": {
+    "status": "ok",
+    "message-type": "work-list",
+    "message-version": "1.0.0",
+    "message": {
+      "facets": {},
+      "total-results": 164514,
+      "items": [
+        {
+          "DOI": "10.1007/978-3-642-16518-4_10",
+          "title": [
+            "Tuning for Schema Matching"
+          ],
+          "author": [
+            {
+              "given": "Zohra",
+              "family": "Bellahsene",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Fabien",
+              "family": "Duchateau",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2010,
+                12,
+                16
+              ]
+            ]
+          },
+          "container-title": [
+            "Schema Matching and Mapping"
+          ],
+          "type": "book-chapter",
+          "URL": "https://doi.org/10.1007/978-3-642-16518-4_10"
+        },
+        {
+          "DOI": "10.1007/978-3-642-16518-4_1",
+          "title": [
+            "Towards Large-Scale Schema and Ontology Matching"
+          ],
+          "author": [
+            {
+              "given": "Erhard",
+              "family": "Rahm",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2010,
+                12,
+                16
+              ]
+            ]
+          },
+          "container-title": [
+            "Schema Matching and Mapping"
+          ],
+          "type": "book-chapter",
+          "URL": "https://doi.org/10.1007/978-3-642-16518-4_1"
+        },
+        {
+          "DOI": "10.3724/sp.j.1001.2009.00327",
+          "title": [
+            "SKM: A Schema Matching Model Based on Schema Structure and Known Matching Knowledge"
+          ],
+          "author": [
+            {
+              "given": "De-Rong",
+              "family": "SHEN",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "En-Yun",
+              "family": "YU",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Xu",
+              "family": "ZHANG",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Yue",
+              "family": "KOU",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Tie-Zheng",
+              "family": "NIE",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Ge",
+              "family": "YU",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2009,
+                4,
+                7
+              ]
+            ]
+          },
+          "container-title": [
+            "Journal of Software"
+          ],
+          "type": "journal-article",
+          "URL": "https://doi.org/10.3724/sp.j.1001.2009.00327"
+        },
+        {
+          "DOI": "10.1007/978-3-642-16518-4_9",
+          "title": [
+            "On Evaluating Schema Matching and Mapping"
+          ],
+          "author": [
+            {
+              "given": "Zohra",
+              "family": "Bellahsene",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Angela",
+              "family": "Bonifati",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Fabien",
+              "family": "Duchateau",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Yannis",
+              "family": "Velegrakis",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2010,
+                12,
+                16
+              ]
+            ]
+          },
+          "container-title": [
+            "Schema Matching and Mapping"
+          ],
+          "type": "book-chapter",
+          "URL": "https://doi.org/10.1007/978-3-642-16518-4_9"
+        },
+        {
+          "DOI": "10.1007/978-3-031-01845-9_3",
+          "title": [
+            "Modeling Uncertain Schema Matching"
+          ],
+          "author": [
+            {
+              "given": "Avigdor",
+              "family": "Gal",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2011
+              ]
+            ]
+          },
+          "container-title": [
+            "Synthesis Lectures on Data Management",
+            "Uncertain Schema Matching"
+          ],
+          "type": "book-chapter",
+          "URL": "https://doi.org/10.1007/978-3-031-01845-9_3"
+        },
+        {
+          "DOI": "10.1016/j.neucom.2021.10.106",
+          "title": [
+            "Towards deep entity resolution via soft schema matching"
+          ],
+          "author": [
+            {
+              "given": "Chenchen",
+              "family": "Sun",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Derong",
+              "family": "Shen",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2022,
+                1
+              ]
+            ]
+          },
+          "container-title": [
+            "Neurocomputing"
+          ],
+          "type": "journal-article",
+          "URL": "https://doi.org/10.1016/j.neucom.2021.10.106"
+        },
+        {
+          "DOI": "10.3724/sp.j.1087.2012.01688",
+          "title": [
+            "Deep Web query interface schema matching based on matching degree and semantic similarity"
+          ],
+          "author": [
+            {
+              "given": "Yong",
+              "family": "FENG",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Yang",
+              "family": "ZHANG",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2013,
+                4,
+                27
+              ]
+            ]
+          },
+          "container-title": [
+            "Journal of Computer Applications"
+          ],
+          "type": "journal-article",
+          "URL": "https://doi.org/10.3724/sp.j.1087.2012.01688"
+        },
+        {
+          "DOI": "10.1145/3340531.3412781",
+          "title": [
+            "Profiling Entity Matching Benchmark Tasks"
+          ],
+          "author": [
+            {
+              "given": "Anna",
+              "family": "Primpeli",
+              "sequence": "first",
+              "affiliation": [
+                {
+                  "name": "University of Mannheim, Mannheim, Germany"
+                }
+              ],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Christian",
+              "family": "Bizer",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "University of Mannheim, Mannheim, Germany"
+                }
+              ],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2020,
+                10,
+                19
+              ]
+            ]
+          },
+          "container-title": [
+            "Proceedings of the 29th ACM International Conference on Information &amp; Knowledge Management"
+          ],
+          "type": "proceedings-article",
+          "URL": "https://doi.org/10.1145/3340531.3412781"
+        },
+        {
+          "DOI": "10.1109/icdew.2014.6818301",
+          "title": [
+            "In schema matching, even experts are human: Towards expert sourcing in schema matching"
+          ],
+          "author": [
+            {
+              "given": "Tomer",
+              "family": "Sagi",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Avigdor",
+              "family": "Gal",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2014,
+                3
+              ]
+            ]
+          },
+          "container-title": [
+            "2014 IEEE 30th International Conference on Data Engineering Workshops"
+          ],
+          "type": "proceedings-article",
+          "URL": "https://doi.org/10.1109/icdew.2014.6818301"
+        },
+        {
+          "DOI": "10.3745/ktsde.2013.2.3.173",
+          "title": [
+            "Hybrid Schema Matching (HSM): Schema Matching Algorithm for Integrating Geographic Information"
+          ],
+          "author": [
+            {
+              "given": "Jiyoon",
+              "family": "Lee",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Sukhoon",
+              "family": "Lee",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Jangwon",
+              "family": "Kim",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Dongwon",
+              "family": "Jeong",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Doo-Kwon",
+              "family": "Baik",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2013,
+                3,
+                31
+              ]
+            ]
+          },
+          "container-title": [
+            "KIPS Transactions on Software and Data Engineering"
+          ],
+          "type": "journal-article",
+          "URL": "https://doi.org/10.3745/ktsde.2013.2.3.173"
+        },
+        {
+          "DOI": "10.3724/sp.j.1001.2009.00234",
+          "title": [
+            "Ontology-Aided Automatic Schema Matching"
+          ],
+          "author": [
+            {
+              "given": "Qiang",
+              "family": "LIU",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Di",
+              "family": "ZHAO",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Hua",
+              "family": "ZHONG",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Tao",
+              "family": "HUANG",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2009,
+                4,
+                7
+              ]
+            ]
+          },
+          "container-title": [
+            "Journal of Software"
+          ],
+          "type": "journal-article",
+          "URL": "https://doi.org/10.3724/sp.j.1001.2009.00234"
+        },
+        {
+          "DOI": "10.1109/icde.2018.00134",
+          "title": [
+            "Simplifying Entity Resolution on Web Data with Schema-Agnostic, Non-Iterative Matching"
+          ],
+          "author": [
+            {
+              "given": "Vasilis",
+              "family": "Efthymiou",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "George",
+              "family": "Papadakis",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Kostas",
+              "family": "Stefanidis",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Vassilis",
+              "family": "Christophides",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2018,
+                4
+              ]
+            ]
+          },
+          "container-title": [
+            "2018 IEEE 34th International Conference on Data Engineering (ICDE)"
+          ],
+          "type": "proceedings-article",
+          "URL": "https://doi.org/10.1109/icde.2018.00134"
+        },
+        {
+          "DOI": "10.1145/3459637.3482008",
+          "title": [
+            "Machamp: A Generalized Entity Matching Benchmark"
+          ],
+          "author": [
+            {
+              "given": "Jin",
+              "family": "Wang",
+              "sequence": "first",
+              "affiliation": [
+                {
+                  "name": "Megagon Labs, Mountain View, CA, USA"
+                }
+              ],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Yuliang",
+              "family": "Li",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "Megagon Labs, Mountain View, CA, USA"
+                }
+              ],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Wataru",
+              "family": "Hirota",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "Megagon Labs, Mountain View, CA, USA"
+                }
+              ],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2021,
+                10,
+                26
+              ]
+            ]
+          },
+          "container-title": [
+            "Proceedings of the 30th ACM International Conference on Information &amp; Knowledge Management"
+          ],
+          "type": "proceedings-article",
+          "URL": "https://doi.org/10.1145/3459637.3482008"
+        },
+        {
+          "DOI": "10.1007/978-3-642-16518-4_2",
+          "title": [
+            "Interactive Techniques to Support Ontology Matching"
+          ],
+          "author": [
+            {
+              "given": "Sean M.",
+              "family": "Falconer",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Natalya F.",
+              "family": "Noy",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2010,
+                12,
+                16
+              ]
+            ]
+          },
+          "container-title": [
+            "Schema Matching and Mapping"
+          ],
+          "type": "book-chapter",
+          "URL": "https://doi.org/10.1007/978-3-642-16518-4_2"
+        },
+        {
+          "DOI": "10.1007/978-3-319-22852-5_33",
+          "title": [
+            "A Linear Program for Holistic Matching: Assessment on Schema Matching Benchmark"
+          ],
+          "author": [
+            {
+              "given": "Alain",
+              "family": "Berro",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Imen",
+              "family": "Megdiche",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Olivier",
+              "family": "Teste",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2015
+              ]
+            ]
+          },
+          "container-title": [
+            "Lecture Notes in Computer Science",
+            "Database and Expert Systems Applications"
+          ],
+          "type": "book-chapter",
+          "URL": "https://doi.org/10.1007/978-3-319-22852-5_33"
+        }
+      ],
+      "items-per-page": 15,
+      "query": {
+        "start-index": 0,
+        "search-terms": "entity matching schema matching benchmark"
+      }
+    }
+  }
+}
