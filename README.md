@@ -10,6 +10,7 @@
 - [文献来源、核验范围与版本说明](editorial/SOURCES.md)
 - [算术核查与原公式处理记录](editorial/FORMULA_AUDIT.md)
 - [中文综述写法参照与修改说明](editorial/REVISION.md)
+- [中文学术表达复核记录](editorial/STYLE_REVIEW.md)
 - [图表精简说明](editorial/SIMPLIFICATION.md)
 - [绘图记录](figures/GENERATION.md)、[图1详细prompt](figures/prompts/fig01_error_propagation.md)
 

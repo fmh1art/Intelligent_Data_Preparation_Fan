@@ -2,7 +2,7 @@
 
 - 日期：2026-09-09。
 - 执行者：专门学术绘图 agent。
-- 内容依据：`manuscript.tex` 第4.5节“多表实例：粒度错误的传播与可定位修订”，以及当时的共同视觉规格；[历史规格](https://github.com/fmh1art/Intelligent_Data_Preparation_Fan/blob/39971428f52cfe4d729c3f3021fad53a9833d44b/figures/prompts/redesign_style.md)保存在Git历史中。
+- 内容依据：`manuscript.tex` 第4.5节，当前标题为“多表实例中的错误传播与回退”，以及生成时的共同视觉规格；[历史规格](https://github.com/fmh1art/Intelligent_Data_Preparation_Fan/blob/39971428f52cfe4d729c3f3021fad53a9833d44b/figures/prompts/redesign_style.md)保存在Git历史中。
 - 生成前阅读当时的旧图3，仅核对内容，不作为图像生成参考输入。
 - 实际工具：内置 `image_gen.imagegen`。本轮从详细文字规格完整生成新构图，未使用 CLI/API 回退、代码绘制、代码加字或像素编辑。
 - 完整实际 prompt 已先于生成保存：[fig01_error_propagation.md](../prompts/fig01_error_propagation.md)。

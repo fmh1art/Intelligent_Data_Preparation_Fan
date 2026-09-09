@@ -50,6 +50,6 @@
 
 原任务体系图、通用执行反馈图已删除；任务边界由§2.2文字说明，流程角色及机制由§4.3、§4.4和表2说明。这些分类与关系仍属于本文归纳。
 
-当前图1（原图3）为作者构造反例，[prompt与生成记录](../figures/GENERATION.md)随仓库保存。运行“python scripts/reproduce_example.py”可复核250/150，以及退款10变15后的245/145。脚本不统计真实错误频率或重现论文系统。开放问题的E/S/H分别为实测、归纳和待验证假设。
+当前图1（原图3）为作者构造反例，[prompt与生成记录](../figures/GENERATION.md)随仓库保存。运行“python scripts/reproduce_example.py”可复核250/150，以及退款10变15后的245/145。脚本不统计真实错误频率或重现论文系统。第6节以连贯文字区分原论文结果、本文归纳和待验证设想，原E/S/H标签已删除，结果表的E1—E6编号继续用于定位。
 
 补充公开代码核验：[HoloClean](https://github.com/HoloClean/holoclean)、[Raha](https://github.com/BigDaMa/raha)、[Ditto](https://github.com/megagonlabs/ditto)的作者仓库可访问；正文据此说明代码公开，仍未重跑实验。DeepPrep §6.3关于仅通过列重命名满足表面模式的行为作为失败类型证据，不另估计频率。
