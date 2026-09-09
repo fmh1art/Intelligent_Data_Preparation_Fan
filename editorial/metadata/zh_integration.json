@@ -1,0 +1,7 @@
+{
+  "database": "Crossref",
+  "endpoint": "https://api.crossref.org/works/10.13328/j.cnki.jos.006808",
+  "retrieved": "2026-09-09",
+  "status_code": 404,
+  "response": "Resource not found."
+}

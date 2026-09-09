@@ -1,0 +1,468 @@
+{
+  "database": "Crossref",
+  "endpoint": "https://api.crossref.org/works?query.bibliographic=Empowering+Tabular+Data+Preparation+with+Language+Models%3A+Why+and+How%3F&rows=3",
+  "retrieved": "2026-09-09",
+  "status_code": 200,
+  "response": {
+    "status": "ok",
+    "message-type": "work-list",
+    "message-version": "1.0.0",
+    "message": {
+      "facets": {},
+      "total-results": 7129928,
+      "items": [
+        {
+          "indexed": {
+            "date-parts": [
+              [
+                2026,
+                7,
+                1
+              ]
+            ],
+            "date-time": "2026-07-01T12:51:56Z",
+            "timestamp": 1782910316622,
+            "version": "3.54.5"
+          },
+          "publisher-location": "Stroudsburg, PA, USA",
+          "reference-count": 0,
+          "publisher": "Association for Computational Linguistics",
+          "content-domain": {
+            "domain": [],
+            "crossmark-restriction": false
+          },
+          "published-print": {
+            "date-parts": [
+              [
+                2026
+              ]
+            ]
+          },
+          "DOI": "10.18653/v1/2026.acl-long.8",
+          "type": "proceedings-article",
+          "created": {
+            "date-parts": [
+              [
+                2026,
+                7,
+                1
+              ]
+            ],
+            "date-time": "2026-07-01T12:25:50Z",
+            "timestamp": 1782908750000
+          },
+          "page": "228-246",
+          "source": "Crossref",
+          "is-referenced-by-count": 0,
+          "title": [
+            "Empowering Tabular Data Preparation with Language Models: Why and How?"
+          ],
+          "prefix": "10.18653",
+          "author": [
+            {
+              "given": "Mengshi",
+              "family": "Chen",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Yuxiang",
+              "family": "Sun",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Tengchao",
+              "family": "Li",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Jianwei",
+              "family": "Wang",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Kai",
+              "family": "Wang",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Xuemin",
+              "family": "Lin",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Ying",
+              "family": "Zhang",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Wenjie",
+              "family": "Zhang",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            }
+          ],
+          "member": "1643",
+          "event": {
+            "name": "Proceedings of the 64th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+            "location": "San Diego, California, United States",
+            "start": {
+              "date-parts": [
+                [
+                  2026,
+                  7
+                ]
+              ]
+            },
+            "end": {
+              "date-parts": [
+                [
+                  2026,
+                  7
+                ]
+              ]
+            }
+          },
+          "container-title": [
+            "Proceedings of the 64th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)"
+          ],
+          "deposited": {
+            "date-parts": [
+              [
+                2026,
+                7,
+                1
+              ]
+            ],
+            "date-time": "2026-07-01T12:27:38Z",
+            "timestamp": 1782908858000
+          },
+          "score": 44.21154,
+          "resource": {
+            "primary": {
+              "URL": "https://aclanthology.org/2026.acl-long.8"
+            }
+          },
+          "issued": {
+            "date-parts": [
+              [
+                2026
+              ]
+            ]
+          },
+          "references-count": 0,
+          "URL": "https://doi.org/10.18653/v1/2026.acl-long.8",
+          "published": {
+            "date-parts": [
+              [
+                2026
+              ]
+            ]
+          }
+        },
+        {
+          "indexed": {
+            "date-parts": [
+              [
+                2026,
+                2,
+                1
+              ]
+            ],
+            "date-time": "2026-02-01T03:22:10Z",
+            "timestamp": 1769916130912,
+            "version": "3.49.0"
+          },
+          "reference-count": 0,
+          "publisher": "Institute for Advanced Studies",
+          "issue": "1",
+          "content-domain": {
+            "domain": [],
+            "crossmark-restriction": false
+          },
+          "short-container-title": [
+            "JOCAAA"
+          ],
+          "published-print": {
+            "date-parts": [
+              [
+                2026,
+                1,
+                1
+              ]
+            ]
+          },
+          "DOI": "10.48047/jocaaa.2026.35.01.16",
+          "type": "journal-article",
+          "created": {
+            "date-parts": [
+              [
+                2026,
+                1,
+                31
+              ]
+            ],
+            "date-time": "2026-01-31T14:44:54Z",
+            "timestamp": 1769870694000
+          },
+          "source": "Crossref",
+          "is-referenced-by-count": 0,
+          "title": [
+            "The Structural Challenge: Why Language Models Fail with Tabular Data"
+          ],
+          "prefix": "10.48047",
+          "volume": "35",
+          "member": "27910",
+          "published-online": {
+            "date-parts": [
+              [
+                2026,
+                2,
+                10
+              ]
+            ]
+          },
+          "container-title": [
+            "Journal of Computational Analysis and Applications"
+          ],
+          "deposited": {
+            "date-parts": [
+              [
+                2026,
+                1,
+                31
+              ]
+            ],
+            "date-time": "2026-01-31T14:59:22Z",
+            "timestamp": 1769871562000
+          },
+          "score": 36.457645,
+          "resource": {
+            "primary": {
+              "URL": "https://www.eudoxuspress.com/index.php/pub/article/view/4659"
+            }
+          },
+          "issued": {
+            "date-parts": [
+              [
+                2026,
+                1,
+                1
+              ]
+            ]
+          },
+          "references-count": 0,
+          "journal-issue": {
+            "issue": "1",
+            "published-online": {
+              "date-parts": [
+                [
+                  2026,
+                  2,
+                  10
+                ]
+              ]
+            },
+            "published-print": {
+              "date-parts": [
+                [
+                  2026,
+                  1,
+                  1
+                ]
+              ]
+            }
+          },
+          "URL": "https://doi.org/10.48047/jocaaa.2026.35.01.16",
+          "published": {
+            "date-parts": [
+              [
+                2026,
+                1,
+                1
+              ]
+            ]
+          }
+        },
+        {
+          "institution": [
+            {
+              "name": "San Jose State University",
+              "acronym": [
+                "SJSU",
+                "SJSU"
+              ],
+              "place": [
+                "San Jose, CA, USA"
+              ],
+              "department": [
+                "Applied Data Science"
+              ]
+            }
+          ],
+          "indexed": {
+            "date-parts": [
+              [
+                2026,
+                2,
+                17
+              ]
+            ],
+            "date-time": "2026-02-17T21:06:51Z",
+            "timestamp": 1771362411718,
+            "version": "3.50.1"
+          },
+          "reference-count": 0,
+          "publisher": "San Jose State University Library",
+          "content-domain": {
+            "domain": [],
+            "crossmark-restriction": false
+          },
+          "DOI": "10.31979/etd.z9uq-nygw",
+          "type": "dissertation",
+          "created": {
+            "date-parts": [
+              [
+                2026,
+                2,
+                17
+              ]
+            ],
+            "date-time": "2026-02-17T20:06:31Z",
+            "timestamp": 1771358791000
+          },
+          "approved": {
+            "date-parts": [
+              [
+                2025,
+                12,
+                29
+              ]
+            ]
+          },
+          "source": "Crossref",
+          "is-referenced-by-count": 0,
+          "title": [
+            "Natural Language Question Answering on Tabular Data Using Large Language Models"
+          ],
+          "prefix": "10.31979",
+          "author": [
+            {
+              "given": "Yashasvi",
+              "family": "Kanchugantla",
+              "sequence": "first",
+              "affiliation": [
+                {
+                  "name": "San Jose State University"
+                }
+              ],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            }
+          ],
+          "member": "16862",
+          "link": [
+            {
+              "URL": "https://scholarworks.sjsu.edu/cgi/viewcontent.cgi?article=9296&amp;context=etd_theses&amp;unstamped=1",
+              "content-type": "unspecified",
+              "content-version": "vor",
+              "intended-application": "similarity-checking"
+            }
+          ],
+          "deposited": {
+            "date-parts": [
+              [
+                2026,
+                2,
+                17
+              ]
+            ],
+            "date-time": "2026-02-17T20:08:09Z",
+            "timestamp": 1771358889000
+          },
+          "score": 34.17065,
+          "degree": [
+            "Master of Science (MS)"
+          ],
+          "resource": {
+            "primary": {
+              "URL": "https://scholarworks.sjsu.edu/etd_theses/5749"
+            }
+          },
+          "issued": {
+            "date-parts": [
+              [
+                null
+              ]
+            ]
+          },
+          "references-count": 0,
+          "URL": "https://doi.org/10.31979/etd.z9uq-nygw"
+        }
+      ],
+      "items-per-page": 3,
+      "query": {
+        "start-index": 0,
+        "search-terms": null
+      }
+    }
+  }
+}

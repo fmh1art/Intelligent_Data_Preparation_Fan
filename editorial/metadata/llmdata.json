@@ -1,0 +1,1975 @@
+{
+  "database": "Crossref",
+  "endpoint": "https://api.crossref.org/works/10.1007%2Fs11390-026-5948-8",
+  "retrieved": "2026-09-09",
+  "status_code": 200,
+  "response": {
+    "status": "ok",
+    "message-type": "work",
+    "message-version": "1.0.0",
+    "message": {
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            8,
+            20
+          ]
+        ],
+        "date-time": "2026-08-20T14:41:26Z",
+        "timestamp": 1787236886885,
+        "version": "build-2736575974"
+      },
+      "reference-count": 218,
+      "publisher": "Springer Science and Business Media LLC",
+      "issue": "1",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2026,
+                1,
+                1
+              ]
+            ],
+            "date-time": "2026-01-01T00:00:00Z",
+            "timestamp": 1767225600000
+          },
+          "content-version": "tdm",
+          "delay-in-days": 0,
+          "URL": "https://www.springernature.com/gp/researchers/text-and-data-mining"
+        },
+        {
+          "start": {
+            "date-parts": [
+              [
+                2026,
+                1,
+                1
+              ]
+            ],
+            "date-time": "2026-01-01T00:00:00Z",
+            "timestamp": 1767225600000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "https://www.springernature.com/gp/researchers/text-and-data-mining"
+        }
+      ],
+      "content-domain": {
+        "domain": [
+          "link.springer.com"
+        ],
+        "crossmark-restriction": false
+      },
+      "short-container-title": [
+        "J. Comput. Sci. Technol."
+      ],
+      "published-print": {
+        "date-parts": [
+          [
+            2026,
+            1
+          ]
+        ]
+      },
+      "DOI": "10.1007/s11390-026-5948-8",
+      "type": "journal-article",
+      "created": {
+        "date-parts": [
+          [
+            2026,
+            3,
+            28
+          ]
+        ],
+        "date-time": "2026-03-28T01:06:53Z",
+        "timestamp": 1774660013000
+      },
+      "page": "289-317",
+      "update-policy": "https://doi.org/10.1007/springer_crossmark_policy",
+      "source": "Crossref",
+      "is-referenced-by-count": 1,
+      "title": [
+        "Data Preparation for Large Language Models"
+      ],
+      "prefix": "10.1007",
+      "volume": "41",
+      "author": [
+        {
+          "given": "Hao",
+          "family": "Liang",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Zhen Hao",
+          "family": "Wong",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Rui-Tong",
+          "family": "Liu",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Yu-Han",
+          "family": "Wang",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Mei-Yi",
+          "family": "Qiang",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Zheng-Yang",
+          "family": "Zhao",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Cheng-Yu",
+          "family": "Shen",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Cong-Hui",
+          "family": "He",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Wen-Tao",
+          "family": "Zhang",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Bin",
+          "family": "Cui",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "297",
+      "published-online": {
+        "date-parts": [
+          [
+            2026,
+            3,
+            28
+          ]
+        ]
+      },
+      "reference": [
+        {
+          "key": "5948_CR1",
+          "unstructured": "Bai T, Liang H, Wan B, Xu Y, Li X, Li S, Yang L, Li B, Wang Y, Cui B, Huang P, Shan J, He C, Yuan B, Zhang W. A survey of multimodal large language model from a data-centric perspective. arXiv: 2405.16640, 2024. https://arxiv.org/abs/2405.16640, Jan. 2026."
+        },
+        {
+          "issue": "5",
+          "key": "5948_CR2",
+          "doi-asserted-by": "publisher",
+          "first-page": "129",
+          "DOI": "10.1145/3711118",
+          "volume": "57",
+          "author": "D Zha",
+          "year": "2025",
+          "unstructured": "Zha D, Bhat Z P, Lai K H, Yang F, Jiang Z, Zhong S, Hu X. Data-centric artificial intelligence: A survey. ACM Computing Surveys, 2025, 57(5): 129. DOI: https://doi.org/10.1145/3711118.",
+          "journal-title": "ACM Computing Surveys"
+        },
+        {
+          "key": "5948_CR3",
+          "unstructured": "Zhou X, He J, Zhou W, Chen H, Tang Z, Zhao H, Tong X, Li G, Chen Y, Zhou J, Sun Z, Hui B, Wang S, He C, Liu Z, Zhou J, Wu F. A survey of LLM × DATA. arXiv: 2505.18458, 2025. https://arxiv.org/abs/2505.18458, Jan. 2026."
+        },
+        {
+          "key": "5948_CR4",
+          "unstructured": "Wang Z, Zhong W, Wang Y, Zhu Q, Mi F, Wang B, Shang L, Jiang X, Liu Q. Data management for training large language models: A survey. arXiv: 2312.01700, 2023. https://arxiv.org/abs/2312.01700, Jan. 2026."
+        },
+        {
+          "issue": "12",
+          "key": "5948_CR5",
+          "doi-asserted-by": "publisher",
+          "first-page": "403",
+          "DOI": "10.1007/s10462-025-11403-7",
+          "volume": "58",
+          "author": "Y Liu",
+          "year": "2025",
+          "unstructured": "Liu Y, Cao J, Liu C, Ding K, Jin L. Datasets for large language models: A comprehensive survey. Artificial Intelligence Review, 2025, 58(12): 403. DOI: https://doi.org/10.1007/s10462-025-11403-7.",
+          "journal-title": "Artificial Intelligence Review"
+        },
+        {
+          "key": "5948_CR6",
+          "doi-asserted-by": "publisher",
+          "first-page": "378",
+          "DOI": "10.1145/3703323.3704802",
+          "volume-title": "Proc. the 8th International Conference on Data Science and Management of Data",
+          "author": "P Selvam",
+          "year": "2024",
+          "unstructured": "Selvam P, Patel H, Surendran S, Singh S. Data preparation for fine tuning large language models. In Proc. the 8th International Conference on Data Science and Management of Data, Dec. 2024, pp.378–380. DOI: https://doi.org/10.1145/3703323.3704802."
+        },
+        {
+          "key": "5948_CR7",
+          "first-page": "4003",
+          "volume-title": "Proc. the 12th Language Resources and Evaluation Conference",
+          "author": "G Wenzek",
+          "year": "2020",
+          "unstructured": "Wenzek G, Lachaux M A, Conneau A, Chaudhary V, Guzmán F, Joulin A, Grave E. CCNet: Extracting high quality monolingual datasets from web crawl data. In Proc. the 12th Language Resources and Evaluation Conference, May 2020, pp.4003–4012."
+        },
+        {
+          "key": "5948_CR8",
+          "unstructured": "Radford A, Wu J, Child R, Luan D, Amodei D, Sutskever I. Language models are unsupervised multitask learners. OpenAI Blog, 2019, 1 (8): Article No. 9. https://cdn.openai.com/better-language-models/language_models_are_unsupervised_multitask_learners.pdf, Jan. 2026."
+        },
+        {
+          "issue": "140",
+          "key": "5948_CR9",
+          "first-page": "1",
+          "volume": "21",
+          "author": "C Raffel",
+          "year": "2020",
+          "unstructured": "Raffel C, Shazeer N, Roberts A, Lee K, Narang S, Matena M, Zhou Y, Li W, Liu P J. Exploring the limits of transfer learning with a unified text-to-text transformer. Journal of Machine Learning Research, 2020, 21(140): 1–67.",
+          "journal-title": "Journal of Machine Learning Research"
+        },
+        {
+          "key": "5948_CR10",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Overwijk A, Xiong C, Liu X, VandenBerg C, Callan J. ClueWeb22: 10 billion web documents with visual and semantic information. arXiv: 2211.15848, 2022. https://arxiv.org/abs/2211.15848, Jan. 2026.",
+          "DOI": "10.1145/3477495.3536321"
+        },
+        {
+          "key": "5948_CR11",
+          "first-page": "4226",
+          "volume-title": "Proc. the 2024 Joint International Conference on Computational Linguistics, Language Resources and Evaluation",
+          "author": "T Nguyen",
+          "year": "2024",
+          "unstructured": "Nguyen T, Van Nguyen C, Lai V D, Man H, Ngo N T, Dernoncourt F, Rossi R A, Nguyen T H. CulturaX: A cleaned, enormous, and multilingual dataset for large language models in 167 languages. In Proc. the 2024 Joint International Conference on Computational Linguistics, Language Resources and Evaluation, May 2024, pp.4226–4237."
+        },
+        {
+          "key": "5948_CR12",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.5555/3737916.3738456",
+          "volume-title": "Proc. the 38th International Conference on Neural Information Processing Systems",
+          "author": "A H Kargaran",
+          "year": "2024",
+          "unstructured": "Kargaran A H, Yvon F, Schutze H. GlotCC: An open broad-coverage CommonCrawl corpus and pipeline for minority languages. In Proc. the 38th International Conference on Neural Information Processing Systems, Dec. 2024, Article No. 540. DOI: https://doi.org/10.5555/3737916.3738456."
+        },
+        {
+          "key": "5948_CR13",
+          "volume-title": "Proc. the 38th International Conference on Neural Information Processing Systems Track on Datasets and Benchmarks",
+          "author": "M Weber",
+          "year": "2024",
+          "unstructured": "Weber M, Fu D Y, Anthony Q et al. RedPajama: An open dataset for training large language models. In Proc. the 38th International Conference on Neural Information Processing Systems Track on Datasets and Benchmarks, Dec. 2024. https://openreview.net/pdf?id=lnuXaRpwvw, Jan. 2026."
+        },
+        {
+          "key": "5948_CR14",
+          "doi-asserted-by": "publisher",
+          "first-page": "15725",
+          "DOI": "10.18653/v1/2024.acl-long.840",
+          "volume-title": "Proc. the 62nd Annual Meeting of the Association for Computational Linguistics",
+          "author": "L Soldaini",
+          "year": "2024",
+          "unstructured": "Soldaini L, Kinney R, Bhagia A et al. Dolma: An open corpus of three trillion tokens for language model pretraining research. In Proc. the 62nd Annual Meeting of the Association for Computational Linguistics, Aug. 2024, pp.15725–15788. DOI: https://doi.org/10.18653/v1/2024.acl-long.840."
+        },
+        {
+          "key": "5948_CR15",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.5555/3737916.3738886",
+          "volume-title": "Proc. the 38th International Conference on Neural Information Processing Systems",
+          "author": "G Penedo",
+          "year": "2024",
+          "unstructured": "Penedo G, Kydlieck H, Ben Allal L, Lozhkov A, Mitchell M, Raffel C, Von Werra L, Wolf T. The FineWeb datasets: Decanting the web for the finest text data at scale. In Proc. the 38th International Conference on Neural Information Processing Systems, Dec. 2024, Article No. 970. DOI: https://doi.org/10.5555/3737916.3738886."
+        },
+        {
+          "key": "5948_CR16",
+          "unstructured": "Langlais P C, Rosas Hinostroza C, Nee M, Arnett C, Chizhov P, Jones E K, Girard I, Mach D, Stasenko A, Yamshchikov I P. Common corpus: The largest collection of ethical data for LLM pre-training. arXiv: 2506.01732, 2025. https://arxiv.org/abs/2506.01732, Jan. 2026."
+        },
+        {
+          "key": "5948_CR17",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.5555/3737916.3738371",
+          "volume-title": "Proc. the 38th International Conference on Neural Information Processing Systems",
+          "author": "J Li",
+          "year": "2024",
+          "unstructured": "Li J, Fang A, Smyrnis G et al. DataComp-LM: In search of the next generation of training sets for language models. In Proc. the 38th International Conference on Neural Information Processing Systems, Dec. 2024, Article No. 455. DOI: https://doi.org/10.5555/3737916.3738371."
+        },
+        {
+          "key": "5948_CR18",
+          "volume-title": "Proc. the 12th International Conference on Learning Representations",
+          "author": "K Paster",
+          "year": "2024",
+          "unstructured": "Paster K, Dos Santos M, Azerbayev Z, Ba J. OpenWebMath: An open dataset of high-quality mathematical web text. In Proc. the 12th International Conference on Learning Representations, May 2024."
+        },
+        {
+          "key": "5948_CR19",
+          "volume-title": "Proc. the 13th International Conference on Learning Representations",
+          "author": "S Toshniwal",
+          "year": "2025",
+          "unstructured": "Toshniwal S, Du W, Moshkov I, Kisacanin B, Ayrapetyan A, Gitman I. OpenMathinstruct-2: Accelerating AI for math with massive open-source instruction data. In Proc. the 13th International Conference on Learning Representations, Apr. 2025."
+        },
+        {
+          "key": "5948_CR20",
+          "unstructured": "Zhou F, Wang Z, Ranjan N, Cheng Z, Tang L, He G, Liu Z, Xing E P. MegaMath: Pushing the limits of open math corpora. arXiv: 2504.02807, 2025. https://arxiv.org/abs/2504.02807, Jan. 2026."
+        },
+        {
+          "issue": "9",
+          "key": "5948_CR21",
+          "doi-asserted-by": "publisher",
+          "first-page": "1833",
+          "DOI": "10.1093/jamia/ocae045",
+          "volume": "31",
+          "author": "C Wu",
+          "year": "2024",
+          "unstructured": "Wu C, Lin W, Zhang X, Zhang Y, Xie W, Wang Y. PMC-LLaMA: Toward building open-source language models for medicine. Journal of the American Medical Informatics Association, 2024, 31(9): 1833–1843. DOI: https://doi.org/10.1093/jamia/ocae045.",
+          "journal-title": "Journal of the American Medical Informatics Association"
+        },
+        {
+          "key": "5948_CR22",
+          "doi-asserted-by": "publisher",
+          "unstructured": "Xie Q, Chen Q, Chen A et al. Me-LLaMA: Foundation large language models for medical applications. Research Square, 2024. DOI: https://doi.org/10.21203/rs.3.rs-4240043/v1.",
+          "DOI": "10.21203/rs.3.rs-4240043/v1"
+        },
+        {
+          "key": "5948_CR23",
+          "unstructured": "Touchent R, Godey N, Clergerie E. Biomed-Enriched: A biomedical dataset enriched with LLMs for pretraining and extracting rare and hidden content. arXiv: 2506.20331, 2025. https://arxiv.org/pdf/2506.20331, Jan. 2026."
+        },
+        {
+          "key": "5948_CR24",
+          "unstructured": "Wang B, Xu C, Zhao X, Ouyang L, Wu F, Zhao Z, Xu R, Liu K, Qu Y, Shang F, Zhang B, Wei L, Sui Z, Li W, Shi B, Qiao Y, Lin D, He C. MinerU: An open-source solution for precise document content extraction. arXiv: 2409.18839, 2024. https://arxiv.org/abs/2409.18839, Jan. 2026."
+        },
+        {
+          "key": "5948_CR25",
+          "doi-asserted-by": "publisher",
+          "first-page": "208",
+          "DOI": "10.18653/v1/2023.trustnlp-1.18",
+          "volume-title": "Proc. the 3rd Workshop on Trustworthy Natural Language Processing (TrustNLP 2023)",
+          "author": "N Subramani",
+          "year": "2023",
+          "unstructured": "Subramani N, Luccioni S, Dodge J, Mitchell M. Detecting personal information in training corpora: An analysis. In Proc. the 3rd Workshop on Trustworthy Natural Language Processing (TrustNLP 2023), Jul. 2023, pp.208–220. DOI: https://doi.org/10.18653/v1/2023.trustnlp-1.18."
+        },
+        {
+          "key": "5948_CR26",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.5555/3600270.3602576",
+          "volume-title": "Proc. the 36th International Conference on Neural Information Processing Systems",
+          "author": "H Laurençon",
+          "year": "2022",
+          "unstructured": "Laurençon H, Saulnier L, Wang T et al. The BigScience ROOTS corpus: A 1.6TB composite multilingual dataset. In Proc. the 36th International Conference on Neural Information Processing Systems, Nov. 2022, Article No. 2306. DOI: https://doi.org/10.5555/3600270.3602576."
+        },
+        {
+          "key": "5948_CR27",
+          "unstructured": "Qiu J, Lv H, Jin Z, Wang R, Ning W, Yu J, Zhang C B, Li Z, Chu P, Qu Y, Shi J, Lu L, Peng R, Zeng Z, Tang H, Lei Z, Hong J, Chen K, Fei Z, Xu R, Li W, Tu Z, Lin D, Qiao Y, Yan H, He C. WanJuan-CC: A safe and high-quality open-sourced English webtext dataset. arXiv: 2402.19282, 2024. https://arxiv.org/abs/2402.19282, Jan. 2026."
+        },
+        {
+          "key": "5948_CR28",
+          "doi-asserted-by": "publisher",
+          "first-page": "36",
+          "DOI": "10.18653/v1/2021.privatenlp-1.5",
+          "volume-title": "Proc. the 3rd Workshop on Privacy in Natural Language Processing",
+          "author": "R Hathurusinghe",
+          "year": "2021",
+          "unstructured": "Hathurusinghe R, Nejadgholi I, Bolic M. A privacy-preserving approach to extraction of personal information through automatic annotation and federated learning. In Proc. the 3rd Workshop on Privacy in Natural Language Processing, Jun. 2021, pp.36–45. DOI: https://doi.org/10.18653/v1/2021.privatenlp-1.5."
+        },
+        {
+          "key": "5948_CR29",
+          "doi-asserted-by": "publisher",
+          "first-page": "3356",
+          "DOI": "10.18653/v1/2020.findings-emnlp.301",
+          "volume-title": "Proc. the 2020 Findings of the Association for Computational Linguistics",
+          "author": "S Gehman",
+          "year": "2020",
+          "unstructured": "Gehman S, Gururangan S, Sap M, Choi Y, Smith N A. RealToxicityPrompts: Evaluating neural toxic degeneration in language models. In Proc. the 2020 Findings of the Association for Computational Linguistics, Nov. 2020, pp.3356–3369. DOI: https://doi.org/10.18653/v1/2020.findings-emnlp.301."
+        },
+        {
+          "key": "5948_CR30",
+          "doi-asserted-by": "publisher",
+          "first-page": "2447",
+          "DOI": "10.18653/v1/2021.findings-emnlp.210",
+          "volume-title": "Proc. the 2021 Findings of the Association for Computational Linguistics",
+          "author": "J Welbl",
+          "year": "2021",
+          "unstructured": "Welbl J, Glaese A, Uesato J, Dathathri S, Mellor J, Hendricks L A, Anderson K, Kohli P, Coppin B, Huang P S. Challenges in detoxifying language models. In Proc. the 2021 Findings of the Association for Computational Linguistics, Nov. 2021, pp.2447–2469. DOI: https://doi.org/10.18653/v1/2021.findings-emnlp.210."
+        },
+        {
+          "key": "5948_CR31",
+          "unstructured": "Zeng W, Ren X, Su T et al. PanGu-α: Large-scale autoregressive pretrained Chinese language models with auto-parallel computation. arXiv: 2104.12369, 2021. https://arxiv.org/abs/2104.12369, Jan. 2026."
+        },
+        {
+          "key": "5948_CR32",
+          "doi-asserted-by": "publisher",
+          "first-page": "483",
+          "DOI": "10.18653/v1/2021.naacl-main.41",
+          "volume-title": "Proc. the 2021 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies",
+          "author": "L Xue",
+          "year": "2021",
+          "unstructured": "Xue L, Constant N, Roberts A, Kale M, Al-Rfou R, Siddhant A, Barua A, Raffel C. mT5: A massively multilingual pre-trained text-to-text transformer. In Proc. the 2021 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies, Jun. 2021, pp.483–498. DOI: https://doi.org/10.18653/v1/2021.naacl-main.41."
+        },
+        {
+          "key": "5948_CR33",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.5555/3666122.3669586",
+          "volume-title": "Proc. the 37th International Conference on Neural Information Processing Systems",
+          "author": "G Penedo",
+          "year": "2023",
+          "unstructured": "Penedo G, Malartic Q, Hesslow D, Cojocaru R, Alobeidli H, Cappelli A, Pannier B, Almazrouei E, Launay J. The RefinedWeb dataset for falcon LLM: Outperforming curated corpora with web data only. In Proc. the 37th International Conference on Neural Information Processing Systems, Dec. 2023, Article No. 3464. DOI: https://doi.org/10.5555/3666122.3669586."
+        },
+        {
+          "key": "5948_CR34",
+          "first-page": "427",
+          "volume-title": "Proc. the 15th Conference of the European Chapter of the Association for Computational Linguistics: Volume 2, Short Papers",
+          "author": "A Joulin",
+          "year": "2017",
+          "unstructured": "Joulin A, Grave E, Bojanowski P, Mikolov T. Bag of tricks for efficient text classification. In Proc. the 15th Conference of the European Chapter of the Association for Computational Linguistics: Volume 2, Short Papers, Apr. 2017, pp.427–431."
+        },
+        {
+          "key": "5948_CR35",
+          "doi-asserted-by": "publisher",
+          "first-page": "11737",
+          "DOI": "10.18653/v1/2023.acl-long.656",
+          "volume-title": "Proc. the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+          "author": "S Feng",
+          "year": "2023",
+          "unstructured": "Feng S, Park C Y, Liu Y, Tsvetkov Y. From pretraining data to language models to downstream tasks: Tracking the trails of political biases leading to unfair NLP models. In Proc. the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers), Jul. 2023, pp.11737–11762. DOI: https://doi.org/10.18653/v1/2023.acl-long.656."
+        },
+        {
+          "key": "5948_CR36",
+          "doi-asserted-by": "publisher",
+          "first-page": "5356",
+          "DOI": "10.18653/v1/2021.acl-long.416",
+          "volume-title": "Proc. the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 1: Long Papers)",
+          "author": "M Nadeem",
+          "year": "2021",
+          "unstructured": "Nadeem M, Bethke A, Reddy S. StereoSet: Measuring stereotypical bias in pretrained language models. In Proc. the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 1: Long Papers), Aug. 2021, pp.5356–5371. DOI: https://doi.org/10.18653/v1/2021.acl-long.416."
+        },
+        {
+          "key": "5948_CR37",
+          "doi-asserted-by": "publisher",
+          "first-page": "1878",
+          "DOI": "10.18653/v1/2022.acl-long.132",
+          "volume-title": "Proc. the 60th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+          "author": "N Meade",
+          "year": "2022",
+          "unstructured": "Meade N, Poole-Daynan E, Reddy S. An empirical survey of the effectiveness of debiasing techniques for pretrained language models. In Proc. the 60th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers), May 2022, pp.1878–1898. DOI: https://doi.org/10.18653/v1/2022.acl-long.132."
+        },
+        {
+          "key": "5948_CR38",
+          "doi-asserted-by": "publisher",
+          "first-page": "219",
+          "DOI": "10.1145/3306618.3317950",
+          "volume-title": "Proc. the 2019 AAAI/ACM Conference on AI, Ethics, and Society",
+          "author": "S Garg",
+          "year": "2019",
+          "unstructured": "Garg S, Perot V, Limtiaco N, Taly A, Chi E H, Beutel A. Counterfactual fairness in text classification through robustness. In Proc. the 2019 AAAI/ACM Conference on AI, Ethics, and Society, Jan. 2019, pp.219–226. DOI: https://doi.org/10.1145/3306618.3317950."
+        },
+        {
+          "key": "5948_CR39",
+          "doi-asserted-by": "publisher",
+          "first-page": "8173",
+          "DOI": "10.18653/v1/2020.emnlp-main.656",
+          "volume-title": "Proc. the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP)",
+          "author": "E Dinan",
+          "year": "2020",
+          "unstructured": "Dinan E, Fan A, Williams A, Urbanek J, Kiela D, Weston J. Queens are powerful too: Mitigating gender bias in dialogue generation. In Proc. the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP), Nov. 2020, pp.8173–8188. DOI: https://doi.org/10.18653/v1/2020.emnlp-main.656."
+        },
+        {
+          "key": "5948_CR40",
+          "doi-asserted-by": "publisher",
+          "first-page": "1941",
+          "DOI": "10.18653/v1/2021.acl-long.151",
+          "volume-title": "Proc. the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 1: Long Papers)",
+          "author": "S Barikeri",
+          "year": "2021",
+          "unstructured": "Barikeri S, Lauscher A, Vulić I, Glavaš G. RedditBias: A real-world resource for bias evaluation and debiasing of conversational language models. In Proc. the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 1: Long Papers), Aug. 2021, pp.1941–1955. DOI: https://doi.org/10.18653/v1/2021.acl-long.151."
+        },
+        {
+          "key": "5948_CR41",
+          "doi-asserted-by": "publisher",
+          "first-page": "189",
+          "DOI": "10.1007/978-3-030-62077-6_14",
+          "volume-title": "Logic, Language, and Security: Essays Dedicated to Andre Scedrov on the Occasion of His 65th Birthday",
+          "author": "K Lu",
+          "year": "2020",
+          "unstructured": "Lu K, Mardziel P, Wu F, Amancharla P, Datta A. Gender bias in neural natural language processing. In Logic, Language, and Security: Essays Dedicated to Andre Scedrov on the Occasion of His 65th Birthday, Nigam V, Kirigin T B, Talcott C, Guttman J, Kuznetsov S, Loo B T, Okada M (eds.), Springer, 2020, pp.189–202. DOI: https://doi.org/10.1007/978-3-030-62077-6_14."
+        },
+        {
+          "key": "5948_CR42",
+          "doi-asserted-by": "publisher",
+          "first-page": "5267",
+          "DOI": "10.18653/v1/D19-1530",
+          "volume-title": "Proc. the 2019 Conference on Empirical Methods in Natural Language Processing and the 9th International Joint Conference on Natural Language Processing (EMNLP-IJCNLP)",
+          "author": "R H Maudslay",
+          "year": "2019",
+          "unstructured": "Maudslay R H, Gonen H, Cotterell R, Teufel S. It’s all in the name: Mitigating gender bias with name-based counterfactual data substitution. In Proc. the 2019 Conference on Empirical Methods in Natural Language Processing and the 9th International Joint Conference on Natural Language Processing (EMNLP-IJCNLP), Nov. 2019, pp.5267–5275. DOI: https://doi.org/10.18653/v1/D19-1530."
+        },
+        {
+          "key": "5948_CR43",
+          "doi-asserted-by": "publisher",
+          "first-page": "214",
+          "DOI": "10.1145/2090236.2090255",
+          "volume-title": "Proc. the 3rd Innovations in Theoretical Computer Science Conference",
+          "author": "C Dwork",
+          "year": "2012",
+          "unstructured": "Dwork C, Hardt M, Pitassi T, Reingold O, Zemel R. Fairness through awareness. In Proc. the 3rd Innovations in Theoretical Computer Science Conference, Jan. 2012, pp.214–226. DOI: https://doi.org/10.1145/2090236.2090255."
+        },
+        {
+          "key": "5948_CR44",
+          "doi-asserted-by": "publisher",
+          "first-page": "14593",
+          "DOI": "10.1609/aaai.v37i12.26706",
+          "volume-title": "Proc. the 37th AAAI Conference on Artificial Intelligence",
+          "author": "A Zayed",
+          "year": "2023",
+          "unstructured": "Zayed A, Parthasarathi P, Mordido G, Palangi H, Shabanian S, Chandar S. Deep learning on a healthy data diet: Finding important examples for fairness. In Proc. the 37th AAAI Conference on Artificial Intelligence, Jun. 2023, pp.14593–14601. DOI: https://doi.org/10.1609/aaai.v37i12.26706."
+        },
+        {
+          "key": "5948_CR45",
+          "unstructured": "Ngo H, Raterink C, Araújo J G M, Zhang I, Chen C, Morisot A, Frosst N. Mitigating harm in language models with conditional-likelihood filtration. arXiv: 2108.07790, 2021. https://arxiv.org/abs/2108.07790, Jan. 2026."
+        },
+        {
+          "key": "5948_CR46",
+          "doi-asserted-by": "publisher",
+          "first-page": "1286",
+          "DOI": "10.18653/v1/2021.emnlp-main.98",
+          "volume-title": "Proc. the 2021 Conference on Empirical Methods in Natural Language Processing",
+          "author": "J Dodge",
+          "year": "2021",
+          "unstructured": "Dodge J, Sap M, Marasović A, Agnew W, Ilharco G, Groeneveld D, Mitchell M, Gardner M. Documenting large Webtext corpora: A case study on the colossal clean crawled corpus. In Proc. the 2021 Conference on Empirical Methods in Natural Language Processing, Nov. 2021, pp.1286–1305. DOI: https://doi.org/10.18653/v1/2021.emnlpmain.98."
+        },
+        {
+          "key": "5948_CR47",
+          "unstructured": "OpenAI. GPT-4 technical report. arXiv: 2303.08774, 2021. https://arxiv.org/pdf/2303.08774, Jan. 2026."
+        },
+        {
+          "key": "5948_CR48",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.5555/3495724.3495883",
+          "volume-title": "Proc. the 34th International Conference on Neural Information Processing Systems",
+          "author": "T B Brown",
+          "year": "2020",
+          "unstructured": "Brown T B, Mann B, Ryder N et al. Language models are few-shot learners. In Proc. the 34th International Conference on Neural Information Processing Systems, Dec. 2020, Article No. 159. DOI: https://doi.org/10.5555/3495724.3495883."
+        },
+        {
+          "issue": "1",
+          "key": "5948_CR49",
+          "doi-asserted-by": "publisher",
+          "first-page": "240",
+          "DOI": "10.5555/3648699.3648939",
+          "volume": "24",
+          "author": "A Chowdhery",
+          "year": "2023",
+          "unstructured": "Chowdhery A, Narang S, Devlin J et al. PaLM: Scaling language modeling with pathways. The Journal of Machine Learning Research, 2023, 24(1): 240. DOI: https://doi.org/10.5555/3648699.3648939.",
+          "journal-title": "The Journal of Machine Learning Research"
+        },
+        {
+          "key": "5948_CR50",
+          "doi-asserted-by": "publisher",
+          "first-page": "8424",
+          "DOI": "10.18653/v1/2022.acl-long.577",
+          "volume-title": "Proc. the 60th Annual Meeting of the Association for Computational Linguistics",
+          "author": "K Lee",
+          "year": "2022",
+          "unstructured": "Lee K, Ippolito D, Nystrom A, Zhang C, Eck D, Callison-Burch C, Carlini N. Deduplicating training data makes language models better. In Proc. the 60th Annual Meeting of the Association for Computational Linguistics, May 2022, pp.8424–8445. DOI: https://doi.org/10.18653/v1/2022.acl-long.577."
+        },
+        {
+          "key": "5948_CR51",
+          "first-page": "10697",
+          "volume-title": "Proc. the 39th International Conference on Machine Learning",
+          "author": "N Kandpal",
+          "year": "2022",
+          "unstructured": "Kandpal N, Wallace E, Raffel C. Deduplicating training data mitigates privacy risks in language models. In Proc. the 39th International Conference on Machine Learning, Jul. 2022, pp.10697–10707."
+        },
+        {
+          "key": "5948_CR52",
+          "unstructured": "Touvron H, Lavril T, Izacard G, Martinet X, Lachaux M A, Lacroix T, Roziere B, Goyal N, Hambro E, Azhar F, Rodriguez A, Joulin A, Grave E, Lample G. LLaMA: Open and efficient foundation language models. arXiv: 2302.13971, 2023. https://arxiv.org/abs/2302.13971, Jan. 2026."
+        },
+        {
+          "key": "5948_CR53",
+          "unstructured": "Touvron H, Martin L, Stone K et al. LLAMA 2: Open foundation and fine-tuned chat models. arXiv: 2307.09288, 2023. https://arxiv.org/abs/2307.09288, Jan. 2026."
+        },
+        {
+          "key": "5948_CR54",
+          "unstructured": "Kocetkov D, Li R, Ben Allal L, Li J, Mou C, Munoz Ferrandis C, Jernite Y, Mitchell M, Hughes S, Wolf T, Bahdanau D, von Werra L, de Vries H. The stack: 3 TB of permissively licensed source code. Trans. Machine Learning Research, 2023. https://openreview.net/pdf?id=pxpbTdUEpD, Jan. 2026."
+        },
+        {
+          "key": "5948_CR55",
+          "unstructured": "Together. Redpajama-data-v2: An open dataset with 30 trillion tokens for training large language models. Together AI Blog, October 2023. https://www.together.ai/blog/redpajama-data-v2, Jan. 2026."
+        },
+        {
+          "issue": "5",
+          "key": "5948_CR56",
+          "doi-asserted-by": "publisher",
+          "first-page": "935",
+          "DOI": "10.1137/0222058",
+          "volume": "22",
+          "author": "U Manber",
+          "year": "1993",
+          "unstructured": "Manber U, Myers G. Suffix arrays: A new method for on-line string searches. SIAM Journal on Computing, 1993, 22(5): 935–948. DOI: https://doi.org/10.1137/0222058.",
+          "journal-title": "SIAM Journal on Computing"
+        },
+        {
+          "key": "5948_CR57",
+          "unstructured": "Landi I, Alleva E, Valentine A A, Lepow L A, Charney A W. Clinical text deduplication practices for efficient pretraining and improved clinical tasks. arXiv: 2312.09469, 2023. https://arxiv.org/abs/2312.09469, Jan. 2026."
+        },
+        {
+          "key": "5948_CR58",
+          "doi-asserted-by": "publisher",
+          "first-page": "21",
+          "DOI": "10.1109/SEQUEN.1997.666900",
+          "volume-title": "Proc. the 1997 Compression and Complexity of SEQUENCES",
+          "author": "A Z Broder",
+          "year": "1997",
+          "unstructured": "Broder A Z. On the resemblance and containment of documents. In Proc. the 1997 Compression and Complexity of SEQUENCES, Jun. 1997, pp.21–29. DOI: https://doi.org/10.1109/SEQUEN.1997.666900."
+        },
+        {
+          "issue": "8/9/10/11/12/13",
+          "key": "5948_CR59",
+          "doi-asserted-by": "publisher",
+          "first-page": "1157",
+          "DOI": "10.1016/S0169-7552(97)00031-7",
+          "volume": "29",
+          "author": "A Z Broder",
+          "year": "1997",
+          "unstructured": "Broder A Z, Glassman S C, Manasse M S, Zweig G. Syntactic clustering of the Web. Computer Networks and ISDN Systems, 1997, 29(8/9/10/11/12/13): 1157–1166. DOI: https://doi.org/10.1016/S0169-7552(97)00031-7.",
+          "journal-title": "Computer Networks and ISDN Systems"
+        },
+        {
+          "key": "5948_CR60",
+          "unstructured": "Gao L, Biderman S, Black S, Golding L, Hoppe T, Foster C, Phang J, He H, Thite A, Nabeshima N, Presser S, Leahy C. The pile: An 800GB dataset of diverse text for language modeling. arXiv: 2101.00027, 2020. https://arxiv.org/abs/2101.00027, Jan. 2026."
+        },
+        {
+          "key": "5948_CR61",
+          "unstructured": "Rae J W, Borgeaud S, Cai T et al. Scaling language models: Methods, analysis & insights from training gopher. arXiv: 2112.11446, 2022. https://arxiv.org/abs/2112.11446, Jan. 2026."
+        },
+        {
+          "key": "5948_CR62",
+          "unstructured": "Shen Z, Tao T, Ma L, Neiswanger W, Liu Z, Wang H, Tan B, Hestness J, Vassilieva N, Soboleva D, Xing E. SlimPajama-DC: Understanding data combinations for LLM training. arXiv: 2309.10818, 2023. https://arxiv.org/abs/2309.10818, Jan. 2026."
+        },
+        {
+          "key": "5948_CR63",
+          "doi-asserted-by": "publisher",
+          "first-page": "141",
+          "DOI": "10.1145/1242572.1242592",
+          "volume-title": "Proc. the 16th International Conference on World Wide Web",
+          "author": "G S Manku",
+          "year": "2007",
+          "unstructured": "Manku G S, Jain A, Das Sarma A. Detecting near-duplicates for web crawling. In Proc. the 16th International Conference on World Wide Web, May 2007, pp.141–150. DOI: https://doi.org/10.1145/1242572.1242592."
+        },
+        {
+          "key": "5948_CR64",
+          "unstructured": "Chen Y, Cai W, Wu L, Li X, Xin Z, Fu C. TigerBot: An open multilingual multitask LLM. arXiv: 2312.08688, 2023. https://arxiv.org/abs/2312.08688, Jan. 2026."
+        },
+        {
+          "key": "5948_CR65",
+          "doi-asserted-by": "publisher",
+          "first-page": "4011",
+          "DOI": "10.18653/v1/2024.acl-long.220",
+          "volume-title": "Proc. the 62nd Annual Meeting of the Association for Computational Linguistics",
+          "author": "N He",
+          "year": "2024",
+          "unstructured": "He N, Xiong W, Liu H, Liao Y, Ding L, Zhang K, Tang G, Han X, Yang W. SoftDedup: An efficient data reweighting method for speeding up language model pretraining. In Proc. the 62nd Annual Meeting of the Association for Computational Linguistics, Aug. 2024, pp.4011–4022. DOI: https://doi.org/10.18653/v1/2024.acl-long.220."
+        },
+        {
+          "key": "5948_CR66",
+          "unstructured": "Khan A, Underwood R, Siebenschuh C, Babuji Y, Ajith A, Hippe K, Gokdemir O, Brace A, Chard K, Foster I. LSHBloom: Memory-efficient, extreme-scale document deduplication. arXiv: 2411.04257, 2024. https://arxiv.org/abs/2411.04257, Jan. 2026."
+        },
+        {
+          "key": "5948_CR67",
+          "doi-asserted-by": "publisher",
+          "unstructured": "Shilov I, Meeus M, de Montjoye Y A. The mosaic memory of large language models. Nature Communications, 2026. DOI: https://doi.org/10.1038/s41467-026-68603-0.",
+          "DOI": "10.1038/s41467-026-68603-0"
+        },
+        {
+          "key": "5948_CR68",
+          "unstructured": "Abbas A, Tirumala K, Simig D, Ganguli S, Morcos A S. SemDeDup: Data-efficient learning at web-scale through semantic deduplication. arXiv: 2303.09540, 2023. https://arxiv.org/abs/2303.09540, Jan. 2026."
+        },
+        {
+          "key": "5948_CR69",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.5555/3666122.3668470",
+          "volume-title": "Proc. the 37th International Conference on Neural Information Processing Systems",
+          "author": "K Tirumala",
+          "year": "2023",
+          "unstructured": "Tirumala K, Simig D, Aghajanyan A, Morcos A S. D4: Improving LLM pretraining via document de-duplication and diversification. In Proc. the 37th International Conference on Neural Information Processing Systems, Dec. 2023, Article No. 2348. DOI: https://doi.org/10.5555/3666122.3668470."
+        },
+        {
+          "key": "5948_CR70",
+          "unstructured": "Kaddour J. The MiniPile challenge for data-efficient language models. arXiv: 2304.08442, 2023. https://arxiv.org/abs/2304.08442, Jan. 2026."
+        },
+        {
+          "key": "5948_CR71",
+          "doi-asserted-by": "publisher",
+          "first-page": "120",
+          "DOI": "10.1145/3626246.3653385",
+          "volume-title": "Proc. the 2024 International Conference on Management of Data",
+          "author": "D Chen",
+          "year": "2024",
+          "unstructured": "Chen D, Huang Y, Ma Z, Chen H, Pan X, Ge C, Gao D, Xie Y, Liu Z, Gao J, Li Y, Ding B, Zhou J. Data-juicer: A one-stop data processing system for large language models. In Proc. the 2024 International Conference on Management of Data, Jun. 2024, pp.120–134. DOI: https://doi.org/10.1145/3626246.3653385."
+        },
+        {
+          "key": "5948_CR72",
+          "volume-title": "Proc. the 11th International Conference on Learning Representations",
+          "author": "E Silcock",
+          "year": "2023",
+          "unstructured": "Silcock E, D’Amico-Wong L, Yang J, Dell M. Noise-robust de-duplication at scale. In Proc. the 11th International Conference on Learning Representations, May 2023."
+        },
+        {
+          "key": "5948_CR73",
+          "doi-asserted-by": "publisher",
+          "first-page": "3982",
+          "DOI": "10.18653/v1/D19-1410",
+          "volume-title": "Proc. the 2019 Conference on Empirical Methods in Natural Language Processing and the 9th International Joint Conference on Natural Language Processing",
+          "author": "N Reimers",
+          "year": "2019",
+          "unstructured": "Reimers N, Gurevych I. Sentence-BERT: Sentence embeddings using siamese BERT-networks. In Proc. the 2019 Conference on Empirical Methods in Natural Language Processing and the 9th International Joint Conference on Natural Language Processing, Nov. 2019, pp.3982–3992. DOI: https://doi.org/10.18653/v1/D19-1410."
+        },
+        {
+          "key": "5948_CR74",
+          "doi-asserted-by": "publisher",
+          "first-page": "5765",
+          "DOI": "10.18653/v1/2024.findings-emnlp.330",
+          "volume-title": "Proc. the 2024 Findings of the Association for Computational Linguistics",
+          "author": "X Li",
+          "year": "2024",
+          "unstructured": "Li X, Li J. Generative deduplication for socia media data selection. In Proc. the 2024 Findings of the Association for Computational Linguistics, Nov. 2024, pp.5765–5776. DOI: https://doi.org/10.18653/v1/2024.findings-emnlp.330."
+        },
+        {
+          "key": "5948_CR75",
+          "doi-asserted-by": "publisher",
+          "first-page": "122",
+          "DOI": "10.18653/v1/2021.acl-demo.15",
+          "volume-title": "Proc. the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing: System Demonstrations",
+          "author": "A Barbaresi",
+          "year": "2021",
+          "unstructured": "Barbaresi A. Trafilatura: A web scraping library and command-line tool for text discovery and extraction. In Proc. the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing: System Demonstrations, Aug. 2021, pp.122–131. DOI: https://doi.org/10.18653/v1/2021.acl-demo.15."
+        },
+        {
+          "key": "5948_CR76",
+          "doi-asserted-by": "publisher",
+          "first-page": "441",
+          "DOI": "10.1145/1718487.1718542",
+          "volume-title": "Proc. the 3rd ACM International Conference on Web Search and Data Mining",
+          "author": "C Kohlschutter",
+          "year": "2010",
+          "unstructured": "Kohlschutter C, Fankhauser P, Nejdl W. Boilerplate detection using shallow text features. In Proc. the 3rd ACM International Conference on Web Search and Data Mining, Feb. 2010, pp.441–450. DOI: https://doi.org/10.1145/1718487.1718542."
+        },
+        {
+          "key": "5948_CR77",
+          "doi-asserted-by": "publisher",
+          "first-page": "10184",
+          "DOI": "10.18653/v1/2024.findings-acl.606",
+          "volume-title": "Proc. the 2024 Findings of the Association for Computational Linguistics",
+          "author": "Y Xie",
+          "year": "2024",
+          "unstructured": "Xie Y, Aggarwal K, Ahmad A. Efficient continual pretraining for building domain specific large language models. In Proc. the 2024 Findings of the Association for Computational Linguistics, Aug. 2024, pp.10184–10201. DOI: https://doi.org/10.18653/v1/2024.findings-acl.606."
+        },
+        {
+          "key": "5948_CR78",
+          "doi-asserted-by": "publisher",
+          "first-page": "273",
+          "DOI": "10.1109/IIAI-AAI63651.2024.00059",
+          "volume-title": "Proc. the 16th IIAI International Congress on Advanced Applied Informatics (IIAI-AAI)",
+          "author": "M Hirano",
+          "year": "2024",
+          "unstructured": "Hirano M, Imajo K. Construction of domain-specified Japanese large language model for finance through continual pre-training. In Proc. the 16th IIAI International Congress on Advanced Applied Informatics (IIAI-AAI), Jul. 2024, pp.273–279. DOI: https://doi.org/10.1109/IIAI-AAI63651.2024.00059."
+        },
+        {
+          "issue": "1",
+          "key": "5948_CR79",
+          "doi-asserted-by": "publisher",
+          "first-page": "1246",
+          "DOI": "10.5753/jbcs.2025.5788",
+          "volume": "31",
+          "author": "T S Almeida",
+          "year": "2025",
+          "unstructured": "Almeida T S, Nogueira R, Pedrini H. Building high-quality datasets for portuguese LLMs: From common crawl snapshots to industrial-grade corpora. Journal of the Brazilian Computer Society, 2025, 31(1): 1246–1262. DOI: https://doi.org/10.5753/jbcs.2025.5788.",
+          "journal-title": "Journal of the Brazilian Computer Society"
+        },
+        {
+          "key": "5948_CR80",
+          "doi-asserted-by": "publisher",
+          "first-page": "1082",
+          "DOI": "10.18653/v1/2023.acl-long.61",
+          "volume-title": "Proc. the 61st Annual Meeting of the Association for Computational Linguistics",
+          "author": "A Imani",
+          "year": "2023",
+          "unstructured": "Imani A, Lin P, Kargaran A H, Severini S, Sabet M J, Kassner N, Ma C, Schmid H, Martins A, Yvon F, Schütze H. Glot500: Scaling multilingual corpora and language models to 500 languages. In Proc. the 61st Annual Meeting of the Association for Computational Linguistics, Jul. 2023, pp.1082–1117. DOI: https://doi.org/10.18653/v1/2023.acl-long.61."
+        },
+        {
+          "key": "5948_CR81",
+          "unstructured": "Ji S, Li Z, Paul I, Paavola J, Lin P, Chen P, O’Brien D, Luo H, Schütze H, Tiedemann J, Haddow B. EMMA-500: Enhancing massively multilingual adaptation of large language models. arXiv: 2409.17892, 2024. https://arxiv.org/abs/2409.17892, Jan. 2026."
+        },
+        {
+          "key": "5948_CR82",
+          "doi-asserted-by": "publisher",
+          "first-page": "424",
+          "DOI": "10.18653/v1/2024.emnlp-demo.45",
+          "volume-title": "Proc. the 2024 Conference on Empirical Methods in Natural Language Processing: System Demonstrations",
+          "author": "L Dou",
+          "year": "2024",
+          "unstructured": "Dou L, Liu Q, Zeng G, Guo J, Zhou J, Mao X, Jin Z, Lu W, Lin M. Sailor: Open language models for south-east Asia. In Proc. the 2024 Conference on Empirical Methods in Natural Language Processing: System Demonstrations, Nov. 2024, pp.424–435. DOI: https://doi.org/10.18653/v1/2024.emnlp-demo.45."
+        },
+        {
+          "key": "5948_CR83",
+          "first-page": "656",
+          "volume-title": "Proc. the 31st International Conference on Computational Linguistics: Industry Track",
+          "author": "T Nakamura",
+          "year": "2025",
+          "unstructured": "Nakamura T, Mishra M, Tedeschi S et al. Aurora-M: Open source continual pre-training for multilingual language and code. In Proc. the 31st International Conference on Computational Linguistics: Industry Track, Jan. 2025, pp.656–678."
+        },
+        {
+          "key": "5948_CR84",
+          "doi-asserted-by": "publisher",
+          "first-page": "304",
+          "DOI": "10.18653/v1/2025.naacl-industry.25",
+          "volume-title": "Proc. the 2025 Conference of the Nations of the Americas Chapter of the Association for Computational Linguistics: Human Language Technologies",
+          "author": "A Nag",
+          "year": "2025",
+          "unstructured": "Nag A, Chakrabarti S, Mukherjee A, Ganguly N. Efficient continual pre-training of LLMs for low-resource languages. In Proc. the 2025 Conference of the Nations of the Americas Chapter of the Association for Computational Linguistics: Human Language Technologies, Apr. 2025, pp.304–317. DOI: https://doi.org/10.18653/v1/2025.naacl-industry.25."
+        },
+        {
+          "key": "5948_CR85",
+          "doi-asserted-by": "publisher",
+          "first-page": "6237",
+          "DOI": "10.18653/v1/2022.emnlp-main.418",
+          "volume-title": "Proc. the 2022 Conference on Empirical Methods in Natural Language Processing",
+          "author": "J Jang",
+          "year": "2022",
+          "unstructured": "Jang J, Ye S, Lee C, Yang S, Shin J, Han J, Kim G, Seo M. TemporalWiki: A lifelong benchmark for training and evaluating ever-evolving language models. In Proc. the 2022 Conference on Empirical Methods in Natural Language Processing, Dec. 2022, pp.6237–6250. DOI: https://doi.org/10.18653/v1/2022.emnlp-main.418."
+        },
+        {
+          "key": "5948_CR86",
+          "doi-asserted-by": "publisher",
+          "first-page": "13843",
+          "DOI": "10.18653/v1/2025.findings-acl.712",
+          "volume-title": "Proc. the 2025 Findings of the Association for Computational Linguistics",
+          "author": "S Yu",
+          "year": "2025",
+          "unstructured": "Yu S, Liu Z, Xiong C. Craw4LLM: Efficient web crawling for LLM pretraining. In Proc. the 2025 Findings of the Association for Computational Linguistics, Jul. 2025, pp.13843–13851. DOI: https://doi.org/10.18653/v1/2025.findings-acl.712."
+        },
+        {
+          "key": "5948_CR87",
+          "doi-asserted-by": "publisher",
+          "first-page": "802",
+          "DOI": "10.18653/v1/2024.acl-short.72",
+          "volume-title": "Proc. the 62nd Annual Meeting of the Association for Computational Linguistics",
+          "author": "Z Xu",
+          "year": "2024",
+          "unstructured": "Xu Z, Liu Z, Yan Y, Liu Z, Yu G, Xiong C. Cleaner pretraining corpus curation with neural web scraping. In Proc. the 62nd Annual Meeting of the Association for Computational Linguistics, Aug. 2024, pp.802–812. DOI: https://doi.org/10.18653/v1/2024.acl-short.72."
+        },
+        {
+          "key": "5948_CR88",
+          "doi-asserted-by": "publisher",
+          "first-page": "32850",
+          "DOI": "10.18653/v1/2025.acl-long.1578",
+          "volume-title": "Proc. the 63rd Annual Meeting of the Association for Computational Linguistics",
+          "author": "Y Guo",
+          "year": "2025",
+          "unstructured": "Guo Y, Fu J, Zhang H, Zhao D. Efficient domain continual pretraining by mitigating the stability gap. In Proc. the 63rd Annual Meeting of the Association for Computational Linguistics, Jul. 2025, pp.32850–32870. DOI: https://doi.org/10.18653/v1/2025.acl-long.1578."
+        },
+        {
+          "key": "5948_CR89",
+          "unstructured": "Wang Y, Fu Z, Cai J, Tang P, Lyu H, Fang Y, Zheng Z, Zhou J, Zeng G, Xiao C, Han X, Liu Z. Ultra-FineWeb: Efficient data filtering and verification for high-quality LLM training data. arXiv: 2505.05427, 2025. https://arxiv.org/abs/2505.05427, Jan. 2026."
+        },
+        {
+          "key": "5948_CR90",
+          "volume-title": "Proc. the 2024 International Conference on Learning Representations",
+          "author": "W Shi",
+          "year": "2024",
+          "unstructured": "Shi W, Min S, Lomeli M, Zhou C, Li M, Lin X V, Smith N A, Zettlemoyer L, Yih W T, Lewis M. In-context pretraining: Language modeling beyond document boundaries. In Proc. the 2024 International Conference on Learning Representations, May 2024."
+        },
+        {
+          "key": "5948_CR91",
+          "unstructured": "Parmar J, Satheesh S, Patwary M, Shoeybi M, Catanzaro B. Reuse, don’t retrain: A recipe for continued pretraining of language models. arXiv: 2407.07263, 2024. https://arxiv.org/abs/2407.07263, Jan. 2026."
+        },
+        {
+          "key": "5948_CR92",
+          "unstructured": "Sam D, Chakrabarti A, Rostamizadeh A, Ramalingam S, Citovsky G, Kumar S. Analyzing similarity metrics for data selection for language model pretraining. arXiv: 2502.02494, 2025. https://arxiv.org/abs/2502.02494, Feb. 2026."
+        },
+        {
+          "key": "5948_CR93",
+          "unstructured": "Mizrahi D, Larsen A B L, Allardice J, Petryk S, Gorokhov Y, Li J, Fang A, Gardner J, Gunter T, Dehghan A. Language models improve when pretraining data matches target tasks. arXiv: 2507.12466, 2025. https://arxiv.org/abs/2507.12466, Jan. 2026."
+        },
+        {
+          "key": "5948_CR94",
+          "doi-asserted-by": "publisher",
+          "first-page": "11295",
+          "DOI": "10.18653/v1/2023.emnlp-main.695",
+          "volume-title": "Proc. the 2023 Conference on Empirical Methods in Natural Language Processing",
+          "author": "G Yauney",
+          "year": "2023",
+          "unstructured": "Yauney G, Reif E, Mimno D. Data similarity is not enough to explain language model performance. In Proc. the 2023 Conference on Empirical Methods in Natural Language Processing, Dec. 2023, pp.11295–11304. DOI: https://doi.org/10.18653/v1/2023.emnlp-main.695."
+        },
+        {
+          "key": "5948_CR95",
+          "unstructured": "Yildiz Ç, Ravichandran N K, Sharma N, Bethge M, Ermis B. Investigating continual pretraining in large language models: Insights and implications. arXiv: 2402.17400, 2024. https://arxiv.org/abs/2402.17400, Jan. 2026."
+        },
+        {
+          "key": "5948_CR96",
+          "volume-title": "Proc. the 42nd International Conference on Machine Learning",
+          "author": "X Wang",
+          "year": "2025",
+          "unstructured": "Wang X, Tissue H, Wang L, Li L, Zeng D D. Learning dynamics in continual pre-training for large language models. In Proc. the 42nd International Conference on Machine Learning, Jul. 2025."
+        },
+        {
+          "key": "5948_CR97",
+          "doi-asserted-by": "publisher",
+          "first-page": "5779",
+          "DOI": "10.18653/v1/2025.acl-long.289",
+          "volume-title": "Proc. the 63rd Annual Meeting of the Association for Computational Linguistics",
+          "author": "J Chen",
+          "year": "2025",
+          "unstructured": "Chen J, Chen Z, Wang J et al. Towards effective and efficient continual pre-training of large language models. In Proc. the 63rd Annual Meeting of the Association for Computational Linguistics, Jul. 2025, pp.5779–5795. DOI: https://doi.org/10.18653/v1/2025.acl-long.289."
+        },
+        {
+          "key": "5948_CR98",
+          "doi-asserted-by": "publisher",
+          "first-page": "87",
+          "DOI": "10.1109/SCW63240.2024.00019",
+          "volume-title": "Proc. the 2024 SC Workshops of the International Conference on High Performance Computing, Network, Storage, and Analysis",
+          "author": "R Pan",
+          "year": "2024",
+          "unstructured": "Pan R, Nguyen T D, Arora H, Accomazzi A, Ghosal T, Ting Y S. AstroMLab 2: AstroLLaMA-2-70B model and benchmarking specialised LLMs for astronomy. In Proc. the 2024 SC Workshops of the International Conference on High Performance Computing, Network, Storage, and Analysis, Nov. 2024, pp.87–96. DOI: https://doi.org/10.1109/SCW63240.2024.00019."
+        },
+        {
+          "key": "5948_CR99",
+          "doi-asserted-by": "publisher",
+          "first-page": "14044",
+          "DOI": "10.18653/v1/2024.acl-long.757",
+          "volume-title": "Proc. the 62nd Annual Meeting of the Association for Computational Linguistics",
+          "author": "P Maini",
+          "year": "2024",
+          "unstructured": "Maini P, Seto S, Bai H, Grangier D, Zhang Y, Jaitly N. Rephrasing the web: A recipe for compute and data-efficient language modeling. In Proc. the 62nd Annual Meeting of the Association for Computational Linguistics, Aug. 2024, pp.14044–14072. DOI: https://doi.org/10.18653/v1/2024.acl-long.757."
+        },
+        {
+          "key": "5948_CR100",
+          "volume-title": "Proc. the 13th International Conference on Learning Representations",
+          "author": "J Jiang",
+          "year": "2025",
+          "unstructured": "Jiang J, Li J, Zhao X, Song Y, Zhang T, Wen J R. Mix-CPT: A domain adaptation framework via decoupling knowledge learning and format alignment. In Proc. the 13th International Conference on Learning Representations, Apr. 2025."
+        },
+        {
+          "key": "5948_CR101",
+          "unstructured": "Hu Y, Song H, Deng J, Wang J, Chen J, Zhou K, Zhu Y, Jiang J, Dong Z, Zhao W X, Wen J R. YuLan-Mini: An open data-efficient language model. arXiv: 2412.17743, 2024. https://arxiv.org/abs/2412.17743, Jan. 2026."
+        },
+        {
+          "key": "5948_CR102",
+          "unstructured": "Abdin M, Aneja J, Behl H et al. Phi-4 technical report. arXiv: 2412.08905, 2024. https://arxiv.org/abs/2412.08905, Jan. 2026."
+        },
+        {
+          "key": "5948_CR103",
+          "unstructured": "Ishibashi Y, Yano T, Oyamada M. Mining hidden thoughts from texts: Evaluating continual pretraining with synthetic data for LLM reasoning. arXiv: 2505.10182, 2025. https://arxiv.org/abs/2505.10182, Feb. 2026."
+        },
+        {
+          "key": "5948_CR104",
+          "volume-title": "Proc. the 13th International Conference on Learning Representations",
+          "author": "Z Yang",
+          "year": "2025",
+          "unstructured": "Yang Z, Band N, Li S, Candes E J, Hashimoto T. Synthetic continued pretraining. In Proc. the 13th International Conference on Learning Representations, Apr. 2025."
+        },
+        {
+          "key": "5948_CR105",
+          "volume-title": "Proc. the 13th International Conference on Learning Representations",
+          "author": "S N Akter",
+          "year": "2025",
+          "unstructured": "Akter S N, Prabhumoye S, Kamalu J, Satheesh S, Nyberg E, Patwary M, Shoeybi M, Catanzaro B. MIND: Math informed synthetic dialogues for pretraining LLMs. In Proc. the 13th International Conference on Learning Representations, Apr. 2025."
+        },
+        {
+          "key": "5948_CR106",
+          "unstructured": "Dong H, Zhang P, Lu M, Shen Y, Ke G. MachineLearningLM: Continued pretraining language models on millions of synthetic tabular prediction tasks scales in-context ML. arXiv: 2509.06806, 2025. https://arxiv.org/abs/2509.06806v1, Jan. 2026."
+        },
+        {
+          "key": "5948_CR107",
+          "doi-asserted-by": "publisher",
+          "first-page": "2088920907",
+          "DOI": "10.18653/v1/2024.emnlp-main.1162",
+          "volume-title": "Proc. the 2024 Conference on Empirical Methods in Natural Language Processing",
+          "author": "X Liang",
+          "year": "2024",
+          "unstructured": "Liang X, Hu X, Zuo S, Gong Y, Lou Q, Liu Y, Huang S L, Jiao J. Task oriented in-domain data augmentation. In Proc. the 2024 Conference on Empirical Methods in Natural Language Processing, Nov. 2024, pp.2088920907. DOI: https://doi.org/10.18653/v1/2024.emnlp-main.1162."
+        },
+        {
+          "key": "5948_CR108",
+          "doi-asserted-by": "publisher",
+          "first-page": "3470",
+          "DOI": "10.18653/v1/2022.acl-long.244",
+          "volume-title": "Proc. the 60th Annual Meeting of the Association for Computational Linguistics",
+          "author": "S Mishra",
+          "year": "2022",
+          "unstructured": "Mishra S, Khashabi D, Baral C, Hajishirzi H. Cross-task generalization via natural language crowdsourcing instructions. In Proc. the 60th Annual Meeting of the Association for Computational Linguistics, May 2022, pp.3470–3487. DOI: https://doi.org/10.18653/v1/2022.acl-long.244."
+        },
+        {
+          "key": "5948_CR109",
+          "volume-title": "Proc. the 10th International Conference on Learning Representations",
+          "author": "J Wei",
+          "year": "2022",
+          "unstructured": "Wei J, Bosma M, Zhao V Y, Guu K, Yu A W, Lester B, Du N, Dai A M, Le Q V. Finetuned language models are zero-shot learners. In Proc. the 10th International Conference on Learning Representations, Apr. 2022."
+        },
+        {
+          "key": "5948_CR110",
+          "doi-asserted-by": "publisher",
+          "first-page": "93",
+          "DOI": "10.18653/v1/2022.acl-demo.9",
+          "volume-title": "Proc. the 60th Annual Meeting of the Association for Computational Linguistics: System Demonstrations",
+          "author": "S H Bach",
+          "year": "2022",
+          "unstructured": "Bach S H, Sanh V, Yong Z X et al. PromptSource: An integrated development environment and repository for natural language prompts. In Proc. the 60th Annual Meeting of the Association for Computational Linguistics: System Demonstrations, May 2022, pp.93–104. DOI: https://doi.org/10.18653/v1/2022.acl-demo.9."
+        },
+        {
+          "key": "5948_CR111",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.5555/3666122.3668522",
+          "volume-title": "Proc. the 37th International Conference on Neural Information Processing Systems",
+          "author": "C Zhou",
+          "year": "2023",
+          "unstructured": "Zhou C, Liu P, Xu P, Iyer S, Sun J, Mao Y, Ma X, Efrat A, Yu P, Yu L, Zhang S, Ghosh G, Lewis M, Zettlemoyer L, Levy O. LIMA: Less is more for alignment. In Proc. the 37th International Conference on Neural Information Processing Systems, Dec. 2023, Article No. 2400. DOI: https://doi.org/10.5555/3666122.3668522."
+        },
+        {
+          "key": "5948_CR112",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.5555/3600270.3602281",
+          "volume-title": "Proc. the 36th International Conference on Neural Information Processing Systems",
+          "author": "L Ouyang",
+          "year": "2022",
+          "unstructured": "Ouyang L, Wu J, Jiang X et al. Training language models to follow instructions with human feedback. In Proc. the 36th International Conference on Neural Information Processing Systems, Nov. 28–Dec. 9, 2022, Article No. 2011. DOI: https://doi.org/10.5555/3600270.3602281."
+        },
+        {
+          "key": "5948_CR113",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.5555/3666122.3668186",
+          "volume-title": "Proc. the 37th International Conference on Neural Information Processing Systems",
+          "author": "A Köpf",
+          "year": "2023",
+          "unstructured": "Köpf A, Kilcher Y, von Rütte D et al. Openassistant conversations-democratizing large language model alignment. In Proc. the 37th International Conference on Neural Information Processing Systems, Dec. 2023, Article No. 2064. DOI: https://doi.org/10.5555/3666122.3668186."
+        },
+        {
+          "key": "5948_CR114",
+          "doi-asserted-by": "publisher",
+          "first-page": "11521",
+          "DOI": "10.18653/v1/2024.acl-long.620",
+          "volume-title": "Proc. the 62nd Annual Meeting of the Association for Computational Linguistics",
+          "author": "S Singh",
+          "year": "2024",
+          "unstructured": "Singh S, Vargus F, D’souza D et al. Aya dataset: An open-access collection for multilingual instruction tuning. In Proc. the 62nd Annual Meeting of the Association for Computational Linguistics, Aug. 2024, pp.11521–11567. DOI: https://doi.org/10.18653/v1/2024.acl-long.620."
+        },
+        {
+          "key": "5948_CR115",
+          "doi-asserted-by": "publisher",
+          "first-page": "17633",
+          "DOI": "10.18653/v1/2025.findings-acl.906",
+          "volume-title": "Findings of the Association for Computational Linguistics: ACL 2025",
+          "author": "H Zhu",
+          "year": "2025",
+          "unstructured": "Zhu H, Ding Y, Tao Y, Ruan Z, Li Y, Zhang W, Chen Y, Chen G. FANNO: Augmenting high-quality instruction data with open-sourced LLMs only. In Findings of the Association for Computational Linguistics: ACL 2025, Jul. 2025, pp.17633–17653. DOI: https://doi.org/10.18653/v1/2025.findings-acl.906."
+        },
+        {
+          "key": "5948_CR116",
+          "unstructured": "Zhu A, Asawa P, Quincy Davis J Chen L, Hanin B, Stoica I, Gonzalez J E, Zaharia M. BARE: Combining base and instruction-tuned language models for better synthetic data generation. arXiv: 2502.01697, 2025. https://arxiv.org/abs/2502.01697v1, Jan. 2026."
+        },
+        {
+          "key": "5948_CR117",
+          "unstructured": "Tang X, Klein J, Bissyande T F. Boosting open-source LLMs or program repair via reasoning transfer and LLM-guided reinforcement learning. arXiv: 2506.03921, 2025. https://arxiv.org/abs/2506.03921, Jan. 2026."
+        },
+        {
+          "key": "5948_CR118",
+          "doi-asserted-by": "publisher",
+          "first-page": "11006",
+          "DOI": "10.18653/v1/2025.naacl-long.550",
+          "volume-title": "Proc. the 2025 Conference of the Nations of the Americas Chapter of the Association for Computational Linguistics: Human Language Technologies (Volume 1)",
+          "author": "Y He",
+          "year": "2025",
+          "unstructured": "He Y, Yin D, Peng N. Guiding through complexity: What makes good supervision for hard reasoning tasks. In Proc. the 2025 Conference of the Nations of the Americas Chapter of the Association for Computational Linguistics: Human Language Technologies (Volume 1), Apr. 2025, pp.11006–11046. DOI: https://doi.org/10.18653/v1/2025.naacl-long.550."
+        },
+        {
+          "key": "5948_CR119",
+          "doi-asserted-by": "publisher",
+          "first-page": "4422",
+          "DOI": "10.18653/v1/2025.naacl-long.226",
+          "volume-title": "Proc. the 2025 Conference of the Nations of the Americas Chapter of the Association for Computational Linguistics: Human Language Technologies (Volume 1)",
+          "author": "J Dong",
+          "year": "2025",
+          "unstructured": "Dong J, Jiang L, Jin W, Cheng L. Threshold filtering packing for supervised finetuning. In Proc. the 2025 Conference of the Nations of the Americas Chapter of the Association for Computational Linguistics: Human Language Technologies (Volume 1), Apr. 2025, pp.4422–4435. https://doi.org/10.18653/v1/2025.naacl-long.226."
+        },
+        {
+          "key": "5948_CR120",
+          "doi-asserted-by": "publisher",
+          "first-page": "23287",
+          "DOI": "10.18653/v1/2025.acl-long.1135",
+          "volume-title": "Proc. the 63rd Annual Meeting of the Association for Computational Linguistics",
+          "author": "S Wang",
+          "year": "2025",
+          "unstructured": "Wang S, Jin X, Wang Z, Wang J, Zhang J, Li K, Wen Z, Li Z, He C, Hu X, Zhang L. Data whisperer: Efficient data selection for task-specific LLM fine-tuning via fewshot in-context learning. In Proc. the 63rd Annual Meeting of the Association for Computational Linguistics, Jul. 2025, pp.23287–23305. DOI: https://doi.org/10.18653/v1/2025.acl-long.1135."
+        },
+        {
+          "key": "5948_CR121",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.24963/ijcai.2025/928",
+          "volume-title": "Proc. the 34th International Joint Conference on Artificial Intelligence",
+          "author": "J Zhang",
+          "year": "2025",
+          "unstructured": "Zhang J, Zhang C X, Liu Y, Jin Y X, Yang X W, Zheng B, Liu Y, Guo L Z. D3: Diversity, difficulty, and dependability-aware data selection for sample-efficient LLM instruction tuning. In Proc. the 34th International Joint Conference on Artificial Intelligence, Aug. 2025, Article No. 928. DOI: https://doi.org/10.24963/ijcai.2025/928."
+        },
+        {
+          "key": "5948_CR122",
+          "unstructured": "Nikdan M, Cohen-Addad V, Alistarh D, Mirrokni V. Efficient data selection at scale via influence distillation. arXiv: 2505.19051, 2025. https://arxiv.org/abs/2505.19051, Jan. 2026."
+        },
+        {
+          "key": "5948_CR123",
+          "first-page": "2232",
+          "volume-title": "Proc. the 6th International Conference on Learning Representations",
+          "author": "O Sener",
+          "year": "2018",
+          "unstructured": "Sener O, Savarese S. Active learning for convolutional neural networks: A core-set approach. In Proc. the 6th International Conference on Learning Representations, Apr. 30–May 3, 2018, pp.2232–2244."
+        },
+        {
+          "key": "5948_CR124",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.5555/3540261.3541689",
+          "volume-title": "Proc. the 35th International Conference on Neural Information Processing Systems",
+          "author": "S Kothawade",
+          "year": "2021",
+          "unstructured": "Kothawade S, Beck N, Killamsetty K, Iyer R. SIMILAR: Submodular information measures based active learning in realistic scenarios. In Proc. the 35th International Conference on Neural Information Processing Systems, Dec. 2021, Article No. 1428. DOI: https://doi.org/10.5555/3540261.3541689."
+        },
+        {
+          "key": "5948_CR125",
+          "doi-asserted-by": "publisher",
+          "first-page": "1954",
+          "DOI": "10.5555/3045118.3045326",
+          "volume-title": "Proc. the 32nd International Conference on Machine Learning",
+          "author": "K Wei",
+          "year": "2015",
+          "unstructured": "Wei K, Iyer R, Bilmes J. Submodularity in data subset selection and active learning. In Proc. the 32nd International Conference on Machine Learning, Jul. 2015, pp.1954–1963. DOI: https://doi.org/10.5555/3045118.3045326."
+        },
+        {
+          "key": "5948_CR126",
+          "unstructured": "Bachem O, Lucic M, Krause A. Practical coreset constructions for machine learning. arXiv: 1703.06476, 2017. https://arxiv.org/abs/1703.06476, Jan. 2026."
+        },
+        {
+          "key": "5948_CR127",
+          "doi-asserted-by": "publisher",
+          "first-page": "569",
+          "DOI": "10.1145/1993636.1993712",
+          "volume-title": "Proc. the 43rd Annual ACM Symposium on Theory of Computing",
+          "author": "D Feldman",
+          "year": "2011",
+          "unstructured": "Feldman D, Langberg M. A unified framework for approximating and clustering data. In Proc. the 43rd Annual ACM Symposium on Theory of Computing, Jun. 2011, pp.569–578. DOI: https://doi.org/10.1145/1993636.1993712."
+        },
+        {
+          "key": "5948_CR128",
+          "doi-asserted-by": "publisher",
+          "first-page": "6556",
+          "DOI": "10.18653/v1/2024.naacl-long.365",
+          "volume-title": "Proc. the 2024 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies",
+          "author": "J Fu",
+          "year": "2024",
+          "unstructured": "Fu J, Ng S K, Jiang Z, Liu P. GPTScore: Evaluate as you desire. In Proc. the 2024 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies, Jun. 2024, pp.6556–6576. DOI: https://doi.org/10.18653/v1/2024.naacl-long.365."
+        },
+        {
+          "key": "5948_CR129",
+          "unstructured": "Du Q, Zong C, Zhang J. MoDS: Model-oriented data selection for instruction tuning. arXiv: 2311.15653, 2023. https://arxiv.org/abs/2311.15653, Jan. 2026."
+        },
+        {
+          "key": "5948_CR130",
+          "unstructured": "Parkar R S, Kim J, Park J I, Kang D. SelectLLM: Can LLMs select important instructions to annotate? arXiv: 2401.16553, 2024. https://arxiv.org/abs/2401.16553, Jan. 2026."
+        },
+        {
+          "key": "5948_CR131",
+          "doi-asserted-by": "publisher",
+          "first-page": "46534",
+          "DOI": "10.5555/3666122.3668141",
+          "volume-title": "Proc. the 37th International Conference on Neural Information Processing Systems",
+          "author": "A Madaan",
+          "year": "2023",
+          "unstructured": "Madaan A, Tandon N, Gupta P et al. SELF-REFINE: Iterative refinement with self-feedback. In Proc. the 37th International Conference on Neural Information Processing Systems, Dec. 2023, pp.46534–46594. DOI: https://doi.org/10.5555/3666122.3668141."
+        },
+        {
+          "key": "5948_CR132",
+          "unstructured": "Chu K C, Chen Y P, Nakayama H. A better LLM evaluator for text generation: The impact of prompt output sequencing and optimization. arXiv: 2406.09972, 2024. https://arxiv.org/abs/2406.09972, Jan. 2026."
+        },
+        {
+          "key": "5948_CR133",
+          "doi-asserted-by": "publisher",
+          "first-page": "1789",
+          "DOI": "10.18653/v1/2025.findings-emnlp.94",
+          "volume-title": "Proc. the 2023 Findings of the Association for Computational Linguistics",
+          "author": "J Lee",
+          "year": "2025",
+          "unstructured": "Lee J, Hockenmaier J. Evaluating step-by-step reasoning traces: A survey. In Proc. the 2023 Findings of the Association for Computational Linguistics, Nov. 2025, pp.1789–1814. DOI: https://doi.org/10.18653/v1/2025.findings-emnlp.94."
+        },
+        {
+          "key": "5948_CR134",
+          "doi-asserted-by": "publisher",
+          "first-page": "20596",
+          "DOI": "10.5555/3540261.3541836",
+          "volume-title": "Proc. the 2023 Findings of the Association for Computational Linguistics",
+          "author": "M Paul",
+          "year": "2021",
+          "unstructured": "Paul M, Ganguli S, Dziugaite G K. Deep learning on a data diet: Finding important examples early in training. In Proc. the 2023 Findings of the Association for Computational Linguistics, Dec. 2021, pp.20596–20607. DOI: https://doi.org/10.5555/3540261.3541836."
+        },
+        {
+          "key": "5948_CR135",
+          "doi-asserted-by": "publisher",
+          "first-page": "129",
+          "DOI": "10.18653/v1/2023.sustainlp-1.9",
+          "volume-title": "Proc. the 4th Workshop on Simple and Efficient Natural Language Processing (SustaiNLP)",
+          "author": "J M Attendu",
+          "year": "2023",
+          "unstructured": "Attendu J M, Corbeil J P. NLU on data diets: Dynamic data subset selection for NLP classification tasks. In Proc. the 4th Workshop on Simple and Efficient Natural Language Processing (SustaiNLP), Jul. 2023, pp.129–146. DOI: https://doi.org/10.18653/v1/2023.sustainlp-1.9."
+        },
+        {
+          "key": "5948_CR136",
+          "first-page": "11727",
+          "volume-title": "Proc. the 41st International Conference on Machine Learning",
+          "author": "M Xia",
+          "year": "2024",
+          "unstructured": "Xia M, Malladi S, Gururangan S, Arora S, Chen D. Less: Selecting influential data for targeted instruction tuning. In Proc. the 41st International Conference on Machine Learning, Jul. 2024, pp.11727–11737."
+        },
+        {
+          "key": "5948_CR137",
+          "unstructured": "Choe S K, Ahn H, Bae J, Zhao K, Kang M, Chung Y, Pratapa A, Neiswanger W, Strubell E, Mitamura T, Schneider J, Hovy E, Grosse R, Xing E. What is your data worth to GPT? LLM-scale data valuation with influence functions. arXiv: 2405.13954, 2024. https://arxiv.org/abs/2405.13954, Jan. 2026."
+        },
+        {
+          "key": "5948_CR138",
+          "unstructured": "Ananta M, Adilazuarda M F, Zuhri Z M K, Purwarianti A, Fikri Aji A. QLESS: A quantized approach for data valuation and selection in large language model fine-tuning. arXiv: 2502.01703, 2025. https://arxiv.org/abs/2502.01703, Jan. 2026."
+        },
+        {
+          "key": "5948_CR139",
+          "doi-asserted-by": "publisher",
+          "first-page": "7602",
+          "DOI": "10.18653/v1/2024.naacl-long.421",
+          "volume-title": "Proc. the 2024 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies",
+          "author": "M Li",
+          "year": "2024",
+          "unstructured": "Li M, Zhang Y, Li Z, Chen J, Chen L, Cheng N, Wang J, Zhou T, Xiao J. From quantity to quality: Boosting LLM performance with self-guided data selection for instruction tuning. In Proc. the 2024 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies, Jun. 2024, pp.7602–7635. DOI: https://doi.org/10.18653/v1/2024.naacl-long.421."
+        },
+        {
+          "key": "5948_CR140",
+          "doi-asserted-by": "publisher",
+          "first-page": "4586",
+          "DOI": "10.18653/v1/2024.acl-long.252",
+          "volume-title": "Proc. the 62nd Annual Meeting of the Association for Computational Linguistics",
+          "author": "Y Li",
+          "year": "2024",
+          "unstructured": "Li Y, Hui B, Xia X, Yang J, Yang M, Zhang L, Si S, Chen L H, Liu J, Liu T, Huang F, Li Y. One-shot learning as instruction data prospector for large language models. In Proc. the 62nd Annual Meeting of the Association for Computational Linguistics, Aug. 2024, pp.4586–4601. DOI: https://doi.org/10.18653/v1/2024.acl-long.252."
+        },
+        {
+          "key": "5948_CR141",
+          "doi-asserted-by": "publisher",
+          "first-page": "1813",
+          "DOI": "10.18653/v1/2023.emnlp-main.112",
+          "volume-title": "Proc. the 2023 Conference on Empirical Methods in Natural Language Processing",
+          "author": "P N Kung",
+          "year": "2023",
+          "unstructured": "Kung P N, Yin F, Wu D, Chang K W, Peng N. Active instruction tuning: Improving cross-task generalization by training on prompt sensitive tasks. In Proc. the 2023 Conference on Empirical Methods in Natural Language Processing, Dec. 2023, pp.1813–1829. DOI: https://doi.org/10.18653/v1/2023.emnlp-main.112."
+        },
+        {
+          "key": "5948_CR142",
+          "unstructured": "Liu L, Liu X, Wong D F, Li D, Wang Z, Hu B, Zhang M. SelectIT: Selective instruction tuning for large language models via uncertainty-aware self-reflection. arXiv: 2402.16705, 2024. https://arxiv.org/abs/2402.16705v1, Jan. 2026."
+        },
+        {
+          "key": "5948_CR143",
+          "doi-asserted-by": "publisher",
+          "first-page": "1073",
+          "DOI": "10.18653/v1/P17-1099",
+          "volume-title": "Proc. the 55th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+          "author": "A See",
+          "year": "2017",
+          "unstructured": "See A, Liu P J, Manning C D. Get to the point: Summarization with pointer-generator networks. In Proc. the 55th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers), Jul. 2017, pp.1073–1083. DOI: https://doi.org/10.18653/v1/P17-1099."
+        },
+        {
+          "key": "5948_CR144",
+          "doi-asserted-by": "publisher",
+          "first-page": "1797",
+          "DOI": "10.18653/v1/D18-1206",
+          "volume-title": "Proc. the 2018 Conference on Empirical Methods in Natural Language Processing",
+          "author": "S Narayan",
+          "year": "2018",
+          "unstructured": "Narayan S, Cohen S B, Lapata M. Don’t give me the details, just the summary! Topic-aware convolutional neural networks for extreme summarization. In Proc. the 2018 Conference on Empirical Methods in Natural Language Processing, Oct. 2018, pp.1797–1807. DOI: https://doi.org/10.18653/v1/D18-1206."
+        },
+        {
+          "key": "5948_CR145",
+          "unstructured": "Huang X Y, Vishnubhotla K, Rudzicz F. The GPT-WritingPrompts dataset: A comparative analysis of character portrayal in short stories. arXiv: 2406.16767, 2024. https://arxiv.org/abs/2406.16767, Jan. 2026."
+        },
+        {
+          "key": "5948_CR146",
+          "first-page": "1485",
+          "volume-title": "Proc. the 14th International Joint Conference on Natural Language Processing and the 4th Conference of the Asia-Pacific Chapter of the Association for Computational Linguistics",
+          "author": "N A Kumar",
+          "year": "2025",
+          "unstructured": "Kumar N A, Pham C M, Iyyer M, Lan A. Whose story is it? Personalizing story generation by inferring author styles. In Proc. the 14th International Joint Conference on Natural Language Processing and the 4th Conference of the Asia-Pacific Chapter of the Association for Computational Linguistics, Dec. 2025, pp.1485–1540."
+        },
+        {
+          "key": "5948_CR147",
+          "doi-asserted-by": "publisher",
+          "first-page": "2383",
+          "DOI": "10.18653/v1/D16-1264",
+          "volume-title": "Proc. the 2016 Conference on Empirical Methods in Natural Language Processing",
+          "author": "P Rajpurkar",
+          "year": "2016",
+          "unstructured": "Rajpurkar P, Zhang J, Lopyrev K, Liang P. SQuAD: 100, 000+ questions for machine comprehension of text. In Proc. the 2016 Conference on Empirical Methods in Natural Language Processing, Nov. 2016, pp.2383–2392. DOI: https://doi.org/10.18653/v1/D16-1264."
+        },
+        {
+          "key": "5948_CR148",
+          "doi-asserted-by": "publisher",
+          "first-page": "452",
+          "DOI": "10.1162/tacl_a_00276",
+          "volume": "7",
+          "author": "T Kwiatkowski",
+          "year": "2019",
+          "unstructured": "Kwiatkowski T, Palomaki J, Redfield O et al. Natural Questions: A benchmark for question answering research. Transactions of the Association for Computational Linguistics, 2019, 7:452–466. DOI: https://doi.org/10.1162/tacl_a_00276.",
+          "journal-title": "Transactions of the Association for Computational Linguistics"
+        },
+        {
+          "key": "5948_CR149",
+          "doi-asserted-by": "publisher",
+          "first-page": "1601",
+          "DOI": "10.18653/v1/P17-1147",
+          "volume-title": "Proc. the 55th Annual Meeting of the Association for Computational Linguistics",
+          "author": "M Joshi",
+          "year": "2017",
+          "unstructured": "Joshi M, Choi E, Weld D S, Zettlemoyer L. TriviaQA: A large scale distantly supervised challenge dataset for reading comprehension. In Proc. the 55th Annual Meeting of the Association for Computational Linguistics, Jul. 2017, pp.1601–1611. DOI: https://doi.org/10.18653/v1/P17-1147."
+        },
+        {
+          "key": "5948_CR150",
+          "unstructured": "Wang X, Zhou W, Zu C, Xia H, Chen T, Zhang Y, Zheng R, Ye J, Zhang Q, Gui T, Kang J, Yang J, Li S, Du C. InstructUIE: Multi-task instruction tuning for unified information extraction. arXiv: 2304.08085, 2023. https://arxiv.org/abs/2304.08085, Jan. 2026."
+        },
+        {
+          "key": "5948_CR151",
+          "first-page": "4840",
+          "volume-title": "Proc. the 31st International Conference on Computational Linguistics",
+          "author": "Z Zhang",
+          "year": "2025",
+          "unstructured": "Zhang Z, You W, Wu T, Wang X, Li J, Zhang M. A survey of generative information extraction. In Proc. the 31st International Conference on Computational Linguistics, Jan. 2025, pp.4840–4870."
+        },
+        {
+          "key": "5948_CR152",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.5555/3600270.3602070",
+          "volume-title": "Proc. the 36th International Conference on Neural Information Processing Systems",
+          "author": "J Wei",
+          "year": "2022",
+          "unstructured": "Wei J, Wang X, Schuurmans D, Bosma M, Ichter B, Xia F, Chen E H, Le Q V, Zhou D. Chain-of-thought prompting elicits reasoning in large language models. In Proc. the 36th International Conference on Neural Information Processing Systems, Nov. 28–Dec. 9, 2022, Article No. 1800. DOI: https://doi.org/10.5555/3600270.3602070."
+        },
+        {
+          "key": "5948_CR153",
+          "unstructured": "Cobbe K, Kosaraju V, Bavarian M, Chen M, Jun H, Kaiser L, Plappert M, Tworek J, Hilton J, Nakano R, Hesse C, Schulman J. Training verifiers to solve math word problems. arXiv: 2110.14168, 2021. https://arxiv.org/abs/2110.14168, Jan. 2026."
+        },
+        {
+          "key": "5948_CR154",
+          "volume-title": "Proc. the 2021 Neural Information Processing Systems Track on Datasets and Benchmarks 1, NeurIPS Datasets and Benchmarks",
+          "author": "D Hendrycks",
+          "year": "2021",
+          "unstructured": "Hendrycks D, Burns C, Kadavath S, Arora A, Basart S, Tang E, Song D, Steinhardt J. Measuring mathematical problem solving with the MATH dataset. In Proc. the 2021 Neural Information Processing Systems Track on Datasets and Benchmarks 1, NeurIPS Datasets and Benchmarks, Dec. 2021."
+        },
+        {
+          "key": "5948_CR155",
+          "unstructured": "Chen M, Tworek J, Jun H et al. Evaluating large language models trained on code. arXiv: 2107.03374, 2021. https://arxiv.org/abs/2107.03374, Jan. 2026."
+        },
+        {
+          "key": "5948_CR156",
+          "unstructured": "Austin J, Odena A, Nye M, Bosma M, Michalewski H, Dohan D, Jiang E, Cai C, Terry M, Le Q, Sutton C. Program synthesis with large language models. arXiv: 2108.07732, 2021. https://arxiv.org/abs/2108.07732, Jan. 2026."
+        },
+        {
+          "key": "5948_CR157",
+          "first-page": "10764",
+          "volume-title": "Proc. the 40th International Conference on Machine Learning",
+          "author": "L Gao",
+          "year": "2023",
+          "unstructured": "Gao L, Madaan A, Zhou S, Alon U, Liu P, Yang Y, Callan J, Neubig G. PAL: Program-aided language models. In Proc. the 40th International Conference on Machine Learning, Jul. 2023, pp.10764–10799."
+        },
+        {
+          "key": "5948_CR158",
+          "unstructured": "Chen W, Ma X, Wang X, Cohen W W. Program of thoughts prompting: Disentangling computation from reasoning for numerical reasoning tasks. Trans. Machine Learning Research, 2023. https://openreview.net/pdf?id=YfZ4ZPt8zd, Jan. 2026."
+        },
+        {
+          "key": "5948_CR159",
+          "doi-asserted-by": "publisher",
+          "first-page": "346",
+          "DOI": "10.1162/tacl_a_00370",
+          "volume": "9",
+          "author": "M Geva",
+          "year": "2021",
+          "unstructured": "Geva M, Khashabi D, Segal E, Khot T, Roth D, Berant J. Did Aristotle use a laptop? A question answering benchmark with implicit reasoning strategies. Transactions of the Association for Computational Linguistics, 2021, 9:346–361. DOI: https://doi.org/10.1162/tacl_a_00370.",
+          "journal-title": "Transactions of the Association for Computational Linguistics"
+        },
+        {
+          "key": "5948_CR160",
+          "doi-asserted-by": "publisher",
+          "first-page": "14471",
+          "DOI": "10.18653/v1/2025.findings-acl.747",
+          "volume-title": "Proc. the 2025 Findings of the Association for Computational Linguistics",
+          "author": "W Chen",
+          "year": "2025",
+          "unstructured": "Chen W, He W, Xi Z, Guo H, Hong B, Zhang J, Li N, Gui T, Li Y, Zhang Q, Huang X. Better process supervision with bi-directional rewarding signals. In Proc. the 2025 Findings of the Association for Computational Linguistics, Jul. 2025, pp.14471–14485. DOI: https://doi.org/10.18653/v1/2025.findings-acl.747."
+        },
+        {
+          "key": "5948_CR161",
+          "doi-asserted-by": "publisher",
+          "first-page": "3789",
+          "DOI": "10.18653/v1/2025.acl-long.191",
+          "volume-title": "Proc. the 63rd Annual Meeting of the Association for Computational Linguistics",
+          "author": "H Puerto",
+          "year": "2025",
+          "unstructured": "Puerto H, Chubakov T, Zhu X, Madabushi H T, Gurevych I. Fine-tuning on diverse reasoning chains drives within-inference CoT refinement in LLMs. In Proc. the 63rd Annual Meeting of the Association for Computational Linguistics, Jul. 2025, pp.3789–3808. DOI: https://doi.org/10.18653/v1/2025.acl-long.191."
+        },
+        {
+          "key": "5948_CR162",
+          "volume-title": "Proc. the 10th International Conference on Learning Representations",
+          "author": "V Sanh",
+          "year": "2022",
+          "unstructured": "Sanh V, Webson A, Raffel C et al. Multitask prompted training enables zero-shot task generalization. In Proc. the 10th International Conference on Learning Representations, Apr. 2022."
+        },
+        {
+          "key": "5948_CR163",
+          "doi-asserted-by": "publisher",
+          "first-page": "353",
+          "DOI": "10.18653/v1/W18-5446",
+          "volume-title": "Proc. the 2018 EMNLP Workshop BlackboxNLP: Analyzing and Interpreting Neural Networks for NLP",
+          "author": "A Wang",
+          "year": "2018",
+          "unstructured": "Wang A, Singh A, Michael J, Hill F, Levy O, Bowman S. GLUE: A multi-task benchmark and analysis platform for natural language understanding. In Proc. the 2018 EMNLP Workshop BlackboxNLP: Analyzing and Interpreting Neural Networks for NLP, Nov. 2018, pp.353–355. DOI: https://doi.org/10.18653/v1/W18-5446."
+        },
+        {
+          "key": "5948_CR164",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.5555/3454287.3454581",
+          "volume-title": "Proc. the 33rd International Conference on Neural Information Processing Systems",
+          "author": "A Wang",
+          "year": "2019",
+          "unstructured": "Wang A, Pruksachatkun Y, Nangia N, Singh A, Michael J, Hill F, Levy O, Bowman S R. SuperGLUE: A stickier benchmark for general-purpose language understanding systems. In Proc. the 33rd International Conference on Neural Information Processing Systems, Dec. 2019, Article No. 294. DOI: https://doi.org/10.5555/3454287.3454581."
+        },
+        {
+          "key": "5948_CR165",
+          "unstructured": "He B, Ding N, Qian C, Deng J, Cui G, Yuan L, Gao H A, Chen H, Liu Z, Sun M. Zero-shot generalization during instruction tuning: Insights from similarity and granularity. arXiv: 2406.11721, 2024. https://arxiv.org/abs/2406.11721v1, Jan. 2026."
+        },
+        {
+          "key": "5948_CR166",
+          "first-page": "1585",
+          "volume-title": "Proc. the 31st International Conference on Computational Linguistics",
+          "author": "Y Zhao",
+          "year": "2025",
+          "unstructured": "Zhao Y, Muraoka M, Yoshida I, Bhattacharjee B, Kanayama H. A simple-yet-efficient instruction augmentation method for zero-shot sentiment classification. In Proc. the 31st International Conference on Computational Linguistics, Jan. 2025, pp.1585–1599."
+        },
+        {
+          "key": "5948_CR167",
+          "volume-title": "Vicuna: An open-source chatbot impressing GPT-4 with 90%* chatGPT quality",
+          "author": "The Vicuna Team",
+          "year": "2023",
+          "unstructured": "The Vicuna Team. Vicuna: An open-source chatbot impressing GPT-4 with 90%* chatGPT quality, 2023. https://lmsys.org/blog/2023-03-30-vicuna/, February 2026."
+        },
+        {
+          "key": "5948_CR168",
+          "unstructured": "Chung H W, Hou L, Longpre S et al. Scaling instruction-finetuned language models. Journal of Machine Learning Research, 2024, 25 (1): Article No. 70."
+        },
+        {
+          "key": "5948_CR169",
+          "unstructured": "Bai Y, Jones A, Ndousse K et al. Training a helpful and harmless assistant with reinforcement learning from human feedback. arXiv: 2204.05862, 2022. https://arxiv.org/abs/2204.05862, Jan. 2026."
+        },
+        {
+          "key": "5948_CR170",
+          "doi-asserted-by": "publisher",
+          "first-page": "6268",
+          "DOI": "10.18653/v1/2023.emnlp-main.385",
+          "volume-title": "Proc. the 2023 Conference on Empirical Methods in Natural Language Processing",
+          "author": "C Xu",
+          "year": "2023",
+          "unstructured": "Xu C, Guo D, Duan N, McAuley J. Baize: An opensource chat model with parameter-efficient tuning on self-chat data. In Proc. the 2023 Conference on Empirical Methods in Natural Language Processing, Dec. 2023, pp.6268–6278. DOI: https://doi.org/10.18653/v1/2023.emnlp-main.385."
+        },
+        {
+          "key": "5948_CR171",
+          "volume-title": "Proc. the 9th Machine Learning for Healthcare Conference",
+          "author": "B Kumar",
+          "year": "2024",
+          "unstructured": "Kumar B, Amar J, Yang E, Li N, Jia Y. Selective finetuning on LLM-labeled data may reduce reliance on human annotation: A case study using schedule-of-event table detection. In Proc. the 9th Machine Learning for Healthcare Conference, Aug. 2024."
+        },
+        {
+          "key": "5948_CR172",
+          "unstructured": "Ge Y, Liu Y, Ye Z, Mao Y, Gao Y. Text-to-pipeline: Bridging natural language and data preparation pipelines. arXiv: 2505.15874, 2025. https://arxiv.org/abs/2505.15874, Jan. 2026."
+        },
+        {
+          "key": "5948_CR173",
+          "unstructured": "Liang H, Ma X, Liu Z et al. DataFlow: An LLM-driven framework for unified data preparation and workflow automation in the era of data-centric AI. arXiv: 2512.16676, 2025. https://arxiv.org/abs/2512.16676, Jan. 2026."
+        },
+        {
+          "key": "5948_CR174",
+          "unstructured": "Ghosh D, Chan S. LL-instruct: An instruction-tuned model for English language proficiency assessments. arXiv: 2410.09314, 2024. https://arxiv.org/abs/2410.09314, Jan. 2026."
+        },
+        {
+          "key": "5948_CR175",
+          "doi-asserted-by": "publisher",
+          "first-page": "13484",
+          "DOI": "10.18653/v1/2023.acl-long.754",
+          "volume-title": "Proc. the 61st Annual Meeting of the Association for Computational Linguistics",
+          "author": "Y Wang",
+          "year": "2023",
+          "unstructured": "Wang Y, Kordi Y, Mishra S, Liu A, Smith N A, Khashabi D, Hajishirzi H. Self-instruct: Aligning language models with self-generated instructions. In Proc. the 61st Annual Meeting of the Association for Computational Linguistics, Jul. 2023, pp.13484–13508. DOI: https://doi.org/10.18653/v1/2023.acl-long.754."
+        },
+        {
+          "key": "5948_CR176",
+          "volume-title": "Proc. the 12th International Conference on Learning Representations",
+          "author": "C Xu",
+          "year": "2024",
+          "unstructured": "Xu C, Sun Q, Zheng K, Geng X, Zhao P, Feng J, Tao C, Lin Q, Jiang D. WizardLM: Empowering large pretrained language models to follow complex instructions. In Proc. the 12th International Conference on Learning Representations, May 2024."
+        },
+        {
+          "key": "5948_CR177",
+          "volume-title": "Proc. the 13th International Conference on Learning Representations",
+          "author": "S Kaur",
+          "year": "2025",
+          "unstructured": "Kaur S, Park S, Goyal A, Arora S. Instruct-SkillMix: A powerful pipeline for LLM instruction tuning. In Proc. the 13th International Conference on Learning Representations, Apr. 2025."
+        },
+        {
+          "key": "5948_CR178",
+          "unstructured": "Li H, Dong Q, Tang Z et al. Synthetic data (almost) from scratch: Generalized instruction tuning for language models. arXiv: 2402.13064, 2024. https://arxiv.org/abs/2402.13064, Jan. 2026."
+        },
+        {
+          "key": "5948_CR179",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/IJCNN60899.2024.10650513",
+          "volume-title": "Proc. the 2024 International Joint Conference on Neural Networks (IJCNN)",
+          "author": "J Xiao",
+          "year": "2024",
+          "unstructured": "Xiao J, Chen Y, Ou Y, Yu H, Shu K, Xiao Y. Baichuan2-sum: Instruction finetune baichuan2-7B model for dialogue summarization. In Proc. the 2024 International Joint Conference on Neural Networks (IJCNN), Jun. 30–Jul. 5, 2024. DOI: https://doi.org/10.1109/IJCNN60899.2024.10650513."
+        },
+        {
+          "key": "5948_CR180",
+          "doi-asserted-by": "publisher",
+          "first-page": "8195",
+          "DOI": "10.18653/v1/2024.naacl-long.453",
+          "volume-title": "Proc. the 2024 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies",
+          "author": "E Razumovskaina",
+          "year": "2024",
+          "unstructured": "Razumovskaina E, Glavaš G, Korhonen A, Vulić I. SQATIN: Supervised instruction tuning meets question answering for improved dialogue NLU. In Proc. the 2024 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies, Jun. 2024, pp.8195–8211. DOI: https://doi.org/10.18653/v1/2024.naacl-long.453."
+        },
+        {
+          "key": "5948_CR181",
+          "unstructured": "Hou X, Li Q, Yang J, Li T, Chai L, Wu X, Ji H, Li Z, Nie J, Dun J, Song W. Raw text is all you need: Knowledge-intensive multi-turn instruction tuning for large language model. arXiv: 2407.03040, 2024. https://arxiv.org/abs/2407.03040, Jan. 2026."
+        },
+        {
+          "key": "5948_CR182",
+          "unstructured": "Shao Z, Wang P, Zhu Q, Xu R, Song J, Bi X, Zhang H, Zhang M, Li Y K, Wu Y, Guo D. DeepSeekMath: Pushing the limits of mathematical reasoning in open language models. arXiv: 2402.03300, 2024. https://arxiv.org/abs/2402.03300, Jan. 2026."
+        },
+        {
+          "key": "5948_CR183",
+          "unstructured": "Guo D, Yang D, Zhang H et al. DeepSeek-R1: Incentivizing reasoning capability in LLMs via reinforcement learning. arXiv: 2501.12948, 2025. https://arxiv.org/abs/2501.12948, Jan. 2026."
+        },
+        {
+          "key": "5948_CR184",
+          "unstructured": "Yu Q, Zhang Z, Zhu R et al. DAPO: An open-source LLM reinforcement learning system at scale. arXiv: 2503.14476, 2025. https://arxiv.org/abs/2503.14476, Jan. 2026."
+        },
+        {
+          "key": "5948_CR185",
+          "unstructured": "Bae S, Hong J, Lee M Y, Kim H, Nam J, Kwak D. Online difficulty filtering for reasoning oriented reinforcement learning. arXiv: 2504.03380, 2025. https://arxiv.org/abs/2504.03380, Jan. 2026."
+        },
+        {
+          "key": "5948_CR186",
+          "unstructured": "Dong H, Xiong W, Pang B, Wang H, Zhao H, Zhou Y, Jiang N, Sahoo D, Xiong C, Zhang T. RLHF workflow: From reward modeling to online RLHF. arXiv:2405. 07863, 2024. https://arxiv.org/html/2405.07863v3, Jan. 2026."
+        },
+        {
+          "key": "5948_CR187",
+          "unstructured": "Jin D, Mehri S, Hazarika D, Padmakumar A, Lee S, Liu Y, Namazifar M. Data-efficient alignment of large language models with human feedback through natural language. arXiv: 2311.14543, 2023. https://arxiv.org/abs/2311.14543, Feb. 2023."
+        },
+        {
+          "key": "5948_CR188",
+          "doi-asserted-by": "publisher",
+          "first-page": "351",
+          "DOI": "10.1007/978-3-031-77367-9_27",
+          "volume-title": "Proc. the 25th International Conference on Principles and Practice of Multi-Agent Systems",
+          "author": "G Zhang",
+          "year": "2024",
+          "unstructured": "Zhang G, Duan J. VickreyFeedback: Cost-efficient data construction for reinforcement learning from human feedback. In Proc. the 25th International Conference on Principles and Practice of Multi-Agent Systems, Nov. 2024, pp.351–366. DOI: https://doi.org/10.1007/978-3-031-77367-9_27."
+        },
+        {
+          "key": "5948_CR189",
+          "doi-asserted-by": "publisher",
+          "first-page": "22729",
+          "DOI": "10.18653/v1/2024.emnlp-main.1266",
+          "volume-title": "Proc. the 2024 Conference on Empirical Methods in Natural Language Processing",
+          "author": "T Morimura",
+          "year": "2024",
+          "unstructured": "Morimura T, Sakamoto M, Jinnai Y, Abe K, Ariu K. Filtered direct preference optimization. In Proc. the 2024 Conference on Empirical Methods in Natural Language Processing, Nov. 2024, pp.22729–22770. DOI: https://doi.org/10.18653/v1/2024.emnlp-main.1266."
+        },
+        {
+          "key": "5948_CR190",
+          "unstructured": "Xu Y, Chakraborty T, Kiciman E, Aryal B, Rodrigues E, Sharma S, Estevao R, de Luis Balaguer M A, Wolk J, Padilha R, Nunes L, Balakrishnan S, Lu S, Chandra R. RLTHF: Targeted human feedback for LLM alignment. arXiv: 2502.13417, 2025. https://arxiv.org/abs/2502.13417, Jan. 2026."
+        },
+        {
+          "key": "5948_CR191",
+          "doi-asserted-by": "publisher",
+          "first-page": "4041",
+          "DOI": "10.18653/v1/2024.findings-emnlp.234",
+          "volume-title": "Proc. the 2024 Findings of the Association for Computational Linguistics",
+          "author": "B Wang",
+          "year": "2024",
+          "unstructured": "Wang B, Zheng R, Chen L, Xi Z, Shen W, Zhou Y, Yan D, Gui T, Zhang Q, Huang X. Reward modeling requires automatic adjustment based on data quality. In Proc. the 2024 Findings of the Association for Computational Linguistics, Nov. 2024, pp.4041–4064. DOI: https://doi.org/10.18653/v1/2024.findings-emnlp.234."
+        },
+        {
+          "key": "5948_CR192",
+          "unstructured": "Shen L, Chen S, Song L, Jin L, Peng B, Mi H, Khashabi D, Yu D. The trickle-down impact of reward (in-)consistency on RLHF. arXiv: 2309.16155, 2023. https://arxiv.org/abs/2309.16155, Jan. 2026."
+        },
+        {
+          "key": "5948_CR193",
+          "doi-asserted-by": "publisher",
+          "first-page": "7817",
+          "DOI": "10.18653/v1/2024.findings-acl.465",
+          "volume-title": "Proc. the 2024 Findings of the Association for Computational Linguistics",
+          "author": "Y Lai",
+          "year": "2024",
+          "unstructured": "Lai Y, Wang S, Liu S, Huang X, Wei Z. ALaRM: Align language models via hierarchical rewards modeling. In Proc. the 2024 Findings of the Association for Computational Linguistics, Aug. 2024, pp.7817–7831. DOI: https://doi.org/10.18653/v1/2024.findings-acl.465."
+        },
+        {
+          "key": "5948_CR194",
+          "doi-asserted-by": "publisher",
+          "first-page": "1755",
+          "DOI": "10.18653/v1/2025.findings-naacl.96",
+          "volume-title": "Proc. the 2025 Findings of the Association for Computational Linguistics",
+          "author": "N Lambert",
+          "year": "2025",
+          "unstructured": "Lambert N, Pyatkin V, Morrison J, Miranda L J, Lin B Y, Chandu K, Dziri N, Kumar S, Zick T, Choi Y, Smith N A, Hajishirzi H. RewardBench: Evaluating reward models for language modeling. In Proc. the 2025 Findings of the Association for Computational Linguistics, Apr. 2025, pp.1755–1797. DOI: https://doi.org/10.18653/v1/2025.find-ings-naacl.96."
+        },
+        {
+          "key": "5948_CR195",
+          "unstructured": "Liu Y, Yi X, Chen X, Yao J, Yi J, Zan D, Liu Z, Xie X, Ho T Y. Elephant in the room: Unveiling the impact of reward model quality in alignment. arXiv: 2409.19024, 2024. https://arxiv.org/abs/2409.19024, Jan. 2026."
+        },
+        {
+          "key": "5948_CR196",
+          "unstructured": "Zhou C, Liu S, Wang Z, Wang D, Tu R C, Du B, Tao D. Intra-trajectory consistency for reward modeling. arXiv: 2506.09096, 2025. https://arxiv.org/abs/2506.09096, Jan. 2026."
+        },
+        {
+          "key": "5948_CR197",
+          "unstructured": "Bai Y, Kadavath S, Kundu S et al. Constitutional AI: Harmlessness from AI feedback. arXiv: 2212.08073, 2022. https://arxiv.org/abs/2212.08073, Jan. 2026."
+        },
+        {
+          "key": "5948_CR198",
+          "volume-title": "Proc. the 41st International Conference on Machine Learning",
+          "author": "H Lee",
+          "year": "2024",
+          "unstructured": "Lee H, Phatale S, Mansoor H, Mesnard T, Ferret J, Lu K, Bishop C, Hall E, Carbune V, Rastogi A, Prakash S. RLAIF vs. RLHF: Scaling reinforcement learning from human feedback with AI feedback. In Proc. the 41st International Conference on Machine Learning, Jul. 2024."
+        },
+        {
+          "key": "5948_CR199",
+          "volume-title": "Proc. the 41st International Conference on Machine Learning",
+          "author": "W Yuan",
+          "year": "2024",
+          "unstructured": "Yuan W, Pang R Y, Cho K, Li X, Sukhbaatar S, Xu J, Weston J. Self-rewarding language models. In Proc. the 41st International Conference on Machine Learning, Jul. 2024."
+        },
+        {
+          "key": "5948_CR200",
+          "doi-asserted-by": "publisher",
+          "first-page": "46595",
+          "DOI": "10.5555/3666122.3668142",
+          "volume-title": "Proc. the 37th International Conference on Neural Information Processing Systems",
+          "author": "L Zheng",
+          "year": "2023",
+          "unstructured": "Zheng L, Chiang W L, Sheng Y et al. Judging LLM-as-a-judge with MT-bench and chatbot arena. In Proc. the 37th International Conference on Neural Information Processing Systems, Dec. 2023, pp.46595–46623. DOI: https://doi.org/10.5555/3666122.3668142."
+        },
+        {
+          "key": "5948_CR201",
+          "doi-asserted-by": "publisher",
+          "unstructured": "Gu J, Jiang X, Shi Z, Tan H, Zhai X, Xu C, Li W, Shen Y, Ma S, Liu H, Wang S, Zhang K, Lin Z, Zhang B, Ni L, Gao W, Wang Y, Guo J. A survey on LLM-as-a-judge. The Innovation, 2026: 101253. DOI: https://doi.org/10.1016/j.xinn.2025.101253.",
+          "DOI": "10.1016/j.xinn.2025.101253"
+        },
+        {
+          "key": "5948_CR202",
+          "unstructured": "Wang Z, Zhou F, Li X, Liu P. OctoThinker: Mid-training incentivizes reinforcement learning scaling. arXiv: 2506.20512, 2025. https://arxiv.org/abs/2506.20512, Jan. 2026."
+        },
+        {
+          "key": "5948_CR203",
+          "unstructured": "Tokpanov Y, Glorioso P, Anthony Q, Millidge B. Zyda-2: A 5 trillion token high-quality dataset. arXiv: 2411. 06068, 2024. https://arxiv.org/abs/2411.06068, Jan. 2026."
+        },
+        {
+          "key": "5948_CR204",
+          "first-page": "101",
+          "volume-title": "Proc. the 2025 Machine Translation Summit XX",
+          "author": "N Arefyev",
+          "year": "2025",
+          "unstructured": "Arefyev N, Aulamo M, Bañón M et al. HPLT’s second data release. In Proc. the 2025 Machine Translation Summit XX, Jun. 2025, pp.101–102."
+        },
+        {
+          "key": "5948_CR205",
+          "unstructured": "Lozhkov A, Li R, Allal L B et al. Starcoder 2 and the Stack v2: The next generation. arXiv: 2402.19173, 2024. https://arxiv.org/abs/2402.19173, Jan. 2026."
+        },
+        {
+          "key": "5948_CR206",
+          "unstructured": "Li J, Du L, Zhao H, Zhang B W, Wang L, Gao B, Liu G, Lin Y. Infinity instruct: Scaling instruction selection and synthesis to enhance language models. arXiv: 2506.11116, 2025. https://arxiv.org/abs/2506.11116, Jan. 2026."
+        },
+        {
+          "key": "5948_CR207",
+          "volume-title": "Proc. the 12th International Conference on Learning Representations",
+          "author": "G Wang",
+          "year": "2024",
+          "unstructured": "Wang G, Cheng S, Zhan X, Li X, Song S, Liu Y. OpenChat: Advancing open-source language models with mixed-quality data. In Proc. the 12th International Conference on Learning Representations, May 2024."
+        },
+        {
+          "key": "5948_CR208",
+          "unstructured": "Li J, Beeching E, Tunstall L et al. NuminaMath: The largest public dataset in AI4Maths with 860k pairs of competition math problems and solutions. Hugging Face Repository, 2024. http://faculty.bicmr.pku.edu.cn/~dongbin/Publications/numina_dataset.pdf, Jan. 2026."
+        },
+        {
+          "key": "5948_CR209",
+          "unstructured": "Hosseini A, Sordoni A, Toyama D, Courville A, Agarwal R. Not all LLM reasoners are created equal. arXiv: 2410.01748, 2024. https://arxiv.org/abs/2410.01748, Jan. 2026."
+        },
+        {
+          "key": "5948_CR210",
+          "unstructured": "Gao B, Song F, Yang Z et al. Omni-MATH: A universal olympiad level mathematic benchmark for large language models. arXiv: 2410.07985, 2024. https://arxiv.org/abs/2410.07985, Jan. 2026."
+        },
+        {
+          "key": "5948_CR211",
+          "volume-title": "Proc. the 42nd International Conference on Learning Representations",
+          "author": "Y Wang",
+          "year": "2025",
+          "unstructured": "Wang Y, Li H, Zhang X, Wu J, Liu X, Hu W, Guo Z, Huang Y, Xin Y, Yang Y, Su J, Chen Q, Li S. EpiCoder: Encompassing diversity and complexity in code generation. In Proc. the 42nd International Conference on Learning Representations, Jul. 2025."
+        },
+        {
+          "key": "5948_CR212",
+          "doi-asserted-by": "publisher",
+          "first-page": "6980",
+          "DOI": "10.18653/v1/2025.findings-acl.365",
+          "volume-title": "Proc. the 2025 Findings of the Association for Computational Linguistics",
+          "author": "Z Xu",
+          "year": "2025",
+          "unstructured": "Xu Z, Liu Y, Yin Y, Zhou M, Poovendran R. KodCode: A diverse, challenging, and verifiable synthetic dataset for coding. In Proc. the 2025 Findings of the Association for Computational Linguistics, Jul. 2025, pp.6980–7008. DOI: https://doi.org/10.18653/v1/2025.findings-acl.365."
+        },
+        {
+          "key": "5948_CR213",
+          "volume-title": "Proc. the 12th International Conference on Learning Representations",
+          "author": "C E Jimenez",
+          "year": "2024",
+          "unstructured": "Jimenez C E, Yang J, Wettig A, Yao S, Pei K, Press O, Narasimhan K R. SWE-bench: Can language models resolve real-world GitHub issues? In Proc. the 12th International Conference on Learning Representations, May 2024."
+        },
+        {
+          "key": "5948_CR214",
+          "unstructured": "Aleithan R, Xue H, Mohajer M M, Nnorom E, Uddin G, Wang S. SWE-bench+: Enhanced coding benchmark for LLMs. arXiv: 2410.06992, 2024. https://arxiv.org/abs/2410.06992, Jan. 2026."
+        },
+        {
+          "key": "5948_CR215",
+          "unstructured": "Liang S, Garg S, Moghaddam R Z. The SWE-bench illusion: When state-of-the-art LLMs remember instead of reason. arXiv: 2506.12286, 2025. https://arxiv.org/abs/2506.12286, Jan. 2026."
+        },
+        {
+          "key": "5948_CR216",
+          "doi-asserted-by": "publisher",
+          "first-page": "2507",
+          "DOI": "10.5555/3600270.3600452",
+          "volume-title": "Proc. the 36th International Conference on Neural Information Processing Systems",
+          "author": "P Lu",
+          "year": "2022",
+          "unstructured": "Lu P, Mishra S, Xia T, Qiu L, Chang K W, Zhu S C, Tafjord O, Clark P, Kalyan A. Learn to explain: Multimodal reasoning via thought chains for science question answering. In Proc. the 36th International Conference on Neural Information Processing Systems, Nov. 28-Dec. 9, 2022, pp.2507–2521. DOI: https://doi.org/10.5555/3600270.3600452."
+        },
+        {
+          "key": "5948_CR217",
+          "volume-title": "Proc. the 12th International Conference on Learning Representations",
+          "author": "Y Qin",
+          "year": "2024",
+          "unstructured": "Qin Y, Liang S, Ye Y et al. ToolLLM: Facilitating large language models to master 16000+ real-world APIs. In Proc. the 12th International Conference on Learning Representations, May 2024."
+        },
+        {
+          "key": "5948_CR218",
+          "doi-asserted-by": "publisher",
+          "first-page": "10290",
+          "DOI": "10.18653/v1/2025.acl-long.508",
+          "volume-title": "Proc. the 63rd Annual Meeting of the Association for Computational Linguistics",
+          "author": "J Wu",
+          "year": "2025",
+          "unstructured": "Wu J, Yin W, Jiang Y, Wang Z, Xi Z, Fang R, Zhang L, He Y, Zhou D, Xie P, Huang F. WebWalker: Benchmarking LLMs in web traversal. In Proc. the 63rd Annual Meeting of the Association for Computational Linguistics, Jul. 2025, pp.10290–10305. DOI: https://doi.org/10.18653/v1/2025.acl-long.508."
+        }
+      ],
+      "container-title": [
+        "Journal of Computer Science and Technology"
+      ],
+      "original-title": [],
+      "language": "en",
+      "link": [
+        {
+          "URL": "https://link.springer.com/content/pdf/10.1007/s11390-026-5948-8.pdf",
+          "content-type": "application/pdf",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        },
+        {
+          "URL": "https://link.springer.com/article/10.1007/s11390-026-5948-8",
+          "content-type": "text/html",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        },
+        {
+          "URL": "https://link.springer.com/content/pdf/10.1007/s11390-026-5948-8.pdf",
+          "content-type": "application/pdf",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            4,
+            25
+          ]
+        ],
+        "date-time": "2026-04-25T09:02:34Z",
+        "timestamp": 1777107754000
+      },
+      "score": 1,
+      "resource": {
+        "primary": {
+          "URL": "https://link.springer.com/10.1007/s11390-026-5948-8"
+        }
+      },
+      "subtitle": [],
+      "short-title": [],
+      "issued": {
+        "date-parts": [
+          [
+            2026,
+            1
+          ]
+        ]
+      },
+      "references-count": 218,
+      "journal-issue": {
+        "issue": "1",
+        "published-print": {
+          "date-parts": [
+            [
+              2026,
+              1
+            ]
+          ]
+        }
+      },
+      "alternative-id": [
+        "5948"
+      ],
+      "URL": "https://doi.org/10.1007/s11390-026-5948-8",
+      "relation": {},
+      "ISSN": [
+        "1000-9000",
+        "1860-4749"
+      ],
+      "issn-type": [
+        {
+          "value": "1000-9000",
+          "type": "print"
+        },
+        {
+          "value": "1860-4749",
+          "type": "electronic"
+        }
+      ],
+      "subject": [],
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            1
+          ]
+        ]
+      },
+      "assertion": [
+        {
+          "value": "15 September 2025",
+          "order": 1,
+          "name": "received",
+          "label": "Received",
+          "group": {
+            "name": "ArticleHistory",
+            "label": "Article History"
+          }
+        },
+        {
+          "value": "11 January 2026",
+          "order": 2,
+          "name": "accepted",
+          "label": "Accepted",
+          "group": {
+            "name": "ArticleHistory",
+            "label": "Article History"
+          }
+        },
+        {
+          "value": "28 March 2026",
+          "order": 3,
+          "name": "first_online",
+          "label": "First Online",
+          "group": {
+            "name": "ArticleHistory",
+            "label": "Article History"
+          }
+        },
+        {
+          "value": "Conflict of Interest\n                      Bin Cui is an editorial board member for Journal of Computer Science and Technology and was not involved in the editorial review of this article. The authors declare that there are no other competing interests.",
+          "order": 1,
+          "name": "Ethics",
+          "group": {
+            "name": "EthicsHeading",
+            "label": "Ethics"
+          }
+        }
+      ]
+    }
+  }
+}

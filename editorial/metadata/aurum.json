@@ -1,0 +1,1113 @@
+{
+  "database": "Crossref",
+  "endpoint": "https://api.crossref.org/works?query.bibliographic=Aurum%3A+A+Data+Discovery+System&rows=3",
+  "retrieved": "2026-09-09",
+  "status_code": 200,
+  "response": {
+    "status": "ok",
+    "message-type": "work-list",
+    "message-version": "1.0.0",
+    "message": {
+      "facets": {},
+      "total-results": 6741739,
+      "items": [
+        {
+          "indexed": {
+            "date-parts": [
+              [
+                2026,
+                9,
+                4
+              ]
+            ],
+            "date-time": "2026-09-04T00:45:45Z",
+            "timestamp": 1788482745439,
+            "version": "build-2803163510"
+          },
+          "reference-count": 29,
+          "publisher": "IEEE",
+          "content-domain": {
+            "domain": [],
+            "crossmark-restriction": false
+          },
+          "published-print": {
+            "date-parts": [
+              [
+                2018,
+                4
+              ]
+            ]
+          },
+          "DOI": "10.1109/icde.2018.00094",
+          "type": "proceedings-article",
+          "created": {
+            "date-parts": [
+              [
+                2018,
+                10,
+                25
+              ]
+            ],
+            "date-time": "2018-10-25T23:38:36Z",
+            "timestamp": 1540510716000
+          },
+          "page": "1001-1012",
+          "source": "Crossref",
+          "is-referenced-by-count": 95,
+          "title": [
+            "Aurum: A Data Discovery System"
+          ],
+          "prefix": "10.1109",
+          "author": [
+            {
+              "given": "Raul",
+              "family": "Castro Fernandez",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Ziawasch",
+              "family": "Abedjan",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Famien",
+              "family": "Koko",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Gina",
+              "family": "Yuan",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Samuel",
+              "family": "Madden",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Michael",
+              "family": "Stonebraker",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            }
+          ],
+          "member": "263",
+          "reference": [
+            {
+              "key": "ref10",
+              "doi-asserted-by": "crossref",
+              "DOI": "10.1093/nar/gkm958",
+              "article-title": "DrugBank: a knowledgebase for drugs, drug actions and drug targets",
+              "author": "wishart",
+              "year": "2008",
+              "journal-title": "Nucleic Acids Research"
+            },
+            {
+              "key": "ref11",
+              "article-title": "BindingDB: a web-accessible database of experimentally determined proteinligand binding affinities",
+              "author": "liu",
+              "year": "2007",
+              "journal-title": "NAR"
+            },
+            {
+              "key": "ref12",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1093/nar/gks1146"
+            },
+            {
+              "key": "ref13",
+              "article-title": "nNeo4J",
+              "year": "2017",
+              "journal-title": "Neo4j"
+            },
+            {
+              "key": "ref14",
+              "year": "2017",
+              "journal-title": "Janusgraph distributed graph database"
+            },
+            {
+              "key": "ref15",
+              "article-title": "SQLGraph: An Efficient Relational-Based Property Graph Store",
+              "author": "sun",
+              "year": "2015",
+              "journal-title": "SIGMOD"
+            },
+            {
+              "key": "ref16",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.14778/1920841.1920944"
+            },
+            {
+              "key": "ref17",
+              "article-title": "WhereHows: A Data Discovery and Lineage Portal",
+              "year": "2016",
+              "journal-title": "LinkedIn"
+            },
+            {
+              "key": "ref18",
+              "article-title": "ATLAS: Data Governance and Metadata framework for Hadoop",
+              "year": "2016",
+              "journal-title": "Apache"
+            },
+            {
+              "key": "ref19",
+              "article-title": "Finding Related Tables",
+              "author": "sarma",
+              "year": "2012",
+              "journal-title": "SIGMOD"
+            },
+            {
+              "key": "ref28",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1145/1007568.1007641"
+            },
+            {
+              "key": "ref4",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1145/1327452.1327494"
+            },
+            {
+              "key": "ref27",
+              "article-title": "Efficient denial constraint discovery with hydra",
+              "author": "bleifu",
+              "year": "0",
+              "journal-title": "VLDB 2017"
+            },
+            {
+              "key": "ref3",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.14778/1687627.1687750"
+            },
+            {
+              "key": "ref6",
+              "article-title": "Multi-probe LSH: Efficient Indexing for High-dimensional Similarity Search",
+              "author": "lv",
+              "year": "2007",
+              "journal-title": "VLDB"
+            },
+            {
+              "key": "ref29",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1145/2618243.2618251"
+            },
+            {
+              "key": "ref5",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1145/1060745.1060840"
+            },
+            {
+              "key": "ref8",
+              "article-title": "Provenance in Databases: Why, How, and Where",
+              "author": "cheney",
+              "year": "2009",
+              "journal-title": "Found Trends databases"
+            },
+            {
+              "key": "ref7",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.14778/2733004.2733014"
+            },
+            {
+              "key": "ref2",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1145/2213836.2213848"
+            },
+            {
+              "key": "ref9",
+              "doi-asserted-by": "crossref",
+              "DOI": "10.1186/1758-2946-5-23",
+              "article-title": "The chembl database as linked open data",
+              "author": "willighagen",
+              "year": "2013",
+              "journal-title": "Journal of Cheminformatics"
+            },
+            {
+              "key": "ref1",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1145/2882903.2903730"
+            },
+            {
+              "key": "ref20",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1109/TKDE.2014.2320737"
+            },
+            {
+              "key": "ref22",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1145/564691.564782"
+            },
+            {
+              "key": "ref21",
+              "author": "chen",
+              "year": "2009",
+              "journal-title": "Exploring schema repositories with schemr"
+            },
+            {
+              "key": "ref24",
+              "article-title": "Discover: Keyword search in relational databases",
+              "author": "hristidis",
+              "year": "2002",
+              "journal-title": "ser VLDB"
+            },
+            {
+              "key": "ref23",
+              "article-title": "BANKS: Browsing and Keyword Searching in Relational Databases",
+              "author": "aditya",
+              "year": "2002",
+              "journal-title": "VLDB"
+            },
+            {
+              "key": "ref26",
+              "article-title": "DataXFormer: A robust data transformation system",
+              "author": "abedjan",
+              "year": "2016",
+              "journal-title": "ICDE"
+            },
+            {
+              "key": "ref25",
+              "article-title": "Precis: from unstructured keywords as queries to structured databases as answers",
+              "author": "simitsis",
+              "year": "2008",
+              "journal-title": "VLDB"
+            }
+          ],
+          "event": {
+            "name": "2018 IEEE 34th International Conference on Data Engineering (ICDE)",
+            "location": "Paris",
+            "start": {
+              "date-parts": [
+                [
+                  2018,
+                  4,
+                  16
+                ]
+              ]
+            },
+            "end": {
+              "date-parts": [
+                [
+                  2018,
+                  4,
+                  19
+                ]
+              ]
+            }
+          },
+          "container-title": [
+            "2018 IEEE 34th International Conference on Data Engineering (ICDE)"
+          ],
+          "link": [
+            {
+              "URL": "http://xplorestaging.ieee.org/ielx7/8476188/8509221/08509315.pdf?arnumber=8509315",
+              "content-type": "unspecified",
+              "content-version": "vor",
+              "intended-application": "similarity-checking"
+            }
+          ],
+          "deposited": {
+            "date-parts": [
+              [
+                2022,
+                1,
+                26
+              ]
+            ],
+            "date-time": "2022-01-26T18:30:07Z",
+            "timestamp": 1643221807000
+          },
+          "score": 28.655783,
+          "resource": {
+            "primary": {
+              "URL": "https://ieeexplore.ieee.org/document/8509315/"
+            }
+          },
+          "issued": {
+            "date-parts": [
+              [
+                2018,
+                4
+              ]
+            ]
+          },
+          "references-count": 29,
+          "URL": "https://doi.org/10.1109/icde.2018.00094",
+          "published": {
+            "date-parts": [
+              [
+                2018,
+                4
+              ]
+            ]
+          }
+        },
+        {
+          "indexed": {
+            "date-parts": [
+              [
+                2024,
+                9,
+                6
+              ]
+            ],
+            "date-time": "2024-09-06T05:03:28Z",
+            "timestamp": 1725599008339
+          },
+          "publisher-location": "Heidelberg",
+          "reference-count": 28,
+          "publisher": "Physica-Verlag HD",
+          "isbn-type": [
+            {
+              "type": "print",
+              "value": "9783642633003"
+            },
+            {
+              "type": "electronic",
+              "value": "9783642575471"
+            }
+          ],
+          "content-domain": {
+            "domain": [],
+            "crossmark-restriction": false
+          },
+          "published-print": {
+            "date-parts": [
+              [
+                2001
+              ]
+            ]
+          },
+          "DOI": "10.1007/978-3-642-57547-1_86",
+          "type": "book-chapter",
+          "created": {
+            "date-parts": [
+              [
+                2011,
+                8,
+                4
+              ]
+            ],
+            "date-time": "2011-08-04T03:23:55Z",
+            "timestamp": 1312428235000
+          },
+          "page": "965-974",
+          "source": "Crossref",
+          "is-referenced-by-count": 2,
+          "title": [
+            "Knowledge Discovery: Some Empirical Evidence and Directions for Future Research"
+          ],
+          "prefix": "10.1007",
+          "author": [
+            {
+              "given": "Meliha",
+              "family": "Handzic",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Aybüke",
+              "family": "Aurum",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            }
+          ],
+          "member": "297",
+          "reference": [
+            {
+              "key": "86_CR1",
+              "doi-asserted-by": "publisher",
+              "first-page": "69",
+              "DOI": "10.1016/0169-2070(92)90008-W",
+              "volume": "8",
+              "author": "JF Amstrong",
+              "year": "1992",
+              "unstructured": "Amstrong, J. S., Collopy, F.: `Error Measures for Generalising about Forecasting Methods: Empirical Comparisons’, International Journal of Forecasting, 8 (1992), 69–80.",
+              "journal-title": "International Journal of Forecasting"
+            },
+            {
+              "issue": "1",
+              "key": "86_CR2",
+              "doi-asserted-by": "publisher",
+              "first-page": "1",
+              "DOI": "10.2307/2490389",
+              "volume": "18",
+              "author": "RH Ashton",
+              "year": "1980",
+              "unstructured": "Ashton, R. H., Kramer, S. S.: `Students as Surrogates in Behavioural Accounting Research: Some Evidence’,.Journal of Accounting Research, 18, 1 (1980), 1–15.",
+              "journal-title": "Journal of Accounting Research"
+            },
+            {
+              "issue": "3",
+              "key": "86_CR3",
+              "doi-asserted-by": "publisher",
+              "first-page": "143",
+              "DOI": "10.1002/for.3980050302",
+              "volume": "5",
+              "author": "LR Beach",
+              "year": "1986",
+              "unstructured": "Beach, L. R., Barnes, V. E., Christensen-Szalanski, J. J. J.: `Beyond Heuristics and Biases: A Contingency Model of Judgemental Forecasting’, Journal of Forecasting, 5, 3 (1986), 143–157.",
+              "journal-title": "Journal of Forecasting"
+            },
+            {
+              "key": "86_CR4",
+              "volume-title": "`Knowledge Management and Electronic Commerce’, Position Papers on Future Directions in Decision Support",
+              "author": "RW Blanning",
+              "year": "2000",
+              "unstructured": "Blanning, R.W.: `Knowledge Management and Electronic Commerce’, Position Papers on Future Directions in Decision Support, IFIP WK8.3 Working Conference on DSS, Stochholm, 2000."
+            },
+            {
+              "key": "86_CR5",
+              "doi-asserted-by": "crossref",
+              "DOI": "10.1093/oso/9780195111682.001.0001",
+              "volume-title": "Information Ecology",
+              "author": "TH Davenport",
+              "year": "1997",
+              "unstructured": "Davenport, T.H., Prusak, L.: Information Ecology, Oxford University Press, Oxford, 1997."
+            },
+            {
+              "key": "86_CR6",
+              "volume-title": "Infosense:Turning Information into Knowledge",
+              "author": "K Devlin",
+              "year": "1999",
+              "unstructured": "Devlin, K.: Infosense:Turning Information into Knowledge, W.H. Freeman and Company, New York, 1999."
+            },
+            {
+              "key": "86_CR7",
+              "volume-title": "Post-Capitalist Society",
+              "author": "PF Drucker",
+              "year": "1993",
+              "unstructured": "Drucker, P.F.: Post-Capitalist Society, Harper Business, New York, 1993."
+            },
+            {
+              "issue": "3",
+              "key": "86_CR8",
+              "doi-asserted-by": "publisher",
+              "first-page": "201",
+              "DOI": "10.1002/for.3980070305",
+              "volume": "7",
+              "author": "RH Edmundson",
+              "year": "1988",
+              "unstructured": "Edmundson, R. H., Lawrence, M. J., O’Connor, M. J.: `The Use of Non-Time Series Information in Sales Forecasting: A Case Study’, Journal of Forecasting, 7, 3 (1988), 201–211.",
+              "journal-title": "Journal of Forecasting"
+            },
+            {
+              "key": "86_CR9",
+              "volume-title": "`Knowledge Discovery and Data Mining: Towards a Unifying Framework’",
+              "author": "U Fayyad",
+              "year": "1996",
+              "unstructured": "Fayyad, U., Piatetsky-Shapiro, G., Smyth, P.: `Knowledge Discovery and Data Mining: Towards a Unifying Framework’, Proceedings of the Second International Conference on Knowledge Discovery and Data mining, KDD-96, Oregon, 1996."
+            },
+            {
+              "key": "86_CR10",
+              "doi-asserted-by": "publisher",
+              "first-page": "597",
+              "DOI": "10.1002/for.3980100605",
+              "volume": "10",
+              "author": "R Fildes",
+              "year": "1991",
+              "unstructured": "Fildes, R.: `Efficient use of information in the formation of subjective industry forecasts’, Journal of Forecasting,10 (1991), 597–617.",
+              "journal-title": "Journal of Forecasting"
+            },
+            {
+              "key": "86_CR11",
+              "doi-asserted-by": "publisher",
+              "first-page": "203",
+              "DOI": "10.1111/j.2044-8295.1994.tb02519.x",
+              "volume": "85",
+              "author": "N Harvey",
+              "year": "1994",
+              "unstructured": "Harvey, N., Bolger, F., McClelland, A.: `On the nature of expectations’, British Journal of Psychology, 85 (1994), 203–229.",
+              "journal-title": "British Journal of Psychology"
+            },
+            {
+              "key": "86_CR12",
+              "volume-title": "Human Judgement. The SIT View, North-Holland, Amsterdam",
+              "author": "J Klayman",
+              "year": "1988",
+              "unstructured": "Klayman, J.: Learning from Experience in Brehmer, B. and Joyce, C.R.B. (eds) Human Judgement. The SIT View, North-Holland, Amsterdam, 1988."
+            },
+            {
+              "key": "86_CR13",
+              "doi-asserted-by": "publisher",
+              "first-page": "25",
+              "DOI": "10.1016/S0169-2070(85)80068-6",
+              "volume": "1",
+              "author": "M Lawrence",
+              "year": "1985",
+              "unstructured": "Lawrence, M., Edmundson, B., O’Connor, M.: An Examination of Accuracy of Judgemental Extrapolation of Time Series, International Journal of Forecasting, 1, 25–35, 1985.",
+              "journal-title": "International Journal of Forecasting"
+            },
+            {
+              "key": "86_CR14",
+              "volume-title": "A Field Study of Sales Forecasting: Its Accuracy, Bias and Efficiency, Working paper",
+              "author": "M Lawrence",
+              "year": "1995",
+              "unstructured": "Lawrence, M., O’Connor, M., Edmundson, B.: A Field Study of Sales Forecasting: Its Accuracy, Bias and Efficiency, Working paper, School of Information Systems, The University of New South Wales, July, 1995."
+            },
+            {
+              "key": "86_CR15",
+              "doi-asserted-by": "publisher",
+              "first-page": "149",
+              "DOI": "10.1002/bdm.3960080302",
+              "volume": "8",
+              "author": "JS Lim",
+              "year": "1995",
+              "unstructured": "Lim, J. S., O’Connor, M.: `Judgemental Adjustment of Initial Forecasts: Its Effec-tiveness and Biases’, Journal of Behavioural Decision Making, 8 (1995), 149–168.",
+              "journal-title": "Journal of Behavioural Decision Making"
+            },
+            {
+              "key": "86_CR16",
+              "doi-asserted-by": "publisher",
+              "first-page": "139",
+              "DOI": "10.1016/0169-2070(95)00635-4",
+              "volume": "12",
+              "author": "JS Lim",
+              "year": "1996",
+              "unstructured": "Lim, J. S., O’Connor, M. J.: `Judgemental Forecasting with Time Series and Causal Information’, International Journal of Forecasting, 12 (1996), 139–153.",
+              "journal-title": "International Journal of Forecasting"
+            },
+            {
+              "key": "86_CR17",
+              "doi-asserted-by": "publisher",
+              "first-page": "339",
+              "DOI": "10.1016/0167-9236(95)00009-7",
+              "volume": "16",
+              "author": "JS Lim",
+              "year": "1996",
+              "unstructured": "Lim, J. S., O’Connor, M. J.: `Judgemental Forecasting with Interactive Forecasting Support Systems’, Decision Support Systems, 16 (1996b), 339–357.",
+              "journal-title": "Decision Support Systems"
+            },
+            {
+              "key": "86_CR18",
+              "volume-title": "Decision Support Systems in the 21 st Century",
+              "author": "GM Marakas",
+              "year": "19969",
+              "unstructured": "Marakas, G.M.: Decision Support Systems in the 21 st Century, Prentice-Hall, New Jersey, 1999."
+            },
+            {
+              "key": "86_CR19",
+              "doi-asserted-by": "publisher",
+              "first-page": "3",
+              "DOI": "10.1016/0167-8116(86)90038-8",
+              "volume": "3",
+              "author": "BP Mathews",
+              "year": "1986",
+              "unstructured": "Mathews, B. P., Diamantopoulos, A.: `Managerial Intervention in Forecasting: An Empirical Investigation of Forecasting Manipulation’, International Journal of Research in Marketing, 3, 3–10, 1986.",
+              "journal-title": "International Journal of Research in Marketing"
+            },
+            {
+              "key": "86_CR20",
+              "doi-asserted-by": "publisher",
+              "first-page": "129",
+              "DOI": "10.1002/for.3980080206",
+              "volume": "8",
+              "author": "BP Mathews",
+              "year": "1989",
+              "unstructured": "Mathews, B. P., Diamantopoulos, A.: `Judgemental revision of sales forecasts: A Longitudinal Extension’, Journal of Forecasting, 8, 129–140, 1989.",
+              "journal-title": "Journal of Forecasting"
+            },
+            {
+              "key": "86_CR21",
+              "doi-asserted-by": "crossref",
+              "DOI": "10.1093/oso/9780195092691.001.0001",
+              "volume-title": "The Knowledge Creating Company: How Japanese Companies Create the Dynamics of Innovation",
+              "author": "I Nonaka",
+              "year": "1995",
+              "unstructured": "Nonaka, I., Takeuchi, H.: The Knowledge Creating Company: How Japanese Companies Create the Dynamics of Innovation. Oxford University Press, New York, 1995."
+            },
+            {
+              "key": "86_CR22",
+              "volume-title": "The Knowledge-Creating Company, Harvard Business Review on Knowledge Management",
+              "author": "A Nonaka",
+              "year": "1998",
+              "unstructured": "Nonaka, I.: The Knowledge-Creating Company, Harvard Business Review on Knowledge Management, HBS Press. Boston, 1998."
+            },
+            {
+              "issue": "3",
+              "key": "86_CR23",
+              "doi-asserted-by": "publisher",
+              "first-page": "534",
+              "DOI": "10.1037/0278-7393.14.3.534",
+              "volume": "14",
+              "author": "JW Payne",
+              "year": "1988",
+              "unstructured": "Payne, J.W., Bettman, J.R., Johnson, E.J.: `Adaptive Strategy Selection in Decision Making’, Journal of Experimental Psychology: Learning, Memory and Cognition, 14(3), 534–552, 1988.",
+              "journal-title": "Journal of Experimental Psychology: Learning, Memory and Cognition"
+            },
+            {
+              "key": "86_CR24",
+              "doi-asserted-by": "publisher",
+              "first-page": "93",
+              "DOI": "10.1002/(SICI)1099-1468(199601)17:1<93::AID-MDE744>3.0.CO;2-H",
+              "volume": "17",
+              "author": "W Remus",
+              "year": "1996",
+              "unstructured": "Remus, W.: `Will Behavioural Research on Managerial Decision Making Generalise to Managers?’, Managerial and Decision Economics, 17 (1996), 93–101.",
+              "journal-title": "Managerial and Decision Economics"
+            },
+            {
+              "issue": "1",
+              "key": "86_CR25",
+              "doi-asserted-by": "publisher",
+              "first-page": "39",
+              "DOI": "10.1002/bdm.3960050106",
+              "volume": "5",
+              "author": "NR Sanders",
+              "year": "1992",
+              "unstructured": "Sanders, N. R., Ritzman, L. P. `The Need for Contextual and Technical Knowledge in Judgemental Forecasting’, Journal of Behavioural Decision Making, 5, 1 (1992), 39–52.",
+              "journal-title": "Journal of Behavioural Decision Making"
+            },
+            {
+              "key": "86_CR26",
+              "volume-title": "Intellectual Capital: The New Wealth of Organisations",
+              "author": "TA Stewart",
+              "year": "1997",
+              "unstructured": "Stewart, T.A.: Intellectual Capital: The New Wealth of Organisations, Doubleday, New York, 1997."
+            },
+            {
+              "issue": "1",
+              "key": "86_CR27",
+              "doi-asserted-by": "publisher",
+              "first-page": "111",
+              "DOI": "10.1006/obhd.1996.0042",
+              "volume": "66",
+              "author": "SM Whitecotton",
+              "year": "1998",
+              "unstructured": "Whitecotton, S. M.:`The Effects of Experience and a Decision Aid on the Slope, Scatter, and Bias of Earnings Forecasts’, Organisational Behaviour and Human Decision Processes, 66, 1 (1996), 111–121.",
+              "journal-title": "Organisational Behaviour and Human Decision Processes"
+            },
+            {
+              "issue": "4",
+              "key": "86_CR28",
+              "doi-asserted-by": "publisher",
+              "first-page": "389",
+              "DOI": "10.1002/for.3980090407",
+              "volume": "9",
+              "author": "C Wolfe",
+              "year": "1990",
+              "unstructured": "Wolfe, C., Flores, B.: `Judgemental Adjustment of Earnings Forecasts’, Journal of Forecasting, 9, 4 (1990), 389–405.",
+              "journal-title": "Journal of Forecasting"
+            }
+          ],
+          "container-title": [
+            "Information Age Economy"
+          ],
+          "language": "de",
+          "link": [
+            {
+              "URL": "http://link.springer.com/content/pdf/10.1007/978-3-642-57547-1_86",
+              "content-type": "unspecified",
+              "content-version": "vor",
+              "intended-application": "similarity-checking"
+            }
+          ],
+          "deposited": {
+            "date-parts": [
+              [
+                2024,
+                4,
+                9
+              ]
+            ],
+            "date-time": "2024-04-09T15:13:40Z",
+            "timestamp": 1712675620000
+          },
+          "score": 21.073795,
+          "resource": {
+            "primary": {
+              "URL": "http://link.springer.com/10.1007/978-3-642-57547-1_86"
+            }
+          },
+          "issued": {
+            "date-parts": [
+              [
+                2001
+              ]
+            ]
+          },
+          "ISBN": [
+            "9783642633003",
+            "9783642575471"
+          ],
+          "references-count": 28,
+          "URL": "https://doi.org/10.1007/978-3-642-57547-1_86",
+          "published": {
+            "date-parts": [
+              [
+                2001
+              ]
+            ]
+          }
+        },
+        {
+          "indexed": {
+            "date-parts": [
+              [
+                2025,
+                5,
+                18
+              ]
+            ],
+            "date-time": "2025-05-18T15:40:01Z",
+            "timestamp": 1747582801118,
+            "version": "3.40.5"
+          },
+          "reference-count": 13,
+          "publisher": "Springer Science and Business Media LLC",
+          "issue": "3",
+          "license": [
+            {
+              "start": {
+                "date-parts": [
+                  [
+                    1999,
+                    11,
+                    1
+                  ]
+                ],
+                "date-time": "1999-11-01T00:00:00Z",
+                "timestamp": 941414400000
+              },
+              "content-version": "tdm",
+              "delay-in-days": 0,
+              "URL": "https://www.springernature.com/gp/researchers/text-and-data-mining"
+            },
+            {
+              "start": {
+                "date-parts": [
+                  [
+                    1999,
+                    11,
+                    1
+                  ]
+                ],
+                "date-time": "1999-11-01T00:00:00Z",
+                "timestamp": 941414400000
+              },
+              "content-version": "vor",
+              "delay-in-days": 0,
+              "URL": "https://www.springernature.com/gp/researchers/text-and-data-mining"
+            }
+          ],
+          "content-domain": {
+            "domain": [],
+            "crossmark-restriction": false
+          },
+          "short-container-title": [
+            "Applied Intelligence"
+          ],
+          "published-print": {
+            "date-parts": [
+              [
+                1999,
+                11
+              ]
+            ]
+          },
+          "DOI": "10.1023/a:1008343110906",
+          "type": "journal-article",
+          "created": {
+            "date-parts": [
+              [
+                2002,
+                12,
+                22
+              ]
+            ],
+            "date-time": "2002-12-22T14:41:38Z",
+            "timestamp": 1040568098000
+          },
+          "page": "297-304",
+          "source": "Crossref",
+          "is-referenced-by-count": 0,
+          "title": [
+            "Characteristic Rule Discovery in Aurum-3"
+          ],
+          "prefix": "10.1007",
+          "volume": "11",
+          "author": [
+            {
+              "given": "David",
+              "family": "McSherry",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Donal",
+              "family": "Roantree",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            }
+          ],
+          "member": "297",
+          "reference": [
+            {
+              "key": "237540_CR1",
+              "first-page": "1",
+              "volume-title": "Knowledge Discovery in Databases",
+              "author": "W.J. Frawley",
+              "year": "1991",
+              "unstructured": "W.J. Frawley, G. Piatetsky-Shapiro, and C.J. Matheus, “Knowledge discovery in databases: An overview,” in Knowledge Discovery in Databases, edited by G. Piatetsky-Shapiro and W.J. Frawley, AAAI Press: Menlo Park, CA, pp. 1-27, 1991."
+            },
+            {
+              "key": "237540_CR2",
+              "first-page": "195",
+              "volume-title": "Knowledge Discovery in Databases",
+              "author": "W. Ziarko",
+              "year": "1991",
+              "unstructured": "W. Ziarko, “Discovery, analysis, and representation of data dependencies,” in Knowledge Discovery in Databases, edited by G. Piatetsky-Shapiro and W.J. Frawley, AAAI Press: Menlo Park, CA, pp. 195-209, 1991."
+            },
+            {
+              "key": "237540_CR3",
+              "unstructured": "C. Nelson, “Improving customer retention with knowledge guided data mining,” BCS Specialist Group on Expert Systems Newsletter, no. 33, pp. 15-20, 1995."
+            },
+            {
+              "key": "237540_CR4",
+              "doi-asserted-by": "crossref",
+              "first-page": "5",
+              "DOI": "10.1049/ic:19961110",
+              "volume-title": "Colloquium on Knowledge Discovery and Data Mining",
+              "author": "S. Thompson",
+              "year": "1996",
+              "unstructured": "S. Thompson and M.A. Bramer, “Parallel knowledge discovery: A review of existing techniques,” Colloquium on Knowledge Discovery and Data Mining, Digest no. 96/198, Institution of Electrical Engineers, London, pp. 5.1-5.5, 1996."
+            },
+            {
+              "key": "237540_CR5",
+              "first-page": "81",
+              "volume": "1",
+              "author": "J.R. Quinlan",
+              "year": "1986",
+              "unstructured": "J.R. Quinlan, “Induction of decision trees,” Machine Learning, vol. 1, pp. 81-106, 1986.",
+              "journal-title": "Machine Learning"
+            },
+            {
+              "key": "237540_CR6",
+              "doi-asserted-by": "crossref",
+              "first-page": "349",
+              "DOI": "10.1016/S0020-7373(87)80003-2",
+              "volume": "27",
+              "author": "J. Cendrowska",
+              "year": "1987",
+              "unstructured": "J. Cendrowska, “PRISM: An algorithm for inducing modular rules,” International Journal of Man-Machine Studies, vol. 27, pp. 349-370, 1987.",
+              "journal-title": "International Journal of Man-Machine Studies"
+            },
+            {
+              "key": "237540_CR7",
+              "first-page": "229",
+              "volume-title": "Knowledge Discovery in Databases",
+              "author": "G. Piatetsky-Shapiro",
+              "year": "1991",
+              "unstructured": "G. Piatetsky-Shapiro, “Discovery, analysis and presentation of strong rules,” in Knowledge Discovery in Databases, edited by G. Piatetsky-Shapiro and W.J. Frawley, AAAI Press: Menlo Park, CA, pp. 229-248, 1991."
+            },
+            {
+              "key": "237540_CR8",
+              "first-page": "159",
+              "volume-title": "Knowledge Discovery in Databases",
+              "author": "P. Smyth",
+              "year": "1991",
+              "unstructured": "P. Smyth and R.M. Goodman, “Rule induction using information theory,” in Knowledge Discovery in Databases, edited by G. Piatetsky-Shapiro and W.J. Frawley, AAAI Press: Menlo Park, CA, pp. 159-176, 1991."
+            },
+            {
+              "key": "237540_CR9",
+              "doi-asserted-by": "crossref",
+              "first-page": "43",
+              "DOI": "10.1016/S0167-9236(97)00012-2",
+              "volume": "21",
+              "author": "D. McSherry",
+              "year": "1997",
+              "unstructured": "D. McSherry, “Knowledge discovery by inspection,” Decision Support Systems, vol. 21, pp. 43-47, 1997.",
+              "journal-title": "Decision Support Systems"
+            },
+            {
+              "key": "237540_CR10",
+              "doi-asserted-by": "crossref",
+              "first-page": "2",
+              "DOI": "10.1049/ic:19980545",
+              "volume-title": "Colloquium on Knowledge Discovery and Data Mining",
+              "author": "D. McSherry",
+              "year": "1998",
+              "unstructured": "D. McSherry, “Attribute-value distribution as a strategy for increasing the efficiency of data mining,” Colloquium on Knowledge Discovery and Data Mining, Digest no. 98/310, Institution of Electrical Engineers, London, pp. 2.1-2.3, 1998."
+            },
+            {
+              "key": "237540_CR11",
+              "doi-asserted-by": "crossref",
+              "unstructured": "D. McSherry, “A strategy for increasing the efficiency of rule discovery in data mining,” in Proc. of Intelligent Data Analysis 97, London, 1997, pp. 397-408.",
+              "DOI": "10.1007/BFb0052857"
+            },
+            {
+              "key": "237540_CR12",
+              "volume-title": "UCI repository of machine learning databases",
+              "author": "C.J. Merz",
+              "year": "1998",
+              "unstructured": "C.J. Merz and P.M. Murphy, UCI repository of machine learning databases, http://www.ics.uci.edu/~mlearn/MLRepository.html, University of California, Irvine, 1998."
+            },
+            {
+              "key": "237540_CR13",
+              "first-page": "4.1",
+              "volume-title": "Colloquium on Knowledge Discovery and Data Mining",
+              "author": "D. McSherry",
+              "year": "1996",
+              "unstructured": "D. McSherry, “An algorithm for the discovery of characteristic rules,” Colloquium on Knowledge Discovery and Data Mining, Digest no. 96/198, Institution of Electrical Engineers, London, pp. 4.1-4.3, 1996."
+            }
+          ],
+          "container-title": [
+            "Applied Intelligence"
+          ],
+          "language": "en",
+          "link": [
+            {
+              "URL": "https://link.springer.com/content/pdf/10.1023/A:1008343110906.pdf",
+              "content-type": "application/pdf",
+              "content-version": "vor",
+              "intended-application": "text-mining"
+            },
+            {
+              "URL": "https://link.springer.com/article/10.1023/A:1008343110906/fulltext.html",
+              "content-type": "text/html",
+              "content-version": "vor",
+              "intended-application": "text-mining"
+            },
+            {
+              "URL": "https://link.springer.com/content/pdf/10.1023/A:1008343110906.pdf",
+              "content-type": "application/pdf",
+              "content-version": "vor",
+              "intended-application": "similarity-checking"
+            }
+          ],
+          "deposited": {
+            "date-parts": [
+              [
+                2025,
+                5,
+                18
+              ]
+            ],
+            "date-time": "2025-05-18T14:58:37Z",
+            "timestamp": 1747580317000
+          },
+          "score": 20.689676,
+          "resource": {
+            "primary": {
+              "URL": "https://link.springer.com/10.1023/A:1008343110906"
+            }
+          },
+          "issued": {
+            "date-parts": [
+              [
+                1999,
+                11
+              ]
+            ]
+          },
+          "references-count": 13,
+          "journal-issue": {
+            "issue": "3",
+            "published-print": {
+              "date-parts": [
+                [
+                  1999,
+                  11
+                ]
+              ]
+            }
+          },
+          "alternative-id": [
+            "237540"
+          ],
+          "URL": "https://doi.org/10.1023/a:1008343110906",
+          "ISSN": [
+            "0924-669X",
+            "1573-7497"
+          ],
+          "issn-type": [
+            {
+              "type": "print",
+              "value": "0924-669X"
+            },
+            {
+              "type": "electronic",
+              "value": "1573-7497"
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                1999,
+                11
+              ]
+            ]
+          }
+        }
+      ],
+      "items-per-page": 3,
+      "query": {
+        "start-index": 0,
+        "search-terms": null
+      }
+    }
+  }
+}

@@ -1,76 +1,71 @@
 % !TeX program = xelatex
 % !BIB program = biber
-% 根据编辑截图定制的中文投稿版式；不是编辑部官方模板。
+% 通用中文学术综述版式；非期刊官方投稿模板。
 \documentclass[UTF8,a4paper,zihao=-4,fontset=fandol]{ctexart}
-\usepackage[left=22mm,right=22mm,top=20mm,bottom=21mm,headheight=24pt,headsep=7mm,footskip=10mm]{geometry}
-\usepackage{graphicx,xcolor,caption,fancyhdr,needspace,etoolbox,placeins}
+\usepackage[left=22mm,right=22mm,top=22mm,bottom=22mm,headheight=16pt,headsep=7mm,footskip=10mm]{geometry}
+\usepackage{graphicx,xcolor,caption,fancyhdr,needspace,placeins}
+\usepackage{amsmath,amssymb,booktabs,tabularx,array,longtable}
 \usepackage[backend=biber,style=gb7714-2015,sorting=none,gbnamefmt=uppercase,gbpub=false,doi=true,url=true,isbn=false]{biblatex}
 \addbibresource{references.bib}
 \AtBeginBibliography{\interlinepenalty=10000}
-\usepackage[unicode,hidelinks,pdfauthor={范举；范梅浩},pdftitle={让数据真正可用：智能数据准备的进展与未来}]{hyperref}
+\usepackage[unicode,hidelinks,pdfauthor={范举；范梅浩},pdftitle={智能数据准备研究综述：关键技术、流程优化与评测方法}]{hyperref}
 \definecolor{ink}{HTML}{173753}
 \definecolor{muted}{HTML}{647580}
 \definecolor{rulegray}{HTML}{CCD7DF}
-\definecolor{pale}{HTML}{F4F7F9}
 \ctexset{
- section={format=\Large\sffamily\bfseries\color{ink},number=\chinese{section},aftername=\hspace{0.6em},beforeskip=18pt,afterskip=9pt},
- subsection={format=\normalsize\sffamily\bfseries\color{ink},number=,beforeskip=12pt,afterskip=6pt}
+ section={format=\large\bfseries,number=\arabic{section},aftername=\hspace{0.6em},beforeskip=16pt,afterskip=8pt},
+ subsection={format=\normalsize\bfseries,number=\thesection.\arabic{subsection},beforeskip=11pt,afterskip=6pt}
 }
-\AtBeginDocument{\linespread{1.0}\fontsize{11.2pt}{17.4pt}\selectfont\special{pdf:minorversion 7}}
+\AtBeginDocument{\linespread{1.0}\fontsize{11pt}{17pt}\selectfont\special{pdf:minorversion 7}}
 \setlength{\parindent}{2em}
-\setlength{\parskip}{3pt}
+\setlength{\parskip}{2pt}
 \setlength{\emergencystretch}{2em}
-\setlength{\textfloatsep}{14pt plus 3pt minus 3pt}
-\setlength{\intextsep}{13pt plus 3pt minus 3pt}
+\setlength{\textfloatsep}{13pt plus 3pt minus 3pt}
+\setlength{\intextsep}{12pt plus 3pt minus 3pt}
 \renewcommand{\topfraction}{0.92}
 \renewcommand{\bottomfraction}{0.86}
 \renewcommand{\textfraction}{0.08}
-\renewcommand{\floatpagefraction}{0.8}
+\renewcommand{\floatpagefraction}{0.75}
 \setcounter{topnumber}{2}
 \setcounter{bottomnumber}{2}
 \setcounter{totalnumber}{4}
-\captionsetup{font={small},labelfont={bf},labelsep=quad,justification=justified,singlelinecheck=false,skip=6pt}
+\captionsetup{font=small,labelfont=bf,labelsep=quad,justification=justified,singlelinecheck=false,skip=6pt}
 \pagestyle{fancy}
 \fancyhf{}
-\fancyhead[L]{\small\sffamily\color{muted}数据科学专辑 · 科普综述}
-\fancyhead[R]{\small\sffamily\color{muted}智能数据准备}
-\fancyfoot[C]{\small\sffamily\color{muted}\thepage}
+\fancyhead[L]{\small 智能数据准备研究综述}
+\fancyhead[R]{\small 范举，范梅浩}
+\fancyfoot[C]{\small\thepage}
 \renewcommand{\headrulewidth}{0.4pt}
-\renewcommand{\headrule}{\hbox to\headwidth{\color{rulegray}\leaders\hrule height \headrulewidth\hfill}}
+\newcolumntype{Y}{>{\raggedright\arraybackslash}X}
+\newcolumntype{L}[1]{>{\raggedright\arraybackslash}p{#1}}
+\renewcommand{\arraystretch}{1.12}
 \newcommand{\articlefigure}[3]{%
 \begin{figure}[htbp]
 \centering
-\includegraphics[width=\linewidth]{figures/#1.pdf}
+\includegraphics[width=\linewidth]{figures/#1.png}
 \caption{#2}\label{#3}
-\end{figure}\FloatBarrier}
-\newcommand{\authorphoto}[2]{%
-  \IfFileExists{assets/authors/#1.jpg}{\includegraphics[width=29mm,height=38mm,keepaspectratio]{assets/authors/#1.jpg}}{%
-  \IfFileExists{assets/authors/#1.png}{\includegraphics[width=29mm,height=38mm,keepaspectratio]{assets/authors/#1.png}}{%
-  \fcolorbox{rulegray}{pale}{\parbox[c][35mm][c]{27mm}{\centering\small\sffamily\color{muted}#2\par\vspace{5pt}本人授权照片\par\vspace{2pt}待补充}}}}}
+\end{figure}}
 \begin{document}
 \thispagestyle{plain}
 \begin{center}
-{\small\sffamily\color{muted}数据科学专辑 · 科普综述\par}
-\vspace{10pt}
-{\fontsize{23pt}{31pt}\selectfont\sffamily\bfseries\color{ink}让数据真正可用\par}
-\vspace{2pt}
-{\fontsize{17pt}{24pt}\selectfont\sffamily\color{ink}智能数据准备的进展与未来\par}
-\vspace{12pt}
+{\fontsize{20pt}{27pt}\selectfont\bfseries 智能数据准备研究综述\par}
+\vspace{3pt}
+{\fontsize{15pt}{21pt}\selectfont\bfseries 关键技术、流程优化与评测方法\par}
+\vspace{11pt}
 {\large 范举\quad 范梅浩\par}
-\vspace{6pt}
-{\small 中国人民大学信息学院\par
-数据工程与知识工程教育部重点实验室，北京 100872\par}
+\vspace{5pt}
+{\small 中国人民大学信息学院，数据工程与知识工程教育部重点实验室\par
+北京 100872\par}
 \end{center}
-\vspace{4pt}
-\noindent{\color{rulegray}\rule{\linewidth}{0.6pt}}
-\vspace{6pt}
+\vspace{5pt}
 \input{manuscript.tex}
 \FloatBarrier
 \clearpage
 {\small
-\setlength{\bibitemsep}{5pt}
-\renewcommand{\bibfont}{\fontsize{9.5pt}{13.6pt}\selectfont}
+\setlength{\bibitemsep}{4pt}
+\renewcommand{\bibfont}{\fontsize{9.5pt}{13.2pt}\selectfont}
 \printbibliography[title={参考文献}]
 }
-\input{author_bios.tex}
+% 作者简介素材保留于 author_bios.tex，按目标期刊要求单独提供。
+% \input{author_bios.tex}
 \end{document}

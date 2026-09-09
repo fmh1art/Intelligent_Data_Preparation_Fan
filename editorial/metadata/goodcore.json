@@ -1,0 +1,851 @@
+{
+  "database": "Crossref",
+  "endpoint": "https://api.crossref.org/works/10.1145/3589302",
+  "retrieved": "2026-09-09",
+  "status_code": 200,
+  "response": {
+    "status": "ok",
+    "message-type": "work",
+    "message-version": "1.0.0",
+    "message": {
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            8,
+            18
+          ]
+        ],
+        "date-time": "2026-08-18T01:45:30Z",
+        "timestamp": 1787017530875,
+        "version": "build-2736575974"
+      },
+      "reference-count": 80,
+      "publisher": "Association for Computing Machinery (ACM)",
+      "issue": "2",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2023,
+                6,
+                13
+              ]
+            ],
+            "date-time": "2023-06-13T00:00:00Z",
+            "timestamp": 1686614400000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "https://www.acm.org/publications/policies/copyright_policy#Background"
+        }
+      ],
+      "funder": [
+        {
+          "name": "Zhejiang Lab?s International Talent Fund for Young Professionals"
+        },
+        {
+          "name": "TAL Education"
+        },
+        {
+          "DOI": "10.13039/501100001809",
+          "name": "National Science Foundation of China",
+          "doi-asserted-by": "crossref",
+          "award": [
+            "62102215, 62122090, 62072461, 61925205, 61632016"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "62102215, 62122090, 62072461, 61925205, 61632016"
+              ]
+            }
+          ],
+          "id": [
+            {
+              "id": "10.13039/501100001809",
+              "id-type": "DOI",
+              "asserted-by": "crossref"
+            }
+          ]
+        },
+        {
+          "DOI": "10.13039/501100003816",
+          "name": "Huawei Technologies",
+          "doi-asserted-by": "crossref",
+          "id": [
+            {
+              "id": "10.13039/501100003816",
+              "id-type": "DOI",
+              "asserted-by": "crossref"
+            }
+          ]
+        },
+        {
+          "name": "BNRist"
+        }
+      ],
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "short-container-title": [
+        "Proc. ACM Manag. Data"
+      ],
+      "published-print": {
+        "date-parts": [
+          [
+            2023,
+            6,
+            13
+          ]
+        ]
+      },
+      "abstract": "<jats:p>Given a dataset with incomplete data (e.g., missing values), training a machine learning model over the incomplete data requires two steps. First, it requires a data-effective step that cleans the data in order to improve the data quality (and the model quality on the cleaned data). Second, it requires a data-efficient step that selects a core subset of the data (called coreset) such that the trained models on the entire data and the coreset have similar model quality, in order to improve the training efficiency. The first-data-effective-then-data-efficient methods are too costly, because they are expensive to clean the whole data; while the first-data-efficient-then-data-effective methods have low model quality, because they cannot select high-quality coreset for incomplete data.</jats:p>\n                  <jats:p>In this paper, we investigate the problem of coreset selection over incomplete data for data-effective and data-efficient machine learning. The essential challenge is how to model the incomplete data for selecting high-quality coreset. To this end, we propose the GoodCore framework towards selecting a good coreset over incomplete data with low cost. To model the unknown complete data, we utilize the combinations of possible repairs as possible worlds of the incomplete data. Based on possible worlds, GoodCore selects an expected optimal coreset through gradient approximation without training ML models. We formally define the expected optimal coreset selection problem, prove its NP-hardness, and propose a greedy algorithm with an approximation ratio. To make GoodCore more efficient, we further propose optimization methods that incorporate human-in-the-loop imputation or automatic imputation method into our framework. Experimental results show the effectiveness and efficiency of our framework with low cost.</jats:p>",
+      "DOI": "10.1145/3589302",
+      "type": "journal-article",
+      "created": {
+        "date-parts": [
+          [
+            2023,
+            6,
+            20
+          ]
+        ],
+        "date-time": "2023-06-20T16:26:45Z",
+        "timestamp": 1687278405000
+      },
+      "page": "1-27",
+      "source": "Crossref",
+      "is-referenced-by-count": 33,
+      "title": [
+        "GoodCore: Data-effective and Data-efficient Machine Learning through Coreset Selection over Incomplete Data"
+      ],
+      "prefix": "10.1145",
+      "volume": "1",
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0000-0001-8080-5594",
+          "authenticated-orcid": false,
+          "given": "Chengliang",
+          "family": "Chai",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "Beijing Institute of Technology, Beijing, China"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0009-0004-3653-5987",
+          "authenticated-orcid": false,
+          "given": "Jiabin",
+          "family": "Liu",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Beijing Institute of Technology, Beijing, China"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0003-2832-0295",
+          "authenticated-orcid": false,
+          "given": "Nan",
+          "family": "Tang",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Qatar Computing Research Institute, HBKU, Doha, Qatar"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0003-4729-9903",
+          "authenticated-orcid": false,
+          "given": "Ju",
+          "family": "Fan",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Renmin University of China, Beijing, China"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0001-9370-7088",
+          "authenticated-orcid": false,
+          "given": "Dongjing",
+          "family": "Miao",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Harbin Institute of Technology, Harbin, China"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-9700-9751",
+          "authenticated-orcid": false,
+          "given": "Jiayi",
+          "family": "Wang",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Tsinghua University, Beijing, China"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0001-9530-3327",
+          "authenticated-orcid": false,
+          "given": "Yuyu",
+          "family": "Luo",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Tsinghua University, Beijing, China"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-1398-0621",
+          "authenticated-orcid": false,
+          "given": "Guoliang",
+          "family": "Li",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Tsinghua University, Beijing, China"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "320",
+      "published-online": {
+        "date-parts": [
+          [
+            2023,
+            6,
+            20
+          ]
+        ]
+      },
+      "reference": [
+        {
+          "key": "e_1_2_2_1_1",
+          "unstructured": "2022. https://github.com/awslabs/datawig."
+        },
+        {
+          "key": "e_1_2_2_2_1",
+          "unstructured": "2022. https://archive.ics.uci.edu/ml/datasets/nursery."
+        },
+        {
+          "key": "e_1_2_2_3_1",
+          "unstructured": "2022. https://archive.ics.uci.edu/ml/datasets/adult."
+        },
+        {
+          "key": "e_1_2_2_4_1",
+          "unstructured": "2022. https://www.kaggle.com/."
+        },
+        {
+          "key": "e_1_2_2_5_1",
+          "unstructured": "2022. https://ride.capitalbikeshare.com/system-data."
+        },
+        {
+          "key": "e_1_2_2_6_1",
+          "unstructured": "2022. https://auctus.vida-nyu.org/."
+        },
+        {
+          "key": "e_1_2_2_7_1",
+          "volume-title": "Exploiting the structure: Stochastic gradient methods using raw clusters. NeurIPS 29",
+          "author": "Allen-Zhu Zeyuan",
+          "year": "2016",
+          "unstructured": "Zeyuan Allen-Zhu, Yang Yuan, and Karthik Sridharan. 2016. Exploiting the structure: Stochastic gradient methods using raw clusters. NeurIPS 29 (2016)."
+        },
+        {
+          "key": "e_1_2_2_8_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1080/00031305.1992.10475879"
+        },
+        {
+          "key": "e_1_2_2_9_1",
+          "volume-title": "Consistent Query Answers in Inconsistent Databases",
+          "author": "Arenas Marcelo",
+          "unstructured": "Marcelo Arenas, Leopoldo E. Bertossi, and Jan Chomicki. 1999. Consistent Query Answers in Inconsistent Databases. In PODS. ACM Press, 68--79."
+        },
+        {
+          "key": "e_1_2_2_10_1",
+          "volume-title": "Database Repairing and Consistent Query Answering",
+          "author": "Bertossi Leopoldo E.",
+          "unstructured": "Leopoldo E. Bertossi. 2011. Database Repairing and Consistent Query Answering. Morgan & Claypool Publishers."
+        },
+        {
+          "key": "e_1_2_2_11_1",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Leopoldo E. Bertossi. 2019. Database Repairs and Consistent Query Answering: Origins and Further Developments. In PODS. ACM 48--58.",
+          "DOI": "10.1145/3294052.3322190"
+        },
+        {
+          "key": "e_1_2_2_12_1",
+          "first-page": "1",
+          "article-title": "DataWig: Missing Value Imputation for Tables",
+          "volume": "20",
+          "author": "Biessmann Felix",
+          "year": "2019",
+          "unstructured": "Felix Biessmann, Tammo Rukat, Phillipp Schmidt, Prathik Naidu, Sebastian Schelter, Andrey Taptunov, Dustin Lange, and David Salinas. 2019. DataWig: Missing Value Imputation for Tables. JMLR 20, 175 (2019), 1--6.",
+          "journal-title": "JMLR"
+        },
+        {
+          "key": "e_1_2_2_13_1",
+          "volume-title": "New Frameworks for Offline and Streaming Coreset Constructions. CoRR abs/1612.00889",
+          "author": "Braverman Vladimir",
+          "year": "2016",
+          "unstructured": "Vladimir Braverman, Dan Feldman, and Harry Lang. 2016. New Frameworks for Offline and Streaming Coreset Constructions. CoRR abs/1612.00889 (2016)."
+        },
+        {
+          "key": "e_1_2_2_14_1",
+          "volume-title": "ICML",
+          "volume": "80",
+          "author": "Campbell Trevor",
+          "year": "2018",
+          "unstructured": "Trevor Campbell and Tamara Broderick. 2018. Bayesian Coreset Construction via Greedy Iterative Geodesic Ascent. In ICML 2018, Vol. 80. PMLR, 697--705."
+        },
+        {
+          "key": "e_1_2_2_15_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/3318464.3389772"
+        },
+        {
+          "key": "e_1_2_2_16_1",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Chengliang Chai Guoliang Li Jian Li Dong Deng and Jianhua Feng. 2016. Cost-effective crowdsourced entity resolution: A partial-order approach. In SIGMOD. 969--984.",
+          "DOI": "10.1145/2882903.2915252"
+        },
+        {
+          "key": "e_1_2_2_17_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.14778/3523210.3523223"
+        },
+        {
+          "key": "e_1_2_2_18_1",
+          "volume-title": "Data management for machine learning: A survey. TKDE",
+          "author": "Chai Chengliang",
+          "year": "2022",
+          "unstructured": "Chengliang Chai, Jiayi Wang, Yuyu Luo, Zeping Niu, and Guoliang Li. 2022. Data management for machine learning: A survey. TKDE (2022)."
+        },
+        {
+          "key": "e_1_2_2_19_1",
+          "volume-title": "On a stochastic approximation method. The Annals of Mathematical Statistics",
+          "author": "Chung Kai Lai",
+          "year": "1954",
+          "unstructured": "Kai Lai Chung. 1954. On a stochastic approximation method. The Annals of Mathematical Statistics (1954), 463--483."
+        },
+        {
+          "key": "e_1_2_2_20_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/2901737"
+        },
+        {
+          "key": "e_1_2_2_21_1",
+          "volume-title": "On the hardness of approximating minimum vertex cover. Annals of mathematics",
+          "author": "Dinur Irit",
+          "year": "2005",
+          "unstructured": "Irit Dinur and Samuel Safra. 2005. On the hardness of approximating minimum vertex cover. Annals of mathematics (2005), 439--485."
+        },
+        {
+          "key": "e_1_2_2_22_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/TSMCA.2007.902631"
+        },
+        {
+          "key": "e_1_2_2_23_1",
+          "volume-title": "Introduction to Core-sets: an Updated Survey. CoRR abs/2011.09384",
+          "author": "Feldman Dan",
+          "year": "2020",
+          "unstructured": "Dan Feldman. 2020. Introduction to Core-sets: an Updated Survey. CoRR abs/2011.09384 (2020)."
+        },
+        {
+          "key": "e_1_2_2_24_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/978-3-031-01863-3"
+        },
+        {
+          "key": "e_1_2_2_25_1",
+          "first-page": "2048",
+          "article-title": "A hybrid data cleaning framework using markov logic networks",
+          "volume": "34",
+          "author": "Ge Congcong",
+          "year": "2020",
+          "unstructured": "Congcong Ge, Yunjun Gao, Xiaoye Miao, Bin Yao, and Haobo Wang. 2020. A hybrid data cleaning framework using markov logic networks. TKDE 34, 5 (2020), 2048--2062.",
+          "journal-title": "TKDE"
+        },
+        {
+          "key": "e_1_2_2_26_1",
+          "volume-title": "Multiple Imputation Using Deep Denoising Autoencoders. CoRR abs/1705.02737",
+          "author": "Gondara Lovedeep",
+          "year": "2017",
+          "unstructured": "Lovedeep Gondara and Ke Wang. 2017. Multiple Imputation Using Deep Denoising Autoencoders. CoRR abs/1705.02737 (2017)."
+        },
+        {
+          "key": "e_1_2_2_27_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/ICDE48307.2020.00196"
+        },
+        {
+          "key": "e_1_2_2_28_1",
+          "volume-title": "Variance reduced stochastic gradient descent with neighbors. Advances in Neural Information Processing Systems 28",
+          "author": "Hofmann Thomas",
+          "year": "2015",
+          "unstructured": "Thomas Hofmann, Aurelien Lucchi, Simon Lacoste-Julien, and Brian McWilliams. 2015. Variance reduced stochastic gradient descent with neighbors. Advances in Neural Information Processing Systems 28 (2015)."
+        },
+        {
+          "key": "e_1_2_2_29_1",
+          "volume-title": "ICML",
+          "volume": "139",
+          "author": "Huang Jiawei",
+          "year": "2021",
+          "unstructured": "Jiawei Huang, Ruomin Huang, Wenjie Liu, Nikolaos M. Freris, and Hu Ding. 2021. A Novel Sequential Coreset Method for Gradient Descent Algorithms. In ICML 2021, Vol. 139. PMLR, 4412--4422."
+        },
+        {
+          "key": "e_1_2_2_30_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.artmed.2010.05.002"
+        },
+        {
+          "key": "e_1_2_2_31_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.14778/3430915.3430917"
+        },
+        {
+          "key": "e_1_2_2_32_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/s40537-020-00313-w"
+        },
+        {
+          "key": "e_1_2_2_33_1",
+          "volume-title": "Grad-match: Gradient matching based data subset selection for efficient deep model training. In ICML. 5464--5474.",
+          "author": "Killamsetty Krishnateja",
+          "year": "2021",
+          "unstructured": "Krishnateja Killamsetty, S Durga, Ganesh Ramakrishnan, Abir De, and Rishabh Iyer. 2021. Grad-match: Gradient matching based data subset selection for efficient deep model training. In ICML. 5464--5474."
+        },
+        {
+          "key": "e_1_2_2_34_1",
+          "volume-title": "Iyer",
+          "author": "Killamsetty KrishnaTeja",
+          "year": "2021",
+          "unstructured": "KrishnaTeja Killamsetty, Durga Sivasubramanian, Ganesh Ramakrishnan, and Rishabh K. Iyer. 2021. GLISTER: Generalization based Data Subset Selection for Efficient and Robust Learning. In AAAI 2021,. AAAI Press, 8110--8118."
+        },
+        {
+          "key": "e_1_2_2_35_1",
+          "volume-title": "Submodularity for Data Selection in Machine Translation. In EMNLP",
+          "author": "Kirchhoff Katrin",
+          "year": "2014",
+          "unstructured": "Katrin Kirchhoff and Jeff A. Bilmes. 2014. Submodularity for Data Selection in Machine Translation. In EMNLP 2014. ACL, 131--141."
+        },
+        {
+          "key": "e_1_2_2_36_1",
+          "volume-title": "BoostClean: Automated Error Detection and Repair for Machine Learning. CoRR abs/1711.01299",
+          "author": "Krishnan Sanjay",
+          "year": "2017",
+          "unstructured": "Sanjay Krishnan, Michael J. Franklin, Ken Goldberg, and Eugene Wu. 2017. BoostClean: Automated Error Detection and Repair for Machine Learning. CoRR abs/1711.01299 (2017)."
+        },
+        {
+          "key": "e_1_2_2_37_1",
+          "first-page": "59",
+          "article-title": "SampleClean: Fast and Reliable Analytics on Dirty Data",
+          "volume": "38",
+          "author": "Krishnan Sanjay",
+          "year": "2015",
+          "unstructured": "Sanjay Krishnan, Jiannan Wang, Michael J. Franklin, Ken Goldberg, Tim Kraska, Tova Milo, and Eugene Wu. 2015. SampleClean: Fast and Reliable Analytics on Dirty Data. IEEE Data Eng. Bull. 38, 3 (2015), 59--75.",
+          "journal-title": "IEEE Data Eng. Bull."
+        },
+        {
+          "key": "e_1_2_2_38_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.14778/2994509.2994514"
+        },
+        {
+          "key": "e_1_2_2_39_1",
+          "first-page": "10",
+          "article-title": "Cauchy and the gradient method",
+          "volume": "251",
+          "author": "Lemaréchal Claude",
+          "year": "2012",
+          "unstructured": "Claude Lemaréchal. 2012. Cauchy and the gradient method. Doc Math Extra 251, 254 (2012), 10.",
+          "journal-title": "Doc Math Extra"
+        },
+        {
+          "key": "e_1_2_2_40_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.14778/3229863.3236226"
+        },
+        {
+          "key": "e_1_2_2_41_1",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Peng Li Xi Rao Jennifer Blase Yue Zhang Xu Chu and Ce Zhang. 2021. CleanML: A Study for Evaluating the Impact of Data Cleaning on ML Classification Tasks. In ICDE. 13--24.",
+          "DOI": "10.1109/ICDE51399.2021.00009"
+        },
+        {
+          "key": "e_1_2_2_42_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.5555/2002472.2002537"
+        },
+        {
+          "key": "e_1_2_2_43_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/ICDE53745.2022.00317"
+        },
+        {
+          "key": "e_1_2_2_44_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.14778/3476311.3476333"
+        },
+        {
+          "key": "e_1_2_2_45_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.14778/3450980.3450989"
+        },
+        {
+          "key": "e_1_2_2_46_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/ICDE48307.2020.00069"
+        },
+        {
+          "key": "e_1_2_2_47_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.14778/3415478.3415484"
+        },
+        {
+          "key": "e_1_2_2_48_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/TKDE.2020.2981464"
+        },
+        {
+          "key": "e_1_2_2_49_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/3183713.3193545"
+        },
+        {
+          "key": "e_1_2_2_50_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/3448016.3457261"
+        },
+        {
+          "key": "e_1_2_2_51_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/TVCG.2021.3114848"
+        },
+        {
+          "key": "e_1_2_2_52_1",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Chris Mayfield Jennifer Neville and Sunil Prabhakar. 2010. ERACER: a database approach for statistical inference and data cleaning. In SIGMOD. ACM 75--86.",
+          "DOI": "10.1145/1807167.1807178"
+        },
+        {
+          "key": "e_1_2_2_53_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.ifacol.2018.09.406"
+        },
+        {
+          "key": "e_1_2_2_54_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/s11704-016-6195-x"
+        },
+        {
+          "key": "e_1_2_2_55_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.14778/3494124.3494143"
+        },
+        {
+          "key": "e_1_2_2_56_1",
+          "volume-title": "An Experimental Survey of Missing Data Imputation Algorithms. TKDE",
+          "author": "Miao Xiaoye",
+          "year": "2022",
+          "unstructured": "Xiaoye Miao, Yangyang Wu, Lu Chen, Yunjun Gao, and Jianwei Yin. 2022. An Experimental Survey of Missing Data Imputation Algorithms. TKDE (2022)."
+        },
+        {
+          "key": "e_1_2_2_57_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1609/aaai.v29i1.9486"
+        },
+        {
+          "key": "e_1_2_2_58_1",
+          "volume-title": "Coresets for Data-efficient Training of Machine Learning Models. In ICML",
+          "volume": "119",
+          "author": "Mirzasoleiman Baharan",
+          "year": "2020",
+          "unstructured": "Baharan Mirzasoleiman, Jeff A. Bilmes, and Jure Leskovec. 2020. Coresets for Data-efficient Training of Machine Learning Models. In ICML 2020, Vol. 119. 6950--6960."
+        },
+        {
+          "key": "e_1_2_2_59_1",
+          "first-page": "11465",
+          "article-title": "Coresets for robust training of deep neural networks against noisy labels",
+          "volume": "33",
+          "author": "Mirzasoleiman Baharan",
+          "year": "2020",
+          "unstructured": "Baharan Mirzasoleiman, Kaidi Cao, and Jure Leskovec. 2020. Coresets for robust training of deep neural networks against noisy labels. NeurIPS 33 (2020), 11465--11477.",
+          "journal-title": "NeurIPS"
+        },
+        {
+          "key": "e_1_2_2_60_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/s13218-017-0519-3"
+        },
+        {
+          "key": "e_1_2_2_61_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.patcog.2020.107501"
+        },
+        {
+          "key": "e_1_2_2_62_1",
+          "volume-title": "Stochastic optimization: algorithms and applications",
+          "author": "Nedic Angelia",
+          "unstructured": "Angelia Nedic and Dimitri Bertsekas. 2001. Convergence rate of incremental subgradient algorithms. In Stochastic optimization: algorithms and applications. Springer, 223--264."
+        },
+        {
+          "key": "e_1_2_2_63_1",
+          "volume-title": "From Cleaning before ML to Cleaning for ML",
+          "author": "Neutatz Felix",
+          "year": "2021",
+          "unstructured": "Felix Neutatz, Binger Chen, Ziawasch Abedjan, and Eugene Wu. 2021. From Cleaning before ML to Cleaning for ML. IEEE Data Eng. Bull. (2021)."
+        },
+        {
+          "key": "e_1_2_2_64_1",
+          "unstructured": "Andrew Ng. 2021. MLOPs: From Model-centric to Data-centric AI."
+        },
+        {
+          "key": "e_1_2_2_65_1",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Xuedi Qin Chengliang Chai Yuyu Luo Nan Tang and Guoliang Li. 2020. Interactively discovering and ranking desired tuples without writing sql queries. In SIGMOD. 2745--2748.",
+          "DOI": "10.1145/3318464.3384695"
+        },
+        {
+          "key": "e_1_2_2_66_1",
+          "volume-title": "Ranking desired tuples by database exploration",
+          "author": "Qin Xuedi",
+          "year": "1973",
+          "unstructured": "Xuedi Qin, Chengliang Chai, Yuyu Luo, Tianyu Zhao, Nan Tang, Guoliang Li, Jianhua Feng, Xiang Yu, and Mourad Ouzzani. 2021. Ranking desired tuples by database exploration. In ICDE. IEEE, 1973--1978."
+        },
+        {
+          "key": "e_1_2_2_67_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/s00778-019-00588--3"
+        },
+        {
+          "key": "e_1_2_2_68_1",
+          "volume-title": "Proceedings of the statistical data analysis based on the L1 norm conference, neuchatel, switzerland",
+          "volume": "31",
+          "author": "Rdusseeun LKPJ",
+          "year": "1987",
+          "unstructured": "LKPJ Rdusseeun and P Kaufman. 1987. Clustering by means of medoids. In Proceedings of the statistical data analysis based on the L1 norm conference, neuchatel, switzerland, Vol. 31."
+        },
+        {
+          "key": "e_1_2_2_69_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.18637/jss.v045.i04"
+        },
+        {
+          "key": "e_1_2_2_70_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.neunet.2020.06.005"
+        },
+        {
+          "key": "e_1_2_2_71_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btr597"
+        },
+        {
+          "key": "e_1_2_2_72_1",
+          "volume-title": "Linear algebra and its applications",
+          "author": "Strang Gilbert",
+          "unstructured": "Gilbert Strang. 2006. Linear algebra and its applications. Belmont, CA: Thomson, Brooks/Cole."
+        },
+        {
+          "key": "e_1_2_2_73_1",
+          "volume-title": "ISESE",
+          "author": "Twala Bhekisipho",
+          "year": "2005",
+          "unstructured": "Bhekisipho Twala, Michelle Cartwright, and Martin J. Shepperd. 2005. Comparison of various methods for handling incomplete data in software engineering databases. In ISESE 2005. 105--114."
+        },
+        {
+          "key": "e_1_2_2_74_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.14778/3561261.3561267"
+        },
+        {
+          "key": "e_1_2_2_75_1",
+          "volume-title": "MLSys",
+          "author": "Wu Richard",
+          "year": "2020",
+          "unstructured": "Richard Wu, Aoqian Zhang, Ihab F. Ilyas, and Theodoros Rekatsinas. 2020. Attention-based Learning for Missing Data Imputation in HoloClean. In MLSys 2020. mlsys.org."
+        },
+        {
+          "key": "e_1_2_2_76_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/3485447.3511985"
+        },
+        {
+          "key": "e_1_2_2_77_1",
+          "volume-title": "An Interactive Data Imputation System",
+          "author": "Wu Yangyang",
+          "unstructured": "Yangyang Wu, Xiaoye Miao, Yuchen Peng, Lu Chen, Yunjun Gao, and Jianwei Yin. 2022. An Interactive Data Imputation System. In DASFAA. Springer, 495--499."
+        },
+        {
+          "key": "e_1_2_2_78_1",
+          "first-page": "5675",
+          "article-title": "GAIN: Missing Data Imputation using Generative Adversarial Nets",
+          "volume": "80",
+          "author": "Yoon Jinsung",
+          "year": "2018",
+          "unstructured": "Jinsung Yoon, James Jordon, and Mihaela van der Schaar. 2018. GAIN: Missing Data Imputation using Generative Adversarial Nets. In ICML, Vol. 80. 5675--5684.",
+          "journal-title": "ICML"
+        },
+        {
+          "key": "e_1_2_2_79_1",
+          "volume-title": "Learning Individual Models for Imputation",
+          "author": "Zhang Aoqian",
+          "unstructured": "Aoqian Zhang, Shaoxu Song, Yu Sun, and Jianmin Wang. 2019. Learning Individual Models for Imputation. In ICDE. IEEE, 160--171."
+        },
+        {
+          "key": "e_1_2_2_80_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/TPDS.2021.3093234"
+        }
+      ],
+      "container-title": [
+        "Proceedings of the ACM on Management of Data"
+      ],
+      "original-title": [],
+      "language": "en",
+      "link": [
+        {
+          "URL": "https://dl.acm.org/doi/10.1145/3589302",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        },
+        {
+          "URL": "https://dl.acm.org/doi/pdf/10.1145/3589302",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2025,
+            6,
+            17
+          ]
+        ],
+        "date-time": "2025-06-17T12:46:13Z",
+        "timestamp": 1750164373000
+      },
+      "score": 1,
+      "resource": {
+        "primary": {
+          "URL": "https://dl.acm.org/doi/10.1145/3589302"
+        }
+      },
+      "subtitle": [],
+      "short-title": [],
+      "issued": {
+        "date-parts": [
+          [
+            2023,
+            6,
+            13
+          ]
+        ]
+      },
+      "references-count": 80,
+      "journal-issue": {
+        "issue": "2",
+        "published-print": {
+          "date-parts": [
+            [
+              2023,
+              6,
+              13
+            ]
+          ]
+        }
+      },
+      "alternative-id": [
+        "10.1145/3589302"
+      ],
+      "URL": "https://doi.org/10.1145/3589302",
+      "relation": {},
+      "ISSN": [
+        "2836-6573"
+      ],
+      "issn-type": [
+        {
+          "value": "2836-6573",
+          "type": "electronic"
+        }
+      ],
+      "subject": [],
+      "published": {
+        "date-parts": [
+          [
+            2023,
+            6,
+            13
+          ]
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,529 @@
+{
+  "database": "Crossref",
+  "endpoint": "https://api.crossref.org/works/10.14778%2F3611479.3611534",
+  "retrieved": "2026-09-09",
+  "status_code": 200,
+  "response": {
+    "status": "ok",
+    "message-type": "work",
+    "message-version": "1.0.0",
+    "message": {
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            9,
+            5
+          ]
+        ],
+        "date-time": "2026-09-05T01:14:12Z",
+        "timestamp": 1788570852970,
+        "version": "build-2803163510"
+      },
+      "reference-count": 59,
+      "publisher": "Association for Computing Machinery (ACM)",
+      "issue": "11",
+      "content-domain": {
+        "domain": [
+          "dl.acm.org"
+        ],
+        "crossmark-restriction": true
+      },
+      "short-container-title": [
+        "Proc. VLDB Endow."
+      ],
+      "published-print": {
+        "date-parts": [
+          [
+            2023,
+            7
+          ]
+        ]
+      },
+      "abstract": "<jats:p>Relational tables, where each row corresponds to an entity and each column corresponds to an attribute, have been the standard for tables in relational databases. However, such a standard cannot be taken for granted when dealing with tables \"in the wild\". Our survey of real spreadsheet-tables and web-tables shows that over 30% of such tables do not conform to the relational standard, for which complex table-restructuring transformations are needed before these tables can be queried easily using SQL-based tools. Unfortunately, the required transformations are non-trivial to program, which has become a substantial pain point for technical and non-technical users alike, as evidenced by large numbers of forum questions in places like StackOverflow and Excel/Tableau forums.</jats:p>\n                  <jats:p>We develop an Auto-Tables system that can automatically synthesize pipelines with multi-step transformations (in Python or other languages), to transform non-relational tables into standard relational forms for downstream analytics, obviating the need for users to manually program transformations. We compile an extensive benchmark for this new task, by collecting 244 real test cases from user spreadsheets and online forums. Our evaluation suggests that Auto-Tables can successfully synthesize transformations for over 70% of test cases at interactive speeds, without requiring any input from users, making this an effective tool for both technical and non-technical users to prepare data for analytics.</jats:p>",
+      "DOI": "10.14778/3611479.3611534",
+      "type": "journal-article",
+      "created": {
+        "date-parts": [
+          [
+            2023,
+            8,
+            24
+          ]
+        ],
+        "date-time": "2023-08-24T22:08:08Z",
+        "timestamp": 1692914888000
+      },
+      "page": "3391-3403",
+      "update-policy": "https://doi.org/10.1145/crossmark-policy",
+      "source": "Crossref",
+      "is-referenced-by-count": 15,
+      "title": [
+        "Auto-Tables: Synthesizing Multi-Step Transformations to Relationalize Tables without Using Examples"
+      ],
+      "prefix": "10.14778",
+      "volume": "16",
+      "author": [
+        {
+          "given": "Peng",
+          "family": "Li",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "Georgia Tech"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Yeye",
+          "family": "He",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Microsoft Research"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Cong",
+          "family": "Yan",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Microsoft Research"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Yue",
+          "family": "Wang",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Microsoft Research"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Surajit",
+          "family": "Chaudhuri",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Microsoft Research"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "320",
+      "published-online": {
+        "date-parts": [
+          [
+            2023,
+            8,
+            24
+          ]
+        ]
+      },
+      "reference": [
+        {
+          "key": "e_1_2_1_1_1",
+          "unstructured": "[n.d.]. Auto-Tables: full version. https://arxiv.org/abs/2307.14565.  [n.d.]. Auto-Tables: full version. https://arxiv.org/abs/2307.14565."
+        },
+        {
+          "key": "e_1_2_1_2_1",
+          "unstructured": "[n.d.]. Example Excel forum question: Hard to query without transformations (Retrieved in 02/2023). https://techcommunity.microsoft.com/t5/excel/power-query-data-cleaning-unpivot-transpose-etc/m-p/2400300.  [n.d.]. Example Excel forum question: Hard to query without transformations (Retrieved in 02/2023). https://techcommunity.microsoft.com/t5/excel/power-query-data-cleaning-unpivot-transpose-etc/m-p/2400300."
+        },
+        {
+          "key": "e_1_2_1_3_1",
+          "unstructured": "[n.d.]. Example Excel forum question: Hard to query without transformations (Retrieved in 02/2023). https://techcommunity.microsoft.com/t5/excel/unpivot-grouped-data/m-p/3686239.  [n.d.]. Example Excel forum question: Hard to query without transformations (Retrieved in 02/2023). https://techcommunity.microsoft.com/t5/excel/unpivot-grouped-data/m-p/3686239."
+        },
+        {
+          "key": "e_1_2_1_4_1",
+          "unstructured": "[n.d.]. Example Excel forum question: Hard to query without transformations (Retrieved in 02/2023). https://techcommunity.microsoft.com/t5/excel/unpivot-monthly-data/m-p/1867836.  [n.d.]. Example Excel forum question: Hard to query without transformations (Retrieved in 02/2023). https://techcommunity.microsoft.com/t5/excel/unpivot-monthly-data/m-p/1867836."
+        },
+        {
+          "key": "e_1_2_1_5_1",
+          "unstructured": "[n.d.]. Example Excel forum question: Table analysis provides unexpected results (Retrieved in 02/2023). https://answers.microsoft.com/en-us/msoffice/forum/all/excel-ideas-feature/c9574cf9-dccc-4356-95d3-07d268e39d82.  [n.d.]. Example Excel forum question: Table analysis provides unexpected results (Retrieved in 02/2023). https://answers.microsoft.com/en-us/msoffice/forum/all/excel-ideas-feature/c9574cf9-dccc-4356-95d3-07d268e39d82."
+        },
+        {
+          "key": "e_1_2_1_6_1",
+          "unstructured": "[n.d.]. Example Excel forum question to relationalize tables: Data restructuring using Excel (Retrieved in 02/2023). https://techcommunity.microsoft.com/t5/excel/data-restructuring-using-excel/m-p/287547.  [n.d.]. Example Excel forum question to relationalize tables: Data restructuring using Excel (Retrieved in 02/2023). https://techcommunity.microsoft.com/t5/excel/data-restructuring-using-excel/m-p/287547."
+        },
+        {
+          "key": "e_1_2_1_7_1",
+          "unstructured": "[n.d.]. Example Excel forum question to relationalize tables: Pivot chart 4 columns (Retrieved in 02/2023). https://techcommunity.microsoft.com/t5/excel/pivot-chart-4-columns-set-responses-to-4-questions/m-p/2329880.  [n.d.]. Example Excel forum question to relationalize tables: Pivot chart 4 columns (Retrieved in 02/2023). https://techcommunity.microsoft.com/t5/excel/pivot-chart-4-columns-set-responses-to-4-questions/m-p/2329880."
+        },
+        {
+          "key": "e_1_2_1_8_1",
+          "unstructured": "[n.d.]. Example Excel forum question to relationalize tables: Pivot table issue. (Retrieved in 02/2023). https://techcommunity.microsoft.com/t5/excel/pivot-table-issue/m-p/3015448.  [n.d.]. Example Excel forum question to relationalize tables: Pivot table issue. (Retrieved in 02/2023). https://techcommunity.microsoft.com/t5/excel/pivot-table-issue/m-p/3015448."
+        },
+        {
+          "key": "e_1_2_1_9_1",
+          "unstructured": "[n.d.]. Example Excel forum question to relationalize tables: Transpose data for analysis (Retrieved in 02/2023). https://techcommunity.microsoft.com/t5/excel/transposing-data-for-better-analysis/m-p/1297106.  [n.d.]. Example Excel forum question to relationalize tables: Transpose data for analysis (Retrieved in 02/2023). https://techcommunity.microsoft.com/t5/excel/transposing-data-for-better-analysis/m-p/1297106."
+        },
+        {
+          "key": "e_1_2_1_10_1",
+          "unstructured": "[n.d.]. Example StackOverflow forum question to relationalize tables: Melt index (Retrieved in 02/2023). https://stackoverflow.com/questions/53917303/pandas-melt-with-multi-index-data-set-and-resetting-index-why-is-this-working.  [n.d.]. Example StackOverflow forum question to relationalize tables: Melt index (Retrieved in 02/2023). https://stackoverflow.com/questions/53917303/pandas-melt-with-multi-index-data-set-and-resetting-index-why-is-this-working."
+        },
+        {
+          "key": "e_1_2_1_11_1",
+          "unstructured": "[n.d.]. Example StackOverflow forum question to relationalize tables: Melt multiple columns (Retrieved in 02/2023). https://stackoverflow.com/questions/51519101/simultaneously-melt-multiple-columns-in-python-pandas.  [n.d.]. Example StackOverflow forum question to relationalize tables: Melt multiple columns (Retrieved in 02/2023). https://stackoverflow.com/questions/51519101/simultaneously-melt-multiple-columns-in-python-pandas."
+        },
+        {
+          "key": "e_1_2_1_12_1",
+          "unstructured": "[n.d.]. Example StackOverflow forum question to relationalize tables: Melt with multiple value vars (Retrieved in 02/2023). https://stackoverflow.com/questions/45066873/pandas-melt-with-multiple-value-vars.  [n.d.]. Example StackOverflow forum question to relationalize tables: Melt with multiple value vars (Retrieved in 02/2023). https://stackoverflow.com/questions/45066873/pandas-melt-with-multiple-value-vars."
+        },
+        {
+          "key": "e_1_2_1_13_1",
+          "unstructured": "[n.d.]. Example StackOverflow forum question to relationalize tables: Reshape wide-to-long in Pandas (Retrieved in 02/2023). https://stackoverflow.com/questions/36537945/reshape-wide-to-long-in-pandas.  [n.d.]. Example StackOverflow forum question to relationalize tables: Reshape wide-to-long in Pandas (Retrieved in 02/2023). https://stackoverflow.com/questions/36537945/reshape-wide-to-long-in-pandas."
+        },
+        {
+          "key": "e_1_2_1_14_1",
+          "unstructured": "[n.d.]. Foofah code on GitHub. https://github.com/umich-dbgroup/foofah.  [n.d.]. Foofah code on GitHub. https://github.com/umich-dbgroup/foofah."
+        },
+        {
+          "key": "e_1_2_1_15_1",
+          "unstructured": "[n.d.]. Pandas API in Python. https://pandas.pydata.org/.  [n.d.]. Pandas API in Python. https://pandas.pydata.org/."
+        },
+        {
+          "key": "e_1_2_1_16_1",
+          "unstructured": "[n.d.]. Pandas operator: Explode. (Retrieved in 02/2023). https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.explode.html.  [n.d.]. Pandas operator: Explode. (Retrieved in 02/2023). https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.explode.html."
+        },
+        {
+          "key": "e_1_2_1_17_1",
+          "unstructured": "[n.d.]. Pandas operator: FFill. (Retrieved in 02/2023). https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.ffill.html.  [n.d.]. Pandas operator: FFill. (Retrieved in 02/2023). https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.ffill.html."
+        },
+        {
+          "key": "e_1_2_1_18_1",
+          "unstructured": "[n.d.]. Pandas operator: Melt. (Retrieved in 02/2023). https://pandas.pydata.org/docs/reference/api/pandas.melt.html.  [n.d.]. Pandas operator: Melt. (Retrieved in 02/2023). https://pandas.pydata.org/docs/reference/api/pandas.melt.html."
+        },
+        {
+          "key": "e_1_2_1_19_1",
+          "unstructured": "[n.d.]. Pandas operator: Pivot. (Retrieved in 02/2023). https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.pivot.html.  [n.d.]. Pandas operator: Pivot. (Retrieved in 02/2023). https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.pivot.html."
+        },
+        {
+          "key": "e_1_2_1_20_1",
+          "unstructured": "[n.d.]. Pandas operator: Stack. (Retrieved in 02/2023). https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.stack.html.  [n.d.]. Pandas operator: Stack. (Retrieved in 02/2023). https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.stack.html."
+        },
+        {
+          "key": "e_1_2_1_21_1",
+          "unstructured": "[n.d.]. Pandas operator: Transpose. (Retrieved in 02/2023). https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.transpose.html.  [n.d.]. Pandas operator: Transpose. (Retrieved in 02/2023). https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.transpose.html."
+        },
+        {
+          "key": "e_1_2_1_22_1",
+          "unstructured": "[n.d.]. Pandas operator: Wide-to-long. (Retrieved in 02/2023). https://pandas.pydata.org/docs/reference/api/pandas.wide_to_long.html.  [n.d.]. Pandas operator: Wide-to-long. (Retrieved in 02/2023). https://pandas.pydata.org/docs/reference/api/pandas.wide_to_long.html."
+        },
+        {
+          "key": "e_1_2_1_23_1",
+          "unstructured": "[n.d.]. PATSQL code on GitHub. https://github.com/NAIST-SE/PATSQL.  [n.d.]. PATSQL code on GitHub. https://github.com/NAIST-SE/PATSQL."
+        },
+        {
+          "key": "e_1_2_1_24_1",
+          "unstructured": "[n.d.]. R operator: pivot-longer which is similar to Wide-to-long. (Retrieved in 02/2023). https://tidyr.tidyverse.org/reference/pivot_longer.html.  [n.d.]. R operator: pivot-longer which is similar to Wide-to-long. (Retrieved in 02/2023). https://tidyr.tidyverse.org/reference/pivot_longer.html."
+        },
+        {
+          "key": "e_1_2_1_25_1",
+          "unstructured": "[n.d.]. Reimplementation of FlashRelate code on GitHub. https://github.com/BEE-Synth/Bee/tree/291a824622e36fccfa43461e85be3f836e3f4eff/Eval/Benchmarks/Spreadsheet/flashrelate-01.  [n.d.]. Reimplementation of FlashRelate code on GitHub. https://github.com/BEE-Synth/Bee/tree/291a824622e36fccfa43461e85be3f836e3f4eff/Eval/Benchmarks/Spreadsheet/flashrelate-01."
+        },
+        {
+          "key": "e_1_2_1_26_1",
+          "unstructured": "[n.d.]. Scythe code on GitHub. https://github.com/Mestway/Scythe.  [n.d.]. Scythe code on GitHub. https://github.com/Mestway/Scythe."
+        },
+        {
+          "key": "e_1_2_1_27_1",
+          "unstructured": "[n.d.]. Trifacta: Standardize Using Patterns. (Retrieved in 07/2023). https://docs.trifacta.com/display/DP/Standardize+Using+Patterns.  [n.d.]. Trifacta: Standardize Using Patterns. (Retrieved in 07/2023). https://docs.trifacta.com/display/DP/Standardize+Using+Patterns."
+        },
+        {
+          "key": "e_1_2_1_28_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/2813885.2737952"
+        },
+        {
+          "key": "e_1_2_1_29_1",
+          "unstructured": "Tom Brown Benjamin Mann Nick Ryder Melanie Subbiah Jared D Kaplan Prafulla Dhariwal Arvind Neelakantan Pranav Shyam Girish Sastry Amanda Askell etal 2020. Language models are few-shot learners. Advances in neural information processing systems 33 (2020) 1877--1901.  Tom Brown Benjamin Mann Nick Ryder Melanie Subbiah Jared D Kaplan Prafulla Dhariwal Arvind Neelakantan Pranav Shyam Girish Sastry Amanda Askell et al. 2020. Language models are few-shot learners. Advances in neural information processing systems 33 (2020) 1877--1901."
+        },
+        {
+          "key": "e_1_2_1_30_1",
+          "volume-title": "The relational model for database management: version 2",
+          "author": "Codd Edgar F",
+          "unstructured": "Edgar F Codd . 1990. The relational model for database management: version 2 . Addison-Wesley Longman Publishing Co., Inc. Edgar F Codd. 1990. The relational model for database management: version 2. Addison-Wesley Longman Publishing Co., Inc."
+        },
+        {
+          "key": "e_1_2_1_31_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/CVPR.2009.5206848"
+        },
+        {
+          "key": "e_1_2_1_32_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/3542700.3542709"
+        },
+        {
+          "key": "e_1_2_1_33_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/3183713.3183746"
+        },
+        {
+          "key": "e_1_2_1_34_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/2240236.2240260"
+        },
+        {
+          "key": "e_1_2_1_35_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/CVPR.2016.90"
+        },
+        {
+          "key": "e_1_2_1_36_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.14778/3231751.3231766"
+        },
+        {
+          "key": "e_1_2_1_37_1",
+          "volume-title": "Thomas Müller, Francesco Piccinno, and Julian Martin Eisenschlos.",
+          "author": "Herzig Jonathan",
+          "year": "2020",
+          "unstructured": "Jonathan Herzig , Paweł Krzysztof Nowak , Thomas Müller, Francesco Piccinno, and Julian Martin Eisenschlos. 2020 . TaPas : Weakly supervised table parsing via pre-training. arXiv preprint arXiv:2004.02349 (2020). Jonathan Herzig, Paweł Krzysztof Nowak, Thomas Müller, Francesco Piccinno, and Julian Martin Eisenschlos. 2020. TaPas: Weakly supervised table parsing via pre-training. arXiv preprint arXiv:2004.02349 (2020)."
+        },
+        {
+          "key": "e_1_2_1_38_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/3035918.3064034"
+        },
+        {
+          "key": "e_1_2_1_39_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.14778/3407790.3407831"
+        },
+        {
+          "key": "e_1_2_1_40_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/358024.358054"
+        },
+        {
+          "key": "e_1_2_1_41_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/TBDATA.2019.2907588"
+        },
+        {
+          "key": "e_1_2_1_42_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/3065386"
+        },
+        {
+          "key": "e_1_2_1_43_1",
+          "volume-title": "A survey of convolutional neural networks: analysis, applications, and prospects",
+          "author": "Li Zewen",
+          "year": "2021",
+          "unstructured": "Zewen Li , Fan Liu , Wenjie Yang , Shouheng Peng , and Jun Zhou . 2021. A survey of convolutional neural networks: analysis, applications, and prospects . IEEE transactions on neural networks and learning systems ( 2021 ). Zewen Li, Fan Liu, Wenjie Yang, Shouheng Peng, and Jun Zhou. 2021. A survey of convolutional neural networks: analysis, applications, and prospects. IEEE transactions on neural networks and learning systems (2021)."
+        },
+        {
+          "key": "e_1_2_1_44_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.14778/3603581.3603596"
+        },
+        {
+          "key": "e_1_2_1_45_1",
+          "volume-title": "Machine learning: a probabilistic perspective",
+          "author": "Murphy Kevin P",
+          "unstructured": "Kevin P Murphy . 2012. Machine learning: a probabilistic perspective . MIT press . Kevin P Murphy. 2012. Machine learning: a probabilistic perspective. MIT press."
+        },
+        {
+          "key": "e_1_2_1_46_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/ICDE53745.2022.00169"
+        },
+        {
+          "key": "e_1_2_1_47_1",
+          "unstructured": "Adam Paszke Sam Gross Soumith Chintala Gregory Chanan Edward Yang Zachary DeVito Zeming Lin Alban Desmaison Luca Antiga and Adam Lerer. 2017. Automatic differentiation in PyTorch. (2017).  Adam Paszke Sam Gross Soumith Chintala Gregory Chanan Edward Yang Zachary DeVito Zeming Lin Alban Desmaison Luca Antiga and Adam Lerer. 2017. Automatic differentiation in PyTorch. (2017)."
+        },
+        {
+          "key": "e_1_2_1_48_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.18653/v1/D19-1410"
+        },
+        {
+          "key": "e_1_2_1_49_1",
+          "volume-title": "Introduction to information retrieval",
+          "author": "Schütze Hinrich",
+          "unstructured": "Hinrich Schütze , Christopher D Manning , and Prabhakar Raghavan . 2008. Introduction to information retrieval . Vol. 39 . Cambridge University Press Cambridge . Hinrich Schütze, Christopher D Manning, and Prabhakar Raghavan. 2008. Introduction to information retrieval. Vol. 39. Cambridge University Press Cambridge."
+        },
+        {
+          "key": "e_1_2_1_50_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/s40537-019-0197-0"
+        },
+        {
+          "key": "e_1_2_1_51_1",
+          "volume-title": "Very deep convolutional networks for large-scale image recognition. arXiv preprint arXiv:1409.1556",
+          "author": "Simonyan Karen",
+          "year": "2014",
+          "unstructured": "Karen Simonyan and Andrew Zisserman . 2014. Very deep convolutional networks for large-scale image recognition. arXiv preprint arXiv:1409.1556 ( 2014 ). Karen Simonyan and Andrew Zisserman. 2014. Very deep convolutional networks for large-scale image recognition. arXiv preprint arXiv:1409.1556 (2014)."
+        },
+        {
+          "key": "e_1_2_1_52_1",
+          "volume-title": "PATSQL: efficient synthesis of SQL queries from example tables with quick inference of projected columns. arXiv preprint arXiv:2010.05807",
+          "author": "Takenouchi Keita",
+          "year": "2020",
+          "unstructured": "Keita Takenouchi , Takashi Ishio , Joji Okada , and Yuji Sakata . 2020. PATSQL: efficient synthesis of SQL queries from example tables with quick inference of projected columns. arXiv preprint arXiv:2010.05807 ( 2020 ). Keita Takenouchi, Takashi Ishio, Joji Okada, and Yuji Sakata. 2020. PATSQL: efficient synthesis of SQL queries from example tables with quick inference of projected columns. arXiv preprint arXiv:2010.05807 (2020)."
+        },
+        {
+          "key": "e_1_2_1_53_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/1559845.1559902"
+        },
+        {
+          "key": "e_1_2_1_54_1",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Chenglong Wang Alvin Cheung and Rastislav Bodik. 2017. Synthesizing highly expressive SQL queries from input-output examples. In SIGPLAN. 452--466.  Chenglong Wang Alvin Cheung and Rastislav Bodik. 2017. Synthesizing highly expressive SQL queries from input-output examples. In SIGPLAN. 452--466.",
+          "DOI": "10.1145/3140587.3062365"
+        },
+        {
+          "key": "e_1_2_1_55_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/3318464.3389738"
+        },
+        {
+          "key": "e_1_2_1_56_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.14778/3476249.3476303"
+        },
+        {
+          "key": "e_1_2_1_57_1",
+          "volume-title": "TaBERT: Pretraining for joint understanding of textual and tabular data. arXiv preprint arXiv:2005.08314",
+          "author": "Yin Pengcheng",
+          "year": "2020",
+          "unstructured": "Pengcheng Yin , Graham Neubig , Wen-tau Yih, and Sebastian Riedel . 2020. TaBERT: Pretraining for joint understanding of textual and tabular data. arXiv preprint arXiv:2005.08314 ( 2020 ). Pengcheng Yin, Graham Neubig, Wen-tau Yih, and Sebastian Riedel. 2020. TaBERT: Pretraining for joint understanding of textual and tabular data. arXiv preprint arXiv:2005.08314 (2020)."
+        },
+        {
+          "key": "e_1_2_1_58_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/ASE.2013.6693082"
+        },
+        {
+          "key": "e_1_2_1_59_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.14778/3115404.3115409"
+        }
+      ],
+      "container-title": [
+        "Proceedings of the VLDB Endowment"
+      ],
+      "original-title": [],
+      "language": "en",
+      "link": [
+        {
+          "URL": "https://dl.acm.org/doi/pdf/10.14778/3611479.3611534",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2023,
+            9,
+            23
+          ]
+        ],
+        "date-time": "2023-09-23T18:15:25Z",
+        "timestamp": 1695492925000
+      },
+      "score": 1,
+      "resource": {
+        "primary": {
+          "URL": "https://dl.acm.org/doi/10.14778/3611479.3611534"
+        }
+      },
+      "subtitle": [],
+      "short-title": [],
+      "issued": {
+        "date-parts": [
+          [
+            2023,
+            7
+          ]
+        ]
+      },
+      "references-count": 59,
+      "journal-issue": {
+        "issue": "11",
+        "published-print": {
+          "date-parts": [
+            [
+              2023,
+              7
+            ]
+          ]
+        }
+      },
+      "alternative-id": [
+        "10.14778/3611479.3611534"
+      ],
+      "URL": "https://doi.org/10.14778/3611479.3611534",
+      "relation": {},
+      "ISSN": [
+        "2150-8097"
+      ],
+      "issn-type": [
+        {
+          "value": "2150-8097",
+          "type": "print"
+        }
+      ],
+      "subject": [],
+      "published": {
+        "date-parts": [
+          [
+            2023,
+            7
+          ]
+        ]
+      },
+      "assertion": [
+        {
+          "value": "2023-08-24",
+          "order": 2,
+          "name": "published",
+          "label": "Published",
+          "group": {
+            "name": "publication_history",
+            "label": "Publication History"
+          }
+        }
+      ]
+    }
+  }
+}

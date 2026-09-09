@@ -1,0 +1,58 @@
+{
+  "dm4ml": {
+    "cache": "metadata/dm4ml_verified.json",
+    "selected_doi": "10.1109/tkde.2022.3148237"
+  },
+  "aurum": {
+    "cache": "metadata/aurum.json",
+    "selected_doi": "10.1109/icde.2018.00094"
+  },
+  "sato": {
+    "cache": "metadata/sato.json",
+    "selected_doi": "10.14778/3407790.3407793"
+  },
+  "ditto": {
+    "cache": "metadata/ditto.json",
+    "selected_doi": "10.14778/3421424.3421431"
+  },
+  "snorkel": {
+    "cache": "metadata/snorkel.json",
+    "selected_doi": "10.14778/3157794.3157797"
+  },
+  "raha": {
+    "cache": "metadata/raha.json",
+    "selected_doi": "10.1145/3299869.3324956"
+  },
+  "activeclean": {
+    "cache": "metadata/activeclean.json",
+    "selected_doi": "10.14778/2994509.2994514"
+  },
+  "interactiveclean": {
+    "cache": "metadata/interactiveclean.json",
+    "selected_doi": "10.1145/2882903.2915242"
+  },
+  "icl_er": {
+    "cache": "metadata/icl_er.json",
+    "selected_doi": "10.1109/icde60146.2024.00284"
+  },
+  "prepbench": {
+    "cache": "metadata/prepbench_final.json",
+    "selected_doi": "10.14778/3828612.3828638"
+  },
+  "empower": {
+    "cache": "metadata/empower.json",
+    "selected_doi": "10.18653/v1/2026.acl-long.8"
+  },
+  "unicorn": {
+    "cache": "metadata/unicorn.json",
+    "selected_doi": "10.1145/3588938"
+  },
+  "haipipe": {
+    "cache": "metadata/haipipe.json",
+    "selected_doi": "10.1145/3588945"
+  },
+  "goodcore": {
+    "cache": "metadata/goodcore.json",
+    "selected_doi": "10.1145/3589302"
+  }
+}

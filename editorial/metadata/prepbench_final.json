@@ -1,0 +1,1131 @@
+{
+  "database": "Crossref",
+  "endpoint": "https://api.crossref.org/works?query.bibliographic=PrepBench%3A+How+Far+Are+We+from+Natural-Language-Driven+Data+Preparation%3F&rows=3",
+  "retrieved": "2026-09-09",
+  "status_code": 200,
+  "response": {
+    "status": "ok",
+    "message-type": "work-list",
+    "message-version": "1.0.0",
+    "message": {
+      "facets": {},
+      "total-results": 1152598,
+      "items": [
+        {
+          "indexed": {
+            "date-parts": [
+              [
+                2026,
+                9,
+                3
+              ]
+            ],
+            "date-time": "2026-09-03T13:20:06Z",
+            "timestamp": 1788441606256,
+            "version": "build-2803163510"
+          },
+          "reference-count": 59,
+          "publisher": "Association for Computing Machinery (ACM)",
+          "issue": "10",
+          "content-domain": {
+            "domain": [
+              "dl.acm.org"
+            ],
+            "crossmark-restriction": true
+          },
+          "short-container-title": [
+            "Proc. VLDB Endow."
+          ],
+          "published-print": {
+            "date-parts": [
+              [
+                2026,
+                6,
+                1
+              ]
+            ]
+          },
+          "abstract": "<jats:p>Data preparation is a central and time-consuming stage in data analysis workflows. Traditionally, commercial tools have relied on graphical user interfaces (GUIs) to simplify data preparation, allowing users to define transformations through visual operators and workflows. Recent advances in large language models (LLMs) raise the possibility of a paradigm shift toward natural language (NL)-driven data preparation, in which users can specify preparation intents in NL directly. However, it remains unclear how far current LLM-based agents are from this paradigm shift in practice. Existing code generation benchmarks do not capture key characteristics of data preparation, including ambiguous user intents, imperfect real-world data, and the need to translate code into interpretable workflows for validation. To bridge this gap, we present PrepBench, a benchmark designed to evaluate NL-driven data preparation along three core capabilities: interactive disambiguation, prep-code generation, and code-to-workflow translation. We crawl data from the Preppin' Data Challenges, and then extend it into a systematically designed benchmark. The benchmark covers diverse domains, and each task involves 3 to 18 data preparation steps. Nearly half of the tasks require over 100 lines of Python code, and the longest solutions approach 300 lines. Our evaluation shows that, despite recent progress, realizing this paradigm shift remains challenging for state-of-the-art LLMs. PrepBench provides a principled benchmark for measuring this gap and helps identify key challenges toward realizing NL-driven data preparation.</jats:p>",
+          "DOI": "10.14778/3828612.3828638",
+          "type": "journal-article",
+          "created": {
+            "date-parts": [
+              [
+                2026,
+                9,
+                3
+              ]
+            ],
+            "date-time": "2026-09-03T13:04:45Z",
+            "timestamp": 1788440685000
+          },
+          "page": "2866-2879",
+          "update-policy": "https://doi.org/10.1145/crossmark-policy",
+          "source": "Crossref",
+          "is-referenced-by-count": 0,
+          "title": [
+            "PrepBench: How Far are We from Natural-Language-Driven Data Preparation?"
+          ],
+          "prefix": "10.14778",
+          "volume": "19",
+          "author": [
+            {
+              "given": "Jingzhe",
+              "family": "Xu",
+              "sequence": "first",
+              "affiliation": [
+                {
+                  "name": "Department of Computer Science and Technology, BNRist, Tsinghua University, Beijing, China"
+                }
+              ],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Rui",
+              "family": "Wang",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "Department of Computer Science and Technology, BNRist, Tsinghua University, Beijing, China"
+                }
+              ],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Jiannan",
+              "family": "Wang",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "Department of Computer Science and Technology, BNRist, Tsinghua University, Beijing, China"
+                }
+              ],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Guoliang",
+              "family": "Li",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "Department of Computer Science and Technology, BNRist, Tsinghua University, Beijing, China"
+                }
+              ],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            }
+          ],
+          "member": "320",
+          "published-online": {
+            "date-parts": [
+              [
+                2026,
+                9,
+                3
+              ]
+            ]
+          },
+          "reference": [
+            {
+              "key": "e_1_2_1_1_1",
+              "unstructured": "Anaconda Inc. 2020. State of Data Science 2020. https://www.anaconda.com/resources/whitepaper/state-of-data-science-2020 Accessed Jan. 11 2026."
+            },
+            {
+              "key": "e_1_2_1_2_1",
+              "volume-title": "Empowering Tabular Data Preparation with Language Models: Why and How? arXiv preprint arXiv:2508.01556",
+              "author": "Chen Mengshi",
+              "year": "2025",
+              "unstructured": "Mengshi Chen, Yuxiang Sun, Tengchao Li, Jianwei Wang, Kai Wang, Xuemin Lin, Ying Zhang, and Wenjie Zhang. 2025. Empowering Tabular Data Preparation with Language Models: Why and How? arXiv preprint arXiv:2508.01556 (2025)."
+            },
+            {
+              "key": "e_1_2_1_3_1",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1145/3588945"
+            },
+            {
+              "key": "e_1_2_1_4_1",
+              "volume-title": "TabFact: A Large-scale Dataset for Table-based Fact Verification. In 8th International Conference on Learning Representations, ICLR 2020",
+              "author": "Chen Wenhu",
+              "year": "2020",
+              "unstructured": "Wenhu Chen, Hongmin Wang, Jianshu Chen, Yunkai Zhang, Hong Wang, Shiyang Li, Xiyou Zhou, and William Yang Wang. 2020. TabFact: A Large-scale Dataset for Table-based Fact Verification. In 8th International Conference on Learning Representations, ICLR 2020, Addis Ababa, Ethiopia, April 26-30, 2020. OpenReview.net. https://openreview.net/forum?id=rkeJRhNYDH Accessed Jan. 11, 2026."
+            },
+            {
+              "key": "e_1_2_1_5_1",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1145/3706598.3714135"
+            },
+            {
+              "key": "e_1_2_1_6_1",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1145/3696410.3714962"
+            },
+            {
+              "key": "e_1_2_1_7_1",
+              "volume-title": "SEED: Domain-specific data curation with large language models. arXiv preprint arXiv:2310.00749",
+              "author": "Chen Zui",
+              "year": "2023",
+              "unstructured": "Zui Chen, Lei Cao, Sam Madden, Tim Kraska, Zeyuan Shang, Ju Fan, Nan Tang, Zihui Gu, Chunwei Liu, and Michael Cafarella. 2023. SEED: Domain-specific data curation with large language models. arXiv preprint arXiv:2310.00749 (2023)."
+            },
+            {
+              "key": "e_1_2_1_8_1",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1145/2463676.2465327"
+            },
+            {
+              "key": "e_1_2_1_9_1",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.18653/v1/2025.naacl-long.13"
+            },
+            {
+              "key": "e_1_2_1_10_1",
+              "volume-title": "Friso Kingma, Andreu Mora, Leandro von Werra, and Thomas Wolf.",
+              "author": "Egg Alex",
+              "year": "2025",
+              "unstructured": "Alex Egg, Martin Iglesias Goyanes, Friso Kingma, Andreu Mora, Leandro von Werra, and Thomas Wolf. 2025. DABstep: Data Agent Benchmark for Multi-step Reasoning. arXiv preprint arXiv:2506.23719 (2025)."
+            },
+            {
+              "key": "e_1_2_1_11_1",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.14778/3748191.3748211"
+            },
+            {
+              "key": "e_1_2_1_12_1",
+              "volume-title": "Text-to-pipeline: Bridging natural language and data preparation pipelines. arXiv preprint arXiv:2505.15874",
+              "author": "Ge Yuhang",
+              "year": "2025",
+              "unstructured": "Yuhang Ge, Yachuan Liu, Zhangyan Ye, Yuren Mao, and Yunjun Gao. 2025. Text-to-pipeline: Bridging natural language and data preparation pipelines. arXiv preprint arXiv:2505.15874 (2025)."
+            },
+            {
+              "key": "e_1_2_1_13_1",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1109/TKDE.2024.3365524"
+            },
+            {
+              "key": "e_1_2_1_14_1",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.18653/v1/2023.emnlp-main.149"
+            },
+            {
+              "key": "e_1_2_1_15_1",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1145/3444831.3444835"
+            },
+            {
+              "key": "e_1_2_1_16_1",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.18653/v1/2025.findings-acl.1016"
+            },
+            {
+              "key": "e_1_2_1_17_1",
+              "volume-title": "InfiAgent-DABench: Evaluating Agents on Data Analysis Tasks. In Forty-first International Conference on Machine Learning, ICML 2024",
+              "author": "Hu Xueyu",
+              "year": "2024",
+              "unstructured": "Xueyu Hu, Ziyu Zhao, Shuang Wei, Ziwei Chai, Qianli Ma, Guoyin Wang, Xuwu Wang, Jing Su, Jingjing Xu, Ming Zhu, Yao Cheng, Jianbo Yuan, Jiwei Li, Kun Kuang, Yang Yang, Hongxia Yang, and Fei Wu. 2024. InfiAgent-DABench: Evaluating Agents on Data Analysis Tasks. In Forty-first International Conference on Machine Learning, ICML 2024, Vienna, Austria, July 21-27, 2024. OpenReview.net. https://openreview.net/forum?id=d5LURMSfTx Accessed Jan. 11, 2026."
+            },
+            {
+              "key": "e_1_2_1_18_1",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.18653/V1/2024.EMNLP-MAIN.748"
+            },
+            {
+              "key": "e_1_2_1_19_1",
+              "volume-title": "Pavan Kalyan Damalapati, and Eugene Wu",
+              "author": "Huang Zezhou",
+              "year": "2023",
+              "unstructured": "Zezhou Huang, Pavan Kalyan Damalapati, and Eugene Wu. 2023. Data ambiguity strikes back: How documentation improves GPT's Text-to-SQL. arXiv preprint arXiv:2310.18742 (2023)."
+            },
+            {
+              "key": "e_1_2_1_20_1",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1145/3665939.3665957"
+            },
+            {
+              "key": "e_1_2_1_21_1",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.48550/ARXIV.2510.05318"
+            },
+            {
+              "key": "e_1_2_1_22_1",
+              "volume-title": "ELT-Bench: An End-to-End Benchmark for Evaluating AI Agents on ELT Pipelines. arXiv preprint arXiv:2504.04808",
+              "author": "Jin Tengjun",
+              "year": "2025",
+              "unstructured": "Tengjun Jin, Yuxuan Zhu, and Daniel Kang. 2025. ELT-Bench: An End-to-End Benchmark for Evaluating AI Agents on ELT Pipelines. arXiv preprint arXiv:2504.04808 (2025)."
+            },
+            {
+              "key": "e_1_2_1_23_1",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1145/1978942.1979444"
+            },
+            {
+              "key": "e_1_2_1_24_1",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.14778/3659437.3659461"
+            },
+            {
+              "key": "e_1_2_1_25_1",
+              "unstructured": "Eugenie Lai Gerardo Vitagliano Ziyu Zhang Om Chabra Sivaprasad Sudhir Anna Zeng Anton A Zabreyko Chenning Li Ferdi Kossmann Jialin Ding et al. 2025. KramaBench: A Benchmark for AI Systems on Data-to-Insight Pipelines over Data Lakes. arXiv preprint arXiv:2506.06541 (2025)."
+            },
+            {
+              "key": "e_1_2_1_26_1",
+              "volume-title": "International Conference on Machine Learning. PMLR",
+              "author": "Lai Yuhang",
+              "year": "2023",
+              "unstructured": "Yuhang Lai, Chengxi Li, Yiming Wang, Tianyi Zhang, Ruiqi Zhong, Luke Zettle-moyer, Wen-tau Yih, Daniel Fried, Sida Wang, and Tao Yu. 2023. DS-1000: A natural and reliable benchmark for data science code generation. In International Conference on Machine Learning. PMLR, 18319–18345."
+            },
+            {
+              "key": "e_1_2_1_27_1",
+              "volume-title": "The Thirteenth International Conference on Learning Representations, ICLR 2025",
+              "author": "Lei Fangyu",
+              "year": "2025",
+              "unstructured": "Fangyu Lei, Jixuan Chen, Yuxiao Ye, Ruisheng Cao, Dongchan Shin, Hongjin Su, Zhaoqing Suo, Hongcheng Gao, Wenjing Hu, Pengcheng Yin, Victor Zhong, Caiming Xiong, Ruoxi Sun, Qian Liu, Sida Wang, and Tao Yu. 2025. Spider 2.0: Evaluating Language Models on Real-World Enterprise Text-to-SQL Workflows. In The Thirteenth International Conference on Learning Representations, ICLR 2025, Singapore, April 24-28, 2025. OpenReview.net. https://openreview.net/forum?id=XmProj9cPs Accessed Jan. 11, 2026."
+            },
+            {
+              "key": "e_1_2_1_28_1",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.52202/075280-0220"
+            },
+            {
+              "key": "e_1_2_1_29_1",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.52202/075280-1835"
+            },
+            {
+              "key": "e_1_2_1_30_1",
+              "volume-title": "CRABS: A syntactic-semantic pincer strategy for bounding LLM interpretation of Python notebooks. arXiv preprint arXiv:2507.11742",
+              "author": "Li Meng",
+              "year": "2025",
+              "unstructured": "Meng Li, Timothy M McPhillips, Dingmin Wang, Shin-Rong Tsai, and Bertram Ludäscher. 2025. CRABS: A syntactic-semantic pincer strategy for bounding LLM interpretation of Python notebooks. arXiv preprint arXiv:2507.11742 (2025)."
+            },
+            {
+              "key": "e_1_2_1_31_1",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1109/BigData59044.2023.10386472"
+            },
+            {
+              "key": "e_1_2_1_32_1",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.52202/079017-3007"
+            },
+            {
+              "key": "e_1_2_1_33_1",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.14778/3574245.3574258"
+            },
+            {
+              "key": "e_1_2_1_34_1",
+              "volume-title": "https://chatgpt.com Accessed",
+              "author": "AI.",
+              "year": "2026",
+              "unstructured": "OpenAI. 2024. ChatGPT. https://chatgpt.com Accessed Jan. 11, 2026."
+            },
+            {
+              "key": "e_1_2_1_35_1",
+              "volume-title": "Schema matching with large language models: an experimental study. arXiv preprint arXiv:2407.11852",
+              "author": "Parciak Marcel",
+              "year": "2024",
+              "unstructured": "Marcel Parciak, Brecht Vandevoort, Frank Neven, Liesbet M Peeters, and Stijn Vansummeren. 2024. Schema matching with large language models: an experimental study. arXiv preprint arXiv:2407.11852 (2024)."
+            },
+            {
+              "key": "e_1_2_1_36_1",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.48786/EDBT.2025.42"
+            },
+            {
+              "key": "e_1_2_1_37_1",
+              "volume-title": "Preppin' Data Challenges. https://www.preppindata.com/challenges Accessed",
+              "author": "Data Preppin'",
+              "year": "2026",
+              "unstructured": "Preppin' Data. 2024. Preppin' Data Challenges. https://www.preppindata.com/challenges Accessed Jan. 11, 2026."
+            },
+            {
+              "key": "e_1_2_1_38_1",
+              "volume-title": "CleanAgent: Automating Data Standardization with LLM-based Agents. In VLDB 2025 Workshop: Data Driven AI. https://www.vldb.org/2025/Workshops/VLDB-Workshops-2025/DATAI/DATAI25_8.pdf Accessed",
+              "author": "Qi Danrui",
+              "year": "2025",
+              "unstructured": "Danrui Qi, Zhengjie Miao, and Jiannan Wang. 2025. CleanAgent: Automating Data Standardization with LLM-based Agents. In VLDB 2025 Workshop: Data Driven AI. https://www.vldb.org/2025/Workshops/VLDB-Workshops-2025/DATAI/DATAI25_8.pdf Accessed Jan. 11, 2026. Artifact available at https://github.com/sfu-db/CleanAgent, accessed Jan. 11, 2026."
+            },
+            {
+              "key": "e_1_2_1_39_1",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.14778/3712221.3712222"
+            },
+            {
+              "key": "e_1_2_1_40_1",
+              "volume-title": "VLDB 2001, Proceedings of 27th International Conference on Very Large Data Bases",
+              "author": "Raman Vijayshankar",
+              "year": "2001",
+              "unstructured": "Vijayshankar Raman and Joseph M. Hellerstein. 2001. Potter's Wheel: An Interactive Data Cleaning System. In VLDB 2001, Proceedings of 27th International Conference on Very Large Data Bases, September 11-14, 2001, Roma, Italy, Peter M. G. Apers, Paolo Atzeni, Stefano Ceri, Stefano Paraboschi, Kotagiri Ramamohanarao, and Richard T. Snodgrass (Eds.). Morgan Kaufmann, 381–390."
+            },
+            {
+              "key": "e_1_2_1_41_1",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.14778/3137628.3137631"
+            },
+            {
+              "key": "e_1_2_1_42_1",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.14778/3352063.3352108"
+            },
+            {
+              "key": "e_1_2_1_43_1",
+              "volume-title": "Roque Lopez, and Juliana Freire.",
+              "author": "Santos Aécio",
+              "year": "2025",
+              "unstructured": "Aécio Santos, Eduardo HM Pena, Roque Lopez, and Juliana Freire. 2025. Interactive Data Harmonization with LLM Agents: Opportunities and Challenges. arXiv preprint arXiv:2502.07132 (2025)."
+            },
+            {
+              "key": "e_1_2_1_44_1",
+              "volume-title": "SAS Data Preparation. https://www.sas.com/en_us/software/data-preparation.html Accessed",
+              "author": "SAS Institute",
+              "year": "2026",
+              "unstructured": "SAS Institute. 2024. SAS Data Preparation. https://www.sas.com/en_us/software/data-preparation.html Accessed Jan. 11, 2026."
+            },
+            {
+              "key": "e_1_2_1_45_1",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.14778/3229863.3229867"
+            },
+            {
+              "key": "e_1_2_1_46_1",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1145/3616855.3635752"
+            },
+            {
+              "key": "e_1_2_1_47_1",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.48550/ARXIV.2508.05002"
+            },
+            {
+              "key": "e_1_2_1_48_1",
+              "volume-title": "https://www.tableau.com/products/prep Accessed",
+              "author": "Software Tableau",
+              "year": "2026",
+              "unstructured": "Tableau Software. 2024. Tableau Prep. https://www.tableau.com/products/prep Accessed Jan. 11, 2026."
+            },
+            {
+              "key": "e_1_2_1_49_1",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1109/ICDE55515.2023.00041"
+            },
+            {
+              "key": "e_1_2_1_50_1",
+              "volume-title": "Proceedings of the 31st International Conference on Computational Linguistics. 96–109",
+              "author": "Wang Tianshu",
+              "year": "2025",
+              "unstructured": "Tianshu Wang, Xiaoyang Chen, Hongyu Lin, Xuanang Chen, Xianpei Han, Le Sun, Hao Wang, and Zhenyu Zeng. 2025. Match, compare, or select? an investigation of large language models for entity matching. In Proceedings of the 31st International Conference on Computational Linguistics. 96–109."
+            },
+            {
+              "key": "e_1_2_1_51_1",
+              "volume-title": "MINT: Evaluating LLMs in Multi-turn Interaction with Tools and Language Feedback. In The Twelfth International Conference on Learning Representations, ICLR 2024",
+              "author": "Wang Xingyao",
+              "year": "2024",
+              "unstructured": "Xingyao Wang, Zihan Wang, Jiateng Liu, Yangyi Chen, Lifan Yuan, Hao Peng, and Heng Ji. 2024. MINT: Evaluating LLMs in Multi-turn Interaction with Tools and Language Feedback. In The Twelfth International Conference on Learning Representations, ICLR 2024, Vienna, Austria, May 7-11, 2024. OpenReview.net. https://openreview.net/forum?id=jp3gWrMuIZ Accessed Jan. 11, 2026."
+            },
+            {
+              "key": "e_1_2_1_52_1",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.18653/v1/2023.acl-long.9"
+            },
+            {
+              "key": "e_1_2_1_53_1",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.18653/V1/D18-1425"
+            },
+            {
+              "key": "e_1_2_1_54_1",
+              "volume-title": "Proceedings of Workshops at the 50th International Conference on Very Large Data Bases, VLDB 2024",
+              "author": "Zhang Haochen",
+              "year": "2024",
+              "unstructured": "Haochen Zhang, Yuyang Dong, Chuan Xiao, and Masafumi Oyamada. 2024. Large Language Models as Data Preprocessors. In Proceedings of Workshops at the 50th International Conference on Very Large Data Bases, VLDB 2024, Guangzhou, China, August 26-30, 2024. VLDB.org. https://vldb.org/workshops/2024/proceedings/TaDA/TaDA.11.pdf Accessed Jan. 11, 2026."
+            },
+            {
+              "key": "e_1_2_1_55_1",
+              "volume-title": "The Thirteenth International Conference on Learning Representations, ICLR 2025",
+              "author": "Zhang Michael J. Q.",
+              "year": "2025",
+              "unstructured": "Michael J. Q. Zhang, W. Bradley Knox, and Eunsol Choi. 2025. Modeling Future Conversation Turns to Teach LLMs to Ask Clarifying Questions. In The Thirteenth International Conference on Learning Representations, ICLR 2025, Singapore, April 24-28, 2025. OpenReview.net. https://openreview.net/forum?id=cwuSAR7EKd Accessed Jan. 11, 2026."
+            },
+            {
+              "key": "e_1_2_1_56_1",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.18653/V1/2024.ACL-LONG.308"
+            },
+            {
+              "key": "e_1_2_1_57_1",
+              "unstructured": "Wei Zhou Jun Zhou Haoyu Wang Zhenghao Li Qikang He Shaokun Han Guoliang Li Xuanhe Zhou Yeye He Chunwei Liu et al. 2026. Can LLMs Clean Up Your Mess? A Survey of Application-Ready Data Preparation with LLMs. arXiv preprint arXiv:2601.17058 (2026)."
+            },
+            {
+              "key": "e_1_2_1_58_1",
+              "unstructured": "Xuanhe Zhou Junxuan He Wei Zhou Haodong Chen Zirui Tang Haoyu Zhao Xin Tong Guoliang Li Youmin Chen Jun Zhou et al. 2025. A Survey of LLM× DATA. arXiv preprint arXiv:2505.18458 (2025)."
+            },
+            {
+              "key": "e_1_2_1_59_1",
+              "unstructured": "Yizhang Zhu Liangwei Wang Chenyu Yang Xiaotian Lin Boyan Li Wei Zhou Xinyu Liu Zhangyang Peng Tianqi Luo Yu Li et al. 2025. A Survey of Data Agents: Emerging Paradigm or Overstated Hype? arXiv preprint arXiv:2510.23587 (2025)."
+            }
+          ],
+          "container-title": [
+            "Proceedings of the VLDB Endowment"
+          ],
+          "language": "en",
+          "link": [
+            {
+              "URL": "https://dl.acm.org/doi/pdf/10.14778/3828612.3828638",
+              "content-type": "unspecified",
+              "content-version": "vor",
+              "intended-application": "similarity-checking"
+            }
+          ],
+          "deposited": {
+            "date-parts": [
+              [
+                2026,
+                9,
+                3
+              ]
+            ],
+            "date-time": "2026-09-03T13:05:49Z",
+            "timestamp": 1788440749000
+          },
+          "score": 61.17861,
+          "resource": {
+            "primary": {
+              "URL": "https://dl.acm.org/doi/10.14778/3828612.3828638"
+            }
+          },
+          "issued": {
+            "date-parts": [
+              [
+                2026,
+                6,
+                1
+              ]
+            ]
+          },
+          "references-count": 59,
+          "journal-issue": {
+            "issue": "10",
+            "published-print": {
+              "date-parts": [
+                [
+                  2026,
+                  6,
+                  1
+                ]
+              ]
+            }
+          },
+          "alternative-id": [
+            "10.14778/3828612.3828638"
+          ],
+          "URL": "https://doi.org/10.14778/3828612.3828638",
+          "ISSN": [
+            "2150-8097"
+          ],
+          "issn-type": [
+            {
+              "value": "2150-8097",
+              "type": "print"
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2026,
+                6,
+                1
+              ]
+            ]
+          },
+          "assertion": [
+            {
+              "value": "2026-09-03",
+              "order": 3,
+              "name": "published",
+              "label": "Published",
+              "group": {
+                "name": "publication_history",
+                "label": "Publication History"
+              }
+            }
+          ]
+        },
+        {
+          "indexed": {
+            "date-parts": [
+              [
+                2022,
+                12,
+                17
+              ]
+            ],
+            "date-time": "2022-12-17T06:13:11Z",
+            "timestamp": 1671257591882
+          },
+          "reference-count": 5,
+          "publisher": "Association for Natural Language Processing",
+          "issue": "2",
+          "content-domain": {
+            "domain": [],
+            "crossmark-restriction": false
+          },
+          "short-container-title": [
+            "Journal of Natural Language Processing"
+          ],
+          "published-print": {
+            "date-parts": [
+              [
+                2022
+              ]
+            ]
+          },
+          "DOI": "10.5715/jnlp.29.731",
+          "type": "journal-article",
+          "created": {
+            "date-parts": [
+              [
+                2022,
+                6,
+                14
+              ]
+            ],
+            "date-time": "2022-06-14T22:15:25Z",
+            "timestamp": 1655244925000
+          },
+          "page": "731-734",
+          "source": "Crossref",
+          "is-referenced-by-count": 0,
+          "title": [
+            "16th “Research on Japanese Based on Diverse Language Resources: ‘How far we have progressed and how much we have discovered!’”"
+          ],
+          "prefix": "10.5715",
+          "volume": "29",
+          "author": [
+            {
+              "given": "Takuya",
+              "family": "Iwasaki",
+              "sequence": "first",
+              "affiliation": [
+                {
+                  "name": "National Institute for Japanese Language and Linguistics"
+                }
+              ],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            }
+          ],
+          "member": "3685",
+          "reference": [
+            {
+              "key": "1",
+              "unstructured": "“CEJC.” https://www2.ninjal.ac.jp/conversation/cejc-monitor.html."
+            },
+            {
+              "key": "2",
+              "unstructured": "“CHJ.” https://ccd.ninjal.ac.jp/chj/index.html."
+            },
+            {
+              "key": "3",
+              "unstructured": "“COJADS.” https://www2.ninjal.ac.jp/cojads/index.html."
+            },
+            {
+              "key": "4",
+              "unstructured": "“rtMRIDB.” https://rtmridb.ninjal.ac.jp/ja."
+            },
+            {
+              "key": "5",
+              "unstructured": "“NPCMJ.” https://npcmj.ninjal.ac.jp/."
+            }
+          ],
+          "container-title": [
+            "Journal of Natural Language Processing"
+          ],
+          "language": "en",
+          "link": [
+            {
+              "URL": "https://www.jstage.jst.go.jp/article/jnlp/29/2/29_731/_pdf",
+              "content-type": "unspecified",
+              "content-version": "vor",
+              "intended-application": "similarity-checking"
+            }
+          ],
+          "deposited": {
+            "date-parts": [
+              [
+                2022,
+                12,
+                16
+              ]
+            ],
+            "date-time": "2022-12-16T10:10:14Z",
+            "timestamp": 1671185414000
+          },
+          "score": 34.873558,
+          "resource": {
+            "primary": {
+              "URL": "https://www.jstage.jst.go.jp/article/jnlp/29/2/29_731/_article/-char/ja/"
+            }
+          },
+          "issued": {
+            "date-parts": [
+              [
+                2022
+              ]
+            ]
+          },
+          "references-count": 5,
+          "journal-issue": {
+            "issue": "2",
+            "published-print": {
+              "date-parts": [
+                [
+                  2022
+                ]
+              ]
+            }
+          },
+          "URL": "https://doi.org/10.5715/jnlp.29.731",
+          "ISSN": [
+            "1340-7619",
+            "2185-8314"
+          ],
+          "issn-type": [
+            {
+              "value": "1340-7619",
+              "type": "print"
+            },
+            {
+              "value": "2185-8314",
+              "type": "electronic"
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2022
+              ]
+            ]
+          }
+        },
+        {
+          "indexed": {
+            "date-parts": [
+              [
+                2026,
+                5,
+                20
+              ]
+            ],
+            "date-time": "2026-05-20T20:14:30Z",
+            "timestamp": 1779308070628,
+            "version": "3.51.4"
+          },
+          "posted": {
+            "date-parts": [
+              [
+                2025
+              ]
+            ]
+          },
+          "group-title": "SSRN",
+          "reference-count": 40,
+          "publisher": "Elsevier BV",
+          "content-domain": {
+            "domain": [],
+            "crossmark-restriction": false
+          },
+          "DOI": "10.2139/ssrn.5380603",
+          "type": "posted-content",
+          "created": {
+            "date-parts": [
+              [
+                2025,
+                8,
+                5
+              ]
+            ],
+            "date-time": "2025-08-05T19:39:48Z",
+            "timestamp": 1754422788000
+          },
+          "source": "Crossref",
+          "is-referenced-by-count": 2,
+          "title": [
+            "Specification-Driven Code Translation Powered by Large Language Models: How Far are We?"
+          ],
+          "prefix": "10.2139",
+          "author": [
+            {
+              "given": "Soumit  Kanti",
+              "family": "Saha",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Fazle",
+              "family": "Rabbi",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Song",
+              "family": "Wang",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Jinqiu",
+              "family": "Yang",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            }
+          ],
+          "member": "78",
+          "reference": [
+            {
+              "key": "ref1",
+              "volume": "68",
+              "journal-title": "const void *' to 'int *' drops const qualifier"
+            },
+            {
+              "key": "ref2",
+              "journal-title": "Replace this call to the non-reentrant function \"strtok\" by a call to"
+            },
+            {
+              "key": "ref3",
+              "journal-title": "Division by a tainted value"
+            },
+            {
+              "key": "ref4",
+              "volume": "46",
+              "journal-title": "Access of the heap area with a tainted index that may be negative or too large"
+            },
+            {
+              "key": "ref5",
+              "volume": "97",
+              "journal-title": "Call to 'malloc' has an allocation size of 0 bytes"
+            },
+            {
+              "key": "ref6",
+              "volume": "91",
+              "journal-title": "call to undeclared library function 'strtok' with type 'char *(char *, const char *)'; ISO C99 and later do not support implicit function declarations"
+            },
+            {
+              "key": "ref7",
+              "journal-title": "Access of 'int' element in the heap area at index 1. (0.78%) Finding 3.3: The number of severe issues significantly increases when translating from C to other languages"
+            },
+            {
+              "key": "ref8",
+              "author": "J Achiam",
+              "year": "2023",
+              "journal-title": "Gpt-4 technical report"
+            },
+            {
+              "key": "ref9",
+              "author": "W U Ahmad",
+              "year": "2021",
+              "journal-title": "Avatar: A parallel corpus for java-python program translation"
+            },
+            {
+              "key": "ref10",
+              "author": "J Austin",
+              "year": "2021",
+              "journal-title": "Program synthesis with large language models"
+            },
+            {
+              "key": "ref11",
+              "doi-asserted-by": "crossref",
+              "first-page": "675",
+              "DOI": "10.1145/3643757",
+              "article-title": "Codeplan: Repository-level coding using llms and planning",
+              "volume": "1",
+              "author": "R Bairi",
+              "year": "2024",
+              "journal-title": "Proceedings of the ACM on Software Engineering"
+            },
+            {
+              "key": "ref12",
+              "author": "M Bhattarai",
+              "year": "2024",
+              "journal-title": "Enhancing code translation in language models with few-shot learning via retrieval-augmented generation"
+            },
+            {
+              "key": "ref13",
+              "author": "T S Bv",
+              "year": "2024",
+              "journal-title": "Tiobe index for october 2024"
+            },
+            {
+              "key": "ref14",
+              "author": "M Chen",
+              "year": "2021",
+              "journal-title": "Evaluating large language models trained on code"
+            },
+            {
+              "key": "ref15",
+              "article-title": "Supersonic: Learning to generate source code optimizations in c/c++",
+              "author": "Z Chen",
+              "year": "2024",
+              "journal-title": "IEEE Transactions on Software Engineering"
+            },
+            {
+              "key": "ref16",
+              "author": "A Dubey",
+              "year": "2024",
+              "journal-title": "The llama 3 herd of models"
+            },
+            {
+              "key": "ref17",
+              "author": "N D Gotranspile",
+              "journal-title": "Go to c++ transpiler"
+            },
+            {
+              "key": "ref18",
+              "doi-asserted-by": "crossref",
+              "first-page": "122",
+              "DOI": "10.1145/2902362",
+              "article-title": "On the naturalness of software",
+              "volume": "59",
+              "author": "A Hindle",
+              "year": "2016",
+              "journal-title": "Communications of the ACM"
+            },
+            {
+              "key": "ref19",
+              "first-page": "2024",
+              "article-title": "Agentcoder: Multi-agent-based code generation with iterative testing and optimisation",
+              "author": "D Huang",
+              "year": "2023",
+              "journal-title": "Immunant, I., 2024. C2rust: Tools for translating c to rust"
+            },
+            {
+              "key": "ref20",
+              "article-title": "Spoc: Search-based pseudocode to code",
+              "volume": "32",
+              "author": "S Kulal",
+              "year": "2019",
+              "journal-title": "Advances in Neural Information Processing Systems"
+            },
+            {
+              "key": "ref21",
+              "author": "M A Lachaux",
+              "year": "2020",
+              "journal-title": "Unsupervised translation of programming languages"
+            },
+            {
+              "key": "ref22",
+              "author": "R Li"
+            },
+            {
+              "key": "ref23",
+              "article-title": "Is your code generated by chatgpt really correct? rigorous evaluation of large language models for code generation",
+              "volume": "36",
+              "author": "J Liu",
+              "year": "2024",
+              "journal-title": "Advances in Neural Information Processing Systems"
+            },
+            {
+              "key": "ref24",
+              "author": "A Lozhkov",
+              "year": "2024",
+              "journal-title": "Starcoder 2 and the stack v2: The next generation"
+            },
+            {
+              "key": "ref25",
+              "author": "M Macedo",
+              "year": "2024",
+              "journal-title": "Intertrans: Leveraging transitive intermediate translations to enhance llm-based code translation"
+            },
+            {
+              "key": "ref26",
+              "author": "E Nijkamp",
+              "year": "2022",
+              "journal-title": "Codegen: An open large language model for code with multi-turn program synthesis"
+            },
+            {
+              "key": "ref27",
+              "author": "V Nitin",
+              "year": "2024",
+              "journal-title": "Spectra: Enhancing the code translation ability of language models by generating multi-modal specifications"
+            },
+            {
+              "key": "ref28",
+              "author": "J Pan",
+              "year": "2023",
+              "journal-title": "Stelocoder: a decoder-only llm for multi-language to python code translation"
+            },
+            {
+              "key": "ref29",
+              "first-page": "1",
+              "article-title": "Lost in translation: A study of bugs introduced by large language models while translating code",
+              "author": "R Pan",
+              "year": "2024",
+              "journal-title": "Proceedings of the IEEE/ACM 46th International Conference on Software Engineering"
+            },
+            {
+              "key": "ref30",
+              "author": "I Paul",
+              "year": "2024",
+              "journal-title": "Ircoder: Intermediate representations make language models robust multilingual code generators"
+            },
+            {
+              "key": "ref31",
+              "author": "R Puri",
+              "year": "2021",
+              "journal-title": "Codenet: A large-scale ai for code dataset for learning a diversity of coding tasks"
+            },
+            {
+              "key": "ref32",
+              "author": "Y Shi",
+              "year": "2024",
+              "journal-title": "From code to correctness: Closing the last mile of code generation with hierarchical debugging"
+            },
+            {
+              "key": "ref33",
+              "author": "Sonarqube",
+              "year": "2024",
+              "journal-title": "Sonarqube static code analysis"
+            },
+            {
+              "key": "ref34",
+              "author": "M Szafraniec",
+              "year": "2022",
+              "journal-title": "Code translation with compiler representations"
+            },
+            {
+              "key": "ref35",
+              "article-title": "Attention is all you need",
+              "author": "A Vaswani",
+              "year": "2017",
+              "journal-title": "Advances in Neural Information Processing Systems"
+            },
+            {
+              "key": "ref36",
+              "doi-asserted-by": "crossref",
+              "first-page": "1585",
+              "DOI": "10.1145/3660778",
+              "article-title": "Exploring and unleashing the power of large language models in automated code translation",
+              "volume": "1",
+              "author": "Z Yang",
+              "year": "2024",
+              "journal-title": "Proceedings of the ACM on Software Engineering"
+            },
+            {
+              "key": "ref37",
+              "author": "X Yin",
+              "year": "2024",
+              "journal-title": "Rectifier: Code translation with corrector via llms"
+            },
+            {
+              "key": "ref38",
+              "doi-asserted-by": "crossref",
+              "first-page": "61",
+              "DOI": "10.1109/SANER56733.2023.00016",
+              "article-title": "Pseudocode to code based on adaptive global and local information",
+              "author": "Q Yu",
+              "year": "2023",
+              "journal-title": "2023 IEEE International Conference on Software Analysis, Evolution and Reengineering (SANER)"
+            },
+            {
+              "key": "ref39",
+              "author": "Z Yuan",
+              "year": "2024",
+              "journal-title": "Transagent: An llm-based multi-agent system for code translation"
+            },
+            {
+              "key": "ref40",
+              "article-title": "Codegeex: A pre-trained model for code generation with multilingual evaluations on humaneval-x",
+              "author": "Q Zheng",
+              "year": "2023",
+              "journal-title": "Ldb: A large language model debugger via verifying runtime execution step-by-step"
+            }
+          ],
+          "deposited": {
+            "date-parts": [
+              [
+                2025,
+                8,
+                5
+              ]
+            ],
+            "date-time": "2025-08-05T20:02:08Z",
+            "timestamp": 1754424128000
+          },
+          "score": 33.009308,
+          "resource": {
+            "primary": {
+              "URL": "https://www.ssrn.com/abstract=5380603"
+            }
+          },
+          "issued": {
+            "date-parts": [
+              [
+                2025
+              ]
+            ]
+          },
+          "references-count": 40,
+          "URL": "https://doi.org/10.2139/ssrn.5380603",
+          "published": {
+            "date-parts": [
+              [
+                2025
+              ]
+            ]
+          },
+          "subtype": "preprint"
+        }
+      ],
+      "items-per-page": 3,
+      "query": {
+        "start-index": 0,
+        "search-terms": null
+      }
+    }
+  }
+}

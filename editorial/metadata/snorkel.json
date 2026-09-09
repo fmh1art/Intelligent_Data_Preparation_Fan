@@ -1,0 +1,1670 @@
+{
+  "database": "Crossref",
+  "endpoint": "https://api.crossref.org/works?query.bibliographic=Snorkel%3A+Rapid+Training+Data+Creation+with+Weak+Supervision&rows=3",
+  "retrieved": "2026-09-09",
+  "status_code": 200,
+  "response": {
+    "status": "ok",
+    "message-type": "work-list",
+    "message-version": "1.0.0",
+    "message": {
+      "facets": {},
+      "total-results": 4327607,
+      "items": [
+        {
+          "indexed": {
+            "date-parts": [
+              [
+                2026,
+                9,
+                8
+              ]
+            ],
+            "date-time": "2026-09-08T00:17:44Z",
+            "timestamp": 1788826664613,
+            "version": "build-2803163510"
+          },
+          "reference-count": 54,
+          "publisher": "Association for Computing Machinery (ACM)",
+          "issue": "3",
+          "content-domain": {
+            "domain": [],
+            "crossmark-restriction": false
+          },
+          "short-container-title": [
+            "Proc. VLDB Endow."
+          ],
+          "published-print": {
+            "date-parts": [
+              [
+                2017,
+                11
+              ]
+            ]
+          },
+          "abstract": "<jats:p>Labeling training data is increasingly the largest bottleneck in deploying machine learning systems. We present Snorkel, a first-of-its-kind system that enables users to train state-of-the-art models without hand labeling any training data. Instead, users write labeling functions that express arbitrary heuristics, which can have unknown accuracies and correlations. Snorkel denoises their outputs without access to ground truth by incorporating the first end-to-end implementation of our recently proposed machine learning paradigm, data programming. We present a flexible interface layer for writing labeling functions based on our experience over the past year collaborating with companies, agencies, and research labs. In a user study, subject matter experts build models 2.8X faster and increase predictive performance an average 45.5% versus seven hours of hand labeling. We study the modeling tradeoffs in this new setting and propose an optimizer for automating tradeoff decisions that gives up to 1.8X speedup per pipeline execution. In two collaborations, with the U.S. Department of Veterans Affairs and the U.S. Food and Drug Administration, and on four open-source text and image data sets representative of other deployments, Snorkel provides 132% average improvements to predictive performance over prior heuristic approaches and comes within an average 3.60% of the predictive performance of large hand-curated training sets.</jats:p>",
+          "DOI": "10.14778/3157794.3157797",
+          "type": "journal-article",
+          "created": {
+            "date-parts": [
+              [
+                2017,
+                12,
+                12
+              ]
+            ],
+            "date-time": "2017-12-12T13:33:38Z",
+            "timestamp": 1513085618000
+          },
+          "page": "269-282",
+          "source": "Crossref",
+          "is-referenced-by-count": 480,
+          "title": [
+            "Snorkel"
+          ],
+          "prefix": "10.14778",
+          "volume": "11",
+          "author": [
+            {
+              "given": "Alexander",
+              "family": "Ratner",
+              "sequence": "first",
+              "affiliation": [
+                {
+                  "name": "Stanford University"
+                }
+              ],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Stephen H.",
+              "family": "Bach",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "Stanford University"
+                }
+              ],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Henry",
+              "family": "Ehrenberg",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "Stanford University"
+                }
+              ],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Jason",
+              "family": "Fries",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "Stanford University"
+                }
+              ],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Sen",
+              "family": "Wu",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "Stanford University"
+                }
+              ],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Christopher",
+              "family": "Ré",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "Stanford University"
+                }
+              ],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            }
+          ],
+          "member": "320",
+          "published-online": {
+            "date-parts": [
+              [
+                2017,
+                11
+              ]
+            ]
+          },
+          "reference": [
+            {
+              "key": "e_1_2_1_1_1",
+              "volume-title": "Technical report",
+              "author": "Worldwide",
+              "year": "2017",
+              "unstructured": "Worldwide semiannual cognitive/artificial intelligence systems spending guide. Technical report , International Data Corporation , 2017 . Worldwide semiannual cognitive/artificial intelligence systems spending guide. Technical report, International Data Corporation, 2017."
+            },
+            {
+              "key": "e_1_2_1_2_1",
+              "volume-title": "USENIX Symposium on Operating Systems Design and Implementation (OSDI)",
+              "author": "Abadi M.",
+              "year": "2016",
+              "unstructured": "M. Abadi , P. Barham , J. Chen , Z. Chen , A. Davis , J. Dean , M. Devin , S. Ghemawat , G. Irving , M. Isard , : A system for large-scale machine learning . In USENIX Symposium on Operating Systems Design and Implementation (OSDI) , 2016 . M. Abadi, P. Barham, J. Chen, Z. Chen, A. Davis, J. Dean, M. Devin, S. Ghemawat, G. Irving, M. Isard, et al. TensorFlow: A system for large-scale machine learning. In USENIX Symposium on Operating Systems Design and Implementation (OSDI), 2016."
+            },
+            {
+              "key": "e_1_2_1_3_1",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1109/TIT.1970.1054472"
+            },
+            {
+              "key": "e_1_2_1_4_1",
+              "volume-title": "Meeting of the Association for Computational Linguistics (ACL)",
+              "author": "Alfonseca E.",
+              "year": "2012",
+              "unstructured": "E. Alfonseca , K. Filippova , J.-Y. Delort , and G. Garrido . Pattern learning for relation extraction with a hierarchical topic model . In Meeting of the Association for Computational Linguistics (ACL) , 2012 . E. Alfonseca, K. Filippova, J.-Y. Delort, and G. Garrido. Pattern learning for relation extraction with a hierarchical topic model. In Meeting of the Association for Computational Linguistics (ACL), 2012."
+            },
+            {
+              "key": "e_1_2_1_5_1",
+              "volume-title": "International Conference on Machine Learning (ICML)",
+              "author": "Bach S. H.",
+              "year": "2017",
+              "unstructured": "S. H. Bach , B. He , A. Ratner , and C. Ré . Learning the structure of generative models without labeled data . In International Conference on Machine Learning (ICML) , 2017 . S. H. Bach, B. He, A. Ratner, and C. Ré. Learning the structure of generative models without labeled data. In International Conference on Machine Learning (ICML), 2017."
+            },
+            {
+              "key": "e_1_2_1_6_1",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1145/279943.279962"
+            },
+            {
+              "key": "e_1_2_1_7_1",
+              "volume-title": "Meeting of the Association for Computational Linguistics (ACL)",
+              "author": "Bunescu R. C.",
+              "year": "2007",
+              "unstructured": "R. C. Bunescu and R. J. Mooney . Learning to extract relations from the Web using minimal supervision . In Meeting of the Association for Computational Linguistics (ACL) , 2007 . R. C. Bunescu and R. J. Mooney. Learning to extract relations from the Web using minimal supervision. In Meeting of the Association for Computational Linguistics (ACL), 2007."
+            },
+            {
+              "key": "e_1_2_1_8_1",
+              "volume-title": "The MetaCyc database of metabolic pathways and enzymes and the BioCyc collection of pathway/genome databases. Nucleic Acids Research, 44(D1):D471--D480",
+              "author": "Caspi R.",
+              "year": "2016",
+              "unstructured": "R. Caspi , R. Billington , L. Ferrer , H. Foerster , C. A. Fulcher , I. M. Keseler , A. Kothari , M. Krummenacker , M. Latendresse , L. A. Mueller , Q. Ong , S. Paley , P. Subhraveti , D. S. Weaver , and P. D. Karp . The MetaCyc database of metabolic pathways and enzymes and the BioCyc collection of pathway/genome databases. Nucleic Acids Research, 44(D1):D471--D480 , 2016 . R. Caspi, R. Billington, L. Ferrer, H. Foerster, C. A. Fulcher, I. M. Keseler, A. Kothari, M. Krummenacker, M. Latendresse, L. A. Mueller, Q. Ong, S. Paley, P. Subhraveti, D. S. Weaver, and P. D. Karp. The MetaCyc database of metabolic pathways and enzymes and the BioCyc collection of pathway/genome databases. Nucleic Acids Research, 44(D1):D471--D480, 2016."
+            },
+            {
+              "key": "e_1_2_1_9_1",
+              "volume-title": "Semi-Supervised Learning. Adaptive Computation and Machine Learning",
+              "author": "Chapelle O.",
+              "year": "2009",
+              "unstructured": "O. Chapelle , B. Schölkopf , and A. Zien , editors . Semi-Supervised Learning. Adaptive Computation and Machine Learning . MIT Press , 2009 . O. Chapelle, B. Schölkopf, and A. Zien, editors. Semi-Supervised Learning. Adaptive Computation and Machine Learning. MIT Press, 2009."
+            },
+            {
+              "key": "e_1_2_1_10_1",
+              "volume-title": "Workshop on Recent Trends in News Information Retrieval",
+              "author": "Corney D.",
+              "year": "2016",
+              "unstructured": "D. Corney , D. Albakour , M. Martinez , and S. Moussa . What do a million news articles look like ? In Workshop on Recent Trends in News Information Retrieval , 2016 . D. Corney, D. Albakour, M. Martinez, and S. Moussa. What do a million news articles look like? In Workshop on Recent Trends in News Information Retrieval, 2016."
+            },
+            {
+              "key": "e_1_2_1_11_1",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1145/2488388.2488414"
+            },
+            {
+              "key": "e_1_2_1_12_1",
+              "volume-title": "Database",
+              "author": "Davis A. P.",
+              "year": "2013",
+              "unstructured": "A. P. Davis A CTD-Pfizer collaboration: Manual curation of 88,000 scientific articles text mined for drug-disease and drug-phenotype interactions . Database , 2013 . A. P. Davis et al. A CTD-Pfizer collaboration: Manual curation of 88,000 scientific articles text mined for drug-disease and drug-phenotype interactions. Database, 2013."
+            },
+            {
+              "issue": "1",
+              "key": "e_1_2_1_13_1",
+              "first-page": "20",
+              "article-title": "Maximum likelihood estimation of observer error-rates using the EM algorithm",
+              "volume": "28",
+              "author": "Dawid A. P.",
+              "year": "1979",
+              "unstructured": "A. P. Dawid and A. M. Skene . Maximum likelihood estimation of observer error-rates using the EM algorithm . Journal of the Royal Statistical Society C , 28 ( 1 ): 20 -- 28 , 1979 . A. P. Dawid and A. M. Skene. Maximum likelihood estimation of observer error-rates using the EM algorithm. Journal of the Royal Statistical Society C, 28(1):20--28, 1979.",
+              "journal-title": "Journal of the Royal Statistical Society C"
+            },
+            {
+              "key": "e_1_2_1_14_1",
+              "volume-title": "IEEE Conference on (CVPR)",
+              "author": "Deng J.",
+              "year": "2009",
+              "unstructured": "J. Deng , W. Dong , R. Socher , L.-J. Li , K. Li , and L. Fei-Fei . Imagenet: A large-scale hierarchical image database. In Computer Vision and Pattern Recognition , IEEE Conference on (CVPR) , 2009 . J. Deng, W. Dong, R. Socher, L.-J. Li, K. Li, and L. Fei-Fei. Imagenet: A large-scale hierarchical image database. In Computer Vision and Pattern Recognition, IEEE Conference on (CVPR), 2009."
+            },
+            {
+              "key": "e_1_2_1_15_1",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1007/978-3-031-01853-4"
+            },
+            {
+              "key": "e_1_2_1_16_1",
+              "volume-title": "Time {Online",
+              "author": "Eadicicco L.",
+              "year": "2017",
+              "unstructured": "L. Eadicicco . Baidu's Andrew Ng on the future of artificial intelligence, 2017. Time {Online ; posted 11- January - 2017 }. L. Eadicicco. Baidu's Andrew Ng on the future of artificial intelligence, 2017. Time {Online; posted 11-January-2017}."
+            },
+            {
+              "key": "e_1_2_1_17_1",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1016/j.neunet.2005.06.042"
+            },
+            {
+              "key": "e_1_2_1_18_1",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.3115/v1/W14-1611"
+            },
+            {
+              "key": "e_1_2_1_19_1",
+              "unstructured": "K. He X. Zhang S. Ren and J. Sun. Deep residual learning for image recognition. CoRR abs/1512.03385 2015.  K. He X. Zhang S. Ren and J. Sun. Deep residual learning for image recognition. CoRR abs/1512.03385 2015."
+            },
+            {
+              "key": "e_1_2_1_20_1",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.3115/992133.992154"
+            },
+            {
+              "key": "e_1_2_1_21_1",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1162/089976602760128018"
+            },
+            {
+              "key": "e_1_2_1_22_1",
+              "volume-title": "Meeting of the Association for Computational Linguistics (ACL)",
+              "author": "Hoffmann R.",
+              "year": "2011",
+              "unstructured": "R. Hoffmann , C. Zhang , X. Ling , L. Zettlemoyer , and D. S. Weld . Knowledge-based weak supervision for information extraction of overlapping relations . In Meeting of the Association for Computational Linguistics (ACL) , 2011 . R. Hoffmann, C. Zhang, X. Ling, L. Zettlemoyer, and D. S. Weld. Knowledge-based weak supervision for information extraction of overlapping relations. In Meeting of the Association for Computational Linguistics (ACL), 2011."
+            },
+            {
+              "key": "e_1_2_1_23_1",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1109/ICDE.2015.7113284"
+            },
+            {
+              "key": "e_1_2_1_24_1",
+              "volume-title": "Adam: A method for stochastic optimization. arXiv preprint arXiv:1412.6980",
+              "author": "Kingma D.",
+              "year": "2014",
+              "unstructured": "D. Kingma and J. Ba . Adam: A method for stochastic optimization. arXiv preprint arXiv:1412.6980 , 2014 . D. Kingma and J. Ba. Adam: A method for stochastic optimization. arXiv preprint arXiv:1412.6980, 2014."
+            },
+            {
+              "key": "e_1_2_1_25_1",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1093/jamia/ocv071"
+            },
+            {
+              "key": "e_1_2_1_26_1",
+              "volume-title": "Semantic Web Journal",
+              "author": "Lehmann J.",
+              "year": "2014",
+              "unstructured": "J. Lehmann , R. Isele , M. Jakob , A. Jentzsch , D. Kontokostas , P. Mendes , S. Hellmann , M. Morsey , P. van Kleef , S. Auer , and C. Bizer . DBpedia - A large-scale, multilingual knowledge base extracted from Wikipedia . Semantic Web Journal , 2014 . J. Lehmann, R. Isele, M. Jakob, A. Jentzsch, D. Kontokostas, P. Mendes, S. Hellmann, M. Morsey, P. van Kleef, S. Auer, and C. Bizer. DBpedia - A large-scale, multilingual knowledge base extracted from Wikipedia. Semantic Web Journal, 2014."
+            },
+            {
+              "key": "e_1_2_1_27_1",
+              "volume-title": "ICML Workshop: Machine Learning Meets Crowdsourcing",
+              "author": "Li H.",
+              "year": "2013",
+              "unstructured": "H. Li , B. Yu , and D. Zhou . Error rate analysis of labeling by crowdsourcing . In ICML Workshop: Machine Learning Meets Crowdsourcing . Atalanta, Georgia, USA , 2013 . H. Li, B. Yu, and D. Zhou. Error rate analysis of labeling by crowdsourcing. In ICML Workshop: Machine Learning Meets Crowdsourcing. Atalanta, Georgia, USA, 2013."
+            },
+            {
+              "key": "e_1_2_1_28_1",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1145/2897350.2897352"
+            },
+            {
+              "key": "e_1_2_1_29_1",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1145/1553374.1553457"
+            },
+            {
+              "key": "e_1_2_1_30_1",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.5555/1756006.1756038"
+            },
+            {
+              "key": "e_1_2_1_31_1",
+              "volume-title": "Google's hand-fed AI now gives answers, not just search results",
+              "author": "Metz C.",
+              "year": "2016",
+              "unstructured": "C. Metz . Google's hand-fed AI now gives answers, not just search results , 2016 . Wired {Online; posted 29-November-2016}. C. Metz. Google's hand-fed AI now gives answers, not just search results, 2016. Wired {Online; posted 29-November-2016}."
+            },
+            {
+              "key": "e_1_2_1_32_1",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.5555/1690219.1690287"
+            },
+            {
+              "key": "e_1_2_1_33_1",
+              "volume-title": "The comparative toxicogenomics database: update",
+              "author": "Grondin D. A. P., C. J.",
+              "year": "2017",
+              "unstructured": "D. A. P., C. J. Grondin , R. J. Johnson , D. Sciaky , B. L. King , R. McMorran , J. Wiegers , T. Wiegers , and C. J. Mattingly . The comparative toxicogenomics database: update 2017 . Nucleic Acids Research , 2016. D. A. P., C. J. Grondin, R. J. Johnson, D. Sciaky, B. L. King, R. McMorran, J. Wiegers, T. Wiegers, and C. J. Mattingly. The comparative toxicogenomics database: update 2017. Nucleic Acids Research, 2016."
+            },
+            {
+              "key": "e_1_2_1_34_1",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1109/TKDE.2009.191"
+            },
+            {
+              "key": "e_1_2_1_35_1",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1073/pnas.1219097111"
+            },
+            {
+              "key": "e_1_2_1_36_1",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1145/2588555.2593674"
+            },
+            {
+              "key": "e_1_2_1_37_1",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1145/1978942.1979148"
+            },
+            {
+              "key": "e_1_2_1_38_1",
+              "volume-title": "Neural Information Processing Systems (NIPS)",
+              "author": "Ratner A.",
+              "year": "2016",
+              "unstructured": "A. Ratner , C. De Sa , S. Wu , D. Selsam , and C. Ré . Data programming: Creating large training sets, quickly . In Neural Information Processing Systems (NIPS) , 2016 . A. Ratner, C. De Sa, S. Wu, D. Selsam, and C. Ré. Data programming: Creating large training sets, quickly. In Neural Information Processing Systems (NIPS), 2016."
+            },
+            {
+              "key": "e_1_2_1_39_1",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.14778/3137628.3137631"
+            },
+            {
+              "key": "e_1_2_1_40_1",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1145/3035918.3035951"
+            },
+            {
+              "key": "e_1_2_1_41_1",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.5555/1889788.1889799"
+            },
+            {
+              "key": "e_1_2_1_42_1",
+              "volume-title": "Conference on Empirical Methods on Natural Language Processing (EMNLP)",
+              "author": "Roth B.",
+              "year": "2013",
+              "unstructured": "B. Roth and D. Klakow . Combining generative and discriminative model scores for distant supervision . In Conference on Empirical Methods on Natural Language Processing (EMNLP) , 2013 . B. Roth and D. Klakow. Combining generative and discriminative model scores for distant supervision. In Conference on Empirical Methods on Natural Language Processing (EMNLP), 2013."
+            },
+            {
+              "key": "e_1_2_1_43_1",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1109/ICDCSW.2011.20"
+            },
+            {
+              "key": "e_1_2_1_44_1",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1109/TIT.1965.1053799"
+            },
+            {
+              "key": "e_1_2_1_45_1",
+              "volume-title": "Active Learning. Synthesis Lectures on Artificial Intelligence and Machine Learning",
+              "author": "Settles B.",
+              "year": "2012",
+              "unstructured": "B. Settles . Active Learning. Synthesis Lectures on Artificial Intelligence and Machine Learning . Morgan & Claypool Publishers , 2012 . B. Settles. Active Learning. Synthesis Lectures on Artificial Intelligence and Machine Learning. Morgan & Claypool Publishers, 2012."
+            },
+            {
+              "key": "e_1_2_1_46_1",
+              "volume-title": "AAAI Conference on Artificial Intelligence (AAAI)",
+              "author": "Stewart R.",
+              "year": "2017",
+              "unstructured": "R. Stewart and S. Ermon . Label-free supervision of neural networks with physics and other domain knowledge . In AAAI Conference on Artificial Intelligence (AAAI) , 2017 . R. Stewart and S. Ermon. Label-free supervision of neural networks with physics and other domain knowledge. In AAAI Conference on Artificial Intelligence (AAAI), 2017."
+            },
+            {
+              "key": "e_1_2_1_47_1",
+              "volume-title": "Revisiting unreasonable effectiveness of data in deep learning era. arXiv preprint arXiv:1707.02968",
+              "author": "Sun C.",
+              "year": "2017",
+              "unstructured": "C. Sun , A. Shrivastava , S. Singh , and A. Gupta . Revisiting unreasonable effectiveness of data in deep learning era. arXiv preprint arXiv:1707.02968 , 2017 . C. Sun, A. Shrivastava, S. Singh, and A. Gupta. Revisiting unreasonable effectiveness of data in deep learning era. arXiv preprint arXiv:1707.02968, 2017."
+            },
+            {
+              "key": "e_1_2_1_48_1",
+              "volume-title": "Meeting of the Association for Computational Linguistics (ACL)",
+              "author": "Takamatsu S.",
+              "year": "2012",
+              "unstructured": "S. Takamatsu , I. Sato , and H. Nakagawa . Reducing wrong labels in distant supervision for relation extraction . In Meeting of the Association for Computational Linguistics (ACL) , 2012 . S. Takamatsu, I. Sato, and H. Nakagawa. Reducing wrong labels in distant supervision for relation extraction. In Meeting of the Association for Computational Linguistics (ACL), 2012."
+            },
+            {
+              "key": "e_1_2_1_49_1",
+              "volume-title": "BioCreative Challenge Evaluation Workshop",
+              "author": "Wei C.-H.",
+              "year": "2015",
+              "unstructured": "C.-H. Wei , Y. Peng , R. Leaman , D. A. P., C. J. Mattingly , J. Li , T. Wiegers , and Z. Lu . Overview of the BioCreative Vchemical disease relation (CDR)task . In BioCreative Challenge Evaluation Workshop , 2015 . C.-H. Wei, Y. Peng, R. Leaman, D. A. P., C. J. Mattingly, J. Li, T. Wiegers, and Z. Lu. Overview of the BioCreative Vchemical disease relation (CDR)task. In BioCreative Challenge Evaluation Workshop, 2015."
+            },
+            {
+              "key": "e_1_2_1_50_1",
+              "volume-title": "Risk and Trust (PASSAT) and Inernational Conference on Social Computing (SocialCom)",
+              "author": "Yuen M.-C.",
+              "year": "2011",
+              "unstructured": "M.-C. Yuen , I. King , and K.-S. Leung . A survey of crowdsourcing systems. In Privacy, Security , Risk and Trust (PASSAT) and Inernational Conference on Social Computing (SocialCom) , 2011 . M.-C. Yuen, I. King, and K.-S. Leung. A survey of crowdsourcing systems. In Privacy, Security, Risk and Trust (PASSAT) and Inernational Conference on Social Computing (SocialCom), 2011."
+            },
+            {
+              "key": "e_1_2_1_51_1",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.5555/1613715.1613721"
+            },
+            {
+              "key": "e_1_2_1_52_1",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1145/3060586"
+            },
+            {
+              "key": "e_1_2_1_53_1",
+              "first-page": "1",
+              "article-title": "Spectral methods meet EM: A provably optimal algorithm for crowdsourcing",
+              "volume": "17",
+              "author": "Zhang Y.",
+              "year": "2016",
+              "unstructured": "Y. Zhang , X. Chen , D. Zhou , and M. I. Jordan . Spectral methods meet EM: A provably optimal algorithm for crowdsourcing . Journal of Machine Learning Research , 17 : 1 -- 44 , 2016 . Y. Zhang, X. Chen, D. Zhou, and M. I. Jordan. Spectral methods meet EM: A provably optimal algorithm for crowdsourcing. Journal of Machine Learning Research, 17:1--44, 2016.",
+              "journal-title": "Journal of Machine Learning Research"
+            },
+            {
+              "key": "e_1_2_1_54_1",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.14778/2168651.2168656"
+            }
+          ],
+          "container-title": [
+            "Proceedings of the VLDB Endowment"
+          ],
+          "language": "en",
+          "link": [
+            {
+              "URL": "https://dl.acm.org/doi/pdf/10.14778/3157794.3157797",
+              "content-type": "unspecified",
+              "content-version": "vor",
+              "intended-application": "similarity-checking"
+            }
+          ],
+          "deposited": {
+            "date-parts": [
+              [
+                2022,
+                12,
+                28
+              ]
+            ],
+            "date-time": "2022-12-28T04:36:37Z",
+            "timestamp": 1672202197000
+          },
+          "score": 48.65651,
+          "resource": {
+            "primary": {
+              "URL": "https://dl.acm.org/doi/10.14778/3157794.3157797"
+            }
+          },
+          "subtitle": [
+            "rapid training data creation with weak supervision"
+          ],
+          "issued": {
+            "date-parts": [
+              [
+                2017,
+                11
+              ]
+            ]
+          },
+          "references-count": 54,
+          "journal-issue": {
+            "issue": "3",
+            "published-print": {
+              "date-parts": [
+                [
+                  2017,
+                  11
+                ]
+              ]
+            }
+          },
+          "alternative-id": [
+            "10.14778/3157794.3157797"
+          ],
+          "URL": "https://doi.org/10.14778/3157794.3157797",
+          "ISSN": [
+            "2150-8097"
+          ],
+          "issn-type": [
+            {
+              "value": "2150-8097",
+              "type": "print"
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2017,
+                11
+              ]
+            ]
+          }
+        },
+        {
+          "indexed": {
+            "date-parts": [
+              [
+                2026,
+                9,
+                8
+              ]
+            ],
+            "date-time": "2026-09-08T10:58:55Z",
+            "timestamp": 1788865135074,
+            "version": "build-2803163510"
+          },
+          "reference-count": 67,
+          "publisher": "Springer Science and Business Media LLC",
+          "issue": "2-3",
+          "license": [
+            {
+              "start": {
+                "date-parts": [
+                  [
+                    2019,
+                    7,
+                    15
+                  ]
+                ],
+                "date-time": "2019-07-15T00:00:00Z",
+                "timestamp": 1563148800000
+              },
+              "content-version": "tdm",
+              "delay-in-days": 0,
+              "URL": "https://creativecommons.org/licenses/by/4.0"
+            },
+            {
+              "start": {
+                "date-parts": [
+                  [
+                    2019,
+                    7,
+                    15
+                  ]
+                ],
+                "date-time": "2019-07-15T00:00:00Z",
+                "timestamp": 1563148800000
+              },
+              "content-version": "vor",
+              "delay-in-days": 0,
+              "URL": "https://creativecommons.org/licenses/by/4.0"
+            }
+          ],
+          "funder": [
+            {
+              "DOI": "10.13039/100000185",
+              "name": "Defense Advanced Research Projects Agency",
+              "doi-asserted-by": "publisher",
+              "award": [
+                "N66001-15-C-4043"
+              ],
+              "award-info": [
+                {
+                  "award-number": [
+                    "N66001-15-C-4043"
+                  ]
+                }
+              ],
+              "id": [
+                {
+                  "id": "10.13039/100000185",
+                  "id-type": "DOI",
+                  "asserted-by": "publisher"
+                }
+              ]
+            },
+            {
+              "DOI": "10.13039/100000185",
+              "name": "Defense Advanced Research Projects Agency",
+              "doi-asserted-by": "publisher",
+              "award": [
+                "FA8750-17-2-0095"
+              ],
+              "award-info": [
+                {
+                  "award-number": [
+                    "FA8750-17-2-0095"
+                  ]
+                }
+              ],
+              "id": [
+                {
+                  "id": "10.13039/100000185",
+                  "id-type": "DOI",
+                  "asserted-by": "publisher"
+                }
+              ]
+            },
+            {
+              "DOI": "10.13039/100000185",
+              "name": "Defense Advanced Research Projects Agency",
+              "doi-asserted-by": "publisher",
+              "award": [
+                "FA8750-12-2-0335"
+              ],
+              "award-info": [
+                {
+                  "award-number": [
+                    "FA8750-12-2-0335"
+                  ]
+                }
+              ],
+              "id": [
+                {
+                  "id": "10.13039/100000185",
+                  "id-type": "DOI",
+                  "asserted-by": "publisher"
+                }
+              ]
+            },
+            {
+              "DOI": "10.13039/100000185",
+              "name": "Defense Advanced Research Projects Agency",
+              "doi-asserted-by": "publisher",
+              "award": [
+                "FA8750-13-2-0039"
+              ],
+              "award-info": [
+                {
+                  "award-number": [
+                    "FA8750-13-2-0039"
+                  ]
+                }
+              ],
+              "id": [
+                {
+                  "id": "10.13039/100000185",
+                  "id-type": "DOI",
+                  "asserted-by": "publisher"
+                }
+              ]
+            },
+            {
+              "DOI": "10.13039/100000015",
+              "name": "US Department of Energy",
+              "doi-asserted-by": "publisher",
+              "award": [
+                "108845"
+              ],
+              "award-info": [
+                {
+                  "award-number": [
+                    "108845"
+                  ]
+                }
+              ],
+              "id": [
+                {
+                  "id": "10.13039/100000015",
+                  "id-type": "DOI",
+                  "asserted-by": "publisher"
+                }
+              ]
+            },
+            {
+              "DOI": "10.13039/100000002",
+              "name": "National Institutes of Health",
+              "doi-asserted-by": "publisher",
+              "award": [
+                "U54EB020405"
+              ],
+              "award-info": [
+                {
+                  "award-number": [
+                    "U54EB020405"
+                  ]
+                }
+              ],
+              "id": [
+                {
+                  "id": "10.13039/100000002",
+                  "id-type": "DOI",
+                  "asserted-by": "publisher"
+                }
+              ]
+            },
+            {
+              "DOI": "10.13039/100000006",
+              "name": "Office of Naval Research",
+              "doi-asserted-by": "publisher",
+              "award": [
+                "N000141210041"
+              ],
+              "award-info": [
+                {
+                  "award-number": [
+                    "N000141210041"
+                  ]
+                }
+              ],
+              "id": [
+                {
+                  "id": "10.13039/100000006",
+                  "id-type": "DOI",
+                  "asserted-by": "publisher"
+                }
+              ]
+            },
+            {
+              "DOI": "10.13039/100000006",
+              "name": "Office of Naval Research",
+              "doi-asserted-by": "publisher",
+              "award": [
+                "N000141310129"
+              ],
+              "award-info": [
+                {
+                  "award-number": [
+                    "N000141310129"
+                  ]
+                }
+              ],
+              "id": [
+                {
+                  "id": "10.13039/100000006",
+                  "id-type": "DOI",
+                  "asserted-by": "publisher"
+                }
+              ]
+            },
+            {
+              "DOI": "10.13039/100000936",
+              "name": "Gordon and Betty Moore Foundation",
+              "doi-asserted-by": "publisher",
+              "id": [
+                {
+                  "id": "10.13039/100000936",
+                  "id-type": "DOI",
+                  "asserted-by": "publisher"
+                }
+              ]
+            }
+          ],
+          "content-domain": {
+            "domain": [
+              "link.springer.com"
+            ],
+            "crossmark-restriction": false
+          },
+          "short-container-title": [
+            "The VLDB Journal"
+          ],
+          "published-print": {
+            "date-parts": [
+              [
+                2020,
+                5
+              ]
+            ]
+          },
+          "DOI": "10.1007/s00778-019-00552-1",
+          "type": "journal-article",
+          "created": {
+            "date-parts": [
+              [
+                2019,
+                7,
+                15
+              ]
+            ],
+            "date-time": "2019-07-15T15:03:24Z",
+            "timestamp": 1563203004000
+          },
+          "page": "709-730",
+          "update-policy": "https://doi.org/10.1007/springer_crossmark_policy",
+          "source": "Crossref",
+          "is-referenced-by-count": 186,
+          "title": [
+            "Snorkel: rapid training data creation with weak supervision"
+          ],
+          "prefix": "10.1007",
+          "volume": "29",
+          "author": [
+            {
+              "given": "Alexander",
+              "family": "Ratner",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Stephen H.",
+              "family": "Bach",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Henry",
+              "family": "Ehrenberg",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Jason",
+              "family": "Fries",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Sen",
+              "family": "Wu",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Christopher",
+              "family": "Ré",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            }
+          ],
+          "member": "297",
+          "published-online": {
+            "date-parts": [
+              [
+                2019,
+                7,
+                15
+              ]
+            ]
+          },
+          "reference": [
+            {
+              "key": "552_CR1",
+              "unstructured": "Abadi, M., Barham, P., Chen, J., Chen, Z., Davis, A., Dean, J., Devin, M., Ghemawat, S., Irving, G., Isard, M., et al.: TensorFlow: A system for large-scale machine learning. In: USENIX Symposium on Operating Systems Design and Implementation (OSDI) (2016)"
+            },
+            {
+              "key": "552_CR2",
+              "doi-asserted-by": "publisher",
+              "first-page": "373",
+              "DOI": "10.1109/TIT.1970.1054472",
+              "volume": "16",
+              "author": "AK Agrawala",
+              "year": "1970",
+              "unstructured": "Agrawala, A.K.: Learning with a probabilistic teacher. IEEE Trans. Infom. Theory 16, 373–379 (1970)",
+              "journal-title": "IEEE Trans. Infom. Theory"
+            },
+            {
+              "key": "552_CR3",
+              "unstructured": "Alfonseca, E., Filippova, K., Delort, J.-Y., Garrido, G.: Pattern learning for relation extraction with a hierarchical topic model. In: Meeting of the Association for Computational Linguistics (ACL) (2012)"
+            },
+            {
+              "key": "552_CR4",
+              "unstructured": "Bach, S., Rodriguez, D., Liu, Y., Luo, C., Shao, H., Xia, C., Sen, S., Ratner, A., Hancock, B., Alborzi, H., Kuchhal, R., Ré C, Snorkel, Malkin, R.: drybell: A case study in deploying weak supervision at industrial scale. Arxiv (2019)"
+            },
+            {
+              "key": "552_CR5",
+              "unstructured": "Bach, S.H., He, B., Ratner, A., Ré, C.: Learning the structure of generative models without labeled data. In: International Conference on Machine Learning (ICML) (2017)"
+            },
+            {
+              "key": "552_CR6",
+              "doi-asserted-by": "crossref",
+              "unstructured": "Blum, A., Mitchell, T.: Combining labeled and unlabeled data with co-training. In: Workshop on Computational Learning Theory (COLT) (1998)",
+              "DOI": "10.1145/279943.279962"
+            },
+            {
+              "key": "552_CR7",
+              "unstructured": "Bunescu, R.C., Mooney, R.J.: Learning to extract relations from the Web using minimal supervision. In: Meeting of the Association for Computational Linguistics (ACL) (2007)"
+            },
+            {
+              "issue": "D1",
+              "key": "552_CR8",
+              "doi-asserted-by": "publisher",
+              "first-page": "D471",
+              "DOI": "10.1093/nar/gkv1164",
+              "volume": "44",
+              "author": "R Caspi",
+              "year": "2016",
+              "unstructured": "Caspi, R., Billington, R., Ferrer, L., Foerster, H., Fulcher, C.A., Keseler, I.M., Kothari, A., Krummenacker, M., Latendresse, M., Mueller, L.A., Ong, Q., Paley, S., Subhraveti, P., Weaver, D.S., Karp, P.D.: The MetaCyc database of metabolic pathways and enzymes and the BioCyc collection of pathway/genome databases. Nucleic Acids Res. 44(D1), D471–D480 (2016)",
+              "journal-title": "Nucleic Acids Res."
+            },
+            {
+              "key": "552_CR9",
+              "unstructured": "Chapelle, O., Schölkopf, B., Zien, A. (eds.): Semi-Supervised Learning. Adaptive Computation and Machine Learning, MIT Press (2009)"
+            },
+            {
+              "key": "552_CR10",
+              "unstructured": "Corney, D., Albakour, D., Martinez, M., Moussa, S.: What do a million news articles look like? In: Workshop on Recent Trends in News Information Retrieval (2016)"
+            },
+            {
+              "key": "552_CR11",
+              "doi-asserted-by": "crossref",
+              "unstructured": "Dalvi, N., Dasgupta, A., Kumar, R., Rastogi, V.: Aggregating crowdsourced binary ratings. In: International World Wide Web Conference (WWW) (2013)",
+              "DOI": "10.1145/2488388.2488414"
+            },
+            {
+              "key": "552_CR12",
+              "doi-asserted-by": "crossref",
+              "unstructured": "Davis, P.A. et al.: A CTD–Pfizer collaboration: Manual curation of 88,000 scientific articles text mined for drug–disease and drug–phenotype interactions. em Database (2013)",
+              "DOI": "10.1093/database/bat080"
+            },
+            {
+              "issue": "1",
+              "key": "552_CR13",
+              "first-page": "20",
+              "volume": "28",
+              "author": "AP Dawid",
+              "year": "1979",
+              "unstructured": "Dawid, A.P., Skene, A.M.: Maximum likelihood estimation of observer error-rates using the EM algorithm. J. R. Stat. Soc. C 28(1), 20–28 (1979)",
+              "journal-title": "J. R. Stat. Soc. C"
+            },
+            {
+              "key": "552_CR14",
+              "doi-asserted-by": "crossref",
+              "unstructured": "Deng, J., Dong, W., Socher, R., Li, L.-J., Li, K., Fei-Fei, L.: Imagenet: A large-scale hierarchical image database. In: IEEE Conference on Computer Vision and Pattern Recognition (CVPR) (2009)",
+              "DOI": "10.1109/CVPR.2009.5206848"
+            },
+            {
+              "key": "552_CR15",
+              "doi-asserted-by": "crossref",
+              "unstructured": "Dong, X.L., Srivastava, D.: Big Data Integration. Synthesis Lectures on Data Management. Morgan and Claypool Publishers (2015)",
+              "DOI": "10.2200/S00578ED1V01Y201404DTM040"
+            },
+            {
+              "key": "552_CR16",
+              "unstructured": "Eadicicco, L.: (2017) Baidu’s Andrew Ng on the future of artificial intelligence. Time [Online; posted 11-January-2017]"
+            },
+            {
+              "key": "552_CR17",
+              "doi-asserted-by": "crossref",
+              "unstructured": "Fries, J.A., Varma, P., Chen, V.S., Xiao, K., Tejeda, H., Saha, P., Dunnmon, J., Chubb, H., Maskatia, S., Fiterau, M., Delp, S., Ashley, E., Ré, C., Priest, J.: Weakly supervised classification of rare aortic valve malformations using unlabeled cardiac mri sequences. bioRxiv (2018)",
+              "DOI": "10.1101/339630"
+            },
+            {
+              "issue": "5",
+              "key": "552_CR18",
+              "doi-asserted-by": "publisher",
+              "first-page": "602",
+              "DOI": "10.1016/j.neunet.2005.06.042",
+              "volume": "18",
+              "author": "A Graves",
+              "year": "2005",
+              "unstructured": "Graves, A., Schmidhuber, J.: Framewise phoneme classification with bidirectional LSTM and other neural network architectures. Neural Netw. 18(5), 602–610 (2005)",
+              "journal-title": "Neural Netw."
+            },
+            {
+              "key": "552_CR19",
+              "doi-asserted-by": "crossref",
+              "unstructured": "Gupta, S., Manning, C.D.: Improved pattern learning for bootstrapped entity extraction. In: CoNLL (2014)",
+              "DOI": "10.3115/v1/W14-1611"
+            },
+            {
+              "key": "552_CR20",
+              "doi-asserted-by": "crossref",
+              "unstructured": "Hancock, B., Varma, P., Wang, S., Bringmann, M., Liang, P., Ré, C.: Training classifiers with natural language explanations (2018)",
+              "DOI": "10.18653/v1/P18-1175"
+            },
+            {
+              "key": "552_CR21",
+              "doi-asserted-by": "crossref",
+              "unstructured": "He, K., Zhang, X., Ren, S., Sun, J.: Deep residual learning for image recognition. CoRR, arXiv:1512.03385 (2015)",
+              "DOI": "10.1109/CVPR.2016.90"
+            },
+            {
+              "key": "552_CR22",
+              "doi-asserted-by": "crossref",
+              "unstructured": "Hearst, A.M.: Automatic acquisition of hyponyms from large text corpora. In: Meeting of the Association for Computational Linguistics (ACL) (1992)",
+              "DOI": "10.3115/992133.992154"
+            },
+            {
+              "issue": "8",
+              "key": "552_CR23",
+              "doi-asserted-by": "publisher",
+              "first-page": "1771",
+              "DOI": "10.1162/089976602760128018",
+              "volume": "14",
+              "author": "GE Hinton",
+              "year": "2002",
+              "unstructured": "Hinton, G.E.: Training products of experts by minimizing contrastive divergence. Neural Comput. 14(8), 1771–1800 (2002)",
+              "journal-title": "Neural Comput."
+            },
+            {
+              "key": "552_CR24",
+              "unstructured": "Hoffmann, R., Zhang, C., Ling, X., Zettlemoyer, L., Weld, D.S.: Knowledge-based weak supervision for information extraction of overlapping relations. In: Meeting of the Association for Computational Linguistics (ACL) (2011)"
+            },
+            {
+              "key": "552_CR25",
+              "doi-asserted-by": "crossref",
+              "unstructured": "Joglekar, M., Garcia-Molina, H., Parameswaran, A.: Comprehensive and reliable crowd assessment algorithms. In: International Conference on Data Engineering (ICDE) (2015)",
+              "DOI": "10.1109/ICDE.2015.7113284"
+            },
+            {
+              "key": "552_CR26",
+              "unstructured": "Khandwala, N., Ratner, A., Dunnmon, J., Goldman, R., Lungren, M., Rubin, D., Ré, C.: Cross-modal data programming for medical images. NIPS ML4H Workshop (2017)"
+            },
+            {
+              "key": "552_CR27",
+              "unstructured": "Kingma, D., Ba, J.: Adam: A method for stochastic optimization (2014) arXiv preprint arXiv:1412.6980"
+            },
+            {
+              "issue": "6",
+              "key": "552_CR28",
+              "doi-asserted-by": "crossref",
+              "first-page": "1120",
+              "DOI": "10.1093/jamia/ocv071",
+              "volume": "22",
+              "author": "JP Ku",
+              "year": "2015",
+              "unstructured": "Ku, J.P., Hicks, J.L., Hastie, T., Leskovec, J., Ré, C., Delp, S.L.: The Mobilize center: an NIH big data to knowledge center to advance human movement research and improve mobility. J. Am. Med. Inf. Assoc. 22(6), 1120–1125 (2015)",
+              "journal-title": "J. Am. Med. Inf. Assoc."
+            },
+            {
+              "key": "552_CR29",
+              "unstructured": "Kuleshov, V., Hancock, B., Ratner, A., Ré C, Batzaglou, S., Snyder, M.: A machine-compiled database of genome-wide association studies. NIPS ML4H Workshop (2016)"
+            },
+            {
+              "key": "552_CR30",
+              "doi-asserted-by": "crossref",
+              "unstructured": "Lehmann, J., Isele, R., Jakob, M., Jentzsch, A., Kontokostas, D., Mendes, P., Hellmann, S., Morsey, M., van Kleef, P., Auer, S., Bizer, C.: DBpedia–A large-scale, multilingual knowledge base extracted from Wikipedia. Semantic Web Journal (2014)",
+              "DOI": "10.3233/SW-140134"
+            },
+            {
+              "key": "552_CR31",
+              "unstructured": "Li, H., Yu, B., Zhou, D.: Error rate analysis of labeling by crowdsourcing. In: ICML Workshop: Machine Learning Meets Crowdsourcing. Atalanta, Georgia, USA (2013)"
+            },
+            {
+              "issue": "2",
+              "key": "552_CR32",
+              "doi-asserted-by": "publisher",
+              "first-page": "1",
+              "DOI": "10.1145/2897350.2897352",
+              "volume": "17",
+              "author": "Y Li",
+              "year": "2015",
+              "unstructured": "Li, Y., Gao, J., Meng, C., Li, Q., Su, L., Zhao, B., Fan, W., Han, J.: A survey on truth discovery. SIGKDD Explor. Newsl. 17(2), 1–6 (2015)",
+              "journal-title": "SIGKDD Explor. Newsl."
+            },
+            {
+              "key": "552_CR33",
+              "doi-asserted-by": "crossref",
+              "unstructured": "Liang, P., Jordan, M.I., Klein, D.: Learning from measurements in exponential families. In: International Conference on Machine Learning (ICML) (2009)",
+              "DOI": "10.1145/1553374.1553457"
+            },
+            {
+              "key": "552_CR34",
+              "first-page": "955",
+              "volume": "11",
+              "author": "GS Mann",
+              "year": "2010",
+              "unstructured": "Mann, G.S., McCallum, A.: Generalized expectation criteria for semi-supervised learning with weakly labeled data. J. Mach. Learn. Res. 11, 955–984 (2010)",
+              "journal-title": "J. Mach. Learn. Res."
+            },
+            {
+              "key": "552_CR35",
+              "unstructured": "Metz, C.: Google’s hand-fed AI now gives answers, not just search results. Wired [Online; posted 29-November-2016] (2016)"
+            },
+            {
+              "key": "552_CR36",
+              "doi-asserted-by": "crossref",
+              "unstructured": "Mintz, M., Bills, S., Snow, R., Jurafsky, D.: Distant supervision for relation extraction without labeled data. In: Meeting of the Association for Computational Linguistics (ACL) (2009)",
+              "DOI": "10.3115/1690219.1690287"
+            },
+            {
+              "key": "552_CR37",
+              "doi-asserted-by": "publisher",
+              "first-page": "D972",
+              "DOI": "10.1093/nar/gkw838",
+              "volume": "45",
+              "author": "AP Davis",
+              "year": "2016",
+              "unstructured": "Davis, A.P., Grondin, C.J., Johnson, R.J., Sciaky, D., King, B.L., McMorran, R., Wiegers, J., Wiegers, T., Mattingly, C.J.: The comparative toxicogenomics database: update 2017. Nucleic Acids Res. 45, D972–D978 (2016)",
+              "journal-title": "Nucleic Acids Res."
+            },
+            {
+              "issue": "10",
+              "key": "552_CR38",
+              "doi-asserted-by": "publisher",
+              "first-page": "1345",
+              "DOI": "10.1109/TKDE.2009.191",
+              "volume": "22",
+              "author": "SJ Pan",
+              "year": "2010",
+              "unstructured": "Pan, S.J., Yang, Q.: A survey on transfer learning. IEEE Trans. Knowl. Data Eng. 22(10), 1345–1359 (2010)",
+              "journal-title": "IEEE Trans. Knowl. Data Eng."
+            },
+            {
+              "issue": "4",
+              "key": "552_CR39",
+              "doi-asserted-by": "publisher",
+              "first-page": "1253",
+              "DOI": "10.1073/pnas.1219097111",
+              "volume": "111",
+              "author": "F Parisi",
+              "year": "2014",
+              "unstructured": "Parisi, F., Strino, F., Nadler, B., Kluger, Y.: Ranking and combining multiple predictors without labeled data. Proc. Natl. Acad. Sci. USA 111(4), 1253–1258 (2014)",
+              "journal-title": "Proc. Natl. Acad. Sci. USA"
+            },
+            {
+              "key": "552_CR40",
+              "doi-asserted-by": "crossref",
+              "unstructured": "Pochampally, R., Das Sarma, A., Dong, X.L., Meliou, A., Srivastava, D.: Fusing data with correlations. In: ACM SIGMOD International Conference on Management of Data (SIGMOD) (2014)",
+              "DOI": "10.1145/2588555.2593674"
+            },
+            {
+              "key": "552_CR41",
+              "doi-asserted-by": "crossref",
+              "unstructured": "Quinn, A.J., Bederson, B.B.: Human computation: A survey and taxonomy of a growing field. In: ACM SIGCHI Conference on Human Factors in Computing Systems (CHI) (2011)",
+              "DOI": "10.1145/1978942.1979148"
+            },
+            {
+              "key": "552_CR42",
+              "unstructured": "Ratner, A., Bach, S.H., Ehrenberg, H.R., Fries, J.A., Wu, S., Ré, C.: Snorkel: Rapid training data creation with weak supervision (2017) CoRR, arXiv:1711.10160"
+            },
+            {
+              "key": "552_CR43",
+              "unstructured": "Ratner, A., De Sa, C., Wu, S., Selsam, D., Ré, C.: Data programming: Creating large training sets, quickly. In: Neural Information Processing Systems (NIPS) (2016)"
+            },
+            {
+              "key": "552_CR44",
+              "doi-asserted-by": "crossref",
+              "unstructured": "Ratner, A., Hancock, B., Dunnmon, J., Goldman, R., Ré, C.: Snorkel metal: Weak supervision for multi-task learning. In: Proceedings of the Second Workshop on Data Management for End-To-End Machine Learning, page 3. ACM (2018)",
+              "DOI": "10.1145/3209889.3209898"
+            },
+            {
+              "key": "552_CR45",
+              "doi-asserted-by": "crossref",
+              "unstructured": "Ratner, A., Hancock, B., Dunnmon, J., Sala, F., Pandey, S., Ré, C.: Training complex models with multi-task weak supervision. AAAI (2019)",
+              "DOI": "10.1609/aaai.v33i01.33014763"
+            },
+            {
+              "key": "552_CR46",
+              "unstructured": "Ratner, A., Hancock, B., Ré, C.: The role of massively multi-task and weak supervision in software 2.0. In: Conference on Innovative Data Systems Research (2019)"
+            },
+            {
+              "issue": "11",
+              "key": "552_CR47",
+              "first-page": "1190",
+              "volume": "10",
+              "author": "T Rekatsinas",
+              "year": "2017",
+              "unstructured": "Rekatsinas, T., Chu, X., Ilyas, I.F., Ré, C.: HoloClean: Holistic data repairs with probabilistic inference. PVLDB 10(11), 1190–1201 (2017)",
+              "journal-title": "PVLDB"
+            },
+            {
+              "key": "552_CR48",
+              "doi-asserted-by": "crossref",
+              "unstructured": "Rekatsinas, T., Joglekar, M., Garcia-Molina, H., Parameswaran, A., Ré, C.: SLiMFast: Guaranteed results for data fusion and source reliability. In: ACM SIGMOD International Conference on Management of Data (SIGMOD) (2017)",
+              "DOI": "10.1145/3035918.3035951"
+            },
+            {
+              "key": "552_CR49",
+              "doi-asserted-by": "publisher",
+              "first-page": "148",
+              "DOI": "10.1007/978-3-642-15939-8_10",
+              "volume-title": "Machine Learning and Knowledge Discovery in Databases",
+              "author": "Sebastian Riedel",
+              "year": "2010",
+              "unstructured": "Riedel, S., Yao, L., McCallum, A.: Modeling relations and their mentions without labeled text. In: European Conference on Machine Learning and Knowledge Discovery in Databases (ECML PKDD) (2010)"
+            },
+            {
+              "key": "552_CR50",
+              "unstructured": "Roth, B., Klakow, D.: Combining generative and discriminative model scores for distant supervision. In: Conference on Empirical Methods on Natural Language Processing (EMNLP) (2013)"
+            },
+            {
+              "key": "552_CR51",
+              "doi-asserted-by": "crossref",
+              "unstructured": "Satopaa, V., Albrecht, J., Irwin, D., Raghavan, B.: Finding a “kneedle” in a haystack: Detecting knee points in system behavior. In: International Conference on Distributed Computing Systems Workshops (2011)",
+              "DOI": "10.1109/ICDCSW.2011.20"
+            },
+            {
+              "key": "552_CR52",
+              "doi-asserted-by": "publisher",
+              "first-page": "363",
+              "DOI": "10.1109/TIT.1965.1053799",
+              "volume": "11",
+              "author": "HJ Scudder",
+              "year": "1965",
+              "unstructured": "Scudder, H.J.: Probability of error of some adaptive pattern-recognition machines. IEEE Trans. Infom. Theory 11, 363–371 (1965)",
+              "journal-title": "IEEE Trans. Infom. Theory"
+            },
+            {
+              "key": "552_CR53",
+              "unstructured": "Settles, B.: Active learning literature survey. Technical report, University of Wisconsin-Madison Department of Computer Sciences (2009)"
+            },
+            {
+              "key": "552_CR54",
+              "doi-asserted-by": "crossref",
+              "unstructured": "Settles, B.: Active Learning. Synthesis Lectures on Artificial Intelligence and Machine Learning. Morgan and Claypool Publishers (2012)",
+              "DOI": "10.2200/S00429ED1V01Y201207AIM018"
+            },
+            {
+              "key": "552_CR55",
+              "doi-asserted-by": "crossref",
+              "unstructured": "Stewart, R., Ermon, S.: Label-free supervision of neural networks with physics and other domain knowledge. In: AAAI Conference on Artificial Intelligence (AAAI) (2017)",
+              "DOI": "10.1609/aaai.v31i1.10934"
+            },
+            {
+              "key": "552_CR56",
+              "unstructured": "Sun, C., Shrivastava, A., Singh, S., Gupta, A.: Revisiting unreasonable effectiveness of data in deep learning era (2017) arXiv preprint arXiv:1707.02968"
+            },
+            {
+              "key": "552_CR57",
+              "unstructured": "Takamatsu, S., Sato, I., Nakagawa, H.: Reducing wrong labels in distant supervision for relation extraction. In: Meeting of the Association for Computational Linguistics (ACL) (2012)"
+            },
+            {
+              "key": "552_CR58",
+              "unstructured": "Varma, P., He, B., Bajaj, P., Khandwala, N., Banerjee, I., Rubin, D., Ré, C.: Inferring generative model structure with static analysis. In: Proceedings of NIPS (2017)"
+            },
+            {
+              "key": "552_CR59",
+              "doi-asserted-by": "crossref",
+              "unstructured": "Varma, P., Ré, C.: Snuba: Automating weak supervision to label training data. In: Proceedings of VLDB (2019)",
+              "DOI": "10.14778/3291264.3291268"
+            },
+            {
+              "key": "552_CR60",
+              "unstructured": "Wei, C.-H., Peng, Y., Leaman, R., P, D.A., Mattingly, C.J., Li, J., Wiegers, T., Lu, Z.: Overview of the BioCreative V chemical disease relation (CDR) task. In: BioCreative Challenge Evaluation Workshop (2015)"
+            },
+            {
+              "key": "552_CR61",
+              "unstructured": "Worldwide semiannual cognitive/artificial intelligence systems spending guide. Technical report, International Data Corporation (2017)"
+            },
+            {
+              "key": "552_CR62",
+              "doi-asserted-by": "crossref",
+              "unstructured": "Wu, S., Hsiao, L., Cheng, X., Hancock, B., Rekatsinas, T., Levis, P., Ré, C.: Fonduer: Knowledge base construction from richly formatted data. In: Proceedings of the 2018 International Conference on Management of Data, pp. 1301–1316. ACM (2018)",
+              "DOI": "10.1145/3183713.3183729"
+            },
+            {
+              "key": "552_CR63",
+              "doi-asserted-by": "crossref",
+              "unstructured": "Yuen, M.-C., King, I., Leung, K.-S.: A survey of crowdsourcing systems. In: Privacy, Security, Risk and Trust (PASSAT) and International Conference on Social Computing (SocialCom) (2011)",
+              "DOI": "10.1109/PASSAT/SocialCom.2011.203"
+            },
+            {
+              "key": "552_CR64",
+              "doi-asserted-by": "crossref",
+              "unstructured": "Zaidan, O.F., Eisner, J.: Modeling annotators: A generative approach to learning from annotator rationales. In: Conference on Empirical Methods in Natural Language Processing (EMNLP) (2008)",
+              "DOI": "10.3115/1613715.1613721"
+            },
+            {
+              "issue": "5",
+              "key": "552_CR65",
+              "doi-asserted-by": "publisher",
+              "first-page": "93",
+              "DOI": "10.1145/3060586",
+              "volume": "60",
+              "author": "C Zhang",
+              "year": "2017",
+              "unstructured": "Zhang, C., Ré, C., Cafarella, M., De Sa, C., Ratner, A., Shin, J., Wang, F., Wu, S.: DeepDive: Declarative knowledge base construction. Commun. ACM 60(5), 93–102 (2017)",
+              "journal-title": "Commun. ACM"
+            },
+            {
+              "key": "552_CR66",
+              "first-page": "1",
+              "volume": "17",
+              "author": "Y Zhang",
+              "year": "2016",
+              "unstructured": "Zhang, Y., Chen, X., Zhou, D., Jordan, M.I.: Spectral methods meet EM: a provably optimal algorithm for crowdsourcing. J. Mach. Learn. Res. 17, 1–44 (2016)",
+              "journal-title": "J. Mach. Learn. Res."
+            },
+            {
+              "issue": "6",
+              "key": "552_CR67",
+              "first-page": "550",
+              "volume": "5",
+              "author": "B Zhao",
+              "year": "2012",
+              "unstructured": "Zhao, B., Rubinstein, B.I., Gemmell, J., Han, J.: A Bayesian approach to discovering truth from conflicting sources for data integration. PVLDB 5(6), 550–561 (2012)",
+              "journal-title": "PVLDB"
+            }
+          ],
+          "container-title": [
+            "The VLDB Journal"
+          ],
+          "language": "en",
+          "link": [
+            {
+              "URL": "http://link.springer.com/content/pdf/10.1007/s00778-019-00552-1.pdf",
+              "content-type": "application/pdf",
+              "content-version": "vor",
+              "intended-application": "text-mining"
+            },
+            {
+              "URL": "http://link.springer.com/article/10.1007/s00778-019-00552-1/fulltext.html",
+              "content-type": "text/html",
+              "content-version": "vor",
+              "intended-application": "text-mining"
+            },
+            {
+              "URL": "http://link.springer.com/content/pdf/10.1007/s00778-019-00552-1.pdf",
+              "content-type": "application/pdf",
+              "content-version": "vor",
+              "intended-application": "similarity-checking"
+            }
+          ],
+          "deposited": {
+            "date-parts": [
+              [
+                2022,
+                9,
+                23
+              ]
+            ],
+            "date-time": "2022-09-23T18:59:58Z",
+            "timestamp": 1663959598000
+          },
+          "score": 48.245865,
+          "resource": {
+            "primary": {
+              "URL": "http://link.springer.com/10.1007/s00778-019-00552-1"
+            }
+          },
+          "issued": {
+            "date-parts": [
+              [
+                2019,
+                7,
+                15
+              ]
+            ]
+          },
+          "references-count": 67,
+          "journal-issue": {
+            "issue": "2-3",
+            "published-print": {
+              "date-parts": [
+                [
+                  2020,
+                  5
+                ]
+              ]
+            }
+          },
+          "alternative-id": [
+            "552"
+          ],
+          "URL": "https://doi.org/10.1007/s00778-019-00552-1",
+          "ISSN": [
+            "1066-8888",
+            "0949-877X"
+          ],
+          "issn-type": [
+            {
+              "value": "1066-8888",
+              "type": "print"
+            },
+            {
+              "value": "0949-877X",
+              "type": "electronic"
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2019,
+                7,
+                15
+              ]
+            ]
+          },
+          "assertion": [
+            {
+              "value": "16 December 2018",
+              "order": 1,
+              "name": "received",
+              "label": "Received",
+              "group": {
+                "name": "ArticleHistory",
+                "label": "Article History"
+              }
+            },
+            {
+              "value": "15 May 2019",
+              "order": 2,
+              "name": "revised",
+              "label": "Revised",
+              "group": {
+                "name": "ArticleHistory",
+                "label": "Article History"
+              }
+            },
+            {
+              "value": "25 June 2019",
+              "order": 3,
+              "name": "accepted",
+              "label": "Accepted",
+              "group": {
+                "name": "ArticleHistory",
+                "label": "Article History"
+              }
+            },
+            {
+              "value": "15 July 2019",
+              "order": 4,
+              "name": "first_online",
+              "label": "First Online",
+              "group": {
+                "name": "ArticleHistory",
+                "label": "Article History"
+              }
+            }
+          ]
+        },
+        {
+          "indexed": {
+            "date-parts": [
+              [
+                2026,
+                2,
+                5
+              ]
+            ],
+            "date-time": "2026-02-05T10:46:57Z",
+            "timestamp": 1770288417478,
+            "version": "3.49.0"
+          },
+          "reference-count": 0,
+          "publisher": "SCITEPRESS - Science and Technology Publications",
+          "content-domain": {
+            "domain": [],
+            "crossmark-restriction": false
+          },
+          "published-print": {
+            "date-parts": [
+              [
+                2020
+              ]
+            ]
+          },
+          "DOI": "10.5220/0009165602490256",
+          "type": "proceedings-article",
+          "created": {
+            "date-parts": [
+              [
+                2020,
+                3,
+                13
+              ]
+            ],
+            "date-time": "2020-03-13T10:20:14Z",
+            "timestamp": 1584094814000
+          },
+          "page": "249-256",
+          "source": "Crossref",
+          "is-referenced-by-count": 2,
+          "title": [
+            "A Weak-supervision Method for Automating Training Set Creation in Multi-domain Aspect Sentiment Classification"
+          ],
+          "prefix": "10.5220",
+          "author": [
+            {
+              "given": "Massimo",
+              "family": "Ruffolo",
+              "sequence": "first",
+              "affiliation": [
+                {
+                  "name": "High Performance Computing and Networking Institute of the National Research Council (ICAR-CNR), Via Pietro Bucci 8/9C, Rende (CS), 87036, Italy, Altilia.ai, Technest - University of Calabria, Piazza Vermicelli, Rende (CS), 87036, Italy, --- Select a Country ---"
+                }
+              ],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Francesco",
+              "family": "Visalli",
+              "sequence": "first",
+              "affiliation": [
+                {
+                  "name": "High Performance Computing and Networking Institute of the National Research Council (ICAR-CNR), Via Pietro Bucci 8/9C, Rende (CS), 87036, Italy, --- Select a Country ---"
+                }
+              ],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            }
+          ],
+          "member": "3171",
+          "event": {
+            "name": "12th International Conference on Agents and Artificial Intelligence",
+            "location": "Valletta, Malta",
+            "start": {
+              "date-parts": [
+                [
+                  2020,
+                  2,
+                  22
+                ]
+              ]
+            },
+            "end": {
+              "date-parts": [
+                [
+                  2020,
+                  2,
+                  24
+                ]
+              ]
+            }
+          },
+          "container-title": [
+            "Proceedings of the 12th International Conference on Agents and Artificial Intelligence"
+          ],
+          "original-title": [
+            "A Weak-supervision Method for Automating Training Set Creation in Multi-domain Aspect Sentiment Classification"
+          ],
+          "deposited": {
+            "date-parts": [
+              [
+                2020,
+                3,
+                18
+              ]
+            ],
+            "date-time": "2020-03-18T13:28:42Z",
+            "timestamp": 1584538122000
+          },
+          "score": 34.54746,
+          "resource": {
+            "primary": {
+              "URL": "http://www.scitepress.org/DigitalLibrary/Link.aspx?doi=10.5220/0009165602490256"
+            }
+          },
+          "subtitle": [
+            ""
+          ],
+          "issued": {
+            "date-parts": [
+              [
+                2020
+              ]
+            ]
+          },
+          "references-count": 0,
+          "URL": "https://doi.org/10.5220/0009165602490256",
+          "published": {
+            "date-parts": [
+              [
+                2020
+              ]
+            ]
+          }
+        }
+      ],
+      "items-per-page": 3,
+      "query": {
+        "start-index": 0,
+        "search-terms": null
+      }
+    }
+  }
+}

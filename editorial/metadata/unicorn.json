@@ -1,0 +1,664 @@
+{
+  "database": "Crossref",
+  "endpoint": "https://api.crossref.org/works/10.1145/3588938",
+  "retrieved": "2026-09-09",
+  "status_code": 200,
+  "response": {
+    "status": "ok",
+    "message-type": "work",
+    "message-version": "1.0.0",
+    "message": {
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            8,
+            18
+          ]
+        ],
+        "date-time": "2026-08-18T01:44:07Z",
+        "timestamp": 1787017447635,
+        "version": "build-2736575974"
+      },
+      "reference-count": 57,
+      "publisher": "Association for Computing Machinery (ACM)",
+      "issue": "1",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2023,
+                5,
+                26
+              ]
+            ],
+            "date-time": "2023-05-26T00:00:00Z",
+            "timestamp": 1685059200000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "https://www.acm.org/publications/policies/copyright_policy#Background"
+        }
+      ],
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "short-container-title": [
+        "Proc. ACM Manag. Data"
+      ],
+      "published-print": {
+        "date-parts": [
+          [
+            2023,
+            5,
+            26
+          ]
+        ]
+      },
+      "abstract": "<jats:p>Data matching - which decides whether two data elements (e.g., string, tuple, column, or knowledge graph entity) are the \"same\" (a.k.a. a match) - is a key concept in data integration, such as entity matching and schema matching. The widely used practice is to build task-specific or even dataset-specific solutions, which are hard to generalize and disable the opportunities of knowledge sharing that can be learned from different datasets and multiple tasks. In this paper, we propose Unicorn, a unified model for generally supporting common data matching tasks. Unicorn can enable knowledge sharing by learning from multiple tasks and multiple datasets, and can also support zero-shot prediction for new tasks with zero labeled matching/non-matching pairs. However, building such a unified model is challenging due to heterogeneous formats of input data elements and various matching semantics of multiple tasks. To address the challenges, Unicorn employs one generic Encoder that converts any pair of data elements (a, b) into a learned representation, and uses a Matcher, which is a binary classifier, to decide whether a matches b. To align matching semantics of multiple tasks, Unicorn adopts a mixture-of-experts model that enhances the learned representation into a better representation. We conduct extensive experiments using 20 datasets on seven well-studied data matching tasks, and find that our unified model can achieve better performance on most tasks and on average, compared with the state-of-the-art specific models trained for ad-hoc tasks and datasets separately. Moreover, Unicorn can also well serve new matching tasks with zero-shot learning.</jats:p>",
+      "DOI": "10.1145/3588938",
+      "type": "journal-article",
+      "created": {
+        "date-parts": [
+          [
+            2023,
+            5,
+            30
+          ]
+        ],
+        "date-time": "2023-05-30T13:42:05Z",
+        "timestamp": 1685454125000
+      },
+      "page": "1-26",
+      "source": "Crossref",
+      "is-referenced-by-count": 33,
+      "title": [
+        "Unicorn: A Unified Multi-tasking Model for Supporting Matching Tasks in Data Integration"
+      ],
+      "prefix": "10.1145",
+      "volume": "1",
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0009-0001-1554-1614",
+          "authenticated-orcid": false,
+          "given": "Jianhong",
+          "family": "Tu",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "Renmin University of China, Beijing, China"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0003-4729-9903",
+          "authenticated-orcid": false,
+          "given": "Ju",
+          "family": "Fan",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Renmin University of China, Beijing, China"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0003-2832-0295",
+          "authenticated-orcid": false,
+          "given": "Nan",
+          "family": "Tang",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "QCRI, Doha, Qatar"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0009-0009-7699-5490",
+          "authenticated-orcid": false,
+          "given": "Peng",
+          "family": "Wang",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Renmin University of China, Beijing, China"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-1398-0621",
+          "authenticated-orcid": false,
+          "given": "Guoliang",
+          "family": "Li",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Tsinghua University, Beijing, China"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-5757-9135",
+          "authenticated-orcid": false,
+          "given": "Xiaoyong",
+          "family": "Du",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Renmin University of China, Beijing, China"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0003-3159-2785",
+          "authenticated-orcid": false,
+          "given": "Xiaofeng",
+          "family": "Jia",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Beijing Big Data Centre, Beijing, China"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0003-3572-0326",
+          "authenticated-orcid": false,
+          "given": "Song",
+          "family": "Gao",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Beijing Big Data Centre, Beijing, China"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "320",
+      "published-online": {
+        "date-parts": [
+          [
+            2023,
+            5,
+            30
+          ]
+        ]
+      },
+      "reference": [
+        {
+          "key": "e_1_2_2_1_1",
+          "unstructured": "2020. HuggingFace Datasets. https://huggingface.co/datasets"
+        },
+        {
+          "key": "e_1_2_2_2_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/s41019-020-00146-w"
+        },
+        {
+          "key": "e_1_2_2_3_1",
+          "volume-title": "et al",
+          "author": "Brown Tom",
+          "year": "2020",
+          "unstructured": "Tom Brown, Benjamin Mann, Nick Ryder, Melanie Subbiah, Jared D Kaplan, Prafulla Dhariwal, Arvind Neelakantan, Pranav Shyam, Girish Sastry, Amanda Askell, et al . 2020. Language models are few-shot learners. Advances in neural information processing systems 33 (2020), 1877--1901."
+        },
+        {
+          "key": "e_1_2_2_4_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/3555041.3589406"
+        },
+        {
+          "key": "e_1_2_2_5_1",
+          "volume-title": "Learning semantic annotations for tabular data. arXiv preprint arXiv:1906.00781",
+          "author": "Chen Jiaoyan",
+          "year": "2019",
+          "unstructured": "Jiaoyan Chen, Ernesto Jiménez-Ruiz, Ian Horrocks, and Charles Sutton. 2019. Learning semantic annotations for tabular data. arXiv preprint arXiv:1906.00781 (2019)."
+        },
+        {
+          "key": "e_1_2_2_6_1",
+          "volume-title": "2023 Conference on Innovative Data Systems Research (CIDR).",
+          "author": "Chen Zui",
+          "year": "2023",
+          "unstructured": "Zui Chen, Zihui Gu, Lei Cao, Ju Fan, Samuel Madden, and Nan Tang. 2023. Symphony: Towards Natural Language Query Answering over Multi-modal Data Lakes. In 2023 Conference on Innovative Data Systems Research (CIDR)."
+        },
+        {
+          "key": "e_1_2_2_7_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/3418896"
+        },
+        {
+          "key": "e_1_2_2_8_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/3035918.3035960"
+        },
+        {
+          "key": "e_1_2_2_9_1",
+          "volume-title": "The Data Civilizer System. In 8th Biennial Conference on Innovative Data Systems Research, CIDR 2017, Chaminade, CA, USA, January 8--11, 2017, Online Proceedings.",
+          "author": "Deng Dong",
+          "year": "2017",
+          "unstructured": "Dong Deng, Raul Castro Fernandez, Ziawasch Abedjan, Sibo Wang, Michael Stonebraker, Ahmed K. Elmagarmid, Ihab F. Ilyas, Samuel Madden, Mourad Ouzzani, and Nan Tang. 2017. The Data Civilizer System. In 8th Biennial Conference on Innovative Data Systems Research, CIDR 2017, Chaminade, CA, USA, January 8--11, 2017, Online Proceedings."
+        },
+        {
+          "key": "e_1_2_2_10_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.14778/3430915.3430921"
+        },
+        {
+          "key": "e_1_2_2_11_1",
+          "volume-title": "Bert: Pre-training of deep bidirectional transformers for language understanding. arXiv preprint arXiv:1810.04805",
+          "author": "Devlin Jacob",
+          "year": "2018",
+          "unstructured": "Jacob Devlin, Ming-Wei Chang, Kenton Lee, and Kristina Toutanova. 2018. Bert: Pre-training of deep bidirectional transformers for language understanding. arXiv preprint arXiv:1810.04805 (2018)."
+        },
+        {
+          "key": "e_1_2_2_12_1",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Hong Hai Do and Erhard Rahm. 2002. COMA - A System for Flexible Combination of Schema Matching Approaches. In VLDB. Morgan Kaufmann 610--621.",
+          "DOI": "10.1016/B978-155860869-6/50060-3"
+        },
+        {
+          "key": "e_1_2_2_13_1",
+          "volume-title": "Principles of data integration",
+          "author": "Doan AnHai",
+          "unstructured": "AnHai Doan, Alon Halevy, and Zachary Ives. 2012. Principles of data integration. Elsevier."
+        },
+        {
+          "key": "e_1_2_2_14_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/3405476"
+        },
+        {
+          "key": "e_1_2_2_15_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/s00778-003-0104-2"
+        },
+        {
+          "key": "e_1_2_2_16_1",
+          "volume-title": "Halevy",
+          "author": "Doan AnHai",
+          "year": "2004",
+          "unstructured": "AnHai Doan, Jayant Madhavan, Pedro M. Domingos, and Alon Y. Halevy. 2004. Ontology Matching: A Machine Learning Approach. In Handbook on Ontologies. Springer, 385--404."
+        },
+        {
+          "key": "e_1_2_2_17_1",
+          "unstructured": "Alexey Dosovitskiy Lucas Beyer Alexander Kolesnikov Dirk Weissenborn Xiaohua Zhai Thomas Unterthiner Mostafa Dehghani Matthias Minderer Georg Heigold Sylvain Gelly Jakob Uszkoreit and Neil Houlsby. 2021. An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale. In ICLR."
+        },
+        {
+          "key": "e_1_2_2_18_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.2105/AJPH.36.12.1412"
+        },
+        {
+          "key": "e_1_2_2_19_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.14778/3236187.3236198"
+        },
+        {
+          "key": "e_1_2_2_20_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/978-3-319-68288-4_16"
+        },
+        {
+          "key": "e_1_2_2_21_1",
+          "unstructured": "William Fedus Barret Zoph and Noam Shazeer. 2022. Switch transformers: Scaling to trillion parameter models with simple and efficient sparsity. 5232--5270 pages."
+        },
+        {
+          "key": "e_1_2_2_22_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/3589292"
+        },
+        {
+          "key": "e_1_2_2_23_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.18653/v1/2022.emnlp-main.331"
+        },
+        {
+          "key": "e_1_2_2_24_1",
+          "volume-title": "Deberta: Decoding-enhanced bert with disentangled attention. arXiv preprint arXiv:2006.03654",
+          "author": "He Pengcheng",
+          "year": "2020",
+          "unstructured": "Pengcheng He, Xiaodong Liu, Jianfeng Gao, and Weizhu Chen. 2020. Deberta: Decoding-enhanced bert with disentangled attention. arXiv preprint arXiv:2006.03654 (2020)."
+        },
+        {
+          "key": "e_1_2_2_25_1",
+          "volume-title": "Adaptive mixtures of local experts. Neural computation 3, 1",
+          "author": "Jacobs Robert A",
+          "year": "1991",
+          "unstructured": "Robert A Jacobs, Michael I Jordan, Steven J Nowlan, and Geoffrey E Hinton. 1991. Adaptive mixtures of local experts. Neural computation 3, 1 (1991), 79--87."
+        },
+        {
+          "key": "e_1_2_2_26_1",
+          "volume-title": "Semi-supervised classification with graph convolutional networks. arXiv preprint arXiv:1609.02907",
+          "author": "Kipf Thomas N",
+          "year": "2016",
+          "unstructured": "Thomas N Kipf and Max Welling. 2016. Semi-supervised classification with graph convolutional networks. arXiv preprint arXiv:1609.02907 (2016)."
+        },
+        {
+          "key": "e_1_2_2_27_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/ICDE51399.2021.00047"
+        },
+        {
+          "key": "e_1_2_2_28_1",
+          "volume-title": "Gshard: Scaling giant models with conditional computation and automatic sharding. arXiv preprint arXiv:2006.16668",
+          "author": "Lepikhin Dmitry",
+          "year": "2020",
+          "unstructured": "Dmitry Lepikhin, HyoukJoong Lee, Yuanzhong Xu, Dehao Chen, Orhan Firat, Yanping Huang, Maxim Krikun, Noam Shazeer, and Zhifeng Chen. 2020. Gshard: Scaling giant models with conditional computation and automatic sharding. arXiv preprint arXiv:2006.16668 (2020)."
+        },
+        {
+          "key": "e_1_2_2_29_1",
+          "volume-title": "The power of scale for parameter-efficient prompt tuning. arXiv preprint arXiv:2104.08691",
+          "author": "Lester Brian",
+          "year": "2021",
+          "unstructured": "Brian Lester, Rami Al-Rfou, and Noah Constant. 2021. The power of scale for parameter-efficient prompt tuning. arXiv preprint arXiv:2104.08691 (2021)."
+        },
+        {
+          "key": "e_1_2_2_30_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.14778/3421424.3421431"
+        },
+        {
+          "key": "e_1_2_2_31_1",
+          "volume-title": "prompt, and predict: A systematic survey of prompting methods in natural language processing. arXiv preprint arXiv:2107.13586",
+          "author": "Liu Pengfei",
+          "year": "2021",
+          "unstructured": "Pengfei Liu, Weizhe Yuan, Jinlan Fu, Zhengbao Jiang, Hiroaki Hayashi, and Graham Neubig. 2021. Pre-train, prompt, and predict: A systematic survey of prompting methods in natural language processing. arXiv preprint arXiv:2107.13586 (2021)."
+        },
+        {
+          "key": "e_1_2_2_32_1",
+          "volume-title": "Roberta: A robustly optimized bert pretraining approach. arXiv preprint arXiv:1907.11692",
+          "author": "Liu Yinhan",
+          "year": "2019",
+          "unstructured": "Yinhan Liu, Myle Ott, Naman Goyal, Jingfei Du, Mandar Joshi, Danqi Chen, Omer Levy, Mike Lewis, Luke Zettlemoyer, and Veselin Stoyanov. 2019. Roberta: A robustly optimized bert pretraining approach. arXiv preprint arXiv:1907.11692 (2019)."
+        },
+        {
+          "key": "e_1_2_2_33_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/3219819.3220007"
+        },
+        {
+          "key": "e_1_2_2_34_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/3183713.3196926"
+        },
+        {
+          "key": "e_1_2_2_35_1",
+          "first-page": "133",
+          "article-title": "Web Data Commons-Extracting Structured Data from Two Large Web Corpora",
+          "volume": "937",
+          "author": "Mühleisen Hannes",
+          "year": "2012",
+          "unstructured": "Hannes Mühleisen and Christian Bizer. 2012. Web Data Commons-Extracting Structured Data from Two Large Web Corpora. LDOW 937, 133--145.",
+          "journal-title": "LDOW"
+        },
+        {
+          "key": "e_1_2_2_36_1",
+          "volume-title": "Can Foundation Models Wrangle Your Data? CoRR abs/2205.09911",
+          "author": "Narayan Avanika",
+          "year": "2022",
+          "unstructured": "Avanika Narayan, Ines Chami, Laurel J. Orr, and Christopher Ré. 2022. Can Foundation Models Wrangle Your Data? CoRR abs/2205.09911 (2022). arXiv:2205.09911"
+        },
+        {
+          "key": "e_1_2_2_37_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/375360.375365"
+        },
+        {
+          "key": "e_1_2_2_38_1",
+          "volume-title": "Pytorch: An imperative style, high performance deep learning library. Advances in neural information processing systems 32",
+          "author": "Paszke Adam",
+          "year": "2019",
+          "unstructured": "Adam Paszke, Sam Gross, Francisco Massa, Adam Lerer, James Bradbury, Gregory Chanan, Trevor Killeen, Zeming Lin, Natalia Gimelshein, Luca Antiga, et al. 2019. Pytorch: An imperative style, high performance deep learning library. Advances in neural information processing systems 32 (2019), 8026--8037."
+        },
+        {
+          "key": "e_1_2_2_39_1",
+          "volume-title": "Proceedings of the VLDB Endowment 12",
+          "author": "Paul Suganthan GC",
+          "year": "2019",
+          "unstructured": "GC Paul Suganthan, Adel Ardalan, AnHai Doan, and Aditya Akella. 2019. Smurf: Self-service string matching using random forests. Proceedings of the VLDB Endowment 12, 3 (2019)."
+        },
+        {
+          "key": "e_1_2_2_40_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/3394486.3403359"
+        },
+        {
+          "key": "e_1_2_2_41_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.5555/3455716.3455856"
+        },
+        {
+          "key": "e_1_2_2_42_1",
+          "unstructured": "Scott E. Reed Konrad Zolna Emilio Parisotto Sergio Gomez Colmenarejo Alexander Novikov Gabriel Barth-Maron Mai Gimenez Yury Sulsky Jackie Kay Jost Tobias Springenberg Tom Eccles Jake Bruce Ali Razavi Ashley Edwards Nicolas Heess Yutian Chen Raia Hadsell Oriol Vinyals Mahyar Bordbar and Nando de Freitas. 2022. A Generalist Agent. CoRR abs/2205.06175 (2022)."
+        },
+        {
+          "key": "e_1_2_2_43_1",
+          "volume-title": "a distilled version of BERT: smaller, faster, cheaper and lighter. arXiv preprint arXiv:1910.01108",
+          "author": "Sanh Victor",
+          "year": "2019",
+          "unstructured": "Victor Sanh, Lysandre Debut, Julien Chaumond, and Thomas Wolf. 2019. DistilBERT, a distilled version of BERT: smaller, faster, cheaper and lighter. arXiv preprint arXiv:1910.01108 (2019)."
+        },
+        {
+          "key": "e_1_2_2_44_1",
+          "volume-title": "Outrageously large neural networks: The sparsely-gated mixture-of-experts layer. arXiv preprint arXiv:1701.06538",
+          "author": "Shazeer Noam",
+          "year": "2017",
+          "unstructured": "Noam Shazeer, Azalia Mirhoseini, Krzysztof Maziarz, Andy Davis, Quoc Le, Geoffrey Hinton, and Jeff Dean. 2017. Outrageously large neural networks: The sparsely-gated mixture-of-experts layer. arXiv preprint arXiv:1701.06538 (2017)."
+        },
+        {
+          "key": "e_1_2_2_45_1",
+          "first-page": "16857",
+          "article-title": "Mpnet: Masked and permuted pre-training for language understanding",
+          "volume": "33",
+          "author": "Song Kaitao",
+          "year": "2020",
+          "unstructured": "Kaitao Song, Xu Tan, Tao Qin, Jianfeng Lu, and Tie-Yan Liu. 2020. Mpnet: Masked and permuted pre-training for language understanding. Advances in Neural Information Processing Systems 33 (2020), 16857--16867.",
+          "journal-title": "Advances in Neural Information Processing Systems"
+        },
+        {
+          "key": "e_1_2_2_46_1",
+          "volume-title": "Proceedings of the Twenty-Ninth International Conference on International Joint Conferences on Artificial Intelligence. 3174--3180",
+          "author": "Tang Xiaobin",
+          "year": "2021",
+          "unstructured": "Xiaobin Tang, Jing Zhang, Bo Chen, Yang Yang, Hong Chen, and Cuiping Li. 2021. BERT-INT: a BERT-based interaction model for knowledge graph alignment. In Proceedings of the Twenty-Ninth International Conference on International Joint Conferences on Artificial Intelligence. 3174--3180."
+        },
+        {
+          "key": "e_1_2_2_47_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.14778/3476249.3476294"
+        },
+        {
+          "key": "e_1_2_2_48_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/3514221.3517870"
+        },
+        {
+          "key": "e_1_2_2_49_1",
+          "unstructured": "Ashish Vaswani Noam Shazeer Niki Parmar Jakob Uszkoreit Llion Jones Aidan N Gomez Lukasz Kaiser and Illia Polosukhin. 2017. Attention is all you need. Advances in neural information processing systems 30."
+        },
+        {
+          "key": "e_1_2_2_50_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.14778/1920841.1920992"
+        },
+        {
+          "key": "e_1_2_2_51_1",
+          "volume-title": "International Conference on Machine Learning. PMLR, 23318--23340",
+          "author": "Wang Peng",
+          "year": "2022",
+          "unstructured": "Peng Wang, An Yang, Rui Men, Junyang Lin, Shuai Bai, Zhikang Li, Jianxin Ma, Chang Zhou, Jingren Zhou, and Hongxia Yang. 2022. Ofa: Unifying architectures, tasks, and modalities through a simple sequence-to-sequence learning framework. In International Conference on Machine Learning. PMLR, 23318--23340."
+        },
+        {
+          "key": "e_1_2_2_52_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.18653/v1/2022.emnlp-main.340"
+        },
+        {
+          "key": "e_1_2_2_53_1",
+          "volume-title": "et al",
+          "author": "Wolf Thomas",
+          "year": "2019",
+          "unstructured": "Thomas Wolf, Lysandre Debut, Victor Sanh, Julien Chaumond, Clement Delangue, Anthony Moi, Pierric Cistac, Tim Rault, Rémi Louf, Morgan Funtowicz, et al . 2019. Huggingface's transformers: State-of-the-art natural language processing. arXiv preprint arXiv:1910.03771 (2019)."
+        },
+        {
+          "key": "e_1_2_2_54_1",
+          "volume-title": "Peng Shi, Ruiqi Zhong, Torsten Scholak, Michihiro Yasunaga, Chien-Sheng Wu, Ming Zhong, Pengcheng Yin, Sida I Wang, et al .",
+          "author": "Xie Tianbao",
+          "year": "2022",
+          "unstructured": "Tianbao Xie, Chen Henry Wu, Peng Shi, Ruiqi Zhong, Torsten Scholak, Michihiro Yasunaga, Chien-Sheng Wu, Ming Zhong, Pengcheng Yin, Sida I Wang, et al . 2022. Unifiedskg: Unifying and multi-tasking structured knowledge grounding with text-to-text language models. arXiv preprint arXiv:2201.05966 (2022)."
+        },
+        {
+          "key": "e_1_2_2_55_1",
+          "volume-title": "Xlnet: Generalized autoregressive pretraining for language understanding. Advances in neural information processing systems 32",
+          "author": "Yang Zhilin",
+          "year": "2019",
+          "unstructured": "Zhilin Yang, Zihang Dai, Yiming Yang, Jaime Carbonell, Russ R Salakhutdinov, and Quoc V Le. 2019. Xlnet: Generalized autoregressive pretraining for language understanding. Advances in neural information processing systems 32 (2019)."
+        },
+        {
+          "key": "e_1_2_2_56_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.aiopen.2021.02.002"
+        },
+        {
+          "key": "e_1_2_2_57_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/s41019-022-00178-4"
+        }
+      ],
+      "container-title": [
+        "Proceedings of the ACM on Management of Data"
+      ],
+      "original-title": [],
+      "language": "en",
+      "link": [
+        {
+          "URL": "https://dl.acm.org/doi/10.1145/3588938",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        },
+        {
+          "URL": "https://dl.acm.org/doi/pdf/10.1145/3588938",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2025,
+            6,
+            17
+          ]
+        ],
+        "date-time": "2025-06-17T12:47:37Z",
+        "timestamp": 1750164457000
+      },
+      "score": 1,
+      "resource": {
+        "primary": {
+          "URL": "https://dl.acm.org/doi/10.1145/3588938"
+        }
+      },
+      "subtitle": [],
+      "short-title": [],
+      "issued": {
+        "date-parts": [
+          [
+            2023,
+            5,
+            26
+          ]
+        ]
+      },
+      "references-count": 57,
+      "journal-issue": {
+        "issue": "1",
+        "published-print": {
+          "date-parts": [
+            [
+              2023,
+              5,
+              26
+            ]
+          ]
+        }
+      },
+      "alternative-id": [
+        "10.1145/3588938"
+      ],
+      "URL": "https://doi.org/10.1145/3588938",
+      "relation": {},
+      "ISSN": [
+        "2836-6573"
+      ],
+      "issn-type": [
+        {
+          "value": "2836-6573",
+          "type": "electronic"
+        }
+      ],
+      "subject": [],
+      "published": {
+        "date-parts": [
+          [
+            2023,
+            5,
+            26
+          ]
+        ]
+      }
+    }
+  }
+}

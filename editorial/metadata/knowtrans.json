@@ -1,0 +1,860 @@
+{
+  "database": "Crossref",
+  "endpoint": "https://api.crossref.org/works/10.1109%2FICDE65448.2025.00214",
+  "retrieved": "2026-09-09",
+  "status_code": 200,
+  "response": {
+    "status": "ok",
+    "message-type": "work",
+    "message-version": "1.0.0",
+    "message": {
+      "indexed": {
+        "date-parts": [
+          [
+            2025,
+            8,
+            22
+          ]
+        ],
+        "date-time": "2025-08-22T01:40:44Z",
+        "timestamp": 1755826844004,
+        "version": "3.44.0"
+      },
+      "reference-count": 101,
+      "publisher": "IEEE",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2025,
+                5,
+                19
+              ]
+            ],
+            "date-time": "2025-05-19T00:00:00Z",
+            "timestamp": 1747612800000
+          },
+          "content-version": "stm-asf",
+          "delay-in-days": 0,
+          "URL": "https://doi.org/10.15223/policy-029"
+        },
+        {
+          "start": {
+            "date-parts": [
+              [
+                2025,
+                5,
+                19
+              ]
+            ],
+            "date-time": "2025-05-19T00:00:00Z",
+            "timestamp": 1747612800000
+          },
+          "content-version": "stm-asf",
+          "delay-in-days": 0,
+          "URL": "https://doi.org/10.15223/policy-037"
+        }
+      ],
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "short-container-title": [],
+      "published-print": {
+        "date-parts": [
+          [
+            2025,
+            5,
+            19
+          ]
+        ]
+      },
+      "DOI": "10.1109/icde65448.2025.00214",
+      "type": "proceedings-article",
+      "created": {
+        "date-parts": [
+          [
+            2025,
+            8,
+            20
+          ]
+        ],
+        "date-time": "2025-08-20T18:28:25Z",
+        "timestamp": 1755714505000
+      },
+      "page": "2852-2866",
+      "source": "Crossref",
+      "is-referenced-by-count": 0,
+      "title": [
+        "KnowTrans: Boosting Transferability of Data Preparation LLMs via Knowledge Augmentation"
+      ],
+      "prefix": "10.1109",
+      "author": [
+        {
+          "given": "Yuhang",
+          "family": "Ge",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "Zhejiang University,Hangzhou,China"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Fengyu",
+          "family": "Li",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Zhejiang University,Hangzhou,China"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Yuren",
+          "family": "Mao",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Zhejiang University,Hangzhou,China"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Yanbo",
+          "family": "Yang",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Zhejiang University,Hangzhou,China"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Congcong",
+          "family": "Ge",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Zhejiang University,Hangzhou,China"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Zhaoqiang",
+          "family": "Chen",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Huawei Cloud Computing Technologies Co., Ltd,China"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Jiang",
+          "family": "Long",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Zhejiang University,Hangzhou,China"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Yunjun",
+          "family": "Gao",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Zhejiang University,Hangzhou,China"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "member": "263",
+      "reference": [
+        {
+          "year": "2025",
+          "key": "ref1",
+          "article-title": "Code, datasets and full version"
+        },
+        {
+          "key": "ref2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/TKDE.2022.3148237"
+        },
+        {
+          "key": "ref3",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/978-3-030-82472-3_19"
+        },
+        {
+          "key": "ref4",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/3514221.3517906"
+        },
+        {
+          "key": "ref5",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/ICDE51399.2021.00013"
+        },
+        {
+          "key": "ref6",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/3588938"
+        },
+        {
+          "key": "ref7",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.18653/v1/2024.emnlp-main.497"
+        },
+        {
+          "key": "ref8",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/3654979"
+        },
+        {
+          "key": "ref9",
+          "article-title": "Table llama: Towards open large generalist models for tables",
+          "author": "Zhang",
+          "year": "2024",
+          "journal-title": "NAACL"
+        },
+        {
+          "key": "ref10",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/3637528.3671873"
+        },
+        {
+          "key": "ref11",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.18653/v1/2021.acl-long.428"
+        },
+        {
+          "key": "ref12",
+          "article-title": "Confiictaverse gradient descent for multi-task learning",
+          "author": "Liu",
+          "year": "2021",
+          "journal-title": "NeurIPS"
+        },
+        {
+          "key": "ref13",
+          "article-title": "Language models are few-shot learners",
+          "author": "Brown",
+          "year": "2020",
+          "journal-title": "NeurIPS"
+        },
+        {
+          "journal-title": "Llama 2: Open foundation and fine-tuned chat models",
+          "year": "2023",
+          "author": "Touvron",
+          "key": "ref14"
+        },
+        {
+          "journal-title": "Mistral 7b",
+          "year": "2023",
+          "author": "Jiang",
+          "key": "ref15"
+        },
+        {
+          "journal-title": "A survey of large language models",
+          "year": "2023",
+          "author": "Zhao",
+          "key": "ref16"
+        },
+        {
+          "key": "ref17",
+          "article-title": "Emergent abilities of large language models",
+          "author": "Wei",
+          "year": "2022",
+          "journal-title": "Transactions on Machine Learning Research"
+        },
+        {
+          "key": "ref18",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/3605943"
+        },
+        {
+          "key": "ref19",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.14778/3626292.3626294"
+        },
+        {
+          "key": "ref20",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.14778/3611479.3611527"
+        },
+        {
+          "journal-title": "Instruction tuning for large language models: A survey",
+          "year": "2023",
+          "author": "Zhang",
+          "key": "ref21"
+        },
+        {
+          "key": "ref22",
+          "article-title": "Multi-task learning as multi-objective optimization",
+          "author": "Sener",
+          "year": "2018",
+          "journal-title": "NeurIPS"
+        },
+        {
+          "key": "ref23",
+          "article-title": "Adaptive adversarial multitask representation learning",
+          "author": "Mao",
+          "year": "2020",
+          "journal-title": "ICML"
+        },
+        {
+          "key": "ref24",
+          "article-title": "Diverse weight averaging for out-of-distribution generalization",
+          "author": "Rame",
+          "year": "2022",
+          "journal-title": "NeurIPS"
+        },
+        {
+          "key": "ref25",
+          "article-title": "Model ratatouille: Recycling diverse models for out-of-distribution generalization",
+          "author": "Ramé",
+          "year": "2023",
+          "journal-title": "ICML"
+        },
+        {
+          "journal-title": "Model merging in llms, mllms, and beyond: Methods, theories, applications and opportunities",
+          "year": "2024",
+          "author": "Yang",
+          "key": "ref26"
+        },
+        {
+          "key": "ref27",
+          "article-title": "Lora: Low-rank adaptation of large language models",
+          "author": "Hu",
+          "year": "2022",
+          "journal-title": "ICLR"
+        },
+        {
+          "journal-title": "Large language models are human-level prompt engineers",
+          "year": "2022",
+          "author": "Zhou",
+          "key": "ref28"
+        },
+        {
+          "key": "ref29",
+          "article-title": "Instructzero: Efficient instruction optimization for black-box large language models",
+          "author": "Chen",
+          "year": "2024",
+          "journal-title": "ICML"
+        },
+        {
+          "key": "ref30",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.18653/v1/2024.acl-long.176"
+        },
+        {
+          "key": "ref31",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/3299869.3324956"
+        },
+        {
+          "article-title": "Flipkart products dataset",
+          "volume-title": "PromptCloud",
+          "year": "2017",
+          "key": "ref32"
+        },
+        {
+          "year": "2016",
+          "key": "ref33",
+          "article-title": "Amazon reviews: Unlocked mobile phones"
+        },
+        {
+          "key": "ref34",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.14778/3574245.3574258"
+        },
+        {
+          "journal-title": "Column type annotation using chatgpt",
+          "year": "2023",
+          "author": "Korini",
+          "key": "ref35"
+        },
+        {
+          "journal-title": "Product attribute value extraction using large language models",
+          "year": "2023",
+          "author": "Brinkmann",
+          "key": "ref36"
+        },
+        {
+          "key": "ref37",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.14778/3407790.3407801"
+        },
+        {
+          "key": "ref38",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.14778/3421424.3421431"
+        },
+        {
+          "key": "ref39",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/3488560.3498377"
+        },
+        {
+          "key": "ref40",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.18653/v1/2024.acl-demos.38"
+        },
+        {
+          "key": "ref41",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.14778/2536360.2536363"
+        },
+        {
+          "key": "ref42",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/TKDE.2020.2992456"
+        },
+        {
+          "key": "ref43",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/s11432-020-2917-1"
+        },
+        {
+          "key": "ref44",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.14778/3137628.3137631"
+        },
+        {
+          "journal-title": "Bayeswipe: A scalable probabilistic framework for cleaning bigdata",
+          "year": "2015",
+          "author": "De",
+          "key": "ref45"
+        },
+        {
+          "key": "ref46",
+          "article-title": "Pclean: Bayesian data cleaning at scale with domain-specific probabilistic programming",
+          "author": "Lew",
+          "year": "2021",
+          "journal-title": "AISTATS"
+        },
+        {
+          "key": "ref47",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/s00778-011-0253-7"
+        },
+        {
+          "key": "ref48",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.dss.2012.02.010"
+        },
+        {
+          "key": "ref49",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.4304/jcp.4.6.436-443"
+        },
+        {
+          "key": "ref50",
+          "article-title": "Improving data quality: Consistency and accuracy",
+          "author": "Cong",
+          "year": "2007",
+          "journal-title": "VLDB"
+        },
+        {
+          "key": "ref51",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/TKDE.2018.2883103"
+        },
+        {
+          "key": "ref52",
+          "article-title": "Bootstrapped named entity recognition for product attribute extraction",
+          "author": "Putthividhya",
+          "year": "2011",
+          "journal-title": "EMNLP"
+        },
+        {
+          "key": "ref53",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/ICDE.2008.4497435"
+        },
+        {
+          "key": "ref54",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/3405476"
+        },
+        {
+          "key": "ref55",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/TKDE.2013.54"
+        },
+        {
+          "key": "ref56",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.14778/2994509.2994535"
+        },
+        {
+          "key": "ref57",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/978-3-319-18818-8_25"
+        },
+        {
+          "key": "ref58",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/978-3-319-46523-4_27"
+        },
+        {
+          "key": "ref59",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.14778/3407790.3407793"
+        },
+        {
+          "key": "ref60",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/3292500.3330993"
+        },
+        {
+          "key": "ref61",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/3299869.3319888"
+        },
+        {
+          "key": "ref62",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/3448016.3457258"
+        },
+        {
+          "key": "ref63",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.14778/3570690.3570694"
+        },
+        {
+          "key": "ref64",
+          "article-title": "Distributed representations of tuples for entity resolution",
+          "author": "MESTS",
+          "year": "2018",
+          "journal-title": "VLDB"
+        },
+        {
+          "key": "ref65",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/3183713.3196926"
+        },
+        {
+          "key": "ref66",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/3318464.3389743"
+        },
+        {
+          "key": "ref67",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1609/aaai.v34i05.6330"
+        },
+        {
+          "key": "ref68",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/3308558.3313578"
+        },
+        {
+          "key": "ref69",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.14778/3467861.3467878"
+        },
+        {
+          "key": "ref70",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/3514221.3517870"
+        },
+        {
+          "key": "ref71",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.14778/3565816.3565836"
+        },
+        {
+          "key": "ref72",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/3542700.3542709"
+        },
+        {
+          "key": "ref73",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.18653/v1/2020.acl-main.398"
+        },
+        {
+          "key": "ref74",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.18653/v1/2020.acl-main.745"
+        },
+        {
+          "key": "ref75",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.18653/v1/2021.naacl-main.270"
+        },
+        {
+          "key": "ref76",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/3459637.3482197"
+        },
+        {
+          "key": "ref77",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.14778/3583140.3583149"
+        },
+        {
+          "key": "ref78",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/3626766"
+        },
+        {
+          "key": "ref79",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/ICDE60146.2024.00083"
+        },
+        {
+          "key": "ref80",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.18653/v1/P19-1514"
+        },
+        {
+          "key": "ref81",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/3394486.3403047"
+        },
+        {
+          "key": "ref82",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/3485447.3512035"
+        },
+        {
+          "key": "ref83",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.18653/v1/2021.acl-long.362"
+        },
+        {
+          "key": "ref84",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/978-3-031-42941-5_20"
+        },
+        {
+          "key": "ref85",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.18653/v1/2023.emnlp-industry.74"
+        },
+        {
+          "journal-title": "Can large language models design accurate label functions?",
+          "year": "2023",
+          "author": "Guan",
+          "key": "ref86"
+        },
+        {
+          "key": "ref87",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/ICDE60146.2024.00284"
+        },
+        {
+          "key": "ref88",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/3626772.3661357"
+        },
+        {
+          "journal-title": "Matchmaker: Self-improving large language model programs for schema matching",
+          "year": "2024",
+          "author": "Seedat",
+          "key": "ref89"
+        },
+        {
+          "journal-title": "Any-match - efficient zero-shot entity matching with a small language model",
+          "year": "2024",
+          "author": "Zhang",
+          "key": "ref90"
+        },
+        {
+          "key": "ref91",
+          "article-title": "Language models are unsupervised multitask learners",
+          "author": "Radford",
+          "year": "2019",
+          "journal-title": "OpenAI blog"
+        },
+        {
+          "key": "ref92",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.14778/3665844.3665857"
+        },
+        {
+          "journal-title": "Averaging weights leads to wider optima and better generalization",
+          "year": "2018",
+          "author": "Izmailov",
+          "key": "ref93"
+        },
+        {
+          "key": "ref94",
+          "article-title": "Model soups: averaging weights of multiple fine-tuned models improves accuracy without increasing inference time",
+          "author": "Wortsman",
+          "year": "2022",
+          "journal-title": "ICML"
+        },
+        {
+          "journal-title": "Lorahub: Efficient cross-task generalization via dynamic lora composition",
+          "year": "2023",
+          "author": "Huang",
+          "key": "ref95"
+        },
+        {
+          "key": "ref96",
+          "article-title": "Trainable weight averaging: Efficient training by optimizing historical solutions",
+          "author": "Li",
+          "year": "2022",
+          "journal-title": "ICLR"
+        },
+        {
+          "key": "ref97",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/CVPR52729.2023.01540"
+        },
+        {
+          "journal-title": "Merging multi-task models via weight-ensembling mixture of experts",
+          "year": "2024",
+          "author": "Tang",
+          "key": "ref98"
+        },
+        {
+          "key": "ref99",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.18653/v1/2023.findings-eacl.153"
+        },
+        {
+          "key": "ref100",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.18653/v1/2024.findings-acl.263"
+        },
+        {
+          "key": "ref101",
+          "article-title": "Mixture of lora experts",
+          "author": "Wu",
+          "year": "2024",
+          "journal-title": "ICLR"
+        }
+      ],
+      "event": {
+        "name": "2025 IEEE 41st International Conference on Data Engineering (ICDE)",
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              5,
+              19
+            ]
+          ]
+        },
+        "location": "Hong Kong, Hong Kong",
+        "end": {
+          "date-parts": [
+            [
+              2025,
+              5,
+              23
+            ]
+          ]
+        }
+      },
+      "container-title": [
+        "2025 IEEE 41st International Conference on Data Engineering (ICDE)"
+      ],
+      "original-title": [],
+      "link": [
+        {
+          "URL": "http://xplorestaging.ieee.org/ielx8/11112833/11112834/11112842.pdf?arnumber=11112842",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2025,
+            8,
+            21
+          ]
+        ],
+        "date-time": "2025-08-21T05:20:56Z",
+        "timestamp": 1755753656000
+      },
+      "score": 1,
+      "resource": {
+        "primary": {
+          "URL": "https://ieeexplore.ieee.org/document/11112842/"
+        }
+      },
+      "subtitle": [],
+      "short-title": [],
+      "issued": {
+        "date-parts": [
+          [
+            2025,
+            5,
+            19
+          ]
+        ]
+      },
+      "references-count": 101,
+      "URL": "https://doi.org/10.1109/icde65448.2025.00214",
+      "relation": {},
+      "subject": [],
+      "published": {
+        "date-parts": [
+          [
+            2025,
+            5,
+            19
+          ]
+        ]
+      }
+    }
+  }
+}

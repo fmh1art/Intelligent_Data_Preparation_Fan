@@ -1,0 +1,802 @@
+{
+  "database": "Crossref",
+  "endpoint": "https://api.crossref.org/works/10.1145%2F3555041.3589406",
+  "retrieved": "2026-09-09",
+  "status_code": 200,
+  "response": {
+    "status": "ok",
+    "message-type": "work",
+    "message-version": "1.0.0",
+    "message": {
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            9,
+            4
+          ]
+        ],
+        "date-time": "2026-09-04T00:44:52Z",
+        "timestamp": 1788482692220,
+        "version": "build-2803163510"
+      },
+      "publisher-location": "New York, NY, USA",
+      "reference-count": 90,
+      "publisher": "ACM",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2023,
+                6,
+                4
+              ]
+            ],
+            "date-time": "2023-06-04T00:00:00Z",
+            "timestamp": 1685836800000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "https://www.acm.org/publications/policies/copyright_policy#Background"
+        }
+      ],
+      "funder": [
+        {
+          "DOI": "10.13039/501100001809",
+          "name": "National Natural Science Foundation of China",
+          "doi-asserted-by": "publisher",
+          "award": [
+            "62102215, 62122090, 62072461"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "62102215, 62122090, 62072461"
+              ]
+            }
+          ],
+          "id": [
+            {
+              "id": "10.13039/501100001809",
+              "id-type": "DOI",
+              "asserted-by": "publisher"
+            }
+          ]
+        },
+        {
+          "name": "Zhejiang Lab?s International Talent Fund for Young Professionals"
+        }
+      ],
+      "content-domain": {
+        "domain": [
+          "dl.acm.org"
+        ],
+        "crossmark-restriction": true
+      },
+      "short-container-title": [],
+      "published-print": {
+        "date-parts": [
+          [
+            2023,
+            6,
+            4
+          ]
+        ]
+      },
+      "DOI": "10.1145/3555041.3589406",
+      "type": "proceedings-article",
+      "created": {
+        "date-parts": [
+          [
+            2023,
+            6,
+            5
+          ]
+        ],
+        "date-time": "2023-06-05T16:25:14Z",
+        "timestamp": 1685982314000
+      },
+      "page": "13-20",
+      "update-policy": "https://doi.org/10.1145/crossmark-policy",
+      "source": "Crossref",
+      "is-referenced-by-count": 7,
+      "title": [
+        "Demystifying Artificial Intelligence for Data Preparation"
+      ],
+      "prefix": "10.1145",
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0000-0001-8080-5594",
+          "authenticated-orcid": false,
+          "given": "Chengliang",
+          "family": "Chai",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "Beijing Institute of Technology, Beijing, China"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0003-2832-0295",
+          "authenticated-orcid": false,
+          "given": "Nan",
+          "family": "Tang",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Qatar Computing Research Institute &amp; Hong Kong University of Science and Technology (Guangzhou), Doha, Qatar"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0003-4729-9903",
+          "authenticated-orcid": false,
+          "given": "Ju",
+          "family": "Fan",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Renmin University of China, Beijing, China"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0001-9530-3327",
+          "authenticated-orcid": false,
+          "given": "Yuyu",
+          "family": "Luo",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Tsinghua University, Beijing, China"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "320",
+      "published-online": {
+        "date-parts": [
+          [
+            2023,
+            6,
+            5
+          ]
+        ]
+      },
+      "reference": [
+        {
+          "key": "e_1_3_2_3_1_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.14778/2994509.2994518"
+        },
+        {
+          "key": "e_1_3_2_3_2_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.14778/3554821.3554890"
+        },
+        {
+          "key": "e_1_3_2_3_3_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/3308558.3313602"
+        },
+        {
+          "key": "e_1_3_2_3_4_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1162/tacl_a_00051"
+        },
+        {
+          "key": "e_1_3_2_3_5_1",
+          "volume-title": "On the opportunities and risks of foundation models. CoRR, abs/2108.07258",
+          "author": "Bommasani R.",
+          "year": "2021",
+          "unstructured": "R. Bommasani, D. A. Hudson, E. Adeli, R. Altman, S. Arora, S. von Arx, M. S. Bernstein, J. Bohg, A. Bosselut, E. Brunskill, E. Brynjolfsson, S. Buch, D. Card, R. Castellon, N. S. Chatterji, A. S. Chen, K. Creel, J. Q. Davis, D. Demszky, C. Donahue, M. Doumbouya, E. Durmus, S. Ermon, J. Etchemendy, K. Ethayarajh, L. Fei- Fei, C. Finn, T. Gale, L. Gillespie, K. Goel, N. D. Goodman, S. Grossman, N. Guha, T. Hashimoto, P. Henderson, J. Hewitt, D. E. Ho, J. Hong, K. Hsu, J. Huang, T. Icard, S. Jain, D. Jurafsky, P. Kalluri, S. Karamcheti, G. Keeling, F. Khani, O. Khattab, P. W. Koh, M. S. Krass, R. Krishna, R. Kuditipudi, and et al. On the opportunities and risks of foundation models. CoRR, abs/2108.07258, 2021."
+        },
+        {
+          "key": "e_1_3_2_3_6_1",
+          "volume-title": "Improving language models by retrieving from trillions of tokens. CoRR, abs/2112.04426",
+          "author": "Borgeaud S.",
+          "year": "2021",
+          "unstructured": "S. Borgeaud, A. Mensch, J. Hoffmann, T. Cai, E. Rutherford, K. Millican, G. van den Driessche, J. Lespiau, B. Damoc, A. Clark, D. de Las Casas, A. Guy, J. Menick, R. Ring, T. Hennigan, S. Huang, L. Maggiore, C. Jones, A. Cassirer, A. Brock, M. Paganini, G. Irving, O. Vinyals, S. Osindero, K. Simonyan, J. W. Rae, E. Elsen, and L. Sifre. Improving language models by retrieving from trillions of tokens. CoRR, abs/2112.04426, 2021."
+        },
+        {
+          "key": "e_1_3_2_3_7_1",
+          "volume-title": "Language models are few-shot learners. CoRR, abs/2005.14165",
+          "author": "Brown T. B.",
+          "year": "2020",
+          "unstructured": "T. B. Brown, B. Mann, and et al. Language models are few-shot learners. CoRR, abs/2005.14165, 2020."
+        },
+        {
+          "key": "e_1_3_2_3_8_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/3318464.3389772"
+        },
+        {
+          "key": "e_1_3_2_3_9_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/2882903.2915252"
+        },
+        {
+          "key": "e_1_3_2_3_10_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.14778/3523210.3523223"
+        },
+        {
+          "key": "e_1_3_2_3_11_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/TKDE.2022.3148237"
+        },
+        {
+          "key": "e_1_3_2_3_12_1",
+          "volume-title": "Evaluating large language models trained on code. CoRR, abs/2107.03374",
+          "author": "Chen M.",
+          "year": "2021",
+          "unstructured": "M. Chen, J. Tworek, H. Jun, Q. Yuan, H. P. de Oliveira Pinto, J. Kaplan, H. Edwards, Y. Burda, N. Joseph, G. Brockman, A. Ray, R. Puri, G. Krueger, M. Petrov, H. Khlaaf, G. Sastry, P. Mishkin, B. Chan, S. Gray, N. Ryder, M. Pavlov, A. Power, L. Kaiser, M. Bavarian, C. Winter, P. Tillet, F. P. Such, D. Cummings, M. Plappert, F. Chantzis, E. Barnes, A. Herbert-Voss, W. H. Guss, A. Nichol, A. Paino, N. Tezak, J. Tang, I. Babuschkin, S. Balaji, S. Jain, W. Saunders, C. Hesse, A. N. Carr, J. Leike, J. Achiam, V. Misra, E. Morikawa, A. Radford, M. Knight, M. Brundage, M. Murati, K. Mayer, P. Welinder, B. McGrew, D. Amodei, S. McCandlish, I. Sutskever, and W. Zaremba. Evaluating large language models trained on code. CoRR, abs/2107.03374, 2021."
+        },
+        {
+          "key": "e_1_3_2_3_13_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/3588945"
+        },
+        {
+          "key": "e_1_3_2_3_14_1",
+          "volume-title": "Conference on Innovative Data Systems Research, CIDR 2023",
+          "author": "Chen Z.",
+          "year": "2023",
+          "unstructured": "Z. Chen, Z. Gu, L. Cao, J. Fan, S. Madden, and N. Tang. Symphony: Towards natural language query answering over multi-modal data lakes. In Conference on Innovative Data Systems Research, CIDR 2023, Amsterdam, The Netherlands, January 8--151, 2023. www.cidrdb.org, 2023."
+        },
+        {
+          "key": "e_1_3_2_3_15_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.14778/3397230.3397235"
+        },
+        {
+          "key": "e_1_3_2_3_16_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.14778/3007263.3007320"
+        },
+        {
+          "key": "e_1_3_2_3_17_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/2882903.2912574"
+        },
+        {
+          "key": "e_1_3_2_3_18_1",
+          "unstructured": "G. Copilot. https://github.com/features/copilot."
+        },
+        {
+          "key": "e_1_3_2_3_19_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.14778/2824032.2824105"
+        },
+        {
+          "key": "e_1_3_2_3_20_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/2463676.2465327"
+        },
+        {
+          "key": "e_1_3_2_3_21_1",
+          "volume-title": "8th Biennial Conference on Innovative Data Systems Research, CIDR 2017, Chaminade, CA, USA, January 8--11, 2017, Online Proceedings. www.cidrdb.org",
+          "author": "Deng D.",
+          "year": "2017",
+          "unstructured": "D. Deng, R. C. Fernandez, Z. Abedjan, S. Wang, M. Stonebraker, A. K. Elmagarmid, I. F. Ilyas, S. Madden, M. Ouzzani, and N. Tang. The data civilizer system. In 8th Biennial Conference on Innovative Data Systems Research, CIDR 2017, Chaminade, CA, USA, January 8--11, 2017, Online Proceedings. www.cidrdb.org, 2017."
+        },
+        {
+          "key": "e_1_3_2_3_22_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/ICDE.2019.00026"
+        },
+        {
+          "key": "e_1_3_2_3_23_1",
+          "volume-title": "Proceedings of the 2019 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies, NAACL-HLT 2019",
+          "volume": "1",
+          "author": "Devlin J.",
+          "year": "2019",
+          "unstructured": "J. Devlin, M. Chang, K. Lee, and K. Toutanova. BERT: pre-training of deep bidirectional transformers for language understanding. In Proceedings of the 2019 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies, NAACL-HLT 2019, Minneapolis, MN, USA, June 2--7, 2019, Volume 1 (Long and Short Papers), pages 4171--4186. Association for Computational Linguistics, 2019."
+        },
+        {
+          "key": "e_1_3_2_3_24_1",
+          "volume-title": "Bert: Pre-training of deep bidirectional transformers for language understanding. arXiv preprint arXiv:1810.04805",
+          "author": "Devlin J.",
+          "year": "2018",
+          "unstructured": "J. Devlin, M.-W. Chang, K. Lee, and K. Toutanova. Bert: Pre-training of deep bidirectional transformers for language understanding. arXiv preprint arXiv:1810.04805, 2018."
+        },
+        {
+          "key": "e_1_3_2_3_25_1",
+          "volume-title": "Morgan Kaufmann",
+          "author": "Doan A.",
+          "year": "2012",
+          "unstructured": "A. Doan, A. Y. Halevy, and Z. G. Ives. Principles of Data Integration. Morgan Kaufmann, 2012."
+        },
+        {
+          "key": "e_1_3_2_3_26_1",
+          "volume-title": "From data fusion to knowledge fusion. CoRR, abs/1503.00302",
+          "author": "Dong X. L.",
+          "year": "2015",
+          "unstructured": "X. L. Dong, E. Gabrilovich, G. Heitz, W. Horn, K. Murphy, S. Sun, and W. Zhang. From data fusion to knowledge fusion. CoRR, abs/1503.00302, 2015."
+        },
+        {
+          "key": "e_1_3_2_3_27_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/3318464.3383127"
+        },
+        {
+          "key": "e_1_3_2_3_28_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.14778/3236187.3236198"
+        },
+        {
+          "key": "e_1_3_2_3_29_1",
+          "first-page": "1527",
+          "volume-title": "Proceedings of the 2020 International Conference on Management of Data, SIGMOD Conference 2020, online conference [Portland, OR, USA], June 14--19, 2020",
+          "author": "El O. B.",
+          "year": "2020",
+          "unstructured": "O. B. El, T. Milo, and A. Somech. Automatically generating data exploration sessions using deep reinforcement learning. In D. Maier, R. Pottinger, A. Doan, W. Tan, A. Alawini, and H. Q. Ngo, editors, Proceedings of the 2020 International Conference on Management of Data, SIGMOD Conference 2020, online conference [Portland, OR, USA], June 14--19, 2020, pages 1527--1537. ACM, 2020."
+        },
+        {
+          "key": "e_1_3_2_3_30_1",
+          "first-page": "1001",
+          "volume-title": "34th IEEE International Conference on Data Engineering, ICDE 2018",
+          "author": "Fernandez R. C.",
+          "year": "2018",
+          "unstructured": "R. C. Fernandez, Z. Abedjan, F. Koko, G. Yuan, S. Madden, and M. Stonebraker. Aurum: A data discovery system. In 34th IEEE International Conference on Data Engineering, ICDE 2018, Paris, France, April 16--19, 2018, pages 1001--1012. IEEE Computer Society, 2018."
+        },
+        {
+          "key": "e_1_3_2_3_31_1",
+          "first-page": "989",
+          "volume-title": "34th IEEE International Conference on Data Engineering, ICDE 2018",
+          "author": "Fernandez R. C.",
+          "year": "2018",
+          "unstructured": "R. C. Fernandez, E. Mansour, A. A. Qahtan, A. K. Elmagarmid, I. F. Ilyas, S. Madden, M. Ouzzani, M. Stonebraker, and N. Tang. Seeping semantics: Linking datasets using word embeddings for data discovery. In 34th IEEE International Conference on Data Engineering, ICDE 2018, Paris, France, April 16--19, 2018, pages 989--1000. IEEE Computer Society, 2018."
+        },
+        {
+          "key": "e_1_3_2_3_32_1",
+          "volume-title": "Auto-sklearn 2.0: The next generation. CoRR, abs/2007.04074",
+          "author": "Feurer M.",
+          "year": "2020",
+          "unstructured": "M. Feurer, K. Eggensperger, S. Falkner, M. Lindauer, and F. Hutter. Auto-sklearn 2.0: The next generation. CoRR, abs/2007.04074, 2020."
+        },
+        {
+          "key": "e_1_3_2_3_33_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/978-3-030-05318-5_6"
+        },
+        {
+          "key": "e_1_3_2_3_34_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/3589292"
+        },
+        {
+          "key": "e_1_3_2_3_35_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.18653/v1/2022.emnlp-main.331"
+        },
+        {
+          "key": "e_1_3_2_3_36_1",
+          "volume-title": "Seventh Biennial Conference on Innovative Data Systems Research, CIDR 2015, Asilomar, CA, USA, January 4--7, 2015, Online Proceedings. www.cidrdb.org",
+          "author": "Heer J.",
+          "year": "2015",
+          "unstructured": "J. Heer, J. M. Hellerstein, and S. Kandel. Predictive interaction for data transformation. In Seventh Biennial Conference on Innovative Data Systems Research, CIDR 2015, Asilomar, CA, USA, January 4--7, 2015, Online Proceedings. www.cidrdb.org, 2015."
+        },
+        {
+          "key": "e_1_3_2_3_37_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/3394486.3403261"
+        },
+        {
+          "key": "e_1_3_2_3_38_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1162/neco.1997.9.8.1735"
+        },
+        {
+          "key": "e_1_3_2_3_39_1",
+          "first-page": "265",
+          "article-title": "CLX: towards verifiable PBE data transformation. In Advances in Database Technology - 22nd International Conference on Extending Database Technology, EDBT 2019, Lisbon",
+          "volume": "2019",
+          "author": "Jin Z.",
+          "year": "2019",
+          "unstructured": "Z. Jin, M. J. Cafarella, H. V. Jagadish, S. Kandel, M. Minar, and J. M. Hellerstein. CLX: towards verifiable PBE data transformation. In Advances in Database Technology - 22nd International Conference on Extending Database Technology, EDBT 2019, Lisbon, Portugal, March 26--29, 2019, pages 265--276, 2019.",
+          "journal-title": "Portugal, March 26--29"
+        },
+        {
+          "key": "e_1_3_2_3_40_1",
+          "volume-title": "Mrkl systems: A modular, neuro-symbolic architecture that combines large language models, external knowledge sources and discrete reasoning",
+          "author": "Karpas E.",
+          "year": "2022",
+          "unstructured": "E. Karpas, O. Abend, Y. Belinkov, B. Lenz, O. Lieber, N. Ratner, Y. Shoham, H. Bata, Y. Levine, K. Leyton-Brown, D. Muhlgay, N. Rozen, E. Schwartz, G. Shachaf, S. Shalev-Shwartz, A. Shashua, and M. Tenenholtz. Mrkl systems: A modular, neuro-symbolic architecture that combines large language models, external knowledge sources and discrete reasoning, 2022."
+        },
+        {
+          "key": "e_1_3_2_3_41_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.3115/v1/D14-1181"
+        },
+        {
+          "key": "e_1_3_2_3_42_1",
+          "volume-title": "Nemo: a toolkit for building AI applications using neural modules. CoRR, abs/1909.09577",
+          "author": "Kuchaiev O.",
+          "year": "2019",
+          "unstructured": "O. Kuchaiev, J. Li, H. Nguyen, O. Hrinchuk, R. Leary, B. Ginsburg, S. Kriman, S. Beliaev, V. Lavrukhin, J. Cook, P. Castonguay, M. Popova, J. Huang, and J. M. Cohen. Nemo: a toolkit for building AI applications using neural modules. CoRR, abs/1909.09577, 2019."
+        },
+        {
+          "key": "e_1_3_2_3_43_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/978-3-540-78293-3_22"
+        },
+        {
+          "key": "e_1_3_2_3_44_1",
+          "volume-title": "Demystifying a dark art: Understanding real-world machine learning model development. CoRR, abs/2005.01520",
+          "author": "Lee A.",
+          "year": "2020",
+          "unstructured": "A. Lee, D. Xin, D. Lee, and A. G. Parameswaran. Demystifying a dark art: Understanding real-world machine learning model development. CoRR, abs/2005.01520, 2020."
+        },
+        {
+          "key": "e_1_3_2_3_45_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.18653/v1/2020.acl-main.703"
+        },
+        {
+          "key": "e_1_3_2_3_46_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.14778/3229863.3236226"
+        },
+        {
+          "key": "e_1_3_2_3_47_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.14778/3421424.3421431"
+        },
+        {
+          "key": "e_1_3_2_3_48_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.14778/3476311.3476403"
+        },
+        {
+          "key": "e_1_3_2_3_49_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/ICDE53745.2022.00317"
+        },
+        {
+          "key": "e_1_3_2_3_50_1",
+          "volume-title": "Roberta: A robustly optimized bert pretraining approach. arXiv preprint arXiv:1907.11692",
+          "author": "Liu Y.",
+          "year": "2019",
+          "unstructured": "Y. Liu, M. Ott, N. Goyal, J. Du, M. Joshi, D. Chen, O. Levy, M. Lewis, L. Zettlemoyer, and V. Stoyanov. Roberta: A robustly optimized bert pretraining approach. arXiv preprint arXiv:1907.11692, 2019."
+        },
+        {
+          "key": "e_1_3_2_3_51_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/TKDE.2020.2981464"
+        },
+        {
+          "key": "e_1_3_2_3_52_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/ICDE.2018.00019"
+        },
+        {
+          "key": "e_1_3_2_3_53_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/3448016.3457261"
+        },
+        {
+          "key": "e_1_3_2_3_54_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/TVCG.2021.3114848"
+        },
+        {
+          "key": "e_1_3_2_3_55_1",
+          "volume-title": "Advances in Neural Information Processing Systems 26:  27th Annual Conference on Neural Information Processing Systems 2013. Proceedings of a meeting held December 5--8, 2013",
+          "author": "Mikolov T.",
+          "year": "2013",
+          "unstructured": "T. Mikolov, I. Sutskever, K. Chen, G. S. Corrado, and J. Dean. Distributed representations of words and phrases and their compositionality. In Advances in Neural Information Processing Systems 26: 27th Annual Conference on Neural Information Processing Systems 2013. Proceedings of a meeting held December 5--8, 2013, Lake Tahoe, Nevada, United States, pages 3111--3119, 2013."
+        },
+        {
+          "key": "e_1_3_2_3_56_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.14778/3229863.3240491"
+        },
+        {
+          "key": "e_1_3_2_3_57_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/3183713.3196926"
+        },
+        {
+          "key": "e_1_3_2_3_58_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.14778/3574245.3574258"
+        },
+        {
+          "key": "e_1_3_2_3_59_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.14778/3352063.3352116"
+        },
+        {
+          "key": "e_1_3_2_3_60_1",
+          "series-title": "JMLR Workshop and Conference Proceedings",
+          "first-page": "66",
+          "volume-title": "Proceedings of the 2016 Workshop on Automatic Machine Learning, AutoML",
+          "author": "Olson R. S.",
+          "year": "2016",
+          "unstructured": "R. S. Olson and J. H. Moore. TPOT: A tree-based pipeline optimization tool for automating machine learning. In F. Hutter, L. Kotthoff, and J. Vanschoren, editors, Proceedings of the 2016 Workshop on Automatic Machine Learning, AutoML 2016, co-located with 33rd International Conference on Machine Learning (ICML 2016), New York City, NY, USA, June 24, 2016, volume 64 of JMLR Workshop and Conference Proceedings, pages 66--74. JMLR.org, 2016."
+        },
+        {
+          "key": "e_1_3_2_3_61_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.14778/3476311.3476364"
+        },
+        {
+          "key": "e_1_3_2_3_62_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.3115/v1/D14-1162"
+        },
+        {
+          "key": "e_1_3_2_3_63_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.18653/v1/N18-1202"
+        },
+        {
+          "key": "e_1_3_2_3_64_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/3552490.3552496"
+        },
+        {
+          "key": "e_1_3_2_3_65_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/3318464.3384695"
+        },
+        {
+          "key": "e_1_3_2_3_66_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/ICDE51399.2021.00186"
+        },
+        {
+          "key": "e_1_3_2_3_67_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/s00778-019-00588-3"
+        },
+        {
+          "key": "e_1_3_2_3_68_1",
+          "first-page": "140",
+          "article-title": "Exploring the limits of transfer learning with a unified text-to-text transformer",
+          "volume": "21",
+          "author": "Raffel C.",
+          "year": "2020",
+          "unstructured": "C. Raffel, N. Shazeer, A. Roberts, K. Lee, S. Narang, M. Matena, Y. Zhou, W. Li, and P. J. Liu. Exploring the limits of transfer learning with a unified text-to-text transformer. J. Mach. Learn. Res., 21:140:1--140:67, 2020.",
+          "journal-title": "J. Mach. Learn. Res."
+        },
+        {
+          "key": "e_1_3_2_3_69_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.14778/3554821.3554882"
+        },
+        {
+          "key": "e_1_3_2_3_70_1",
+          "volume-title": "Jurassic is (almost) all you need: Few-shot meaning-to-text generation for open-domain dialogue. CoRR, abs/2110.08094",
+          "author": "Reed L.",
+          "year": "2021",
+          "unstructured": "L. Reed, C. Li, A. Ramirez, L. Wu, and M. A. Walker. Jurassic is (almost) all you need: Few-shot meaning-to-text generation for open-domain dialogue. CoRR, abs/2110.08094, 2021."
+        },
+        {
+          "key": "e_1_3_2_3_71_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.14778/3352063.3352108"
+        },
+        {
+          "key": "e_1_3_2_3_72_1",
+          "unstructured": "Scikit-Learn. https://scikit-learn.org/stable/."
+        },
+        {
+          "key": "e_1_3_2_3_73_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/3299869.3319863"
+        },
+        {
+          "key": "e_1_3_2_3_74_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/3514221.3517906"
+        },
+        {
+          "key": "e_1_3_2_3_75_1",
+          "volume-title": "Proceedings of the Workshop on Table Representation Learning, TRL@NeurIPS, 2022",
+          "author": "Tang J.",
+          "year": "2022",
+          "unstructured": "J. Tang, Y. Zuo, L. Cao, and S. Madden. Generic entity resolution models. In Proceedings of the Workshop on Table Representation Learning, TRL@NeurIPS, 2022, 2022."
+        },
+        {
+          "key": "e_1_3_2_3_76_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.14778/3476249.3476294"
+        },
+        {
+          "key": "e_1_3_2_3_77_1",
+          "first-page": "277",
+          "volume-title": "Proceedings of the 23rd International Conference on Extending Database Technology, EDBT 2020",
+          "author": "Thirumuruganathan S.",
+          "year": "2020",
+          "unstructured": "S. Thirumuruganathan, N. Tang, M. Ouzzani, and A. Doan. Data curation with deep learning. In Proceedings of the 23rd International Conference on Extending Database Technology, EDBT 2020, Copenhagen, Denmark, March 30 - April 02, 2020, pages 277--286. OpenProceedings.org, 2020."
+        },
+        {
+          "key": "e_1_3_2_3_78_1",
+          "volume-title": "Auto-weka: Automated selection and hyper-parameter optimization of classification algorithms. CoRR, abs/1208.3719",
+          "author": "Thornton C.",
+          "year": "2012",
+          "unstructured": "C. Thornton, F. Hutter, H. H. Hoos, and K. Leyton-Brown. Auto-weka: Automated selection and hyper-parameter optimization of classification algorithms. CoRR, abs/1208.3719, 2012."
+        },
+        {
+          "key": "e_1_3_2_3_79_1",
+          "first-page": "443",
+          "volume-title": "SIGMOD '22: International Conference on Management of Data",
+          "author": "Tu J.",
+          "year": "2022",
+          "unstructured": "J. Tu, J. Fan, N. Tang, P. Wang, C. Chai, G. Li, R. Fan, and X. Du. Domain adaptation for deep entity resolution. In Z. Ives, A. Bonifati, and A. E. Abbadi, editors, SIGMOD '22: International Conference on Management of Data, Philadelphia, PA, USA, June 12 - 17, 2022, pages 443--457. ACM, 2022."
+        },
+        {
+          "key": "e_1_3_2_3_80_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/3588938"
+        },
+        {
+          "key": "e_1_3_2_3_81_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.14778/3554821.3554870"
+        },
+        {
+          "key": "e_1_3_2_3_82_1",
+          "volume-title": "Advances in Neural Information Processing Systems 30: Annual Conference on Neural Information Processing Systems 2017",
+          "author": "Vaswani A.",
+          "year": "2017",
+          "unstructured": "A. Vaswani, N. Shazeer, N. Parmar, J. Uszkoreit, L. Jones, A. N. Gomez, L. Kaiser, and I. Polosukhin. Attention is all you need. In Advances in Neural Information Processing Systems 30: Annual Conference on Neural Information Processing Systems 2017, December 4--9, 2017, Long Beach, CA, USA, pages 5998--6008, 2017."
+        },
+        {
+          "key": "e_1_3_2_3_83_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.14778/3561261.3561267"
+        },
+        {
+          "key": "e_1_3_2_3_84_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.14778/3415478.3415562"
+        },
+        {
+          "key": "e_1_3_2_3_85_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/3448016.3457566"
+        },
+        {
+          "key": "e_1_3_2_3_86_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/3411764.3445306"
+        },
+        {
+          "key": "e_1_3_2_3_87_1",
+          "first-page": "1539",
+          "volume-title": "Proceedings of the 2020 International Conference on Management of Data, SIGMOD Conference 2020, online conference [Portland, OR, USA], June 14--19, 2020",
+          "author": "Yan C.",
+          "year": "2020",
+          "unstructured": "C. Yan and Y. He. Auto-suggest: Learning-to-recommend data preparation steps using data science notebooks. In D. Maier, R. Pottinger, A. Doan, W. Tan, A. Alawini, and H. Q. Ngo, editors, Proceedings of the 2020 International Conference on Management of Data, SIGMOD Conference 2020, online conference [Portland, OR, USA], June 14--19, 2020, pages 1539--1554. ACM, 2020."
+        },
+        {
+          "key": "e_1_3_2_3_88_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/3394486.3403197"
+        },
+        {
+          "key": "e_1_3_2_3_89_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.14778/3476249.3476303"
+        },
+        {
+          "key": "e_1_3_2_3_90_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.14778/3407790.3407793"
+        }
+      ],
+      "event": {
+        "name": "SIGMOD/PODS '23: International Conference on Management of Data",
+        "location": "Seattle WA USA",
+        "acronym": "SIGMOD/PODS '23",
+        "sponsor": [
+          "SIGMOD ACM Special Interest Group on Management of Data"
+        ]
+      },
+      "container-title": [
+        "Companion of the 2023 International Conference on Management of Data"
+      ],
+      "original-title": [],
+      "link": [
+        {
+          "URL": "https://dl.acm.org/doi/10.1145/3555041.3589406",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        },
+        {
+          "URL": "https://dl.acm.org/doi/pdf/10.1145/3555041.3589406",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2025,
+            6,
+            18
+          ]
+        ],
+        "date-time": "2025-06-18T18:43:58Z",
+        "timestamp": 1750272238000
+      },
+      "score": 1,
+      "resource": {
+        "primary": {
+          "URL": "https://dl.acm.org/doi/10.1145/3555041.3589406"
+        }
+      },
+      "subtitle": [],
+      "short-title": [],
+      "issued": {
+        "date-parts": [
+          [
+            2023,
+            6,
+            4
+          ]
+        ]
+      },
+      "references-count": 90,
+      "alternative-id": [
+        "10.1145/3555041.3589406",
+        "10.1145/3555041"
+      ],
+      "URL": "https://doi.org/10.1145/3555041.3589406",
+      "relation": {},
+      "subject": [],
+      "published": {
+        "date-parts": [
+          [
+            2023,
+            6,
+            4
+          ]
+        ]
+      },
+      "assertion": [
+        {
+          "value": "2023-06-05",
+          "order": 2,
+          "name": "published",
+          "label": "Published",
+          "group": {
+            "name": "publication_history",
+            "label": "Publication History"
+          }
+        }
+      ]
+    }
+  }
+}

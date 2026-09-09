@@ -1,0 +1,874 @@
+{
+  "database": "Crossref",
+  "endpoint": "https://api.crossref.org/works/10.14778%2F3574245.3574258",
+  "retrieved": "2026-09-09",
+  "status_code": 200,
+  "response": {
+    "status": "ok",
+    "message-type": "work",
+    "message-version": "1.0.0",
+    "message": {
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            9,
+            5
+          ]
+        ],
+        "date-time": "2026-09-05T01:10:14Z",
+        "timestamp": 1788570614420,
+        "version": "build-2803163510"
+      },
+      "reference-count": 105,
+      "publisher": "Association for Computing Machinery (ACM)",
+      "issue": "4",
+      "content-domain": {
+        "domain": [
+          "dl.acm.org"
+        ],
+        "crossmark-restriction": true
+      },
+      "short-container-title": [
+        "Proc. VLDB Endow."
+      ],
+      "published-print": {
+        "date-parts": [
+          [
+            2022,
+            12
+          ]
+        ]
+      },
+      "abstract": "<jats:p>Foundation Models (FMs) are models trained on large corpora of data that, at very large scale, can generalize to new tasks without any task-specific finetuning. As these models continue to grow in size, innovations continue to push the boundaries of what these models can do on language and image tasks. This paper aims to understand an underexplored area of FMs: classical data tasks like cleaning and integration. As a proof-of-concept, we cast five data cleaning and integration tasks as prompting tasks and evaluate the performance of FMs on these tasks. We find that large FMs generalize and achieve SoTA performance on data cleaning and integration tasks, even though they are not trained for these data tasks. We identify specific research challenges and opportunities that these models present, including challenges with private and domain specific data, and opportunities to make data management systems more accessible to non-experts. We make our code and experiments publicly available at: https://github.com/HazyResearch/fm_data_tasks.</jats:p>",
+      "DOI": "10.14778/3574245.3574258",
+      "type": "journal-article",
+      "created": {
+        "date-parts": [
+          [
+            2023,
+            2,
+            21
+          ]
+        ],
+        "date-time": "2023-02-21T18:14:12Z",
+        "timestamp": 1677003252000
+      },
+      "page": "738-746",
+      "update-policy": "https://doi.org/10.1145/crossmark-policy",
+      "source": "Crossref",
+      "is-referenced-by-count": 162,
+      "title": [
+        "Can Foundation Models Wrangle Your Data?"
+      ],
+      "prefix": "10.14778",
+      "volume": "16",
+      "author": [
+        {
+          "given": "Avanika",
+          "family": "Narayan",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "Stanford University"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Ines",
+          "family": "Chami",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Numbers Station"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Laurel",
+          "family": "Orr",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Stanford University"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Christopher",
+          "family": "Ré",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Stanford University"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "320",
+      "published-online": {
+        "date-parts": [
+          [
+            2023,
+            2,
+            21
+          ]
+        ]
+      },
+      "reference": [
+        {
+          "key": "e_1_2_1_1_1",
+          "unstructured": "2018. How to turn data exhaust into a competitive edge. https://knowledge.wharton.upenn.edu/article/turn-iot-data-exhaust-next-competitive-advantage/ 2018. How to turn data exhaust into a competitive edge. https://knowledge.wharton.upenn.edu/article/turn-iot-data-exhaust-next-competitive-advantage/"
+        },
+        {
+          "key": "e_1_2_1_2_1",
+          "volume-title": "Federal Judicial Caseload Statistics",
+          "year": "2020",
+          "unstructured": "2020. Federal Judicial Caseload Statistics 2020 . https://www.uscourts.gov/statistics-reports/federal-judicial-caseload-statistics-2020 2020. Federal Judicial Caseload Statistics 2020. https://www.uscourts.gov/statistics-reports/federal-judicial-caseload-statistics-2020"
+        },
+        {
+          "key": "e_1_2_1_3_1",
+          "unstructured": "2022. California Consumer Privacy Act (CCPA). https://oag.ca.gov/privacy/ccpa 2022. California Consumer Privacy Act (CCPA). https://oag.ca.gov/privacy/ccpa"
+        },
+        {
+          "key": "e_1_2_1_4_1",
+          "unstructured": "2022. Decreasing cost of storage. https://www.iotone.com/term/decreasing-cost-of-storage/t172 2022. Decreasing cost of storage. https://www.iotone.com/term/decreasing-cost-of-storage/t172"
+        },
+        {
+          "key": "e_1_2_1_5_1",
+          "unstructured": "2022. Tamr | Enterprise Data Mastering at Scale - Tamr Inc. https://www.tamr.com/ 2022. Tamr | Enterprise Data Mastering at Scale - Tamr Inc. https://www.tamr.com/"
+        },
+        {
+          "key": "e_1_2_1_6_1",
+          "unstructured": "2022. Trifacta: Data Wrangling Software and Tools. https://www.trifacta.com/ 2022. Trifacta: Data Wrangling Software and Tools. https://www.trifacta.com/"
+        },
+        {
+          "key": "e_1_2_1_7_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.14778/2994509.2994518"
+        },
+        {
+          "key": "e_1_2_1_8_1",
+          "doi-asserted-by": "crossref",
+          "first-page": "461",
+          "DOI": "10.1038/s42256-021-00359-2",
+          "article-title": "Large language models associate Muslims with violence",
+          "volume": "3",
+          "author": "Abid Abubakar",
+          "year": "2021",
+          "unstructured": "Abubakar Abid , Maheen Farooqi , and James Zou . 2021 . Large language models associate Muslims with violence . Nature Machine Intelligence 3 , 6 (2021), 461 -- 463 . Abubakar Abid, Maheen Farooqi, and James Zou. 2021. Large language models associate Muslims with violence. Nature Machine Intelligence 3, 6 (2021), 461--463.",
+          "journal-title": "Nature Machine Intelligence"
+        },
+        {
+          "key": "e_1_2_1_9_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/s40537-021-00419-9"
+        },
+        {
+          "key": "e_1_2_1_10_1",
+          "unstructured": "Adept. [n.d.]. ACT-1:Transformer for Actions. https://www.adept.ai/act Adept. [n.d.]. ACT-1:Transformer for Actions. https://www.adept.ai/act"
+        },
+        {
+          "key": "e_1_2_1_11_1",
+          "doi-asserted-by": "crossref",
+          "first-page": "103343",
+          "DOI": "10.1016/j.jbi.2019.103343",
+          "article-title": "EHR audit logs: a new goldmine for health services research",
+          "volume": "101",
+          "author": "Adler-Milstein Julia",
+          "year": "2020",
+          "unstructured": "Julia Adler-Milstein , Jason S Adelman , Ming Tai-Seale , Vimla L Patel , and Chris Dymek . 2020 . EHR audit logs: a new goldmine for health services research ? Journal of biomedical informatics 101 (2020), 103343 . Julia Adler-Milstein, Jason S Adelman, Ming Tai-Seale, Vimla L Patel, and Chris Dymek. 2020. EHR audit logs: a new goldmine for health services research? Journal of biomedical informatics 101 (2020), 103343.",
+          "journal-title": "Journal of biomedical informatics"
+        },
+        {
+          "key": "e_1_2_1_12_1",
+          "unstructured": "Jean-Baptiste Alayrac Jeff Donahue Pauline Luc Antoine Miech Iain Barr Yana Hasson Karel Lenc Arthur Mensch Katie Millican Malcolm Reynolds etal 2022. Flamingo: a Visual Language Model for Few-Shot Learning. arXiv preprint arXiv:2204.14198 (2022). Jean-Baptiste Alayrac Jeff Donahue Pauline Luc Antoine Miech Iain Barr Yana Hasson Karel Lenc Arthur Mensch Katie Millican Malcolm Reynolds et al. 2022. Flamingo: a Visual Language Model for Few-Shot Learning. arXiv preprint arXiv:2204.14198 (2022)."
+        },
+        {
+          "key": "e_1_2_1_13_1",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Simran Arora Patrick Lewis Angela Fan Jacob Kahn and Christopher Ré. 2022. Reasoning over Public and Private Data in Retrieval-Based Systems. arXiv:2203.11027 [cs.IR] Simran Arora Patrick Lewis Angela Fan Jacob Kahn and Christopher Ré. 2022. Reasoning over Public and Private Data in Retrieval-Based Systems. arXiv:2203.11027 [cs.IR]",
+          "DOI": "10.1162/tacl_a_00580"
+        },
+        {
+          "key": "e_1_2_1_14_1",
+          "volume-title": "Ask Me Anything: A simple strategy for prompting language models. arXiv preprint arXiv:2210.02441",
+          "author": "Arora Simran",
+          "year": "2022",
+          "unstructured": "Simran Arora , Avanika Narayan , Mayee F Chen , Laurel J Orr , Neel Guha , Kush Bhatia , Ines Chami , Frederic Sala , and Christopher Ré. 2022. Ask Me Anything: A simple strategy for prompting language models. arXiv preprint arXiv:2210.02441 ( 2022 ). Simran Arora, Avanika Narayan, Mayee F Chen, Laurel J Orr, Neel Guha, Kush Bhatia, Ines Chami, Frederic Sala, and Christopher Ré. 2022. Ask Me Anything: A simple strategy for prompting language models. arXiv preprint arXiv:2210.02441 (2022)."
+        },
+        {
+          "key": "e_1_2_1_15_1",
+          "volume-title": "Can Foundation Models Help Us Achieve Perfect Secrecy? arXiv preprint arXiv:2205.13722",
+          "author": "Arora Simran",
+          "year": "2022",
+          "unstructured": "Simran Arora and Christopher Ré. 2022. Can Foundation Models Help Us Achieve Perfect Secrecy? arXiv preprint arXiv:2205.13722 ( 2022 ). Simran Arora and Christopher Ré. 2022. Can Foundation Models Help Us Achieve Perfect Secrecy? arXiv preprint arXiv:2205.13722 (2022)."
+        },
+        {
+          "key": "e_1_2_1_16_1",
+          "first-page": "1",
+          "article-title": "DataWig: Missing Value Imputation for Tables",
+          "volume": "20",
+          "author": "Biessmann Felix",
+          "year": "2019",
+          "unstructured": "Felix Biessmann , Tammo Rukat , Phillipp Schmidt , Prathik Naidu , Sebastian Schelter , Andrey Taptunov , Dustin Lange , and David Salinas . 2019 . DataWig: Missing Value Imputation for Tables . Journal of Machine Learning Research 20 , 175 (2019), 1 -- 6 . http://jmlr.org/papers/v20/18-753.html Felix Biessmann, Tammo Rukat, Phillipp Schmidt, Prathik Naidu, Sebastian Schelter, Andrey Taptunov, Dustin Lange, and David Salinas. 2019. DataWig: Missing Value Imputation for Tables. Journal of Machine Learning Research 20, 175 (2019), 1--6. http://jmlr.org/papers/v20/18-753.html",
+          "journal-title": "Journal of Machine Learning Research"
+        },
+        {
+          "key": "e_1_2_1_17_1",
+          "first-page": "1",
+          "article-title": "DataWig: Missing Value Imputation for Tables",
+          "volume": "20",
+          "author": "Biessmann Felix",
+          "year": "2019",
+          "unstructured": "Felix Biessmann , Tammo Rukat , Philipp Schmidt , Prathik Naidu , Sebastian Schelter , Andrey Taptunov , Dustin Lange , and David Salinas . 2019 . DataWig: Missing Value Imputation for Tables . J. Mach. Learn. Res. 20 , 175 (2019), 1 -- 6 . Felix Biessmann, Tammo Rukat, Philipp Schmidt, Prathik Naidu, Sebastian Schelter, Andrey Taptunov, Dustin Lange, and David Salinas. 2019. DataWig: Missing Value Imputation for Tables. J. Mach. Learn. Res. 20, 175 (2019), 1--6.",
+          "journal-title": "J. Mach. Learn. Res."
+        },
+        {
+          "key": "e_1_2_1_18_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.5281/zenodo.5297715"
+        },
+        {
+          "key": "e_1_2_1_19_1",
+          "unstructured": "Rishi Bommasani Drew A Hudson Ehsan Adeli Russ Altman Simran Arora Sydney von Arx Michael S Bernstein Jeannette Bohg Antoine Bosselut Emma Brunskill etal 2021. On the opportunities and risks of foundation models. arXiv preprint arXiv:2108.07258 (2021). Rishi Bommasani Drew A Hudson Ehsan Adeli Russ Altman Simran Arora Sydney von Arx Michael S Bernstein Jeannette Bohg Antoine Bosselut Emma Brunskill et al. 2021. On the opportunities and risks of foundation models. arXiv preprint arXiv:2108.07258 (2021)."
+        },
+        {
+          "key": "e_1_2_1_20_1",
+          "unstructured": "Tom Brown Benjamin Mann Nick Ryder Melanie Subbiah Jared D Kaplan Prafulla Dhariwal Arvind Neelakantan Pranav Shyam Girish Sastry Amanda Askell etal 2020. Language models are few-shot learners. Advances in neural information processing systems 33 (2020) 1877--1901. Tom Brown Benjamin Mann Nick Ryder Melanie Subbiah Jared D Kaplan Prafulla Dhariwal Arvind Neelakantan Pranav Shyam Girish Sastry Amanda Askell et al. 2020. Language models are few-shot learners. Advances in neural information processing systems 33 (2020) 1877--1901."
+        },
+        {
+          "key": "e_1_2_1_21_1",
+          "volume-title": "Jared Kaplan, Harri Edwards, Yuri Burda, Nicholas Joseph, Greg Brockman, et al.",
+          "author": "Chen Mark",
+          "year": "2021",
+          "unstructured": "Mark Chen , Jerry Tworek , Heewoo Jun , Qiming Yuan , Henrique Ponde de Oliveira Pinto , Jared Kaplan, Harri Edwards, Yuri Burda, Nicholas Joseph, Greg Brockman, et al. 2021 . Evaluating large language models trained on code. arXiv preprint arXiv:2107.03374 (2021). Mark Chen, Jerry Tworek, Heewoo Jun, Qiming Yuan, Henrique Ponde de Oliveira Pinto, Jared Kaplan, Harri Edwards, Yuri Burda, Nicholas Joseph, Greg Brockman, et al. 2021. Evaluating large language models trained on code. arXiv preprint arXiv:2107.03374 (2021)."
+        },
+        {
+          "key": "e_1_2_1_22_1",
+          "volume-title": "Charles Sutton, Sebastian Gehrmann, et al.",
+          "author": "Chowdhery Aakanksha",
+          "year": "2022",
+          "unstructured": "Aakanksha Chowdhery , Sharan Narang , Jacob Devlin , Maarten Bosma , Gaurav Mishra , Adam Roberts , Paul Barham , Hyung Won Chung , Charles Sutton, Sebastian Gehrmann, et al. 2022 . Palm : Scaling language modeling with pathways. arXiv preprint arXiv:2204.02311 (2022). Aakanksha Chowdhery, Sharan Narang, Jacob Devlin, Maarten Bosma, Gaurav Mishra, Adam Roberts, Paul Barham, Hyung Won Chung, Charles Sutton, Sebastian Gehrmann, et al. 2022. Palm: Scaling language modeling with pathways. arXiv preprint arXiv:2204.02311 (2022)."
+        },
+        {
+          "key": "e_1_2_1_23_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/ICDE.2013.6544847"
+        },
+        {
+          "key": "e_1_2_1_24_1",
+          "volume-title": "Proceedings of the 2015 ACM SIGMOD international conference on management of data. 1247--1261",
+          "author": "Chu Xu",
+          "year": "2015",
+          "unstructured": "Xu Chu , John Morcos , Ihab F Ilyas , Mourad Ouzzani , Paolo Papotti , Nan Tang , and Yin Ye . 2015 . Katara: A data cleaning system powered by knowledge bases and crowdsourcing . In Proceedings of the 2015 ACM SIGMOD international conference on management of data. 1247--1261 . Xu Chu, John Morcos, Ihab F Ilyas, Mourad Ouzzani, Paolo Papotti, Nan Tang, and Yin Ye. 2015. Katara: A data cleaning system powered by knowledge bases and crowdsourcing. In Proceedings of the 2015 ACM SIGMOD international conference on management of data. 1247--1261."
+        },
+        {
+          "key": "e_1_2_1_25_1",
+          "unstructured": "EasyClosets Coupons. 2021. 21 best GPT-3 tools examples and use cases - nogood™: Growth Marketing Agency. https://nogood.io/2021/06/25/gpt-3-tools/ EasyClosets Coupons. 2021. 21 best GPT-3 tools examples and use cases - nogood ™ : Growth Marketing Agency. https://nogood.io/2021/06/25/gpt-3-tools/"
+        },
+        {
+          "key": "e_1_2_1_26_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/2463676.2465327"
+        },
+        {
+          "key": "e_1_2_1_27_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/2488388.2488415"
+        },
+        {
+          "key": "e_1_2_1_28_1",
+          "first-page": "11",
+          "volume-title": "Proceedings of the VLDB Endowment 5",
+          "author": "Dasu Tamraparni",
+          "year": "2012",
+          "unstructured": "Tamraparni Dasu and Ji Meng Loh . 2012 . Statistical Distortion: Consequences of Data Cleaning . Proceedings of the VLDB Endowment 5 , 11 (2012). Tamraparni Dasu and Ji Meng Loh. 2012. Statistical Distortion: Consequences of Data Cleaning. Proceedings of the VLDB Endowment 5, 11 (2012)."
+        },
+        {
+          "key": "e_1_2_1_29_1",
+          "unstructured": "Xiang Deng Ahmed Hassan Awadallah Christopher Meek Oleksandr Polozov Huan Sun and Matthew Richardson. [n. d.]. Structure-Grounded Pretraining for Text-to-SQL. ([n. d.]). Xiang Deng Ahmed Hassan Awadallah Christopher Meek Oleksandr Polozov Huan Sun and Matthew Richardson. [n. d.]. Structure-Grounded Pretraining for Text-to-SQL. ([n. d.])."
+        },
+        {
+          "key": "e_1_2_1_30_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/3542700.3542709"
+        },
+        {
+          "key": "e_1_2_1_31_1",
+          "volume-title": "A No-Code Low-Code Paradigm for Authoring Business Automations Using Natural Language. arXiv preprint arXiv:2207.10648",
+          "author": "Desmond Michael",
+          "year": "2022",
+          "unstructured": "Michael Desmond , Evelyn Duesterwald , Vatche Isahagian , and Vinod Muthusamy . 2022. A No-Code Low-Code Paradigm for Authoring Business Automations Using Natural Language. arXiv preprint arXiv:2207.10648 ( 2022 ). Michael Desmond, Evelyn Duesterwald, Vatche Isahagian, and Vinod Muthusamy. 2022. A No-Code Low-Code Paradigm for Authoring Business Automations Using Natural Language. arXiv preprint arXiv:2207.10648 (2022)."
+        },
+        {
+          "key": "e_1_2_1_32_1",
+          "volume-title": "Bert: Pre-training of deep bidirectional transformers for language understanding. arXiv preprint arXiv:1810.04805",
+          "author": "Devlin Jacob",
+          "year": "2018",
+          "unstructured": "Jacob Devlin , Ming-Wei Chang , Kenton Lee , and Kristina Toutanova . 2018 . Bert: Pre-training of deep bidirectional transformers for language understanding. arXiv preprint arXiv:1810.04805 (2018). Jacob Devlin, Ming-Wei Chang, Kenton Lee, and Kristina Toutanova. 2018. Bert: Pre-training of deep bidirectional transformers for language understanding. arXiv preprint arXiv:1810.04805 (2018)."
+        },
+        {
+          "key": "e_1_2_1_33_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.18653/v1/N19-1423"
+        },
+        {
+          "key": "e_1_2_1_34_1",
+          "volume-title": "Alec Radford, and Ilya Sutskever.",
+          "author": "Dhariwal Prafulla",
+          "year": "2020",
+          "unstructured": "Prafulla Dhariwal , Heewoo Jun , Christine Payne , Jong Wook Kim , Alec Radford, and Ilya Sutskever. 2020 . Jukebox : A Generative Model for Music. CoRR abs/2005.00341 (2020). https://arxiv.org/abs/2005.00341 Prafulla Dhariwal, Heewoo Jun, Christine Payne, Jong Wook Kim, Alec Radford, and Ilya Sutskever. 2020. Jukebox: A Generative Model for Music. CoRR abs/2005.00341 (2020). https://arxiv.org/abs/2005.00341"
+        },
+        {
+          "key": "e_1_2_1_35_1",
+          "volume-title": "MIDAS regressions: Further results and new directions. Econometric reviews 26, 1",
+          "author": "Ghysels Eric",
+          "year": "2007",
+          "unstructured": "Eric Ghysels , Arthur Sinko , and Rossen Valkanov . 2007. MIDAS regressions: Further results and new directions. Econometric reviews 26, 1 ( 2007 ), 53--90. Eric Ghysels, Arthur Sinko, and Rossen Valkanov. 2007. MIDAS regressions: Further results and new directions. Econometric reviews 26, 1 (2007), 53--90."
+        },
+        {
+          "key": "e_1_2_1_36_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/2588555.2588576"
+        },
+        {
+          "key": "e_1_2_1_37_1",
+          "volume-title": "Don't stop pretraining: adapt language models to domains and tasks. arXiv preprint arXiv:2004.10964",
+          "author": "Gururangan Suchin",
+          "year": "2020",
+          "unstructured": "Suchin Gururangan , Ana Marasović , Swabha Swayamdipta , Kyle Lo , Iz Beltagy , Doug Downey , and Noah A Smith . 2020. Don't stop pretraining: adapt language models to domains and tasks. arXiv preprint arXiv:2004.10964 ( 2020 ). Suchin Gururangan, Ana Marasović, Swabha Swayamdipta, Kyle Lo, Iz Beltagy, Doug Downey, and Noah A Smith. 2020. Don't stop pretraining: adapt language models to domains and tasks. arXiv preprint arXiv:2004.10964 (2020)."
+        },
+        {
+          "key": "e_1_2_1_38_1",
+          "volume-title": "Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics (ACL). 8342--8360",
+          "author": "Gururangan Suchin",
+          "unstructured": "Suchin Gururangan , Ana Marasovic , Swabha Swayamdipta , Kyle Lo , Iz Beltagy , Doug Downey , and Noah A. Smith . 2020. Don't stop pretraining: Adapt language models to domains and tasks . In Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics (ACL). 8342--8360 . Suchin Gururangan, Ana Marasovic, Swabha Swayamdipta, Kyle Lo, Iz Beltagy, Doug Downey, and Noah A. Smith. 2020. Don't stop pretraining: Adapt language models to domains and tasks. In Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics (ACL). 8342--8360."
+        },
+        {
+          "key": "e_1_2_1_39_1",
+          "volume-title": "Realm: Retrieval-augmented language model pre-training. arXiv preprint arXiv:2002.08909",
+          "author": "Guu Kelvin",
+          "year": "2020",
+          "unstructured": "Kelvin Guu , Kenton Lee , Zora Tung , Panupong Pasupat , and Ming-Wei Chang . 2020 . Realm: Retrieval-augmented language model pre-training. arXiv preprint arXiv:2002.08909 (2020). Kelvin Guu, Kenton Lee, Zora Tung, Panupong Pasupat, and Ming-Wei Chang. 2020. Realm: Retrieval-augmented language model pre-training. arXiv preprint arXiv:2002.08909 (2020)."
+        },
+        {
+          "key": "e_1_2_1_40_1",
+          "volume-title": "Proceedings of the VLDB Endowment 11",
+          "author": "He Yeye",
+          "year": "2018",
+          "unstructured": "Yeye He , Xu Chu , Kris Ganjam , Yudian Zheng , Vivek Narasayya , and Surajit Chaudhuri . 2018 . Transform-Data-by-Example (TDE): An Extensible Search Engine for Data Transformations . Proceedings of the VLDB Endowment 11 , 10 (2018). Yeye He, Xu Chu, Kris Ganjam, Yudian Zheng, Vivek Narasayya, and Surajit Chaudhuri. 2018. Transform-Data-by-Example (TDE): An Extensible Search Engine for Data Transformations. Proceedings of the VLDB Endowment 11, 10 (2018)."
+        },
+        {
+          "key": "e_1_2_1_41_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/3299869.3319888"
+        },
+        {
+          "key": "e_1_2_1_42_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.48550/ARXIV.1902.00751"
+        },
+        {
+          "key": "e_1_2_1_43_1",
+          "unstructured": "IBM. [n. d.]. Data Integration Phases. https://www.ibm.com/docs/en/iis/11.7?topic=SSZJPZ_11.7.0%2Fcom.ibm.swg.im.iis.productization.iisinfsv.overview.doc%2Ftopics%2Fcisocapabilities.html IBM. [n. d.]. Data Integration Phases. https://www.ibm.com/docs/en/iis/11.7?topic=SSZJPZ_11.7.0%2Fcom.ibm.swg.im.iis.productization.iisinfsv.overview.doc%2Ftopics%2Fcisocapabilities.html"
+        },
+        {
+          "key": "e_1_2_1_44_1",
+          "volume-title": "Lifelong pretraining: Continually adapting language models to emerging corpora. arXiv preprint arXiv:2110.08534",
+          "author": "Jin Xisen",
+          "year": "2021",
+          "unstructured": "Xisen Jin , Dejiao Zhang , Henghui Zhu , Wei Xiao , Shang-Wen Li , Xiaokai Wei , Andrew Arnold , and Xiang Ren . 2021. Lifelong pretraining: Continually adapting language models to emerging corpora. arXiv preprint arXiv:2110.08534 ( 2021 ). Xisen Jin, Dejiao Zhang, Henghui Zhu, Wei Xiao, Shang-Wen Li, Xiaokai Wei, Andrew Arnold, and Xiang Ren. 2021. Lifelong pretraining: Continually adapting language models to emerging corpora. arXiv preprint arXiv:2110.08534 (2021)."
+        },
+        {
+          "key": "e_1_2_1_45_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/1978942.1979444"
+        },
+        {
+          "key": "e_1_2_1_46_1",
+          "volume-title": "Scaling laws for neural language models. arXiv preprint arXiv:2001.08361",
+          "author": "Kaplan Jared",
+          "year": "2020",
+          "unstructured": "Jared Kaplan , Sam McCandlish , Tom Henighan , Tom B Brown , Benjamin Chess , Rewon Child , Scott Gray , Alec Radford , Jeffrey Wu , and Dario Amodei . 2020. Scaling laws for neural language models. arXiv preprint arXiv:2001.08361 ( 2020 ). Jared Kaplan, Sam McCandlish, Tom Henighan, Tom B Brown, Benjamin Chess, Rewon Child, Scott Gray, Alec Radford, Jeffrey Wu, and Dario Amodei. 2020. Scaling laws for neural language models. arXiv preprint arXiv:2001.08361 (2020)."
+        },
+        {
+          "key": "e_1_2_1_47_1",
+          "unstructured": "Ehud Karpas Omri Abend Yonatan Belinkov Barak Lenz Opher Lieber Nir Ratner Yoav Shoham Hofit Bata Yoav Levine Kevin Leyton-Brown etal 2022. MRKL Systems: A modular neuro-symbolic architecture that combines large language models external knowledge sources and discrete reasoning. arXiv preprint arXiv:2205.00445 (2022). Ehud Karpas Omri Abend Yonatan Belinkov Barak Lenz Opher Lieber Nir Ratner Yoav Shoham Hofit Bata Yoav Levine Kevin Leyton-Brown et al. 2022. MRKL Systems: A modular neuro-symbolic architecture that combines large language models external knowledge sources and discrete reasoning. arXiv preprint arXiv:2205.00445 (2022)."
+        },
+        {
+          "key": "e_1_2_1_48_1",
+          "volume-title": "Achieving Forgetting Prevention and Knowledge Transfer in Continual Learning. Advances in Neural Information Processing Systems 34",
+          "author": "Ke Zixuan",
+          "year": "2021",
+          "unstructured": "Zixuan Ke , Bing Liu , Nianzu Ma , Hu Xu , and Lei Shu . 2021. Achieving Forgetting Prevention and Knowledge Transfer in Continual Learning. Advances in Neural Information Processing Systems 34 ( 2021 ). Zixuan Ke, Bing Liu, Nianzu Ma, Hu Xu, and Lei Shu. 2021. Achieving Forgetting Prevention and Knowledge Transfer in Continual Learning. Advances in Neural Information Processing Systems 34 (2021)."
+        },
+        {
+          "key": "e_1_2_1_49_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.14778/3007263.3007314"
+        },
+        {
+          "key": "e_1_2_1_50_1",
+          "volume-title": "STANDING ON THE SHOULDERS OF GIANT FROZEN LANGUAGE MODELS. preprint",
+          "year": "2022",
+          "unstructured": "AI21 Labs. 2022. STANDING ON THE SHOULDERS OF GIANT FROZEN LANGUAGE MODELS. preprint ( 2022 ). AI21 Labs. 2022. STANDING ON THE SHOULDERS OF GIANT FROZEN LANGUAGE MODELS. preprint (2022)."
+        },
+        {
+          "key": "e_1_2_1_51_1",
+          "volume-title": "ALBERT: A Lite BERT for Self-supervised Learning of Language Representations. In International Conference on Learning Representations. https://openreview.net/forum?id=H1eA7AEtvS",
+          "author": "Lan Zhenzhong",
+          "year": "2020",
+          "unstructured": "Zhenzhong Lan , Mingda Chen , Sebastian Goodman , Kevin Gimpel , Piyush Sharma , and Radu Soricut . 2020 . ALBERT: A Lite BERT for Self-supervised Learning of Language Representations. In International Conference on Learning Representations. https://openreview.net/forum?id=H1eA7AEtvS Zhenzhong Lan, Mingda Chen, Sebastian Goodman, Kevin Gimpel, Piyush Sharma, and Radu Soricut. 2020. ALBERT: A Lite BERT for Self-supervised Learning of Language Representations. In International Conference on Learning Representations. https://openreview.net/forum?id=H1eA7AEtvS"
+        },
+        {
+          "key": "e_1_2_1_52_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.18653/v1/2021.emnlp-main.243"
+        },
+        {
+          "key": "e_1_2_1_53_1",
+          "volume-title": "Proceedings of the 2021 Conference on Empirical Methods in Natural Language Processing. 3045--3059",
+          "author": "Lester Brian",
+          "year": "2021",
+          "unstructured": "Brian Lester , Rami Al-Rfou , and Noah Constant . 2021 . The Power of Scale for Parameter-Efficient Prompt Tuning . In Proceedings of the 2021 Conference on Empirical Methods in Natural Language Processing. 3045--3059 . Brian Lester, Rami Al-Rfou, and Noah Constant. 2021. The Power of Scale for Parameter-Efficient Prompt Tuning. In Proceedings of the 2021 Conference on Empirical Methods in Natural Language Processing. 3045--3059."
+        },
+        {
+          "key": "e_1_2_1_54_1",
+          "unstructured": "Yoav Levine Itay Dalmedigos Ori Ram Yoel Zeldes Daniel Jannai Dor Muhlgay Yoni Osin Opher Lieber Barak Lenz Shai Shalev-Shwartz etal 2022. Standing on the shoulders of giant frozen language models. arXiv preprint arXiv:2204.10019 (2022). Yoav Levine Itay Dalmedigos Ori Ram Yoel Zeldes Daniel Jannai Dor Muhlgay Yoni Osin Opher Lieber Barak Lenz Shai Shalev-Shwartz et al. 2022. Standing on the shoulders of giant frozen language models. arXiv preprint arXiv:2204.10019 (2022)."
+        },
+        {
+          "key": "e_1_2_1_55_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.18653/v1/2021.acl-long.353"
+        },
+        {
+          "key": "e_1_2_1_56_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.18653/v1/2021.acl-long.353"
+        },
+        {
+          "key": "e_1_2_1_57_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.14778/3421424.3421431"
+        },
+        {
+          "key": "e_1_2_1_58_1",
+          "volume-title": "International Conference on Machine Learning. PMLR, 6565--6576",
+          "author": "Liang Paul Pu",
+          "year": "2021",
+          "unstructured": "Paul Pu Liang , Chiyu Wu , Louis-Philippe Morency , and Ruslan Salakhutdinov . 2021 . Towards understanding and mitigating social biases in language models . In International Conference on Machine Learning. PMLR, 6565--6576 . Paul Pu Liang, Chiyu Wu, Louis-Philippe Morency, and Ruslan Salakhutdinov. 2021. Towards understanding and mitigating social biases in language models. In International Conference on Machine Learning. PMLR, 6565--6576."
+        },
+        {
+          "key": "e_1_2_1_59_1",
+          "unstructured": "Stephanie Lin Jacob Hilton and Owain Evans. 2021. TruthfulQA: Measuring How Models Mimic Human Falsehoods. (2021). Stephanie Lin Jacob Hilton and Owain Evans. 2021. TruthfulQA: Measuring How Models Mimic Human Falsehoods. (2021)."
+        },
+        {
+          "key": "e_1_2_1_60_1",
+          "volume-title": "Teaching Models to Express Their Uncertainty in Words. arXiv preprint arXiv:2205.14334",
+          "author": "Lin Stephanie",
+          "year": "2022",
+          "unstructured": "Stephanie Lin , Jacob Hilton , and Owain Evans . 2022. Teaching Models to Express Their Uncertainty in Words. arXiv preprint arXiv:2205.14334 ( 2022 ). Stephanie Lin, Jacob Hilton, and Owain Evans. 2022. Teaching Models to Express Their Uncertainty in Words. arXiv preprint arXiv:2205.14334 (2022)."
+        },
+        {
+          "key": "e_1_2_1_61_1",
+          "volume-title": "WANLI: Worker and AI Collaboration for Natural Language Inference Dataset Creation. arXiv preprint arXiv:2201.05955",
+          "author": "Liu Alisa",
+          "year": "2022",
+          "unstructured": "Alisa Liu , Swabha Swayamdipta , Noah A Smith , and Yejin Choi . 2022 . WANLI: Worker and AI Collaboration for Natural Language Inference Dataset Creation. arXiv preprint arXiv:2201.05955 (2022). Alisa Liu, Swabha Swayamdipta, Noah A Smith, and Yejin Choi. 2022. WANLI: Worker and AI Collaboration for Natural Language Inference Dataset Creation. arXiv preprint arXiv:2201.05955 (2022)."
+        },
+        {
+          "key": "e_1_2_1_62_1",
+          "volume-title": "What Makes Good In-Context Examples for GPT-3? arXiv preprint arXiv:2101.06804",
+          "author": "Liu Jiachang",
+          "year": "2021",
+          "unstructured": "Jiachang Liu , Dinghan Shen , Yizhe Zhang , Bill Dolan , Lawrence Carin , and Weizhu Chen . 2021. What Makes Good In-Context Examples for GPT-3? arXiv preprint arXiv:2101.06804 ( 2021 ). Jiachang Liu, Dinghan Shen, Yizhe Zhang, Bill Dolan, Lawrence Carin, and Weizhu Chen. 2021. What Makes Good In-Context Examples for GPT-3? arXiv preprint arXiv:2101.06804 (2021)."
+        },
+        {
+          "key": "e_1_2_1_63_1",
+          "volume-title": "prompt, and predict: A systematic survey of prompting methods in natural language processing. arXiv preprint arXiv:2107.13586",
+          "author": "Liu Pengfei",
+          "year": "2021",
+          "unstructured": "Pengfei Liu , Weizhe Yuan , Jinlan Fu , Zhengbao Jiang , Hiroaki Hayashi , and Graham Neubig . 2021. Pre-train , prompt, and predict: A systematic survey of prompting methods in natural language processing. arXiv preprint arXiv:2107.13586 ( 2021 ). Pengfei Liu, Weizhe Yuan, Jinlan Fu, Zhengbao Jiang, Hiroaki Hayashi, and Graham Neubig. 2021. Pre-train, prompt, and predict: A systematic survey of prompting methods in natural language processing. arXiv preprint arXiv:2107.13586 (2021)."
+        },
+        {
+          "key": "e_1_2_1_64_1",
+          "volume-title": "Roberta: A robustly optimized bert pretraining approach. arXiv preprint arXiv:1907.11692",
+          "author": "Liu Yinhan",
+          "year": "2019",
+          "unstructured": "Yinhan Liu , Myle Ott , Naman Goyal , Jingfei Du , Mandar Joshi , Danqi Chen , Omer Levy , Mike Lewis , Luke Zettlemoyer , and Veselin Stoyanov . 2019 . Roberta: A robustly optimized bert pretraining approach. arXiv preprint arXiv:1907.11692 (2019). Yinhan Liu, Myle Ott, Naman Goyal, Jingfei Du, Mandar Joshi, Danqi Chen, Omer Levy, Mike Lewis, Luke Zettlemoyer, and Veselin Stoyanov. 2019. Roberta: A robustly optimized bert pretraining approach. arXiv preprint arXiv:1907.11692 (2019)."
+        },
+        {
+          "key": "e_1_2_1_65_1",
+          "volume-title": "Decoupled weight decay regularization. arXiv preprint arXiv:1711.05101",
+          "author": "Loshchilov Ilya",
+          "year": "2017",
+          "unstructured": "Ilya Loshchilov and Frank Hutter . 2017. Decoupled weight decay regularization. arXiv preprint arXiv:1711.05101 ( 2017 ). Ilya Loshchilov and Frank Hutter. 2017. Decoupled weight decay regularization. arXiv preprint arXiv:1711.05101 (2017)."
+        },
+        {
+          "key": "e_1_2_1_66_1",
+          "volume-title": "Fantastically ordered prompts and where to find them: Overcoming few-shot prompt order sensitivity. arXiv preprint arXiv:2104.08786",
+          "author": "Lu Yao",
+          "year": "2021",
+          "unstructured": "Yao Lu , Max Bartolo , Alastair Moore , Sebastian Riedel , and Pontus Stenetorp . 2021. Fantastically ordered prompts and where to find them: Overcoming few-shot prompt order sensitivity. arXiv preprint arXiv:2104.08786 ( 2021 ). Yao Lu, Max Bartolo, Alastair Moore, Sebastian Riedel, and Pontus Stenetorp. 2021. Fantastically ordered prompts and where to find them: Overcoming few-shot prompt order sensitivity. arXiv preprint arXiv:2104.08786 (2021)."
+        },
+        {
+          "key": "e_1_2_1_67_1",
+          "first-page": "48",
+          "article-title": "Gender and Representation Bias in GPT-3 Generated Stories",
+          "volume": "2021",
+          "author": "Lucy Li",
+          "year": "2021",
+          "unstructured": "Li Lucy and David Bamman . 2021 . Gender and Representation Bias in GPT-3 Generated Stories . NAACL HLT 2021 (2021), 48 . Li Lucy and David Bamman. 2021. Gender and Representation Bias in GPT-3 Generated Stories. NAACL HLT 2021 (2021), 48.",
+          "journal-title": "NAACL HLT"
+        },
+        {
+          "key": "e_1_2_1_68_1",
+          "volume-title": "Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (ACL).",
+          "author": "Mahabadi Rabeeh Karimi",
+          "year": "2022",
+          "unstructured": "Rabeeh Karimi Mahabadi , Luke Zettlemoyer , James Henderson , Marzieh Saeidi , Lambert Mathias , Veselin Stoyanov , and Majid Yazdani . 2022 . PERFECT: Prompt-free and Efficient Language Model Fine-Tuning . In Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (ACL). Rabeeh Karimi Mahabadi, Luke Zettlemoyer, James Henderson, Marzieh Saeidi, Lambert Mathias, Veselin Stoyanov, and Majid Yazdani. 2022. PERFECT: Prompt-free and Efficient Language Model Fine-Tuning. In Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (ACL)."
+        },
+        {
+          "key": "e_1_2_1_69_1",
+          "unstructured": "Bernard Marr. 2021. What is unstructured data and why is it so important to businesses? https://www.forbes.com/sites/bernardmarr/2019/10/16/what-is-unstructured-data-and-why-is-it-so-important-to-businesses-an-easy-explanation-for-anyone/?sh=999b04d15f64 Bernard Marr. 2021. What is unstructured data and why is it so important to businesses? https://www.forbes.com/sites/bernardmarr/2019/10/16/what-is-unstructured-data-and-why-is-it-so-important-to-businesses-an-easy-explanation-for-anyone/?sh=999b04d15f64"
+        },
+        {
+          "key": "e_1_2_1_70_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/1807167.1807178"
+        },
+        {
+          "key": "e_1_2_1_71_1",
+          "volume-title": "Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics (ACL). 1906--1919",
+          "author": "Maynez Joshua",
+          "year": "2020",
+          "unstructured": "Joshua Maynez , Shashi Narayan , Bernd Bohnet , and Ryan McDonald . 2020 . On Faithfulness and Factuality in Abstractive Summarization . In Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics (ACL). 1906--1919 . Joshua Maynez, Shashi Narayan, Bernd Bohnet, and Ryan McDonald. 2020. On Faithfulness and Factuality in Abstractive Summarization. In Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics (ACL). 1906--1919."
+        },
+        {
+          "key": "e_1_2_1_72_1",
+          "volume-title": "Capturing Semantics for Imputation with Pre-trained Language Models. In 2021 IEEE 37th International Conference on Data Engineering (ICDE). IEEE, 61--72",
+          "author": "Mei Yinan",
+          "year": "2021",
+          "unstructured": "Yinan Mei , Shaoxu Song , Chenguang Fang , Haifeng Yang , Jingyun Fang , and Jiang Long . 2021 . Capturing Semantics for Imputation with Pre-trained Language Models. In 2021 IEEE 37th International Conference on Data Engineering (ICDE). IEEE, 61--72 . Yinan Mei, Shaoxu Song, Chenguang Fang, Haifeng Yang, Jingyun Fang, and Jiang Long. 2021. Capturing Semantics for Imputation with Pre-trained Language Models. In 2021 IEEE 37th International Conference on Data Engineering (ICDE). IEEE, 61--72."
+        },
+        {
+          "key": "e_1_2_1_73_1",
+          "volume-title": "International Conference on Learning Representations. https://openreview.net/forum?id=0DcZxeWfOPt",
+          "author": "Mitchell Eric",
+          "year": "2022",
+          "unstructured": "Eric Mitchell , Charles Lin , Antoine Bosselut , Chelsea Finn , and Christopher D Manning . 2022 . Fast Model Editing at Scale . In International Conference on Learning Representations. https://openreview.net/forum?id=0DcZxeWfOPt Eric Mitchell, Charles Lin, Antoine Bosselut, Chelsea Finn, and Christopher D Manning. 2022. Fast Model Editing at Scale. In International Conference on Learning Representations. https://openreview.net/forum?id=0DcZxeWfOPt"
+        },
+        {
+          "key": "e_1_2_1_74_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/3183713.3196926"
+        },
+        {
+          "key": "e_1_2_1_75_1",
+          "volume-title": "Can Foundation Models Wrangle Your Data? arXiv preprint arXiv:2205.09911",
+          "author": "Narayan Avanika",
+          "year": "2022",
+          "unstructured": "Avanika Narayan , Ines Chami , Laurel Orr , and Christopher Ré. 2022. Can Foundation Models Wrangle Your Data? arXiv preprint arXiv:2205.09911 ( 2022 ). Avanika Narayan, Ines Chami, Laurel Orr, and Christopher Ré. 2022. Can Foundation Models Wrangle Your Data? arXiv preprint arXiv:2205.09911 (2022)."
+        },
+        {
+          "key": "e_1_2_1_76_1",
+          "unstructured": "OpenAI. 2021. OpenAI API. https://openai.com/api/ OpenAI. 2021. OpenAI API. https://openai.com/api/"
+        },
+        {
+          "key": "e_1_2_1_77_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/3377455"
+        },
+        {
+          "key": "e_1_2_1_78_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.18653/v1/N18--1202"
+        },
+        {
+          "key": "e_1_2_1_79_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.18653/v1/D19-1250"
+        },
+        {
+          "key": "e_1_2_1_80_1",
+          "first-page": "1",
+          "article-title": "Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer",
+          "volume": "21",
+          "author": "Raffel Colin",
+          "year": "2020",
+          "unstructured": "Colin Raffel , Noam Shazeer , Adam Roberts , Katherine Lee , Sharan Narang , Michael Matena , Yanqi Zhou , Wei Li , and Peter J Liu . 2020 . Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer . Journal of Machine Learning Research 21 (2020), 1 -- 67 . Colin Raffel, Noam Shazeer, Adam Roberts, Katherine Lee, Sharan Narang, Michael Matena, Yanqi Zhou, Wei Li, and Peter J Liu. 2020. Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer. Journal of Machine Learning Research 21 (2020), 1--67.",
+          "journal-title": "Journal of Machine Learning Research"
+        },
+        {
+          "key": "e_1_2_1_81_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/3394486.3406703"
+        },
+        {
+          "key": "e_1_2_1_82_1",
+          "volume-title": "Language Models As or For Knowledge Bases. arXiv preprint arXiv:2110.04888",
+          "author": "Razniewski Simon",
+          "year": "2021",
+          "unstructured": "Simon Razniewski , Andrew Yates , Nora Kassner , and Gerhard Weikum . 2021. Language Models As or For Knowledge Bases. arXiv preprint arXiv:2110.04888 ( 2021 ). Simon Razniewski, Andrew Yates, Nora Kassner, and Gerhard Weikum. 2021. Language Models As or For Knowledge Bases. arXiv preprint arXiv:2110.04888 (2021)."
+        },
+        {
+          "key": "e_1_2_1_83_1",
+          "volume-title": "Alexander Novikov, Gabriel Barth-Maron, Mai Gimenez, Yury Sulsky, Jackie Kay, Jost Tobias Springenberg, et al.",
+          "author": "Reed Scott",
+          "year": "2022",
+          "unstructured": "Scott Reed , Konrad Zolna , Emilio Parisotto , Sergio Gomez Colmenarejo , Alexander Novikov, Gabriel Barth-Maron, Mai Gimenez, Yury Sulsky, Jackie Kay, Jost Tobias Springenberg, et al. 2022 . A Generalist Agent . arXiv preprint arXiv:2205.06175 (2022). Scott Reed, Konrad Zolna, Emilio Parisotto, Sergio Gomez Colmenarejo, Alexander Novikov, Gabriel Barth-Maron, Mai Gimenez, Yury Sulsky, Jackie Kay, Jost Tobias Springenberg, et al. 2022. A Generalist Agent. arXiv preprint arXiv:2205.06175 (2022)."
+        },
+        {
+          "key": "e_1_2_1_84_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.14778/3137628.3137631"
+        },
+        {
+          "key": "e_1_2_1_85_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/3411763.3451760"
+        },
+        {
+          "key": "e_1_2_1_86_1",
+          "volume-title": "Learning to retrieve prompts for in-context learning. arXiv preprint arXiv:2112.08633",
+          "author": "Rubin Ohad",
+          "year": "2021",
+          "unstructured": "Ohad Rubin , Jonathan Herzig , and Jonathan Berant . 2021. Learning to retrieve prompts for in-context learning. arXiv preprint arXiv:2112.08633 ( 2021 ). Ohad Rubin, Jonathan Herzig, and Jonathan Berant. 2021. Learning to retrieve prompts for in-context learning. arXiv preprint arXiv:2112.08633 (2021)."
+        },
+        {
+          "key": "e_1_2_1_87_1",
+          "volume-title": "Multitask Prompted Training Enables Zero-Shot Task Generalization. In International Conference on Learning Representations. https://openreview.net/forum?id=9Vrb9D0WI4",
+          "author": "Sanh Victor",
+          "year": "2022",
+          "unstructured": "Victor Sanh , Albert Webson , Colin Raffel , Stephen H Bach , Lintang Sutawika , Zaid Alyafeai , Antoine Chaffin , Arnaud Stiegler , Teven Le Scao , Arun Raja , 2022 . Multitask Prompted Training Enables Zero-Shot Task Generalization. In International Conference on Learning Representations. https://openreview.net/forum?id=9Vrb9D0WI4 Victor Sanh, Albert Webson, Colin Raffel, Stephen H Bach, Lintang Sutawika, Zaid Alyafeai, Antoine Chaffin, Arnaud Stiegler, Teven Le Scao, Arun Raja, et al. 2022. Multitask Prompted Training Enables Zero-Shot Task Generalization. In International Conference on Learning Representations. https://openreview.net/forum?id=9Vrb9D0WI4"
+        },
+        {
+          "key": "e_1_2_1_88_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.18653/v1/2021.naacl-main.185"
+        },
+        {
+          "key": "e_1_2_1_89_1",
+          "volume-title": "Cidr",
+          "volume": "2013",
+          "author": "Stonebraker Michael",
+          "year": "2013",
+          "unstructured": "Michael Stonebraker , Daniel Bruckner , Ihab F Ilyas , George Beskales , Mitch Cherniack , Stanley B Zdonik , Alexander Pagan , and Shan Xu . 2013 . Data Curation at Scale: The Data Tamer System .. In Cidr , Vol. 2013 . Citeseer. Michael Stonebraker, Daniel Bruckner, Ihab F Ilyas, George Beskales, Mitch Cherniack, Stanley B Zdonik, Alexander Pagan, and Shan Xu. 2013. Data Curation at Scale: The Data Tamer System.. In Cidr, Vol. 2013. Citeseer."
+        },
+        {
+          "key": "e_1_2_1_90_1",
+          "volume-title": "Conditioned natural language generation using only unconditioned language model: An exploration. arXiv preprint arXiv:2011.07347",
+          "author": "Sun Fan-Keng",
+          "year": "2020",
+          "unstructured": "Fan-Keng Sun and Cheng- I Lai . 2020. Conditioned natural language generation using only unconditioned language model: An exploration. arXiv preprint arXiv:2011.07347 ( 2020 ). Fan-Keng Sun and Cheng-I Lai. 2020. Conditioned natural language generation using only unconditioned language model: An exploration. arXiv preprint arXiv:2011.07347 (2020)."
+        },
+        {
+          "key": "e_1_2_1_91_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1609/aaai.v34i05.6428"
+        },
+        {
+          "key": "e_1_2_1_92_1",
+          "volume-title": "Survey: Models and Prototypes of Schema Matching. International Journal of Electrical & Computer Engineering (2088-8708) 6, 3",
+          "author": "Sutanta Edhy",
+          "year": "2016",
+          "unstructured": "Edhy Sutanta , Retantyo Wardoyo , Khabib Mustofa , and Edi Winarko . 2016 . Survey: Models and Prototypes of Schema Matching. International Journal of Electrical & Computer Engineering (2088-8708) 6, 3 (2016). Edhy Sutanta, Retantyo Wardoyo, Khabib Mustofa, and Edi Winarko. 2016. Survey: Models and Prototypes of Schema Matching. International Journal of Electrical & Computer Engineering (2088-8708) 6, 3 (2016)."
+        },
+        {
+          "key": "e_1_2_1_93_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/978-3-319-57959-7"
+        },
+        {
+          "key": "e_1_2_1_94_1",
+          "unstructured": "Ben Wang and Aran Komatsuzaki. 2021. GPT-J-6B: A 6 Billion Parameter Autoregressive Language Model. https://github.com/kingoflolz/mesh-transformer-jax. Ben Wang and Aran Komatsuzaki. 2021. GPT-J-6B: A 6 Billion Parameter Autoregressive Language Model. https://github.com/kingoflolz/mesh-transformer-jax."
+        },
+        {
+          "key": "e_1_2_1_95_1",
+          "volume-title": "Enabling Conversational Interaction with Mobile UI using Large Language Models. arXiv preprint arXiv:2209.08655",
+          "author": "Wang Bryan",
+          "year": "2022",
+          "unstructured": "Bryan Wang , Gang Li , and Yang Li. 2022. Enabling Conversational Interaction with Mobile UI using Large Language Models. arXiv preprint arXiv:2209.08655 ( 2022 ). Bryan Wang, Gang Li, and Yang Li. 2022. Enabling Conversational Interaction with Mobile UI using Large Language Models. arXiv preprint arXiv:2209.08655 (2022)."
+        },
+        {
+          "key": "e_1_2_1_96_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.14778/2350229.2350263"
+        },
+        {
+          "key": "e_1_2_1_97_1",
+          "volume-title": "Do Prompt-Based Models Really Understand the Meaning of their Prompts? arXiv preprint arXiv:2109.01247",
+          "author": "Webson Albert",
+          "year": "2021",
+          "unstructured": "Albert Webson and Ellie Pavlick . 2021. Do Prompt-Based Models Really Understand the Meaning of their Prompts? arXiv preprint arXiv:2109.01247 ( 2021 ). Albert Webson and Ellie Pavlick. 2021. Do Prompt-Based Models Really Understand the Meaning of their Prompts? arXiv preprint arXiv:2109.01247 (2021)."
+        },
+        {
+          "key": "e_1_2_1_98_1",
+          "volume-title": "Chi, Quoc Le, and Denny Zhou",
+          "author": "Wei Jason",
+          "year": "2022",
+          "unstructured": "Jason Wei , Xuezhi Wang , Dale Schuurmans , Maarten Bosma , Ed Chi, Quoc Le, and Denny Zhou . 2022 . Chain of thought prompting elicits reasoning in large language models. arXiv preprint arXiv:2201.11903 (2022). Jason Wei, Xuezhi Wang, Dale Schuurmans, Maarten Bosma, Ed Chi, Quoc Le, and Denny Zhou. 2022. Chain of thought prompting elicits reasoning in large language models. arXiv preprint arXiv:2201.11903 (2022)."
+        },
+        {
+          "key": "e_1_2_1_99_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/3491102.3517582"
+        },
+        {
+          "key": "e_1_2_1_100_1",
+          "volume-title": "Deep Learning for Code Workshop.",
+          "author": "Xu Frank F",
+          "year": "2022",
+          "unstructured": "Frank F Xu , Uri Alon , Graham Neubig , and Vincent Josua Hellendoorn . 2022 . A Systematic Evaluation of Large Language Models of Code . In Deep Learning for Code Workshop. Frank F Xu, Uri Alon, Graham Neubig, and Vincent Josua Hellendoorn. 2022. A Systematic Evaluation of Large Language Models of Code. In Deep Learning for Code Workshop."
+        },
+        {
+          "key": "e_1_2_1_101_1",
+          "volume-title": "Videogpt: Video generation using vq-vae and transformers. arXiv preprint arXiv:2104.10157",
+          "author": "Yan Wilson",
+          "year": "2021",
+          "unstructured": "Wilson Yan , Yunzhi Zhang , Pieter Abbeel , and Aravind Srinivas . 2021 . Videogpt: Video generation using vq-vae and transformers. arXiv preprint arXiv:2104.10157 (2021). Wilson Yan, Yunzhi Zhang, Pieter Abbeel, and Aravind Srinivas. 2021. Videogpt: Video generation using vq-vae and transformers. arXiv preprint arXiv:2104.10157 (2021)."
+        },
+        {
+          "key": "e_1_2_1_102_1",
+          "volume-title": "Mark Christopher Siy Uy, and Allen Huang",
+          "author": "Yang Yi",
+          "year": "2020",
+          "unstructured": "Yi Yang , Mark Christopher Siy Uy, and Allen Huang . 2020 . Finbert : A pretrained language model for financial communications. arXiv preprint arXiv:2006.08097 (2020). Yi Yang, Mark Christopher Siy Uy, and Allen Huang. 2020. Finbert: A pretrained language model for financial communications. arXiv preprint arXiv:2006.08097 (2020)."
+        },
+        {
+          "key": "e_1_2_1_103_1",
+          "unstructured": "Ehtisham Zaidi and Sharat Menon. 2022. Magic Quadrant for Data Integration Tools. Ehtisham Zaidi and Sharat Menon. 2022. Magic Quadrant for Data Integration Tools."
+        },
+        {
+          "key": "e_1_2_1_104_1",
+          "first-page": "260",
+          "article-title": "SMAT: An attention-based deep learning solution to the automation of schema matching. Advances in databases and information systems",
+          "volume": "12843",
+          "author": "Zhang Jing",
+          "year": "2021",
+          "unstructured": "Jing Zhang , Bonggun Shin , Jinho D Choi , and Joyce C Ho . 2021 . SMAT: An attention-based deep learning solution to the automation of schema matching. Advances in databases and information systems . ADBIS 12843 (2021), 260 . Jing Zhang, Bonggun Shin, Jinho D Choi, and Joyce C Ho. 2021. SMAT: An attention-based deep learning solution to the automation of schema matching. Advances in databases and information systems. ADBIS 12843 (2021), 260.",
+          "journal-title": "ADBIS"
+        },
+        {
+          "key": "e_1_2_1_105_1",
+          "volume-title": "International Conference on Machine Learning. PMLR, 12697--12706",
+          "author": "Zhao Zihao",
+          "year": "2021",
+          "unstructured": "Zihao Zhao , Eric Wallace , Shi Feng , Dan Klein , and Sameer Singh . 2021 . Calibrate before use: Improving few-shot performance of language models . In International Conference on Machine Learning. PMLR, 12697--12706 . Zihao Zhao, Eric Wallace, Shi Feng, Dan Klein, and Sameer Singh. 2021. Calibrate before use: Improving few-shot performance of language models. In International Conference on Machine Learning. PMLR, 12697--12706."
+        }
+      ],
+      "container-title": [
+        "Proceedings of the VLDB Endowment"
+      ],
+      "original-title": [],
+      "language": "en",
+      "link": [
+        {
+          "URL": "https://dl.acm.org/doi/pdf/10.14778/3574245.3574258",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2023,
+            12,
+            7
+          ]
+        ],
+        "date-time": "2023-12-07T05:34:16Z",
+        "timestamp": 1701927256000
+      },
+      "score": 1,
+      "resource": {
+        "primary": {
+          "URL": "https://dl.acm.org/doi/10.14778/3574245.3574258"
+        }
+      },
+      "subtitle": [],
+      "short-title": [],
+      "issued": {
+        "date-parts": [
+          [
+            2022,
+            12
+          ]
+        ]
+      },
+      "references-count": 105,
+      "journal-issue": {
+        "issue": "4",
+        "published-print": {
+          "date-parts": [
+            [
+              2022,
+              12
+            ]
+          ]
+        }
+      },
+      "alternative-id": [
+        "10.14778/3574245.3574258"
+      ],
+      "URL": "https://doi.org/10.14778/3574245.3574258",
+      "relation": {},
+      "ISSN": [
+        "2150-8097"
+      ],
+      "issn-type": [
+        {
+          "value": "2150-8097",
+          "type": "print"
+        }
+      ],
+      "subject": [],
+      "published": {
+        "date-parts": [
+          [
+            2022,
+            12
+          ]
+        ]
+      },
+      "assertion": [
+        {
+          "value": "2023-02-21",
+          "order": 2,
+          "name": "published",
+          "label": "Published",
+          "group": {
+            "name": "publication_history",
+            "label": "Publication History"
+          }
+        }
+      ]
+    }
+  }
+}

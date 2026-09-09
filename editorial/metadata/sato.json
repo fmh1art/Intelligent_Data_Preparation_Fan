@@ -1,0 +1,1237 @@
+{
+  "database": "Crossref",
+  "endpoint": "https://api.crossref.org/works?query.bibliographic=Sato%3A+Contextual+Semantic+Type+Detection+in+Tables&rows=3",
+  "retrieved": "2026-09-09",
+  "status_code": 200,
+  "response": {
+    "status": "ok",
+    "message-type": "work-list",
+    "message-version": "1.0.0",
+    "message": {
+      "facets": {},
+      "total-results": 3396373,
+      "items": [
+        {
+          "indexed": {
+            "date-parts": [
+              [
+                2026,
+                9,
+                2
+              ]
+            ],
+            "date-time": "2026-09-02T15:02:42Z",
+            "timestamp": 1788361362450,
+            "version": "build-2803163510"
+          },
+          "reference-count": 52,
+          "publisher": "Association for Computing Machinery (ACM)",
+          "issue": "12",
+          "content-domain": {
+            "domain": [],
+            "crossmark-restriction": false
+          },
+          "short-container-title": [
+            "Proc. VLDB Endow."
+          ],
+          "published-print": {
+            "date-parts": [
+              [
+                2020,
+                8
+              ]
+            ]
+          },
+          "abstract": "<jats:p>Detecting the semantic types of data columns in relational tables is important for various data preparation and information retrieval tasks such as data cleaning, schema matching, data discovery, and semantic search. However, existing detection approaches either perform poorly with dirty data, support only a limited number of semantic types, fail to incorporate the table context of columns or rely on large sample sizes for training data. We introduce Sato, a hybrid machine learning model to automatically detect the semantic types of columns in tables, exploiting the signals from the table context as well as the column values. Sato combines a deep learning model trained on a large-scale table corpus with topic modeling and structured prediction to achieve support-weighted and macro average F1 scores of 0.925 and 0.735, respectively, exceeding the state-of-the-art performance by a significant margin. We extensively analyze the overall and per-type performance of Sato, discussing how individual modeling components, as well as feature categories, contribute to its performance.</jats:p>",
+          "DOI": "10.14778/3407790.3407793",
+          "type": "journal-article",
+          "created": {
+            "date-parts": [
+              [
+                2020,
+                9,
+                14
+              ]
+            ],
+            "date-time": "2020-09-14T18:46:46Z",
+            "timestamp": 1600109206000
+          },
+          "page": "1835-1848",
+          "source": "Crossref",
+          "is-referenced-by-count": 95,
+          "title": [
+            "Sato"
+          ],
+          "prefix": "10.14778",
+          "volume": "13",
+          "author": [
+            {
+              "given": "Dan",
+              "family": "Zhang",
+              "sequence": "first",
+              "affiliation": [
+                {
+                  "name": "UMASS Amherst"
+                }
+              ],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Madelon",
+              "family": "Hulsebos",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "The HEINEKEN Company"
+                }
+              ],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Yoshihiko",
+              "family": "Suhara",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "Megagon Labs"
+                }
+              ],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Çağatay",
+              "family": "Demiralp",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "Megagon Labs"
+                }
+              ],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Jinfeng",
+              "family": "Li",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "Megagon Labs"
+                }
+              ],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Wang-Chiew",
+              "family": "Tan",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "Megagon Labs"
+                }
+              ],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            }
+          ],
+          "member": "320",
+          "published-online": {
+            "date-parts": [
+              [
+                2020,
+                7
+              ]
+            ]
+          },
+          "reference": [
+            {
+              "key": "e_1_2_1_1_1",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1093/bioinformatics/btq134"
+            },
+            {
+              "key": "e_1_2_1_2_1",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1007/978-3-540-76298-0_52"
+            },
+            {
+              "key": "e_1_2_1_3_1",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.5555/1296180"
+            },
+            {
+              "key": "e_1_2_1_4_1",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1145/2133806.2133826"
+            },
+            {
+              "key": "e_1_2_1_5_1",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1145/860435.860460"
+            },
+            {
+              "key": "e_1_2_1_6_1",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.5555/944919.944937"
+            },
+            {
+              "key": "e_1_2_1_7_1",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1145/1376616.1376746"
+            },
+            {
+              "key": "e_1_2_1_8_1",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.14778/1453856.1453916"
+            },
+            {
+              "key": "e_1_2_1_9_1",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1109/ICDE.2018.00094"
+            },
+            {
+              "key": "e_1_2_1_10_1",
+              "first-page": "04",
+              "article-title": "Seeping semantics: Linking datasets using word embeddings for data discovery",
+              "author": "Castro Fernandez R.",
+              "year": "2018",
+              "unstructured": "R. Castro Fernandez, E. Mansour, A. Qahtan, A. Elmagarmid, I. Ilyas, S. Madden, M. Ouzzani, M. Stonebraker, and N. Tang. Seeping semantics: Linking datasets using word embeddings for data discovery. In ICDE, 04 2018.",
+              "journal-title": "ICDE"
+            },
+            {
+              "key": "e_1_2_1_11_1",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.5555/2627435.2638567"
+            },
+            {
+              "key": "e_1_2_1_12_1",
+              "first-page": "4171",
+              "volume-title": "NAACL",
+              "author": "Devlin J.",
+              "year": "2019",
+              "unstructured": "J. Devlin, M.-W. Chang, K. Lee, and K. Toutanova. Bert: Pre-training of deep bidirectional transformers for language understanding. In NAACL, pages 4171--4186, 2019."
+            },
+            {
+              "key": "e_1_2_1_13_1",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1109/CVPR.2005.16"
+            },
+            {
+              "key": "e_1_2_1_14_1",
+              "unstructured": "O. K. Foundation. Messytables · pypi 2019."
+            },
+            {
+              "key": "e_1_2_1_15_1",
+              "first-page": "2",
+              "volume-title": "Proceedings of the international congress of mathematicians",
+              "volume": "1",
+              "author": "Geman S.",
+              "year": "1986",
+              "unstructured": "S. Geman and C. Graffigne. Markov random field image models and their applications to computer vision. In Proceedings of the international congress of mathematicians, volume 1, page 2, 1986."
+            },
+            {
+              "key": "e_1_2_1_16_1",
+              "volume-title": "(ICAI)",
+              "author": "Goel A.",
+              "year": "2012",
+              "unstructured": "A. Goel, C. A. Knoblock, and K. Lerman. Exploiting structure within data for accurate labeling using conditional random fields. In (ICAI), 2012."
+            },
+            {
+              "key": "e_1_2_1_17_1",
+              "volume-title": "Google Data Studio",
+              "year": "2019",
+              "unstructured": "Google. Google Data Studio, 2019."
+            },
+            {
+              "key": "e_1_2_1_18_1",
+              "volume-title": "csvkit",
+              "author": "Groskopf C.",
+              "year": "2016",
+              "unstructured": "C. Groskopf and contributors. csvkit, 2016."
+            },
+            {
+              "key": "e_1_2_1_19_1",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1109/MIS.2009.36"
+            },
+            {
+              "key": "e_1_2_1_20_1",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1162/neco.1997.9.8.1735"
+            },
+            {
+              "key": "e_1_2_1_21_1",
+              "volume-title": "CHI. ACM",
+              "author": "Hu K.",
+              "year": "2019",
+              "unstructured": "K. Hu, N. Gaikwad, M. Bakker, M. Hulsebos, E. Zgraggen, C. Hidalgo, T. Kraska, G. Li, A. Satyanarayan, and Ç. Demiralp. Viznet: Towards a large-scale visualization learning and benchmarking repository. In CHI. ACM, 2019."
+            },
+            {
+              "key": "e_1_2_1_22_1",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1145/3292500.3330993"
+            },
+            {
+              "key": "e_1_2_1_23_1",
+              "volume-title": "CHI",
+              "author": "Kandel S.",
+              "year": "2011",
+              "unstructured": "S. Kandel, A. Paepcke, J. Hellerstein, and J. Heer. Wrangler: Interactive visual specification of data transformation scripts. In CHI, 2011."
+            },
+            {
+              "key": "e_1_2_1_24_1",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.5555/1795555"
+            },
+            {
+              "key": "e_1_2_1_25_1",
+              "first-page": "282",
+              "volume-title": "ICML",
+              "author": "Lafferty J. D.",
+              "year": "2001",
+              "unstructured": "J. D. Lafferty, A. McCallum, and F. C. N. Pereira. Conditional random fields: Probabilistic models for segmenting and labeling sequence data. In ICML, pages 282--289, 2001."
+            },
+            {
+              "key": "e_1_2_1_26_1",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.18653/v1/D17-1044"
+            },
+            {
+              "key": "e_1_2_1_27_1",
+              "volume-title": "Deep learning. nature, 521(7553):436",
+              "author": "LeCun Y.",
+              "year": "2015",
+              "unstructured": "Y. LeCun, Y. Bengio, and G. Hinton. Deep learning. nature, 521(7553):436, 2015."
+            },
+            {
+              "key": "e_1_2_1_28_1",
+              "volume-title": "PVLDB",
+              "author": "Li W.-S.",
+              "year": "1994",
+              "unstructured": "W.-S. Li and C. Clifton. Semantic integration in heterogeneous databases using neural networks. In PVLDB, 1994."
+            },
+            {
+              "key": "e_1_2_1_29_1",
+              "volume-title": "Annotating and searching web tables using entities, types and relationships. PVLDB, 3(1--2):1338--1347",
+              "author": "Limaye G.",
+              "year": "2010",
+              "unstructured": "G. Limaye, S. Sarawagi, and S. Chakrabarti. Annotating and searching web tables using entities, types and relationships. PVLDB, 3(1--2):1338--1347, 2010."
+            },
+            {
+              "key": "e_1_2_1_30_1",
+              "volume-title": "preprint arXiv:1903.10318",
+              "author": "Liu Y.",
+              "year": "2019",
+              "unstructured": "Y. Liu. Fine-tune BERT for extractive summarization. preprint arXiv:1903.10318, 2019."
+            },
+            {
+              "key": "e_1_2_1_31_1",
+              "volume-title": "RoBERTa: A robustly optimized BERT pretraining approach. preprint arXiv:1907.11692",
+              "author": "Liu Y.",
+              "year": "2019",
+              "unstructured": "Y. Liu, M. Ott, N. Goyal, J. Du, M. Joshi, D. Chen, O. Levy, M. Lewis, L. Zettlemoyer, and V. Stoyanov. RoBERTa: A robustly optimized BERT pretraining approach. preprint arXiv:1907.11692, 2019."
+            },
+            {
+              "key": "e_1_2_1_32_1",
+              "volume-title": "Power BI --- Interactive Data Visualization BI",
+              "year": "2019",
+              "unstructured": "Microsoft. Power BI --- Interactive Data Visualization BI, 2019."
+            },
+            {
+              "key": "e_1_2_1_33_1",
+              "volume-title": "Automatic differentiation in pytorch",
+              "author": "Paszke A.",
+              "year": "2017",
+              "unstructured": "A. Paszke, S. Gross, S. Chintala, G. Chanan, E. Yang, Z. DeVito, Z. Lin, A. Desmaison, L. Antiga, and A. Lerer. Automatic differentiation in pytorch. 2017."
+            },
+            {
+              "key": "e_1_2_1_34_1",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1007/978-3-319-46523-4_27"
+            },
+            {
+              "key": "e_1_2_1_35_1",
+              "volume-title": "A specialist approach for classification of column data. Master's thesis",
+              "author": "Puranik N. W.",
+              "year": "2012",
+              "unstructured": "N. W. Puranik. A specialist approach for classification of column data. Master's thesis, University of Maryland, Baltimore County, August 2012."
+            },
+            {
+              "key": "e_1_2_1_36_1",
+              "first-page": "849856",
+              "volume-title": "Proc. ICML '09",
+              "author": "Qian X.",
+              "year": "2009",
+              "unstructured": "X. Qian, X. Jiang, Q. Zhang, X. Huang, and L. Wu. Sparse higher order conditional random fields for improved sequence labeling. In Proc. ICML '09, page 849856, 2009."
+            },
+            {
+              "key": "e_1_2_1_37_1",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1109/5.18626"
+            },
+            {
+              "issue": "4",
+              "key": "e_1_2_1_38_1",
+              "first-page": "334",
+              "article-title": "A survey of approaches to automatic schema matching",
+              "volume": "10",
+              "author": "Rahm E.",
+              "year": "2001",
+              "unstructured": "E. Rahm and P. A. Bernstein. A survey of approaches to automatic schema matching. PVLDB, 10(4):334--350, 2001.",
+              "journal-title": "PVLDB"
+            },
+            {
+              "key": "e_1_2_1_39_1",
+              "first-page": "381",
+              "article-title": "Potter's wheel: An interactive data cleaning system",
+              "volume": "1",
+              "author": "Raman V.",
+              "year": "2001",
+              "unstructured": "V. Raman and J. M. Hellerstein. Potter's wheel: An interactive data cleaning system. PVLDB, 1:381--390, 2001.",
+              "journal-title": "PVLDB"
+            },
+            {
+              "key": "e_1_2_1_40_1",
+              "first-page": "403",
+              "volume-title": "ESWC",
+              "author": "Ramnandan S. K.",
+              "year": "2015",
+              "unstructured": "S. K. Ramnandan, A. Mittal, C. A. Knoblock, and P. Szekely. Assigning semantic labels to data sources. In ESWC, pages 403--417. Springer, 2015."
+            },
+            {
+              "key": "e_1_2_1_41_1",
+              "first-page": "45",
+              "volume-title": "Software Framework for Topic Modelling with Large Corpora. In LREC Workshop",
+              "author": "Rehůřek R.",
+              "year": "2010",
+              "unstructured": "R. Rehůřek and P. Sojka. Software Framework for Topic Modelling with Large Corpora. In LREC Workshop, pages 45--50. ELRA, May 2010."
+            },
+            {
+              "key": "e_1_2_1_42_1",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1038/323533a0"
+            },
+            {
+              "key": "e_1_2_1_43_1",
+              "volume-title": "WebSci",
+              "author": "Syed Z.",
+              "year": "2010",
+              "unstructured": "Z. Syed, T. Finin, V. Mulwad, A. Joshi, et al. Exploiting a web of semantic data for interpreting tables. In WebSci, 2010."
+            },
+            {
+              "key": "e_1_2_1_44_1",
+              "unstructured": "Tableau. Tableau Desktop 2019."
+            },
+            {
+              "key": "e_1_2_1_45_1",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1609/aaai.v33i01.3301281"
+            },
+            {
+              "key": "e_1_2_1_46_1",
+              "volume-title": "Data Wrangling Tools & Software",
+              "year": "2019",
+              "unstructured": "Trifacta. Data Wrangling Tools & Software, 2019."
+            },
+            {
+              "key": "e_1_2_1_47_1",
+              "first-page": "2579",
+              "article-title": "Visualizing data using t-SNE",
+              "volume": "9",
+              "author": "van der Maaten L.",
+              "year": "2008",
+              "unstructured": "L. van der Maaten and G. Hinton. Visualizing data using t-SNE. JMLR, 9:2579--2605, 2008.",
+              "journal-title": "JMLR"
+            },
+            {
+              "key": "e_1_2_1_48_1",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.14778/2002938.2002939"
+            },
+            {
+              "key": "e_1_2_1_49_1",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1109/TIT.1967.1054010"
+            },
+            {
+              "key": "e_1_2_1_50_1",
+              "first-page": "35",
+              "volume-title": "SIGMOD",
+              "author": "Yan C.",
+              "year": "2018",
+              "unstructured": "C. Yan and Y. He. Synthesizing type-detection logic for rich semantic data types using open-source code. In SIGMOD, pages 35--50. ACM, 2018."
+            },
+            {
+              "key": "e_1_2_1_51_1",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1145/2339530.2339561"
+            },
+            {
+              "key": "e_1_2_1_52_1",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1007/978-3-319-10590-1_53"
+            }
+          ],
+          "container-title": [
+            "Proceedings of the VLDB Endowment"
+          ],
+          "language": "en",
+          "link": [
+            {
+              "URL": "https://dl.acm.org/doi/pdf/10.14778/3407790.3407793",
+              "content-type": "unspecified",
+              "content-version": "vor",
+              "intended-application": "similarity-checking"
+            }
+          ],
+          "deposited": {
+            "date-parts": [
+              [
+                2025,
+                9,
+                17
+              ]
+            ],
+            "date-time": "2025-09-17T02:25:19Z",
+            "timestamp": 1758075919000
+          },
+          "score": 37.25027,
+          "resource": {
+            "primary": {
+              "URL": "https://dl.acm.org/doi/10.14778/3407790.3407793"
+            }
+          },
+          "subtitle": [
+            "contextual semantic type detection in tables"
+          ],
+          "issued": {
+            "date-parts": [
+              [
+                2020,
+                7
+              ]
+            ]
+          },
+          "references-count": 52,
+          "journal-issue": {
+            "issue": "12",
+            "published-print": {
+              "date-parts": [
+                [
+                  2020,
+                  8
+                ]
+              ]
+            }
+          },
+          "alternative-id": [
+            "10.14778/3407790.3407793"
+          ],
+          "URL": "https://doi.org/10.14778/3407790.3407793",
+          "ISSN": [
+            "2150-8097"
+          ],
+          "issn-type": [
+            {
+              "value": "2150-8097",
+              "type": "print"
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2020,
+                7
+              ]
+            ]
+          }
+        },
+        {
+          "indexed": {
+            "date-parts": [
+              [
+                2025,
+                9,
+                11
+              ]
+            ],
+            "date-time": "2025-09-11T20:35:52Z",
+            "timestamp": 1757622952333,
+            "version": "3.44.0"
+          },
+          "posted": {
+            "date-parts": [
+              [
+                2025
+              ]
+            ]
+          },
+          "group-title": "SSRN",
+          "reference-count": 43,
+          "publisher": "Elsevier BV",
+          "content-domain": {
+            "domain": [],
+            "crossmark-restriction": false
+          },
+          "DOI": "10.2139/ssrn.5459879",
+          "type": "posted-content",
+          "created": {
+            "date-parts": [
+              [
+                2025,
+                9,
+                9
+              ]
+            ],
+            "date-time": "2025-09-09T00:39:13Z",
+            "timestamp": 1757378353000
+          },
+          "source": "Crossref",
+          "is-referenced-by-count": 0,
+          "title": [
+            "HMCSM: Hierarchical Multimodal Contextual Semantic Modeling for Rumor Detection"
+          ],
+          "prefix": "10.2139",
+          "author": [
+            {
+              "given": "Jinbao",
+              "family": "Song",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Wenwen",
+              "family": "Yang",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Di",
+              "family": "Huang",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Nuo",
+              "family": "Xu",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            }
+          ],
+          "member": "78",
+          "reference": [
+            {
+              "key": "ref1",
+              "author": "Kepios",
+              "year": "2025",
+              "journal-title": "Social media users 2025"
+            },
+            {
+              "issue": "6380",
+              "key": "ref2",
+              "doi-asserted-by": "crossref",
+              "first-page": "1146",
+              "DOI": "10.1126/science.aap9559",
+              "article-title": "The spread of true and false news online",
+              "volume": "359",
+              "author": "Soroush Vosoughi",
+              "year": "2018",
+              "journal-title": "science"
+            },
+            {
+              "issue": "1",
+              "key": "ref3",
+              "doi-asserted-by": "crossref",
+              "DOI": "10.1016/j.ipm.2022.103120",
+              "article-title": "Multimodal fake news detection via progressive fusion networks",
+              "volume": "60",
+              "author": "Jing Jing",
+              "year": "2023",
+              "journal-title": "Information processing & management"
+            },
+            {
+              "issue": "5",
+              "key": "ref4",
+              "article-title": "Bcmf: A bidirectional cross-modal fusion model for fake news detection",
+              "volume": "59",
+              "author": "Chuanming Yu",
+              "year": "2022",
+              "journal-title": "Information Processing & Management"
+            },
+            {
+              "key": "ref5",
+              "first-page": "2413",
+              "article-title": "Mfan: Multi-modal feature-enhanced attention networks for rumor detection",
+              "volume": "2022",
+              "author": "Jiaqi Zheng",
+              "year": "2022",
+              "journal-title": "IJCAI"
+            },
+            {
+              "key": "ref6",
+              "first-page": "153",
+              "article-title": "Quan Fang, and Changsheng Xu. Hierarchical multi-modal contextual attention network for fake news detection",
+              "author": "Shengsheng Qian",
+              "year": "2021",
+              "journal-title": "Proceedings of the 44th international ACM SIGIR conference on research and development in information retrieval"
+            },
+            {
+              "key": "ref7",
+              "first-page": "2560",
+              "article-title": "Multimodal fusion with co-attention networks for fake news detection",
+              "author": "Yang Wu",
+              "year": "2021",
+              "journal-title": "Findings of the association for computational linguistics: ACL-IJCNLP 2021"
+            },
+            {
+              "key": "ref8",
+              "first-page": "4171",
+              "article-title": "Bert: Pre-training of deep bidirectional transformers for language understanding",
+              "volume": "1",
+              "author": "Jacob Devlin",
+              "year": "2019",
+              "journal-title": "Proceedings of the 2019 conference of the North American chapter of the association for computational linguistics: human language technologies"
+            },
+            {
+              "key": "ref9",
+              "author": "Karen Simonyan",
+              "year": "2014",
+              "journal-title": "Very deep convolutional networks for large-scale image recognition"
+            },
+            {
+              "key": "ref10",
+              "doi-asserted-by": "crossref",
+              "first-page": "2897",
+              "DOI": "10.1145/3485447.3511968",
+              "article-title": "Cross-modal ambiguity learning for multimodal fake news detection",
+              "author": "Yixuan Chen",
+              "year": "2022",
+              "journal-title": "Proceedings of the ACM web conference 2022"
+            },
+            {
+              "key": "ref11",
+              "first-page": "1103",
+              "article-title": "Prominent features of rumor propagation in online social media",
+              "author": "Sejeong Kwon",
+              "year": "2013",
+              "journal-title": "2013 IEEE 13th international conference on data mining"
+            },
+            {
+              "issue": "1",
+              "key": "ref12",
+              "doi-asserted-by": "crossref",
+              "first-page": "22",
+              "DOI": "10.1145/3137597.3137600",
+              "article-title": "Fake news detection on social media: A data mining perspective",
+              "volume": "19",
+              "author": "Kai Shu",
+              "year": "2017",
+              "journal-title": "ACM SIGKDD explorations newsletter"
+            },
+            {
+              "issue": "1",
+              "key": "ref13",
+              "article-title": "Evaluating the generalisability of neural rumour verification models",
+              "volume": "60",
+              "author": "Elena Kochkina",
+              "year": "2023",
+              "journal-title": "Information Processing & Management"
+            },
+            {
+              "key": "ref14",
+              "author": "Dzmitry Bahdanau",
+              "year": "2014",
+              "journal-title": "Neural machine translation by jointly learning to align and translate"
+            },
+            {
+              "key": "ref15",
+              "first-page": "40",
+              "article-title": "Call attention to rumors: Deep attention based recurrent neural networks for early rumor detection",
+              "author": "Tong Chen",
+              "year": "2018",
+              "journal-title": "Pacific-Asia conference on knowledge discovery and data mining"
+            },
+            {
+              "issue": "4",
+              "key": "ref16",
+              "article-title": "Dual emotion based fake news detection: A deep attention-weight update approach",
+              "volume": "60",
+              "author": "Alex Munyole Luvembe",
+              "year": "2023",
+              "journal-title": "Information Processing & Management"
+            },
+            {
+              "key": "ref17",
+              "first-page": "6625",
+              "article-title": "A survey on multimodal disinformation detection",
+              "author": "Firoj Alam",
+              "year": "2022",
+              "journal-title": "Proceedings of the 29th International Conference on Computational Linguistics"
+            },
+            {
+              "key": "ref18",
+              "first-page": "2501",
+              "article-title": "Evidence-aware fake news detection with graph neural networks",
+              "author": "Weizhi Xu",
+              "year": "2022",
+              "journal-title": "Proceedings of the ACM web conference 2022"
+            },
+            {
+              "issue": "6",
+              "key": "ref19",
+              "article-title": "Temporally evolving graph neural network for fake news detection",
+              "volume": "58",
+              "author": "Chenguang Song",
+              "year": "2021",
+              "journal-title": "Information Processing & Management"
+            },
+            {
+              "key": "ref20",
+              "article-title": "Attention is all you need",
+              "volume": "30",
+              "author": "Ashish Vaswani",
+              "year": "2017",
+              "journal-title": "Advances in neural information processing systems"
+            },
+            {
+              "key": "ref21",
+              "doi-asserted-by": "crossref",
+              "first-page": "13915",
+              "DOI": "10.1609/aaai.v34i10.7230",
+              "article-title": "Spotfake+: A multimodal framework for fake news detection via transfer learning (student abstract)",
+              "volume": "34",
+              "author": "Shivangi Singhal",
+              "year": "2020",
+              "journal-title": "Proceedings of the AAAI conference on artificial intelligence"
+            },
+            {
+              "key": "ref22",
+              "first-page": "4733",
+              "article-title": "Cross-modal knowledge distillation in multi-modal fake news detection",
+              "author": "Zimian Wei",
+              "year": "2022",
+              "journal-title": "ICASSP 2022-2022 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)"
+            },
+            {
+              "key": "ref23",
+              "doi-asserted-by": "crossref",
+              "first-page": "2915",
+              "DOI": "10.1145/3308558.3313552",
+              "article-title": "Mvae: Multimodal variational autoencoder for fake news detection",
+              "author": "Dhruv Khattar",
+              "year": "2019",
+              "journal-title": "The world wide web conference"
+            },
+            {
+              "key": "ref24",
+              "first-page": "354",
+              "article-title": "Similarity-aware multimodal fake news detection",
+              "author": "Xinyi Zhou",
+              "year": "2020",
+              "journal-title": "Pacific-Asia Conference on knowledge discovery and data mining"
+            },
+            {
+              "key": "ref25",
+              "doi-asserted-by": "crossref",
+              "first-page": "540",
+              "DOI": "10.1145/3372278.3390713",
+              "article-title": "Fake news detection via knowledge-driven multimodal graph convolutional networks",
+              "author": "Youze Wang",
+              "year": "2020",
+              "journal-title": "Proceedings of the 2020 international conference on multimedia retrieval"
+            },
+            {
+              "key": "ref26",
+              "doi-asserted-by": "crossref",
+              "first-page": "975",
+              "DOI": "10.1145/3308560.3316739",
+              "article-title": "A topic-agnostic approach for identifying fake news pages",
+              "author": "Sonia Castelo",
+              "year": "2019",
+              "journal-title": "Companion proceedings of the 2019 World Wide Web conference"
+            },
+            {
+              "key": "ref27",
+              "first-page": "754",
+              "article-title": "Compare to the knowledge: Graph neural fake news detection with external knowledge",
+              "volume": "1",
+              "author": "Linmei Hu",
+              "year": "2021",
+              "journal-title": "Proceedings of the 59th annual meeting of the association for computational linguistics and the 11th international joint conference on natural language processing"
+            },
+            {
+              "key": "ref28",
+              "first-page": "3343",
+              "article-title": "Multi-domain fake news detection",
+              "author": "Qiong Nan",
+              "year": "2021",
+              "journal-title": "Proceedings of the 30th ACM international conference on information & knowledge management"
+            },
+            {
+              "key": "ref29",
+              "doi-asserted-by": "crossref",
+              "first-page": "557",
+              "DOI": "10.1609/aaai.v35i1.16134",
+              "article-title": "Embracing domain differences in fake news: Cross-domain fake news detection using multi-modal data",
+              "volume": "35",
+              "author": "Amila Silva",
+              "year": "2021",
+              "journal-title": "Proceedings of the AAAI conference on artificial intelligence"
+            },
+            {
+              "issue": "1",
+              "key": "ref30",
+              "article-title": "Multi-view co-attention network for fake news detection by modeling topicspecific user and news source credibility",
+              "volume": "60",
+              "author": "Parisa Bazmi",
+              "year": "2023",
+              "journal-title": "Information Processing & Management"
+            },
+            {
+              "key": "ref31",
+              "doi-asserted-by": "crossref",
+              "first-page": "849",
+              "DOI": "10.1145/3219819.3219903",
+              "article-title": "Eann: Event adversarial neural networks for multi-modal fake news detection",
+              "author": "Yaqing Wang",
+              "year": "2018",
+              "journal-title": "Proceedings of the 24th acm sigkdd international conference on knowledge discovery & data mining"
+            },
+            {
+              "key": "ref32",
+              "doi-asserted-by": "crossref",
+              "first-page": "1942",
+              "DOI": "10.1145/3343031.3350850",
+              "article-title": "Multi-modal knowledge-aware event memory network for social media rumor detection",
+              "author": "Huaiwen Zhang",
+              "year": "2019",
+              "journal-title": "Proceedings of the 27th ACM international conference on multimedia"
+            },
+            {
+              "key": "ref33",
+              "author": "Leland Mcinnes",
+              "year": "2018",
+              "journal-title": "Umap: Uniform manifold approximation and projection for dimension reduction"
+            },
+            {
+              "key": "ref34",
+              "author": "Weimo Md Farhadur Rahman",
+              "year": "2016",
+              "journal-title": "Hdbscan: Density based clustering over location based services"
+            },
+            {
+              "key": "ref35",
+              "first-page": "815",
+              "article-title": "Facenet: A unified embedding for face recognition and clustering",
+              "author": "Florian Schroff",
+              "year": "2015",
+              "journal-title": "Proceedings of the IEEE conference on computer vision and pattern recognition"
+            },
+            {
+              "key": "ref36",
+              "doi-asserted-by": "crossref",
+              "first-page": "60",
+              "DOI": "10.1016/j.media.2017.07.005",
+              "article-title": "A survey on deep learning in medical image analysis",
+              "volume": "42",
+              "author": "Geert Litjens",
+              "year": "2017",
+              "journal-title": "Medical image analysis"
+            },
+            {
+              "issue": "1",
+              "key": "ref37",
+              "doi-asserted-by": "crossref",
+              "first-page": "1",
+              "DOI": "10.1080/03610927408827101",
+              "article-title": "A dendrite method for cluster analysis",
+              "volume": "3",
+              "author": "Tadeusz Cali?ski",
+              "year": "1974",
+              "journal-title": "Communications in Statistics-theory and Methods"
+            },
+            {
+              "key": "ref38",
+              "first-page": "795",
+              "article-title": "Multimodal fusion with recurrent neural networks for rumor detection on microblogs",
+              "author": "Zhiwei Jin",
+              "year": "2017",
+              "journal-title": "Proceedings of the 25th ACM international conference on Multimedia"
+            },
+            {
+              "key": "ref39",
+              "doi-asserted-by": "crossref",
+              "first-page": "109",
+              "DOI": "10.1007/978-3-319-67217-5_8",
+              "article-title": "Exploiting context for rumour detection in social media",
+              "author": "Arkaitz Zubiaga",
+              "year": "2017",
+              "journal-title": "International conference on social informatics"
+            },
+            {
+              "key": "ref40",
+              "first-page": "38",
+              "article-title": "Transformers: State-of-the-art natural language processing",
+              "author": "Thomas Wolf",
+              "year": "2020",
+              "journal-title": "Proceedings of the 2020 conference on empirical methods in natural language processing: system demonstrations"
+            },
+            {
+              "key": "ref41",
+              "author": "P Diederik",
+              "year": "2014",
+              "journal-title": "Adam: A method for stochastic optimization"
+            },
+            {
+              "key": "ref42",
+              "author": "Hui Liu",
+              "year": "2023",
+              "journal-title": "Interpretable multimodal misinformation detection with logic reasoning"
+            },
+            {
+              "key": "ref43",
+              "author": "Liwen Peng",
+              "journal-title": "Not all fake news is semantically similar: Contextual semantic representation learning for multimodal fake news detection"
+            }
+          ],
+          "deposited": {
+            "date-parts": [
+              [
+                2025,
+                9,
+                9
+              ]
+            ],
+            "date-time": "2025-09-09T00:50:58Z",
+            "timestamp": 1757379058000
+          },
+          "score": 23.94263,
+          "resource": {
+            "primary": {
+              "URL": "https://www.ssrn.com/abstract=5459879"
+            }
+          },
+          "issued": {
+            "date-parts": [
+              [
+                2025
+              ]
+            ]
+          },
+          "references-count": 43,
+          "URL": "https://doi.org/10.2139/ssrn.5459879",
+          "published": {
+            "date-parts": [
+              [
+                2025
+              ]
+            ]
+          },
+          "subtype": "preprint"
+        },
+        {
+          "indexed": {
+            "date-parts": [
+              [
+                2024,
+                3,
+                2
+              ]
+            ],
+            "date-time": "2024-03-02T03:04:29Z",
+            "timestamp": 1709348669022
+          },
+          "reference-count": 0,
+          "publisher": "IEEE",
+          "content-domain": {
+            "domain": [],
+            "crossmark-restriction": false
+          },
+          "published-print": {
+            "date-parts": [
+              [
+                2007,
+                12
+              ]
+            ]
+          },
+          "DOI": "10.1109/smap.2007.4414409",
+          "type": "proceedings-article",
+          "created": {
+            "date-parts": [
+              [
+                2008,
+                1,
+                4
+              ]
+            ],
+            "date-time": "2008-01-04T20:48:20Z",
+            "timestamp": 1199479700000
+          },
+          "source": "Crossref",
+          "is-referenced-by-count": 0,
+          "title": [
+            "High-Level Concept Detection Based on Mid-Level Semantic Information and Contextual Adaptation"
+          ],
+          "prefix": "10.1109",
+          "author": [
+            {
+              "given": "Phivos",
+              "family": "Mylonas",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Evaggelos",
+              "family": "Spyrou",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Yannis",
+              "family": "Avrithis",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            }
+          ],
+          "member": "263",
+          "event": {
+            "name": "Second International Workshop on Semantic Media Adaptation and Personalization (SMAP 2007)",
+            "location": "UXBRIDGE, Middlesex, UK",
+            "start": {
+              "date-parts": [
+                [
+                  2007,
+                  12,
+                  17
+                ]
+              ]
+            },
+            "end": {
+              "date-parts": [
+                [
+                  2007,
+                  12,
+                  18
+                ]
+              ]
+            }
+          },
+          "container-title": [
+            "Second International Workshop on Semantic Media Adaptation and Personalization (SMAP 2007)"
+          ],
+          "deposited": {
+            "date-parts": [
+              [
+                2020,
+                10,
+                14
+              ]
+            ],
+            "date-time": "2020-10-14T15:43:07Z",
+            "timestamp": 1602690187000
+          },
+          "score": 22.970463,
+          "resource": {
+            "primary": {
+              "URL": "https://ieeexplore.ieee.org/document/4414409"
+            }
+          },
+          "issued": {
+            "date-parts": [
+              [
+                2007,
+                12
+              ]
+            ]
+          },
+          "references-count": 0,
+          "URL": "https://doi.org/10.1109/smap.2007.4414409",
+          "published": {
+            "date-parts": [
+              [
+                2007,
+                12
+              ]
+            ]
+          }
+        }
+      ],
+      "items-per-page": 3,
+      "query": {
+        "start-index": 0,
+        "search-terms": null
+      }
+    }
+  }
+}

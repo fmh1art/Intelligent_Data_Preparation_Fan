@@ -1,0 +1,691 @@
+{
+  "database": "Crossref",
+  "endpoint": "https://api.crossref.org/works/10.14778%2F3836663.3836695",
+  "retrieved": "2026-09-09",
+  "status_code": 200,
+  "response": {
+    "status": "ok",
+    "message-type": "work",
+    "message-version": "1.0.0",
+    "message": {
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            9,
+            4
+          ]
+        ],
+        "date-time": "2026-09-04T14:22:56Z",
+        "timestamp": 1788531776596,
+        "version": "build-2803163510"
+      },
+      "reference-count": 47,
+      "publisher": "Association for Computing Machinery (ACM)",
+      "issue": "11",
+      "content-domain": {
+        "domain": [
+          "dl.acm.org"
+        ],
+        "crossmark-restriction": true
+      },
+      "short-container-title": [
+        "Proc. VLDB Endow."
+      ],
+      "published-print": {
+        "date-parts": [
+          [
+            2026,
+            7,
+            1
+          ]
+        ]
+      },
+      "abstract": "<jats:p>\n                    Data preparation, which aims to transform heterogeneous and noisy raw tables into analysis-ready data, remains a major bottleneck in data science. Recent approaches leverage large language models (LLMs) to automate data preparation from natural language specifications. However, existing LLM-powered methods either make decisions without grounding in intermediate execution results, or rely on linear interaction processes that offer limited support for revising earlier decisions. To address these limitations, we propose DeepPrep, an LLM-powered agentic system for autonomous data preparation. DeepPrep constructs data preparation pipelines through iterative, execution-grounded interaction with an environment that materializes intermediate table states and returns runtime feedback. To overcome the limitations of linear interaction, DeepPrep organizes pipeline construction with tree-based agentic reasoning, enabling structured exploration and non-local revision based on execution feedback. To enable effective learning of such behaviors, we propose a progressive agentic training framework, together with data synthesis that supplies diverse and complex ADP tasks. Extensive experiments show that DeepPrep achieves data preparation accuracy comparable to strong closed-source models (\n                    <jats:italic toggle=\"yes\">e.g.</jats:italic>\n                    , GPT-5) while incurring 15× lower inference cost, while establishing state-of-the-art performance among open-source baselines and generalizing effectively across diverse datasets.\n                  </jats:p>",
+      "DOI": "10.14778/3836663.3836695",
+      "type": "journal-article",
+      "created": {
+        "date-parts": [
+          [
+            2026,
+            9,
+            4
+          ]
+        ],
+        "date-time": "2026-09-04T13:42:12Z",
+        "timestamp": 1788529332000
+      },
+      "page": "3371-3384",
+      "update-policy": "https://doi.org/10.1145/crossmark-policy",
+      "source": "Crossref",
+      "is-referenced-by-count": 0,
+      "title": [
+        "DeepPrep: An LLM-Powered Agentic System for Autonomous Data Preparation"
+      ],
+      "prefix": "10.14778",
+      "volume": "19",
+      "author": [
+        {
+          "given": "Meihao",
+          "family": "Fan",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "Renmin University of China"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Ju",
+          "family": "Fan",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Renmin University of China"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Yuxin",
+          "family": "Zhang",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Renmin University of China"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Shaolei",
+          "family": "Zhang",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Renmin University of China"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Xiaoyong",
+          "family": "Du",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Renmin University of China"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Jie",
+          "family": "Song",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "ByteDance"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Peng",
+          "family": "Li",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "ByteDance"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Fuxin",
+          "family": "Jiang",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "ByteDance"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Tieying",
+          "family": "Zhang",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "ByteDance"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Jianjun",
+          "family": "Chen",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "ByteDance"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "320",
+      "published-online": {
+        "date-parts": [
+          [
+            2026,
+            9,
+            4
+          ]
+        ]
+      },
+      "reference": [
+        {
+          "key": "e_1_2_1_1_1",
+          "unstructured": "2026. Technical Report. https://github.com/ruc-datalab/DeepPrep/tree/main/pdf/report.pdf"
+        },
+        {
+          "key": "e_1_2_1_2_1",
+          "unstructured": "Renat Aksitov Sobhan Miryoosefi Zonglin Li Daliang Li Sheila Babayan Kavya Kopparapu Zachary Fisher Ruiqi Guo Sushant Prakash Pranesh Srinivasan et al. 2023. Rest meets react: Self-improvement for multi-step reasoning llm agent. arXiv preprint arXiv:2312.10003 (2023)."
+        },
+        {
+          "key": "e_1_2_1_3_1",
+          "doi-asserted-by": "crossref",
+          "first-page": "218",
+          "DOI": "10.1145/2813885.2737952",
+          "article-title": "FlashRelate: extracting relational data from semi-structured spreadsheets using examples",
+          "volume": "50",
+          "author": "Barowy Daniel W",
+          "year": "2015",
+          "unstructured": "Daniel W Barowy, Sumit Gulwani, Ted Hart, and Benjamin Zorn. 2015. FlashRelate: extracting relational data from semi-structured spreadsheets using examples. ACM SIGPLAN Notices 50, 6 (2015), 218–228.",
+          "journal-title": "ACM SIGPLAN Notices"
+        },
+        {
+          "key": "e_1_2_1_4_1",
+          "doi-asserted-by": "crossref",
+          "first-page": "1",
+          "DOI": "10.1145/3716376",
+          "article-title": "Cost-effective Missing Value Imputation for Data-effective Machine Learning",
+          "volume": "50",
+          "author": "Chai Chengliang",
+          "year": "2025",
+          "unstructured": "Chengliang Chai, Kaisen Jin, Nan Tang, Ju Fan, Dongjing Miao, Jiayi Wang, Yuyu Luo, Guoliang Li, Ye Yuan, and Guoren Wang. 2025. Cost-effective Missing Value Imputation for Data-effective Machine Learning. ACM Transactions on Database Systems 50, 3 (2025), 1–36.",
+          "journal-title": "ACM Transactions on Database Systems"
+        },
+        {
+          "key": "e_1_2_1_5_1",
+          "doi-asserted-by": "crossref",
+          "first-page": "1",
+          "DOI": "10.1145/3725396",
+          "article-title": "Auto-Test: Learning Semantic-Domain Constraints for Unsupervised Error Detection in Tables",
+          "volume": "3",
+          "author": "Chen Qixu",
+          "year": "2025",
+          "unstructured": "Qixu Chen, Yeye He, Raymond Chi-Wing Wong, Weiwei Cui, Song Ge, Haidong Zhang, Dongmei Zhang, and Surajit Chaudhuri. 2025. Auto-Test: Learning Semantic-Domain Constraints for Unsupervised Error Detection in Tables. Proceedings of the ACM on Management of Data 3, 3 (2025), 1–27.",
+          "journal-title": "Proceedings of the ACM on Management of Data"
+        },
+        {
+          "key": "e_1_2_1_6_1",
+          "volume-title": "Exploratory data mining and data cleaning",
+          "author": "Dasu Tamraparni",
+          "unstructured": "Tamraparni Dasu and Theodore Johnson. 2003. Exploratory data mining and data cleaning. John Wiley & Sons."
+        },
+        {
+          "key": "e_1_2_1_7_1",
+          "volume-title": "TACO: A Benchmark for Open-Domain Text-to-SQL with Ambiguous and Cross-Database Queries. arXiv preprint arXiv:2606.14201",
+          "author": "Deng Chao",
+          "year": "2026",
+          "unstructured": "Chao Deng, Ju Fan, Yuyu Luo, Qinliang Xue, Meihao Fan, Yuxin Zhang, Min Zhang, Xiaofeng Jia, Jing Zhang, and Xiaoyong Du. 2026. TACO: A Benchmark for Open-Domain Text-to-SQL with Ambiguous and Cross-Database Queries. arXiv preprint arXiv:2606.14201 (2026)."
+        },
+        {
+          "key": "e_1_2_1_8_1",
+          "volume-title": "Proceedings of the 47th International ACM SIGIR Conference on Research and Development in Information Retrieval. 2997–3000",
+          "author": "Dong Haoyu",
+          "year": "2024",
+          "unstructured": "Haoyu Dong and Zhiruo Wang. 2024. Large language models for tabular data: Progresses and future directions. In Proceedings of the 47th International ACM SIGIR Conference on Research and Development in Information Retrieval. 2997–3000."
+        },
+        {
+          "key": "e_1_2_1_9_1",
+          "volume-title": "Proceedings of the 2024 conference on empirical methods in natural language processing. 1107–1128",
+          "author": "Dong Qingxiu",
+          "year": "2024",
+          "unstructured": "Qingxiu Dong, Lei Li, Damai Dai, Ce Zheng, Jingyuan Ma, Rui Li, Heming Xia, Jingjing Xu, Zhiyong Wu, Baobao Chang, et al. 2024. A survey on in-context learning. In Proceedings of the 2024 conference on empirical methods in natural language processing. 1107–1128."
+        },
+        {
+          "key": "e_1_2_1_10_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.48550/ARXIV.2412.10422"
+        },
+        {
+          "key": "e_1_2_1_11_1",
+          "volume-title": "2024 IEEE 40th International Conference on Data Engineering (ICDE). IEEE, 3696–3709",
+          "author": "Fan Meihao",
+          "year": "2024",
+          "unstructured": "Meihao Fan, Xiaoyue Han, Ju Fan, Chengliang Chai, Nan Tang, Guoliang Li, and Xiaoyong Du. 2024. Cost-effective in-context learning for entity resolution: A design space exploration. In 2024 IEEE 40th International Conference on Data Engineering (ICDE). IEEE, 3696–3709."
+        },
+        {
+          "key": "e_1_2_1_12_1",
+          "volume-title": "MontePrep: Monte-Carlo-Driven Automatic Data Preparation without Target Data Instances. arXiv preprint arXiv:2509.17553",
+          "author": "Ge Congcong",
+          "year": "2025",
+          "unstructured": "Congcong Ge, Yachuan Liu, Yixuan Tang, Yifan Zhu, Yaofeng Tu, and Yunjun Gao. 2025. MontePrep: Monte-Carlo-Driven Automatic Data Preparation without Target Data Instances. arXiv preprint arXiv:2509.17553 (2025)."
+        },
+        {
+          "key": "e_1_2_1_13_1",
+          "volume-title": "Text-to-Pipeline: Bridging Natural Language and Data Preparation Pipelines. arXiv preprint arXiv:2505.15874",
+          "author": "Ge Yuhang",
+          "year": "2025",
+          "unstructured": "Yuhang Ge, Yachuan Liu, Yuren Mao, and Yunjun Gao. 2025. Text-to-Pipeline: Bridging Natural Language and Data Preparation Pipelines. arXiv preprint arXiv:2505.15874 (2025)."
+        },
+        {
+          "key": "e_1_2_1_14_1",
+          "doi-asserted-by": "crossref",
+          "first-page": "97",
+          "DOI": "10.1145/2240236.2240260",
+          "article-title": "Spreadsheet data manipulation using examples",
+          "volume": "55",
+          "author": "Gulwani Sumit",
+          "year": "2012",
+          "unstructured": "Sumit Gulwani, William R Harris, and Rishabh Singh. 2012. Spreadsheet data manipulation using examples. Commun. ACM 55, 8 (2012), 97–105.",
+          "journal-title": "Commun. ACM"
+        },
+        {
+          "key": "e_1_2_1_15_1",
+          "unstructured": "Daya Guo Dejian Yang Haowei Zhang Junxiao Song Ruoyu Zhang Runxin Xu Qihao Zhu Shirong Ma Peiyi Wang Xiao Bi et al. 2025. Deepseek-r1: Incentivizing reasoning capability in llms via reinforcement learning. arXiv preprint arXiv:2501.12948 (2025)."
+        },
+        {
+          "key": "e_1_2_1_16_1",
+          "volume-title": "Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing. 8154–8173",
+          "author": "Hao Shibo",
+          "year": "2023",
+          "unstructured": "Shibo Hao, Yi Gu, Haodi Ma, Joshua Hong, Zhen Wang, Daisy Wang, and Zhiting Hu. 2023. Reasoning with language model is planning with world model. In Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing. 8154–8173."
+        },
+        {
+          "key": "e_1_2_1_17_1",
+          "doi-asserted-by": "crossref",
+          "first-page": "1165",
+          "DOI": "10.14778/3231751.3231766",
+          "article-title": "Transform-data-by-example (TDE) an extensible search engine for data transformations",
+          "volume": "11",
+          "author": "He Yeye",
+          "year": "2018",
+          "unstructured": "Yeye He, Xu Chu, Kris Ganjam, Yudian Zheng, Vivek Narasayya, and Surajit Chaudhuri. 2018. Transform-data-by-example (TDE) an extensible search engine for data transformations. Proceedings of the VLDB Endowment 11, 10 (2018), 1165–1177.",
+          "journal-title": "Proceedings of the VLDB Endowment"
+        },
+        {
+          "key": "e_1_2_1_18_1",
+          "volume-title": "Proceedings of the 2018 International Conference on Management of Data. 1377–1392",
+          "author": "Huang Zhipeng",
+          "year": "2018",
+          "unstructured": "Zhipeng Huang and Yeye He. 2018. Auto-detect: Data-driven error detection in tables. In Proceedings of the 2018 International Conference on Management of Data. 1377–1392."
+        },
+        {
+          "key": "e_1_2_1_19_1",
+          "unstructured": "Binyuan Hui Jian Yang Zeyu Cui Jiaxi Yang Dayiheng Liu Lei Zhang Tianyu Liu Jiajun Zhang Bowen Yu Keming Lu et al. 2024. Qwen2. 5-coder technical report. arXiv preprint arXiv:2409.12186 (2024)."
+        },
+        {
+          "key": "e_1_2_1_20_1",
+          "volume-title": "Proceedings of the 2017 ACM International Conference on Management of Data. 683–698",
+          "author": "Jin Zhongjun",
+          "year": "2017",
+          "unstructured": "Zhongjun Jin, Michael R Anderson, Michael Cafarella, and HV Jagadish. 2017. Foofah: Transforming data by example. In Proceedings of the 2017 ACM International Conference on Management of Data. 683–698."
+        },
+        {
+          "key": "e_1_2_1_21_1",
+          "volume-title": "Auto-Prep: Holistic Prediction of Data Preparation Steps for Self-Service Business Intelligence. arXiv preprint arXiv:2504.11627",
+          "author": "Lai Eugenie Y",
+          "year": "2025",
+          "unstructured": "Eugenie Y Lai, Yeye He, and Surajit Chaudhuri. 2025. Auto-Prep: Holistic Prediction of Data Preparation Steps for Self-Service Business Intelligence. arXiv preprint arXiv:2504.11627 (2025)."
+        },
+        {
+          "key": "e_1_2_1_22_1",
+          "first-page": "21314",
+          "article-title": "Coderl: Mastering code generation through pretrained models and deep reinforcement learning",
+          "volume": "35",
+          "author": "Le Hung",
+          "year": "2022",
+          "unstructured": "Hung Le, Yue Wang, Akhilesh Deepak Gotmare, Silvio Savarese, and Steven Chu Hong Hoi. 2022. Coderl: Mastering code generation through pretrained models and deep reinforcement learning. Advances in Neural Information Processing Systems 35 (2022), 21314–21328.",
+          "journal-title": "Advances in Neural Information Processing Systems"
+        },
+        {
+          "key": "e_1_2_1_23_1",
+          "volume-title": "Alpha-sql: Zero-shot text-to-sql using monte carlo tree search. arXiv preprint arXiv:2502.17248",
+          "author": "Li Boyan",
+          "year": "2025",
+          "unstructured": "Boyan Li, Jiayi Zhang, Ju Fan, Yanwei Xu, Chong Chen, Nan Tang, and Yuyu Luo. 2025. Alpha-sql: Zero-shot text-to-sql using monte carlo tree search. arXiv preprint arXiv:2502.17248 (2025)."
+        },
+        {
+          "key": "e_1_2_1_24_1",
+          "doi-asserted-by": "crossref",
+          "first-page": "2371",
+          "DOI": "10.14778/3742728.3742734",
+          "article-title": "Weak-to-strong prompts with lightweight-to-powerful llms for high-accuracy, low-cost, and explainable data transformation",
+          "volume": "18",
+          "author": "Li Changlun",
+          "year": "2025",
+          "unstructured": "Changlun Li, Chenyu Yang, Yuyu Luo, Ju Fan, and Nan Tang. 2025. Weak-to-strong prompts with lightweight-to-powerful llms for high-accuracy, low-cost, and explainable data transformation. Proceedings of the VLDB Endowment 18, 8 (2025), 2371–2384.",
+          "journal-title": "Proceedings of the VLDB Endowment"
+        },
+        {
+          "key": "e_1_2_1_25_1",
+          "unstructured": "Dacheng Li Shiyi Cao Tyler Griggs Shu Liu Xiangxi Mo Eric Tang Sumanth Hegde Kourosh Hakhamaneshi Shishir G Patil Matei Zaharia et al. 2025. LLMs Can Easily Learn to Reason from Demonstrations Structure not content is what matters! arXiv preprint arXiv:2502.07374 (2025)."
+        },
+        {
+          "key": "e_1_2_1_26_1",
+          "unstructured": "Jinyang Li Binyuan Hui Ge Qu Jiaxi Yang Binhua Li Bowen Li Bailin Wang Bowen Qin Ruiying Geng Nan Huo et al. 2024. Can llm already serve as a database interface? a big bench for large-scale database grounded text-to-sqls. Advances in Neural Information Processing Systems 36 (2024)."
+        },
+        {
+          "key": "e_1_2_1_27_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.14778/3611479.3611534"
+        },
+        {
+          "key": "e_1_2_1_28_1",
+          "volume-title": "Proceedings of the Eighth Workshop on Data Management for End-to-End Machine Learning. 62–66",
+          "author": "Li Xue",
+          "year": "2024",
+          "unstructured": "Xue Li and Till Döhmen. 2024. Towards efficient data wrangling with llms using code generation. In Proceedings of the Eighth Workshop on Data Management for End-to-End Machine Learning. 62–66."
+        },
+        {
+          "key": "e_1_2_1_29_1",
+          "doi-asserted-by": "crossref",
+          "first-page": "192350",
+          "DOI": "10.1007/s11704-024-40763-6",
+          "article-title": "Large language model for table processing: A survey",
+          "volume": "19",
+          "author": "Lu Weizheng",
+          "year": "2025",
+          "unstructured": "Weizheng Lu, Jing Zhang, Ju Fan, Zihao Fu, Yueguo Chen, and Xiaoyong Du. 2025. Large language model for table processing: A survey. Frontiers of Computer Science 19, 2 (2025), 192350.",
+          "journal-title": "Frontiers of Computer Science"
+        },
+        {
+          "key": "e_1_2_1_30_1",
+          "volume-title": "Holoclean: Holistic data repairs with probabilistic inference. arXiv preprint arXiv:1702.00820",
+          "author": "Rekatsinas Theodoros",
+          "year": "2017",
+          "unstructured": "Theodoros Rekatsinas, Xu Chu, Ihab F Ilyas, and Christopher Ré. 2017. Holoclean: Holistic data repairs with probabilistic inference. arXiv preprint arXiv:1702.00820 (2017)."
+        },
+        {
+          "key": "e_1_2_1_31_1",
+          "volume-title": "Language modeling on tabular data: A survey of foundations, techniques and evolution. arXiv preprint arXiv:2408.10548",
+          "author": "Ruan Yucheng",
+          "year": "2024",
+          "unstructured": "Yucheng Ruan, Xiang Lan, Jingying Ma, Yizhi Dong, Kai He, and Mengling Feng. 2024. Language modeling on tabular data: A survey of foundations, techniques and evolution. arXiv preprint arXiv:2408.10548 (2024)."
+        },
+        {
+          "key": "e_1_2_1_32_1",
+          "volume-title": "Vibe coding vs. CodeGen: Fundamentals and practical implications of agentic ai. arXiv preprint arXiv:2505.19443",
+          "author": "Sapkota Ranjan",
+          "year": "2025",
+          "unstructured": "Ranjan Sapkota, Konstantinos I Roumeliotis, and Manoj Karkee. 2025. Vibe coding vs. CodeGen: Fundamentals and practical implications of agentic ai. arXiv preprint arXiv:2505.19443 (2025)."
+        },
+        {
+          "key": "e_1_2_1_33_1",
+          "unstructured": "ByteDance Seed Jiaze Chen Tiantian Fan Xin Liu Lingjun Liu Zhiqi Lin Mingxuan Wang Chengyi Wang Xiangpeng Wei Wenyuan Xu et al. 2025. Seed1.5-thinking: Advancing superb reasoning models with reinforcement learning. arXiv preprint arXiv:2504.13914 (2025)."
+        },
+        {
+          "key": "e_1_2_1_34_1",
+          "volume-title": "Deepseekmath: Pushing the limits of mathematical reasoning in open language models. arXiv preprint arXiv:2402.03300",
+          "author": "Shao Zhihong",
+          "year": "2024",
+          "unstructured": "Zhihong Shao, Peiyi Wang, Qihao Zhu, Runxin Xu, Junxiao Song, Xiao Bi, Haowei Zhang, Mingchuan Zhang, YK Li, Yang Wu, et al. 2024. Deepseekmath: Pushing the limits of mathematical reasoning in open language models. arXiv preprint arXiv:2402.03300 (2024)."
+        },
+        {
+          "key": "e_1_2_1_35_1",
+          "volume-title": "2023 IEEE International Conference on Big Data (Big-Data). IEEE",
+          "author": "Sharma Ankita",
+          "year": "2023",
+          "unstructured": "Ankita Sharma, Xuanmao Li, Hong Guan, Guoxin Sun, Liang Zhang, Lanjun Wang, Kesheng Wu, Lei Cao, Erkang Zhu, Alexander Sim, et al. 2023. Automatic data transformation using large language model-an experimental study on building energy data. In 2023 IEEE International Conference on Big Data (Big-Data). IEEE, 1824–1834."
+        },
+        {
+          "key": "e_1_2_1_36_1",
+          "doi-asserted-by": "crossref",
+          "first-page": "816",
+          "DOI": "10.14778/2977797.2977807",
+          "article-title": "Blinkfill: Semi-supervised programming by example for syntactic string transformations",
+          "volume": "9",
+          "author": "Singh Rishabh",
+          "year": "2016",
+          "unstructured": "Rishabh Singh. 2016. Blinkfill: Semi-supervised programming by example for syntactic string transformations. Proceedings of the VLDB Endowment 9, 10 (2016), 816–827.",
+          "journal-title": "Proceedings of the VLDB Endowment"
+        },
+        {
+          "key": "e_1_2_1_37_1",
+          "volume-title": "School of reward hacks: Hacking harmless tasks generalizes to misaligned behavior in llms. arXiv preprint arXiv:2508.17511",
+          "author": "Taylor Mia",
+          "year": "2025",
+          "unstructured": "Mia Taylor, James Chua, Jan Betley, Johannes Treutlein, and Owain Evans. 2025. School of reward hacks: Hacking harmless tasks generalizes to misaligned behavior in llms. arXiv preprint arXiv:2508.17511 (2025)."
+        },
+        {
+          "key": "e_1_2_1_38_1",
+          "doi-asserted-by": "crossref",
+          "first-page": "66383",
+          "DOI": "10.52202/079017-2123",
+          "article-title": "Chain-of-thought reasoning without prompting",
+          "volume": "37",
+          "author": "Wang Xuezhi",
+          "year": "2024",
+          "unstructured": "Xuezhi Wang and Denny Zhou. 2024. Chain-of-thought reasoning without prompting. Advances in Neural Information Processing Systems 37 (2024), 66383–66409.",
+          "journal-title": "Advances in Neural Information Processing Systems"
+        },
+        {
+          "key": "e_1_2_1_39_1",
+          "unstructured": "An Yang Anfeng Li Baosong Yang Beichen Zhang Binyuan Hui Bo Zheng Bowen Yu Chang Gao Chengen Huang Chenxu Lv et al. 2025. Qwen3 technical report. arXiv preprint arXiv:2505.09388 (2025)."
+        },
+        {
+          "key": "e_1_2_1_40_1",
+          "doi-asserted-by": "crossref",
+          "first-page": "2563",
+          "DOI": "10.14778/3476249.3476303",
+          "article-title": "Auto-pipeline: synthesizing complex data pipelines by-target using reinforcement learning and search",
+          "volume": "14",
+          "author": "Yang Junwen",
+          "year": "2021",
+          "unstructured": "Junwen Yang, Yeye He, and Surajit Chaudhuri. 2021. Auto-pipeline: synthesizing complex data pipelines by-target using reinforcement learning and search. Proceedings of the VLDB Endowment 14, 11 (2021), 2563–2575.",
+          "journal-title": "Proceedings of the VLDB Endowment"
+        },
+        {
+          "key": "e_1_2_1_41_1",
+          "volume-title": "Tree of thoughts: Deliberate problem solving with large language models. Advances in neural information processing systems 36",
+          "author": "Yao Shunyu",
+          "year": "2023",
+          "unstructured": "Shunyu Yao, Dian Yu, Jeffrey Zhao, Izhak Shafran, Tom Griffiths, Yuan Cao, and Karthik Narasimhan. 2023. Tree of thoughts: Deliberate problem solving with large language models. Advances in neural information processing systems 36 (2023), 11809–11822."
+        },
+        {
+          "key": "e_1_2_1_42_1",
+          "volume-title": "International Conference on Learning Representations (ICLR).",
+          "author": "Yao Shunyu",
+          "year": "2023",
+          "unstructured": "Shunyu Yao, Jeffrey Zhao, Dian Yu, Nan Du, Izhak Shafran, Karthik Narasimhan, and Yuan Cao. 2023. React: Synergizing reasoning and acting in language models. In International Conference on Learning Representations (ICLR)."
+        },
+        {
+          "key": "e_1_2_1_43_1",
+          "volume-title": "Proceedings of the 2018 Conference on Empirical Methods in Natural Language Processing. 3911–3921",
+          "author": "Yu Tao",
+          "year": "2018",
+          "unstructured": "Tao Yu, Rui Zhang, Kai Yang, Michihiro Yasunaga, Dongxu Wang, Zifan Li, James Ma, Irene Li, Qingning Yao, Shanelle Roman, et al. 2018. Spider: A Large-Scale Human-Labeled Dataset for Complex and Cross-Domain Semantic Parsing and Text-to-SQL Task. In Proceedings of the 2018 Conference on Empirical Methods in Natural Language Processing. 3911–3921."
+        },
+        {
+          "key": "e_1_2_1_44_1",
+          "volume-title": "Deep-analyze: Agentic large language models for autonomous data science. arXiv preprint arXiv:2510.16872",
+          "author": "Zhang Shaolei",
+          "year": "2025",
+          "unstructured": "Shaolei Zhang, Ju Fan, Meihao Fan, Guoliang Li, and Xiaoyong Du. 2025. Deep-analyze: Agentic large language models for autonomous data science. arXiv preprint arXiv:2510.16872 (2025)."
+        },
+        {
+          "key": "e_1_2_1_45_1",
+          "volume-title": "CODA-BENCH: Can Code Agents Handle Data-Intensive Tasks? arXiv preprint arXiv:2606.15300",
+          "author": "Zhang Yuxin",
+          "year": "2026",
+          "unstructured": "Yuxin Zhang, Ju Fan, Meihao Fan, Shaolei Zhang, and Xiaoyong Du. 2026. CODA-BENCH: Can Code Agents Handle Data-Intensive Tasks? arXiv preprint arXiv:2606.15300 (2026)."
+        },
+        {
+          "key": "e_1_2_1_46_1",
+          "volume-title": "Reward-sql: Boosting text-to-sql via stepwise reasoning and process-supervised rewards. arXiv preprint arXiv:2505.04671",
+          "author": "Zhang Yuxin",
+          "year": "2025",
+          "unstructured": "Yuxin Zhang, Meihao Fan, Ju Fan, Mingyang Yi, Yuyu Luo, Jian Tan, and Guoliang Li. 2025. Reward-sql: Boosting text-to-sql via stepwise reasoning and process-supervised rewards. arXiv preprint arXiv:2505.04671 (2025)."
+        },
+        {
+          "key": "e_1_2_1_47_1",
+          "doi-asserted-by": "crossref",
+          "first-page": "1034",
+          "DOI": "10.14778/3115404.3115409",
+          "article-title": "Auto-join: Joining tables by leveraging transformations",
+          "volume": "10",
+          "author": "Zhu Erkang",
+          "year": "2017",
+          "unstructured": "Erkang Zhu, Yeye He, and Surajit Chaudhuri. 2017. Auto-join: Joining tables by leveraging transformations. Proceedings of the VLDB Endowment 10, 10 (2017), 1034–1045.",
+          "journal-title": "Proceedings of the VLDB Endowment"
+        }
+      ],
+      "container-title": [
+        "Proceedings of the VLDB Endowment"
+      ],
+      "original-title": [],
+      "language": "en",
+      "link": [
+        {
+          "URL": "https://dl.acm.org/doi/pdf/10.14778/3836663.3836695",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            9,
+            4
+          ]
+        ],
+        "date-time": "2026-09-04T13:47:33Z",
+        "timestamp": 1788529653000
+      },
+      "score": 1,
+      "resource": {
+        "primary": {
+          "URL": "https://dl.acm.org/doi/10.14778/3836663.3836695"
+        }
+      },
+      "subtitle": [],
+      "short-title": [],
+      "issued": {
+        "date-parts": [
+          [
+            2026,
+            7,
+            1
+          ]
+        ]
+      },
+      "references-count": 47,
+      "journal-issue": {
+        "issue": "11",
+        "published-print": {
+          "date-parts": [
+            [
+              2026,
+              7,
+              1
+            ]
+          ]
+        }
+      },
+      "alternative-id": [
+        "10.14778/3836663.3836695"
+      ],
+      "URL": "https://doi.org/10.14778/3836663.3836695",
+      "relation": {},
+      "ISSN": [
+        "2150-8097"
+      ],
+      "issn-type": [
+        {
+          "value": "2150-8097",
+          "type": "print"
+        }
+      ],
+      "subject": [],
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            7,
+            1
+          ]
+        ]
+      },
+      "assertion": [
+        {
+          "value": "2026-09-04",
+          "order": 3,
+          "name": "published",
+          "label": "Published",
+          "group": {
+            "name": "publication_history",
+            "label": "Publication History"
+          }
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,609 @@
+{
+  "database": "Crossref",
+  "endpoint": "https://api.crossref.org/works/10.14778%2F3748191.3748211",
+  "retrieved": "2026-09-09",
+  "status_code": 200,
+  "response": {
+    "status": "ok",
+    "message-type": "work",
+    "message-version": "1.0.0",
+    "message": {
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            9,
+            5
+          ]
+        ],
+        "date-time": "2026-09-05T01:10:19Z",
+        "timestamp": 1788570619221,
+        "version": "build-2803163510"
+      },
+      "reference-count": 60,
+      "publisher": "Association for Computing Machinery (ACM)",
+      "issue": "10",
+      "content-domain": {
+        "domain": [
+          "dl.acm.org"
+        ],
+        "crossmark-restriction": true
+      },
+      "short-container-title": [
+        "Proc. VLDB Endow."
+      ],
+      "published-print": {
+        "date-parts": [
+          [
+            2025,
+            6
+          ]
+        ]
+      },
+      "abstract": "<jats:p>\n                    Answering natural language (NL) questions about tables, known as Tabular Question Answering (TQA), is crucial because it allows users to quickly and efficiently extract meaningful insights from structured data, effectively bridging the gap between human language and machine-readable formats. Many of these tables are derived from web sources or real-world scenarios, which require meticulous data preparation (or data prep) to ensure accurate responses. However, preparing such tables for NL questions introduces new requirements that extend beyond traditional data preparation. This question-aware data preparation involves specific tasks such as column derivation and filtering tailored to particular questions, as well as question-aware value normalization or conversion, highlighting the need for a more nuanced approach in this context. Because each of the above tasks is unique, a single model (or agent) may not perform effectively across all scenarios. In this paper, we propose\n                    <jats:bold>AutoPrep</jats:bold>\n                    , a large language model (LLM)-based multi-agent framework that leverages the strengths of multiple agents, each specialized in a certain type of data prep, ensuring more accurate and contextually relevant responses. Given an NL question over a table,\n                    <jats:bold>AutoPrep</jats:bold>\n                    performs data prep through three key components.\n                    <jats:bold>Planner</jats:bold>\n                    : Determines a logical plan, outlining a sequence of high-level operations.\n                    <jats:bold>Programmer</jats:bold>\n                    : Translates this logical plan into a physical plan by generating the corresponding low-level code.\n                    <jats:bold>Executor</jats:bold>\n                    : Executes the generated code to process the table. To support this multi-agent framework, we design a novel Chain-of-Clauses reasoning mechanism for high-level operation suggestion, and a tool-augmented method for low-level code generation. Extensive experiments on real-world TQA datasets demonstrate that AutoPrep can significantly improve the state-of-the-art TQA solutions through question-aware data preparation.\n                  </jats:p>",
+      "DOI": "10.14778/3748191.3748211",
+      "type": "journal-article",
+      "created": {
+        "date-parts": [
+          [
+            2025,
+            9,
+            4
+          ]
+        ],
+        "date-time": "2025-09-04T13:50:16Z",
+        "timestamp": 1756993816000
+      },
+      "page": "3504-3517",
+      "update-policy": "https://doi.org/10.1145/crossmark-policy",
+      "source": "Crossref",
+      "is-referenced-by-count": 10,
+      "title": [
+        "AutoPrep: Natural Language Question-Aware Data Preparation with a Multi-Agent Framework"
+      ],
+      "prefix": "10.14778",
+      "volume": "18",
+      "author": [
+        {
+          "given": "Meihao",
+          "family": "Fan",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "Renmin University of China"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Ju",
+          "family": "Fan",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Renmin University of China"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Nan",
+          "family": "Tang",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "HKUST (GZ)"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Lei",
+          "family": "Cao",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "University of Arizona"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Guoliang",
+          "family": "Li",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Tsinghua University"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Xiaoyong",
+          "family": "Du",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Renmin University of China"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "320",
+      "published-online": {
+        "date-parts": [
+          [
+            2025,
+            9,
+            4
+          ]
+        ]
+      },
+      "reference": [
+        {
+          "key": "e_1_2_1_1_1",
+          "unstructured": "2023. Code of Binder. https://github.com/xlang-ai/Binder"
+        },
+        {
+          "key": "e_1_2_1_2_1",
+          "unstructured": "2023. Code of Dater. https://github.com/AlibabaResearch/DAMO-ConvAI"
+        },
+        {
+          "key": "e_1_2_1_3_1",
+          "unstructured": "2024. Code of Chain-of-Table. https://github.com/google-research/chain-of-table"
+        },
+        {
+          "key": "e_1_2_1_4_1",
+          "unstructured": "2024. Code of ReAcTable. https://github.com/yunjiazhang/ReAcTable"
+        },
+        {
+          "key": "e_1_2_1_5_1",
+          "unstructured": "2025. Technical Report. https://github.com/ruc-datalab/AutoPrep/blob/main/pdf/report.pdf"
+        },
+        {
+          "key": "e_1_2_1_6_1",
+          "volume-title": "Feudal multi-agent hierarchies for cooperative reinforcement learning. arXiv preprint arXiv:1901.08492",
+          "author": "Ahilan Sanjeevan",
+          "year": "2019",
+          "unstructured": "Sanjeevan Ahilan and Peter Dayan. 2019. Feudal multi-agent hierarchies for cooperative reinforcement learning. arXiv preprint arXiv:1901.08492 (2019)."
+        },
+        {
+          "key": "e_1_2_1_7_1",
+          "volume-title": "35th Conference on Neural Information Processing Systems, NeurIPS",
+          "author": "Aly Rami",
+          "year": "2021",
+          "unstructured": "Rami Aly, Zhijiang Guo, Michael Schlichtkrull, James Thorne, Andreas Vlachos, Christos Christodoulopoulos, Oana Cocarascu, and Arpit Mittal. 2021. FEVEROUS: Fact Extraction and VERification Over Unstructured and Structured information. In 35th Conference on Neural Information Processing Systems, NeurIPS 2021. Neural Information Processing Systems foundation."
+        },
+        {
+          "key": "e_1_2_1_8_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/3308558.3313602"
+        },
+        {
+          "key": "e_1_2_1_9_1",
+          "volume-title": "NeurIPS",
+          "author": "Brown Tom B.",
+          "year": "2020",
+          "unstructured": "Tom B. Brown, Benjamin Mann, Nick Ryder, Melanie Subbiah, Jared Kaplan, Prafulla Dhariwal, Arvind Neelakantan, Pranav Shyam, Girish Sastry, Amanda Askell, Sandhini Agarwal, Ariel Herbert-Voss, Gretchen Krueger, Tom Henighan, Rewon Child, Aditya Ramesh, Daniel M. Ziegler, Jeffrey Wu, Clemens Winter, Christopher Hesse, Mark Chen, Eric Sigler, Mateusz Litwin, Scott Gray, Benjamin Chess, Jack Clark, Christopher Berner, Sam McCandlish, Alec Radford, Ilya Sutskever, and Dario Amodei. 2020. Language Models are Few-Shot Learners. In NeurIPS 2020, Hugo Larochelle, Marc'Aurelio Ranzato, Raia Hadsell, Maria-Florina Balcan, and Hsuan-Tien Lin (Eds.)."
+        },
+        {
+          "key": "e_1_2_1_10_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/3555041.3589406"
+        },
+        {
+          "key": "e_1_2_1_11_1",
+          "volume-title": "Chateval: Towards better llm-based evaluators through multi-agent debate. arXiv preprint arXiv:2308.07201",
+          "author": "Chan Chi-Min",
+          "year": "2023",
+          "unstructured": "Chi-Min Chan, Weize Chen, Yusheng Su, Jianxuan Yu, Wei Xue, Shanghang Zhang, Jie Fu, and Zhiyuan Liu. 2023. Chateval: Towards better llm-based evaluators through multi-agent debate. arXiv preprint arXiv:2308.07201 (2023)."
+        },
+        {
+          "key": "e_1_2_1_12_1",
+          "unstructured": "Dong Chen Shaoxin Lin Muhan Zeng Daoguang Zan Jian-Gang Wang Anton Cheshkov Jun Sun Hao Yu Guoliang Dong Artem Aliev et al. 2024. CodeR: Issue Resolving with Multi-Agent and Task Graphs. arXiv preprint arXiv:2406.01304 (2024)."
+        },
+        {
+          "key": "e_1_2_1_13_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/3588945"
+        },
+        {
+          "key": "e_1_2_1_14_1",
+          "volume-title": "Large language models are few (1)-shot table reasoners. arXiv preprint arXiv:2210.06710",
+          "author": "Chen Wenhu",
+          "year": "2022",
+          "unstructured": "Wenhu Chen. 2022. Large language models are few (1)-shot table reasoners. arXiv preprint arXiv:2210.06710 (2022)."
+        },
+        {
+          "key": "e_1_2_1_15_1",
+          "volume-title": "Tabfact: A large-scale dataset for table-based fact verification. arXiv preprint arXiv:1909.02164",
+          "author": "Chen Wenhu",
+          "year": "2019",
+          "unstructured": "Wenhu Chen, Hongmin Wang, Jianshu Chen, Yunkai Zhang, Hong Wang, Shiyang Li, Xiyou Zhou, and William Yang Wang. 2019. Tabfact: A large-scale dataset for table-based fact verification. arXiv preprint arXiv:1909.02164 (2019)."
+        },
+        {
+          "key": "e_1_2_1_16_1",
+          "volume-title": "Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers). 1094–1110",
+          "author": "Cheng Zhoujun",
+          "year": "2022",
+          "unstructured": "Zhoujun Cheng, Haoyu Dong, Zhiruo Wang, Ran Jia, Jiaqi Guo, Yan Gao, Shi Han, Jian-Guang Lou, and Dongmei Zhang. 2022. HiTab: A Hierarchical Table Dataset for Question Answering and Natural Language Generation. In Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers). 1094–1110."
+        },
+        {
+          "key": "e_1_2_1_17_1",
+          "volume-title": "Binding Language Models in Symbolic Languages. In International Conference on Learning Representations (ICLR 2023)",
+          "author": "Cheng Zhoujun",
+          "year": "2023",
+          "unstructured": "Zhoujun Cheng, Tianbao Xie, Peng Shi, Chengzu Li, Rahul Nadkarni, Yushi Hu, Caiming Xiong, Dragomir Radev, Mari Ostendorf, Luke Zettlemoyer, et al. 2023. Binding Language Models in Symbolic Languages. In International Conference on Learning Representations (ICLR 2023)(01/05/2023-05/05/2023, Kigali, Rwanda)."
+        },
+        {
+          "key": "e_1_2_1_18_1",
+          "unstructured": "Abhimanyu Dubey Abhinav Jauhri Abhinav Pandey Abhishek Kadian Ahmad Al-Dahle Aiesha Letman Akhil Mathur Alan Schelten Amy Yang Angela Fan et al. 2024. The llama 3 herd of models. arXiv preprint arXiv:2407.21783 (2024)."
+        },
+        {
+          "key": "e_1_2_1_19_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/3318464.3389779"
+        },
+        {
+          "key": "e_1_2_1_20_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/ICDE60146.2024.00284"
+        },
+        {
+          "key": "e_1_2_1_21_1",
+          "volume-title": "The next generation. arXiv preprint arXiv:2007.04074 24",
+          "author": "Feurer Matthias",
+          "year": "2020",
+          "unstructured": "Matthias Feurer, Katharina Eggensperger, Stefan Falkner, Marius Lindauer, and Frank Hutter. 2020. Auto-sklearn 2.0: The next generation. arXiv preprint arXiv:2007.04074 24 (2020), 8."
+        },
+        {
+          "key": "e_1_2_1_22_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.18653/V1/2022.EMNLP-MAIN.331"
+        },
+        {
+          "key": "e_1_2_1_23_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/3514221.3520163"
+        },
+        {
+          "key": "e_1_2_1_24_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.48550/ARXIV.2401.14196"
+        },
+        {
+          "key": "e_1_2_1_25_1",
+          "volume-title": "LLM multi-agent systems: Challenges and open problems. arXiv preprint arXiv:2402.03578",
+          "author": "Han Shanshan",
+          "year": "2024",
+          "unstructured": "Shanshan Han, Qifan Zhang, Yuhang Yao, Weizhao Jin, Zhaozhuo Xu, and Chaoyang He. 2024. LLM multi-agent systems: Challenges and open problems. arXiv preprint arXiv:2402.03578 (2024)."
+        },
+        {
+          "key": "e_1_2_1_26_1",
+          "volume-title": "Multi-Agent Security Workshop@ NeurIPS'23",
+          "author": "Harris Keegan",
+          "year": "2023",
+          "unstructured": "Keegan Harris, Steven Wu, and Maria Florina Balcan. 2023. Stackelberg games with side information. In Multi-Agent Security Workshop@ NeurIPS'23."
+        },
+        {
+          "key": "e_1_2_1_27_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/3394486.3403261"
+        },
+        {
+          "key": "e_1_2_1_28_1",
+          "volume-title": "Zijuan Lin, Liyang Zhou, et al.",
+          "author": "Hong Sirui",
+          "year": "2023",
+          "unstructured": "Sirui Hong, Xiawu Zheng, Jonathan Chen, Yuheng Cheng, Jinlin Wang, Ceyao Zhang, Zili Wang, Steven Ka Shing Yau, Zijuan Lin, Liyang Zhou, et al. 2023. Metagpt: Meta programming for multi-agent collaborative framework. arXiv preprint arXiv:2308.00352 (2023)."
+        },
+        {
+          "key": "e_1_2_1_29_1",
+          "volume-title": "Automated machine learning: methods, systems, challenges",
+          "author": "Hutter Frank",
+          "unstructured": "Frank Hutter, Lars Kotthoff, and Joaquin Vanschoren. 2019. Automated machine learning: methods, systems, challenges. Springer Nature."
+        },
+        {
+          "key": "e_1_2_1_30_1",
+          "volume-title": "Self-organized agents: A llm multi-agent framework toward ultra large-scale code generation and optimization. arXiv preprint arXiv:2404.02183",
+          "author": "Ishibashi Yoichi",
+          "year": "2024",
+          "unstructured": "Yoichi Ishibashi and Yoshimasa Nishimura. 2024. Self-organized agents: A llm multi-agent framework toward ultra large-scale code generation and optimization. arXiv preprint arXiv:2404.02183 (2024)."
+        },
+        {
+          "key": "e_1_2_1_31_1",
+          "volume-title": "Mohammed Eunus Ali, and Md Rizwan Parvez",
+          "author": "Islam Md Ashraful",
+          "year": "2024",
+          "unstructured": "Md Ashraful Islam, Mohammed Eunus Ali, and Md Rizwan Parvez. 2024. Map-Coder: Multi-Agent Code Generation for Competitive Problem Solving. arXiv preprint arXiv:2405.11403 (2024)."
+        },
+        {
+          "key": "e_1_2_1_32_1",
+          "volume-title": "Decomposed prompting: A modular approach for solving complex tasks. arXiv preprint arXiv:2210.02406",
+          "author": "Khot Tushar",
+          "year": "2022",
+          "unstructured": "Tushar Khot, Harsh Trivedi, Matthew Finlayson, Yao Fu, Kyle Richardson, Peter Clark, and Ashish Sabharwal. 2022. Decomposed prompting: A modular approach for solving complex tasks. arXiv preprint arXiv:2210.02406 (2022)."
+        },
+        {
+          "key": "e_1_2_1_33_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.14778/3611479.3611534"
+        },
+        {
+          "key": "e_1_2_1_34_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.48550/ARXIV.2404.02060"
+        },
+        {
+          "key": "e_1_2_1_35_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/S11704-024-40763-6"
+        },
+        {
+          "key": "e_1_2_1_36_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.25080/Majora-92bf1922-00a"
+        },
+        {
+          "key": "e_1_2_1_37_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1162/tacl_a_00446"
+        },
+        {
+          "key": "e_1_2_1_38_1",
+          "volume-title": "Workshop on automatic machine learning. PMLR, 66–74",
+          "author": "Olson Randal S",
+          "year": "2016",
+          "unstructured": "Randal S Olson and Jason H Moore. 2016. TPOT: A tree-based pipeline optimization tool for automating machine learning. In Workshop on automatic machine learning. PMLR, 66–74."
+        },
+        {
+          "key": "e_1_2_1_39_1",
+          "volume-title": "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers). 6322–6334",
+          "author": "Pal Vaishali",
+          "year": "2023",
+          "unstructured": "Vaishali Pal, Andrew Yates, Evangelos Kanoulas, and Maarten de Rijke. 2023. MultiTabQA: Generating Tabular Answers for Multi-Table Question Answering. In Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers). 6322–6334."
+        },
+        {
+          "key": "e_1_2_1_40_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.3115/v1/P15-1142"
+        },
+        {
+          "key": "e_1_2_1_41_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/3448016.3457330"
+        },
+        {
+          "key": "e_1_2_1_42_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/3448016.3457330"
+        },
+        {
+          "key": "e_1_2_1_43_1",
+          "volume-title": "Communicative agents for software development. arXiv preprint arXiv:2307.07924 6",
+          "author": "Qian Chen",
+          "year": "2023",
+          "unstructured": "Chen Qian, Xin Cong, Cheng Yang, Weize Chen, Yusheng Su, Juyuan Xu, Zhiyuan Liu, and Maosong Sun. 2023. Communicative agents for software development. arXiv preprint arXiv:2307.07924 6 (2023)."
+        },
+        {
+          "key": "e_1_2_1_44_1",
+          "volume-title": "Evaluating the text-to-sql capabilities of large language models. arXiv preprint arXiv:2204.00498",
+          "author": "Rajkumar Nitarshan",
+          "year": "2022",
+          "unstructured": "Nitarshan Rajkumar, Raymond Li, and Dzmitry Bahdanau. 2022. Evaluating the text-to-sql capabilities of large language models. arXiv preprint arXiv:2204.00498 (2022)."
+        },
+        {
+          "key": "e_1_2_1_45_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/3299869.3319863"
+        },
+        {
+          "key": "e_1_2_1_46_1",
+          "volume-title": "MAGIS: LLM-Based Multi-Agent Framework for GitHub Issue Resolution. arXiv preprint arXiv:2403.17927",
+          "author": "Tao Wei",
+          "year": "2024",
+          "unstructured": "Wei Tao, Yucheng Zhou, Wenqiang Zhang, and Yu Cheng. 2024. MAGIS: LLM-Based Multi-Agent Framework for GitHub Issue Resolution. arXiv preprint arXiv:2403.17927 (2024)."
+        },
+        {
+          "key": "e_1_2_1_47_1",
+          "volume-title": "Multi-Agent Security Workshop@ NeurIPS'23",
+          "author": "Terekhov Mikhail",
+          "year": "2023",
+          "unstructured": "Mikhail Terekhov, Romain Graux, Eduardo Neville, Denis Rosset, and Gabin Kolly. 2023. Second-order Jailbreaks: Generative Agents Successfully Manipulate Through an Intermediary. In Multi-Agent Security Workshop@ NeurIPS'23."
+        },
+        {
+          "key": "e_1_2_1_48_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/2487575.2487629"
+        },
+        {
+          "key": "e_1_2_1_49_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/3514221.3517870"
+        },
+        {
+          "key": "e_1_2_1_50_1",
+          "volume-title": "Vincent Perot, Zifeng Wang, Lesly Miculicich, Yasuhisa Fujii, Jingbo Shang, Chen-Yu Lee, et al.",
+          "author": "Wang Zilong",
+          "year": "2024",
+          "unstructured": "Zilong Wang, Hao Zhang, Chun-Liang Li, Julian Martin Eisenschlos, Vincent Perot, Zifeng Wang, Lesly Miculicich, Yasuhisa Fujii, Jingbo Shang, Chen-Yu Lee, et al. 2024. Chain-of-table: Evolving tables in the reasoning chain for table understanding. arXiv preprint arXiv:2401.04398 (2024)."
+        },
+        {
+          "key": "e_1_2_1_51_1",
+          "volume-title": "Denny Zhou, et al.",
+          "author": "Wei Jason",
+          "year": "2022",
+          "unstructured": "Jason Wei, Xuezhi Wang, Dale Schuurmans, Maarten Bosma, Fei Xia, Ed Chi, Quoc V Le, Denny Zhou, et al. 2022. Chain-of-thought prompting elicits reasoning in large language models. Advances in neural information processing systems 35 (2022), 24824–24837."
+        },
+        {
+          "key": "e_1_2_1_52_1",
+          "unstructured": "Xianjie Wu Jian Yang Linzheng Chai Ge Zhang Jiaheng Liu Xinrun Du Di Liang Daixin Shu Xianfu Cheng Tianzhen Sun et al. 2024. TableBench: A Comprehensive and Complex Benchmark for Table Question Answering. arXiv preprint arXiv:2408.09174 (2024)."
+        },
+        {
+          "key": "e_1_2_1_53_1",
+          "unstructured": "An Yang Baosong Yang Binyuan Hui Bo Zheng Bowen Yu Chang Zhou Chengpeng Li Chengyuan Li Dayiheng Liu Fei Huang et al. 2024. Qwen2 technical report. arXiv preprint arXiv:2407.10671 (2024)."
+        },
+        {
+          "key": "e_1_2_1_54_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/3394486.3403197"
+        },
+        {
+          "key": "e_1_2_1_55_1",
+          "volume-title": "React: Synergizing reasoning and acting in language models. arXiv preprint arXiv:2210.03629",
+          "author": "Yao Shunyu",
+          "year": "2022",
+          "unstructured": "Shunyu Yao, Jeffrey Zhao, Dian Yu, Nan Du, Izhak Shafran, Karthik Narasimhan, and Yuan Cao. 2022. React: Synergizing reasoning and acting in language models. arXiv preprint arXiv:2210.03629 (2022)."
+        },
+        {
+          "key": "e_1_2_1_56_1",
+          "volume-title": "ReAct: Synergizing Reasoning and Acting in Language Models. In The Eleventh International Conference on Learning Representations, ICLR 2023",
+          "author": "Yao Shunyu",
+          "year": "2023",
+          "unstructured": "Shunyu Yao, Jeffrey Zhao, Dian Yu, Nan Du, Izhak Shafran, Karthik R. Narasimhan, and Yuan Cao. 2023. ReAct: Synergizing Reasoning and Acting in Language Models. In The Eleventh International Conference on Learning Representations, ICLR 2023, Kigali, Rwanda, May 1–5, 2023. OpenReview.net. https://openreview.net/forum?id=WE_vluYUL-X"
+        },
+        {
+          "key": "e_1_2_1_57_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/3539618.3591708"
+        },
+        {
+          "key": "e_1_2_1_58_1",
+          "volume-title": "Reward-sql: Boosting text-to-sql via stepwise reasoning and process-supervised rewards. arXiv preprint arXiv:2505.04671",
+          "author": "Zhang Yuxin",
+          "year": "2025",
+          "unstructured": "Yuxin Zhang, Meihao Fan, Ju Fan, Mingyang Yi, Yuyu Luo, Jian Tan, and Guoliang Li. 2025. Reward-sql: Boosting text-to-sql via stepwise reasoning and process-supervised rewards. arXiv preprint arXiv:2505.04671 (2025)."
+        },
+        {
+          "key": "e_1_2_1_59_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.14778/3659437.3659452"
+        },
+        {
+          "key": "e_1_2_1_60_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.14778/3685800.3685816"
+        }
+      ],
+      "container-title": [
+        "Proceedings of the VLDB Endowment"
+      ],
+      "original-title": [],
+      "language": "en",
+      "link": [
+        {
+          "URL": "https://dl.acm.org/doi/pdf/10.14778/3748191.3748211",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2025,
+            9,
+            4
+          ]
+        ],
+        "date-time": "2025-09-04T13:52:08Z",
+        "timestamp": 1756993928000
+      },
+      "score": 1,
+      "resource": {
+        "primary": {
+          "URL": "https://dl.acm.org/doi/10.14778/3748191.3748211"
+        }
+      },
+      "subtitle": [],
+      "short-title": [],
+      "issued": {
+        "date-parts": [
+          [
+            2025,
+            6
+          ]
+        ]
+      },
+      "references-count": 60,
+      "journal-issue": {
+        "issue": "10",
+        "published-print": {
+          "date-parts": [
+            [
+              2025,
+              6
+            ]
+          ]
+        }
+      },
+      "alternative-id": [
+        "10.14778/3748191.3748211"
+      ],
+      "URL": "https://doi.org/10.14778/3748191.3748211",
+      "relation": {},
+      "ISSN": [
+        "2150-8097"
+      ],
+      "issn-type": [
+        {
+          "value": "2150-8097",
+          "type": "print"
+        }
+      ],
+      "subject": [],
+      "published": {
+        "date-parts": [
+          [
+            2025,
+            6
+          ]
+        ]
+      },
+      "assertion": [
+        {
+          "value": "2025-09-04",
+          "order": 3,
+          "name": "published",
+          "label": "Published",
+          "group": {
+            "name": "publication_history",
+            "label": "Publication History"
+          }
+        }
+      ]
+    }
+  }
+}

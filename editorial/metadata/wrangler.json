@@ -1,0 +1,379 @@
+{
+  "database": "Crossref",
+  "endpoint": "https://api.crossref.org/works/10.1145%2F1978942.1979444",
+  "retrieved": "2026-09-09",
+  "status_code": 200,
+  "response": {
+    "status": "ok",
+    "message-type": "work",
+    "message-version": "1.0.0",
+    "message": {
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            9,
+            4
+          ]
+        ],
+        "date-time": "2026-09-04T00:43:57Z",
+        "timestamp": 1788482637727,
+        "version": "build-2803163510"
+      },
+      "publisher-location": "New York, NY, USA",
+      "reference-count": 26,
+      "publisher": "ACM",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2011,
+                5,
+                7
+              ]
+            ],
+            "date-time": "2011-05-07T00:00:00Z",
+            "timestamp": 1304726400000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "https://www.acm.org/publications/policies/copyright_policy#Background"
+        }
+      ],
+      "content-domain": {
+        "domain": [
+          "dl.acm.org"
+        ],
+        "crossmark-restriction": true
+      },
+      "short-container-title": [],
+      "published-print": {
+        "date-parts": [
+          [
+            2011,
+            5,
+            7
+          ]
+        ]
+      },
+      "DOI": "10.1145/1978942.1979444",
+      "type": "proceedings-article",
+      "created": {
+        "date-parts": [
+          [
+            2011,
+            5,
+            9
+          ]
+        ],
+        "date-time": "2011-05-09T08:48:29Z",
+        "timestamp": 1304930909000
+      },
+      "page": "3363-3372",
+      "update-policy": "https://doi.org/10.1145/crossmark-policy",
+      "source": "Crossref",
+      "is-referenced-by-count": 455,
+      "title": [
+        "Wrangler"
+      ],
+      "prefix": "10.1145",
+      "author": [
+        {
+          "given": "Sean",
+          "family": "Kandel",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "Stanford University, Stanford, California, USA"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Andreas",
+          "family": "Paepcke",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Stanford University, Stanford, California, USA"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Joseph",
+          "family": "Hellerstein",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "University of California, Berkeley, Berkeley, California, USA"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Jeffrey",
+          "family": "Heer",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Stanford University, Stanford, California, USA"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "320",
+      "published-online": {
+        "date-parts": [
+          [
+            2011,
+            5,
+            7
+          ]
+        ]
+      },
+      "reference": [
+        {
+          "key": "e_1_3_2_2_1_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/872757.872799"
+        },
+        {
+          "key": "e_1_3_2_2_2_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.5555/369505.369521"
+        },
+        {
+          "key": "e_1_3_2_2_3_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/1376616.1376700"
+        },
+        {
+          "key": "e_1_3_2_2_4_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.5555/861869"
+        },
+        {
+          "key": "e_1_3_2_2_5_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/564691.564719"
+        },
+        {
+          "key": "e_1_3_2_2_6_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/TKDE.2007.9"
+        },
+        {
+          "key": "e_1_3_2_2_7_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/1065010.1065046"
+        },
+        {
+          "key": "e_1_3_2_2_8_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/342009.336568"
+        },
+        {
+          "key": "e_1_3_2_2_9_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/1066157.1066252"
+        },
+        {
+          "key": "e_1_3_2_2_10_1",
+          "volume-title": "Quantitative data cleaning for large databases",
+          "author": "Hellerstein J. M.",
+          "year": "2008",
+          "unstructured": "J. M. Hellerstein . Quantitative data cleaning for large databases , 2008 . White Paper, United Nations Economic Commission for Europe . J. M. Hellerstein. Quantitative data cleaning for large databases, 2008. White Paper, United Nations Economic Commission for Europe."
+        },
+        {
+          "key": "e_1_3_2_2_11_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1023/B:AIRE.0000045502.10941.a9"
+        },
+        {
+          "key": "e_1_3_2_2_12_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/302979.303030"
+        },
+        {
+          "key": "e_1_3_2_2_13_1",
+          "unstructured": "D. Huynh and S. Mazzocchi. Google Refine. http://code.google.com/p/google-refine/.  D. Huynh and S. Mazzocchi. Google Refine. http://code.google.com/p/google-refine/."
+        },
+        {
+          "key": "e_1_3_2_2_14_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.5555/1785162.1785232"
+        },
+        {
+          "key": "e_1_3_2_2_15_1",
+          "volume-title": "CIDR",
+          "author": "Ives Z. G.",
+          "year": "2009",
+          "unstructured": "Z. G. Ives , C. A. Knoblock , S. Minton , M. Jacob , P. Pratim , T. R. Tuchinda , J. Luis , A. Maria , and M. C. Gazen . Interactive data integration through smart copy & paste . In CIDR , 2009 . Z. G. Ives, C. A. Knoblock, S. Minton, M. Jacob, P. Pratim, T. R. Tuchinda, J. Luis, A. Maria, and M. C. Gazen. Interactive data integration through smart copy & paste. In CIDR, 2009."
+        },
+        {
+          "key": "e_1_3_2_2_16_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/TVCG.2008.55"
+        },
+        {
+          "key": "e_1_3_2_2_17_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/503099.503102"
+        },
+        {
+          "key": "e_1_3_2_2_18_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/1502650.1502667"
+        },
+        {
+          "key": "e_1_3_2_2_19_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.5555/647055.715910"
+        },
+        {
+          "key": "e_1_3_2_2_20_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.5555/2187809"
+        },
+        {
+          "key": "e_1_3_2_2_21_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/s007780100057"
+        },
+        {
+          "key": "e_1_3_2_2_22_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.5555/645927.672045"
+        },
+        {
+          "key": "e_1_3_2_2_23_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/1054972.1055032"
+        },
+        {
+          "key": "e_1_3_2_2_24_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/1502650.1502692"
+        },
+        {
+          "key": "e_1_3_2_2_25_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1023/A:1007562322031"
+        },
+        {
+          "key": "e_1_3_2_2_26_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/1378773.1378792"
+        }
+      ],
+      "event": {
+        "name": "CHI '11: CHI Conference on Human Factors in Computing Systems",
+        "location": "Vancouver BC Canada",
+        "acronym": "CHI '11",
+        "sponsor": [
+          "SIGCHI ACM Special Interest Group on Computer-Human Interaction"
+        ]
+      },
+      "container-title": [
+        "Proceedings of the SIGCHI Conference on Human Factors in Computing Systems"
+      ],
+      "original-title": [],
+      "link": [
+        {
+          "URL": "https://dl.acm.org/doi/10.1145/1978942.1979444",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        },
+        {
+          "URL": "https://dl.acm.org/doi/pdf/10.1145/1978942.1979444",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2025,
+            6,
+            18
+          ]
+        ],
+        "date-time": "2025-06-18T07:06:05Z",
+        "timestamp": 1750230365000
+      },
+      "score": 1,
+      "resource": {
+        "primary": {
+          "URL": "https://dl.acm.org/doi/10.1145/1978942.1979444"
+        }
+      },
+      "subtitle": [
+        "interactive visual specification of data transformation scripts"
+      ],
+      "short-title": [],
+      "issued": {
+        "date-parts": [
+          [
+            2011,
+            5,
+            7
+          ]
+        ]
+      },
+      "references-count": 26,
+      "alternative-id": [
+        "10.1145/1978942.1979444",
+        "10.1145/1978942"
+      ],
+      "URL": "https://doi.org/10.1145/1978942.1979444",
+      "relation": {},
+      "subject": [],
+      "published": {
+        "date-parts": [
+          [
+            2011,
+            5,
+            7
+          ]
+        ]
+      },
+      "assertion": [
+        {
+          "value": "2011-05-07",
+          "order": 2,
+          "name": "published",
+          "label": "Published",
+          "group": {
+            "name": "publication_history",
+            "label": "Publication History"
+          }
+        }
+      ]
+    }
+  }
+}

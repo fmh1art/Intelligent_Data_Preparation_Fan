@@ -1,0 +1,628 @@
+{
+  "database": "Crossref",
+  "endpoint": "https://api.crossref.org/works/10.1145%2F3802020",
+  "retrieved": "2026-09-09",
+  "status_code": 200,
+  "response": {
+    "status": "ok",
+    "message-type": "work",
+    "message-version": "1.0.0",
+    "message": {
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            5,
+            18
+          ]
+        ],
+        "date-time": "2026-05-18T19:06:45Z",
+        "timestamp": 1779131205050,
+        "version": "3.51.4"
+      },
+      "reference-count": 54,
+      "publisher": "Association for Computing Machinery (ACM)",
+      "issue": "3",
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "short-container-title": [
+        "Proc. ACM Manag. Data"
+      ],
+      "published-print": {
+        "date-parts": [
+          [
+            2026,
+            5,
+            18
+          ]
+        ]
+      },
+      "abstract": "<jats:p>In real-world scenarios, a pervasive requirement for automatic data preparation (ADP) is to transform diverse relational tables from different sources into a specified target table. Previous methods rely on labor-intensive supervision signals or access permissions to target table data, limiting their usage in commercial systems.</jats:p>\n                  <jats:p>To tackle these challenges, we propose BAT, the first end-to-end ADP framework. It enables the synthesis of training-free data preparation pipelines without requiring any instances from target tables. BAT is formulated as an open-source large language model (LLM) driven tree-structured search problem.It consists of three pivot components, i.e., a data preparation action sandbox (DPAS), a fundamental pipeline generator (fFPG), and an execution-aware pipeline optimizer (EPO). We first introduce DPAS, a lightweight action sandbox, to navigate the search-based data preparation pipeline generation process. The design of DPAS circumvents exploration of infeasible pipelines. Then, we present FPG, an LLM-driven Monte Carlo tree search process, to incrementally generate executable DP pipelines within the constraints of the predefined action sandbox. Furthermore, we propose EPO, which invokes pipeline execution results from sources to targets to evaluate the reliability of the generated pipelines in FPG. In this way, unreasonable pipelines are eliminated, thus facilitating the search process from both efficiency and effectiveness perspectives. Extensive experiments on real-world datasets show that BAT significantly outperforms 5 SOTA competitors, achieving at least 8.74% improvements in the end-to-end data preparation pipeline execution accuracy.</jats:p>",
+      "DOI": "10.1145/3802020",
+      "type": "journal-article",
+      "created": {
+        "date-parts": [
+          [
+            2026,
+            5,
+            18
+          ]
+        ],
+        "date-time": "2026-05-18T18:19:16Z",
+        "timestamp": 1779128356000
+      },
+      "page": "1-25",
+      "source": "Crossref",
+      "is-referenced-by-count": 0,
+      "title": [
+        "BAT: Target-Instance-Free Data Preparation Synthesis via LLM-Driven Tree Search"
+      ],
+      "prefix": "10.1145",
+      "volume": "4",
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0009-0001-4460-2738",
+          "authenticated-orcid": false,
+          "given": "Congcong",
+          "family": "Ge",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "School of Software Technology, Zhejiang University, Ningbo, China"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0009-0004-7827-4877",
+          "authenticated-orcid": false,
+          "given": "Yachuan",
+          "family": "Liu",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Polytechnic Institute, Zhejiang University, Hangzhou, China"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0003-3766-0929",
+          "authenticated-orcid": false,
+          "given": "Yixuan",
+          "family": "Tang",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "National University of Singapore, Singapore, Singapore"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0003-4555-6232",
+          "authenticated-orcid": false,
+          "given": "Yifan",
+          "family": "Zhu",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "School of Software Technology, Zhejiang University, Ningbo, China"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-2616-2273",
+          "authenticated-orcid": false,
+          "given": "Yaofeng",
+          "family": "Tu",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "ZTE Corporation, Shenzhen, China"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0003-3816-8450",
+          "authenticated-orcid": false,
+          "given": "Yunjun",
+          "family": "Gao",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "College of Computer Science, Zhejiang University, Hangzhou, China"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "member": "320",
+      "published-online": {
+        "date-parts": [
+          [
+            2026,
+            5,
+            18
+          ]
+        ]
+      },
+      "reference": [
+        {
+          "key": "e_1_2_1_1_1",
+          "first-page": "1134",
+          "article-title": "DataXFormer: A robust transformation discovery system",
+          "author": "Abedjan Ziawasch",
+          "year": "2016",
+          "unstructured": "Ziawasch Abedjan, John Morcos, Ihab F. Ilyas, Mourad Ouzzani, Paolo Papotti, and Michael Stonebraker. 2016. DataXFormer: A robust transformation discovery system. In ICDE. 1134-1145.",
+          "journal-title": "ICDE."
+        },
+        {
+          "key": "e_1_2_1_2_1",
+          "doi-asserted-by": "crossref",
+          "first-page": "184",
+          "DOI": "10.1080/00987913.2019.1644891",
+          "article-title": "Microsoft power BI: extending excel to manipulate, analyze, and visualize diverse data",
+          "volume": "45",
+          "author": "Becker Louis T",
+          "year": "2019",
+          "unstructured": "Louis T Becker and Elyssa M Gould. 2019. Microsoft power BI: extending excel to manipulate, analyze, and visualize diverse data. Serials Review, Vol. 45, 3 (2019), 184-188.",
+          "journal-title": "Serials Review"
+        },
+        {
+          "key": "e_1_2_1_3_1",
+          "first-page": "27689",
+          "article-title": "Alphamath almost zero: process supervision without process",
+          "volume": "37",
+          "author": "Chen Guoxin",
+          "year": "2024",
+          "unstructured": "Guoxin Chen, Minpeng Liao, Chengxi Li, and Kai Fan. 2024a. Alphamath almost zero: process supervision without process. In NeurIPS, Vol. 37. 27689-27724.",
+          "journal-title": "NeurIPS"
+        },
+        {
+          "key": "e_1_2_1_4_1",
+          "first-page": "484",
+          "article-title": "ChatPipe: orchestrating data preparation pipelines by optimizing human-ChatGPT interactions",
+          "author": "Chen Sibei",
+          "year": "2024",
+          "unstructured": "Sibei Chen, Hanbing Liu, Waiting Jin, Xiangyu Sun, Xiaoyao Feng, Ju Fan, Xiaoyong Du, and Nan Tang. 2024b. ChatPipe: orchestrating data preparation pipelines by optimizing human-ChatGPT interactions. In SIGMOD. 484-487.",
+          "journal-title": "SIGMOD."
+        },
+        {
+          "key": "e_1_2_1_5_1",
+          "volume-title": "Program of thoughts prompting: Disentangling computation from reasoning for numerical reasoning tasks. arXiv preprint arXiv:2211.12588",
+          "author": "Chen Wenhu",
+          "year": "2022",
+          "unstructured": "Wenhu Chen, Xueguang Ma, Xinyi Wang, and William W Cohen. 2022. Program of thoughts prompting: Disentangling computation from reasoning for numerical reasoning tasks. arXiv preprint arXiv:2211.12588 (2022)."
+        },
+        {
+          "key": "e_1_2_1_6_1",
+          "volume-title": "International Conference on Computers and Games. 72-83",
+          "author": "Coulom Rémi",
+          "year": "2006",
+          "unstructured": "Rémi Coulom. 2006. Efficient selectivity and backup operators in Monte-Carlo tree search. In International Conference on Computers and Games. 72-83."
+        },
+        {
+          "key": "e_1_2_1_7_1",
+          "first-page": "60429",
+          "article-title": "Generating code world models with large language models guided by monte carlo tree search",
+          "volume": "37",
+          "author": "Dainese Nicola",
+          "year": "2024",
+          "unstructured": "Nicola Dainese, Matteo Merler, Minttu Alakuijala, and Pekka Marttinen. 2024. Generating code world models with large language models guided by monte carlo tree search. In NeurIPS, Vol. 37. 60429-60474.",
+          "journal-title": "NeurIPS"
+        },
+        {
+          "key": "e_1_2_1_8_1",
+          "volume-title": "Ziawasch Abedjan, Sibo Wang, Michael Stonebraker, Ahmed K Elmagarmid, Ihab F Ilyas, Samuel Madden, Mourad Ouzzani, and Nan Tang.",
+          "author": "Deng Dong",
+          "year": "2017",
+          "unstructured": "Dong Deng, Raul Castro Fernandez, Ziawasch Abedjan, Sibo Wang, Michael Stonebraker, Ahmed K Elmagarmid, Ihab F Ilyas, Samuel Madden, Mourad Ouzzani, and Nan Tang. 2017. The Data Civilizer System. In CIDR."
+        },
+        {
+          "key": "e_1_2_1_9_1",
+          "volume-title": "Text-to-Pipeline: Bridging Natural Language and Data Preparation Pipelines. arXiv preprint arXiv:2505.15874",
+          "author": "Ge Yuhang",
+          "year": "2025",
+          "unstructured": "Yuhang Ge, Yachuan Liu, Yuren Mao, and Yunjun Gao. 2025. Text-to-Pipeline: Bridging Natural Language and Data Preparation Pipelines. arXiv preprint arXiv:2505.15874 (2025)."
+        },
+        {
+          "key": "e_1_2_1_10_1",
+          "volume-title": "deep learning, and the future of the human microscopist. Archives of pathology & laboratory medicine",
+          "author": "Granter Scott R",
+          "year": "2017",
+          "unstructured": "Scott R Granter, Andrew H Beck, and David J Papke Jr. 2017. AlphaGo, deep learning, and the future of the human microscopist. Archives of pathology & laboratory medicine, Vol. 141, 5 (2017), 619-621."
+        },
+        {
+          "key": "e_1_2_1_11_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/1925844.1926423"
+        },
+        {
+          "key": "e_1_2_1_12_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/2240236.2240260"
+        },
+        {
+          "key": "e_1_2_1_13_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.14778/3231751.3231766"
+        },
+        {
+          "key": "e_1_2_1_14_1",
+          "first-page": "1785",
+          "article-title": "Transform-data-by-example (tde) extensible data transformation in excel",
+          "author": "He Yeye",
+          "year": "2018",
+          "unstructured": "Yeye He, Kris Ganjam, Kukjin Lee, Yue Wang, Vivek Narasayya, Surajit Chaudhuri, Xu Chu, and Yudian Zheng. 2018b. Transform-data-by-example (tde) extensible data transformation in excel. In SIGMOD. 1785-1788.",
+          "journal-title": "SIGMOD."
+        },
+        {
+          "key": "e_1_2_1_15_1",
+          "unstructured": "Jeffrey Heer Joseph M. Hellerstein and Sean Kandel. 2015. Predictive Interaction for Data Transformation. In CIDR."
+        },
+        {
+          "key": "e_1_2_1_16_1",
+          "volume-title": "Adams Wei Yu, Xinying Song, and Denny Zhou.",
+          "author": "Huang Jie",
+          "year": "2023",
+          "unstructured": "Jie Huang, Xinyun Chen, Swaroop Mishra, Huaixiu Steven Zheng, Adams Wei Yu, Xinying Song, and Denny Zhou. 2023. Large language models cannot self-correct reasoning yet. arXiv preprint arXiv:2310.01798 (2023)."
+        },
+        {
+          "key": "e_1_2_1_17_1",
+          "unstructured": "Alteryx Inc. 2025a. Alteryx - data preparation. https://www.alteryx.com/glossary/data-preparation."
+        },
+        {
+          "key": "e_1_2_1_18_1",
+          "unstructured": "Informatica Inc. 2025b. Data Mesh Architecture for ELT. https://www.informatica.com/resources/articles/etl-strategies-for-ai-analytics.html.html."
+        },
+        {
+          "key": "e_1_2_1_19_1",
+          "unstructured": "Informatica Inc. 2025c. Enable Zero Trust with a Data Foundation. https://www.informatica.com/content/dam/informatica-com/en/collateral/brochure/enable-zero-trust-with-data-foundation_brochure_4378en.pdf."
+        },
+        {
+          "key": "e_1_2_1_20_1",
+          "unstructured": "Informatica Inc. 2025d. Simplify Data Integration with a CLAIRE Co-pilot. https://www.informatica.com/content/dam/informatica-cxp/techtuesdays-slides-pdf/Simplify Data Integration with a CLAIRE Co-pilot.pdf."
+        },
+        {
+          "key": "e_1_2_1_21_1",
+          "unstructured": "Palantir Inc. 2025 e. Palantir - AIP features in pipeline builder. https://www.palantir.com/docs/foundry/pipeline-builder/pipeline-builder-aip."
+        },
+        {
+          "key": "e_1_2_1_22_1",
+          "unstructured": "Palantir Inc. 2025 f. Palantir foundry. https://www.palantir.com/docs/foundry/data-integration/data-pipeline."
+        },
+        {
+          "key": "e_1_2_1_23_1",
+          "first-page": "683",
+          "article-title": "Foofah: Transforming Data By Example",
+          "author": "Jin Zhongjun",
+          "year": "2017",
+          "unstructured": "Zhongjun Jin, Michael R. Anderson, Michael J. Cafarella, and H. V. Jagadish. 2017. Foofah: Transforming Data By Example. In SIGMOD. 683-698.",
+          "journal-title": "SIGMOD."
+        },
+        {
+          "key": "e_1_2_1_24_1",
+          "volume-title": "CLX: Towards verifiable PBE data transformation. arXiv preprint arXiv:1803.00701",
+          "author": "Jin Zhongjun",
+          "year": "2018",
+          "unstructured": "Zhongjun Jin, Michael Cafarella, HV Jagadish, Sean Kandel, Michael Minar, and Joseph M Hellerstein. 2018. CLX: Towards verifiable PBE data transformation. arXiv preprint arXiv:1803.00701 (2018)."
+        },
+        {
+          "key": "e_1_2_1_25_1",
+          "doi-asserted-by": "crossref",
+          "first-page": "2368",
+          "DOI": "10.14778/3407790.3407831",
+          "article-title": "Auto-transform: learning-to-transform by patterns",
+          "volume": "13",
+          "author": "Jin Zhongjun",
+          "year": "2020",
+          "unstructured": "Zhongjun Jin, Yeye He, and Surajit Chauduri. 2020. Auto-transform: learning-to-transform by patterns. Proc. VLDB Endow., Vol. 13, 12 (2020), 2368-2381.",
+          "journal-title": "Proc. VLDB Endow."
+        },
+        {
+          "key": "e_1_2_1_26_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/11871842_29"
+        },
+        {
+          "key": "e_1_2_1_27_1",
+          "first-page": "1",
+          "article-title": "Incorporating Data Context to Cost-Effectively Automate End-to-End Data Wrangling",
+          "volume": "01",
+          "author": "Koehler Martin",
+          "year": "2019",
+          "unstructured": "Martin Koehler, Edward Abel, Alex Bogatu, Cristina Civili, Lacramioara Mazilu, Nikolaos Konstantinou, Alvaro Fernandes, John Keane, Leonid Libkin, and Norman W Paton. 2019. Incorporating Data Context to Cost-Effectively Automate End-to-End Data Wrangling. IEEE Computer Architecture Letters, 01 (2019), 1-1.",
+          "journal-title": "IEEE Computer Architecture Letters"
+        },
+        {
+          "key": "e_1_2_1_28_1",
+          "first-page": "22199",
+          "article-title": "Large language models are zero-shot reasoners",
+          "volume": "35",
+          "author": "Kojima Takeshi",
+          "year": "2022",
+          "unstructured": "Takeshi Kojima, Shixiang (Shane) Gu, Machel Reid, Yutaka Matsuo, and Yusuke Iwasawa. 2022. Large language models are zero-shot reasoners. In NeurIPS, Vol. 35. 22199-22213.",
+          "journal-title": "NeurIPS"
+        },
+        {
+          "key": "e_1_2_1_29_1",
+          "volume-title": "Auto-Prep: Holistic Prediction of Data Preparation Steps for Self-Service Business Intelligence. arXiv preprint arXiv:2504.11627",
+          "author": "Lai Eugenie Y",
+          "year": "2025",
+          "unstructured": "Eugenie Y Lai, Yeye He, and Surajit Chaudhuri. 2025. Auto-Prep: Holistic Prediction of Data Preparation Steps for Self-Service Business Intelligence. arXiv preprint arXiv:2504.11627 (2025)."
+        },
+        {
+          "key": "e_1_2_1_30_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.14778/3611479.3611534"
+        },
+        {
+          "key": "e_1_2_1_31_1",
+          "first-page": "1649",
+          "article-title": "Efficiently transforming tables for joinability",
+          "author": "Nobari Arash Dargahi",
+          "year": "2022",
+          "unstructured": "Arash Dargahi Nobari and Davood Rafiei. 2022. Efficiently transforming tables for joinability. In ICDE. 1649-1661.",
+          "journal-title": "ICDE."
+        },
+        {
+          "key": "e_1_2_1_32_1",
+          "unstructured": "Pandas. 2025a. Pandas operator: concat. https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.concat.html."
+        },
+        {
+          "key": "e_1_2_1_33_1",
+          "unstructured": "Pandas. 2025b. Pandas operator: datetime. https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.to_datetime.html."
+        },
+        {
+          "key": "e_1_2_1_34_1",
+          "unstructured": "Pandas. 2025c. Pandas operator: Groupby. https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.groupby.html."
+        },
+        {
+          "key": "e_1_2_1_35_1",
+          "unstructured": "Pandas. 2025d. Pandas operator: melt. https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.melt.html."
+        },
+        {
+          "key": "e_1_2_1_36_1",
+          "unstructured": "Pandas. 2025 e. Pandas operator: merge. https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.merge.html."
+        },
+        {
+          "key": "e_1_2_1_37_1",
+          "unstructured": "Pandas. 2025 f. Pandas operator: pivot. https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.pivot.html."
+        },
+        {
+          "key": "e_1_2_1_38_1",
+          "unstructured": "Pandas. 2025 g. Pandas operator: rename. https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.rename.html."
+        },
+        {
+          "key": "e_1_2_1_39_1",
+          "volume-title": "Fan Yang, and Mao Yang.",
+          "author": "Qi Zhenting",
+          "year": "2025",
+          "unstructured": "Zhenting Qi, Mingyuan Ma, Jiahang Xu, Li Lyna Zhang, Fan Yang, and Mao Yang. 2025. Mutual reasoning makes smaller llms stronger problem-solvers. In ICLR."
+        },
+        {
+          "key": "e_1_2_1_40_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/3704435"
+        },
+        {
+          "key": "e_1_2_1_41_1",
+          "unstructured": "Rita L Sallam Paddy Forry Ehtisham Zaidi and Shubhangi Vashisth. 2016. Market Guide for Self-Service Data Preparation. Technical Report. Gartner Inc."
+        },
+        {
+          "key": "e_1_2_1_42_1",
+          "first-page": "1824",
+          "article-title": "Automatic data transformation using large language model-an experimental study on building energy data",
+          "author": "Sharma Ankita",
+          "year": "2023",
+          "unstructured": "Ankita Sharma, Xuanmao Li, Hong Guan, Guoxin Sun, Liang Zhang, Lanjun Wang, Kesheng Wu, Lei Cao, Erkang Zhu, Alexander Sim, et al., 2023. Automatic data transformation using large language model-an experimental study on building energy data. In BigData. 1824-1834.",
+          "journal-title": "BigData."
+        },
+        {
+          "key": "e_1_2_1_43_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.14778/2977797.2977807"
+        },
+        {
+          "key": "e_1_2_1_44_1",
+          "volume-title": "Synthetic Data-Anonymisation Groundhog Day. In USENIX Security Symposium. 1451-1468",
+          "author": "Stadler Theresa",
+          "year": "2022",
+          "unstructured": "Theresa Stadler, Bristena Oprisanu, and Carmela Troncoso. 2022. Synthetic Data-Anonymisation Groundhog Day. In USENIX Security Symposium. 1451-1468."
+        },
+        {
+          "key": "e_1_2_1_45_1",
+          "first-page": "800",
+          "article-title": "Zero Trust Architecture",
+          "volume": "800",
+          "author": "Stafford V",
+          "year": "2020",
+          "unstructured": "V Stafford. 2020. Zero Trust Architecture. National Institute of Standards and Technology, Vol. 800, 207 (2020), 800-207.",
+          "journal-title": "National Institute of Standards and Technology"
+        },
+        {
+          "key": "e_1_2_1_46_1",
+          "first-page": "452",
+          "article-title": "Synthesizing highly expressive SQL queries from input-output examples",
+          "author": "Wang Chenglong",
+          "year": "2017",
+          "unstructured": "Chenglong Wang, Alvin Cheung, and Rastislav Bodik. 2017. Synthesizing highly expressive SQL queries from input-output examples. In PLDI. 452-466.",
+          "journal-title": "PLDI."
+        },
+        {
+          "key": "e_1_2_1_47_1",
+          "volume-title": "Cream: Consistency regularized self-rewarding language models. In ICLR.",
+          "author": "Wang Zhaoyang",
+          "year": "2025",
+          "unstructured": "Zhaoyang Wang, Weilei He, Zhiyuan Liang, Xuchao Zhang, Chetan Bansal, Ying Wei, Weitong Zhang, and Huaxiu Yao. 2025. Cream: Consistency regularized self-rewarding language models. In ICLR."
+        },
+        {
+          "key": "e_1_2_1_48_1",
+          "volume-title": "Vincent Perot, Zifeng Wang, Lesly Miculicich, Yasuhisa Fujii, Jingbo Shang, Chen-Yu Lee, et al.",
+          "author": "Wang Zilong",
+          "year": "2024",
+          "unstructured": "Zilong Wang, Hao Zhang, Chun-Liang Li, Julian Martin Eisenschlos, Vincent Perot, Zifeng Wang, Lesly Miculicich, Yasuhisa Fujii, Jingbo Shang, Chen-Yu Lee, et al., 2024. Chain-of-table: Evolving tables in the reasoning chain for table understanding. In ICLR."
+        },
+        {
+          "key": "e_1_2_1_49_1",
+          "first-page": "1539",
+          "article-title": "Auto-Suggest",
+          "author": "Yan Cong",
+          "year": "2020",
+          "unstructured": "Cong Yan and Yeye He. 2020. Auto-Suggest: Learning-to-Recommend Data Preparation Steps Using Data Science Notebooks. In SIGMOD. 1539-1554.",
+          "journal-title": "Learning-to-Recommend Data Preparation Steps Using Data Science Notebooks. In SIGMOD."
+        },
+        {
+          "key": "e_1_2_1_50_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.14778/3476249.3476303"
+        },
+        {
+          "key": "e_1_2_1_51_1",
+          "first-page": "11809",
+          "article-title": "Tree of thoughts: Deliberate problem solving with large language models",
+          "volume": "36",
+          "author": "Yao Shunyu",
+          "year": "2023",
+          "unstructured": "Shunyu Yao, Dian Yu, Jeffrey Zhao, Izhak Shafran, Tom Griffiths, Yuan Cao, and Karthik Narasimhan. 2023a. Tree of thoughts: Deliberate problem solving with large language models. In NeurIPS, Vol. 36. 11809-11822.",
+          "journal-title": "NeurIPS"
+        },
+        {
+          "key": "e_1_2_1_52_1",
+          "volume-title": "React: Synergizing reasoning and acting in language models. In ICLR.",
+          "author": "Yao Shunyu",
+          "year": "2023",
+          "unstructured": "Shunyu Yao, Jeffrey Zhao, Dian Yu, Nan Du, Izhak Shafran, Karthik Narasimhan, and Yuan Cao. 2023b. React: Synergizing reasoning and acting in language models. In ICLR."
+        },
+        {
+          "key": "e_1_2_1_53_1",
+          "first-page": "125469",
+          "article-title": "Instance-adaptive zero-shot chain-of-thought prompting",
+          "volume": "37",
+          "author": "Yuan Xiaosong",
+          "year": "2024",
+          "unstructured": "Xiaosong Yuan, Chen Shen, Shaotian Yan, Xiaofeng Zhang, Liang Xie, Wenxiao Wang, Renchu Guan, Ying Wang, and Jieping Ye. 2024. Instance-adaptive zero-shot chain-of-thought prompting. In NeurIPS, Vol. 37. 125469-125486.",
+          "journal-title": "NeurIPS"
+        },
+        {
+          "key": "e_1_2_1_54_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.14778/3115404.3115409"
+        }
+      ],
+      "container-title": [
+        "Proceedings of the ACM on Management of Data"
+      ],
+      "original-title": [],
+      "language": "en",
+      "link": [
+        {
+          "URL": "https://dl.acm.org/doi/pdf/10.1145/3802020",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            5,
+            18
+          ]
+        ],
+        "date-time": "2026-05-18T18:26:59Z",
+        "timestamp": 1779128819000
+      },
+      "score": 1,
+      "resource": {
+        "primary": {
+          "URL": "https://dl.acm.org/doi/10.1145/3802020"
+        }
+      },
+      "subtitle": [],
+      "short-title": [],
+      "issued": {
+        "date-parts": [
+          [
+            2026,
+            5,
+            18
+          ]
+        ]
+      },
+      "references-count": 54,
+      "journal-issue": {
+        "issue": "3",
+        "published-print": {
+          "date-parts": [
+            [
+              2026,
+              5,
+              18
+            ]
+          ]
+        }
+      },
+      "alternative-id": [
+        "10.1145/3802020"
+      ],
+      "URL": "https://doi.org/10.1145/3802020",
+      "relation": {},
+      "ISSN": [
+        "2836-6573"
+      ],
+      "issn-type": [
+        {
+          "value": "2836-6573",
+          "type": "electronic"
+        }
+      ],
+      "subject": [],
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            5,
+            18
+          ]
+        ]
+      }
+    }
+  }
+}

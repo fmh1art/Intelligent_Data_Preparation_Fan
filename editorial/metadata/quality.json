@@ -1,0 +1,769 @@
+{
+  "database": "Crossref",
+  "endpoint": "https://api.crossref.org/works/10.1145%2F1541880.1541883",
+  "retrieved": "2026-09-09",
+  "status_code": 200,
+  "response": {
+    "status": "ok",
+    "message-type": "work",
+    "message-version": "1.0.0",
+    "message": {
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            9,
+            8
+          ]
+        ],
+        "date-time": "2026-09-08T05:48:30Z",
+        "timestamp": 1788846510208,
+        "version": "build-2803163510"
+      },
+      "reference-count": 93,
+      "publisher": "Association for Computing Machinery (ACM)",
+      "issue": "3",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2009,
+                7,
+                1
+              ]
+            ],
+            "date-time": "2009-07-01T00:00:00Z",
+            "timestamp": 1246406400000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "https://www.acm.org/publications/policies/copyright_policy#Background"
+        }
+      ],
+      "funder": [
+        {
+          "name": "European IST",
+          "award": [
+            "27347"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "27347"
+              ]
+            }
+          ]
+        }
+      ],
+      "content-domain": {
+        "domain": [
+          "dl.acm.org"
+        ],
+        "crossmark-restriction": true
+      },
+      "short-container-title": [
+        "ACM Comput. Surv."
+      ],
+      "published-print": {
+        "date-parts": [
+          [
+            2009,
+            7
+          ]
+        ]
+      },
+      "abstract": "<jats:p>The literature provides a wide range of techniques to assess and improve the quality of data. Due to the diversity and complexity of these techniques, research has recently focused on defining methodologies that help the selection, customization, and application of data quality assessment and improvement techniques. The goal of this article is to provide a systematic and comparative description of such methodologies. Methodologies are compared along several dimensions, including the methodological phases and steps, the strategies and techniques, the data quality dimensions, the types of data, and, finally, the types of information systems addressed by each methodology. The article concludes with a summary description of each methodology.</jats:p>",
+      "DOI": "10.1145/1541880.1541883",
+      "type": "journal-article",
+      "created": {
+        "date-parts": [
+          [
+            2009,
+            7,
+            28
+          ]
+        ],
+        "date-time": "2009-07-28T08:43:55Z",
+        "timestamp": 1248770635000
+      },
+      "page": "1-52",
+      "update-policy": "https://doi.org/10.1145/crossmark-policy",
+      "source": "Crossref",
+      "is-referenced-by-count": 911,
+      "title": [
+        "Methodologies for data quality assessment and improvement"
+      ],
+      "prefix": "10.1145",
+      "volume": "41",
+      "author": [
+        {
+          "given": "Carlo",
+          "family": "Batini",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "Università di Milano - Bicocca, Milano, Italy"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Cinzia",
+          "family": "Cappiello",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Politecnico di Milano"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Chiara",
+          "family": "Francalanci",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Politecnico di Milano"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Andrea",
+          "family": "Maurino",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Università di Milano - Bicocca, Milano, Italy"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "320",
+      "published-online": {
+        "date-parts": [
+          [
+            2009,
+            7,
+            30
+          ]
+        ]
+      },
+      "reference": [
+        {
+          "key": "e_1_2_1_1_1",
+          "volume-title": "Web: From Relations to Semistructured Data and XML",
+          "author": "Abiteboul S.",
+          "year": "2000"
+        },
+        {
+          "key": "e_1_2_1_2_1",
+          "doi-asserted-by": "crossref",
+          "volume-title": "Data Reverse Engineering",
+          "author": "Aiken P.",
+          "DOI": "10.1147/sj.372.0246"
+        },
+        {
+          "key": "e_1_2_1_3_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/303976.303983"
+        },
+        {
+          "key": "e_1_2_1_4_1",
+          "unstructured": "Atzeni P. and Antonellis V. D. 1993. Relational Database Theory. Benjamin/Cummings.   Atzeni P. and Antonellis V. D. 1993. Relational Database Theory. Benjamin/Cummings."
+        },
+        {
+          "key": "e_1_2_1_5_1",
+          "volume-title": "Proceedings of International Workshop on data Semantics in Web Information Systems (DASWIS).",
+          "author": "Atzeni P."
+        },
+        {
+          "key": "e_1_2_1_6_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1287/mnsc.31.2.150"
+        },
+        {
+          "key": "e_1_2_1_7_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1287/mnsc.44.4.462"
+        },
+        {
+          "key": "e_1_2_1_8_1",
+          "volume-title": "Proceeedings of the 12th International Conference of Information Quality, Industrial Track.",
+          "author": "Basile A."
+        },
+        {
+          "key": "e_1_2_1_9_1",
+          "unstructured": "Basili V. Caldiera C. Rombach H. 1994. Goal question metric paradigm.  Basili V. Caldiera C. Rombach H. 1994. Goal question metric paradigm."
+        },
+        {
+          "key": "e_1_2_1_10_1",
+          "volume-title": "Proceedings of the 11th International Conference on Information Quality.",
+          "author": "Baskarada S."
+        },
+        {
+          "key": "e_1_2_1_11_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1504/IJICA.2008.019688"
+        },
+        {
+          "key": "e_1_2_1_12_1",
+          "volume-title": "Data Quality: Concepts, Methodologies and Techniques",
+          "author": "Batini C.",
+          "year": "2006"
+        },
+        {
+          "key": "e_1_2_1_13_1",
+          "volume-title": "Proceedings of the ICDT International Workshop on Data Quality in Cooperative Information Systems (DQCIS).",
+          "author": "Bertolazzi P."
+        },
+        {
+          "key": "e_1_2_1_14_1",
+          "volume-title": "Proceedings of the 10th International Conference on Information Quality.",
+          "author": "Bettschen P.",
+          "year": "2005"
+        },
+        {
+          "key": "e_1_2_1_15_1",
+          "volume-title": "Proceedings of the VLDB Demonstration Program.",
+          "author": "Bilke A."
+        },
+        {
+          "key": "e_1_2_1_16_1",
+          "volume-title": "Proceedings of the 6th International Conference on Information Quality.",
+          "author": "Bovee M."
+        },
+        {
+          "key": "e_1_2_1_17_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/263661.263675"
+        },
+        {
+          "key": "e_1_2_1_18_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/S0306-4379(03)00050-4"
+        },
+        {
+          "key": "e_1_2_1_19_1",
+          "first-page": "253",
+          "article-title": "Modeling and querying semi-structured data",
+          "volume": "2",
+          "author": "Calvanese D.",
+          "year": "1999",
+          "journal-title": "Network. Inform. Syst. J."
+        },
+        {
+          "key": "e_1_2_1_20_1",
+          "volume-title": "Proceedings of the 7th International Conference on Information Quality (ICIQ).",
+          "author": "Cappiello C."
+        },
+        {
+          "key": "e_1_2_1_21_1",
+          "volume-title": "Proceedings of the ICDT International Workshop on Data Quality in Cooperative Information Systems (DQCIS).",
+          "author": "Cappiello C."
+        },
+        {
+          "key": "e_1_2_1_22_1",
+          "unstructured": "Catarci T. and Scannapieco M. 2002. Data quality under the computer science perspective. Archivi Computer 2.  Catarci T. and Scannapieco M. 2002. Data quality under the computer science perspective. Archivi Computer 2."
+        },
+        {
+          "key": "e_1_2_1_23_1",
+          "volume-title": "Proceedings of the 11th International Conference on Information Quality.",
+          "author": "Chapman A."
+        },
+        {
+          "key": "e_1_2_1_24_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/69.824597"
+        },
+        {
+          "key": "e_1_2_1_25_1",
+          "volume-title": "Proceedings of the 1st International Conference on Information Quality. 127--153",
+          "author": "Corey D."
+        },
+        {
+          "key": "e_1_2_1_26_1",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Dasu T. and Johnson T. 2003. Exploratory Data Mining and Data cleaning. Probability and Statistics series John Wiley.   Dasu T. and Johnson T. 2003. Exploratory Data Mining and Data cleaning. Probability and Statistics series John Wiley.",
+          "DOI": "10.1002/0471448354"
+        },
+        {
+          "key": "e_1_2_1_27_1",
+          "unstructured": "Data Warehousing Institute. 2006. Data quality and the bottom line: Achieving business success through a commitment to high quality data. http://www.dw-institute.com/.  Data Warehousing Institute. 2006. Data quality and the bottom line: Achieving business success through a commitment to high quality data. http://www.dw-institute.com/."
+        },
+        {
+          "key": "e_1_2_1_28_1",
+          "volume-title": "Proceedings of the 11th International Conference on Information Quality (ICIQ). 369--383",
+          "author": "De Amicis F."
+        },
+        {
+          "key": "e_1_2_1_29_1",
+          "unstructured": "De Amicis F. and Batini C. 2004. A methodology for data quality assessment on financial data. Studies Commun. Sci. SCKM.  De Amicis F. and Batini C. 2004. A methodology for data quality assessment on financial data. Studies Commun. Sci. SCKM."
+        },
+        {
+          "key": "e_1_2_1_30_1",
+          "unstructured": "De Michelis G. Dubois E. Jarke M. Matthes F. Mylopoulos J. Papazoglou M. Pohl K. Schmidt J. Woo C. and Yu E. 1997. Cooperative Information Systems: A Manifesto. In Cooperative Information Systems: Trends &amp; Directions M. Papazoglou and G. Schlageter Eds. Academic-Press.  De Michelis G. Dubois E. Jarke M. Matthes F. Mylopoulos J. Papazoglou M. Pohl K. Schmidt J. Woo C. and Yu E. 1997. Cooperative Information Systems: A Manifesto. In Cooperative Information Systems: Trends &amp; Directions M. Papazoglou and G. Schlageter Eds. Academic-Press."
+        },
+        {
+          "key": "e_1_2_1_31_1",
+          "volume-title": "Proceedings of the 11th International Conference on Cooperative Information Systems (CoopIS)",
+          "author": "De Santis L."
+        },
+        {
+          "key": "e_1_2_1_32_1",
+          "volume-title": "Building quality into the information supply chain. Advances in Management Information Systems-Information Quality Monograph (AMIS-IQ) Monograph",
+          "author": "Dedeke A."
+        },
+        {
+          "key": "e_1_2_1_33_1",
+          "unstructured": "DQI. 2004. Data quality initiative framework. Project report. www.wales.nhs.uk/sites/documents/319/DQI_Framwork_Update_Letter_160604.pdf  DQI. 2004. Data quality initiative framework. Project report. www.wales.nhs.uk/sites/documents/319/DQI_Framwork_Update_Letter_160604.pdf"
+        },
+        {
+          "key": "e_1_2_1_34_1",
+          "volume-title": "Improving Data Warehouse and Business Information Quality",
+          "author": "English L."
+        },
+        {
+          "key": "e_1_2_1_35_1",
+          "volume-title": "Proceedings of the 7th International Conference on Information Quality (ICIQ). 206--211",
+          "author": "English L.",
+          "year": "2002"
+        },
+        {
+          "key": "e_1_2_1_36_1",
+          "volume-title": "Proceedings of the 9th International Conference on Information Systems (ICIQ).",
+          "author": "Eppler M."
+        },
+        {
+          "key": "e_1_2_1_37_1",
+          "volume-title": "Proceedings of the 7th International Conference on Information Systems (ICIQ).",
+          "author": "Eppler M.",
+          "year": "2002"
+        },
+        {
+          "key": "e_1_2_1_38_1",
+          "volume-title": "Proceedings of the ICDT Workshop on Data Quality in Cooperative Information Systems (DQCIS).",
+          "author": "Falorsi P."
+        },
+        {
+          "key": "e_1_2_1_39_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1080/01621459.1976.10481472"
+        },
+        {
+          "key": "e_1_2_1_40_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/S0378-7206(01)00083-0"
+        },
+        {
+          "key": "e_1_2_1_41_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.5555/2011143.2011147"
+        },
+        {
+          "key": "e_1_2_1_42_1",
+          "volume-title": "Proceedings of the 11th International Conference on Information Quality (ICIQ). 399--419",
+          "author": "Gackowski Z.",
+          "year": "2006"
+        },
+        {
+          "key": "e_1_2_1_43_1",
+          "article-title": "Reengineering work: Don't automate, obliterate. Harvard",
+          "author": "Hammer M.",
+          "year": "1990",
+          "journal-title": "Bus. Rev. 104--112."
+        },
+        {
+          "key": "e_1_2_1_44_1",
+          "volume-title": "Corporation: A Manifesto for Business Revolution",
+          "author": "Hammer M.",
+          "year": "2001"
+        },
+        {
+          "key": "e_1_2_1_45_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1023/A:1009761603038"
+        },
+        {
+          "key": "e_1_2_1_46_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/278476.278490"
+        },
+        {
+          "key": "e_1_2_1_47_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/208344.208346"
+        },
+        {
+          "key": "e_1_2_1_48_1",
+          "unstructured": "Istat. 2004. Guidelines for the data quality improvement of localization data in public administration (in Italian). www.istat.it  Istat. 2004. Guidelines for the data quality improvement of localization data in public administration (in Italian). www.istat.it"
+        },
+        {
+          "key": "e_1_2_1_49_1",
+          "volume-title": "Eds",
+          "author": "Jarke M.",
+          "year": "1995"
+        },
+        {
+          "key": "e_1_2_1_50_1",
+          "volume-title": "Proceedings of the 17th International Conference on Conceptual Modeling.",
+          "author": "Jeusfeld M."
+        },
+        {
+          "key": "e_1_2_1_51_1",
+          "volume-title": "Proceedings of the 9th International Conference on Information Quality.",
+          "author": "Kerr K."
+        },
+        {
+          "key": "e_1_2_1_52_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1080/07421222.1995.11518068"
+        },
+        {
+          "key": "e_1_2_1_53_1",
+          "volume-title": "Proceedings of the 7th International Conference on Information Quality (ICIQ)",
+          "author": "Kovac R."
+        },
+        {
+          "key": "e_1_2_1_54_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/S0378-7206(02)00043-5"
+        },
+        {
+          "key": "e_1_2_1_55_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/543613.543644"
+        },
+        {
+          "key": "e_1_2_1_56_1",
+          "volume-title": "Proceedings of the 7th International Conference on Information Quality.",
+          "author": "Liu L."
+        },
+        {
+          "key": "e_1_2_1_57_1",
+          "unstructured": "Long J. and Seko C. April 2005. A cyclic-hierarchical method for database data-quality evaluation and improvement. In Advances in Management Information Systems-Information Quality Monograph (AMIS-IQ) Monograph R. Wang E. Pierce S. Madnick and Fisher C.W.  Long J. and Seko C. April 2005. A cyclic-hierarchical method for database data-quality evaluation and improvement. In Advances in Management Information Systems-Information Quality Monograph (AMIS-IQ) Monograph R. Wang E. Pierce S. Madnick and Fisher C.W."
+        },
+        {
+          "key": "e_1_2_1_58_1",
+          "unstructured": "Loshin D. 2004. Enterprise Knowledge Management - The Data Quality Approach. Series in Data Management Systems Morgan Kaufmann chapter 4.   Loshin D. 2004. Enterprise Knowledge Management - The Data Quality Approach. Series in Data Management Systems Morgan Kaufmann chapter 4."
+        },
+        {
+          "key": "e_1_2_1_59_1",
+          "unstructured": "Lyman P. and Varian H. R. 2003. How much information. http://www.sims.berkeley.edu/how-much-info-2003.  Lyman P. and Varian H. R. 2003. How much information. http://www.sims.berkeley.edu/how-much-info-2003."
+        },
+        {
+          "key": "e_1_2_1_60_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/276304.276375"
+        },
+        {
+          "key": "e_1_2_1_61_1",
+          "volume-title": "Proceedings of the 2nd International Workshop on the Web and Databases (WebDB) Conjunction with Sigmod.",
+          "author": "Mecca G."
+        },
+        {
+          "key": "e_1_2_1_62_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.inffus.2004.10.001"
+        },
+        {
+          "key": "e_1_2_1_63_1",
+          "volume-title": "Proceedings of the 4th annual International Conference on Industrial Engineering Theory, Applications and Practice.",
+          "author": "Muthu S."
+        },
+        {
+          "key": "e_1_2_1_64_1",
+          "volume-title": "Proceedings of the 11th International Conference on Information Quality.",
+          "author": "Nadkarni P.",
+          "year": "2006"
+        },
+        {
+          "key": "e_1_2_1_65_1",
+          "series-title": "Lecture Notes in Computer Science",
+          "volume-title": "Quality-driven query answering for integrated information systems",
+          "author": "Naumann F."
+        },
+        {
+          "key": "e_1_2_1_66_1",
+          "series-title": "Lecture Notes in Computer Science",
+          "volume-title": "2003. Proceedings of the 2nd International Workshop on Conceptual Modeling Quality (IWCMQ)",
+          "author": "Nelson J."
+        },
+        {
+          "key": "e_1_2_1_67_1",
+          "volume-title": "Total Quality Management",
+          "author": "Oakland J."
+        },
+        {
+          "key": "e_1_2_1_68_1",
+          "unstructured": "Office of Management and Budget. 2006. Information quality guidelines for ensuring and maximizing the quality objectivity utility and integrity of information disseminated by agencies. http://www.whitehouse.gov/omb/fedreg/reproducible.html.  Office of Management and Budget. 2006. Information quality guidelines for ensuring and maximizing the quality objectivity utility and integrity of information disseminated by agencies. http://www.whitehouse.gov/omb/fedreg/reproducible.html."
+        },
+        {
+          "key": "e_1_2_1_69_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/978-3-540-39733-5_3"
+        },
+        {
+          "key": "e_1_2_1_70_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/505248.506010"
+        },
+        {
+          "key": "e_1_2_1_71_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/S0167-9236(99)00060-3"
+        },
+        {
+          "key": "e_1_2_1_72_1",
+          "volume-title": "Proceedings of the 8th International Workshop on the Web and Databases (WebDB). located with SIGMOD.",
+          "author": "Rahm E."
+        },
+        {
+          "key": "e_1_2_1_73_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/MITP.2003.1254966"
+        },
+        {
+          "key": "e_1_2_1_74_1",
+          "volume-title": "Data Quality for the Information Age",
+          "author": "Redman T."
+        },
+        {
+          "key": "e_1_2_1_75_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/269012.269025"
+        },
+        {
+          "key": "e_1_2_1_76_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.is.2003.12.004"
+        },
+        {
+          "key": "e_1_2_1_77_1",
+          "volume-title": "Proceedings of the 7th International Conference on Information Quality (ICIQ)",
+          "author": "Scannapieco M."
+        },
+        {
+          "key": "e_1_2_1_78_1",
+          "unstructured": "Scannapieco M. Pernici B. and Pierce E. 2005. IP-UML: A methodology for quality improvement-based on IP-MAP and UML. In Information Quality Advances in Management Information Systems Information Quality Monograph (AMIS-IQ) R. Wang E. Pierce S. Madnik and C. Fisher Eds.  Scannapieco M. Pernici B. and Pierce E. 2005. IP-UML: A methodology for quality improvement-based on IP-MAP and UML. In Information Quality Advances in Management Information Systems Information Quality Monograph (AMIS-IQ) R. Wang E. Pierce S. Madnik and C. Fisher Eds."
+        },
+        {
+          "key": "e_1_2_1_79_1",
+          "volume-title": "Proceedings of the 12th International Conference on Information Quality. 519--537",
+          "author": "Sessions V.",
+          "year": "2007"
+        },
+        {
+          "key": "e_1_2_1_80_1",
+          "volume-title": "Proceedings of the 6th International Conference on Information Quality (ICIQ",
+          "author": "Shankaranarayan G.",
+          "year": "2000"
+        },
+        {
+          "key": "e_1_2_1_81_1",
+          "volume-title": "Proceedings of the 12th International Conference on Information Quality.",
+          "author": "Shankaranarayanan G."
+        },
+        {
+          "key": "e_1_2_1_82_1",
+          "volume-title": "Proceedings of the 8th International Conference on Information Quality 2003 (ICIQ). 344--352",
+          "author": "Sheng Y.",
+          "year": "2003"
+        },
+        {
+          "key": "e_1_2_1_83_1",
+          "volume-title": "Proceedings of the 7th International Conference on Information Quality (ICIQ). DC, 132--141",
+          "author": "Sheng Y."
+        },
+        {
+          "key": "e_1_2_1_84_1",
+          "volume-title": "Proceedings of Information Systems Education Conference.",
+          "author": "Stoica M."
+        },
+        {
+          "key": "e_1_2_1_85_1",
+          "volume-title": "Proceedings of the 9th International Conference on Information Quality (ICIQ). 447--465",
+          "author": "Su Y."
+        },
+        {
+          "key": "e_1_2_1_86_1",
+          "unstructured": "US Department of Defense. 1994. Data administration procedures. DoD rep. 8320.1-M.  US Department of Defense. 1994. Data administration procedures. DoD rep. 8320.1-M."
+        },
+        {
+          "key": "e_1_2_1_87_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/S0306-4379(01)00039-4"
+        },
+        {
+          "key": "e_1_2_1_88_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.5555/820263.820419"
+        },
+        {
+          "key": "e_1_2_1_89_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/240455.240479"
+        },
+        {
+          "key": "e_1_2_1_90_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/269012.269022"
+        },
+        {
+          "key": "e_1_2_1_91_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1080/07421222.1996.11518099"
+        },
+        {
+          "key": "e_1_2_1_92_1",
+          "unstructured": "World Wide Web Consortium. www.w3.org/WAI/. Web accessibility initiative.  World Wide Web Consortium. www.w3.org/WAI/. Web accessibility initiative."
+        },
+        {
+          "key": "e_1_2_1_93_1",
+          "unstructured": "Zachman J. 2006. Zachman institute for framework advancement (ZIFA). www.zifa.com.  Zachman J. 2006. Zachman institute for framework advancement (ZIFA). www.zifa.com."
+        }
+      ],
+      "container-title": [
+        "ACM Computing Surveys"
+      ],
+      "original-title": [],
+      "language": "en",
+      "link": [
+        {
+          "URL": "https://dl.acm.org/doi/10.1145/1541880.1541883",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        },
+        {
+          "URL": "https://dl.acm.org/doi/pdf/10.1145/1541880.1541883",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2025,
+            6,
+            18
+          ]
+        ],
+        "date-time": "2025-06-18T16:26:01Z",
+        "timestamp": 1750263961000
+      },
+      "score": 1,
+      "resource": {
+        "primary": {
+          "URL": "https://dl.acm.org/doi/10.1145/1541880.1541883"
+        }
+      },
+      "subtitle": [],
+      "short-title": [],
+      "issued": {
+        "date-parts": [
+          [
+            2009,
+            7
+          ]
+        ]
+      },
+      "references-count": 93,
+      "journal-issue": {
+        "issue": "3",
+        "published-print": {
+          "date-parts": [
+            [
+              2009,
+              7
+            ]
+          ]
+        }
+      },
+      "alternative-id": [
+        "10.1145/1541880.1541883"
+      ],
+      "URL": "https://doi.org/10.1145/1541880.1541883",
+      "relation": {},
+      "ISSN": [
+        "0360-0300",
+        "1557-7341"
+      ],
+      "issn-type": [
+        {
+          "value": "0360-0300",
+          "type": "print"
+        },
+        {
+          "value": "1557-7341",
+          "type": "electronic"
+        }
+      ],
+      "subject": [],
+      "published": {
+        "date-parts": [
+          [
+            2009,
+            7
+          ]
+        ]
+      },
+      "assertion": [
+        {
+          "value": "2006-12-01",
+          "order": 0,
+          "name": "received",
+          "label": "Received",
+          "group": {
+            "name": "publication_history",
+            "label": "Publication History"
+          }
+        },
+        {
+          "value": "2008-05-01",
+          "order": 1,
+          "name": "accepted",
+          "label": "Accepted",
+          "group": {
+            "name": "publication_history",
+            "label": "Publication History"
+          }
+        },
+        {
+          "value": "2009-07-30",
+          "order": 2,
+          "name": "published",
+          "label": "Published",
+          "group": {
+            "name": "publication_history",
+            "label": "Publication History"
+          }
+        }
+      ]
+    }
+  }
+}

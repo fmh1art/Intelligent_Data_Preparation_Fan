@@ -1,0 +1,14 @@
+# LaTeX intermediate outputs; the compiled review copy is kept under output/.
+/build/
+*.aux
+*.bbl
+*.bcf
+*.blg
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.run.xml
+*.synctex.gz
+*.xdv
+__pycache__/

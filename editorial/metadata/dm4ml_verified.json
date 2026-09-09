@@ -1,0 +1,1325 @@
+{
+  "database": "Crossref",
+  "endpoint": "https://api.crossref.org/works/10.1109/TKDE.2022.3148237",
+  "retrieved": "2026-09-09",
+  "status_code": 200,
+  "response": {
+    "status": "ok",
+    "message-type": "work",
+    "message-version": "1.0.0",
+    "message": {
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            8,
+            18
+          ]
+        ],
+        "date-time": "2026-08-18T00:33:21Z",
+        "timestamp": 1787013201444,
+        "version": "build-2736575974"
+      },
+      "reference-count": 188,
+      "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2022,
+                1,
+                1
+              ]
+            ],
+            "date-time": "2022-01-01T00:00:00Z",
+            "timestamp": 1640995200000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "https://ieeexplore.ieee.org/Xplorehelp/downloads/license-information/IEEE.html"
+        },
+        {
+          "start": {
+            "date-parts": [
+              [
+                2022,
+                1,
+                1
+              ]
+            ],
+            "date-time": "2022-01-01T00:00:00Z",
+            "timestamp": 1640995200000
+          },
+          "content-version": "am",
+          "delay-in-days": 0,
+          "URL": "https://ieeexplore.ieee.org/Xplorehelp/downloads/license-information/IEEE.html"
+        }
+      ],
+      "funder": [
+        {
+          "name": "Innovative Talent Support Plan of China Postdoctoral Science Foundation",
+          "award": [
+            "BX2021155"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "BX2021155"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Zhejiang Labs International Talent Fund for Young Professionals"
+        },
+        {
+          "name": "Shuimu Tsinghua Scholar"
+        },
+        {
+          "DOI": "10.13039/501100002858",
+          "name": "China Postdoctoral Science Foundation",
+          "doi-asserted-by": "publisher",
+          "award": [
+            "2021M691784"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "2021M691784"
+              ]
+            }
+          ],
+          "id": [
+            {
+              "id": "10.13039/501100002858",
+              "id-type": "DOI",
+              "asserted-by": "publisher"
+            }
+          ]
+        },
+        {
+          "DOI": "10.13039/501100001809",
+          "name": "National Natural Science Foundation of China",
+          "doi-asserted-by": "publisher",
+          "award": [
+            "62102215"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "62102215"
+              ]
+            }
+          ],
+          "id": [
+            {
+              "id": "10.13039/501100001809",
+              "id-type": "DOI",
+              "asserted-by": "publisher"
+            }
+          ]
+        }
+      ],
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "short-container-title": [
+        "IEEE Trans. Knowl. Data Eng."
+      ],
+      "published-print": {
+        "date-parts": [
+          [
+            2022
+          ]
+        ]
+      },
+      "DOI": "10.1109/tkde.2022.3148237",
+      "type": "journal-article",
+      "created": {
+        "date-parts": [
+          [
+            2022,
+            2,
+            4
+          ]
+        ],
+        "date-time": "2022-02-04T15:39:59Z",
+        "timestamp": 1643989199000
+      },
+      "page": "1-1",
+      "source": "Crossref",
+      "is-referenced-by-count": 49,
+      "title": [
+        "Data Management for Machine Learning: A Survey"
+      ],
+      "prefix": "10.1109",
+      "author": [
+        {
+          "given": "Chengliang",
+          "family": "Chai",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Jiayi",
+          "family": "Wang",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Yuyu",
+          "family": "Luo",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Zeping",
+          "family": "Niu",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Guoliang",
+          "family": "Li",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "263",
+      "reference": [
+        {
+          "key": "ref4",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/978-1-4899-7637-6"
+        },
+        {
+          "key": "ref5",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1007/978-3-030-05318-5",
+          "volume-title": "Automated Machine Learning - Methods, Systems, Challenges",
+          "author": "Hutter",
+          "year": "2019"
+        },
+        {
+          "key": "ref6",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/ICDE.2016.7498272"
+        },
+        {
+          "key": "ref7",
+          "article-title": "Orthogonal security with cipherbase",
+          "volume-title": "Proc. Biennial Conf. Innov. Data Syst. Res.",
+          "author": "Arasu"
+        },
+        {
+          "key": "ref8",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1609/aaai.v32i1.11513"
+        },
+        {
+          "key": "ref9",
+          "first-page": "273",
+          "article-title": "Learning the structure of generative models without labeled data",
+          "volume-title": "Proc. 34th Int. Conf. Mach. Learn.",
+          "author": "Bach"
+        },
+        {
+          "key": "ref10",
+          "article-title": "Interactive weak supervision: Learning useful heuristics for data labeling",
+          "author": "Boecking",
+          "year": "2020",
+          "journal-title": "CoRR"
+        },
+        {
+          "key": "ref11",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.14778/3007263.3007279"
+        },
+        {
+          "key": "ref12",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/978-3-031-01869-5"
+        },
+        {
+          "key": "ref13",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.14778/3229863.3229865"
+        },
+        {
+          "issue": "3",
+          "key": "ref14",
+          "first-page": "52",
+          "article-title": "SystemMLs optimizer: Plan generation for large-scale machine learning programs",
+          "volume": "37",
+          "author": "Böhm",
+          "year": "2014",
+          "journal-title": "IEEE Data Eng. Bull."
+        },
+        {
+          "key": "ref15",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.14778/1687627.1687750"
+        },
+        {
+          "key": "ref16",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/3318464.3389772"
+        },
+        {
+          "key": "ref17",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/ICDE.2018.00039"
+        },
+        {
+          "key": "ref18",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/ICDE.2019.00237"
+        },
+        {
+          "key": "ref19",
+          "article-title": "Crowd-powered data mining",
+          "author": "Chai",
+          "year": "2018",
+          "journal-title": "CoRR"
+        },
+        {
+          "key": "ref20",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/ICDE48307.2020.00177"
+        },
+        {
+          "key": "ref21",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/TKDE.2020.2972543"
+        },
+        {
+          "key": "ref22",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/2882903.2915252"
+        },
+        {
+          "key": "ref23",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/s00778-018-0509-6"
+        },
+        {
+          "key": "ref24",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.14778/3137628.3137633"
+        },
+        {
+          "key": "ref25",
+          "article-title": "MXNet: A flexible and efficient machine learning library for heterogeneous distributed systems",
+          "author": "Chen",
+          "year": "2015",
+          "journal-title": "CoRR"
+        },
+        {
+          "key": "ref26",
+          "article-title": "Training deep nets with sublinear memory cost",
+          "author": "Chen",
+          "year": "2016",
+          "journal-title": "CoRR"
+        },
+        {
+          "key": "ref27",
+          "article-title": "Deep neural inspection using deepbase",
+          "volume-title": "Proc. NIPS LearnSys Workshop",
+          "author": "Chen"
+        },
+        {
+          "key": "ref28",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.14778/3397230.3397235"
+        },
+        {
+          "key": "ref29",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/2723372.2749431"
+        },
+        {
+          "key": "ref30",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.14778/1687553.1687576"
+        },
+        {
+          "key": "ref31",
+          "article-title": "Low precision arithmetic for deep learning",
+          "volume-title": "Proc. Int. Conf. Learn. Representations",
+          "author": "Courbariaux"
+        },
+        {
+          "key": "ref32",
+          "first-page": "613",
+          "article-title": "Clipper: A low-latency online prediction serving system",
+          "volume-title": "Proc. 14th USENIX Conf. Netw. Syst. Des. Implementation",
+          "author": "Crankshaw"
+        },
+        {
+          "key": "ref33",
+          "article-title": "AutoAugment: Learning augmentation policies from data",
+          "author": "Cubuk",
+          "year": "2018"
+        },
+        {
+          "key": "ref34",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/2901318.2901323"
+        },
+        {
+          "key": "ref35",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/2187836.2187900"
+        },
+        {
+          "key": "ref36",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/1066100.1066102"
+        },
+        {
+          "key": "ref37",
+          "article-title": "SPOOF: Sum-product optimization and operator fusion for large-scale machine learning",
+          "volume-title": "Proc. Biennial Conf. Innov. Data Syst. Res.",
+          "author": "Elgamal"
+        },
+        {
+          "key": "ref38",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/978-3-030-05318-5_3"
+        },
+        {
+          "key": "ref39",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/ICDE.2014.6816716"
+        },
+        {
+          "key": "ref40",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.2200/s00439ed1v01y201207dtm030"
+        },
+        {
+          "key": "ref41",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.14778/3407790.3407857"
+        },
+        {
+          "key": "ref42",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/ICDE.2018.00094"
+        },
+        {
+          "key": "ref43",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/ICDE.2018.00093"
+        },
+        {
+          "key": "ref44",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/3183713.3183734"
+        },
+        {
+          "key": "ref45",
+          "first-page": "1157",
+          "article-title": "An introduction to variable and feature selection",
+          "volume": "3",
+          "author": "Guyon",
+          "year": "2003",
+          "journal-title": "J. Mach. Learn. Res."
+        },
+        {
+          "key": "ref46",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/2882903.2903730"
+        },
+        {
+          "issue": "3",
+          "key": "ref47",
+          "first-page": "5",
+          "article-title": "Managing Googles data lake: An overview of the goods system",
+          "volume": "39",
+          "author": "Halevy",
+          "year": "2016",
+          "journal-title": "IEEE Data Eng. Bull."
+        },
+        {
+          "key": "ref48",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/ISCA.2016.30"
+        },
+        {
+          "key": "ref49",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/ICDE48307.2020.00196"
+        },
+        {
+          "key": "ref50",
+          "first-page": "164",
+          "article-title": "Second order derivatives for network pruning: Optimal brain surgeon",
+          "volume-title": "Proc. Int. Conf. Neural Inf. Process. Syst.",
+          "author": "Hassibi"
+        },
+        {
+          "key": "ref51",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.14778/3485450.3485460"
+        },
+        {
+          "key": "ref52",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.knosys.2020.106622"
+        },
+        {
+          "key": "ref53",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/2463676.2465273"
+        },
+        {
+          "key": "ref54",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/3070607.3070608"
+        },
+        {
+          "key": "ref55",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/3310205"
+        },
+        {
+          "key": "ref56",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1201/9780824746346"
+        },
+        {
+          "key": "ref57",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/978-1-4614-7138-7"
+        },
+        {
+          "key": "ref58",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/3341301.3359630"
+        },
+        {
+          "key": "ref59",
+          "first-page": "27",
+          "article-title": "Optimizing DNN computation with relaxed graph substitutions",
+          "volume-title": "Proc. Mach. Learn. Syst.",
+          "author": "Jia"
+        },
+        {
+          "key": "ref60",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.5555/2999611.2999647"
+        },
+        {
+          "key": "ref61",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1609/aaai.v27i1.8456"
+        },
+        {
+          "key": "ref62",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1609/aaai.v26i1.8105"
+        },
+        {
+          "key": "ref63",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.14778/3297753.3297756"
+        },
+        {
+          "key": "ref64",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.14778/3430915.3430917"
+        },
+        {
+          "key": "ref65",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/3209889.3209896"
+        },
+        {
+          "key": "ref66",
+          "article-title": "Adam: A method for stochastic optimization",
+          "volume-title": "Proc. Int. Conf. Learn. Representations",
+          "author": "Kingma"
+        },
+        {
+          "key": "ref67",
+          "first-page": "1885",
+          "article-title": "Understanding black-box predictions via influence functions",
+          "volume-title": "Proc. Int. Conf. Mach. Learn.",
+          "author": "Koh"
+        },
+        {
+          "key": "ref68",
+          "article-title": "MLbase: A distributed machine-learning system",
+          "volume-title": "Proc. 6ht Biennial Conf. Innov. Data Syst. Res.",
+          "author": "Kraska"
+        },
+        {
+          "key": "ref69",
+          "article-title": "BoostClean: Automated error detection and repair for machine learning",
+          "author": "Krishnan",
+          "year": "2017",
+          "journal-title": "CoRR"
+        },
+        {
+          "key": "ref70",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.14778/2994509.2994514"
+        },
+        {
+          "key": "ref71",
+          "first-page": "1106",
+          "article-title": "ImageNet classification with deep convolutional neural networks",
+          "volume-title": "Proc. Int. Conf. Neural Inf. Process. Syst.",
+          "author": "Krizhevsky"
+        },
+        {
+          "key": "ref72",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/3035918.3054775"
+        },
+        {
+          "key": "ref73",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/2935694.2935698"
+        },
+        {
+          "key": "ref74",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/2723372.2723713"
+        },
+        {
+          "key": "ref75",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/2882903.2882952"
+        },
+        {
+          "key": "ref76",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cpc.2012.09.022"
+        },
+        {
+          "key": "ref77",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nature14539"
+        },
+        {
+          "key": "ref78",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/978-1-4471-2099-5_1"
+        },
+        {
+          "key": "ref79",
+          "article-title": "Computers and intractability. A guide to the theory of NP-completeness",
+          "author": "Garey",
+          "year": "1979"
+        },
+        {
+          "key": "ref80",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/3035918.3064036"
+        },
+        {
+          "key": "ref81",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.14778/3229863.3236226"
+        },
+        {
+          "key": "ref82",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/TKDE.2016.2535242"
+        },
+        {
+          "key": "ref83",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.14778/3007328.3007331"
+        },
+        {
+          "key": "ref84",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.5555/2685048.2685095"
+        },
+        {
+          "key": "ref85",
+          "article-title": "CleanML: A benchmark for joint data cleaning and machine learning [experiments and analysis]",
+          "author": "Li",
+          "year": "2019",
+          "journal-title": "CoRR"
+        },
+        {
+          "key": "ref86",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/3299869.3319878"
+        },
+        {
+          "key": "ref87",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/978-3-030-58542-6_35"
+        },
+        {
+          "key": "ref88",
+          "first-page": "6662",
+          "article-title": "Fast autoaugment",
+          "volume-title": "Proc. Int. Conf. Neural Inf. Process. Syst.",
+          "author": "Lim"
+        },
+        {
+          "key": "ref89",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/3236386.3241340"
+        },
+        {
+          "key": "ref90",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/ICDM.2008.17"
+        },
+        {
+          "key": "ref91",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.14778/3476311.3476333"
+        },
+        {
+          "key": "ref92",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.14778/3450980.3450989"
+        },
+        {
+          "key": "ref93",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/3299869.3320221"
+        },
+        {
+          "key": "ref94",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/3318464.3384692"
+        },
+        {
+          "key": "ref95",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/3318464.3389763"
+        },
+        {
+          "key": "ref96",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/3329486.3329489"
+        },
+        {
+          "key": "ref97",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/ICDE48307.2020.00069"
+        },
+        {
+          "key": "ref98",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.14778/3415478.3415484"
+        },
+        {
+          "key": "ref99",
+          "article-title": "Empowering natural language to visualization neural translation using synthesized benchmarks",
+          "volume-title": "Proc. IEEE Vis. Conf.",
+          "author": "Luo"
+        },
+        {
+          "key": "ref100",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/TKDE.2020.2981464"
+        },
+        {
+          "key": "ref101",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/ICDE.2018.00019"
+        },
+        {
+          "key": "ref102",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/3448016.3457261"
+        },
+        {
+          "key": "ref103",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/TVCG.2021.3114848"
+        },
+        {
+          "key": "ref104",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/2783258.2783314"
+        },
+        {
+          "key": "ref105",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.14778/3236187.3236188"
+        },
+        {
+          "key": "ref106",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/s12859-020-03542-1"
+        },
+        {
+          "key": "ref107",
+          "article-title": "Training wide residual networks for deployment using a single bit for each weight",
+          "volume-title": "Proc. Int. Conf. Learn. Representations",
+          "author": "McDonnell"
+        },
+        {
+          "key": "ref108",
+          "article-title": "Sampling for deep learning model diagnosis (technical report)",
+          "author": "Mehta",
+          "year": "2020",
+          "journal-title": "CoRR"
+        },
+        {
+          "key": "ref109",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/ICDE48307.2020.00201"
+        },
+        {
+          "key": "ref110",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/ICDE.2017.112"
+        },
+        {
+          "key": "ref111",
+          "first-page": "6950",
+          "article-title": "Coresets for data-efficient training of machine learning models",
+          "volume-title": "Proc. Int. Conf. Mach. Learn.",
+          "author": "Mirzasoleiman"
+        },
+        {
+          "key": "ref112",
+          "article-title": "Coresets for robust training of deep neural networks against noisy labels",
+          "volume-title": "Proc. Int. Conf. Neural Inf. Process. Syst.",
+          "author": "Mirzasoleiman"
+        },
+        {
+          "key": "ref113",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1609/aaai.v29i1.9498"
+        },
+        {
+          "key": "ref114",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.sysarc.2019.101635"
+        },
+        {
+          "key": "ref115",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/79.543975"
+        },
+        {
+          "key": "ref116",
+          "first-page": "561",
+          "article-title": "Ray: A distributed framework for emerging AI applications",
+          "volume-title": "Proc. USENIX Conf. Operating Syst. Des. Implementation",
+          "author": "Moritz"
+        },
+        {
+          "key": "ref117",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.patrec.2020.08.024"
+        },
+        {
+          "key": "ref118",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/3329486.3329496"
+        },
+        {
+          "key": "ref119",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.14778/3192965.3192973"
+        },
+        {
+          "key": "ref120",
+          "first-page": "11465",
+          "article-title": "Tensorflow-serving: Flexible, high-performance ML serving",
+          "author": "Olston",
+          "year": "2017"
+        },
+        {
+          "key": "ref121",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/2588555.2610503"
+        },
+        {
+          "key": "ref122",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/3311955"
+        },
+        {
+          "key": "ref123",
+          "article-title": "Learning from imperfect annotations",
+          "author": "Platanios",
+          "year": "2020",
+          "journal-title": "CoRR"
+        },
+        {
+          "key": "ref124",
+          "first-page": "1416",
+          "article-title": "Estimating accuracy from unlabeled data: A Bayesian approach",
+          "volume-title": "Proc. Int. Conf. Mach. Learn.",
+          "author": "Platanios"
+        },
+        {
+          "key": "ref125",
+          "article-title": "Memory-efficient implementation of densenets",
+          "author": "Pleiss",
+          "year": "2017",
+          "journal-title": "CoRR"
+        },
+        {
+          "key": "ref126",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/3318464.3384695"
+        },
+        {
+          "key": "ref127",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/ICDE51399.2021.00186"
+        },
+        {
+          "key": "ref128",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/s00778-019-00588-3"
+        },
+        {
+          "key": "ref129",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/s11431-020-1647-3"
+        },
+        {
+          "key": "ref130",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.14778/3157794.3157797"
+        },
+        {
+          "key": "ref131",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/s00778-019-00552-1"
+        },
+        {
+          "key": "ref132",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/3209889.3209898"
+        },
+        {
+          "key": "ref133",
+          "first-page": "3567",
+          "article-title": "Data programming: Creating large training sets, quickly",
+          "volume-title": "Proc. Int. Conf. Neural Inf. Process. Syst.",
+          "author": "Ratner"
+        },
+        {
+          "issue": "43",
+          "key": "ref134",
+          "first-page": "1297",
+          "article-title": "Learning from crowds",
+          "volume": "11",
+          "author": "Raykar",
+          "year": "2010",
+          "journal-title": "J. Mach. Learn. Res."
+        },
+        {
+          "key": "ref135",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.14778/3137628.3137631"
+        },
+        {
+          "key": "ref136",
+          "article-title": "Dagger: A data (not code) debugger",
+          "volume-title": "Proc. 10th Conf. Innov. Data Syst. Res.",
+          "author": "Rezig"
+        },
+        {
+          "key": "ref137",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1609/aaai.v32i1.11506"
+        },
+        {
+          "key": "ref138",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/TKDE.2019.2946162"
+        },
+        {
+          "key": "ref139",
+          "first-page": "441",
+          "article-title": "Toward optimal active learning through sampling estimation of error reduction",
+          "volume-title": "Proc. Int. Conf. Mach. Learn.",
+          "author": "Roy"
+        },
+        {
+          "key": "ref140",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/2949741.2949756"
+        },
+        {
+          "key": "ref141",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/s00778-016-0437-2"
+        },
+        {
+          "key": "ref142",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/ICDE.2014.6816715"
+        },
+        {
+          "key": "ref143",
+          "first-page": "1401",
+          "article-title": "A brief introduction to boosting",
+          "volume-title": "Proc. Int. Joint Conf. Artif. Intell.",
+          "author": "Schapire"
+        },
+        {
+          "key": "ref144",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/2882903.2882939"
+        },
+        {
+          "key": "ref145",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/3299869.3324961"
+        },
+        {
+          "key": "ref146",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/3299869.3300073"
+        },
+        {
+          "key": "ref147",
+          "article-title": "Active learning literature survey",
+          "author": "Settles",
+          "year": "2009"
+        },
+        {
+          "key": "ref148",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.3115/1613715.1613855"
+        },
+        {
+          "key": "ref149",
+          "first-page": "1289",
+          "article-title": "Multiple-instance active learning",
+          "volume-title": "Proc. Int. Conf. Neural Inf. Process. Syst.",
+          "author": "Settles"
+        },
+        {
+          "key": "ref150",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/130385.130417"
+        },
+        {
+          "key": "ref151",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.14778/3157794.3157804"
+        },
+        {
+          "key": "ref152",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/3318464.3380595"
+        },
+        {
+          "key": "ref153",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/s40537-019-0197-0"
+        },
+        {
+          "key": "ref154",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/cpe.6544"
+        },
+        {
+          "key": "ref155",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/2806777.2806945"
+        },
+        {
+          "key": "ref156",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1201/9781420089653.ch10"
+        },
+        {
+          "key": "ref157",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/1480881.1480915"
+        },
+        {
+          "key": "ref158",
+          "article-title": "Improving the speed of neural networks on CPUs",
+          "author": "Vanhoucke",
+          "year": "2011",
+          "journal-title": "Proc. Deep Learn. Unsupervised Feature Learn. Workshop"
+        },
+        {
+          "key": "ref159",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/3077257.3077263"
+        },
+        {
+          "key": "ref160",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/3183713.3196934"
+        },
+        {
+          "key": "ref161",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/2939502.2939516"
+        },
+        {
+          "key": "ref162",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/2723372.2749440"
+        },
+        {
+          "key": "ref163",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.14778/3485450.3485458"
+        },
+        {
+          "key": "ref164",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.14778/2350229.2350263"
+        },
+        {
+          "key": "ref165",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/2588555.2610505"
+        },
+        {
+          "key": "ref166",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/2463676.2465280"
+        },
+        {
+          "key": "ref167",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.14778/2732967.2732976"
+        },
+        {
+          "key": "ref168",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/3178487.3178491"
+        },
+        {
+          "key": "ref169",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/3299869.3319899"
+        },
+        {
+          "key": "ref170",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/2723372.2750549"
+        },
+        {
+          "key": "ref171",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.14778/3407790.3407799"
+        },
+        {
+          "key": "ref172",
+          "first-page": "2035",
+          "article-title": "Whose vote should count more: Optimal integration of labels from labelers of unknown expertise",
+          "volume-title": "Proc. Int. Conf. Neural Inf. Process. Syst.",
+          "author": "Whitehill"
+        },
+        {
+          "key": "ref173",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/3318464.3389696"
+        },
+        {
+          "key": "ref174",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/3209889.3209897"
+        },
+        {
+          "key": "ref175",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.14778/3297753.3297763"
+        },
+        {
+          "key": "ref176",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/978-3-540-71496-5_24"
+        },
+        {
+          "key": "ref177",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/2213836.2213848"
+        },
+        {
+          "key": "ref178",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/s00778-020-00613-w"
+        },
+        {
+          "key": "ref179",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/ICDE48307.2020.00129"
+        },
+        {
+          "key": "ref180",
+          "article-title": "Equality saturation for tensor graph superoptimization",
+          "author": "Yang",
+          "year": "2021",
+          "journal-title": "CoRR"
+        },
+        {
+          "key": "ref181",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/ICDE48307.2020.00116"
+        },
+        {
+          "key": "ref182",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.14778/2536206.2536210"
+        },
+        {
+          "key": "ref183",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.14778/3352063.3352124"
+        },
+        {
+          "key": "ref184",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/2877204"
+        },
+        {
+          "key": "ref185",
+          "first-page": "311",
+          "article-title": "Manually detecting errors for data cleaning using adaptive crowdsourcing strategies",
+          "volume-title": "Proc. Int. Conf. Extending Database Technol.",
+          "author": "Zhang"
+        },
+        {
+          "key": "ref186",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/2463676.2465276"
+        },
+        {
+          "key": "ref187",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/3318464.3389726"
+        },
+        {
+          "key": "ref188",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1609/aaai.v34i07.7000"
+        },
+        {
+          "key": "ref189",
+          "article-title": "Regularized minimax conditional entropy for crowdsourcing",
+          "author": "Zhou",
+          "year": "2015"
+        },
+        {
+          "key": "ref190",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/TKDE.2020.2994641"
+        },
+        {
+          "key": "ref191",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.14778/3485450.3485456"
+        }
+      ],
+      "container-title": [
+        "IEEE Transactions on Knowledge and Data Engineering"
+      ],
+      "original-title": [],
+      "link": [
+        {
+          "URL": "http://xplorestaging.ieee.org/ielx7/69/4358933/09705125.pdf?arnumber=9705125",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2024,
+            1,
+            17
+          ]
+        ],
+        "date-time": "2024-01-17T18:28:49Z",
+        "timestamp": 1705516129000
+      },
+      "score": 1,
+      "resource": {
+        "primary": {
+          "URL": "https://ieeexplore.ieee.org/document/9705125/"
+        }
+      },
+      "subtitle": [],
+      "short-title": [],
+      "issued": {
+        "date-parts": [
+          [
+            2022
+          ]
+        ]
+      },
+      "references-count": 188,
+      "URL": "https://doi.org/10.1109/tkde.2022.3148237",
+      "relation": {},
+      "ISSN": [
+        "1041-4347",
+        "1558-2191",
+        "2326-3865"
+      ],
+      "issn-type": [
+        {
+          "value": "1041-4347",
+          "type": "print"
+        },
+        {
+          "value": "1558-2191",
+          "type": "electronic"
+        },
+        {
+          "value": "2326-3865",
+          "type": "electronic"
+        }
+      ],
+      "subject": [],
+      "published": {
+        "date-parts": [
+          [
+            2022
+          ]
+        ]
+      }
+    }
+  }
+}
