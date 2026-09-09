@@ -1,5 +1,7 @@
 # 中文学术表达复核
 
+> 历史记录：本文件中的章节、图表编号和页数对应前期长稿。当前8k版本的内容对应见[本轮修订](REVISION_8K.md)，排版检查见[VALIDATION.md](VALIDATION.md)。
+
 日期：2026-09-09。本轮依据用户提供的本地规范 /home/fanmeihao/projects/OptiHarnessForCost/_latex/prompts/no_ai.md 和research-writing-skill审读全文，并沿用[前期中文综述参照](REVISION.md)中已核验的概念界定、分类比较与结果分析写法。
 
 ## 标题与叙述

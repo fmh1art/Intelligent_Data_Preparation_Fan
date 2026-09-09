@@ -26,12 +26,20 @@ for name, _ in figures:
         errors.append(f'missing figure: {name}')
     if not (root / 'figures' / 'prompts' / (name + '.md')).is_file():
         errors.append(f'missing figure prompt: {name}')
+bio_source = re.sub(r'%[^\n]*', '', (root / 'author_bios.tex').read_text())
+portraits = re.findall(r'\\includegraphics(?:\[[^]]*\])?\{([^}]+)\}', bio_source)
+for portrait in portraits:
+    if not (root / portrait).is_file():
+        errors.append(f'missing author portrait: {portrait}')
+if r'\input{author_bios.tex}' not in re.sub(r'%[^\n]*', '', main):
+    errors.append('author biographies are not included')
 for pattern in ['具身智能', '机器人', 'Open X-Embodiment', '科普综述']:
     if pattern in main + body + bib:
         errors.append(f'out-of-scope term in publication sources: {pattern}')
 report = {
     'references': len(keys), 'cited_references': len(citations),
     'figures': len(figures), 'tables': body.count('\\begin{table}'),
+    'author_portraits': len(portraits),
     'chinese_characters_in_manuscript_source': len(re.findall('[\u4e00-\u9fff]', body)),
     'errors': errors,
 }
