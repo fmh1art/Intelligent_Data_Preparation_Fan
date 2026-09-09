@@ -7,7 +7,7 @@
 - [两份审稿意见的逐条回应](editorial/REVIEW_RESPONSE.md)
 - [检索协议与筛选台账](editorial/search/README.md)、[结果及机制证据](editorial/EVIDENCE.md)
 - [文献来源、核验范围与版本说明](editorial/SOURCES.md)
-- [公式与算术核查记录](editorial/FORMULA_AUDIT.md)
+- [算术核查与原公式处理记录](editorial/FORMULA_AUDIT.md)
 - [中文综述写法参照与修改说明](editorial/REVISION.md)
 - [绘图记录](figures/GENERATION.md)、[图1 prompt](figures/prompts/fig01_taxonomy.md)、[图2 prompt](figures/prompts/fig02_workflow.md)、[图3 prompt](figures/prompts/fig03_error_propagation.md)
 
