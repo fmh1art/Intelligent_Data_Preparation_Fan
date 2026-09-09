@@ -3,13 +3,14 @@
 本文围绕数据发现、语义理解、清洗修复、匹配融合、结构转换和标注增强，整理范举、李国良、高云君等学者及国内外相关研究，进一步比较任务感知流程与评测方法。
 
 - [编译后的综述 PDF](output/survey.pdf)
+- [三张独立PNG配图与预览](figures/README.md)
 - [LaTeX 主文件](main.tex)、[正文](manuscript.tex)、[参考文献](references.bib)
 - [两份审稿意见的逐条回应](editorial/REVIEW_RESPONSE.md)
 - [检索协议与筛选台账](editorial/search/README.md)、[结果及机制证据](editorial/EVIDENCE.md)
 - [文献来源、核验范围与版本说明](editorial/SOURCES.md)
 - [算术核查与原公式处理记录](editorial/FORMULA_AUDIT.md)
 - [中文综述写法参照与修改说明](editorial/REVISION.md)
-- [绘图记录](figures/GENERATION.md)、[图1 prompt](figures/prompts/fig01_taxonomy.md)、[图2 prompt](figures/prompts/fig02_workflow.md)、[图3 prompt](figures/prompts/fig03_error_propagation.md)
+- [绘图记录](figures/GENERATION.md)、[图1 prompt](figures/prompts/fig01_taxonomy_v2.md)、[图2 prompt](figures/prompts/fig02_workflow_v2.md)、[图3 prompt](figures/prompts/fig03_error_propagation_v2.md)
 
 ## 编译
 

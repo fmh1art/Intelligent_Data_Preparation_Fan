@@ -1,0 +1,13 @@
+# 图1第二版：局部修订 prompt
+
+输入编辑目标：figures/fig01_taxonomy_v2.png，第一轮内置 imagegen 产物。以下 prompt 通过 referenced_image_paths 调用内置 imagegen，保留新构图。
+
+Use case: precise-object-edit; academic Chinese infographic. Preserve this image's composition, precise six-diagram central workspace, color palette, line quality, titles, spacing and all task/method/output labels. Make ONLY the following content-accuracy and clarity corrections. Do not redraw as rounded cards and do not alter any before/after data values unless explicitly listed here. White background, landscape 3:2, highest native resolution. Professional large legible Chinese.
+
+1. In the upper-right “清洗修复” task, retain r1=12, r2=? before and r1=12, r2=15* after. In the white gap directly below the small two-table diagram, add the concise readable footnote “* 估计值”. Keep the existing secondary label “检测与修复 · 保留依据” below it. The footnote must be clearly associated with 15*.
+2. In the far-right “目标数据” example table, delete ONLY the third data row “3 王五 深圳 150”. Keep header id/name/city/amount and the two source-consistent rows “1 张三 北京 100” and “2 李四 上海 200”. Do not add any other row or invented value.
+3. In the far-right “验证记录” artifact, replace the tiny fake hyperlink line “溯源链接: view/log/123” with plain dark-teal Chinese text “来源与变换日志”, retaining the tiny link icon. No URL or hyperlink styling. Keep the two checklist lines but shorten them to “数据完整性检查” and “规则一致性检查”, without the word “通过”. This is an audit artifact illustration, not a claim of actual experimental success.
+4. Simplify the far-left lower “任务与约束” source sheet by removing ALL explanatory paragraphs, multiple checkboxes and date/data-compliance examples. Keep a concise “目标字段” heading and the field strip “id | name | city | amount”. Under it create three spacious readable one-line constraint entries, exactly “目标：用户分析”, “规则：保留来源”, “预算：给定上限”, each paired with a tiny simple mark. Keep “目标 · 规则 · 预算” as the secondary label below the sheet. Do not introduce long paragraphs or new dates.
+5. In the “标注增强” task, change ONLY the three document snippets to neutral exact phrases “文本片段 A”, “文本片段 B”, “文本片段 C”; retain sample identifiers s1/s2/s3, arrows, selection gate and plus/minus label chips. Do not infer sentiment from any snippet.
+
+Critical invariants: retain six independent tasks “数据发现”, “语义理解”, “清洗修复”, “匹配融合”, “结构转换”, “标注增强”; no arrows from one task to another. Keep four mechanisms “规则约束”, “统计学习”, “语言模型”, “流程规划”, all three outputs, and the bottom “质量评估”, “成本控制”, “数据溯源”. The structural transformation must stay wide row (x,1,2) under id/A/B -> long rows (x,A,1) and (x,B,2) under id/项/值. Keep input tables and matching/fusion details intact. Do not add a global title, figure number, watermark, new facts or extraneous labels.
