@@ -1,9 +1,9 @@
 {
-  "revised_body_chinese_characters": 8173,
+  "revised_body_chinese_characters": 8185,
   "sections": [
     {
       "title": "引言",
-      "chinese_characters": 765
+      "chinese_characters": 777
     },
     {
       "title": "基于语言模型的数据准备",
@@ -37,7 +37,8 @@
     "image_size_px": [
       1086,
       1448
-    ]
+    ],
+    "global_chronology": "PASS: 49 nodes, 14 year guides, zero cross-year inversions"
   },
   "rendered_document": {
     "file": "build/main.pdf",

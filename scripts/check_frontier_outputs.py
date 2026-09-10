@@ -42,6 +42,18 @@ tree_review = json.loads((ROOT / 'figures/reviews/fig00_two_research_trees.json'
 tree_file = ROOT / tree_review['final_file']
 assert hashlib.sha256(tree_file.read_bytes()).hexdigest() == tree_review['sha256']
 tree_source = fitz.Pixmap(str(tree_file))
+chronology = json.loads((ROOT / 'figures/reviews/fig00_two_research_trees_chronology.json').read_text())
+assert chronology['image_sha256'] == tree_review['sha256'], 'Chronology audit belongs to another image'
+assert len(chronology['nodes']) == 49 and not chronology['missing']
+assert sorted(int(ref) for node in chronology['nodes']
+              for ref in node['references'].split(',')) == list(range(1, len(order) + 1))
+for newer in chronology['nodes']:
+    for older in chronology['nodes']:
+        if newer['year'] > older['year']:
+            assert (newer['y_center_px'] + newer['uncertainty_px'] <
+                    older['y_center_px'] - older['uncertainty_px']), 'Chronological inversion in figure'
+assert [g['year'] for g in chronology['year_guides']] == sorted(
+    {node['year'] for node in chronology['nodes']}, reverse=True)
 tree_pages = []
 for page in pdf:
     for item in page.get_images():
@@ -71,7 +83,8 @@ report = {
     'cited_references': len(order),
     'preprint_version_notes': len(notes),
     'research_tree': {'pages': tree_pages, 'nodes': 49, 'references': len(order),
-                      'image_size_px': [tree_source.width, tree_source.height]},
+                      'image_size_px': [tree_source.width, tree_source.height],
+                      'global_chronology': 'PASS: 49 nodes, 14 year guides, zero cross-year inversions'},
     'rendered_document': {'file': 'build/main.pdf', 'pages': len(pdf),
                           'chart_pages': [page.number + 1 for page in chart_pages]},
     'checks': 'PASS: citation order, original figure assets, PDF text, charts, portraits and TeX/Biber logs',

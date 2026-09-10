@@ -258,7 +258,7 @@
     },
     {
       "tree": "left",
-      "branch": "Perspective canopy",
+      "branch": "Surveys & perspectives",
       "keys": [
         "demystify"
       ],
@@ -269,7 +269,7 @@
     },
     {
       "tree": "left",
-      "branch": "Perspective canopy",
+      "branch": "Surveys & perspectives",
       "keys": [
         "empower"
       ],
@@ -479,7 +479,7 @@
     },
     {
       "tree": "right",
-      "branch": "Perspective canopy",
+      "branch": "Surveys & perspectives",
       "keys": [
         "dm4ml"
       ],
@@ -490,7 +490,7 @@
     },
     {
       "tree": "right",
-      "branch": "Perspective canopy",
+      "branch": "Surveys & perspectives",
       "keys": [
         "llmdata"
       ],
@@ -501,7 +501,7 @@
     },
     {
       "tree": "shared",
-      "branch": "Foundational roots",
+      "branch": "Shared foundations",
       "keys": [
         "quality"
       ],
@@ -512,7 +512,7 @@
     },
     {
       "tree": "shared",
-      "branch": "Foundational roots",
+      "branch": "Shared foundations",
       "keys": [
         "fair"
       ],
@@ -523,7 +523,7 @@
     },
     {
       "tree": "shared",
-      "branch": "Foundational roots",
+      "branch": "Shared foundations",
       "keys": [
         "datasheets"
       ],
@@ -543,5 +543,6 @@
       "preprint_version": false,
       "resource": false
     }
-  ]
+  ],
+  "chronology": "Every node follows the same upward ordering by primary bibliography year across both trees, including surveys and shared context. Same-year nodes may be staggered; year spacing is not proportional."
 }
