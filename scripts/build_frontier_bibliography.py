@@ -108,7 +108,7 @@ for key, ident in {'fineweb2':'2506.20920','openthoughts':'2506.04178','robomind
         authors = ' and '.join(names[:3]) + (' and others' if len(names)>3 else '')
     entry = dict(ENTRYTYPE='online', author=authors, title=' '.join(e['title'].split()),
                  date=e['published'][:10], url=e['id'].replace('http:','https:'), urldate='2026-09-10',
-                 note='预印本，arXiv:' + ident + '，核读版本更新于' + e['updated'][:10])
+                 note='预印本，arXiv:' + e['id'].rsplit('/', 1)[-1])
     add(key, entry, 'arxiv_batch.xml and arxiv_parsed.json; version explicitly retained')
 
 for key,title,url in [

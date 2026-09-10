@@ -34,7 +34,7 @@
 | DROID | [核读版本v2](https://arxiv.org/abs/2403.12945v2)、[项目更新](https://droid-dataset.github.io/) | 分布式真实场景采集及2025年4月相机标定更新，不将发布后维护说成首次发布就已具备 |
 | AgiBot World Colosseo | [核读版本v4](https://arxiv.org/abs/2503.06669v4) | 真实操作的任务与场景覆盖，不混用2025和2026资源的规模统计 |
 | AgiBot World 2026 | [数据卡](https://huggingface.co/datasets/agibot-world/AgiBotWorld2026)、[发布方说明](https://www.agibot.com/article/231/detail/54.html) | 数据卡的子任务、物体框、步骤级指令及Error/Success/Intervention相关字段，发布说明中的错误恢复轨迹。按数据资源著录，不冒称同行评审论文 |
-| RoboMIND 2.0 | [v3，2026-02-27](https://arxiv.org/abs/2512.24653v3)、[全文§3及§4](https://arxiv.org/html/2512.24653v3) | 双臂操作、触觉、移动操作与配套仿真。首次提交为2025-12-31，正文明确说2026年更新，书目保留首次提交和核读版本日期 |
+| RoboMIND 2.0 | [v3，2026-02-27](https://arxiv.org/abs/2512.24653v3)、[全文§3及§4](https://arxiv.org/html/2512.24653v3) | 双臂操作、触觉、移动操作与配套仿真。首次提交为2025-12-31；正文概括数据模态与操作场景，书目保留首次提交日期及arXiv版本标识，核读日期保存在本证据记录中 |
 | MimicGen | [CoRL 2023/PMLR](https://proceedings.mlr.press/v229/mandlekar23a.html) | 适配少量演示并重放生成操作数据，真实环境效用仍需另行检验 |
 
 ## 沿用证据与综合判断
@@ -43,4 +43,4 @@
 
 具身章节中关于失败轨迹应按用途区分、训练测试按场景及同源轨迹隔离、成本覆盖采集与复核等内容属于本文综合分析和评价建议，没有写成已被统一实验验证的结论。原图仅保留其历史统计意义，未新增或重算国内外论文数量。
 
-正文与Biber输出的文献编号由[引用顺序文件](frontier_sources/citation_order.json)核对。LaTeX书目显式标记所引预印本及核读版本，不将预印本版本记录等同于该工作从未正式发表。
+正文与Biber输出的文献编号由[引用顺序文件](frontier_sources/citation_order.json)核对。LaTeX书目显式标记预印本及arXiv版本编号，不将预印本版本记录等同于该工作从未正式发表。

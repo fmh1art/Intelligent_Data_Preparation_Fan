@@ -1,25 +1,25 @@
 {
-  "revised_body_chinese_characters": 8267,
+  "revised_body_chinese_characters": 8109,
   "sections": [
     {
       "title": "引言",
-      "chinese_characters": 859
+      "chinese_characters": 684
     },
     {
       "title": "基于语言模型的数据准备",
-      "chinese_characters": 2454
+      "chinese_characters": 2422
     },
     {
       "title": "面向语言模型的数据准备",
-      "chinese_characters": 2484
+      "chinese_characters": 2480
     },
     {
       "title": "具身智能中的数据准备",
-      "chinese_characters": 1445
+      "chinese_characters": 1439
     },
     {
       "title": "发展趋势与研究问题",
-      "chinese_characters": 857
+      "chinese_characters": 916
     },
     {
       "title": "结束语",
