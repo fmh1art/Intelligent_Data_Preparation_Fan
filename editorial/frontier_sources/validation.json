@@ -1,9 +1,9 @@
 {
-  "revised_body_chinese_characters": 8185,
+  "revised_body_chinese_characters": 8267,
   "sections": [
     {
       "title": "引言",
-      "chinese_characters": 777
+      "chinese_characters": 859
     },
     {
       "title": "基于语言模型的数据准备",
@@ -38,7 +38,10 @@
       1086,
       1448
     ],
-    "global_chronology": "PASS: 49 nodes, 14 year guides, zero cross-year inversions"
+    "topic_compartments": 13,
+    "taxonomy": "PASS: every node is inside its assigned subfield compartment",
+    "branch_chronology": "PASS: zero cross-year inversions within branches",
+    "visual_audit": "figures/reviews/fig00_two_research_trees_taxonomy.json"
   },
   "rendered_document": {
     "file": "build/main.pdf",

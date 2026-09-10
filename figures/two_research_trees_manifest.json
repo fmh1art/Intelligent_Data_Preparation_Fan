@@ -1,6 +1,6 @@
 {
   "scope": "All 50 references in the current survey, represented by 49 nodes; the dataset card and release notice describe one resource.",
-  "classification": "Primary topical placement; connectors do not assert citation, inheritance or causal dependence.",
+  "classification": "Each named branch compartment contains one primary subfield; every paper is placed in exactly one compartment. Five task branches and one survey branch per direction, plus one shared foundations and quality branch. Connectors express topical membership, not citation, inheritance or causal dependence.",
   "date_rule": "Years follow references.bib; RoboMIND 2.0 additionally displays the reviewed 2026 revision.",
   "nodes": [
     {
@@ -501,7 +501,7 @@
     },
     {
       "tree": "shared",
-      "branch": "Shared foundations",
+      "branch": "Shared foundations & quality",
       "keys": [
         "quality"
       ],
@@ -512,7 +512,7 @@
     },
     {
       "tree": "shared",
-      "branch": "Shared foundations",
+      "branch": "Shared foundations & quality",
       "keys": [
         "fair"
       ],
@@ -523,7 +523,7 @@
     },
     {
       "tree": "shared",
-      "branch": "Shared foundations",
+      "branch": "Shared foundations & quality",
       "keys": [
         "datasheets"
       ],
@@ -534,7 +534,7 @@
     },
     {
       "tree": "shared",
-      "branch": "Cross-cutting review",
+      "branch": "Shared foundations & quality",
       "keys": [
         "zh_quality"
       ],
@@ -544,5 +544,5 @@
       "resource": false
     }
   ],
-  "chronology": "Every node follows the same upward ordering by primary bibliography year across both trees, including surveys and shared context. Same-year nodes may be staggered; year spacing is not proportional."
+  "chronology": "Within each named branch compartment, newer primary bibliography years appear above older years. Same-year nodes may be staggered. The positions of different compartments and the shared conceptual roots do not form a global time axis; vertical spacing is not proportional to elapsed time."
 }

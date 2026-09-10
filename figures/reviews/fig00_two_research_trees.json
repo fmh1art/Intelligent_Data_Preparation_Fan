@@ -1,46 +1,27 @@
 {
   "tool": "built-in image_gen.imagegen",
-  "mode": "Chronogram composition followed by targeted image edits",
-  "prompt": "figures/prompts/fig00_two_research_trees_chronogram.md",
+  "mode": "Rebuild topical branch compartments using v3 as botanical style reference",
+  "prompt": "figures/prompts/fig00_two_research_trees_taxonomy.md",
   "manifest": "figures/two_research_trees_manifest.json",
-  "source_file": "/home/fanmeihao/.codex/generated_images/01a088e8-7ea1-7270-9f6e-597a9feab716/exec-c3cb1fc3-1705-4946-b71c-1359143fd7d7.png",
-  "final_file": "figures/fig00_two_research_trees_v3.png",
-  "sha256": "0eecd575fb76f2aac08e75fc05866ae8b69e3798c042829674943e7517691374",
+  "source_file": "/home/fanmeihao/.codex/generated_images/01a088e8-7ea1-7270-9f6e-597a9feab716/exec-60105707-5854-4208-aba0-71a9796b9aa1.png",
+  "final_file": "figures/fig00_two_research_trees_v4.png",
+  "sha256": "6ce53945795ad0ee829447ba9a3f4592f518381880d6537507d85dd7fbec0a5f",
   "width_px": 1086,
   "height_px": 1448,
   "mode_pixels": "RGB",
   "postprocessing": "None; original generated PNG copied byte-for-byte.",
   "generations": 1,
-  "manual_review": "All 49 paper/resource labels and 50 references checked, including six preprint markers. Every newer-year node is above every older-year node globally; all 14 year-guide labels agree with the bibliography years.",
-  "initial_image": {
-    "file": "figures/fig00_two_research_trees.png",
-    "sha256": "24db4324b1de125a77d78d4f7a9434e1887012feef6cec93345c87792becbf9c",
-    "source_file": "/home/fanmeihao/.codex/generated_images/01a088e8-7ea1-7270-9f6e-597a9feab716/exec-cafcf936-12c7-41a1-86b7-b4d076efce9b.png"
-  },
-  "targeted_edits": 2,
-  "edit_prompt": "figures/prompts/fig00_two_research_trees_chronogram_labels.md",
-  "edit_scope": "Global chronological placement across both trees; opaque white background; corrected year guides and branch captions.",
-  "native_resolution_note": "Actual tool output is 1086 x 1448 pixels; no upsampling or programmatic retouching. At the placed width of about 163 mm this is approximately 169 ppi.",
+  "targeted_edits": 0,
+  "manual_review": "All 49 labels and 50 references verified. Each of 13 clearly bounded branch compartments contains only its assigned subfield. Newer primary bibliography years appear higher within every compartment. All six preprint markers retained.",
+  "taxonomy_audit": "figures/reviews/fig00_two_research_trees_taxonomy.json",
+  "chronology_rule": "Within each branch compartment, primary bibliography year increases upward. Different compartments and shared roots have no global chronological alignment.",
+  "native_resolution_note": "Actual tool output 1086 x 1448 pixels; no upsampling or programmatic retouching. About 169 ppi at the placed width of 163 mm.",
   "previous_figure": {
-    "file": "figures/fig00_two_research_trees_v2.png",
-    "sha256": "83b72803123ac7e9fa9c966938a2a4b2623045646df1250ea159c14b36d4d203",
-    "source_file": "/home/fanmeihao/.codex/generated_images/01a088e8-7ea1-7270-9f6e-597a9feab716/exec-7dee324a-2dea-4abd-b515-9ec3a5d66281.png"
+    "final_file": "figures/fig00_two_research_trees_v3.png",
+    "sha256": "0eecd575fb76f2aac08e75fc05866ae8b69e3798c042829674943e7517691374",
+    "source_file": "/home/fanmeihao/.codex/generated_images/01a088e8-7ea1-7270-9f6e-597a9feab716/exec-c3cb1fc3-1705-4946-b71c-1359143fd7d7.png",
+    "prompt": "figures/prompts/fig00_two_research_trees_chronogram.md",
+    "chronology_audit": "figures/reviews/fig00_two_research_trees_chronology.json"
   },
-  "chronology_rule": "Primary bibliography year determines height globally; revision dates are annotations. Same-year nodes may occupy multiple rows. Year spacing is not proportional.",
-  "accepted_generation_sequence": [
-    {
-      "prompt": "figures/prompts/fig00_two_research_trees_chronogram.md",
-      "source_file": "/home/fanmeihao/.codex/generated_images/01a088e8-7ea1-7270-9f6e-597a9feab716/exec-bf4b59e5-04aa-495a-969d-c5af41880c21.png"
-    },
-    {
-      "prompt": "figures/prompts/fig00_two_research_trees_chronogram_finish.md",
-      "source_file": "/home/fanmeihao/.codex/generated_images/01a088e8-7ea1-7270-9f6e-597a9feab716/exec-17538a4b-d10c-4715-966b-4a11febc2892.png"
-    },
-    {
-      "prompt": "figures/prompts/fig00_two_research_trees_chronogram_labels.md",
-      "source_file": "/home/fanmeihao/.codex/generated_images/01a088e8-7ea1-7270-9f6e-597a9feab716/exec-c3cb1fc3-1705-4946-b71c-1359143fd7d7.png"
-    }
-  ],
-  "rejected_layout_trials": 2,
-  "chronology_audit": "figures/reviews/fig00_two_research_trees_chronology.json"
+  "supersedes": "v3 preserved global year rows but mixed subfields along visually continuous branches. v4 makes explicit subfield membership primary and orders dates within branches, as requested in the latest feedback."
 }

@@ -2,17 +2,19 @@
 
 ## 图1：双树研究总览
 
-[最终英文图](fig00_two_research_trees_v3.png)放置于引言后，第2页。两棵树各设五个任务分支，右树以铜色突出具身数据准备；全图按书目年份统一分层，较早工作在下、较新工作在上；综述及共同基础也按相同规则定位，时间间距不按比例。图中49个节点覆盖当前全部50项引用，其中[44,45]对应同一个数据资源。连线表示主题归属，不表示论文间的直接继承关系。
+[最终英文图](fig00_two_research_trees_v4.png)放置于引言后，第2页。两棵树各设五个任务分支和一个综述分支；每一枝都有独立标题及清楚的区域边界，同一子方向的论文集中放在该区域内。右树以铜色突出具身数据准备，共同的数据质量与治理基础单独置于根部。
+
+每个分支内部按书目年份由下向上排列，较新的工作较高；不同分支区域之间不共用时间轴，时间间距不按比例。图中49个节点覆盖当前全部50项引用，其中[44,45]对应同一个数据资源。连线表示主题归属，不表示论文间的直接继承关系。
 
 - [初始精细PROMPT](prompts/fig00_two_research_trees.md)
 - [长标签换行与字号修订PROMPT](prompts/fig00_two_research_trees_edit.md)
-- [全局时间布局PROMPT](prompts/fig00_two_research_trees_chronogram.md)
-- [背景整理PROMPT](prompts/fig00_two_research_trees_chronogram_finish.md)与[最终文字校正PROMPT](prompts/fig00_two_research_trees_chronogram_labels.md)
+- [本次分类分支与枝内时间排序PROMPT](prompts/fig00_two_research_trees_taxonomy.md)
+- 历史版本：[全局时间布局PROMPT](prompts/fig00_two_research_trees_chronogram.md)、[背景整理PROMPT](prompts/fig00_two_research_trees_chronogram_finish.md)与[文字校正PROMPT](prompts/fig00_two_research_trees_chronogram_labels.md)
 - [全部节点与书目映射](two_research_trees_manifest.json)
-- [实际节点坐标与年份审校](reviews/fig00_two_research_trees_chronology.json)
+- [分支区域、节点坐标与枝内年份审校](reviews/fig00_two_research_trees_taxonomy.json)
 - [生成和检查说明](reviews/fig00_two_research_trees.md)
 
-采用内置image_gen生成；本次为满足全图时间顺序重新组织布局，再校正白底及文字标注。最终PNG保留工具原始输出，实际尺寸1086×1448像素。[初稿](fig00_two_research_trees.png)与[上一版](fig00_two_research_trees_v2.png)随工程保留便于复核，论文只引用最终图。
+采用内置image_gen，以v3为风格参考重构分支，一次生成后逐项审校。最终PNG保留工具原始输出，实际尺寸1086×1448像素。[初稿](fig00_two_research_trees.png)、[v2](fig00_two_research_trees_v2.png)与[上一版v3](fig00_two_research_trees_v3.png)随工程保留便于复核，论文只引用v4。v3的全局年份排列不能清楚呈现分支归属，本版采用分类分区与枝内排序；旧版[全局年代审校](reviews/fig00_two_research_trees_chronology.json)仅对应v3。
 
 ## 图2、图3：上传原稿的两幅正文图
 
