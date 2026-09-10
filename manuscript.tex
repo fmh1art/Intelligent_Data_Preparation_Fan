@@ -61,7 +61,12 @@ Chen等分析语言模型参与表格准备的阶段、完整流程和评测，Z
 同一来源可能支持不同用途，也可能需要不同处理规则。
 数据准备的产物因此不仅包括结果表，还包括可重复执行的步骤及其来源、修改和核验记录。
 
-\articlefigure{fig01_everyday}{智能数据准备的任务与应用}{fig:tasks}
+\begin{figure*}[t]
+\centering
+\includegraphics[width=0.7\textwidth]{figures/fig1.pdf}
+\caption{智能数据准备的任务与应用}
+\label{fig:tasks}
+\end{figure*}
 
 在工作报表中，智能工具可以识别对应字段、统一日期和金额格式、发现重复记录，但按下单时间还是到账时间统计仍需业务确认。
 在商品比较和客户资料整合中，名称相似只是候选线索，规格、单位和对象身份需要进一步核对。
@@ -158,7 +163,12 @@ Data-Juicer将语料分析与处理组织为可组合流程，相关综述进一
 有大量可靠标签时可以适配局部模型，有稳定操作规范时可以复用工具，有复杂需求时再组织交互与流程搜索。
 把模型换成规模更大的版本，并不会自动提供缺失的业务知识，也未必减少检查和维护负担。
 
-\articlefigure{fig02_progress}{数据准备方法的能力与适用条件}{fig:methods}
+\begin{figure*}[t]
+\centering
+\includegraphics[width=0.8\textwidth]{figures/fig2.pdf}
+\caption{数据准备方法的能力与适用条件}
+\label{fig:methods}
+\end{figure*}
 
 \FloatBarrier
 \section{任务感知的数据准备流程}
@@ -201,7 +211,12 @@ DeepPrep保存中间状态，通过树状推理回到较早步骤修订，BAT则
 语义不明确时先确认目标，操作有误时修订方案，再从适当中间状态执行。
 处理记录有助于复现，但其存在本身不证明结果正确。
 
-\articlefigure{fig03_trust}{数据准备流程中的核验与修订}{fig:workflow}
+\begin{figure*}[t]
+\centering
+\includegraphics[width=\textwidth]{figures/fig3.pdf}
+\caption{数据准备流程中的核验与修订}
+\label{fig:workflow}
+\end{figure*}
 
 \subsection{多步错误传播的实例}
 
