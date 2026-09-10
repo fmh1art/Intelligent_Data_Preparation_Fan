@@ -1,42 +1,20 @@
-# 学术综述插图与作者照片
+# 上传原稿的两幅正文图
 
-当前正文仅使用以下3幅学术示意图。采用白底、细线框、黑灰中文和少量蓝绿点色，删除人物场景、大色块和演示文稿式标题。PNG由LLM生成，供作者后续PPT复绘；图注和详细prompt一并保留。
+本轮全部复用用户上传DOCX中的两幅原生统计图，不需要重新绘制。矢量PDF由原图直接渲染、裁去页边空白后嵌入LaTeX，PNG供独立预览或插入演示文稿。
 
-## 图1 智能数据准备的任务与应用
+| 原图 | 独立PDF | PNG预览 |
+|---|---|---|
+| 图1：基于语言模型的数据准备研究分布 | [PDF](original/original_lm4dp.pdf) | [PNG](original/original_lm4dp.png) |
+| 图2：面向语言模型的数据准备研究分布 | [PDF](original/original_dp4lm.pdf) | [PNG](original/original_dp4lm.png) |
 
-[PNG](fig01_everyday.png) · [详细prompt](prompts/fig01_everyday.md) · [核查记录](reviews/fig01_everyday.md)
+![原稿图1](original/original_lm4dp.png)
 
-![智能数据准备的任务与应用](fig01_everyday.png)
+![原稿图2](original/original_dp4lm.png)
 
-上层为业务表格、多源记录和训练样本，中层为六类准备任务，下层为业务统计、信息整合、科学研究和模型训练。共用连接线表示按用途组合，不规定六类任务的固定顺序。正文第2节说明分类边界与应用需求。
+图1原始数据为国外学者17、6、12、16，国内学者7、13、7、11，依次对应发现、查询、融合和清洗。图2原始数据为国外学者13、4、3，国内学者3、11、8，依次对应预训练、指令微调和模型推理。这些数值均未更新，不代表2026年的完整研究分布。
 
-PPT复绘时保留三层矩形、六个并列任务、小型数据图标及分支汇合线即可。
+LaTeX使用按原稿尺寸渲染后等比放大的矢量PDF。正文通过`main.tex`中的`articlefigure`命令引用，显示宽度为正文版心的72%。编译时直接使用随工程保存的PDF，无需重新提取或绘制。
 
-## 图2 数据准备方法的能力与适用条件
+原稿为用户本地上传的《04 数据准备与语言模型交叉技术的研究进展与发展趋势 - 编辑提问回答.docx》。提取方式为OOXML包读取及LibreOffice原生图表渲染，未调用图像生成模型。原稿、图表部件及导出文件的哈希见[provenance.json](original/provenance.json)，编译检查见[validation.json](../editorial/frontier_sources/validation.json)。本轮不修改或提交Word文件。
 
-[PNG](fig02_progress.png) · [详细prompt](prompts/fig02_progress.md) · [核查记录](reviews/fig02_progress.md)
-
-![数据准备方法的能力与适用条件](fig02_progress.png)
-
-按主要依据、处理方式与能力边界比较规则与工具、学习与语义、任务与智能体。微型机制图分别表达确定操作、字段对应和流程修订；底部强调方法互补。该图为正文第3节的综合归纳，不是年代分期或性能排名。
-
-PPT复绘时使用细分隔线与少量表格、文档、节点图形，不需要重建场景插画。
-
-## 图3 数据准备流程中的核验与修订
-
-[PNG](fig03_trust.png) · [详细prompt](prompts/fig03_trust.md) · [核查记录](reviews/fig03_trust.md)
-
-![数据准备流程中的核验与修订](fig03_trust.png)
-
-任务说明、方案生成、工具执行与结果核验组成主流程。语义不明时返回任务说明，操作有误时返回方案生成，修订后重新执行。人工确认与来源记录共同支持复查。图中的核验依据不表示对全部内容的正确性保证，正文第4节以订单退款实例解释其范围。
-
-PPT复绘时保留四个节点、输出框、两条不交叉的回路线及底部记录括弧。
-
-## 文末作者照片与描述
-
-- [范举照片](fanju.jpg)：2933×4038像素，灰色背景半身肖像，配范举姓名及简介。
-- [范梅浩照片](fmh.jpg)：990×1440像素，蓝色背景正面肖像，配范梅浩姓名及简介。
-
-照片由用户本次提供，保持原始文件和比例，不计入正文3幅插图编号。两位作者各约150字简介排在参考文献后，详见[简介源码](../author_bios.tex)和[信息来源](../editorial/AUTHOR_INFO.md)。
-
-[生成与来源记录](GENERATION.md)。旧演示风格候选保存在archive/overview_ppt_draft，仅记录设计过程，不进入当前论文，也无需复绘。
+作者照片继续使用[fanju.jpg](fanju.jpg)与[fmh.jpg](fmh.jpg)，来源见[AUTHOR_INFO.md](../editorial/AUTHOR_INFO.md)。此前生成的三幅插图和prompt作为历史素材留存，当前稿件不引用。

@@ -1,35 +1,33 @@
-# 智能数据准备研究综述
+# 数据准备与语言模型的交叉前沿
 
-本稿依据历史上内容最多的eae7c34版本压缩修订，保留48项国内外文献、六类准备任务、流程机制、评测基准与原论文结果，结合范举、李国良、高云君及国际研究，说明应用需求、研究进展和发展方向。
+本项目为可直接在 Overleaf 编译的中文综述。以用户上传的《04 数据准备与语言模型交叉技术的研究进展与发展趋势 - 编辑提问回答.docx》为底稿，将正文凝练至7940个汉字，平衡“语言模型用于数据准备”（LM4DP）和“面向语言模型的数据准备”（DP4LM），补充具身智能数据准备及近期研究。
 
-- [综述PDF](output/survey.pdf)
-- [3幅学术风格PNG、图注与详细prompt](figures/README.md)
-- [正文](manuscript.tex)、[主文件](main.tex)、[参考文献](references.bib)
-- [文末作者简介](author_bios.tex)、[照片与信息来源](editorial/AUTHOR_INFO.md)
-- [本轮8k修订说明](editorial/REVISION_8K.md)、[交付检查](editorial/VALIDATION.md)
-- [文献筛选台账](editorial/search/README.md)、[原论文证据记录](editorial/EVIDENCE.md)
+- [LaTeX 编译稿 PDF](output/survey.pdf)
+- [主文件](main.tex)、[正文](manuscript.tex)、[参考文献](references.bib)
+- [两幅原图与来源说明](figures/README.md)
+- [修订说明](editorial/REVISION_FRONTIER.md)、[文献证据](editorial/FRONTIER_EVIDENCE.md)、[编译检查](editorial/VALIDATION.md)
 
-正文约8000字，按汉字统计为7871字，含章节标题和图注，不含参考文献、作者简介、图内文字及标点。保留3幅插图，省略摘要、关键词、公式和技术表格。文后按GB/T 7714—2015顺序编码制著录48项参考文献，文章最后提供两位作者各约150字的简介及各1张照片。
+两条主线分别为2454字和2484字，具身部分1445字，涵盖跨机器人数据融合、时空对齐、分层标注、失败轨迹、仿真与评测。正文计数包含章节标题和图注，不含参考文献、作者简介、图内文字、标点及英文单词。无摘要、关键词、公式及技术表格，文末沿用范举、范梅浩的照片和简介。
 
-三幅图由专门绘图agent调用内置imagegen重新生成，使用白底、细线框、克制配色和小型机制图标。PNG及prompt供作者后续PPT复绘参考；当前实际1536×1024像素，未放大。作者照片使用本次提供的原文件，按比例排版。
+原稿的两幅正文统计图以直接导出的矢量 PDF 嵌入，数量和类别保持原样，正文明确其历史统计口径。50项书目按 GB/T 7714—2015 顺序编码制著录，核读预印本标明版本。近期材料核验截至2026-09-10。本轮交付更新 LaTeX 工程，上传的 Word 文件保留在本地，不作修改。
 
-## 编译
+## Overleaf 与本地编译
 
-需要XeLaTeX、Biber、ctex和biblatex-gb7714-2015，字体使用TeX Live自带Fandol。
+Overleaf 中选择 `main.tex` 为主文件、**XeLaTeX** 为编译器。工程使用 TeX Live 自带的 Fandol 字体、`ctex` 和 `biblatex-gb7714-2015`，Biber 由 latexmk 自动调用。所需插图及书目已包含在工程中，编译不依赖 Word、Office 或外部网络资源。
+
+本地安装 XeLaTeX、Biber 和 latexmk 后运行：
 
 ```bash
 latexmk -xelatex -interaction=nonstopmode -halt-on-error -outdir=build main.tex
 python scripts/check_manuscript.py
-python scripts/check_review_evidence.py
-python scripts/reproduce_example.py
-mkdir -p output
+python scripts/check_frontier_outputs.py
 cp build/main.pdf output/survey.pdf
 ```
 
-Overleaf中以main.tex为主文件，选择XeLaTeX。版式为通用中文学术综述格式，并非期刊官方模板。
+正文检查仅需 Python 3；PDF 检查另需 PyMuPDF，报告写入 `build/frontier_validation.json`。当前编译稿为12页。
 
-## 修订与历史
+书目核验记录保存在 [frontier_sources](editorial/frontier_sources)。如需从这些记录重建书目，可运行 `python scripts/build_frontier_bibliography.py`，依赖 `bibtexparser`、`lxml` 和 `requests`；正常编译无需重建。`scripts/collect_frontier_sources.py` 用于重新访问论文数据库和发布方页面。
 
-最新要求为“基于历史内容最多版本压缩到8k”，已取代中途约5000字的改写方案。[完整底稿eae7c34](https://github.com/fmh1art/Intelligent_Data_Preparation_Fan/tree/eae7c34)及[前期语言润色版67f0fa6](https://github.com/fmh1art/Intelligent_Data_Preparation_Fan/tree/67f0fa6)可供对照。
+## 历史记录
 
-[审稿回复](editorial/REVIEW_RESPONSE.md)、[中文综述写法参照](editorial/REVISION.md)、[语言复核](editorial/STYLE_REVIEW.md)、[前期图表精简](editorial/SIMPLIFICATION.md)、[公式审计](editorial/FORMULA_AUDIT.md)和[书目核验](editorial/SOURCES.md)作为历史记录保留。其中旧图表编号和页数不用于当前稿；本轮对应关系见[REVISION_8K.md](editorial/REVISION_8K.md)。
+[上一轮8k修订说明](editorial/REVISION_8K.md)和[历史书目](editorial/previous_8k/references.bib)保留供核对，完整旧稿可从提交 `ddeaa78` 查阅。`python scripts/check_review_evidence.py` 检查上一轮120条检索记录及48项书目，不代表本轮50项书目的检索统计。

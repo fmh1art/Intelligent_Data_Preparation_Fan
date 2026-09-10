@@ -1,0 +1,91 @@
+{
+  "source_filename": "04 数据准备与语言模型交叉技术的研究进展与发展趋势 - 编辑提问回答.docx",
+  "source_sha256": "623b61ba60596497e9b1890591ddc666607b4d5a86d1c7a6c2d486fd88b57da1",
+  "export_method": "Read OOXML native charts; render with LibreOffice at original size; crop blank margins; embed vector PDF without redrawing.",
+  "original_chart_parts_sha256": {
+    "word/charts/colors2.xml": "04fefba7d31853fa0aa636e5c8b8e308fc3126a9b48a1f4490947fff91d5a92f",
+    "word/charts/chart2.xml": "a424bfe46928c162cd878727acba56dbeb67d3880cee979ffb2a853c219f5b7b",
+    "word/charts/style2.xml": "0e0d24920cb1a4b3d5d0faf9a3232f79ce9db0f4f3fd8d59d302c5bd04305e60",
+    "word/charts/_rels/chart1.xml.rels": "ac1dafa81bf3c72bacf020941c5ed77126cf8af8da457487e895cba965bc9865",
+    "word/embeddings/Microsoft_Excel_Worksheet2.xlsx": "972b414d96590610cb55a1f1842c2d98b28dfcfd73566ca2ecddda366176f914",
+    "word/charts/colors1.xml": "04fefba7d31853fa0aa636e5c8b8e308fc3126a9b48a1f4490947fff91d5a92f",
+    "word/embeddings/Microsoft_Excel_Worksheet1.xlsx": "8c6ad5754864d693d9749fc835f16c8ceecf79e90fb03345543462f8de1b9055",
+    "word/charts/chart1.xml": "6693a284e1e28b9af3d304993c12096b39741c432cd270f9eca63b938249868d",
+    "word/charts/_rels/chart2.xml.rels": "ceea7c4f43374a7bebf3310914cb61658b7051877355306dd0d91b2d0216994f",
+    "word/charts/style1.xml": "0e0d24920cb1a4b3d5d0faf9a3232f79ce9db0f4f3fd8d59d302c5bd04305e60"
+  },
+  "charts": [
+    {
+      "part": "word/charts/chart1.xml",
+      "series": [
+        {
+          "name": "国外学者",
+          "categories": [
+            "数据发现",
+            "数据查询",
+            "数据融合",
+            "数据清洗"
+          ],
+          "values": [
+            17.0,
+            6.0,
+            12.0,
+            16.0
+          ]
+        },
+        {
+          "name": "国内学者",
+          "categories": [
+            "数据发现",
+            "数据查询",
+            "数据融合",
+            "数据清洗"
+          ],
+          "values": [
+            7.0,
+            13.0,
+            7.0,
+            11.0
+          ]
+        }
+      ]
+    },
+    {
+      "part": "word/charts/chart2.xml",
+      "series": [
+        {
+          "name": "国外学者",
+          "categories": [
+            "面向预训练\n的数据准备",
+            "面向指令微调\n的数据准备",
+            "面向模型推理\n的数据准备"
+          ],
+          "values": [
+            13.0,
+            4.0,
+            3.0
+          ]
+        },
+        {
+          "name": "国内学者",
+          "categories": [
+            "面向预训练\n的数据准备",
+            "面向指令微调\n的数据准备",
+            "面向模型推理\n的数据准备"
+          ],
+          "values": [
+            3.0,
+            11.0,
+            8.0
+          ]
+        }
+      ]
+    }
+  ],
+  "exported_assets_sha256": {
+    "figures/original/original_dp4lm.pdf": "1dd56d01b37409ee1fd5238069a0554154ce9d32bbd8358e7314ccbcf54a4b75",
+    "figures/original/original_dp4lm.png": "fd6c52d7ef5619077ca21645d2b824285cf429e98597e0a6829bf8817894c027",
+    "figures/original/original_lm4dp.pdf": "2f9406a6904863dbba13811cbc96ad66cf79978462ed9b476ae1ca2139dafc47",
+    "figures/original/original_lm4dp.png": "1c7dbf258d92860b4f03a5c65062fb438c51ca63a677cd0b852f41cfc1a27757"
+  }
+}

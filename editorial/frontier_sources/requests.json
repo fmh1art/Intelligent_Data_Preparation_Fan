@@ -1,0 +1,92 @@
+[
+  {
+    "key": "arxiv_batch",
+    "url": "https://export.arxiv.org/api/query?id_list=2310.08864%2C2403.12945%2C2310.17596%2C2503.06669%2C2512.24653%2C2506.20920%2C2506.04178%2C2406.11794%2C2402.04333&max_results=20",
+    "status": 200
+  },
+  {
+    "key": "nalir",
+    "url": "https://api.crossref.org/works?query.title=An+Interactive+Natural+Language+Interface+for+Querying+Relational+Databases&rows=3",
+    "status": 200
+  },
+  {
+    "key": "rag",
+    "url": "https://api.crossref.org/works?query.title=Retrieval-Augmented+Generation+for+Knowledge-Intensive+NLP+Tasks&rows=3",
+    "status": 200
+  },
+  {
+    "key": "demonstrations",
+    "url": "https://api.crossref.org/works?query.title=What+Makes+Good+In-Context+Examples+for+GPT-3&rows=3",
+    "status": 200
+  },
+  {
+    "key": "collapse",
+    "url": "https://api.crossref.org/works?query.title=AI+models+collapse+when+trained+on+recursively+generated+data&rows=3",
+    "status": 200
+  },
+  {
+    "key": "doremi",
+    "url": "https://api.crossref.org/works?query.title=DoReMi+Optimizing+Data+Mixtures+Speeds+Up+Language+Model+Pretraining&rows=3",
+    "status": 200
+  },
+  {
+    "key": "dolma",
+    "url": "https://aclanthology.org/2024.acl-long.840.bib",
+    "status": 200
+  },
+  {
+    "key": "selfinstruct",
+    "url": "https://aclanthology.org/2023.acl-long.754.bib",
+    "status": 200
+  },
+  {
+    "key": "picard",
+    "url": "https://aclanthology.org/2021.emnlp-main.779.bib",
+    "status": 200
+  },
+  {
+    "key": "less",
+    "url": "https://proceedings.mlr.press/v235/xia24c.html",
+    "status": 200
+  },
+  {
+    "key": "dinsql",
+    "url": "https://proceedings.neurips.cc/paper_files/paper/2023/hash/72223cc66f63ca1aa59edaec1b3670e6-Abstract-Conference.html",
+    "status": 200
+  },
+  {
+    "key": "dclm",
+    "url": "https://proceedings.neurips.cc/paper_files/paper/2024/hash/19e4ea30dded58259665db375885e412-Abstract-Datasets_and_Benchmarks_Track.html",
+    "status": 200
+  },
+  {
+    "key": "datajuicer2",
+    "url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/76dbd7e897be2eb883ede598b91270fb-Abstract-Datasets_and_Benchmarks_Track.html",
+    "status": 200
+  },
+  {
+    "key": "agibot2026",
+    "url": "https://huggingface.co/datasets/agibot-world/AgiBotWorld2026/raw/main/README.md",
+    "status": 200
+  },
+  {
+    "key": "agibot2026_release",
+    "url": "https://www.agibot.com/article/231/detail/54.html",
+    "status": 200
+  },
+  {
+    "key": "droid_project",
+    "url": "https://droid-dataset.github.io/",
+    "status": 200
+  },
+  {
+    "key": "oxe_project",
+    "url": "https://robotics-transformer-x.github.io/",
+    "status": 200
+  },
+  {
+    "key": "mimicgen_project",
+    "url": "https://mimicgen.github.io/",
+    "status": 200
+  }
+]

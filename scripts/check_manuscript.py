@@ -22,10 +22,10 @@ errors.extend(f'undefined citation: {v}' for v in citations - set(keys))
 errors.extend(f'uncited bibliography entry: {v}' for v in set(keys) - citations)
 errors.extend(f'undefined reference: {v}' for v in refs - set(labels))
 for name, _ in figures:
-    if not (root / 'figures' / (name + '.png')).is_file():
+    if not (root / 'figures' / 'original' / (name + '.pdf')).is_file():
         errors.append(f'missing figure: {name}')
-    if not (root / 'figures' / 'prompts' / (name + '.md')).is_file():
-        errors.append(f'missing figure prompt: {name}')
+    if not (root / 'figures' / 'original' / (name + '.png')).is_file():
+        errors.append(f'missing figure preview: {name}')
 bio_source = re.sub(r'%[^\n]*', '', (root / 'author_bios.tex').read_text())
 portraits = re.findall(r'\\includegraphics(?:\[[^]]*\])?\{([^}]+)\}', bio_source)
 for portrait in portraits:
@@ -33,9 +33,11 @@ for portrait in portraits:
         errors.append(f'missing author portrait: {portrait}')
 if r'\input{author_bios.tex}' not in re.sub(r'%[^\n]*', '', main):
     errors.append('author biographies are not included')
-for pattern in ['具身智能', '机器人', 'Open X-Embodiment', '科普综述']:
-    if pattern in main + body + bib:
-        errors.append(f'out-of-scope term in publication sources: {pattern}')
+for required in ['基于语言模型的数据准备', '面向语言模型的数据准备', '具身智能中的数据准备']:
+    if required not in body:
+        errors.append(f'missing requested topic: {required}')
+if not 7500 <= len(re.findall('[\u4e00-\u9fff]', body)) <= 8500:
+    errors.append('manuscript outside approximately 8000 Chinese characters')
 report = {
     'references': len(keys), 'cited_references': len(citations),
     'figures': len(figures), 'tables': body.count('\\begin{table}'),

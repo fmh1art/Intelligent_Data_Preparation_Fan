@@ -7,7 +7,8 @@
 \usepackage[backend=biber,style=gb7714-2015,sorting=none,gbnamefmt=uppercase,gbpub=false,doi=true,url=true,isbn=false]{biblatex}
 \addbibresource{references.bib}
 \AtBeginBibliography{\interlinepenalty=10000}
-\usepackage[unicode,hidelinks,pdfauthor={范举；范梅浩},pdftitle={智能数据准备研究综述}]{hyperref}
+\renewbibmacro*{finentry}{\setunit{\addspace}\printfield{note}\finentry}
+\usepackage[unicode,hidelinks,pdfauthor={范举；范梅浩},pdftitle={数据准备与语言模型的交叉前沿}]{hyperref}
 \definecolor{ink}{HTML}{173753}
 \definecolor{muted}{HTML}{647580}
 \definecolor{rulegray}{HTML}{CCD7DF}
@@ -33,20 +34,20 @@
 \captionsetup{font=small,labelfont=bf,labelsep=quad,justification=justified,singlelinecheck=false,skip=6pt}
 \pagestyle{fancy}
 \fancyhf{}
-\fancyhead[L]{\small 智能数据准备研究综述}
+\fancyhead[L]{\small 数据准备与语言模型的交叉前沿}
 \fancyhead[R]{\small 范举，范梅浩}
 \fancyfoot[C]{\small\thepage}
 \renewcommand{\headrulewidth}{0.4pt}
 \newcommand{\articlefigure}[3]{%
 \begin{figure}[htbp]
 \centering
-\includegraphics[width=\linewidth]{figures/#1.png}
+\includegraphics[width=0.72\linewidth]{figures/original/#1.pdf}
 \caption{#2}\label{#3}
 \end{figure}}
 \begin{document}
 \thispagestyle{plain}
 \begin{center}
-{\fontsize{20pt}{27pt}\selectfont\bfseries 智能数据准备研究综述\par}
+{\fontsize{20pt}{27pt}\selectfont\bfseries 数据准备与语言模型的交叉前沿\par}
 \vspace{11pt}
 {\large 范举\quad 范梅浩\par}
 \vspace{5pt}

@@ -9,7 +9,8 @@ folder = root / 'editorial/search'
 ledger = json.loads((folder / 'screening.json').read_text())
 counts = json.loads((folder / 'counts.json').read_text())
 coverage = json.loads((folder / 'coverage.json').read_text())
-bibkeys = set(re.findall(r'@\w+\{([^,]+),', (root / 'references.bib').read_text()))
+# This ledger belongs to the previous 8k revision, before the user's scope change.
+bibkeys = set(re.findall(r'@\w+\{([^,]+),', (root / 'editorial/previous_8k/references.bib').read_text()))
 expected = {}
 for n in range(9,17):
     raw = json.loads((folder / f'Q{n}.json').read_text())
@@ -47,4 +48,4 @@ text = (root / 'manuscript.tex').read_text()
 assert not re.search(r'[\x00-\x08\x0b\x0c\x0e-\x1f]', text)
 assert 'SCREEN_' not in text
 assert r'\sub\section' not in text
-print('PASS: 120 records, 117 works, screening/coverage/bibliography consistency and result arithmetic.')
+print('PASS: historical ledger only: 120 records, 117 works, previous bibliography and result arithmetic.')

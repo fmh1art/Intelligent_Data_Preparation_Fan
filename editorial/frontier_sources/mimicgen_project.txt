@@ -1,0 +1,1386 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>MimicGen</title>
+
+  <!-- <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
+        rel="stylesheet"> -->
+
+  <!-- <link rel="stylesheet" href="./static/css/bulma.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="./static/css/fontawesome.all.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="./static/css/index.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script defer src="./static/js/fontawesome.all.min.js"></script>
+  <script src="./static/js/bulma-carousel.min.js"></script>
+  <script src="./static/js/bulma-slider.min.js"></script>
+  <script src="./static/js/index.js"></script> -->
+
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
+        rel="stylesheet">
+
+  <link rel="stylesheet" href="./static/css/bulma.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="./static/css/fontawesome.all.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="./static/css/index.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script defer src="./static/js/fontawesome.all.min.js"></script>
+  <script src="./static/js/bulma-carousel.min.js"></script>
+  <script src="./static/js/bulma-slider.min.js"></script>
+  <script src="./static/js/index.js"></script>
+
+  <link rel="icon" href="./favicon.ico?">
+
+
+
+  <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.9/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+  <meta property="og:image:width" content="1600" />
+  <meta property="og:image:height" content="900" />
+
+</head>
+<body>
+  <section class="hero">
+    <div class="hero-body no-bottom-padding">
+      <div class="container">
+        <div class="columns is-centered">
+          <div class="column has-text-centered">
+            <h1 class="title is-1 publication-title">MimicGen: A Data Generation System for Scalable Robot Learning using Human Demonstrations</h1>
+            <div class="is-size-5 publication-authors">
+              <span class="author-block">
+                <a target="_blank" href="https://ai.stanford.edu/~amandlek/">Ajay Mandlekar</a><sup>1</sup>&nbsp;&nbsp;&nbsp;
+                <a target="_blank" href="https://snasiriany.me/">Soroush Nasiriany</a><sup>*</sup><sup>1, 2</sup>&nbsp;&nbsp;&nbsp;
+                <a target="_blank" href="https://wenbowen123.github.io/">Bowen Wen</a><sup>*</sup><sup>1</sup>&nbsp;&nbsp;&nbsp;
+                <a target="_blank" href="https://research.nvidia.com/person/iretiayo-akinola">Iretiayo Akinola</a><sup>1</sup>&nbsp;&nbsp;&nbsp;<br>
+                <a target="_blank" href="https://research.nvidia.com/person/yashraj-narang">Yashraj Narang</a><sup>1</sup>&nbsp;&nbsp;&nbsp;
+                <a target="_blank" href="https://jimfan.me/">Linxi "Jim" Fan</a><sup>1</sup>&nbsp;&nbsp;&nbsp;
+                <a target="_blank" href="https://www.cs.utexas.edu/~yukez/">Yuke Zhu</a><sup>1, 2</sup>&nbsp;&nbsp;&nbsp;
+                <!-- <a target="_blank" href="https://homes.cs.washington.edu/~fox/">Dieter Fox</a><sup>1, 3</sup> -->
+                <a target="_blank" href="https://homes.cs.washington.edu/~fox/">Dieter Fox</a><sup>1</sup>
+
+                <br /><sup>1</sup>NVIDIA&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<sup>2</sup>The University of Texas at Austin
+                <!-- <br /><sup>1</sup>NVIDIA -->
+
+                <br>Published at <a target="_blank" href="https://www.corl2023.org/">CoRL 2023</a>.
+                <br><br><font color="red">Update (July 2024): Data Generation Code has been released!</font>
+              </span>
+            </div>
+            <div class="column has-text-centered">
+              <div class="publication-links">
+                <!-- PDF Link. -->
+                <span class="link-block">
+                  <a href="https://arxiv.org/pdf/2310.17596.pdf"
+                     class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                        <i class="fas fa-file-pdf"></i>
+                    </span>
+                    <span>Paper</span>
+                  </a>
+                </span>
+
+                <!-- arXiv Link. -->
+                <span class="link-block">
+                  <a target="_blank" href="https://arxiv.org/abs/2310.17596"
+                     class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                        <i class="ai ai-arxiv"></i>
+                    </span>
+                    <span>arXiv</span>
+                  </a>
+                </span>
+                <!-- Video Link. -->
+                <!-- <span class="link-block">
+                  <a target="_blank" href=""
+                     class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                        <i class="fab fa-youtube"></i>
+                    </span>
+                    <span>Video</span>
+                  </a>
+                </span> -->
+                <!-- Code Link. -->
+                <span class="link-block">
+                  <a href="https://github.com/NVlabs/mimicgen_environments" class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                        <svg class="svg-inline--fa fa-github fa-w-16" aria-hidden="true" focusable="false" data-prefix="fab" data-icon="github" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512" data-fa-i2svg=""><path fill="currentColor" d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"></path></svg>
+                    </span>
+                    <span>Code</span>
+                  </a>
+                </span>
+
+                <!-- twitter Link. -->
+                <span class="link-block">
+                  <a target="_blank" href="https://x.com/AjayMandlekar/status/1717907508046811294?s=20"
+                     class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                        <i class="fab fa-twitter"></i>
+                    </span>
+                    <span>Summary</span>
+                  </a>
+                </span>
+
+                <!-- Docs Link. -->
+                <span class="link-block">
+                  <a target="_blank" href="https://mimicgen.github.io/docs/introduction/overview.html"
+                     class="external-link button is-normal is-rounded is-dark">
+                    <span>Documentation</span>
+                  </a>
+                </span>
+              </div>
+  
+            </div>
+            </div>
+  
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- full overview video -->
+  <section class="section">
+    <div class="container">
+      <div class="columns is-centered">
+        <div class="column is-three-quarters">
+          <div class="columns is-centered">
+            <div class="column is-centered">
+              <video class="center" playsinline autoplay loop muted controls src="./resources/highlights.mp4" width="100%" style="border-radius:20px;"></video>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- gray box with Abstract -->
+<!--   <section class="hero is-light is-small">
+    <div class="hero-body">
+      <div class="container is-two-thirds">
+        <div class="columns is-centered has-text-centered">
+          <div class="column is-two-thirds">
+            <h2 class="title is-3">Abstract</h2>
+          </div>
+      </div>
+    
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-two-thirds ">
+          <div class="content has-text-justified">
+            Imitation learning is a powerful tool for training robot manipulation policies, allowing them to learn from expert demonstrations without manual programming or trial-and-error. However, common methods of data collection, such as human supervision, scale poorly, as they are time-consuming and labor-intensive. In contrast, Task and Motion Planning (TAMP) can <em>autonomously</em> generate <em>large-scale</em> datasets of <em>diverse</em> demonstrations. In this work, we show that the combination of large-scale datasets generated by TAMP supervisors and flexible Transformer models to fit them is a powerful paradigm for robot manipulation. To this end, we present a novel imitation learning system called Optimus that trains large-scale visuomotor Transformer policies by imitating a TAMP agent. Optimus introduces a pipeline for generating TAMP data that is specifically curated for imitation learning and can be used to train performant transformer-based policies. We demonstrate that Optimus can solve a wide variety of challenging vision-based manipulation tasks with over 70 different objects, ranging from long-horizon and pick-and-place tasks, to shelf and articulated object manipulation, achieving 70 to 80% success rates.
+          </div>
+        </div>
+        </div>
+      </div>
+      </div>
+    </div>
+  </section> -->
+
+
+  <!-- OLD OVERVIEW SECTION -->
+<!--   <section class="section">
+    <div class="container">
+      <div class="columns is-centered">
+        <div class="column is-full-width">
+          <h1 class="title is-2" style="text-align: center; padding-bottom: 10px;">Overview</h1>
+
+          <div class="columns is-centered has-text-centered">
+          <div class="column is-two-thirds ">
+          <div class="content has-text-justified">
+          </div>
+        </div>
+      </div>
+          <div class="columns is-centered">
+            <div class="column is-full" style="text-align: center;">
+              <img src="resources/overview.png" alt="Image description" width="80%">
+              <br>
+              <br>
+              <div class="columns is-centered has-text-centered">
+                <div class="column is-two-thirds">
+                <div class="content has-text-justified interpolation-panel">
+                    <p style="text-align: center;font-size: 18px"> MimicGen is a system for automatically generating large-scale, rich datasets from only a small number (~10) of human demonstrations by adapting them to new contexts.</p>
+                </div>
+              </div>
+            </div>
+            <br>
+              
+            </div>
+          </div>
+         
+  </section> -->
+
+  <br>
+  <br>
+  <section class="hero is-light is-small">
+  <div class="hero-body">
+  <div class="container">
+    <div class="columns is-centered">
+      <div class="column is-three-quarters">
+        <h3 class="title is-3" style="text-align: center; padding-bottom: 10px;"><strong>MimicGen automatically generates large datasets from a few human demonstrations</strong></h3>
+      </div>
+    </div>
+  </div>
+  </div>
+</section>
+
+  <section class="section">
+    <div class="container">
+      <div class="columns is-centered">
+        <div class="column is-three-quarters">
+          <!-- <h3 class="title is-3" style="text-align: center; padding-bottom: 10px;"><strong>HITL-TAMP trains proficient real-world agents on challenging contact-rich and long-horizon manipulation</strong></h3> -->
+          <!-- <p style="text-align: center; font-size: 22px">Below, we show several uncut videos of HITL-TAMP agent performance on real-world manipulation.</p> -->
+
+<!--           <div class="columns is-centered">
+            <div class="column has-text-centered">
+              <video class="center" playsinline autoplay loop muted src="./resources/title.mp4" width="100%" style="border-radius:20px;"></video>
+              <p style="text-align: center; font-size: 22px">MimicGen is a system for automatically generating large-scale, rich datasets from only a small number (~10) of human demonstrations.</p>
+            </div>
+          </div>
+          <br>
+          <br> -->
+
+          <div class="columns is-centered">
+            <div class="column has-text-centered">
+              <video class="center" playsinline autoplay loop muted src="./resources/overview.mp4" width="100%" style="border-radius:20px;"></video>
+              <!-- <p style="text-align: center; font-size: 22px">MimicGen is a system for automatically generating large-scale, rich datasets from only a small number (~10) of human demonstrations.</p> -->
+            </div>
+          </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TODO: decide if we should include contributions -->
+  <!-- <section class="hero is-light is-small">
+    <div class="hero-body">
+      <div class="container is-two-thirds">
+        <div class="columns is-centered has-text-centered">
+          <div class="column is-two-thirds">
+            <h2 class="title is-3">Contributions</h2>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+  <div class="hero-body">
+    <div class="container is-two-thirds">
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-two-thirds">
+          <ol style="list-style-type: decimal; margin-left: 0; text-align: left;">
+            <li>We introduce HITL-TAMP, an efficient data-collection system for long-horizon and contact-rich manipulation tasks that synergistically combines and trades off control between a TAMP system and a human teleoperator.<br><br></li>
+            <li>HITL-TAMP contains novel components including (1) a mechanism that allows TAMP to learn planning conditions from a small number of demonstrations and (2) a queueing system that allows an operator to manage a fleet of parallel data collection sessions.<br><br></li>
+            <li>We conduct a user study across 15 users to compare HITL-TAMP with a conventional teleoperation system. Users collectively gathered over 1.4K demos, more than 3x the conventional teleoperation system, given the same time budget. <strong>Proficient agents (over 75% success)</strong> could be trained from <strong>just 10 minutes of non-expert teleoperation data</strong>.<br><br></li>
+            <li>We collected an additional <strong>2.1K demos</strong> with HITL-TAMP across <strong>12 contact-rich and long-horizon tasks</strong> and show that HITL-TAMP often produces <strong>near-perfect agents</strong>. Collecting this data took a single operator a <strong>few hours</strong>, as opposed to operator teams and days needed in prior work.</li>
+          </ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</section> -->
+
+<section class="hero is-light is-small">
+  <div class="hero-body">
+  <div class="container">
+    <div class="columns is-centered">
+      <div class="column is-three-quarters">
+        <h3 class="title is-3" style="text-align: center; padding-bottom: 10px;"><strong>MimicGen produces large-scale datasets with minimal human effort</strong></h3>
+      </div>
+    </div>
+  </div>
+  </div>
+</section>
+
+  <section class="section">
+    <div class="container">
+      <div class="columns is-centered">
+        <div class="column is-three-quarters">
+          <!-- <h3 class="title is-3" style="text-align: center; padding-bottom: 10px;"><strong>HITL-TAMP trains proficient real-world agents on challenging contact-rich and long-horizon manipulation</strong></h3> -->
+          <!-- <p style="text-align: center; font-size: 22px">Below, we show several uncut videos of HITL-TAMP agent performance on real-world manipulation.</p> -->
+
+          <div class="columns is-centered">
+            <div class="column has-text-centered">
+              <video class="center" playsinline autoplay loop muted src="./resources/dataset.mp4" width="100%" style="border-radius:20px;"></video>
+              <p style="text-align: center; font-size: 22px">We used MimicGen to autonomously generate over 50,000 demonstrations from less than 200 human demonstrations across 18 tasks, multiple simulators, and the real-world. This took considerably less human effort than prior work.</p>
+            </div>
+          </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="hero is-light is-small">
+    <div class="hero-body">
+    <div class="container">
+      <div class="columns is-centered">
+        <div class="column is-three-quarters">
+          <h3 class="title is-3" style="text-align: center; padding-bottom: 10px;"><bold>MimicGen can generate diverse datasets from just 10 human demos including...</bold></h3>
+        </div>
+      </div>
+    </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="columns is-centered">
+        <div class="column is-three-quarters">
+          <h4 class="title is-4" style="text-align: center; padding-bottom: 10px;"><bold>New Reset Distributions</bold></h4>
+
+          <p style="text-align: center; font-size: 18px">In the example below, MimicGen generated 1000 demos for each of 3 reset distributions from just 10 human demos.</p>
+
+          <div class="columns is-centered">
+            <div class="column is-centered">
+              <div class="video-container">
+                <video class="center" playsinline autoplay loop muted src="./resources/new_reset_dists/src.mp4" style="border-radius:10px;"></video>
+                <p style="text-align: center; font-size: 18px">10 Human Demos</p>
+              </div>
+            </div>
+            <div class="column is-centered">
+              <div class="video-container">
+                <video class="center" playsinline autoplay loop muted src="./resources/new_reset_dists/d0.mp4" style="border-radius:10px;"></video>
+                <p style="text-align: center; font-size: 18px">Generated Dataset (Nominal Variant)</p>
+              </div>
+            </div>
+            <div class="column is-centered">
+              <div class="video-container">
+                <video class="center" playsinline autoplay loop muted src="./resources/new_reset_dists/d1.mp4" style="border-radius:10px;"></video>
+                <p style="text-align: center; font-size: 18px">Generated Dataset (Greater Variability)</p>
+              </div>
+            </div>
+            <div class="column is-centered">
+              <div class="video-container">
+                <video class="center" playsinline autoplay loop muted src="./resources/new_reset_dists/d2.mp4" style="border-radius:10px;"></video>
+                <p style="text-align: center; font-size: 18px">Generated Dataset (Greatest Variability)</p>
+              </div>
+            </div>
+          </div>
+
+          <p style="text-align: center; font-size: 18px">We showcase several datasets generated by MimicGen across broad task reset distributions below.</p>
+
+          <div class="columns is-centered">
+            <div class="column is-centered">
+              <div class="video-container">
+                <video class="center" playsinline autoplay loop muted src="./resources/new_reset_dists/three_piece_assembly.mp4" style="border-radius:10px;"></video>
+                <p style="text-align: center; font-size: 18px">Three Piece Assembly</p>
+              </div>
+            </div>
+            <div class="column is-centered">
+              <div class="video-container">
+                <video class="center" playsinline autoplay loop muted src="./resources/new_reset_dists/square.mp4" style="border-radius:10px;"></video>
+                <p style="text-align: center; font-size: 18px">Square</p>
+              </div>
+            </div>
+            <div class="column is-centered">
+              <div class="video-container">
+                <video class="center" playsinline autoplay loop muted src="./resources/new_reset_dists/stack_three.mp4" style="border-radius:10px;"></video>
+                <p style="text-align: center; font-size: 18px">Stack Three</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="columns is-centered">
+            <div class="column is-centered">
+              <div class="video-container">
+                <video class="center" playsinline autoplay loop muted src="./resources/new_reset_dists/coffee.mp4" style="border-radius:10px;"></video>
+                <p style="text-align: center; font-size: 18px">Coffee</p>
+              </div>
+            </div>
+            <div class="column is-centered">
+              <div class="video-container">
+                <video class="center" playsinline autoplay loop muted src="./resources/new_reset_dists/threading.mp4" style="border-radius:10px;"></video>
+                <p style="text-align: center; font-size: 18px">Threading</p>
+              </div>
+            </div>
+            <div class="column is-centered">
+              <div class="video-container">
+                <video class="center" playsinline autoplay loop muted src="./resources/new_reset_dists/mug_cleanup.mp4" style="border-radius:10px;"></video>
+                <p style="text-align: center; font-size: 18px">Mug Cleanup</p>
+              </div>
+            </div>
+          </div>
+
+        </div> 
+      </div>
+    </div>
+  </section>
+
+
+  <section class="section">
+    <div class="container">
+      <div class="columns is-centered">
+        <div class="column is-three-quarters">
+          <h4 class="title is-4" style="text-align: center; padding-bottom: 10px;"><bold>New Objects</bold></h4>
+
+          <p style="text-align: center; font-size: 18px">Below, MimicGen generated demonstrations for unseen mugs.</p>
+
+          <div class="columns is-centered">
+            <div class="column is-centered">
+              <div class="video-container">
+                <video class="center" playsinline autoplay loop muted src="./resources/new_objects/obj_src.mp4" style="border-radius:10px;"></video>
+                <p style="text-align: center; font-size: 18px">10 human demos on 1 mug</p>
+              </div>
+            </div>
+            <div class="column is-centered">
+              <div class="video-container">
+                <video class="center" playsinline autoplay loop muted src="./resources/new_objects/obj_gen.mp4" style="border-radius:10px;"></video>
+                <p style="text-align: center; font-size: 18px">1000 generated demos across 12 mugs</p>
+              </div>
+            </div>
+          </div>
+
+        </div> 
+      </div>
+    </div>
+  </section>
+
+
+  <section class="section">
+    <div class="container">
+      <div class="columns is-centered">
+        <div class="column is-three-quarters">
+          <h4 class="title is-4" style="text-align: center; padding-bottom: 10px;"><bold>New Robot Hardware</bold></h4>
+
+          <p style="text-align: center; font-size: 18px">Below, MimicGen generated demonstrations for new robot arms.</p>
+
+          <div class="columns is-centered">
+            <div class="column is-centered">
+              <div class="video-container">
+                <video class="center" playsinline autoplay loop muted src="./resources/new_robots/panda.mp4" style="border-radius:10px;"></video>
+                <p style="text-align: center; font-size: 18px">10 human demos (Panda)</p>
+              </div>
+            </div>
+            <div class="column is-centered">
+              <div class="video-container">
+                <video class="center" playsinline autoplay loop muted src="./resources/new_robots/sawyer.mp4" style="border-radius:10px;"></video>
+                <p style="text-align: center; font-size: 18px">1000 generated demos (Sawyer)</p>
+              </div>
+            </div>
+            <div class="column is-centered">
+              <div class="video-container">
+                <video class="center" playsinline autoplay loop muted src="./resources/new_robots/iiwa.mp4" style="border-radius:10px;"></video>
+                <p style="text-align: center; font-size: 18px">1000 generated demos (IIWA)</p>
+              </div>
+            </div>
+            <div class="column is-centered">
+              <div class="video-container">
+                <video class="center" playsinline autoplay loop muted src="./resources/new_robots/ur5e.mp4" style="border-radius:10px;"></video>
+                <p style="text-align: center; font-size: 18px">1000 generated demos (UR5e)</p>
+              </div>
+            </div>
+          </div>
+
+        </div> 
+      </div>
+    </div>
+  </section>
+
+
+  <section class="section">
+    <div class="container">
+      <div class="columns is-centered">
+        <div class="column is-three-quarters">
+          <h4 class="title is-4" style="text-align: center; padding-bottom: 10px;"><bold>Long-Horizon Tasks</bold></h4>
+
+          <div class="columns is-centered">
+            <div class="column is-centered">
+              <div class="video-container">
+                <video class="center" playsinline autoplay loop muted src="./resources/long_horizon/coffee_preparation.mp4" style="border-radius:10px;"></video>
+                <p style="text-align: center; font-size: 18px">Coffee Preparation</p>
+              </div>
+            </div>
+            <div class="column is-centered">
+              <div class="video-container">
+                <video class="center" playsinline autoplay loop muted src="./resources/long_horizon/kitchen.mp4" style="border-radius:10px;"></video>
+                <p style="text-align: center; font-size: 18px">Kitchen</p>
+              </div>
+            </div>
+            <div class="column is-centered">
+              <div class="video-container">
+                <video class="center" playsinline autoplay loop muted src="./resources/long_horizon/pick_place.mp4" style="border-radius:10px;"></video>
+                <p style="text-align: center; font-size: 18px">Pick Place</p>
+              </div>
+            </div>
+          </div>
+
+        </div> 
+      </div>
+    </div>
+  </section>
+
+
+  <section class="section">
+    <div class="container">
+      <div class="columns is-centered">
+        <div class="column is-three-quarters">
+          <h4 class="title is-4" style="text-align: center; padding-bottom: 10px;"><bold>High-Precision Tasks</bold></h4>
+
+          <p style="text-align: center; font-size: 18px">MimicGen works for contact-rich tasks requiring <strong>millimeter-precision</strong>. Furthermore, it is <strong>simulator-agnostic</strong> -- these tasks are from <a href="https://sites.google.com/nvidia.com/factory/">Isaac Gym Factory</a>, as opposed to the other <a href="https://robosuite.ai/">robosuite MuJoCo</a> tasks.</p><br>
+
+          <div class="columns is-centered">
+            <div class="column is-centered">
+              <div class="video-container">
+                <video class="center" playsinline autoplay loop muted src="./resources/high_precision/high_precision_1.mp4" style="border-radius:10px;"></video>
+                <p style="text-align: center; font-size: 18px">Gear Assembly</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="columns is-centered">
+            <div class="column is-centered">
+              <div class="video-container">
+                <video class="center" playsinline autoplay loop muted src="./resources/high_precision/high_precision_2.mp4" style="border-radius:10px;"></video>
+                <p style="text-align: center; font-size: 18px">Frame Assembly</p>
+              </div>
+            </div>
+          </div>
+
+        </div> 
+      </div>
+    </div>
+  </section>
+
+
+  <section class="section">
+    <div class="container">
+      <div class="columns is-centered">
+        <div class="column is-three-quarters">
+          <h4 class="title is-4" style="text-align: center; padding-bottom: 10px;"><bold>Mobile Manipulation</bold></h4>
+
+          <div class="columns is-centered">
+            <div class="column is-centered">
+              <div class="video-container">
+                <video class="center" playsinline autoplay loop muted src="./resources/mobile_manipulation/mobile_manip.mp4" style="border-radius:10px;"></video>
+                <p style="text-align: center; font-size: 18px">Mobile Kitchen</p>
+              </div>
+            </div>
+          </div>
+
+        </div> 
+      </div>
+    </div>
+  </section>
+
+
+  <section class="section">
+    <div class="container">
+      <div class="columns is-centered">
+        <div class="column is-three-quarters">
+          <h4 class="title is-4" style="text-align: center; padding-bottom: 10px;"><bold>Real-World Tasks</bold></h4>
+
+          <div class="columns is-centered">
+            <div class="column is-centered">
+              <div class="video-container">
+                <video class="center" playsinline autoplay loop muted src="./resources/real_world/coffee.mp4" style="border-radius:10px;"></video>
+                <p style="text-align: center; font-size: 18px">100 MimicGen demos on Coffee task with pod placed anywhere in large region</p>
+              </div>
+            </div>
+          </div>
+
+        </div> 
+      </div>
+    </div>
+  </section>
+
+
+  <section class="hero is-light is-small">
+    <div class="hero-body">
+    <div class="container">
+      <div class="columns is-centered">
+        <div class="column is-three-quarters">
+          <h3 class="title is-3" style="text-align: center; padding-bottom: 10px;"><bold>MimicGen datasets can produce performant policies across diverse tasks with simple Behavioral Cloning</bold></h3>
+        </div>
+      </div>
+    </div>
+    </div>
+  </section>
+
+
+  <section class="section">
+    <div class="container">
+      <div class="columns is-centered">
+        <div class="column is-three-quarters">
+
+          <div class="columns is-centered">
+            <div class="column is-centered">
+              <div class="video-container">
+                <video class="center" playsinline autoplay loop muted src="./resources/policy_videos/stack_three_D1.mp4" style="border-radius:10px;"></video>
+                <p style="text-align: center; font-size: 18px">Stack Three D1 (91%)</p>
+              </div>
+            </div>
+            <div class="column is-centered">
+              <div class="video-container">
+                <video class="center" playsinline autoplay loop muted src="./resources/policy_videos/coffee_D1.mp4" style="border-radius:10px;"></video>
+                <p style="text-align: center; font-size: 18px">Coffee D1 (93%)</p>
+              </div>
+            </div>
+            <div class="column is-centered">
+              <div class="video-container">
+                <video class="center" playsinline autoplay loop muted src="./resources/policy_videos/threading_D1.mp4" style="border-radius:10px;"></video>
+                <p style="text-align: center; font-size: 18px">Threading D1 (80%)</p>
+              </div>
+            </div>
+            <div class="column is-centered">
+              <div class="video-container">
+                <video class="center" playsinline autoplay loop muted src="./resources/policy_videos/square_D1_sawyer.mp4" style="border-radius:10px;"></video>
+                <p style="text-align: center; font-size: 18px">Square D1 (69%)</p>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="columns is-centered">
+            <div class="column is-centered">
+              <div class="video-container">
+                <video class="center" playsinline autoplay loop muted src="./resources/policy_videos/three_piece_assembly_D1.mp4" style="border-radius:10px;"></video>
+                <p style="text-align: center; font-size: 18px">Three Piece Assembly D1 (61%)</p>
+              </div>
+            </div>
+            <div class="column is-centered">
+              <div class="video-container">
+                <video class="center" playsinline autoplay loop muted src="./resources/policy_videos/mug_cleanup_O2.mp4" style="border-radius:10px;"></video>
+                <p style="text-align: center; font-size: 18px">Mug Cleanup O2 (67%)</p>
+              </div>
+            </div>
+            <div class="column is-centered">
+              <div class="video-container">
+                <video class="center" playsinline autoplay loop muted src="./resources/policy_videos/kitchen_D1.mp4" style="border-radius:10px;"></video>
+                <p style="text-align: center; font-size: 18px">Kitchen D1 (78%)</p>
+              </div>
+            </div>
+            <div class="column is-centered">
+              <div class="video-container">
+                <video class="center" playsinline autoplay loop muted src="./resources/policy_videos/coffee_preparation_D1.mp4" style="border-radius:10px;"></video>
+                <p style="text-align: center; font-size: 18px">Coffee Preparation D1 (59%)</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="columns is-centered">
+            <div class="column is-centered">
+              <div class="video-container">
+                <video class="center" playsinline autoplay loop muted src="./resources/policy_videos/nut_bolt_assembly_D1.mp4" style="border-radius:10px;"></video>
+                <p style="text-align: center; font-size: 18px">Nut-and-Bolt Assembly D1 (96%)</p>
+              </div>
+            </div>
+            <div class="column is-centered">
+              <div class="video-container">
+                <video class="center" playsinline autoplay loop muted src="./resources/policy_videos/gear_assembly.mp4" style="border-radius:10px;"></video>
+                <p style="text-align: center; font-size: 18px">Gear Assembly D1 (76%)</p>
+              </div>
+            </div>
+            <div class="column is-centered">
+              <div class="video-container">
+                <video class="center" playsinline autoplay loop muted src="./resources/policy_videos/frame_assembly.mp4" style="border-radius:10px;"></video>
+                <p style="text-align: center; font-size: 18px">Frame Assembly D1 (71%)</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- for some reason, had to change "class" above video from "video-container" to "text-center" - otherwise videos were left-aligned - thanks for helping me fix this ChatGPT!-->
+          <div class="columns is-centered">
+            <div class="column is-centered">
+              <div class="text-center">
+                <video class="center" playsinline autoplay loop muted src="./resources/policy_videos/mobile_kitchen.mp4" style="border-radius:10px;" width="50%"></video>
+                <p style="text-align: center; font-size: 18px">Mobile Kitchen D0 (77%)</p>
+              </div>
+            </div>
+          </div>
+
+        </div> 
+      </div>
+    </div>
+  </section>
+  
+
+  <section class="hero is-light is-small">
+    <div class="hero-body">
+    <div class="container">
+      <div class="columns is-centered">
+        <div class="column is-three-quarters">
+          <h3 class="title is-3" style="text-align: center; padding-bottom: 10px;"><bold>MimicGen can produce good quality datasets and policies across different quality human operators.</bold></h3>
+        </div>
+      </div>
+    </div>
+    </div>
+  </section>
+
+
+  <section class="section">
+    <div class="container">
+      <div class="columns is-centered">
+        <div class="column is-three-quarters">
+
+          <p style="text-align: center; font-size: 18px">Below, we show MimicGen datasets generated on Square D2 from two sets of source datasets - 10 demos from a better quality operator and 10 demos from a worse quality operator (both are from the robomimic <a href="https://robomimic.github.io/docs/datasets/robomimic_v0.1.html#method-2-using-direct-download-links">Square MH</a> dataset). Surprisingly, <strong>policies trained on each dataset achieve comparable results, which suggests that in the large-scale data regime, data quality might not matter as much.</strong></p>
+
+          <div class="columns is-centered">
+            <div class="column is-centered">
+              <div class="video-container">
+                <video class="center" playsinline autoplay loop muted src="./resources/different_demonstrator/better_operator_data.mp4" style="border-radius:10px;"></video>
+                <p style="text-align: center; font-size: 18px">Dataset generated from 10 better quality operator demos.</p>
+              </div>
+            </div>
+            <div class="column is-centered">
+              <div class="video-container">
+                <video class="center" playsinline autoplay loop muted src="./resources/different_demonstrator/worse_operator_data.mp4" style="border-radius:10px;"></video>
+                <p style="text-align: center; font-size: 18px">Dataset generated from 10 worse quality operator demos.</p>
+              </div>
+            </div>
+          </div>
+
+        </div> 
+      </div>
+    </div>
+  </section>
+
+
+  <section class="hero is-light is-small">
+    <div class="hero-body">
+    <div class="container">
+      <div class="columns is-centered">
+        <div class="column is-three-quarters">
+          <h3 class="title is-3" style="text-align: center; padding-bottom: 10px;"><bold>Using MimicGen to generate equal amounts of data as a human operator can result in comparable policy performance.</bold></h3>
+        </div>
+      </div>
+    </div>
+    </div>
+  </section>
+
+
+  <section class="section">
+    <div class="container">
+      <div class="columns is-centered">
+        <div class="column is-three-quarters">
+
+          <p style="text-align: center; font-size: 18px">Below, we show policies trained on 200 demos on Square D0 -- on the left, the policy was trained on 200 demos generated by MimicGen from 10 human demos, and on the right, the policy was trained on 200 human demos. The agent performance is comparable. <strong>This raises important questions about the presence of redundancies in large human datasets and when to request additional data from a human.</strong></p>
+
+          <div class="columns is-centered">
+            <div class="column is-centered">
+              <div class="video-container">
+                <video class="center" playsinline autoplay loop muted src="./resources/human_compare/square_D0_policy_mg_200.mp4" style="border-radius:10px;"></video>
+                <p style="text-align: center; font-size: 18px">Square D0 Policy (79%) trained on 200 MimicGen demos.</p>
+              </div>
+            </div>
+            <div class="column is-centered">
+              <div class="video-container">
+                <video class="center" playsinline autoplay loop muted src="./resources/human_compare/square_D0_policy_human_200.mp4" style="border-radius:10px;"></video>
+                <p style="text-align: center; font-size: 18px">Square D0 Policy (84%) trained on 200 human demos.</p>
+              </div>
+            </div>
+          </div>
+
+        </div> 
+      </div>
+    </div>
+  </section>
+
+
+  <section class="hero is-light is-small">
+    <div class="hero-body">
+    <div class="container">
+      <div class="columns is-centered">
+        <div class="column is-three-quarters">
+          <h3 class="title is-3" style="text-align: center; padding-bottom: 10px;"><bold>MimicGen Data Generation Example</bold></h3>
+        </div>
+      </div>
+    </div>
+    </div>
+  </section>
+
+
+  <section class="section">
+    <div class="container">
+      <div class="columns is-centered">
+        <div class="column is-three-quarters">
+          <!-- <h4 class="title is-4" style="text-align: center; padding-bottom: 10px;"><bold>Mobile Manipulation</bold></h4> -->
+
+          <div class="columns is-centered">
+            <div class="column is-centered">
+              <div class="video-container">
+                <video class="center" playsinline autoplay loop controls muted src="./resources/datagen_example.mp4" style="border-radius:10px;"></video>
+                <p style="text-align: center; font-size: 18px">The video above shows an example of MimicGen using a source human trajectory to generate a demonstration on a new scene.</p>
+              </div>
+            </div>
+          </div>
+
+        </div> 
+      </div>
+    </div>
+  </section>
+
+
+  <section class="hero is-light is-small">
+    <div class="hero-body">
+    <div class="container">
+      <div class="columns is-centered">
+        <div class="column is-three-quarters">
+          <h3 class="title is-3" style="text-align: center; padding-bottom: 10px;"><bold>Tasks</bold></h3>
+        </div>
+      </div>
+    </div>
+    </div>
+  </section>
+
+
+  <section class="section">
+    <div class="container">
+      <div class="columns is-centered">
+        <div class="column is-three-quarters">
+
+          <h4 class="title is-4" style="text-align: center; padding-bottom: 10px;">Below, we visualize trajectories for each task.</h4>
+
+
+          <div class="columns is-centered">
+            <div class="column is-centered">
+              <div class="video-container">
+                <video class="center" playsinline autoplay loop muted src="./resources/tasks/stack.mp4" style="border-radius:10px;"></video>
+                <p style="text-align: center; font-size: 18px">Stack</p>
+              </div>
+            </div>
+            <div class="column is-centered">
+              <div class="video-container">
+                <video class="center" playsinline autoplay loop muted src="./resources/tasks/stack_three.mp4" style="border-radius:10px;"></video>
+                <p style="text-align: center; font-size: 18px">Stack Three</p>
+              </div>
+            </div>
+            <div class="column is-centered">
+              <div class="video-container">
+                <video class="center" playsinline autoplay loop muted src="./resources/tasks/square.mp4" style="border-radius:10px;"></video>
+                <p style="text-align: center; font-size: 18px">Square</p>
+              </div>
+            </div>
+            <div class="column is-centered">
+              <div class="video-container">
+                <video class="center" playsinline autoplay loop muted src="./resources/tasks/coffee.mp4" style="border-radius:10px;"></video>
+                <p style="text-align: center; font-size: 18px">Coffee</p>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="columns is-centered">
+            <div class="column is-centered">
+              <div class="video-container">
+                <video class="center" playsinline autoplay loop muted src="./resources/tasks/threading.mp4" style="border-radius:10px;"></video>
+                <p style="text-align: center; font-size: 18px">Threading</p>
+              </div>
+            </div>
+            <div class="column is-centered">
+              <div class="video-container">
+                <video class="center" playsinline autoplay loop muted src="./resources/tasks/three_piece_assembly.mp4" style="border-radius:10px;"></video>
+                <p style="text-align: center; font-size: 18px">Three Piece Assembly</p>
+              </div>
+            </div>
+            <div class="column is-centered">
+              <div class="video-container">
+                <video class="center" playsinline autoplay loop muted src="./resources/tasks/hammer_cleanup.mp4" style="border-radius:10px;"></video>
+                <p style="text-align: center; font-size: 18px">Hammer Cleanup</p>
+              </div>
+            </div>
+            <div class="column is-centered">
+              <div class="video-container">
+                <video class="center" playsinline autoplay loop muted src="./resources/tasks/mug_cleanup.mp4" style="border-radius:10px;"></video>
+                <p style="text-align: center; font-size: 18px">Mug Cleanup</p>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="columns is-centered">
+            <div class="column is-centered">
+              <div class="video-container">
+                <video class="center" playsinline autoplay loop muted src="./resources/tasks/pick_place.mp4" style="border-radius:10px;"></video>
+                <p style="text-align: center; font-size: 18px">Pick Place</p>
+              </div>
+            </div>
+            <div class="column is-centered">
+              <div class="video-container">
+                <video class="center" playsinline autoplay loop muted src="./resources/tasks/nut_assembly.mp4" style="border-radius:10px;"></video>
+                <p style="text-align: center; font-size: 18px">Nut Assembly</p>
+              </div>
+            </div>
+            <div class="column is-centered">
+              <div class="video-container">
+                <video class="center" playsinline autoplay loop muted src="./resources/tasks/kitchen.mp4" style="border-radius:10px;"></video>
+                <p style="text-align: center; font-size: 18px">Kitchen</p>
+              </div>
+            </div>
+            <div class="column is-centered">
+              <div class="video-container">
+                <video class="center" playsinline autoplay loop muted src="./resources/tasks/coffee_preparation.mp4" style="border-radius:10px;"></video>
+                <p style="text-align: center; font-size: 18px">Coffee Preparation</p>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="columns is-centered">
+            <div class="column is-centered">
+              <div class="video-container">
+                <video class="center" playsinline autoplay loop muted src="./resources/tasks/mobile_kitchen.mp4" style="border-radius:10px;"></video>
+                <p style="text-align: center; font-size: 18px">Mobile Kitchen</p>
+              </div>
+            </div>
+            <div class="column is-centered">
+              <div class="video-container">
+                <video class="center" playsinline autoplay loop muted src="./resources/tasks/nut_bolt_assembly.mp4" style="border-radius:10px;"></video>
+                <p style="text-align: center; font-size: 18px">Nut-and-Bolt Assembly</p>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="columns is-centered">
+            <div class="column is-centered">
+              <div class="video-container">
+                <video class="center" playsinline autoplay loop muted src="./resources/tasks/gear_assembly.mp4" style="border-radius:10px;"></video>
+                <p style="text-align: center; font-size: 18px">Gear Assembly</p>
+              </div>
+            </div>
+            <div class="column is-centered">
+              <div class="video-container">
+                <video class="center" playsinline autoplay loop muted src="./resources/tasks/frame_assembly.mp4" style="border-radius:10px;"></video>
+                <p style="text-align: center; font-size: 18px">Frame Assembly</p>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="columns is-centered">
+            <div class="column is-centered">
+              <div class="text-center">
+                <video class="center" playsinline autoplay loop muted src="./resources/tasks/stack_real.mp4" style="border-radius:10px;"></video>
+                <p style="text-align: center; font-size: 18px">Stack (Real)</p>
+              </div>
+            </div>
+            <div class="column is-centered">
+              <div class="text-center">
+                <video class="center" playsinline autoplay loop muted src="./resources/tasks/coffee_real.mp4" style="border-radius:10px;"></video>
+                <p style="text-align: center; font-size: 18px">Coffee (Real)</p>
+              </div>
+            </div>
+          </div>
+
+        </div> 
+      </div>
+    </div>
+  </section>
+
+
+
+  <section class="hero is-light is-small">
+    <div class="hero-body">
+    <div class="container">
+      <div class="columns is-centered">
+        <div class="column is-three-quarters">
+          <h3 class="title is-3" style="text-align: center; padding-bottom: 10px;"><bold>Task Reset Distributions</bold></h3>
+        </div>
+      </div>
+    </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="columns is-centered">
+        <div class="column is-three-quarters">
+
+          <h4 class="title is-4" style="text-align: center; padding-bottom: 10px;">Below, we show the reset distributions for each task.</h4>
+
+          <div class="columns is-centered">
+            <div class="column is-centered">
+              <div class="video-container">
+                <video class="center" playsinline autoplay loop muted src="./resources/task_resets/stack_D0.mp4" style="border-radius:10px;"></video>
+                <p style="text-align: center; font-size: 18px">Stack D0</p>
+              </div>
+            </div>
+            <div class="column is-centered">
+              <div class="video-container">
+                <video class="center" playsinline autoplay loop muted src="./resources/task_resets/stack_D1.mp4" style="border-radius:10px;"></video>
+                <p style="text-align: center; font-size: 18px">Stack D1</p>
+              </div>
+            </div>
+            <div class="column is-centered">
+              <div class="video-container">
+                <video class="center" playsinline autoplay loop muted src="./resources/task_resets/stack_three_D0.mp4" style="border-radius:10px;"></video>
+                <p style="text-align: center; font-size: 18px">Stack Three D0</p>
+              </div>
+            </div>
+            <div class="column is-centered">
+              <div class="video-container">
+                <video class="center" playsinline autoplay loop muted src="./resources/task_resets/stack_three_D1.mp4" style="border-radius:10px;"></video>
+                <p style="text-align: center; font-size: 18px">Stack Three D1</p>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="columns is-centered">
+            <div class="column is-centered">
+              <div class="video-container">
+                <video class="center" playsinline autoplay loop muted src="./resources/task_resets/square_D0.mp4" style="border-radius:10px;"></video>
+                <p style="text-align: center; font-size: 18px">Square D0</p>
+              </div>
+            </div>
+            <div class="column is-centered">
+              <div class="video-container">
+                <video class="center" playsinline autoplay loop muted src="./resources/task_resets/square_D1.mp4" style="border-radius:10px;"></video>
+                <p style="text-align: center; font-size: 18px">Square D1</p>
+              </div>
+            </div>
+            <div class="column is-centered">
+              <div class="video-container">
+                <video class="center" playsinline autoplay loop muted src="./resources/task_resets/square_D2.mp4" style="border-radius:10px;"></video>
+                <p style="text-align: center; font-size: 18px">Square D2</p>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="columns is-centered">
+            <div class="column is-centered">
+              <div class="video-container">
+                <video class="center" playsinline autoplay loop muted src="./resources/task_resets/coffee_D0.mp4" style="border-radius:10px;"></video>
+                <p style="text-align: center; font-size: 18px">Coffee D0</p>
+              </div>
+            </div>
+            <div class="column is-centered">
+              <div class="video-container">
+                <video class="center" playsinline autoplay loop muted src="./resources/task_resets/coffee_D1.mp4" style="border-radius:10px;"></video>
+                <p style="text-align: center; font-size: 18px">Coffee D1</p>
+              </div>
+            </div>
+            <div class="column is-centered">
+              <div class="video-container">
+                <video class="center" playsinline autoplay loop muted src="./resources/task_resets/coffee_D2.mp4" style="border-radius:10px;"></video>
+                <p style="text-align: center; font-size: 18px">Coffee D2</p>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="columns is-centered">
+            <div class="column is-centered">
+              <div class="video-container">
+                <video class="center" playsinline autoplay loop muted src="./resources/task_resets/threading_D0.mp4" style="border-radius:10px;"></video>
+                <p style="text-align: center; font-size: 18px">Threading D0</p>
+              </div>
+            </div>
+            <div class="column is-centered">
+              <div class="video-container">
+                <video class="center" playsinline autoplay loop muted src="./resources/task_resets/threading_D1.mp4" style="border-radius:10px;"></video>
+                <p style="text-align: center; font-size: 18px">Threading D1</p>
+              </div>
+            </div>
+            <div class="column is-centered">
+              <div class="video-container">
+                <video class="center" playsinline autoplay loop muted src="./resources/task_resets/threading_D2.mp4" style="border-radius:10px;"></video>
+                <p style="text-align: center; font-size: 18px">Threading D2</p>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="columns is-centered">
+            <div class="column is-centered">
+              <div class="video-container">
+                <video class="center" playsinline autoplay loop muted src="./resources/task_resets/three_piece_assembly_D0.mp4" style="border-radius:10px;"></video>
+                <p style="text-align: center; font-size: 18px">Three Piece Assembly D0</p>
+              </div>
+            </div>
+            <div class="column is-centered">
+              <div class="video-container">
+                <video class="center" playsinline autoplay loop muted src="./resources/task_resets/three_piece_assembly_D1.mp4" style="border-radius:10px;"></video>
+                <p style="text-align: center; font-size: 18px">Three Piece Assembly D1</p>
+              </div>
+            </div>
+            <div class="column is-centered">
+              <div class="video-container">
+                <video class="center" playsinline autoplay loop muted src="./resources/task_resets/three_piece_assembly_D2.mp4" style="border-radius:10px;"></video>
+                <p style="text-align: center; font-size: 18px">Three Piece Assembly D2</p>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="columns is-centered">
+            <div class="column is-centered">
+              <div class="video-container">
+                <video class="center" playsinline autoplay loop muted src="./resources/task_resets/hammer_cleanup_D0.mp4" style="border-radius:10px;"></video>
+                <p style="text-align: center; font-size: 18px">Hammer Cleanup D0</p>
+              </div>
+            </div>
+            <div class="column is-centered">
+              <div class="video-container">
+                <video class="center" playsinline autoplay loop muted src="./resources/task_resets/hammer_cleanup_D1.mp4" style="border-radius:10px;"></video>
+                <p style="text-align: center; font-size: 18px">Hammer Cleanup D1</p>
+              </div>
+            </div>
+            <div class="column is-centered">
+              <div class="video-container">
+                <video class="center" playsinline autoplay loop muted src="./resources/task_resets/mug_cleanup_D0.mp4" style="border-radius:10px;"></video>
+                <p style="text-align: center; font-size: 18px">Mug Cleanup D0</p>
+              </div>
+            </div>
+            <div class="column is-centered">
+              <div class="video-container">
+                <video class="center" playsinline autoplay loop muted src="./resources/task_resets/mug_cleanup_D1.mp4" style="border-radius:10px;"></video>
+                <p style="text-align: center; font-size: 18px">Mug Cleanup D1</p>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="columns is-centered">
+            <div class="column is-centered">
+              <div class="video-container">
+                <video class="center" playsinline autoplay loop muted src="./resources/task_resets/pick_place_D0.mp4" style="border-radius:10px;"></video>
+                <p style="text-align: center; font-size: 18px">Pick Place D0</p>
+              </div>
+            </div>
+            <div class="column is-centered">
+              <div class="video-container">
+                <video class="center" playsinline autoplay loop muted src="./resources/task_resets/nut_assembly_D0.mp4" style="border-radius:10px;"></video>
+                <p style="text-align: center; font-size: 18px">Nut Assembly D0</p>
+              </div>
+            </div>
+            <div class="column is-centered">
+              <div class="video-container">
+                <video class="center" playsinline autoplay loop muted src="./resources/task_resets/mobile_kitchen_D0.mp4" style="border-radius:10px;"></video>
+                <p style="text-align: center; font-size: 18px">Mobile Kitchen D0</p>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="columns is-centered">
+            <div class="column is-centered">
+              <div class="video-container">
+                <video class="center" playsinline autoplay loop muted src="./resources/task_resets/kitchen_D0.mp4" style="border-radius:10px;"></video>
+                <p style="text-align: center; font-size: 18px">Kitchen D0</p>
+              </div>
+            </div>
+            <div class="column is-centered">
+              <div class="video-container">
+                <video class="center" playsinline autoplay loop muted src="./resources/task_resets/kitchen_D1.mp4" style="border-radius:10px;"></video>
+                <p style="text-align: center; font-size: 18px">Kitchen D1</p>
+              </div>
+            </div>
+            <div class="column is-centered">
+              <div class="video-container">
+                <video class="center" playsinline autoplay loop muted src="./resources/task_resets/coffee_preparation_D0.mp4" style="border-radius:10px;"></video>
+                <p style="text-align: center; font-size: 18px">Coffee Preparation D0</p>
+              </div>
+            </div>
+            <div class="column is-centered">
+              <div class="video-container">
+                <video class="center" playsinline autoplay loop muted src="./resources/task_resets/coffee_preparation_D1.mp4" style="border-radius:10px;"></video>
+                <p style="text-align: center; font-size: 18px">Coffee Preparation D1</p>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="columns is-centered">
+            <div class="column is-centered">
+              <div class="video-container">
+                <video class="center" playsinline autoplay loop muted src="./resources/task_resets/nut_bolt_assembly_D0.mp4" style="border-radius:10px;"></video>
+                <p style="text-align: center; font-size: 18px">Nut-and-Bolt Assembly D0</p>
+              </div>
+            </div>
+            <div class="column is-centered">
+              <div class="video-container">
+                <video class="center" playsinline autoplay loop muted src="./resources/task_resets/nut_bolt_assembly_D1.mp4" style="border-radius:10px;"></video>
+                <p style="text-align: center; font-size: 18px">Nut-and-Bolt Assembly D1</p>
+              </div>
+            </div>
+            <div class="column is-centered">
+              <div class="video-container">
+                <video class="center" playsinline autoplay loop muted src="./resources/task_resets/nut_bolt_assembly_D2.mp4" style="border-radius:10px;"></video>
+                <p style="text-align: center; font-size: 18px">Nut-and-Bolt Assembly D2</p>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="columns is-centered">
+            <div class="column is-centered">
+              <div class="video-container">
+                <video class="center" playsinline autoplay loop muted src="./resources/task_resets/gear_assembly_D0.mp4" style="border-radius:10px;"></video>
+                <p style="text-align: center; font-size: 18px">Gear Assembly D0</p>
+              </div>
+            </div>
+            <div class="column is-centered">
+              <div class="video-container">
+                <video class="center" playsinline autoplay loop muted src="./resources/task_resets/gear_assembly_D1.mp4" style="border-radius:10px;"></video>
+                <p style="text-align: center; font-size: 18px">Gear Assembly D1</p>
+              </div>
+            </div>
+            <div class="column is-centered">
+              <div class="video-container">
+                <video class="center" playsinline autoplay loop muted src="./resources/task_resets/gear_assembly_D2.mp4" style="border-radius:10px;"></video>
+                <p style="text-align: center; font-size: 18px">Gear Assembly D2</p>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="columns is-centered">
+            <div class="column is-centered">
+              <div class="video-container">
+                <video class="center" playsinline autoplay loop muted src="./resources/task_resets/frame_assembly_D0.mp4" style="border-radius:10px;"></video>
+                <p style="text-align: center; font-size: 18px">Frame Assembly D0</p>
+              </div>
+            </div>
+            <div class="column is-centered">
+              <div class="video-container">
+                <video class="center" playsinline autoplay loop muted src="./resources/task_resets/frame_assembly_D1.mp4" style="border-radius:10px;"></video>
+                <p style="text-align: center; font-size: 18px">Frame Assembly D1</p>
+              </div>
+            </div>
+            <div class="column is-centered">
+              <div class="video-container">
+                <video class="center" playsinline autoplay loop muted src="./resources/task_resets/frame_assembly_D2.mp4" style="border-radius:10px;"></video>
+                <p style="text-align: center; font-size: 18px">Frame Assembly D2</p>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="columns is-centered">
+            <div class="column is-centered">
+              <div class="video-container">
+                <video class="center" playsinline autoplay loop muted src="./resources/task_resets/stack_real_D0.mp4" style="border-radius:10px;"></video>
+                <p style="text-align: center; font-size: 18px">Stack Real D0</p>
+              </div>
+            </div>
+            <div class="column is-centered">
+              <div class="video-container">
+                <video class="center" playsinline autoplay loop muted src="./resources/task_resets/stack_real_D1.mp4" style="border-radius:10px;"></video>
+                <p style="text-align: center; font-size: 18px">Stack Real D1</p>
+              </div>
+            </div>
+            <div class="column is-centered">
+              <div class="video-container">
+                <video class="center" playsinline autoplay loop muted src="./resources/task_resets/coffee_real_D0.mp4" style="border-radius:10px;"></video>
+                <p style="text-align: center; font-size: 18px">Coffee Real D0</p>
+              </div>
+            </div>
+            <div class="column is-centered">
+              <div class="video-container">
+                <video class="center" playsinline autoplay loop muted src="./resources/task_resets/coffee_real_D1.mp4" style="border-radius:10px;"></video>
+                <p style="text-align: center; font-size: 18px">Coffee Real D1</p>
+              </div>
+            </div>
+          </div>
+
+        </div> 
+      </div>
+    </div>
+  </section>
+
+
+<!--   <section class="hero is-light is-small">
+    <div class="hero-body">
+    <div class="container">
+      <div class="columns is-centered">
+        <div class="column is-three-quarters">
+          <h3 class="title is-3" style="text-align: center; padding-bottom: 10px;"><bold>Full Video Overview</bold></h3>
+        </div>
+      </div>
+    </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="columns is-centered">
+        <div class="column is-three-quarters">
+          <div class="columns is-centered">
+            <div class="column is-centered">
+              <video class="center" playsinline loop muted controls src="./resources/overview_video.mp4" width="100%" style="border-radius:20px;"></video>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section> -->
+
+
+  <!-- <section class="hero is-light is-small">
+    <div class="hero-body">
+      <div class="container is-max-desktop">
+        <div class="columns is-centered has-text-centered">
+          <div class="column is-full-width">
+            <h2 class="title is-3">Project Video</h2>
+          </div>
+      </div>
+    
+  
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-max-desktop">
+          <div id="method_video" class="publication-video">
+            <iframe src="https://www.youtube.com/embed/WdMYGESu8Ak" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+        </div>
+      </div>
+      </div>
+    </div> -->
+  </section>
+
+  <section class="section" id="BibTeX">
+    <div class="container is-max-desktop content">
+      <h2 class="title">BibTeX</h2>
+      <pre><code>@inproceedings{mandlekar2023mimicgen,
+    title={MimicGen: A Data Generation System for Scalable Robot Learning using Human Demonstrations},
+    author={Mandlekar, Ajay and Nasiriany, Soroush and Wen, Bowen and Akinola, Iretiayo and Narang, Yashraj and Fan, Linxi and Zhu, Yuke and Fox, Dieter},
+    booktitle={7th Annual Conference on Robot Learning},
+    year={2023}
+}</code></pre>
+    </div>
+  </section>
+  
+  <section class="section">
+  <div class="container is-max-desktop content">
+    <h2 class="title">Acknowledgements</h2>
+    <div class="is-vcentered interpolation-panel">
+      <div class="container content has-text-left">
+        <p style="font-size: 16px">
+          This work was made possible due to the help and support of Sandeep Desai (robot hardware), Ravinder Singh (IT), Alperen Degirmenci (compute cluster), Anima Anandkumar (access to robot hardware), Yifeng Zhu (some robosuite tasks and robot control software), Cheng Chi (diffusion policy experiments), Shuo Cheng (drawer design used in Coffee Preparation task), Balakumar Sundaralingam (code release), and Stan Birchfield (dataset release).
+        </p>
+      </div>
+    </div>
+  </div>  
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="columns is-centered">
+        <div class="column is-three-quarters">
+            <div class="columns is-centered">
+              <div class="column has-text-centered">
+                <video class="center" playsinline autoplay loop muted src="./resources/title.mp4" width="100%" style="border-radius:20px;"></video>
+              </div>
+            </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+<footer class="footer">
+  <div class="container">
+    <div class="content has-text-centered">
+      <br />
+      <p> Template from <a href="https://nerfies.github.io"><span class="dnerf">Nerfies</span></a>.</p>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
+
