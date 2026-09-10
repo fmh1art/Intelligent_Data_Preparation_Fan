@@ -18,6 +18,20 @@ DP4LM部分围绕预训练、微调和推理说明数据选择及组织方法。
 文献范围包括截至2026年9月10日可核验的代表性论文和公开数据资源。
 本文侧重技术比较，不进行完整的文献计量分析，预印本与正式发表文献在书目中分别标识。
 
+图\ref{fig:research-trees}将本文引用的研究组织为两棵树，分别对应AI for Data Prep与Data Prep for AI；本文重点讨论其中与语言模型相关的交叉技术。
+主枝区分子领域，枝内由较早工作向近期工作展开，共同根部列示数据质量与治理基础。
+图中覆盖本文50项引用，数据卡与发布说明合并为同一资源节点；方括号内为文献编号。
+多领域工作按主要论述位置归类，连线表示主题归属，不表示论文之间存在直接继承关系。
+
+\clearpage
+\begin{figure}[p]
+\centering
+\includegraphics[width=\linewidth,height=0.86\textheight,keepaspectratio]{figures/fig00_two_research_trees_v2.png}
+\caption{数据准备与人工智能交叉研究的双树总览。各任务分支内按年份组织，共同根部表示概念基础；图示覆盖本文引用范围，具身数据准备作为独立分支。星号表示所引预印本，RoboMIND 2.0同时注明首次提交与核读修订年份。}
+\label{fig:research-trees}
+\end{figure}
+\clearpage
+
 \section{基于语言模型的数据准备}
 
 LM4DP需要解决的核心问题，是如何将任务需求、数据内容和可执行操作联系起来。

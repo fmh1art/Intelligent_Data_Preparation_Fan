@@ -1,0 +1,547 @@
+{
+  "scope": "All 50 references in the current survey, represented by 49 nodes; the dataset card and release notice describe one resource.",
+  "classification": "Primary topical placement; connectors do not assert citation, inheritance or causal dependence.",
+  "date_rule": "Years follow references.bib; RoboMIND 2.0 additionally displays the reviewed 2026 revision.",
+  "nodes": [
+    {
+      "tree": "left",
+      "branch": "Discovery & semantics",
+      "keys": [
+        "aurum"
+      ],
+      "label": "Aurum (2018) [6]",
+      "year": 2018,
+      "preprint_version": false,
+      "resource": false
+    },
+    {
+      "tree": "left",
+      "branch": "Discovery & semantics",
+      "keys": [
+        "tus"
+      ],
+      "label": "Table Union Search (2018) [7]",
+      "year": 2018,
+      "preprint_version": false,
+      "resource": false
+    },
+    {
+      "tree": "left",
+      "branch": "Discovery & semantics",
+      "keys": [
+        "sato"
+      ],
+      "label": "Sato (2020) [9]",
+      "year": 2020,
+      "preprint_version": false,
+      "resource": false
+    },
+    {
+      "tree": "left",
+      "branch": "Discovery & semantics",
+      "keys": [
+        "santos"
+      ],
+      "label": "SANTOS (2023) [8]",
+      "year": 2023,
+      "preprint_version": false,
+      "resource": false
+    },
+    {
+      "tree": "left",
+      "branch": "Query & transformation",
+      "keys": [
+        "wrangler"
+      ],
+      "label": "Wrangler (2011) [14]",
+      "year": 2011,
+      "preprint_version": false,
+      "resource": false
+    },
+    {
+      "tree": "left",
+      "branch": "Query & transformation",
+      "keys": [
+        "nalir"
+      ],
+      "label": "NaLIR (2014) [11]",
+      "year": 2014,
+      "preprint_version": false,
+      "resource": false
+    },
+    {
+      "tree": "left",
+      "branch": "Query & transformation",
+      "keys": [
+        "picard"
+      ],
+      "label": "PICARD (2021) [12]",
+      "year": 2021,
+      "preprint_version": false,
+      "resource": false
+    },
+    {
+      "tree": "left",
+      "branch": "Query & transformation",
+      "keys": [
+        "dinsql"
+      ],
+      "label": "DIN-SQL (2023) [13]",
+      "year": 2023,
+      "preprint_version": false,
+      "resource": false
+    },
+    {
+      "tree": "left",
+      "branch": "Query & transformation",
+      "keys": [
+        "autotables"
+      ],
+      "label": "Auto-Tables (2023) [15]",
+      "year": 2023,
+      "preprint_version": false,
+      "resource": false
+    },
+    {
+      "tree": "left",
+      "branch": "Integration & matching",
+      "keys": [
+        "ditto"
+      ],
+      "label": "Ditto (2020) [17]",
+      "year": 2020,
+      "preprint_version": false,
+      "resource": false
+    },
+    {
+      "tree": "left",
+      "branch": "Integration & matching",
+      "keys": [
+        "unicorn"
+      ],
+      "label": "Unicorn (2023) [10]",
+      "year": 2023,
+      "preprint_version": false,
+      "resource": false
+    },
+    {
+      "tree": "left",
+      "branch": "Integration & matching",
+      "keys": [
+        "zh_integration"
+      ],
+      "label": "Integration survey (2023) [16]",
+      "year": 2023,
+      "preprint_version": false,
+      "resource": false
+    },
+    {
+      "tree": "left",
+      "branch": "Integration & matching",
+      "keys": [
+        "icl_er"
+      ],
+      "label": "Cost-effective ER (2024) [18]",
+      "year": 2024,
+      "preprint_version": false,
+      "resource": false
+    },
+    {
+      "tree": "left",
+      "branch": "Cleaning & repair",
+      "keys": [
+        "holoclean"
+      ],
+      "label": "HoloClean (2017) [19]",
+      "year": 2017,
+      "preprint_version": false,
+      "resource": false
+    },
+    {
+      "tree": "left",
+      "branch": "Cleaning & repair",
+      "keys": [
+        "raha"
+      ],
+      "label": "Raha (2019) [20]",
+      "year": 2019,
+      "preprint_version": false,
+      "resource": false
+    },
+    {
+      "tree": "left",
+      "branch": "Cleaning & repair",
+      "keys": [
+        "baran"
+      ],
+      "label": "Baran (2020) [21]",
+      "year": 2020,
+      "preprint_version": false,
+      "resource": false
+    },
+    {
+      "tree": "left",
+      "branch": "Cleaning & repair",
+      "keys": [
+        "fm"
+      ],
+      "label": "FM data wrangling (2022) [22]",
+      "year": 2022,
+      "preprint_version": false,
+      "resource": false
+    },
+    {
+      "tree": "left",
+      "branch": "Cleaning & repair",
+      "keys": [
+        "jellyfish"
+      ],
+      "label": "Jellyfish (2024) [23]",
+      "year": 2024,
+      "preprint_version": false,
+      "resource": false
+    },
+    {
+      "tree": "left",
+      "branch": "Pipelines & evaluation",
+      "keys": [
+        "haipipe"
+      ],
+      "label": "HAIPipe (2023) [24]",
+      "year": 2023,
+      "preprint_version": false,
+      "resource": false
+    },
+    {
+      "tree": "left",
+      "branch": "Pipelines & evaluation",
+      "keys": [
+        "diffprep"
+      ],
+      "label": "DiffPrep (2023) [25]",
+      "year": 2023,
+      "preprint_version": false,
+      "resource": false
+    },
+    {
+      "tree": "left",
+      "branch": "Pipelines & evaluation",
+      "keys": [
+        "autoprep"
+      ],
+      "label": "AutoPrep (2025) [26]",
+      "year": 2025,
+      "preprint_version": false,
+      "resource": false
+    },
+    {
+      "tree": "left",
+      "branch": "Pipelines & evaluation",
+      "keys": [
+        "deepprep"
+      ],
+      "label": "DeepPrep (2026) [27]",
+      "year": 2026,
+      "preprint_version": false,
+      "resource": false
+    },
+    {
+      "tree": "left",
+      "branch": "Pipelines & evaluation",
+      "keys": [
+        "prepbench"
+      ],
+      "label": "PrepBench (2026) [28]",
+      "year": 2026,
+      "preprint_version": false,
+      "resource": false
+    },
+    {
+      "tree": "left",
+      "branch": "Perspective canopy",
+      "keys": [
+        "demystify"
+      ],
+      "label": "Demystifying AI4DP (2023) [1]",
+      "year": 2023,
+      "preprint_version": false,
+      "resource": false
+    },
+    {
+      "tree": "left",
+      "branch": "Perspective canopy",
+      "keys": [
+        "empower"
+      ],
+      "label": "Empowering Tabular DP (2026) [4]",
+      "year": 2026,
+      "preprint_version": false,
+      "resource": false
+    },
+    {
+      "tree": "right",
+      "branch": "Pretraining curation",
+      "keys": [
+        "doremi"
+      ],
+      "label": "DoReMi (2023) [32]",
+      "year": 2023,
+      "preprint_version": false,
+      "resource": false
+    },
+    {
+      "tree": "right",
+      "branch": "Pretraining curation",
+      "keys": [
+        "dolma"
+      ],
+      "label": "Dolma (2024) [29]",
+      "year": 2024,
+      "preprint_version": false,
+      "resource": false
+    },
+    {
+      "tree": "right",
+      "branch": "Pretraining curation",
+      "keys": [
+        "dclm"
+      ],
+      "label": "DataComp-LM (2024) [30]",
+      "year": 2024,
+      "preprint_version": false,
+      "resource": false
+    },
+    {
+      "tree": "right",
+      "branch": "Pretraining curation",
+      "keys": [
+        "fineweb2"
+      ],
+      "label": "FineWeb2 (2025)* [31]",
+      "year": 2025,
+      "preprint_version": true,
+      "resource": false
+    },
+    {
+      "tree": "right",
+      "branch": "Selection & synthesis",
+      "keys": [
+        "selfinstruct"
+      ],
+      "label": "Self-Instruct (2023) [34]",
+      "year": 2023,
+      "preprint_version": false,
+      "resource": false
+    },
+    {
+      "tree": "right",
+      "branch": "Selection & synthesis",
+      "keys": [
+        "less"
+      ],
+      "label": "LESS (2024) [33]",
+      "year": 2024,
+      "preprint_version": false,
+      "resource": false
+    },
+    {
+      "tree": "right",
+      "branch": "Selection & synthesis",
+      "keys": [
+        "collapse"
+      ],
+      "label": "Model collapse (2024) [36]",
+      "year": 2024,
+      "preprint_version": false,
+      "resource": false
+    },
+    {
+      "tree": "right",
+      "branch": "Selection & synthesis",
+      "keys": [
+        "openthoughts"
+      ],
+      "label": "OpenThoughts (2025)* [35]",
+      "year": 2025,
+      "preprint_version": true,
+      "resource": false
+    },
+    {
+      "tree": "right",
+      "branch": "Inference context",
+      "keys": [
+        "rag"
+      ],
+      "label": "RAG (2020) [37]",
+      "year": 2020,
+      "preprint_version": false,
+      "resource": false
+    },
+    {
+      "tree": "right",
+      "branch": "Inference context",
+      "keys": [
+        "demonstrations"
+      ],
+      "label": "In-context examples (2022) [38]",
+      "year": 2022,
+      "preprint_version": false,
+      "resource": false
+    },
+    {
+      "tree": "right",
+      "branch": "Processing systems",
+      "keys": [
+        "datajuicer"
+      ],
+      "label": "Data-Juicer (2024) [39]",
+      "year": 2024,
+      "preprint_version": false,
+      "resource": false
+    },
+    {
+      "tree": "right",
+      "branch": "Processing systems",
+      "keys": [
+        "datajuicer2"
+      ],
+      "label": "Data-Juicer 2.0 (2025) [40]",
+      "year": 2025,
+      "preprint_version": false,
+      "resource": false
+    },
+    {
+      "tree": "right",
+      "branch": "Embodied data",
+      "keys": [
+        "oxe"
+      ],
+      "label": "Open X-Embodiment (2023)* [41]",
+      "year": 2023,
+      "preprint_version": true,
+      "resource": false
+    },
+    {
+      "tree": "right",
+      "branch": "Embodied data",
+      "keys": [
+        "mimicgen"
+      ],
+      "label": "MimicGen (2023) [47]",
+      "year": 2023,
+      "preprint_version": false,
+      "resource": false
+    },
+    {
+      "tree": "right",
+      "branch": "Embodied data",
+      "keys": [
+        "droid"
+      ],
+      "label": "DROID (2024)* [42]",
+      "year": 2024,
+      "preprint_version": true,
+      "resource": false
+    },
+    {
+      "tree": "right",
+      "branch": "Embodied data",
+      "keys": [
+        "agibot"
+      ],
+      "label": "AgiBot Colosseo (2025)* [43]",
+      "year": 2025,
+      "preprint_version": true,
+      "resource": false
+    },
+    {
+      "tree": "right",
+      "branch": "Embodied data",
+      "keys": [
+        "robomind2"
+      ],
+      "label": "RoboMIND 2.0 (2025; rev. 2026)* [46]",
+      "year": 2025,
+      "preprint_version": true,
+      "resource": false
+    },
+    {
+      "tree": "right",
+      "branch": "Embodied data",
+      "keys": [
+        "agibot2026",
+        "agibot2026_release"
+      ],
+      "label": "AgiBot World 2026 (2026) [44,45]",
+      "year": 2026,
+      "preprint_version": false,
+      "resource": true
+    },
+    {
+      "tree": "right",
+      "branch": "Perspective canopy",
+      "keys": [
+        "dm4ml"
+      ],
+      "label": "Data Management for ML (2023) [2]",
+      "year": 2023,
+      "preprint_version": false,
+      "resource": false
+    },
+    {
+      "tree": "right",
+      "branch": "Perspective canopy",
+      "keys": [
+        "llmdata"
+      ],
+      "label": "Data Prep for LLMs (2026) [5]",
+      "year": 2026,
+      "preprint_version": false,
+      "resource": false
+    },
+    {
+      "tree": "shared",
+      "branch": "Foundational roots",
+      "keys": [
+        "quality"
+      ],
+      "label": "Data quality methods (2009) [3]",
+      "year": 2009,
+      "preprint_version": false,
+      "resource": false
+    },
+    {
+      "tree": "shared",
+      "branch": "Foundational roots",
+      "keys": [
+        "fair"
+      ],
+      "label": "FAIR principles (2016) [49]",
+      "year": 2016,
+      "preprint_version": false,
+      "resource": false
+    },
+    {
+      "tree": "shared",
+      "branch": "Foundational roots",
+      "keys": [
+        "datasheets"
+      ],
+      "label": "Datasheets (2021) [50]",
+      "year": 2021,
+      "preprint_version": false,
+      "resource": false
+    },
+    {
+      "tree": "shared",
+      "branch": "Cross-cutting review",
+      "keys": [
+        "zh_quality"
+      ],
+      "label": "Data quality review (2025) [48]",
+      "year": 2025,
+      "preprint_version": false,
+      "resource": false
+    }
+  ]
+}

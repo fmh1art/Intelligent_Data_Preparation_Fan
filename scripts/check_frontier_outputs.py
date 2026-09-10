@@ -38,6 +38,19 @@ for note in notes:
 assert all(name in pdf[-1].get_text() for name in ['范举', '范梅浩'])
 assert len(pdf[-1].get_images()) == 2, 'Missing author portraits'
 
+tree_review = json.loads((ROOT / 'figures/reviews/fig00_two_research_trees.json').read_text())
+tree_file = ROOT / tree_review['final_file']
+assert hashlib.sha256(tree_file.read_bytes()).hexdigest() == tree_review['sha256']
+tree_source = fitz.Pixmap(str(tree_file))
+tree_pages = []
+for page in pdf:
+    for item in page.get_images():
+        if (item[2], item[3]) == (tree_source.width, tree_source.height):
+            rendered = fitz.Pixmap(pdf, item[0])
+            assert rendered.samples == tree_source.samples, 'Research tree pixels changed in PDF'
+            tree_pages.append(page.number + 1)
+assert len(tree_pages) == 1, 'Research tree must appear exactly once'
+
 chart_pages = [page for page in pdf
                if '国外学者' in page.get_text() and '国内学者' in page.get_text()]
 assert len(chart_pages) == 2, 'Missing original chart'
@@ -57,6 +70,8 @@ report = {
     ],
     'cited_references': len(order),
     'preprint_version_notes': len(notes),
+    'research_tree': {'pages': tree_pages, 'nodes': 49, 'references': len(order),
+                      'image_size_px': [tree_source.width, tree_source.height]},
     'rendered_document': {'file': 'build/main.pdf', 'pages': len(pdf),
                           'chart_pages': [page.number + 1 for page in chart_pages]},
     'checks': 'PASS: citation order, original figure assets, PDF text, charts, portraits and TeX/Biber logs',

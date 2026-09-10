@@ -1,15 +1,16 @@
 # 数据准备与语言模型的交叉前沿
 
-本项目为可直接在 Overleaf 编译的中文综述。以用户上传的《04 数据准备与语言模型交叉技术的研究进展与发展趋势 - 编辑提问回答.docx》为底稿，将正文凝练至7940个汉字，平衡“语言模型用于数据准备”（LM4DP）和“面向语言模型的数据准备”（DP4LM），补充具身智能数据准备及近期研究。
+本项目为可直接在 Overleaf 编译的中文综述。以用户上传的《04 数据准备与语言模型交叉技术的研究进展与发展趋势 - 编辑提问回答.docx》为底稿，将正文凝练至8173个汉字，平衡“语言模型用于数据准备”（LM4DP）和“面向语言模型的数据准备”（DP4LM），补充具身智能数据准备及近期研究。
 
 - [LaTeX 编译稿 PDF](output/survey.pdf)
 - [主文件](main.tex)、[正文](manuscript.tex)、[参考文献](references.bib)
-- [两幅原图与来源说明](figures/README.md)
+- [双树总览图与两幅原图](figures/README.md)
+- [双树图英文 PROMPT](figures/prompts/fig00_two_research_trees.md)、[字号与换行修订 PROMPT](figures/prompts/fig00_two_research_trees_edit.md)
 - [修订说明](editorial/REVISION_FRONTIER.md)、[文献证据](editorial/FRONTIER_EVIDENCE.md)、[编译检查](editorial/VALIDATION.md)
 
 两条主线分别为2454字和2484字，具身部分1445字，涵盖跨机器人数据融合、时空对齐、分层标注、失败轨迹、仿真与评测。正文计数包含章节标题和图注，不含参考文献、作者简介、图内文字、标点及英文单词。无摘要、关键词、公式及技术表格，文末沿用范举、范梅浩的照片和简介。
 
-原稿的两幅正文统计图以直接导出的矢量 PDF 嵌入，数量和类别保持原样，正文明确其历史统计口径。50项书目按 GB/T 7714—2015 顺序编码制著录，核读预印本标明版本。近期材料核验截至2026-09-10。本轮交付更新 LaTeX 工程，上传的 Word 文件保留在本地，不作修改。
+引言后新增一张英文双树总览图，以子领域为分支、论文简称和年份为节点，覆盖本文全部50项引用，共49个节点；AgiBot World 2026的数据卡与发布说明合并展示。图中的枝内年代与主题归属不表示论文间的直接技术继承。原稿的两幅正文统计图以直接导出的矢量 PDF 嵌入，数量和类别保持原样，正文明确其历史统计口径。50项书目按 GB/T 7714—2015 顺序编码制著录，核读预印本标明版本。近期材料核验截至2026-09-10。本轮交付更新 LaTeX 工程，上传的 Word 文件保留在本地，不作修改。
 
 ## Overleaf 与本地编译
 
@@ -24,7 +25,7 @@ python scripts/check_frontier_outputs.py
 cp build/main.pdf output/survey.pdf
 ```
 
-正文检查仅需 Python 3；PDF 检查另需 PyMuPDF，报告写入 `build/frontier_validation.json`。当前编译稿为12页。
+正文检查仅需 Python 3；PDF 检查另需 PyMuPDF，报告写入 `build/frontier_validation.json`。当前编译稿为13页。
 
 书目核验记录保存在 [frontier_sources](editorial/frontier_sources)。如需从这些记录重建书目，可运行 `python scripts/build_frontier_bibliography.py`，依赖 `bibtexparser`、`lxml` 和 `requests`；正常编译无需重建。`scripts/collect_frontier_sources.py` 用于重新访问论文数据库和发布方页面。
 

@@ -1,0 +1,24 @@
+{
+  "tool": "built-in image_gen.imagegen",
+  "mode": "new image",
+  "prompt": "figures/prompts/fig00_two_research_trees.md",
+  "manifest": "figures/two_research_trees_manifest.json",
+  "source_file": "/home/fanmeihao/.codex/generated_images/01a088e8-7ea1-7270-9f6e-597a9feab716/exec-7dee324a-2dea-4abd-b515-9ec3a5d66281.png",
+  "final_file": "figures/fig00_two_research_trees_v2.png",
+  "sha256": "83b72803123ac7e9fa9c966938a2a4b2623045646df1250ea159c14b36d4d203",
+  "width_px": 1086,
+  "height_px": 1448,
+  "mode_pixels": "RGB",
+  "postprocessing": "None; original generated PNG copied byte-for-byte.",
+  "generations": 1,
+  "manual_review": "All 49 nodes checked against the manifest: 50 bibliography references covered, including combined [44,45]; names, dates, reference numbers and six preprint markers checked. Branch order checked from base to tip; perspective and foundation nodes are conceptual context.",
+  "initial_image": {
+    "file": "figures/fig00_two_research_trees.png",
+    "sha256": "24db4324b1de125a77d78d4f7a9434e1887012feef6cec93345c87792becbf9c",
+    "source_file": "/home/fanmeihao/.codex/generated_images/01a088e8-7ea1-7270-9f6e-597a9feab716/exec-cafcf936-12c7-41a1-86b7-b4d076efce9b.png"
+  },
+  "targeted_edits": 1,
+  "edit_prompt": "figures/prompts/fig00_two_research_trees_edit.md",
+  "edit_scope": "Increased long-label and legend readability through wrapping; all nodes retained.",
+  "native_resolution_note": "Actual tool output is 1086 x 1448 pixels; no upsampling or programmatic retouching. At the placed width of about 163 mm this is approximately 169 ppi."
+}

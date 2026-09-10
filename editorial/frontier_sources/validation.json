@@ -1,9 +1,9 @@
 {
-  "revised_body_chinese_characters": 7940,
+  "revised_body_chinese_characters": 8173,
   "sections": [
     {
       "title": "引言",
-      "chinese_characters": 532
+      "chinese_characters": 765
     },
     {
       "title": "基于语言模型的数据准备",
@@ -28,12 +28,23 @@
   ],
   "cited_references": 50,
   "preprint_version_notes": 6,
+  "research_tree": {
+    "pages": [
+      2
+    ],
+    "nodes": 49,
+    "references": 50,
+    "image_size_px": [
+      1086,
+      1448
+    ]
+  },
   "rendered_document": {
     "file": "build/main.pdf",
-    "pages": 12,
+    "pages": 13,
     "chart_pages": [
-      2,
-      4
+      3,
+      5
     ]
   },
   "checks": "PASS: citation order, original figure assets, PDF text, charts, portraits and TeX/Biber logs"

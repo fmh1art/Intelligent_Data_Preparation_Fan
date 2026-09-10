@@ -26,6 +26,26 @@ for name, _ in figures:
         errors.append(f'missing figure: {name}')
     if not (root / 'figures' / 'original' / (name + '.png')).is_file():
         errors.append(f'missing figure preview: {name}')
+inline_graphics = re.findall(r'\\includegraphics(?:\[[^]]*\])?\{([^}]+)\}', body)
+for graphic in inline_graphics:
+    if not (root / graphic).is_file():
+        errors.append(f'missing inline figure: {graphic}')
+tree_manifest = json.loads((root / 'figures/two_research_trees_manifest.json').read_text())
+tree_keys = [key for node in tree_manifest['nodes'] for key in node['keys']]
+paper_years = dict(re.findall(r'@\w+\{([^,]+),.*?\bdate\s*=\s*\{(\d{4})[^}]*\}', bib, re.S))
+if collections.Counter(tree_keys) != collections.Counter(keys):
+    errors.append('research trees must cover every bibliography entry exactly once')
+citation_order = []
+for group in re.findall(r'\\cite\w*\{([^}]+)\}', body):
+    for key in map(str.strip, group.split(',')):
+        if key not in citation_order:
+            citation_order.append(key)
+for node in tree_manifest['nodes']:
+    expected = ','.join(str(citation_order.index(key) + 1) for key in node['keys'])
+    if not node['label'].endswith('[' + expected + ']'):
+        errors.append(f'stale reference number in tree: {node["label"]}')
+    if node['year'] != int(paper_years[node['keys'][0]]):
+        errors.append(f'stale publication year in tree: {node["label"]}')
 bio_source = re.sub(r'%[^\n]*', '', (root / 'author_bios.tex').read_text())
 portraits = re.findall(r'\\includegraphics(?:\[[^]]*\])?\{([^}]+)\}', bio_source)
 for portrait in portraits:
@@ -40,7 +60,9 @@ if not 7500 <= len(re.findall('[\u4e00-\u9fff]', body)) <= 8500:
     errors.append('manuscript outside approximately 8000 Chinese characters')
 report = {
     'references': len(keys), 'cited_references': len(citations),
-    'figures': len(figures), 'tables': body.count('\\begin{table}'),
+    'figures': len(figures) + body.count('\\begin{figure}'),
+    'tree_nodes': len(tree_manifest['nodes']), 'tree_references': len(tree_keys),
+    'tables': body.count('\\begin{table}'),
     'author_portraits': len(portraits),
     'chinese_characters_in_manuscript_source': len(re.findall('[\u4e00-\u9fff]', body)),
     'errors': errors,
