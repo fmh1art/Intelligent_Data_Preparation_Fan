@@ -2,24 +2,22 @@
 
 ## 图1、图2：两条研究主线的分枝图
 
-按用户提供的曲线分枝图样式绘制，采用白底、六色平面主枝、圆点末端和短论文标签。每条主枝只连接一个子方向的文献，枝内按书目年份由下向上排列；不同主枝的高度不构成统一时间轴。
+直接使用作者提供的两张PDF，采用白底、六色平面主枝、圆点末端和短论文标签。每条主枝只连接一个子方向的文献，枝内按书目年份由下向上排列；不同主枝的高度不构成统一时间轴。
 
 | 图 | 文件 | 页码 | 分支与节点 |
 |---|---|---:|---|
-| AI for Data Prep | [PNG](fig01_ai_for_data_prep_flat.png) | 2（横向） | 六条主枝，29个节点；灰色分支汇集共同基础与综述 |
-| Data Prep for AI | [PNG](fig02_data_prep_for_ai_flat.png) | 3（横向） | 六条主枝，20个节点；橙色分支为具身数据准备 |
+| AI for Data Prep | [PDF](ai4dp.pdf) | 2（横向） | 六条主枝，29个节点；灰色分支汇集共同基础与综述 |
+| Data Prep for AI | [PDF](dp4ai.pdf) | 3（横向） | 六条主枝，20个节点；橙色分支为具身数据准备 |
 
-两图共49个节点，对应正文全部50项引用，[44,45]合并为同一资源节点。两图分开排版，使论文标签在约253毫米图宽下保持可读性。RoboMIND 2.0标签只保留书目年份2025及预印本标记，版本链接保留在书目中。
+两图共49个节点，对应正文全部50项引用，[44,45]合并为同一资源节点。源文件分别为616×349和616×350 pt，直接等比嵌入横向页面，不栅格化、不修改原文件。RoboMIND 2.0标签保留书目年份2025及预印本标记，版本链接保留在书目中。
 
-- [AI for Data Prep 精细PROMPT](prompts/fig01_ai_for_data_prep_flat.md)
-- [Data Prep for AI 精细PROMPT](prompts/fig02_data_prep_for_ai_flat.md)
+- [当前PDF的哈希与来源记录](reviews/author_research_maps.json)
 - [文献分类清单](two_research_trees_manifest.json)
-- [两图的节点位置、归属与年代审校](reviews/flat_research_trees_audit.json)
-- [生成与检查说明](reviews/flat_research_trees.md)
+- [编译与内容检查](../editorial/frontier_sources/validation.json)
 
-两图分别由内置image_gen生成，一次生成后采用，工具原生输出均为1774×887像素、不透明RGB，未作代码修图或插值放大。原始路径与哈希见[生成记录](reviews/flat_research_trees.json)。风格参考为用户上传的image.png，仅作为生成参考，编译不依赖该文件；参考图内的论文、页码和标识未复用。
+检查确认两个PDF的论文年份、引用编号与节点清单一致，并确认编译稿保留文字和矢量路径。源图`dp4ai.pdf`中RoboMIND 2.0/DROID标签边框与文字有重叠，另有“Model collaps”拼写；插入时均保留原样，未改动源图。此记录不进入论文正文或图注。
 
-此前的[双树v4](fig00_two_research_trees_v4.png)及[审校说明](reviews/fig00_two_research_trees.md)作为历史版本保留，当前论文引用以上两张新图。
+此前生成的[AI for Data Prep PNG](fig01_ai_for_data_prep_flat.png)、[Data Prep for AI PNG](fig02_data_prep_for_ai_flat.png)、[提示词及审校说明](reviews/flat_research_trees.md)，以及更早的[双树v4](fig00_two_research_trees_v4.png)均作为历史版本保留，当前论文只引用以上两个PDF。
 
 ## 图3、图4：上传文档的两幅统计图
 

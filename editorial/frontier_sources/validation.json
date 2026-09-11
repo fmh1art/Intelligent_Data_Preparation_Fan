@@ -39,28 +39,40 @@
     },
     "nodes": 49,
     "references": 50,
-    "images": [
+    "pdf_sources": [
       {
-        "file": "figures/fig01_ai_for_data_prep_flat.png",
-        "size_px": [
-          1774,
-          887
+        "tree": "left",
+        "file": "figures/ai4dp.pdf",
+        "title": "AI for Data Prep",
+        "sha256": "c8256f8329aee083778964915b7739327e3c4081d6b97bce3ec859bc1dbd5d6b",
+        "size_pt": [
+          616.0,
+          349.0
         ],
-        "nodes": 29
+        "nodes": 29,
+        "vector_paths": 97
       },
       {
-        "file": "figures/fig02_data_prep_for_ai_flat.png",
-        "size_px": [
-          1774,
-          887
+        "tree": "right",
+        "file": "figures/dp4ai.pdf",
+        "title": "Data Prep for AI",
+        "sha256": "91ca9adb3a23ac77fe45520fbaa8a8dd98b93b8adc8eef16706f21bdd4435e05",
+        "size_pt": [
+          616.0,
+          350.0
         ],
-        "nodes": 20
+        "nodes": 20,
+        "vector_paths": 70
       }
     ],
     "branches": 12,
-    "taxonomy": "PASS: every node is inside its assigned branch lane",
-    "branch_chronology": "PASS: zero cross-year inversions within branches",
-    "visual_audit": "figures/reviews/flat_research_trees_audit.json"
+    "source_content": "PASS: PDF source hashes, text, vector paths, paper years and references",
+    "branch_chronology": "PASS: reference labels place newer papers higher within each branch",
+    "source_observations": [
+      "dp4ai.pdf: RoboMIND 2.0 and DROID label borders overlap text in the supplied source.",
+      "dp4ai.pdf: the supplied label reads \"Model collaps\"; the canonical literature manifest retains \"Model collapse\"."
+    ],
+    "provenance": "figures/reviews/author_research_maps.json"
   },
   "rendered_document": {
     "file": "build/main.pdf",

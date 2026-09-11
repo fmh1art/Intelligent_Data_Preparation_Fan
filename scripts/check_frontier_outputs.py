@@ -38,84 +38,67 @@ for note in notes:
 assert all(name in pdf[-1].get_text() for name in ['范举', '范梅浩'])
 assert len(pdf[-1].get_images()) == 2, 'Missing author portraits'
 
-maps_review = json.loads((ROOT / 'figures/reviews/flat_research_trees.json').read_text())
-taxonomy = json.loads((ROOT / maps_review['taxonomy_audit']).read_text())
-assert taxonomy['images'] == maps_review['images'], 'Branch audit belongs to different images'
-map_sources = {}
-for item in maps_review['images']:
-    image_file = ROOT / item['file']
-    assert hashlib.sha256(image_file.read_bytes()).hexdigest() == item['sha256']
-    pixmap = fitz.Pixmap(str(image_file))
-    assert item['size_px'] == [pixmap.width, pixmap.height]
-    map_sources[item['tree']] = pixmap
-assert set(map_sources) == {'left', 'right'} and len(maps_review['images']) == 2
+maps_review = json.loads((ROOT / 'figures/reviews/author_research_maps.json').read_text())
 manifest = json.loads((ROOT / maps_review['manifest']).read_text())
-assert len(taxonomy['nodes']) == len(manifest['nodes']) == 49 and not taxonomy['missing']
-assert sorted(int(ref) for node in taxonomy['nodes']
-              for ref in node['references'].split(',')) == list(range(1, len(order) + 1))
+assert len(manifest['nodes']) == 49
+assert sorted(order.index(key) + 1 for node in manifest['nodes']
+              for key in node['keys']) == list(range(1, len(order) + 1))
+assert {item['tree'] for item in maps_review['figures']} == {'left', 'right'}
+assert len(maps_review['figures']) == 2
+map_pages = {}
+branches = {(node['tree'], node['branch']) for node in manifest['nodes']}
+assert len(branches) == 12
 
-# Validate the recorded visual audit against the bibliography-linked manifest.
-# Branch lanes and tag bounds were read from the hash-bound PNGs, not predicted
-# from prompts. Lanes are audit bounds, not drawn panels. Text and connectivity
-# remain visual checks.
-branches = {branch['id']: branch for branch in taxonomy['branches']}
-assert len(branches) == len(taxonomy['branches']) == 12
-assert {tree: sum(b['tree'] == tree for b in branches.values())
-        for tree in ['left', 'right']} == {'left': 6, 'right': 6}
-expected_nodes = {tuple(node['keys']): node for node in manifest['nodes']}
-assert {tuple(n['keys']) for n in taxonomy['nodes']} == set(expected_nodes)
+# These are author-supplied vector PDFs. The historical PNG coordinate audit
+# does not apply. Check the actual source text, references and vector content,
+# then confirm both PDF figures are present in the compiled document.
+for item in maps_review['figures']:
+    source_file = ROOT / item['file']
+    assert hashlib.sha256(source_file.read_bytes()).hexdigest() == item['sha256']
+    assert '{' + item['file'] + '}' in body, 'Source PDF is not included in manuscript'
+    source_pdf = fitz.open(source_file)
+    assert len(source_pdf) == 1, 'Research map source must be a single page'
+    source = source_pdf[0]
+    assert item['size_pt'] == [source.rect.width, source.rect.height]
+    assert len(source.get_drawings()) == item['vector_paths'] > 0
+    assert not source.get_images(), 'Expected vector artwork, not a raster image'
+    nodes = [node for node in manifest['nodes'] if node['tree'] == item['tree']]
+    assert len(nodes) == item['nodes']
+    expected = {
+        tuple(order.index(key) + 1 for key in node['keys']): node
+        for node in nodes
+    }
+    paper_labels = re.findall(r'\((20\d\d)\)\s*(\*)?\s*\[([\d,\s]+)\]', source.get_text())
+    observed = {}
+    reference_positions = {}
+    for year, star, refs in paper_labels:
+        numbers = tuple(int(ref.strip()) for ref in refs.split(','))
+        assert numbers not in observed, 'Duplicate paper reference in source figure'
+        observed[numbers] = (int(year), bool(star))
+        matches = source.search_for('[' + ','.join(map(str, numbers)) + ']')
+        assert len(matches) == 1, 'Missing or ambiguous reference label position'
+        reference_positions[numbers] = (matches[0].y0 + matches[0].y1) / 2
+    assert observed == {refs: (node['year'], node['preprint_version'])
+                        for refs, node in expected.items()}, 'Paper years/references differ from manifest'
+    for newer_refs, newer in expected.items():
+        for older_refs, older in expected.items():
+            if newer['branch'] == older['branch'] and newer['year'] > older['year']:
+                assert reference_positions[newer_refs] < reference_positions[older_refs], \
+                    'Chronological inversion within branch'
 
-def valid_box(box, tree):
-    x0, y0, x1, y1 = box
-    source = map_sources[tree]
-    return 0 <= x0 < x1 <= source.width and 0 <= y0 < y1 <= source.height
-
-def overlaps(a, b):
-    return max(a[0], b[0]) < min(a[2], b[2]) and max(a[1], b[1]) < min(a[3], b[3])
-
-for branch in branches.values():
-    assert valid_box(branch['lane_bbox_px'], branch['tree'])
-    assert branch['heading_visually_verified'] and branch['dedicated_stem_visually_verified']
-    assert not branch['cross_branch_paper_connectors']
-    for other in branches.values():
-        if branch['tree'] == other['tree'] and branch['id'] != other['id']:
-            assert not overlaps(branch['lane_bbox_px'], other['lane_bbox_px']), 'Overlapping branch lanes'
-
-for node in taxonomy['nodes']:
-    expected = expected_nodes[tuple(node['keys'])]
-    assert all(node[key] == expected[key] for key in expected), 'Node differs from manifest'
-    assert node['references'] == ','.join(str(order.index(key) + 1) for key in node['keys'])
-    branch = branches[node['branch_id']]
-    assert (node['tree'], node['branch']) == (branch['tree'], branch['title']), 'Wrong topic branch'
-    x0, y0, x1, y1 = node['tag_bbox_px']
-    bx0, by0, bx1, by1 = branch['lane_bbox_px']
-    assert valid_box(node['tag_bbox_px'], node['tree'])
-    assert bx0 <= x0 < x1 <= bx1 and by0 <= y0 < y1 <= by1, 'Paper tag outside its branch lane'
-    assert node['y_center_px'] == (y0 + y1) / 2 and node['uncertainty_px'] >= 0
-    assert node['label_and_membership_visually_verified']
-    if 'reference_ocr' in node:
-        token = node['reference_ocr']
-        assert x0 <= token['left_px'] <= x1 and y0 <= token['top_px'] <= y1, 'OCR token outside tag'
-
-for newer in taxonomy['nodes']:
-    for older in taxonomy['nodes']:
-        if newer['branch_id'] != older['branch_id']:
-            continue
-        if newer['keys'] != older['keys']:
-            assert not overlaps(newer['tag_bbox_px'], older['tag_bbox_px']), 'Overlapping paper tags'
-        if newer['year'] > older['year']:
-            assert (newer['y_center_px'] + newer['uncertainty_px'] <
-                    older['y_center_px'] - older['uncertainty_px']), 'Chronological inversion within branch'
-map_pages = {tree: [] for tree in map_sources}
-for page in pdf:
-    for item in page.get_images():
-        for tree, source in map_sources.items():
-            if (item[2], item[3]) == (source.width, source.height):
-                rendered = fitz.Pixmap(pdf, item[0])
-                if rendered.samples == source.samples:
-                    assert page.rect.width > page.rect.height, 'Research map needs a landscape page'
-                    map_pages[tree].append(page.number + 1)
-assert all(len(pages) == 1 for pages in map_pages.values()), 'Each research map must appear once with unchanged pixels'
+    title = re.sub(r'\s+', '', item['title'])
+    pages = [page for page in pdf if page.rect.width > page.rect.height
+             and title in re.sub(r'\s+', '', page.get_text())]
+    assert len(pages) == 1, 'Each research map must appear on one landscape page'
+    page = pages[0]
+    embedded_text = re.sub(r'\s+', '', page.get_text())
+    for block in source.get_text('blocks'):
+        if block[6] == 0:
+            assert re.sub(r'\s+', '', block[4]) in embedded_text, 'Missing source figure text'
+    assert len(page.get_drawings()) >= item['vector_paths'], 'Missing vector artwork'
+    assert not page.get_images(), 'Research map page was rasterized'
+    map_pages[item['tree']] = [page.number + 1]
+    source_pdf.close()
 assert map_pages['left'] != map_pages['right'], 'Research maps need separate pages'
 
 chart_pages = [page for page in pdf
@@ -138,12 +121,12 @@ report = {
     'cited_references': len(order),
     'preprint_version_notes': len(notes),
     'research_maps': {'pages': map_pages, 'nodes': 49, 'references': len(order),
-                     'images': [{'file': item['file'], 'size_px': item['size_px'], 'nodes': item['nodes']}
-                                for item in maps_review['images']],
+                     'pdf_sources': maps_review['figures'],
                      'branches': len(branches),
-                     'taxonomy': 'PASS: every node is inside its assigned branch lane',
-                     'branch_chronology': 'PASS: zero cross-year inversions within branches',
-                     'visual_audit': maps_review['taxonomy_audit']},
+                     'source_content': 'PASS: PDF source hashes, text, vector paths, paper years and references',
+                     'branch_chronology': 'PASS: reference labels place newer papers higher within each branch',
+                     'source_observations': maps_review['source_observations'],
+                     'provenance': 'figures/reviews/author_research_maps.json'},
     'rendered_document': {'file': 'build/main.pdf', 'pages': len(pdf),
                           'chart_pages': [page.number + 1 for page in chart_pages]},
     'checks': 'PASS: citation order, original figure assets, PDF text, charts, portraits and TeX/Biber logs',
