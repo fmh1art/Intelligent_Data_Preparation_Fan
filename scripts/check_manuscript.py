@@ -53,7 +53,7 @@ for portrait in portraits:
         errors.append(f'missing author portrait: {portrait}')
 if r'\input{author_bios.tex}' not in re.sub(r'%[^\n]*', '', main):
     errors.append('author biographies are not included')
-for required in ['人工智能辅助数据准备', '面向人工智能的数据准备', '具身数据准备',
+for required in ['基于人工智能的数据准备', '面向人工智能的数据准备', '具身数据准备',
                  'AI for Data Prep，简称AI4DP', 'Data Prep for AI，简称DP4AI']:
     if required not in body:
         errors.append(f'missing requested topic: {required}')

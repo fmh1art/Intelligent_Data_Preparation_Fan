@@ -1,13 +1,13 @@
 {
-  "revised_body_chinese_characters": 8157,
+  "revised_body_chinese_characters": 8161,
   "sections": [
     {
       "title": "引言",
-      "chinese_characters": 767
+      "chinese_characters": 769
     },
     {
-      "title": "人工智能辅助数据准备",
-      "chinese_characters": 2442
+      "title": "基于人工智能的数据准备",
+      "chinese_characters": 2444
     },
     {
       "title": "面向人工智能的数据准备",

@@ -6,7 +6,7 @@
 数据库领域长期积累的索引、完整性约束、查询优化和人机协作方法，为解决这些问题提供了基础。\cite{demystify,dm4ml,quality}
 
 数据准备与人工智能之间存在相互支撑的关系。
-一方面，人工智能方法可以辅助解释数据含义、判断跨源对应关系和生成处理程序，这一方向称为人工智能辅助数据准备（AI for Data Prep，简称AI4DP）。
+一方面，人工智能方法可以辅助解释数据含义、判断跨源对应关系和生成处理程序，这一方向称为基于人工智能的数据准备（AI for Data Prep，简称AI4DP）。
 另一方面，人工智能模型的训练、推理与交互学习依赖经过选择、清洗、标注与组织的数据，这一方向称为面向人工智能的数据准备（Data Prep for AI，简称DP4AI）。
 前者以准备任务的质量和成本为主要目标，后者考察准备好的数据能否改善模型训练、推理及交互表现。
 同一个系统可以兼具两种作用，但两类问题的评价对象并不相同。\cite{empower,llmdata}
@@ -25,7 +25,7 @@ DP4AI部分围绕语言模型的预训练、微调和推理说明数据选择及
 \begin{figure}[p]
 \centering
 \includegraphics[width=\linewidth]{figures/ai4dp.pdf}
-\caption{人工智能辅助数据准备（AI4DP）的研究脉络。各主枝按主题划分，枝内文献自下向上按年份排列。灰色分支汇集相关综述及共同的数据质量与治理基础。}
+\caption{基于人工智能的数据准备（AI4DP）的研究脉络。各主枝按主题划分，枝内文献自下向上按年份排列。灰色分支汇集相关综述及共同的数据质量与治理基础。}
 \label{fig:research-trees}
 \vspace{6mm}
 \includegraphics[width=\linewidth]{figures/dp4ai.pdf}
@@ -34,14 +34,14 @@ DP4AI部分围绕语言模型的预训练、微调和推理说明数据选择及
 \end{figure}
 \clearpage
 
-\section{人工智能辅助数据准备}
+\section{基于人工智能的数据准备}
 
 AI4DP研究如何将任务需求和数据内容转化为可执行的准备操作。
 语言模型有助于处理难以直接写成规则的语义问题，数据系统负责检索、计算和约束检查。
 二者的分工取决于任务中的语义歧义、数据规模和可用约束。
 图\ref{fig:lm4dp}展示了语言模型相关样本文献在数据发现、查询、融合和清洗四类任务上的分布。
 
-\articlefigure{original_lm4dp}{人工智能辅助数据准备的研究分布（语言模型相关文献）}{fig:lm4dp}
+\articlefigure{original_lm4dp}{基于人工智能的数据准备的研究分布（语言模型相关文献）}{fig:lm4dp}
 
 \subsection{数据发现与语义理解}
 
