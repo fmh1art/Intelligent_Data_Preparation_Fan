@@ -62,6 +62,11 @@ for item in maps_review['figures']:
     source_pdf = fitz.open(source_file)
     assert len(source_pdf) == 1, 'Research map source must be a single page'
     source = source_pdf[0]
+    source_text = re.sub(r'\s+', '', source.get_text())
+    assert item['title'] in source_text, 'Wrong direction title in source figure'
+    assert len(item['branch_titles_zh']) == 6
+    for heading in item['branch_titles_zh']:
+        assert heading in source_text, 'Missing Chinese branch title: ' + heading
     assert item['size_pt'] == [source.rect.width, source.rect.height]
     assert len(source.get_drawings()) == item['vector_paths'] > 0
     assert not source.get_images(), 'Expected vector artwork, not a raster image'
@@ -101,7 +106,9 @@ for item in maps_review['figures']:
     assert len(page.get_drawings()) >= item['vector_paths'], 'Missing vector artwork'
     assert not page.get_images(), 'Research map page was rasterized'
     map_pages[item['tree']] = [page.number + 1]
-    map_title_positions[item['tree']] = page.search_for(item['title'])[0].y0
+    title_positions = page.search_for(item['title'])
+    assert title_positions, 'Missing figure title position'
+    map_title_positions[item['tree']] = min(rect.y0 for rect in title_positions)
     source_pdf.close()
 assert map_pages['left'] == map_pages['right'], 'Research maps must share one portrait page'
 assert map_title_positions['left'] < map_title_positions['right'], 'AI for Data Prep must be above Data Prep for AI'
@@ -131,7 +138,7 @@ report = {
                      'layout': 'Two figures stacked on one unrotated portrait page',
                      'pdf_sources': maps_review['figures'],
                      'branches': len(branches),
-                     'source_content': 'PASS: PDF source hashes, text, vector paths, paper years and references',
+                     'source_content': 'PASS: PDF source hashes, Chinese direction/branch titles, text, vector paths, paper years and references',
                      'branch_chronology': 'PASS: reference labels place newer papers higher within each branch',
                      'source_observations': maps_review['source_observations'],
                      'provenance': 'figures/reviews/author_research_maps.json'},

@@ -1,37 +1,59 @@
 {
   "date": "2026-09-11",
-  "source": "Author-provided PDF figures, embedded without editing or rasterization",
+  "source": "Author-updated PDFs with Chinese direction and branch titles; embedded without editing or rasterization",
   "manifest": "figures/two_research_trees_manifest.json",
   "figures": [
     {
       "tree": "left",
       "file": "figures/ai4dp.pdf",
-      "title": "AI for Data Prep",
-      "sha256": "c8256f8329aee083778964915b7739327e3c4081d6b97bce3ec859bc1dbd5d6b",
+      "title": "基于人工智能的数据准备",
+      "sha256": "1f29342bc5afe9043334f8ad1adb72e3b339808fc6fde539e8cf7a0175015d55",
       "size_pt": [
-        616.0,
-        349.0
+        625.0,
+        345.0
       ],
       "nodes": 29,
-      "vector_paths": 97
+      "vector_paths": 97,
+      "english_title": "AI for Data Prep",
+      "branch_titles_zh": [
+        "数据发现与语义理解",
+        "数据查询与结构转换",
+        "数据融合与实体匹配",
+        "数据清洗与错误修复",
+        "准备流程与评测",
+        "共同基础与研究综述"
+      ]
     },
     {
       "tree": "right",
       "file": "figures/dp4ai.pdf",
-      "title": "Data Prep for AI",
-      "sha256": "91ca9adb3a23ac77fe45520fbaa8a8dd98b93b8adc8eef16706f21bdd4435e05",
+      "title": "面向人工智能的数据准备",
+      "sha256": "1c3e84d2c71869f9a77c447a894c36bff28094b6b2146adfe9a0b0e13f249a5d",
       "size_pt": [
-        616.0,
-        350.0
+        607.0,
+        343.0
       ],
       "nodes": 20,
-      "vector_paths": 70
+      "vector_paths": 70,
+      "english_title": "Data Prep for AI",
+      "branch_titles_zh": [
+        "预训练语料准备",
+        "数据选择与合成",
+        "推理上下文组织",
+        "数据准备系统",
+        "具身数据准备",
+        "研究综述与展望"
+      ]
     }
   ],
   "previous_figures": "figures/reviews/flat_research_trees.json",
   "source_observations": [
-    "dp4ai.pdf: RoboMIND 2.0 and DROID label borders overlap text in the supplied source.",
-    "dp4ai.pdf: the supplied label reads \"Model collaps\"; the canonical literature manifest retains \"Model collapse\"."
+    "ai4dp.pdf: the source label is \"NALIR\"; the method name used in the manuscript is \"NaLIR\".",
+    "ai4dp.pdf: the FM data wrangling label still crosses its box border.",
+    "dp4ai.pdf: the source label remains \"Model collaps\"; the correct label is \"Model collapse\"."
   ],
-  "validation_scope": "Source hashes, vector paths and extractable text, paper years and reference numbers, branch chronology from reference label positions, and placement in the compiled survey. Source artwork is preserved, including the noted label issues."
+  "validation_scope": "Source hashes, Chinese direction and branch titles, vector paths and extractable text, paper years and reference numbers, branch chronology, and placement on one unrotated portrait page. The noted source label issues are preserved, not treated as corrected.",
+  "resolved_source_observations": [
+    "The updated dp4ai.pdf separates the RoboMIND 2.0 and DROID labels from their borders."
+  ]
 }
