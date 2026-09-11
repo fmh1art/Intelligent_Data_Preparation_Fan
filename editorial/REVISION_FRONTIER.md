@@ -33,10 +33,10 @@
 
 ## 总览图、原图及交付
 
-引言后以两张英文分枝图分别呈现AI for Data Prep与Data Prep for AI，当前直接采用作者绘制的`ai4dp.pdf`与`dp4ai.pdf`，分别置于第2、3页的横向页面，保留矢量文字与线条。每张图各有六条主枝，枝内按书目年份自下向上排列；共同基础与综述归入第一张图的灰色分支，具身数据为第二张图的橙色分支。两图共49个节点，覆盖50项引用；分类清单见[节点清单](../figures/two_research_trees_manifest.json)，当前源图的哈希与检查范围见[PDF来源记录](../figures/reviews/author_research_maps.json)。此前生成的PNG和审校记录保留作历史资料。图注仅说明主题、年代顺序和必要图例，不包含制作过程。
+引言后以两张英文分枝图分别呈现AI for Data Prep与Data Prep for AI，当前直接采用作者绘制的`ai4dp.pdf`与`dp4ai.pdf`，在第2页的同一竖向页面上下排列，保留矢量文字与线条。每张图各有六条主枝，枝内按书目年份自下向上排列；共同基础与综述归入第一张图的灰色分支，具身数据为第二张图的橙色分支。两图共49个节点，覆盖50项引用；分类清单见[节点清单](../figures/two_research_trees_manifest.json)，当前源图的哈希与检查范围见[PDF来源记录](../figures/reviews/author_research_maps.json)。此前生成的PNG和审校记录保留作历史资料。图注仅说明主题、年代顺序和必要图例，不包含制作过程。
 
 两幅正文图全部沿用，以原生图表直接导出的矢量PDF嵌入LaTeX，并等比适配版心。原图的数据、类别和配色保持原样，不需要作者重新绘制。独立PDF与PNG见[原图说明](../figures/README.md)。
 
 作者署名、两张照片及约150字简介沿用远端已确定的作者信息；署名顺序为范梅浩、范举。两份上传Word及此前生成的Word文件均不在本轮修改或提交范围。上一轮书目保存于[previous_8k/references.bib](previous_8k/references.bib)，完整旧稿可从Git提交`ddeaa78`查阅。原检索台账作为历史记录保留，不套用于本轮50项书目。
 
-交付为当前目录的完整LaTeX工程和[编译稿PDF](../output/survey.pdf)，编译稿共14页。Overleaf主文件为`main.tex`，编译器为XeLaTeX；原图、作者照片和参考文献均随工程保存。校验结果见[VALIDATION.md](VALIDATION.md)。
+交付为当前目录的完整LaTeX工程和[编译稿PDF](../output/survey.pdf)，编译稿共13页。Overleaf主文件为`main.tex`，编译器为XeLaTeX；原图、作者照片和参考文献均随工程保存。校验结果见[VALIDATION.md](VALIDATION.md)。

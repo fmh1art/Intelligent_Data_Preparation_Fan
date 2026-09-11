@@ -34,11 +34,12 @@
         2
       ],
       "right": [
-        3
+        2
       ]
     },
     "nodes": 49,
     "references": 50,
+    "layout": "Two figures stacked on one unrotated portrait page",
     "pdf_sources": [
       {
         "tree": "left",
@@ -76,10 +77,10 @@
   },
   "rendered_document": {
     "file": "build/main.pdf",
-    "pages": 14,
+    "pages": 13,
     "chart_pages": [
-      4,
-      6
+      3,
+      5
     ]
   },
   "checks": "PASS: citation order, original figure assets, PDF text, charts, portraits and TeX/Biber logs"

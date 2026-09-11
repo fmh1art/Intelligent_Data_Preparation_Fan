@@ -30,6 +30,8 @@ alltext = ''.join(page.get_text() for page in pdf)
 normalized = re.sub(r'\s+', '', alltext)
 assert '\ufffd' not in alltext, 'Replacement character in PDF'
 assert all(len(page.get_text().strip()) > 30 for page in pdf), 'Empty page'
+assert all(page.rotation == 0 and page.rect.width < page.rect.height for page in pdf), \
+    'All manuscript pages must be unrotated portrait pages'
 for required in ['RoboMIND', 'FineWeb2', 'AgiBot', '52.83', '66.09', '参考文献', '作者简介']:
     assert required in normalized, 'Missing PDF content: ' + required
 notes = re.findall(r'\bnote\s*=\s*\{([^}]+)\}', bib)
@@ -46,6 +48,7 @@ assert sorted(order.index(key) + 1 for node in manifest['nodes']
 assert {item['tree'] for item in maps_review['figures']} == {'left', 'right'}
 assert len(maps_review['figures']) == 2
 map_pages = {}
+map_title_positions = {}
 branches = {(node['tree'], node['branch']) for node in manifest['nodes']}
 assert len(branches) == 12
 
@@ -87,9 +90,9 @@ for item in maps_review['figures']:
                     'Chronological inversion within branch'
 
     title = re.sub(r'\s+', '', item['title'])
-    pages = [page for page in pdf if page.rect.width > page.rect.height
-             and title in re.sub(r'\s+', '', page.get_text())]
-    assert len(pages) == 1, 'Each research map must appear on one landscape page'
+    pages = [page for page in pdf
+             if any(title == re.sub(r'\s+', '', line) for line in page.get_text().splitlines())]
+    assert len(pages) == 1, 'Each research map must appear once'
     page = pages[0]
     embedded_text = re.sub(r'\s+', '', page.get_text())
     for block in source.get_text('blocks'):
@@ -98,8 +101,12 @@ for item in maps_review['figures']:
     assert len(page.get_drawings()) >= item['vector_paths'], 'Missing vector artwork'
     assert not page.get_images(), 'Research map page was rasterized'
     map_pages[item['tree']] = [page.number + 1]
+    map_title_positions[item['tree']] = page.search_for(item['title'])[0].y0
     source_pdf.close()
-assert map_pages['left'] != map_pages['right'], 'Research maps need separate pages'
+assert map_pages['left'] == map_pages['right'], 'Research maps must share one portrait page'
+assert map_title_positions['left'] < map_title_positions['right'], 'AI for Data Prep must be above Data Prep for AI'
+assert len(pdf[map_pages['left'][0] - 1].get_drawings()) >= sum(
+    item['vector_paths'] for item in maps_review['figures']), 'Missing vector paths on the shared figure page'
 
 chart_pages = [page for page in pdf
                if '国外学者' in page.get_text() and '国内学者' in page.get_text()]
@@ -121,6 +128,7 @@ report = {
     'cited_references': len(order),
     'preprint_version_notes': len(notes),
     'research_maps': {'pages': map_pages, 'nodes': 49, 'references': len(order),
+                     'layout': 'Two figures stacked on one unrotated portrait page',
                      'pdf_sources': maps_review['figures'],
                      'branches': len(branches),
                      'source_content': 'PASS: PDF source hashes, text, vector paths, paper years and references',

@@ -60,7 +60,7 @@ if not 7500 <= len(re.findall('[\u4e00-\u9fff]', body)) <= 8500:
     errors.append('manuscript outside approximately 8000 Chinese characters')
 report = {
     'references': len(keys), 'cited_references': len(citations),
-    'figures': len(figures) + body.count('\\begin{figure}'),
+    'figures': len(figures) + len(re.findall(r'\\caption(?:\[[^]]*\])?\{', body)),
     'tree_nodes': len(tree_manifest['nodes']), 'tree_references': len(tree_keys),
     'tables': body.count('\\begin{table}'),
     'author_portraits': len(portraits),
