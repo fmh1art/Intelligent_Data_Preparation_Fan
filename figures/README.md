@@ -12,6 +12,7 @@
 两图共49个节点，对应正文全部50项引用，[44,45]合并为同一资源节点。源文件分别为616×349和616×350 pt，在同一竖向页面按版心宽度等比上下排列，不栅格化、不修改原文件。RoboMIND 2.0标签保留书目年份2025及预印本标记，版本链接保留在书目中。
 
 - [当前PDF的哈希与来源记录](reviews/author_research_maps.json)
+- [方向名称与分支的中文映射](TERMINOLOGY_ZH.md)
 - [文献分类清单](two_research_trees_manifest.json)
 - [编译与内容检查](../editorial/frontier_sources/validation.json)
 

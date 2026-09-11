@@ -53,9 +53,13 @@ for portrait in portraits:
         errors.append(f'missing author portrait: {portrait}')
 if r'\input{author_bios.tex}' not in re.sub(r'%[^\n]*', '', main):
     errors.append('author biographies are not included')
-for required in ['基于语言模型的数据准备', '面向语言模型的数据准备', '具身智能中的数据准备']:
+for required in ['人工智能辅助数据准备', '面向人工智能的数据准备', '具身数据准备',
+                 'AI for Data Prep，简称AI4DP', 'Data Prep for AI，简称DP4AI']:
     if required not in body:
         errors.append(f'missing requested topic: {required}')
+for retired in ['LM4DP', 'DP4LM']:
+    if retired in body:
+        errors.append(f'inconsistent direction abbreviation: {retired}')
 if not 7500 <= len(re.findall('[\u4e00-\u9fff]', body)) <= 8500:
     errors.append('manuscript outside approximately 8000 Chinese characters')
 report = {
