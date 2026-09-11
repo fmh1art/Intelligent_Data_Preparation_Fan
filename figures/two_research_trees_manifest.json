@@ -1,7 +1,7 @@
 {
   "scope": "All 50 references in the current survey, represented by 49 nodes; the dataset card and release notice describe one resource.",
-  "classification": "Each named branch compartment contains one primary subfield; every paper is placed in exactly one compartment. Five task branches and one survey branch per direction, plus one shared foundations and quality branch. Connectors express topical membership, not citation, inheritance or causal dependence.",
-  "date_rule": "Years follow references.bib; RoboMIND 2.0 additionally displays the reviewed 2026 revision.",
+  "classification": "Two separate directional maps. Each continuous colored stem contains one topical branch. Foundations and cross-cutting quality research are grouped with surveys in the gray branch of the first map and provide context for both directions. Connectors denote thematic membership, not citations or direct inheritance.",
+  "date_rule": "Years follow references.bib. Versioned arXiv URLs are recorded in the bibliography; figure tags show the primary bibliography year only.",
   "nodes": [
     {
       "tree": "left",
@@ -258,7 +258,7 @@
     },
     {
       "tree": "left",
-      "branch": "Surveys & perspectives",
+      "branch": "Foundations & surveys",
       "keys": [
         "demystify"
       ],
@@ -269,7 +269,7 @@
     },
     {
       "tree": "left",
-      "branch": "Surveys & perspectives",
+      "branch": "Foundations & surveys",
       "keys": [
         "empower"
       ],
@@ -460,7 +460,7 @@
       "keys": [
         "robomind2"
       ],
-      "label": "RoboMIND 2.0 (2025; rev. 2026)* [46]",
+      "label": "RoboMIND 2.0 (2025)* [46]",
       "year": 2025,
       "preprint_version": true,
       "resource": false
@@ -500,8 +500,8 @@
       "resource": false
     },
     {
-      "tree": "shared",
-      "branch": "Shared foundations & quality",
+      "tree": "left",
+      "branch": "Foundations & surveys",
       "keys": [
         "quality"
       ],
@@ -511,8 +511,8 @@
       "resource": false
     },
     {
-      "tree": "shared",
-      "branch": "Shared foundations & quality",
+      "tree": "left",
+      "branch": "Foundations & surveys",
       "keys": [
         "fair"
       ],
@@ -522,8 +522,8 @@
       "resource": false
     },
     {
-      "tree": "shared",
-      "branch": "Shared foundations & quality",
+      "tree": "left",
+      "branch": "Foundations & surveys",
       "keys": [
         "datasheets"
       ],
@@ -533,8 +533,8 @@
       "resource": false
     },
     {
-      "tree": "shared",
-      "branch": "Shared foundations & quality",
+      "tree": "left",
+      "branch": "Foundations & surveys",
       "keys": [
         "zh_quality"
       ],
@@ -544,5 +544,5 @@
       "resource": false
     }
   ],
-  "chronology": "Within each named branch compartment, newer primary bibliography years appear above older years. Same-year nodes may be staggered. The positions of different compartments and the shared conceptual roots do not form a global time axis; vertical spacing is not proportional to elapsed time."
+  "chronology": "Within each branch, primary bibliography year increases upward. Equal-year nodes may be staggered. Heights in different branches are not a common time scale."
 }

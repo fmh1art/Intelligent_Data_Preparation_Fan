@@ -1,0 +1,52 @@
+{
+  "tool": "built-in image_gen.imagegen",
+  "mode": "Two new directional figures using the user-provided flat fan-tree image as style reference",
+  "date": "2026-09-11",
+  "manifest": "figures/two_research_trees_manifest.json",
+  "images": [
+    {
+      "tree": "left",
+      "file": "figures/fig01_ai_for_data_prep_flat.png",
+      "prompt": "figures/prompts/fig01_ai_for_data_prep_flat.md",
+      "source_file": "/home/fanmeihao/.codex/generated_images/01a088e8-7ea1-7270-9f6e-597a9feab716/exec-c5eedb5c-fc42-4e6d-aeac-25ba07b5441b.png",
+      "sha256": "8e547c89c997868328582f7a7c25f04498ad65f197b034da40f4e099ffcec493",
+      "size_px": [
+        1774,
+        887
+      ],
+      "mode_pixels": "RGB",
+      "nodes": 29
+    },
+    {
+      "tree": "right",
+      "file": "figures/fig02_data_prep_for_ai_flat.png",
+      "prompt": "figures/prompts/fig02_data_prep_for_ai_flat.md",
+      "source_file": "/home/fanmeihao/.codex/generated_images/01a088e8-7ea1-7270-9f6e-597a9feab716/exec-e69704b3-71c8-4fe1-bbbc-0114b25e4cbc.png",
+      "sha256": "e307bf5c0a0cb5e3fedd84a08a7498887fd84028e722be27b2d1ccb8044c0dee",
+      "size_px": [
+        1774,
+        887
+      ],
+      "mode_pixels": "RGB",
+      "nodes": 20
+    }
+  ],
+  "style_reference": {
+    "local_file": "image.png",
+    "sha256": "cb96b70977b073d95132f64420fae9f1226e9a64e2240adace4b67d5ac12418e",
+    "role": "Style only; reference labels, slide number and watermark not reproduced. Not needed for LaTeX compilation."
+  },
+  "generations": 2,
+  "targeted_edits": 0,
+  "postprocessing": "None. Both original tool outputs copied byte-for-byte; no programmatic retouching or upsampling.",
+  "taxonomy_audit": "figures/reviews/flat_research_trees_audit.json",
+  "figure_pages": [
+    2,
+    3
+  ],
+  "style": "Flat colored curves, circular tips, exclusive branch lanes, short outlined paper tags; no enclosing topic cards or foliage.",
+  "reading_rule": "Ascending bibliography years from bottom to top within each branch; heights across branches are not comparable.",
+  "native_resolution_note": "Each image is 1774 x 887 pixels. Placed at 253 mm width on a landscape page, about 178 ppi.",
+  "previous_figures": "figures/reviews/fig00_two_research_trees.json",
+  "content_changes": "Shared foundations grouped with surveys on the gray branch of the first map. RoboMIND displays its primary 2025 year; the bibliography preserves the versioned source."
+}

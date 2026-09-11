@@ -1,22 +1,27 @@
 # 当前论文插图
 
-## 图1：双树研究总览
+## 图1、图2：两条研究主线的分枝图
 
-[最终英文图](fig00_two_research_trees_v4.png)放置于引言后，第2页。两棵树各设五个任务分支和一个综述分支；每一枝都有独立标题及清楚的区域边界，同一子方向的论文集中放在该区域内。右树以铜色突出具身数据准备，共同的数据质量与治理基础单独置于根部。
+按用户提供的曲线分枝图样式绘制，采用白底、六色平面主枝、圆点末端和短论文标签。每条主枝只连接一个子方向的文献，枝内按书目年份由下向上排列；不同主枝的高度不构成统一时间轴。
 
-每个分支内部按书目年份由下向上排列，较新的工作较高；不同分支区域之间不共用时间轴，时间间距不按比例。图中49个节点覆盖当前全部50项引用，其中[44,45]对应同一个数据资源。连线表示主题归属，不表示论文间的直接继承关系。
+| 图 | 文件 | 页码 | 分支与节点 |
+|---|---|---:|---|
+| AI for Data Prep | [PNG](fig01_ai_for_data_prep_flat.png) | 2（横向） | 六条主枝，29个节点；灰色分支汇集共同基础与综述 |
+| Data Prep for AI | [PNG](fig02_data_prep_for_ai_flat.png) | 3（横向） | 六条主枝，20个节点；橙色分支为具身数据准备 |
 
-- [初始精细PROMPT](prompts/fig00_two_research_trees.md)
-- [长标签换行与字号修订PROMPT](prompts/fig00_two_research_trees_edit.md)
-- [本次分类分支与枝内时间排序PROMPT](prompts/fig00_two_research_trees_taxonomy.md)
-- 历史版本：[全局时间布局PROMPT](prompts/fig00_two_research_trees_chronogram.md)、[背景整理PROMPT](prompts/fig00_two_research_trees_chronogram_finish.md)与[文字校正PROMPT](prompts/fig00_two_research_trees_chronogram_labels.md)
-- [全部节点与书目映射](two_research_trees_manifest.json)
-- [分支区域、节点坐标与枝内年份审校](reviews/fig00_two_research_trees_taxonomy.json)
-- [生成和检查说明](reviews/fig00_two_research_trees.md)
+两图共49个节点，对应正文全部50项引用，[44,45]合并为同一资源节点。两图分开排版，使论文标签在约253毫米图宽下保持可读性。RoboMIND 2.0标签只保留书目年份2025及预印本标记，版本链接保留在书目中。
 
-采用内置image_gen，以v3为风格参考重构分支，一次生成后逐项审校。最终PNG保留工具原始输出，实际尺寸1086×1448像素。[初稿](fig00_two_research_trees.png)、[v2](fig00_two_research_trees_v2.png)与[上一版v3](fig00_two_research_trees_v3.png)随工程保留便于复核，论文只引用v4。v3的全局年份排列不能清楚呈现分支归属，本版采用分类分区与枝内排序；旧版[全局年代审校](reviews/fig00_two_research_trees_chronology.json)仅对应v3。
+- [AI for Data Prep 精细PROMPT](prompts/fig01_ai_for_data_prep_flat.md)
+- [Data Prep for AI 精细PROMPT](prompts/fig02_data_prep_for_ai_flat.md)
+- [文献分类清单](two_research_trees_manifest.json)
+- [两图的节点位置、归属与年代审校](reviews/flat_research_trees_audit.json)
+- [生成与检查说明](reviews/flat_research_trees.md)
 
-## 图2、图3：上传原稿的两幅正文图
+两图分别由内置image_gen生成，一次生成后采用，工具原生输出均为1774×887像素、不透明RGB，未作代码修图或插值放大。原始路径与哈希见[生成记录](reviews/flat_research_trees.json)。风格参考为用户上传的image.png，仅作为生成参考，编译不依赖该文件；参考图内的论文、页码和标识未复用。
+
+此前的[双树v4](fig00_two_research_trees_v4.png)及[审校说明](reviews/fig00_two_research_trees.md)作为历史版本保留，当前论文引用以上两张新图。
+
+## 图3、图4：上传文档的两幅统计图
 
 本轮全部复用用户上传DOCX中的两幅原生统计图，不需要重新绘制。矢量PDF由原图直接渲染、裁去页边空白后嵌入LaTeX，PNG供独立预览或插入演示文稿。
 

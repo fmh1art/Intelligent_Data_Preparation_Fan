@@ -1,21 +1,21 @@
 # 数据准备与语言模型的交叉前沿
 
-本项目为可直接在 Overleaf 编译的中文综述。以用户上传的《04 数据准备与语言模型交叉技术的研究进展与发展趋势 - 编辑提问回答.docx》为底稿，将正文凝练至8109个汉字，平衡“语言模型用于数据准备”（LM4DP）和“面向语言模型的数据准备”（DP4LM），补充具身智能数据准备及近期研究。
+本项目为可直接在 Overleaf 编译的中文综述。以用户上传的《04 数据准备与语言模型交叉技术的研究进展与发展趋势 - 编辑提问回答.docx》为底稿，将正文凝练至8162个汉字，平衡“语言模型用于数据准备”（LM4DP）和“面向语言模型的数据准备”（DP4LM），补充具身智能数据准备及近期研究。
 
 - [LaTeX 编译稿 PDF](output/survey.pdf)
 - [主文件](main.tex)、[正文](manuscript.tex)、[参考文献](references.bib)
-- [双树总览图与两幅原图](figures/README.md)
-- [双树图分类分支 PROMPT](figures/prompts/fig00_two_research_trees_taxonomy.md)、[分支与年份审校](figures/reviews/fig00_two_research_trees_taxonomy.json)
+- [两张研究脉络图与两幅原图](figures/README.md)
+- [AI for Data Prep PROMPT](figures/prompts/fig01_ai_for_data_prep_flat.md)、[Data Prep for AI PROMPT](figures/prompts/fig02_data_prep_for_ai_flat.md)、[分类与年代审校](figures/reviews/flat_research_trees_audit.json)
 - [投稿文字清理记录](editorial/SUBMISSION_POLISH.md)
 - [修订说明](editorial/REVISION_FRONTIER.md)、[文献证据](editorial/FRONTIER_EVIDENCE.md)、[编译检查](editorial/VALIDATION.md)
 
 两条主线分别为2422字和2480字，具身部分1439字，涵盖跨机器人数据融合、时空对齐、分层标注、失败轨迹、仿真与评测。正文计数包含章节标题和图注，不含参考文献、作者简介、图内文字、标点及英文单词。无摘要、关键词、公式及技术表格，文末沿用范梅浩、范举的照片和简介。
 
-引言后新增一张英文双树总览图，以子领域为分支、论文简称和年份为节点，覆盖本文全部50项引用，共49个节点；AgiBot World 2026的数据卡与发布说明合并展示。每棵树设五个任务分支和一个综述分支，一枝对应一个有明确边界的子方向区域，论文集中放在所属分支内。每个分支内部自下而上按年份递进，较新的工作较高；不同分支区域之间不共用时间轴。共同的数据质量与治理基础在根部单独分组，连线表示主题归属。原稿的两幅正文统计图以直接导出的矢量 PDF 嵌入，数量和类别保持原样，正文用于说明样本文献的任务分布，统计来源和背景保存在工程记录中。50项书目按 GB/T 7714—2015 顺序编码制著录，预印本用arXiv编号及版本标识著录。近期材料核验截至2026-09-10。本轮交付更新 LaTeX 工程，上传的 Word 文件保留在本地，不作修改。
+引言后以两张英文研究脉络图分别展示AI for Data Prep与Data Prep for AI，采用平面曲线主枝和短论文标签，各占一个横向页面。每张图有六条独立主枝，同类论文沿所属主枝排列，枝内较新的工作位置较高。第一张图的灰色分支汇集共同基础和综述，第二张图以橙色突出具身数据。两图共49个节点，覆盖全部50项引用；AgiBot World 2026的数据卡与发布说明合并展示。原稿的两幅正文统计图以直接导出的矢量 PDF 嵌入，数量和类别保持原样，正文用于说明样本文献的任务分布，统计来源和背景保存在工程记录中。50项书目按 GB/T 7714—2015 顺序编码制著录，预印本用arXiv编号及版本标识著录。近期材料核验截至2026-09-10。本轮交付更新 LaTeX 工程，上传的 Word 文件保留在本地，不作修改。
 
 ## Overleaf 与本地编译
 
-Overleaf 中选择 `main.tex` 为主文件、**XeLaTeX** 为编译器。工程使用 TeX Live 自带的 Fandol 字体、`ctex` 和 `biblatex-gb7714-2015`，Biber 由 latexmk 自动调用。所需插图及书目已包含在工程中，编译不依赖 Word、Office 或外部网络资源。
+Overleaf 中选择 `main.tex` 为主文件、**XeLaTeX** 为编译器。工程使用 TeX Live 自带的 Fandol 字体、`ctex`、`pdflscape` 和 `biblatex-gb7714-2015`，Biber 由 latexmk 自动调用。所需插图及书目已包含在工程中，编译不依赖 Word、Office 或外部网络资源。
 
 本地安装 XeLaTeX、Biber 和 latexmk 后运行：
 
@@ -26,7 +26,7 @@ python scripts/check_frontier_outputs.py
 cp build/main.pdf output/survey.pdf
 ```
 
-正文检查仅需 Python 3；PDF 检查另需 PyMuPDF，报告写入 `build/frontier_validation.json`。当前编译稿为13页。
+正文检查仅需 Python 3；PDF 检查另需 PyMuPDF，报告写入 `build/frontier_validation.json`。当前编译稿为14页。
 
 书目核验记录保存在 [frontier_sources](editorial/frontier_sources)。如需从这些记录重建书目，可运行 `python scripts/build_frontier_bibliography.py`，依赖 `bibtexparser`、`lxml` 和 `requests`；正常编译无需重建。`scripts/collect_frontier_sources.py` 用于重新访问论文数据库和发布方页面。
 

@@ -1,9 +1,9 @@
 {
-  "revised_body_chinese_characters": 8109,
+  "revised_body_chinese_characters": 8162,
   "sections": [
     {
       "title": "引言",
-      "chinese_characters": 684
+      "chinese_characters": 737
     },
     {
       "title": "基于语言模型的数据准备",
@@ -28,27 +28,46 @@
   ],
   "cited_references": 50,
   "preprint_version_notes": 6,
-  "research_tree": {
-    "pages": [
-      2
-    ],
+  "research_maps": {
+    "pages": {
+      "left": [
+        2
+      ],
+      "right": [
+        3
+      ]
+    },
     "nodes": 49,
     "references": 50,
-    "image_size_px": [
-      1086,
-      1448
+    "images": [
+      {
+        "file": "figures/fig01_ai_for_data_prep_flat.png",
+        "size_px": [
+          1774,
+          887
+        ],
+        "nodes": 29
+      },
+      {
+        "file": "figures/fig02_data_prep_for_ai_flat.png",
+        "size_px": [
+          1774,
+          887
+        ],
+        "nodes": 20
+      }
     ],
-    "topic_compartments": 13,
-    "taxonomy": "PASS: every node is inside its assigned subfield compartment",
+    "branches": 12,
+    "taxonomy": "PASS: every node is inside its assigned branch lane",
     "branch_chronology": "PASS: zero cross-year inversions within branches",
-    "visual_audit": "figures/reviews/fig00_two_research_trees_taxonomy.json"
+    "visual_audit": "figures/reviews/flat_research_trees_audit.json"
   },
   "rendered_document": {
     "file": "build/main.pdf",
-    "pages": 13,
+    "pages": 14,
     "chart_pages": [
-      3,
-      5
+      4,
+      6
     ]
   },
   "checks": "PASS: citation order, original figure assets, PDF text, charts, portraits and TeX/Biber logs"

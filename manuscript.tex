@@ -17,17 +17,26 @@ DP4LM部分围绕预训练、微调和推理说明数据选择及组织方法。
 随后讨论具身智能带来的新要求，将研究对象从文本和表格扩展到与语言指令关联的视觉、状态与动作轨迹。
 本文选取截至2026年9月发表或发布的代表性论文和数据资源，比较其数据对象、处理机制与评价目标，分析不同方法的适用条件及局限。
 
-图\ref{fig:research-trees}以双树结构概括AI for Data Prep与Data Prep for AI的研究分支及发展脉络。
+图\ref{fig:research-trees}和图\ref{fig:data-prep-for-ai}分别概括AI for Data Prep与Data Prep for AI的研究分支及发展脉络。
 前者围绕数据准备任务展开，后者覆盖训练、推理及具身交互中的数据需求；数据质量与治理研究构成两者的共同基础。
 各分支内的文献按年份由下向上排列，便于比较同一主题下研究问题与方法的演进。
 
 \clearpage
+\begin{landscape}
 \begin{figure}[p]
 \centering
-\includegraphics[width=\linewidth,height=0.86\textheight,keepaspectratio]{figures/fig00_two_research_trees_v4.png}
-\caption{数据准备与人工智能交叉研究总览。分支按研究主题划分，同一分支内的文献自下向上按年份排列。橙色分支表示具身数据准备，星号标示预印本。}
+\includegraphics[width=\linewidth,height=0.84\textwidth,keepaspectratio]{figures/fig01_ai_for_data_prep_flat.png}
+\caption{人工智能辅助数据准备的研究脉络。各主枝按主题划分，枝内文献自下向上按年份排列。灰色分支汇集相关综述及共同的数据质量与治理基础。}
 \label{fig:research-trees}
 \end{figure}
+\clearpage
+\begin{figure}[p]
+\centering
+\includegraphics[width=\linewidth,height=0.84\textwidth,keepaspectratio]{figures/fig02_data_prep_for_ai_flat.png}
+\caption{面向人工智能的数据准备研究脉络。各主枝按主题划分，枝内文献自下向上按年份排列。橙色分支表示具身数据准备，星号标示预印本。}
+\label{fig:data-prep-for-ai}
+\end{figure}
+\end{landscape}
 \clearpage
 
 \section{基于语言模型的数据准备}
